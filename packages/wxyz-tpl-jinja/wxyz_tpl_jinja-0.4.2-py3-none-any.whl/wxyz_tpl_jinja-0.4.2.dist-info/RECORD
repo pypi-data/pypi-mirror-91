@@ -1,0 +1,11 @@
+wxyz/tpl_jinja/__init__.py,sha256=-xSIhu9_Ohs4YKqeFYluj4YASAQ4YHZdjd0PT6zzft4,177
+wxyz/tpl_jinja/_version.py,sha256=43GyS0akcGjY9RePXqazCLVEtghgfWzf3KfH8AbDVEg,331
+wxyz/tpl_jinja/base.py,sha256=Ru79I4-hnX3ECSC2PvhsSw7ifw9lsYyaknZ17FqwRfY,538
+wxyz/tpl_jinja/widget_template.py,sha256=GbyU_KaYmSG2BrAUYvh8fZAM9yeFwgwA-kLKyzmvAMY,848
+wxyz/tpl_jinja/js/LICENSE.txt,sha256=eCLRDwnuKT4Cjf3-GQnzbErv3RI6VztYjoc5ASOpzUE,1502
+wxyz/tpl_jinja/js/package.json,sha256=hTOkv2DtOvJvyo7tCrntBkn1IKTWXnaIDAiwAqwSjzA,1270
+wxyz_tpl_jinja-0.4.2.dist-info/LICENSE.txt,sha256=eCLRDwnuKT4Cjf3-GQnzbErv3RI6VztYjoc5ASOpzUE,1502
+wxyz_tpl_jinja-0.4.2.dist-info/METADATA,sha256=2uENVwtUQhg65PwKU8SbIC5Ykij8ZNLe7iT0bFnksTk,6882
+wxyz_tpl_jinja-0.4.2.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+wxyz_tpl_jinja-0.4.2.dist-info/top_level.txt,sha256=L2IhezSAoU7rRMbA8WYT1_SIc5UXysQlIHtVbIvLWNs,5
+wxyz_tpl_jinja-0.4.2.dist-info/RECORD,,
