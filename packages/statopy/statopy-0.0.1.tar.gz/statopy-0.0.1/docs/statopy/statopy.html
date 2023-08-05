@@ -1,0 +1,1497 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1" />
+<meta name="generator" content="pdoc 0.9.2" />
+<title>statopy.statopy API documentation</title>
+<meta name="description" content="Online statistics
+Credit for scalar algorithms to John D. Cook:
+https://www.johndcook.com/blog/skewness_kurtosis/
+…" />
+<link rel="preload stylesheet" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/10up-sanitize.css/11.0.1/sanitize.min.css" integrity="sha256-PK9q560IAAa6WVRRh76LtCaI8pjTJ2z11v0miyNNjrs=" crossorigin>
+<link rel="preload stylesheet" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/10up-sanitize.css/11.0.1/typography.min.css" integrity="sha256-7l/o7C8jubJiy74VsKTidCy1yBkRtiUGbVkYBylBqUg=" crossorigin>
+<link rel="stylesheet preload" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/styles/github.min.css" crossorigin>
+<style>:root{--highlight-color:#fe9}.flex{display:flex !important}body{line-height:1.5em}#content{padding:20px}#sidebar{padding:30px;overflow:hidden}#sidebar > *:last-child{margin-bottom:2cm}.http-server-breadcrumbs{font-size:130%;margin:0 0 15px 0}#footer{font-size:.75em;padding:5px 30px;border-top:1px solid #ddd;text-align:right}#footer p{margin:0 0 0 1em;display:inline-block}#footer p:last-child{margin-right:30px}h1,h2,h3,h4,h5{font-weight:300}h1{font-size:2.5em;line-height:1.1em}h2{font-size:1.75em;margin:1em 0 .50em 0}h3{font-size:1.4em;margin:25px 0 10px 0}h4{margin:0;font-size:105%}h1:target,h2:target,h3:target,h4:target,h5:target,h6:target{background:var(--highlight-color);padding:.2em 0}a{color:#058;text-decoration:none;transition:color .3s ease-in-out}a:hover{color:#e82}.title code{font-weight:bold}h2[id^="header-"]{margin-top:2em}.ident{color:#900}pre code{background:#f8f8f8;font-size:.8em;line-height:1.4em}code{background:#f2f2f1;padding:1px 4px;overflow-wrap:break-word}h1 code{background:transparent}pre{background:#f8f8f8;border:0;border-top:1px solid #ccc;border-bottom:1px solid #ccc;margin:1em 0;padding:1ex}#http-server-module-list{display:flex;flex-flow:column}#http-server-module-list div{display:flex}#http-server-module-list dt{min-width:10%}#http-server-module-list p{margin-top:0}.toc ul,#index{list-style-type:none;margin:0;padding:0}#index code{background:transparent}#index h3{border-bottom:1px solid #ddd}#index ul{padding:0}#index h4{margin-top:.6em;font-weight:bold}@media (min-width:200ex){#index .two-column{column-count:2}}@media (min-width:300ex){#index .two-column{column-count:3}}dl{margin-bottom:2em}dl dl:last-child{margin-bottom:4em}dd{margin:0 0 1em 3em}#header-classes + dl > dd{margin-bottom:3em}dd dd{margin-left:2em}dd p{margin:10px 0}.name{background:#eee;font-weight:bold;font-size:.85em;padding:5px 10px;display:inline-block;min-width:40%}.name:hover{background:#e0e0e0}dt:target .name{background:var(--highlight-color)}.name > span:first-child{white-space:nowrap}.name.class > span:nth-child(2){margin-left:.4em}.inherited{color:#999;border-left:5px solid #eee;padding-left:1em}.inheritance em{font-style:normal;font-weight:bold}.desc h2{font-weight:400;font-size:1.25em}.desc h3{font-size:1em}.desc dt code{background:inherit}.source summary,.git-link-div{color:#666;text-align:right;font-weight:400;font-size:.8em;text-transform:uppercase}.source summary > *{white-space:nowrap;cursor:pointer}.git-link{color:inherit;margin-left:1em}.source pre{max-height:500px;overflow:auto;margin:0}.source pre code{font-size:12px;overflow:visible}.hlist{list-style:none}.hlist li{display:inline}.hlist li:after{content:',\2002'}.hlist li:last-child:after{content:none}.hlist .hlist{display:inline;padding-left:1em}img{max-width:100%}td{padding:0 .5em}.admonition{padding:.1em .5em;margin-bottom:1em}.admonition-title{font-weight:bold}.admonition.note,.admonition.info,.admonition.important{background:#aef}.admonition.todo,.admonition.versionadded,.admonition.tip,.admonition.hint{background:#dfd}.admonition.warning,.admonition.versionchanged,.admonition.deprecated{background:#fd4}.admonition.error,.admonition.danger,.admonition.caution{background:lightpink}</style>
+<style media="screen and (min-width: 700px)">@media screen and (min-width:700px){#sidebar{width:30%;height:100vh;overflow:auto;position:sticky;top:0}#content{width:70%;max-width:100ch;padding:3em 4em;border-left:1px solid #ddd}pre code{font-size:1em}.item .name{font-size:1em}main{display:flex;flex-direction:row-reverse;justify-content:flex-end}.toc ul ul,#index ul{padding-left:1.5em}.toc > ul > li{margin-top:.5em}}</style>
+<style media="print">@media print{#sidebar h1{page-break-before:always}.source{display:none}}@media print{*{background:transparent !important;color:#000 !important;box-shadow:none !important;text-shadow:none !important}a[href]:after{content:" (" attr(href) ")";font-size:90%}a[href][title]:after{content:none}abbr[title]:after{content:" (" attr(title) ")"}.ir a:after,a[href^="javascript:"]:after,a[href^="#"]:after{content:""}pre,blockquote{border:1px solid #999;page-break-inside:avoid}thead{display:table-header-group}tr,img{page-break-inside:avoid}img{max-width:100% !important}@page{margin:0.5cm}p,h2,h3{orphans:3;widows:3}h1,h2,h3,h4,h5,h6{page-break-after:avoid}}</style>
+<script defer src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.1.1/highlight.min.js" integrity="sha256-Uv3H6lx7dJmRfRvH8TH6kJD1TSK1aFcwgx+mdg3epi8=" crossorigin></script>
+<script>window.addEventListener('DOMContentLoaded', () => hljs.initHighlighting())</script>
+</head>
+<body>
+<main>
+<article id="content">
+<header>
+<h1 class="title">Module <code>statopy.statopy</code></h1>
+</header>
+<section id="section-intro">
+<p>Online statistics
+Credit for scalar algorithms to John D. Cook:
+<a href="https://www.johndcook.com/blog/skewness_kurtosis/">https://www.johndcook.com/blog/skewness_kurtosis/</a>
+<a href="https://www.johndcook.com/blog/running_regression/">https://www.johndcook.com/blog/running_regression/</a></p>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">&#34;&#34;&#34; Online statistics
+Credit for scalar algorithms to John D. Cook:
+    https://www.johndcook.com/blog/skewness_kurtosis/
+    https://www.johndcook.com/blog/running_regression/
+
+&#34;&#34;&#34;
+import math,cmath
+try:
+    #numpy optional - not necessary for scalar statistics, only used for vector statistics and probability model
+    import numpy as np 
+except:
+    pass
+
+try:
+    #scipy optional - not necessary for scalar statistics or vector statistics, only used for probability model
+    #from scipy.interpolate import UnivariateSpline
+    from scipy.interpolate import PchipInterpolator
+    #import scipy.interpolate
+    #from scipy.optimize import root
+    from scipy.signal import savgol_filter
+    from scipy.optimize import newton
+except:
+    pass
+try:
+    #matplotlib optional - not necessary for scalar statistics or vector statistics, only used for probability model
+    import matplotlib.pyplot as plt
+except:
+    pass
+
+
+class ScalarStats():
+    &#34;&#34;&#34;
+    Streaming/running/online calculation of min, max, mean, std dev/variance, skewness, kurtosis for an iterable
+
+    &gt;&gt;&gt; stats=ScalarStats([1,2,3,4,5])
+    &gt;&gt;&gt; stats.kurtosis
+    -1.3
+    &gt;&gt;&gt; stats.update(10)
+    &gt;&gt;&gt; stats.kurtosis
+    -0.021349099704380592
+    &gt;&gt;&gt; stats.skewness
+    1.0513280892320203
+    &gt;&gt;&gt; stats.stdev
+    3.188521078284832
+    &gt;&gt;&gt; stats.var
+    10.166666666666668
+    &gt;&gt;&gt; stats.mean
+    4.166666666666667
+    &gt;&gt;&gt; stats.max
+    10
+    &gt;&gt;&gt; stats.min
+    1
+    &#34;&#34;&#34;
+    __slots__ = [&#39;mx&#39;,&#39;mx2&#39;,&#39;mx3&#39;,&#39;mx4&#39;,&#39;n&#39;,&#39;min&#39;,&#39;max&#39;,&#39;n_limit&#39;,&#39;use_cmath&#39;]
+    def __init__(self,scalars=None,n_limit=float(&#39;inf&#39;),use_cmath=False):
+        object.__setattr__(self,&#39;mx&#39;,0)
+        object.__setattr__(self,&#39;mx2&#39;,0)
+        object.__setattr__(self,&#39;mx3&#39;,0)
+        object.__setattr__(self,&#39;mx4&#39;,0)
+        object.__setattr__(self,&#39;min&#39;,None)
+        object.__setattr__(self,&#39;max&#39;,None)
+        object.__setattr__(self,&#39;n&#39;,0)
+        object.__setattr__(self,&#39;n_limit&#39;,n_limit)
+        object.__setattr__(self,&#39;use_cmath&#39;,use_cmath)
+        if scalars is not None:
+            self.consume(scalars)
+
+    def consume(self,scalars):
+        for x in scalars:
+            self.update(x)
+
+    def update(self,x):
+            n1 = self.n #n1 = n as it was before this sample
+            n = n1 + 1 #n = including this sample
+            d = x - self.mx #d = delta of sample from mean as mean was before this sample
+            dn = d/n #dn = delta scaled down by new n
+            dn2 = dn*dn # dn2 = square dn
+            t1 = d*dn*n1 # t1 = square delta times (n-1)/n
+            mx = self.mx + dn #mean update
+
+            minimum = self.min
+            if minimum is None or x &lt; minimum:
+                object.__setattr__(self,&#39;min&#39;,x)
+            maximum = self.max
+            if maximum is None or x &gt; maximum:
+                object.__setattr__(self,&#39;max&#39;,x)
+
+
+                #m2 = m1 + dn = m1 + d/n = m1 + (x-m1)/n = m1*(1-1/n) + x/n = m1*(n-1)/n + x/n = (m*(n-1)+x)/n
+                #m*(n-1) is the sum of all the previous samples
+
+            mx4 = self.mx4 + t1*dn2*(n*n-3*n+3) + 6 * dn2*self.mx2 - 4 *dn * self.mx3 #4th moment update
+            mx3 = self.mx3 + t1*dn*(n-2)-3*dn*self.mx2 #3rd moment update
+            mx2 = self.mx2 + t1 #2nd moment update
+
+
+            object.__setattr__(self,&#39;n&#39;,min(n,self.n_limit))
+            object.__setattr__(self,&#39;mx&#39;,mx)
+            object.__setattr__(self,&#39;mx2&#39;,mx2)
+            object.__setattr__(self,&#39;mx3&#39;,mx3)
+            object.__setattr__(self,&#39;mx4&#39;,mx4)
+
+    def __setattr__(self,attr_name,attr_value):
+        raise Exception(&#39;OnlineStatistics properties are only changeable via the consume() or add() methods&#39;)
+
+    @property
+    def mean(self):
+        if self.n &gt; 0:
+            return self.mx
+        else:
+            return None
+
+    @property
+    def var(self):
+        if self.n &gt; 1:
+            return self.mx2/(self.n-1)
+        else:
+            return None
+
+    @property
+    def stdev(self):
+        mm = cmath if self.use_cmath else math
+        if self.n &gt; 1:
+            return mm.sqrt(self.var)
+        else:
+            return None
+
+    @property
+    def skewness(self):
+        mm = cmath if self.use_cmath else math
+        if self.n &gt; 2:
+            return mm.sqrt(self.n) * self.mx3/(self.mx2**1.5)
+        else:
+            return None
+
+    @property
+    def kurtosis(self):
+        if self.n &gt; 3:
+            return self.n*self.mx4/(self.mx2**2) - 3
+        else:
+            return None
+
+    def __add__(self,other):
+        &#34;&#34;&#34;
+        Combines the two ScalarStats objects as if all the data points were included in one.
+        Whichever n_limit value is larger will be used.
+        &#34;&#34;&#34;
+        if isinstance(other,ScalarStats):
+            result = ScalarStats()
+            object.__setattr__(result,&#39;n&#39;,self.n+other.n)
+            d = other.mx - self.mx
+            d2 = d*d
+            d3 = d*d2
+            d4 = d2*d2
+            object.__setattr__(result,&#39;mx&#39;,self.mx*(self.n/result.n)+other.mx*(other.n/result.n))
+            object.__setattr__(result,&#39;mx2&#39;,self.mx2 + other.mx2 + d2*self.n*other.n/result.n)
+            object.__setattr__(result,&#39;mx3&#39;,self.mx3+other.mx3+d3*self.n*other.n*(self.n-other.n)/(result.n**2) + 3*d*(self.n*other.mx2-other.n*self.mx2)/result.n)
+            object.__setattr__(result,&#39;mx4&#39;,self.mx4 + other.mx4 + d4*self.n*other.n * (self.n**2 - self.n*other.n + other.n**2)/(result.n**3) + 6*d2*(self.n*self.n*other.mx2 + other.n*other.n*self.mx2)/(result.n**2) + 4*d*(self.n*other.mx3-other.n*self.mx3)/result.n)
+            if self.min is not None:
+                if other.min is not None:
+                    minimum = min(self.min,other.min)
+                else:
+                    minimum = self.min
+            else:
+                if other.min is not None:
+                    minimum = other.min
+                else:
+                    minimum = None
+            if self.max is not None:
+                if other.max is not None:
+                    maximum = max(self.max,other.max)
+                else:
+                    maximum = self.max
+            else:
+                if other.max is not None:
+                    maximum = other.max
+                else:
+                    maximum = None
+            object.__setattr__(result,&#39;min&#39;,minimum)
+            object.__setattr__(result,&#39;max&#39;,maximum)
+            object.__setattr__(result,&#39;max&#39;,maximum)
+            object.__setattr__(result,&#39;n_limit&#39;,max(self.n_limit,other.n_limit))
+        else:
+            raise Exception(&#39;ScalarStats objects can only be added to other ScalarStats objects&#39;)
+
+class ScalarRegression():
+    &#34;&#34;&#34;
+    Streaming/running/online calculation of a linear regression between two sequences of scalars
+
+    &gt;&gt;&gt; x = np.arange(0,100)
+    &gt;&gt;&gt; y = x + np.cos(np.linspace(0,4*np.pi,100))
+    &gt;&gt;&gt; sr = ScalarRegression(zip(x,y))
+    &gt;&gt;&gt; sr.corr
+    0.9996971673199834
+    &gt;&gt;&gt; sr.cov
+    841.6666666666665
+    &gt;&gt;&gt; sr.xs.mean
+    49.5
+    &gt;&gt;&gt; sr.xs.max
+    99
+    &gt;&gt;&gt; sr.xs.min
+    0
+    &gt;&gt;&gt; sr.ys.stdev
+    29.020280265129536
+    &gt;&gt;&gt; sr.ys.kurtosis
+    -1.1986082973172405
+    &#34;&#34;&#34;
+    __slots__ = [&#39;xs&#39;,&#39;ys&#39;,&#39;sxy&#39;,&#39;n&#39;,&#39;n_limit&#39;,&#39;use_cmath&#39;]
+    def __init__(self,pair_source=None,n_limit=float(&#39;inf&#39;),use_cmath=False):
+        object.__setattr__(self,&#39;xs&#39;,ScalarStats(n_limit=n_limit,use_cmath=use_cmath))
+        object.__setattr__(self,&#39;ys&#39;,ScalarStats(n_limit=n_limit,use_cmath=use_cmath))
+        object.__setattr__(self,&#39;n&#39;,0)
+        object.__setattr__(self,&#39;n_limit&#39;,n_limit)
+        object.__setattr__(self,&#39;use_cmath&#39;,use_cmath)
+        if pair_source is not None:
+            self.consume(pair_source)
+    def __setattr__(self,attr_name,attr_value):
+        raise Exception(&#39;ScalarRegression properties are only changeable via the consume() or add() methods&#39;)
+    def update(self,x,y):
+        if self.n == 0:
+            xm = ym = 0
+            object.__setattr__(self,&#39;sxy&#39;,0)
+        else:
+            xm = self.xs.mean
+            ym = self.ys.mean
+            object.__setattr__(self,&#39;sxy&#39;,self.sxy*(self.n-1)/self.n + (xm-x)*(ym-y)/(self.n+1))
+        self.xs.update(x)
+        self.ys.update(y)
+        object.__setattr__(self,&#39;n&#39;,self.n+1)
+    def consume(self,pair_source):
+        for x,y in pair_source:
+            self.update(x,y)
+    @property
+    def slope(self):
+        sxx = self.xs.var*(self.n-1)
+        return self.sxy/sxx
+
+    @property
+    def intercept(self):
+        return self.ys.mean - self.slope*self.xs.mean
+
+    @property
+    def cov(self):
+        return self.sxy
+    @property
+    def corr(self):
+        t = self.xs.stdev * self.ys.stdev
+        return self.sxy/t
+
+    def __add__(self,other):
+        if isinstance(other,ScalarRegression):
+            result = ScalarRegression(n_limit=self.n_limit,use_cmath=self.use_cmath)
+            object.__setattr__(result,&#39;xs&#39;,self.xs+other.xs)
+            object.__setattr__(result,&#39;ys&#39;,self.ys+other.ys)
+        else:
+            raise Exception(&#39;ScalarRegression objects can only be added to other ScalarRegression objects&#39;)
+
+
+class VectorStats():
+    &#34;&#34;&#34;
+    Streaming/running/online calculation of mean and covariance matrix for vectors
+
+    Configure dimensions using one sample with the configure() method.
+    Incorporate subsequent samples with the update() method
+    Requires numpy
+
+    &gt;&gt;&gt; from pydataset import data
+    &gt;&gt;&gt; iris = data(&#39;iris&#39;)
+    &gt;&gt;&gt; iris.cov()
+                  Sepal.Length  Sepal.Width  Petal.Length  Petal.Width
+    Sepal.Length      0.685694    -0.042434      1.274315     0.516271
+    Sepal.Width      -0.042434     0.189979     -0.329656    -0.121639
+    Petal.Length      1.274315    -0.329656      3.116278     1.295609
+    Petal.Width       0.516271    -0.121639      1.295609     0.581006
+    &gt;&gt;&gt; vecs = iris.to_numpy()[:,:-1].astype(&#39;float64&#39;)
+    &gt;&gt;&gt; vs = VectorStats()
+    &gt;&gt;&gt; vs.configure(vecs[0])
+    &gt;&gt;&gt; for x in vecs[1:]:
+    ...  vs.update(x)
+    ... 
+
+    &gt;&gt;&gt; vs.cov
+    array([[ 0.68569351, -0.042434  ,  1.27431544,  0.51627069],
+           [-0.042434  ,  0.18997942, -0.32965638, -0.12163937],
+           [ 1.27431544, -0.32965638,  3.11627785,  1.2956094 ],
+           [ 0.51627069, -0.12163937,  1.2956094 ,  0.58100626]])
+    &#34;&#34;&#34;
+    def __init__(self,x_0=None,n_limit=None,default_cov=1):
+        if x_0 is None:
+            self.make_empty()
+        else:
+            self.configure(x_0)
+        self.n_limit = np.inf
+        self.default_cov = default_cov
+    def make_empty(self,n_limit=None):
+        self.mean = self.cov = self.dim_x = None
+        self.n = 0
+        if n_limit is not None:
+            self.n_limit=n_limit #otherwise preserve previous value
+    @property
+    def is_empty(self):
+        return self.mean is None
+    def configure(self,x_0):
+        self.mean = x_0
+        self.dim_x = dim_x = x_0.shape[0]
+        self.cov = np.ones((dim_x,dim_x))*self.default_cov
+        self.n = 1
+    def update(self,x):
+        deviation = x - self.mean
+        plasticity = 1.0/(1+self.n)
+        rigidity = (self.n-1.0)/self.n
+        self.mean += deviation * plasticity
+        self.cov = self.cov * rigidity + (deviation * deviation.reshape((self.dim_x,1))) * plasticity
+        if self.n_limit is None:
+            self.n += 1
+        else:
+            self.n = min(self.n+1,self.n_limit)
+    def consume(self,vectors):
+        for x in vectors:
+            self.update(x)
+
+class ScalarProbModel():
+    &#34;&#34;&#34;
+    Given a set of random data, produce a CDF and PDF model that can be used to generate more data with the same approximate distribution.
+    Requires numpy and scipy
+
+    Example:
+        from scipy.stats import expon
+        import matplotlib.pyplot as plt
+        x = expon().rvs(1000)
+        spm = ScalarProbModel(x)
+        fig = plt.figure()
+        spm.plot_cdf()
+        spm.plot_scatter()
+        fig = plt.figure()
+        spm.plot_pdf()
+        plt.show()
+    &#34;&#34;&#34;
+    def __init__(self,xs,resolution=1000,smoothing=.1):
+        n = len(xs)
+        xs,cdf_vals = np.unique(xs,return_counts=True)
+        cdf_vals = np.cumsum(cdf_vals) / float(n) 
+        self.min_x = xs[0]
+        self.max_x = xs[-1]
+        rng = self.max_x - self.min_x 
+        dev = rng*1e-9
+        #xs = np.r_[self.min_x-rng,self.min_x-dev,xs,self.max_x+dev,self.max_x+rng]
+        #cdf_vals = np.r_[0,0,cdf_vals,1,1]
+        xs = np.r_[self.min_x-dev,xs,self.max_x+dev]
+        cdf_vals = np.r_[0,cdf_vals,1]
+        self.xs = xs
+        self.cdf_vals = cdf_vals
+        #cdf = UnivariateSpline(xs,cdf_vals,s=smoothing,ext=use_boundary_value)
+        cdf_interp = PchipInterpolator(xs,cdf_vals,extrapolate=True)
+        if smoothing is None:
+            cdf = cdf_interp
+        else:
+            xl = np.linspace(self.min_x,self.max_x,resolution)
+            cdf_l = cdf_interp(xl)
+            w = int(resolution*smoothing)
+            w = w + 1 - (w%2);
+            cdf_f = savgol_filter(cdf_l,w,3,mode=&#39;nearest&#39;)
+            cdf= PchipInterpolator(xl,cdf_f,extrapolate=True)
+        base_cdf = cdf
+        cdf = lambda x,base_cdf=base_cdf: np.clip(base_cdf(x),0,1)
+        #w = 31
+        #mask = np.ones((1,w))/w
+        #mask = mask[0,:]
+        #cdf_ma = np.convolve(cdf_l,mask,&#39;valid&#39;)
+        #cdf = scipy.interpolate.CubicSpline(xl,cdf_ma,bc_type=((1,0.0),(1,0.0)))
+        #cdf = scipy.interpolate.PchipInterpolator(xl,cdf_l)
+        #cdf = scipy.interpolate.PchipInterpolator(xl,cdf_l)
+        #cdf = scipy.interpolate.Akima1DInterpolator(xs,cdf_vals)
+        #use_boundary_value = 3
+        #cdf = scipy.interpolate.UnivariateSpline(xs,cdf_vals,s=smoothing,ext=use_boundary_value)
+        #cdf = scipy.interpolate.CubicSpline(xl,cdf_l,bc_type=((1,0.0),(1,0.0)))
+        base_pdf = base_cdf.derivative(1)
+        pdf = lambda x,base_pdf=base_pdf: np.clip(base_pdf(x),0,None)
+        self.n = n
+        self.cdf = cdf
+        self.pdf = pdf
+        self.base_cdf = base_cdf
+        self.base_pdf = base_pdf
+    def plot_cdf(self,num_points=100):
+        x_lin = np.linspace(self.min_x,self.max_x,num_points)
+        cdf_lin = self.cdf(x_lin)
+        plt.plot(x_lin,cdf_lin)
+    def plot_pdf(self,num_points=500):
+        x_lin = np.linspace(self.min_x,self.max_x,num_points)
+        pdf_lin = self.pdf(x_lin)
+        plt.plot(x_lin,pdf_lin)
+    def plot_scatter(self):
+        plt.scatter(self.xs,self.cdf_vals)
+    def rvs(self,num_points=1):
+        u = np.random.uniform(size=num_points)
+        #u# = np.array([0.5])
+        #F(x) = u
+        #x = inv_F(u)
+        #F(x)-u=0
+
+        func = lambda xs,u=u: self.cdf(xs) - u
+        guess_values = self.base_cdf.solve(0.5,extrapolate=False)
+        guess_value = np.mean(guess_values[guess_values&gt;=0][guess_values&lt;=1])
+        guess = np.ones(num_points)*guess_value
+        #result = root(func,guess,tol=1e-4)
+        result = newton(func,guess,fprime=self.pdf,maxiter=1000,tol=1e-9)
+        return np.clip(result,self.min_x,self.max_x)
+
+if __name__ == &#39;__main__&#39;:
+    from scipy.stats import norm,expon,uniform
+    import matplotlib.pyplot as plt
+    x = norm().rvs(1000)
+    spm = ScalarProbModel(x)
+    fig = plt.figure()
+    spm.plot_cdf()
+    spm.plot_scatter()
+    fig = plt.figure()
+    spm.plot_pdf()
+    import os
+    os.environ[&#39;PYTHONINSPECT&#39;]= &#39;1&#39;
+    x2 = spm.rvs(1000)
+    spm2 = ScalarProbModel(x2)
+    fig = plt.figure()
+    spm2.plot_cdf()
+    spm2.plot_scatter()
+    fig = plt.figure()
+    spm2.plot_pdf()
+    plt.show()</code></pre>
+</details>
+</section>
+<section>
+</section>
+<section>
+</section>
+<section>
+</section>
+<section>
+<h2 class="section-title" id="header-classes">Classes</h2>
+<dl>
+<dt id="statopy.statopy.ScalarProbModel"><code class="flex name class">
+<span>class <span class="ident">ScalarProbModel</span></span>
+<span>(</span><span>xs, resolution=1000, smoothing=0.1)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Given a set of random data, produce a CDF and PDF model that can be used to generate more data with the same approximate distribution.
+Requires numpy and scipy</p>
+<h2 id="example">Example</h2>
+<p>from scipy.stats import expon
+import matplotlib.pyplot as plt
+x = expon().rvs(1000)
+spm = ScalarProbModel(x)
+fig = plt.figure()
+spm.plot_cdf()
+spm.plot_scatter()
+fig = plt.figure()
+spm.plot_pdf()
+plt.show()</p></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">class ScalarProbModel():
+    &#34;&#34;&#34;
+    Given a set of random data, produce a CDF and PDF model that can be used to generate more data with the same approximate distribution.
+    Requires numpy and scipy
+
+    Example:
+        from scipy.stats import expon
+        import matplotlib.pyplot as plt
+        x = expon().rvs(1000)
+        spm = ScalarProbModel(x)
+        fig = plt.figure()
+        spm.plot_cdf()
+        spm.plot_scatter()
+        fig = plt.figure()
+        spm.plot_pdf()
+        plt.show()
+    &#34;&#34;&#34;
+    def __init__(self,xs,resolution=1000,smoothing=.1):
+        n = len(xs)
+        xs,cdf_vals = np.unique(xs,return_counts=True)
+        cdf_vals = np.cumsum(cdf_vals) / float(n) 
+        self.min_x = xs[0]
+        self.max_x = xs[-1]
+        rng = self.max_x - self.min_x 
+        dev = rng*1e-9
+        #xs = np.r_[self.min_x-rng,self.min_x-dev,xs,self.max_x+dev,self.max_x+rng]
+        #cdf_vals = np.r_[0,0,cdf_vals,1,1]
+        xs = np.r_[self.min_x-dev,xs,self.max_x+dev]
+        cdf_vals = np.r_[0,cdf_vals,1]
+        self.xs = xs
+        self.cdf_vals = cdf_vals
+        #cdf = UnivariateSpline(xs,cdf_vals,s=smoothing,ext=use_boundary_value)
+        cdf_interp = PchipInterpolator(xs,cdf_vals,extrapolate=True)
+        if smoothing is None:
+            cdf = cdf_interp
+        else:
+            xl = np.linspace(self.min_x,self.max_x,resolution)
+            cdf_l = cdf_interp(xl)
+            w = int(resolution*smoothing)
+            w = w + 1 - (w%2);
+            cdf_f = savgol_filter(cdf_l,w,3,mode=&#39;nearest&#39;)
+            cdf= PchipInterpolator(xl,cdf_f,extrapolate=True)
+        base_cdf = cdf
+        cdf = lambda x,base_cdf=base_cdf: np.clip(base_cdf(x),0,1)
+        #w = 31
+        #mask = np.ones((1,w))/w
+        #mask = mask[0,:]
+        #cdf_ma = np.convolve(cdf_l,mask,&#39;valid&#39;)
+        #cdf = scipy.interpolate.CubicSpline(xl,cdf_ma,bc_type=((1,0.0),(1,0.0)))
+        #cdf = scipy.interpolate.PchipInterpolator(xl,cdf_l)
+        #cdf = scipy.interpolate.PchipInterpolator(xl,cdf_l)
+        #cdf = scipy.interpolate.Akima1DInterpolator(xs,cdf_vals)
+        #use_boundary_value = 3
+        #cdf = scipy.interpolate.UnivariateSpline(xs,cdf_vals,s=smoothing,ext=use_boundary_value)
+        #cdf = scipy.interpolate.CubicSpline(xl,cdf_l,bc_type=((1,0.0),(1,0.0)))
+        base_pdf = base_cdf.derivative(1)
+        pdf = lambda x,base_pdf=base_pdf: np.clip(base_pdf(x),0,None)
+        self.n = n
+        self.cdf = cdf
+        self.pdf = pdf
+        self.base_cdf = base_cdf
+        self.base_pdf = base_pdf
+    def plot_cdf(self,num_points=100):
+        x_lin = np.linspace(self.min_x,self.max_x,num_points)
+        cdf_lin = self.cdf(x_lin)
+        plt.plot(x_lin,cdf_lin)
+    def plot_pdf(self,num_points=500):
+        x_lin = np.linspace(self.min_x,self.max_x,num_points)
+        pdf_lin = self.pdf(x_lin)
+        plt.plot(x_lin,pdf_lin)
+    def plot_scatter(self):
+        plt.scatter(self.xs,self.cdf_vals)
+    def rvs(self,num_points=1):
+        u = np.random.uniform(size=num_points)
+        #u# = np.array([0.5])
+        #F(x) = u
+        #x = inv_F(u)
+        #F(x)-u=0
+
+        func = lambda xs,u=u: self.cdf(xs) - u
+        guess_values = self.base_cdf.solve(0.5,extrapolate=False)
+        guess_value = np.mean(guess_values[guess_values&gt;=0][guess_values&lt;=1])
+        guess = np.ones(num_points)*guess_value
+        #result = root(func,guess,tol=1e-4)
+        result = newton(func,guess,fprime=self.pdf,maxiter=1000,tol=1e-9)
+        return np.clip(result,self.min_x,self.max_x)</code></pre>
+</details>
+<h3>Methods</h3>
+<dl>
+<dt id="statopy.statopy.ScalarProbModel.plot_cdf"><code class="name flex">
+<span>def <span class="ident">plot_cdf</span></span>(<span>self, num_points=100)</span>
+</code></dt>
+<dd>
+<div class="desc"></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def plot_cdf(self,num_points=100):
+    x_lin = np.linspace(self.min_x,self.max_x,num_points)
+    cdf_lin = self.cdf(x_lin)
+    plt.plot(x_lin,cdf_lin)</code></pre>
+</details>
+</dd>
+<dt id="statopy.statopy.ScalarProbModel.plot_pdf"><code class="name flex">
+<span>def <span class="ident">plot_pdf</span></span>(<span>self, num_points=500)</span>
+</code></dt>
+<dd>
+<div class="desc"></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def plot_pdf(self,num_points=500):
+    x_lin = np.linspace(self.min_x,self.max_x,num_points)
+    pdf_lin = self.pdf(x_lin)
+    plt.plot(x_lin,pdf_lin)</code></pre>
+</details>
+</dd>
+<dt id="statopy.statopy.ScalarProbModel.plot_scatter"><code class="name flex">
+<span>def <span class="ident">plot_scatter</span></span>(<span>self)</span>
+</code></dt>
+<dd>
+<div class="desc"></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def plot_scatter(self):
+    plt.scatter(self.xs,self.cdf_vals)</code></pre>
+</details>
+</dd>
+<dt id="statopy.statopy.ScalarProbModel.rvs"><code class="name flex">
+<span>def <span class="ident">rvs</span></span>(<span>self, num_points=1)</span>
+</code></dt>
+<dd>
+<div class="desc"></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def rvs(self,num_points=1):
+    u = np.random.uniform(size=num_points)
+    #u# = np.array([0.5])
+    #F(x) = u
+    #x = inv_F(u)
+    #F(x)-u=0
+
+    func = lambda xs,u=u: self.cdf(xs) - u
+    guess_values = self.base_cdf.solve(0.5,extrapolate=False)
+    guess_value = np.mean(guess_values[guess_values&gt;=0][guess_values&lt;=1])
+    guess = np.ones(num_points)*guess_value
+    #result = root(func,guess,tol=1e-4)
+    result = newton(func,guess,fprime=self.pdf,maxiter=1000,tol=1e-9)
+    return np.clip(result,self.min_x,self.max_x)</code></pre>
+</details>
+</dd>
+</dl>
+</dd>
+<dt id="statopy.statopy.ScalarRegression"><code class="flex name class">
+<span>class <span class="ident">ScalarRegression</span></span>
+<span>(</span><span>pair_source=None, n_limit=inf, use_cmath=False)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Streaming/running/online calculation of a linear regression between two sequences of scalars</p>
+<pre><code class="python-repl">&gt;&gt;&gt; x = np.arange(0,100)
+&gt;&gt;&gt; y = x + np.cos(np.linspace(0,4*np.pi,100))
+&gt;&gt;&gt; sr = ScalarRegression(zip(x,y))
+&gt;&gt;&gt; sr.corr
+0.9996971673199834
+&gt;&gt;&gt; sr.cov
+841.6666666666665
+&gt;&gt;&gt; sr.xs.mean
+49.5
+&gt;&gt;&gt; sr.xs.max
+99
+&gt;&gt;&gt; sr.xs.min
+0
+&gt;&gt;&gt; sr.ys.stdev
+29.020280265129536
+&gt;&gt;&gt; sr.ys.kurtosis
+-1.1986082973172405
+</code></pre></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">class ScalarRegression():
+    &#34;&#34;&#34;
+    Streaming/running/online calculation of a linear regression between two sequences of scalars
+
+    &gt;&gt;&gt; x = np.arange(0,100)
+    &gt;&gt;&gt; y = x + np.cos(np.linspace(0,4*np.pi,100))
+    &gt;&gt;&gt; sr = ScalarRegression(zip(x,y))
+    &gt;&gt;&gt; sr.corr
+    0.9996971673199834
+    &gt;&gt;&gt; sr.cov
+    841.6666666666665
+    &gt;&gt;&gt; sr.xs.mean
+    49.5
+    &gt;&gt;&gt; sr.xs.max
+    99
+    &gt;&gt;&gt; sr.xs.min
+    0
+    &gt;&gt;&gt; sr.ys.stdev
+    29.020280265129536
+    &gt;&gt;&gt; sr.ys.kurtosis
+    -1.1986082973172405
+    &#34;&#34;&#34;
+    __slots__ = [&#39;xs&#39;,&#39;ys&#39;,&#39;sxy&#39;,&#39;n&#39;,&#39;n_limit&#39;,&#39;use_cmath&#39;]
+    def __init__(self,pair_source=None,n_limit=float(&#39;inf&#39;),use_cmath=False):
+        object.__setattr__(self,&#39;xs&#39;,ScalarStats(n_limit=n_limit,use_cmath=use_cmath))
+        object.__setattr__(self,&#39;ys&#39;,ScalarStats(n_limit=n_limit,use_cmath=use_cmath))
+        object.__setattr__(self,&#39;n&#39;,0)
+        object.__setattr__(self,&#39;n_limit&#39;,n_limit)
+        object.__setattr__(self,&#39;use_cmath&#39;,use_cmath)
+        if pair_source is not None:
+            self.consume(pair_source)
+    def __setattr__(self,attr_name,attr_value):
+        raise Exception(&#39;ScalarRegression properties are only changeable via the consume() or add() methods&#39;)
+    def update(self,x,y):
+        if self.n == 0:
+            xm = ym = 0
+            object.__setattr__(self,&#39;sxy&#39;,0)
+        else:
+            xm = self.xs.mean
+            ym = self.ys.mean
+            object.__setattr__(self,&#39;sxy&#39;,self.sxy*(self.n-1)/self.n + (xm-x)*(ym-y)/(self.n+1))
+        self.xs.update(x)
+        self.ys.update(y)
+        object.__setattr__(self,&#39;n&#39;,self.n+1)
+    def consume(self,pair_source):
+        for x,y in pair_source:
+            self.update(x,y)
+    @property
+    def slope(self):
+        sxx = self.xs.var*(self.n-1)
+        return self.sxy/sxx
+
+    @property
+    def intercept(self):
+        return self.ys.mean - self.slope*self.xs.mean
+
+    @property
+    def cov(self):
+        return self.sxy
+    @property
+    def corr(self):
+        t = self.xs.stdev * self.ys.stdev
+        return self.sxy/t
+
+    def __add__(self,other):
+        if isinstance(other,ScalarRegression):
+            result = ScalarRegression(n_limit=self.n_limit,use_cmath=self.use_cmath)
+            object.__setattr__(result,&#39;xs&#39;,self.xs+other.xs)
+            object.__setattr__(result,&#39;ys&#39;,self.ys+other.ys)
+        else:
+            raise Exception(&#39;ScalarRegression objects can only be added to other ScalarRegression objects&#39;)</code></pre>
+</details>
+<h3>Instance variables</h3>
+<dl>
+<dt id="statopy.statopy.ScalarRegression.corr"><code class="name">var <span class="ident">corr</span></code></dt>
+<dd>
+<div class="desc"></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">@property
+def corr(self):
+    t = self.xs.stdev * self.ys.stdev
+    return self.sxy/t</code></pre>
+</details>
+</dd>
+<dt id="statopy.statopy.ScalarRegression.cov"><code class="name">var <span class="ident">cov</span></code></dt>
+<dd>
+<div class="desc"></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">@property
+def cov(self):
+    return self.sxy</code></pre>
+</details>
+</dd>
+<dt id="statopy.statopy.ScalarRegression.intercept"><code class="name">var <span class="ident">intercept</span></code></dt>
+<dd>
+<div class="desc"></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">@property
+def intercept(self):
+    return self.ys.mean - self.slope*self.xs.mean</code></pre>
+</details>
+</dd>
+<dt id="statopy.statopy.ScalarRegression.n"><code class="name">var <span class="ident">n</span></code></dt>
+<dd>
+<div class="desc"><p>Return an attribute of instance, which is of type owner.</p></div>
+</dd>
+<dt id="statopy.statopy.ScalarRegression.n_limit"><code class="name">var <span class="ident">n_limit</span></code></dt>
+<dd>
+<div class="desc"><p>Return an attribute of instance, which is of type owner.</p></div>
+</dd>
+<dt id="statopy.statopy.ScalarRegression.slope"><code class="name">var <span class="ident">slope</span></code></dt>
+<dd>
+<div class="desc"></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">@property
+def slope(self):
+    sxx = self.xs.var*(self.n-1)
+    return self.sxy/sxx</code></pre>
+</details>
+</dd>
+<dt id="statopy.statopy.ScalarRegression.sxy"><code class="name">var <span class="ident">sxy</span></code></dt>
+<dd>
+<div class="desc"><p>Return an attribute of instance, which is of type owner.</p></div>
+</dd>
+<dt id="statopy.statopy.ScalarRegression.use_cmath"><code class="name">var <span class="ident">use_cmath</span></code></dt>
+<dd>
+<div class="desc"><p>Return an attribute of instance, which is of type owner.</p></div>
+</dd>
+<dt id="statopy.statopy.ScalarRegression.xs"><code class="name">var <span class="ident">xs</span></code></dt>
+<dd>
+<div class="desc"><p>Return an attribute of instance, which is of type owner.</p></div>
+</dd>
+<dt id="statopy.statopy.ScalarRegression.ys"><code class="name">var <span class="ident">ys</span></code></dt>
+<dd>
+<div class="desc"><p>Return an attribute of instance, which is of type owner.</p></div>
+</dd>
+</dl>
+<h3>Methods</h3>
+<dl>
+<dt id="statopy.statopy.ScalarRegression.consume"><code class="name flex">
+<span>def <span class="ident">consume</span></span>(<span>self, pair_source)</span>
+</code></dt>
+<dd>
+<div class="desc"></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def consume(self,pair_source):
+    for x,y in pair_source:
+        self.update(x,y)</code></pre>
+</details>
+</dd>
+<dt id="statopy.statopy.ScalarRegression.update"><code class="name flex">
+<span>def <span class="ident">update</span></span>(<span>self, x, y)</span>
+</code></dt>
+<dd>
+<div class="desc"></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def update(self,x,y):
+    if self.n == 0:
+        xm = ym = 0
+        object.__setattr__(self,&#39;sxy&#39;,0)
+    else:
+        xm = self.xs.mean
+        ym = self.ys.mean
+        object.__setattr__(self,&#39;sxy&#39;,self.sxy*(self.n-1)/self.n + (xm-x)*(ym-y)/(self.n+1))
+    self.xs.update(x)
+    self.ys.update(y)
+    object.__setattr__(self,&#39;n&#39;,self.n+1)</code></pre>
+</details>
+</dd>
+</dl>
+</dd>
+<dt id="statopy.statopy.ScalarStats"><code class="flex name class">
+<span>class <span class="ident">ScalarStats</span></span>
+<span>(</span><span>scalars=None, n_limit=inf, use_cmath=False)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Streaming/running/online calculation of min, max, mean, std dev/variance, skewness, kurtosis for an iterable</p>
+<pre><code class="python-repl">&gt;&gt;&gt; stats=ScalarStats([1,2,3,4,5])
+&gt;&gt;&gt; stats.kurtosis
+-1.3
+&gt;&gt;&gt; stats.update(10)
+&gt;&gt;&gt; stats.kurtosis
+-0.021349099704380592
+&gt;&gt;&gt; stats.skewness
+1.0513280892320203
+&gt;&gt;&gt; stats.stdev
+3.188521078284832
+&gt;&gt;&gt; stats.var
+10.166666666666668
+&gt;&gt;&gt; stats.mean
+4.166666666666667
+&gt;&gt;&gt; stats.max
+10
+&gt;&gt;&gt; stats.min
+1
+</code></pre></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">class ScalarStats():
+    &#34;&#34;&#34;
+    Streaming/running/online calculation of min, max, mean, std dev/variance, skewness, kurtosis for an iterable
+
+    &gt;&gt;&gt; stats=ScalarStats([1,2,3,4,5])
+    &gt;&gt;&gt; stats.kurtosis
+    -1.3
+    &gt;&gt;&gt; stats.update(10)
+    &gt;&gt;&gt; stats.kurtosis
+    -0.021349099704380592
+    &gt;&gt;&gt; stats.skewness
+    1.0513280892320203
+    &gt;&gt;&gt; stats.stdev
+    3.188521078284832
+    &gt;&gt;&gt; stats.var
+    10.166666666666668
+    &gt;&gt;&gt; stats.mean
+    4.166666666666667
+    &gt;&gt;&gt; stats.max
+    10
+    &gt;&gt;&gt; stats.min
+    1
+    &#34;&#34;&#34;
+    __slots__ = [&#39;mx&#39;,&#39;mx2&#39;,&#39;mx3&#39;,&#39;mx4&#39;,&#39;n&#39;,&#39;min&#39;,&#39;max&#39;,&#39;n_limit&#39;,&#39;use_cmath&#39;]
+    def __init__(self,scalars=None,n_limit=float(&#39;inf&#39;),use_cmath=False):
+        object.__setattr__(self,&#39;mx&#39;,0)
+        object.__setattr__(self,&#39;mx2&#39;,0)
+        object.__setattr__(self,&#39;mx3&#39;,0)
+        object.__setattr__(self,&#39;mx4&#39;,0)
+        object.__setattr__(self,&#39;min&#39;,None)
+        object.__setattr__(self,&#39;max&#39;,None)
+        object.__setattr__(self,&#39;n&#39;,0)
+        object.__setattr__(self,&#39;n_limit&#39;,n_limit)
+        object.__setattr__(self,&#39;use_cmath&#39;,use_cmath)
+        if scalars is not None:
+            self.consume(scalars)
+
+    def consume(self,scalars):
+        for x in scalars:
+            self.update(x)
+
+    def update(self,x):
+            n1 = self.n #n1 = n as it was before this sample
+            n = n1 + 1 #n = including this sample
+            d = x - self.mx #d = delta of sample from mean as mean was before this sample
+            dn = d/n #dn = delta scaled down by new n
+            dn2 = dn*dn # dn2 = square dn
+            t1 = d*dn*n1 # t1 = square delta times (n-1)/n
+            mx = self.mx + dn #mean update
+
+            minimum = self.min
+            if minimum is None or x &lt; minimum:
+                object.__setattr__(self,&#39;min&#39;,x)
+            maximum = self.max
+            if maximum is None or x &gt; maximum:
+                object.__setattr__(self,&#39;max&#39;,x)
+
+
+                #m2 = m1 + dn = m1 + d/n = m1 + (x-m1)/n = m1*(1-1/n) + x/n = m1*(n-1)/n + x/n = (m*(n-1)+x)/n
+                #m*(n-1) is the sum of all the previous samples
+
+            mx4 = self.mx4 + t1*dn2*(n*n-3*n+3) + 6 * dn2*self.mx2 - 4 *dn * self.mx3 #4th moment update
+            mx3 = self.mx3 + t1*dn*(n-2)-3*dn*self.mx2 #3rd moment update
+            mx2 = self.mx2 + t1 #2nd moment update
+
+
+            object.__setattr__(self,&#39;n&#39;,min(n,self.n_limit))
+            object.__setattr__(self,&#39;mx&#39;,mx)
+            object.__setattr__(self,&#39;mx2&#39;,mx2)
+            object.__setattr__(self,&#39;mx3&#39;,mx3)
+            object.__setattr__(self,&#39;mx4&#39;,mx4)
+
+    def __setattr__(self,attr_name,attr_value):
+        raise Exception(&#39;OnlineStatistics properties are only changeable via the consume() or add() methods&#39;)
+
+    @property
+    def mean(self):
+        if self.n &gt; 0:
+            return self.mx
+        else:
+            return None
+
+    @property
+    def var(self):
+        if self.n &gt; 1:
+            return self.mx2/(self.n-1)
+        else:
+            return None
+
+    @property
+    def stdev(self):
+        mm = cmath if self.use_cmath else math
+        if self.n &gt; 1:
+            return mm.sqrt(self.var)
+        else:
+            return None
+
+    @property
+    def skewness(self):
+        mm = cmath if self.use_cmath else math
+        if self.n &gt; 2:
+            return mm.sqrt(self.n) * self.mx3/(self.mx2**1.5)
+        else:
+            return None
+
+    @property
+    def kurtosis(self):
+        if self.n &gt; 3:
+            return self.n*self.mx4/(self.mx2**2) - 3
+        else:
+            return None
+
+    def __add__(self,other):
+        &#34;&#34;&#34;
+        Combines the two ScalarStats objects as if all the data points were included in one.
+        Whichever n_limit value is larger will be used.
+        &#34;&#34;&#34;
+        if isinstance(other,ScalarStats):
+            result = ScalarStats()
+            object.__setattr__(result,&#39;n&#39;,self.n+other.n)
+            d = other.mx - self.mx
+            d2 = d*d
+            d3 = d*d2
+            d4 = d2*d2
+            object.__setattr__(result,&#39;mx&#39;,self.mx*(self.n/result.n)+other.mx*(other.n/result.n))
+            object.__setattr__(result,&#39;mx2&#39;,self.mx2 + other.mx2 + d2*self.n*other.n/result.n)
+            object.__setattr__(result,&#39;mx3&#39;,self.mx3+other.mx3+d3*self.n*other.n*(self.n-other.n)/(result.n**2) + 3*d*(self.n*other.mx2-other.n*self.mx2)/result.n)
+            object.__setattr__(result,&#39;mx4&#39;,self.mx4 + other.mx4 + d4*self.n*other.n * (self.n**2 - self.n*other.n + other.n**2)/(result.n**3) + 6*d2*(self.n*self.n*other.mx2 + other.n*other.n*self.mx2)/(result.n**2) + 4*d*(self.n*other.mx3-other.n*self.mx3)/result.n)
+            if self.min is not None:
+                if other.min is not None:
+                    minimum = min(self.min,other.min)
+                else:
+                    minimum = self.min
+            else:
+                if other.min is not None:
+                    minimum = other.min
+                else:
+                    minimum = None
+            if self.max is not None:
+                if other.max is not None:
+                    maximum = max(self.max,other.max)
+                else:
+                    maximum = self.max
+            else:
+                if other.max is not None:
+                    maximum = other.max
+                else:
+                    maximum = None
+            object.__setattr__(result,&#39;min&#39;,minimum)
+            object.__setattr__(result,&#39;max&#39;,maximum)
+            object.__setattr__(result,&#39;max&#39;,maximum)
+            object.__setattr__(result,&#39;n_limit&#39;,max(self.n_limit,other.n_limit))
+        else:
+            raise Exception(&#39;ScalarStats objects can only be added to other ScalarStats objects&#39;)</code></pre>
+</details>
+<h3>Instance variables</h3>
+<dl>
+<dt id="statopy.statopy.ScalarStats.kurtosis"><code class="name">var <span class="ident">kurtosis</span></code></dt>
+<dd>
+<div class="desc"></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">@property
+def kurtosis(self):
+    if self.n &gt; 3:
+        return self.n*self.mx4/(self.mx2**2) - 3
+    else:
+        return None</code></pre>
+</details>
+</dd>
+<dt id="statopy.statopy.ScalarStats.max"><code class="name">var <span class="ident">max</span></code></dt>
+<dd>
+<div class="desc"><p>Return an attribute of instance, which is of type owner.</p></div>
+</dd>
+<dt id="statopy.statopy.ScalarStats.mean"><code class="name">var <span class="ident">mean</span></code></dt>
+<dd>
+<div class="desc"></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">@property
+def mean(self):
+    if self.n &gt; 0:
+        return self.mx
+    else:
+        return None</code></pre>
+</details>
+</dd>
+<dt id="statopy.statopy.ScalarStats.min"><code class="name">var <span class="ident">min</span></code></dt>
+<dd>
+<div class="desc"><p>Return an attribute of instance, which is of type owner.</p></div>
+</dd>
+<dt id="statopy.statopy.ScalarStats.mx"><code class="name">var <span class="ident">mx</span></code></dt>
+<dd>
+<div class="desc"><p>Return an attribute of instance, which is of type owner.</p></div>
+</dd>
+<dt id="statopy.statopy.ScalarStats.mx2"><code class="name">var <span class="ident">mx2</span></code></dt>
+<dd>
+<div class="desc"><p>Return an attribute of instance, which is of type owner.</p></div>
+</dd>
+<dt id="statopy.statopy.ScalarStats.mx3"><code class="name">var <span class="ident">mx3</span></code></dt>
+<dd>
+<div class="desc"><p>Return an attribute of instance, which is of type owner.</p></div>
+</dd>
+<dt id="statopy.statopy.ScalarStats.mx4"><code class="name">var <span class="ident">mx4</span></code></dt>
+<dd>
+<div class="desc"><p>Return an attribute of instance, which is of type owner.</p></div>
+</dd>
+<dt id="statopy.statopy.ScalarStats.n"><code class="name">var <span class="ident">n</span></code></dt>
+<dd>
+<div class="desc"><p>Return an attribute of instance, which is of type owner.</p></div>
+</dd>
+<dt id="statopy.statopy.ScalarStats.n_limit"><code class="name">var <span class="ident">n_limit</span></code></dt>
+<dd>
+<div class="desc"><p>Return an attribute of instance, which is of type owner.</p></div>
+</dd>
+<dt id="statopy.statopy.ScalarStats.skewness"><code class="name">var <span class="ident">skewness</span></code></dt>
+<dd>
+<div class="desc"></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">@property
+def skewness(self):
+    mm = cmath if self.use_cmath else math
+    if self.n &gt; 2:
+        return mm.sqrt(self.n) * self.mx3/(self.mx2**1.5)
+    else:
+        return None</code></pre>
+</details>
+</dd>
+<dt id="statopy.statopy.ScalarStats.stdev"><code class="name">var <span class="ident">stdev</span></code></dt>
+<dd>
+<div class="desc"></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">@property
+def stdev(self):
+    mm = cmath if self.use_cmath else math
+    if self.n &gt; 1:
+        return mm.sqrt(self.var)
+    else:
+        return None</code></pre>
+</details>
+</dd>
+<dt id="statopy.statopy.ScalarStats.use_cmath"><code class="name">var <span class="ident">use_cmath</span></code></dt>
+<dd>
+<div class="desc"><p>Return an attribute of instance, which is of type owner.</p></div>
+</dd>
+<dt id="statopy.statopy.ScalarStats.var"><code class="name">var <span class="ident">var</span></code></dt>
+<dd>
+<div class="desc"></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">@property
+def var(self):
+    if self.n &gt; 1:
+        return self.mx2/(self.n-1)
+    else:
+        return None</code></pre>
+</details>
+</dd>
+</dl>
+<h3>Methods</h3>
+<dl>
+<dt id="statopy.statopy.ScalarStats.consume"><code class="name flex">
+<span>def <span class="ident">consume</span></span>(<span>self, scalars)</span>
+</code></dt>
+<dd>
+<div class="desc"></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def consume(self,scalars):
+    for x in scalars:
+        self.update(x)</code></pre>
+</details>
+</dd>
+<dt id="statopy.statopy.ScalarStats.update"><code class="name flex">
+<span>def <span class="ident">update</span></span>(<span>self, x)</span>
+</code></dt>
+<dd>
+<div class="desc"></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def update(self,x):
+        n1 = self.n #n1 = n as it was before this sample
+        n = n1 + 1 #n = including this sample
+        d = x - self.mx #d = delta of sample from mean as mean was before this sample
+        dn = d/n #dn = delta scaled down by new n
+        dn2 = dn*dn # dn2 = square dn
+        t1 = d*dn*n1 # t1 = square delta times (n-1)/n
+        mx = self.mx + dn #mean update
+
+        minimum = self.min
+        if minimum is None or x &lt; minimum:
+            object.__setattr__(self,&#39;min&#39;,x)
+        maximum = self.max
+        if maximum is None or x &gt; maximum:
+            object.__setattr__(self,&#39;max&#39;,x)
+
+
+            #m2 = m1 + dn = m1 + d/n = m1 + (x-m1)/n = m1*(1-1/n) + x/n = m1*(n-1)/n + x/n = (m*(n-1)+x)/n
+            #m*(n-1) is the sum of all the previous samples
+
+        mx4 = self.mx4 + t1*dn2*(n*n-3*n+3) + 6 * dn2*self.mx2 - 4 *dn * self.mx3 #4th moment update
+        mx3 = self.mx3 + t1*dn*(n-2)-3*dn*self.mx2 #3rd moment update
+        mx2 = self.mx2 + t1 #2nd moment update
+
+
+        object.__setattr__(self,&#39;n&#39;,min(n,self.n_limit))
+        object.__setattr__(self,&#39;mx&#39;,mx)
+        object.__setattr__(self,&#39;mx2&#39;,mx2)
+        object.__setattr__(self,&#39;mx3&#39;,mx3)
+        object.__setattr__(self,&#39;mx4&#39;,mx4)</code></pre>
+</details>
+</dd>
+</dl>
+</dd>
+<dt id="statopy.statopy.VectorStats"><code class="flex name class">
+<span>class <span class="ident">VectorStats</span></span>
+<span>(</span><span>x_0=None, n_limit=None, default_cov=1)</span>
+</code></dt>
+<dd>
+<div class="desc"><p>Streaming/running/online calculation of mean and covariance matrix for vectors</p>
+<p>Configure dimensions using one sample with the configure() method.
+Incorporate subsequent samples with the update() method
+Requires numpy</p>
+<pre><code class="python-repl">&gt;&gt;&gt; from pydataset import data
+&gt;&gt;&gt; iris = data('iris')
+&gt;&gt;&gt; iris.cov()
+              Sepal.Length  Sepal.Width  Petal.Length  Petal.Width
+Sepal.Length      0.685694    -0.042434      1.274315     0.516271
+Sepal.Width      -0.042434     0.189979     -0.329656    -0.121639
+Petal.Length      1.274315    -0.329656      3.116278     1.295609
+Petal.Width       0.516271    -0.121639      1.295609     0.581006
+&gt;&gt;&gt; vecs = iris.to_numpy()[:,:-1].astype('float64')
+&gt;&gt;&gt; vs = VectorStats()
+&gt;&gt;&gt; vs.configure(vecs[0])
+&gt;&gt;&gt; for x in vecs[1:]:
+...  vs.update(x)
+... 
+</code></pre>
+<pre><code class="python-repl">&gt;&gt;&gt; vs.cov
+array([[ 0.68569351, -0.042434  ,  1.27431544,  0.51627069],
+       [-0.042434  ,  0.18997942, -0.32965638, -0.12163937],
+       [ 1.27431544, -0.32965638,  3.11627785,  1.2956094 ],
+       [ 0.51627069, -0.12163937,  1.2956094 ,  0.58100626]])
+</code></pre></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">class VectorStats():
+    &#34;&#34;&#34;
+    Streaming/running/online calculation of mean and covariance matrix for vectors
+
+    Configure dimensions using one sample with the configure() method.
+    Incorporate subsequent samples with the update() method
+    Requires numpy
+
+    &gt;&gt;&gt; from pydataset import data
+    &gt;&gt;&gt; iris = data(&#39;iris&#39;)
+    &gt;&gt;&gt; iris.cov()
+                  Sepal.Length  Sepal.Width  Petal.Length  Petal.Width
+    Sepal.Length      0.685694    -0.042434      1.274315     0.516271
+    Sepal.Width      -0.042434     0.189979     -0.329656    -0.121639
+    Petal.Length      1.274315    -0.329656      3.116278     1.295609
+    Petal.Width       0.516271    -0.121639      1.295609     0.581006
+    &gt;&gt;&gt; vecs = iris.to_numpy()[:,:-1].astype(&#39;float64&#39;)
+    &gt;&gt;&gt; vs = VectorStats()
+    &gt;&gt;&gt; vs.configure(vecs[0])
+    &gt;&gt;&gt; for x in vecs[1:]:
+    ...  vs.update(x)
+    ... 
+
+    &gt;&gt;&gt; vs.cov
+    array([[ 0.68569351, -0.042434  ,  1.27431544,  0.51627069],
+           [-0.042434  ,  0.18997942, -0.32965638, -0.12163937],
+           [ 1.27431544, -0.32965638,  3.11627785,  1.2956094 ],
+           [ 0.51627069, -0.12163937,  1.2956094 ,  0.58100626]])
+    &#34;&#34;&#34;
+    def __init__(self,x_0=None,n_limit=None,default_cov=1):
+        if x_0 is None:
+            self.make_empty()
+        else:
+            self.configure(x_0)
+        self.n_limit = np.inf
+        self.default_cov = default_cov
+    def make_empty(self,n_limit=None):
+        self.mean = self.cov = self.dim_x = None
+        self.n = 0
+        if n_limit is not None:
+            self.n_limit=n_limit #otherwise preserve previous value
+    @property
+    def is_empty(self):
+        return self.mean is None
+    def configure(self,x_0):
+        self.mean = x_0
+        self.dim_x = dim_x = x_0.shape[0]
+        self.cov = np.ones((dim_x,dim_x))*self.default_cov
+        self.n = 1
+    def update(self,x):
+        deviation = x - self.mean
+        plasticity = 1.0/(1+self.n)
+        rigidity = (self.n-1.0)/self.n
+        self.mean += deviation * plasticity
+        self.cov = self.cov * rigidity + (deviation * deviation.reshape((self.dim_x,1))) * plasticity
+        if self.n_limit is None:
+            self.n += 1
+        else:
+            self.n = min(self.n+1,self.n_limit)
+    def consume(self,vectors):
+        for x in vectors:
+            self.update(x)</code></pre>
+</details>
+<h3>Instance variables</h3>
+<dl>
+<dt id="statopy.statopy.VectorStats.is_empty"><code class="name">var <span class="ident">is_empty</span></code></dt>
+<dd>
+<div class="desc"></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">@property
+def is_empty(self):
+    return self.mean is None</code></pre>
+</details>
+</dd>
+</dl>
+<h3>Methods</h3>
+<dl>
+<dt id="statopy.statopy.VectorStats.configure"><code class="name flex">
+<span>def <span class="ident">configure</span></span>(<span>self, x_0)</span>
+</code></dt>
+<dd>
+<div class="desc"></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def configure(self,x_0):
+    self.mean = x_0
+    self.dim_x = dim_x = x_0.shape[0]
+    self.cov = np.ones((dim_x,dim_x))*self.default_cov
+    self.n = 1</code></pre>
+</details>
+</dd>
+<dt id="statopy.statopy.VectorStats.consume"><code class="name flex">
+<span>def <span class="ident">consume</span></span>(<span>self, vectors)</span>
+</code></dt>
+<dd>
+<div class="desc"></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def consume(self,vectors):
+    for x in vectors:
+        self.update(x)</code></pre>
+</details>
+</dd>
+<dt id="statopy.statopy.VectorStats.make_empty"><code class="name flex">
+<span>def <span class="ident">make_empty</span></span>(<span>self, n_limit=None)</span>
+</code></dt>
+<dd>
+<div class="desc"></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def make_empty(self,n_limit=None):
+    self.mean = self.cov = self.dim_x = None
+    self.n = 0
+    if n_limit is not None:
+        self.n_limit=n_limit #otherwise preserve previous value</code></pre>
+</details>
+</dd>
+<dt id="statopy.statopy.VectorStats.update"><code class="name flex">
+<span>def <span class="ident">update</span></span>(<span>self, x)</span>
+</code></dt>
+<dd>
+<div class="desc"></div>
+<details class="source">
+<summary>
+<span>Expand source code</span>
+</summary>
+<pre><code class="python">def update(self,x):
+    deviation = x - self.mean
+    plasticity = 1.0/(1+self.n)
+    rigidity = (self.n-1.0)/self.n
+    self.mean += deviation * plasticity
+    self.cov = self.cov * rigidity + (deviation * deviation.reshape((self.dim_x,1))) * plasticity
+    if self.n_limit is None:
+        self.n += 1
+    else:
+        self.n = min(self.n+1,self.n_limit)</code></pre>
+</details>
+</dd>
+</dl>
+</dd>
+</dl>
+</section>
+</article>
+<nav id="sidebar">
+<h1>Index</h1>
+<div class="toc">
+<ul></ul>
+</div>
+<ul id="index">
+<li><h3>Super-module</h3>
+<ul>
+<li><code><a title="statopy" href="index.html">statopy</a></code></li>
+</ul>
+</li>
+<li><h3><a href="#header-classes">Classes</a></h3>
+<ul>
+<li>
+<h4><code><a title="statopy.statopy.ScalarProbModel" href="#statopy.statopy.ScalarProbModel">ScalarProbModel</a></code></h4>
+<ul class="">
+<li><code><a title="statopy.statopy.ScalarProbModel.plot_cdf" href="#statopy.statopy.ScalarProbModel.plot_cdf">plot_cdf</a></code></li>
+<li><code><a title="statopy.statopy.ScalarProbModel.plot_pdf" href="#statopy.statopy.ScalarProbModel.plot_pdf">plot_pdf</a></code></li>
+<li><code><a title="statopy.statopy.ScalarProbModel.plot_scatter" href="#statopy.statopy.ScalarProbModel.plot_scatter">plot_scatter</a></code></li>
+<li><code><a title="statopy.statopy.ScalarProbModel.rvs" href="#statopy.statopy.ScalarProbModel.rvs">rvs</a></code></li>
+</ul>
+</li>
+<li>
+<h4><code><a title="statopy.statopy.ScalarRegression" href="#statopy.statopy.ScalarRegression">ScalarRegression</a></code></h4>
+<ul class="two-column">
+<li><code><a title="statopy.statopy.ScalarRegression.consume" href="#statopy.statopy.ScalarRegression.consume">consume</a></code></li>
+<li><code><a title="statopy.statopy.ScalarRegression.corr" href="#statopy.statopy.ScalarRegression.corr">corr</a></code></li>
+<li><code><a title="statopy.statopy.ScalarRegression.cov" href="#statopy.statopy.ScalarRegression.cov">cov</a></code></li>
+<li><code><a title="statopy.statopy.ScalarRegression.intercept" href="#statopy.statopy.ScalarRegression.intercept">intercept</a></code></li>
+<li><code><a title="statopy.statopy.ScalarRegression.n" href="#statopy.statopy.ScalarRegression.n">n</a></code></li>
+<li><code><a title="statopy.statopy.ScalarRegression.n_limit" href="#statopy.statopy.ScalarRegression.n_limit">n_limit</a></code></li>
+<li><code><a title="statopy.statopy.ScalarRegression.slope" href="#statopy.statopy.ScalarRegression.slope">slope</a></code></li>
+<li><code><a title="statopy.statopy.ScalarRegression.sxy" href="#statopy.statopy.ScalarRegression.sxy">sxy</a></code></li>
+<li><code><a title="statopy.statopy.ScalarRegression.update" href="#statopy.statopy.ScalarRegression.update">update</a></code></li>
+<li><code><a title="statopy.statopy.ScalarRegression.use_cmath" href="#statopy.statopy.ScalarRegression.use_cmath">use_cmath</a></code></li>
+<li><code><a title="statopy.statopy.ScalarRegression.xs" href="#statopy.statopy.ScalarRegression.xs">xs</a></code></li>
+<li><code><a title="statopy.statopy.ScalarRegression.ys" href="#statopy.statopy.ScalarRegression.ys">ys</a></code></li>
+</ul>
+</li>
+<li>
+<h4><code><a title="statopy.statopy.ScalarStats" href="#statopy.statopy.ScalarStats">ScalarStats</a></code></h4>
+<ul class="two-column">
+<li><code><a title="statopy.statopy.ScalarStats.consume" href="#statopy.statopy.ScalarStats.consume">consume</a></code></li>
+<li><code><a title="statopy.statopy.ScalarStats.kurtosis" href="#statopy.statopy.ScalarStats.kurtosis">kurtosis</a></code></li>
+<li><code><a title="statopy.statopy.ScalarStats.max" href="#statopy.statopy.ScalarStats.max">max</a></code></li>
+<li><code><a title="statopy.statopy.ScalarStats.mean" href="#statopy.statopy.ScalarStats.mean">mean</a></code></li>
+<li><code><a title="statopy.statopy.ScalarStats.min" href="#statopy.statopy.ScalarStats.min">min</a></code></li>
+<li><code><a title="statopy.statopy.ScalarStats.mx" href="#statopy.statopy.ScalarStats.mx">mx</a></code></li>
+<li><code><a title="statopy.statopy.ScalarStats.mx2" href="#statopy.statopy.ScalarStats.mx2">mx2</a></code></li>
+<li><code><a title="statopy.statopy.ScalarStats.mx3" href="#statopy.statopy.ScalarStats.mx3">mx3</a></code></li>
+<li><code><a title="statopy.statopy.ScalarStats.mx4" href="#statopy.statopy.ScalarStats.mx4">mx4</a></code></li>
+<li><code><a title="statopy.statopy.ScalarStats.n" href="#statopy.statopy.ScalarStats.n">n</a></code></li>
+<li><code><a title="statopy.statopy.ScalarStats.n_limit" href="#statopy.statopy.ScalarStats.n_limit">n_limit</a></code></li>
+<li><code><a title="statopy.statopy.ScalarStats.skewness" href="#statopy.statopy.ScalarStats.skewness">skewness</a></code></li>
+<li><code><a title="statopy.statopy.ScalarStats.stdev" href="#statopy.statopy.ScalarStats.stdev">stdev</a></code></li>
+<li><code><a title="statopy.statopy.ScalarStats.update" href="#statopy.statopy.ScalarStats.update">update</a></code></li>
+<li><code><a title="statopy.statopy.ScalarStats.use_cmath" href="#statopy.statopy.ScalarStats.use_cmath">use_cmath</a></code></li>
+<li><code><a title="statopy.statopy.ScalarStats.var" href="#statopy.statopy.ScalarStats.var">var</a></code></li>
+</ul>
+</li>
+<li>
+<h4><code><a title="statopy.statopy.VectorStats" href="#statopy.statopy.VectorStats">VectorStats</a></code></h4>
+<ul class="">
+<li><code><a title="statopy.statopy.VectorStats.configure" href="#statopy.statopy.VectorStats.configure">configure</a></code></li>
+<li><code><a title="statopy.statopy.VectorStats.consume" href="#statopy.statopy.VectorStats.consume">consume</a></code></li>
+<li><code><a title="statopy.statopy.VectorStats.is_empty" href="#statopy.statopy.VectorStats.is_empty">is_empty</a></code></li>
+<li><code><a title="statopy.statopy.VectorStats.make_empty" href="#statopy.statopy.VectorStats.make_empty">make_empty</a></code></li>
+<li><code><a title="statopy.statopy.VectorStats.update" href="#statopy.statopy.VectorStats.update">update</a></code></li>
+</ul>
+</li>
+</ul>
+</li>
+</ul>
+</nav>
+</main>
+<footer id="footer">
+<p>Generated by <a href="https://pdoc3.github.io/pdoc"><cite>pdoc</cite> 0.9.2</a>.</p>
+</footer>
+</body>
+</html>
