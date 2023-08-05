@@ -1,0 +1,6 @@
+setup.py
+agama.egg-info/PKG-INFO
+agama.egg-info/SOURCES.txt
+agama.egg-info/dependency_links.txt
+agama.egg-info/not-zip-safe
+agama.egg-info/top_level.txt
