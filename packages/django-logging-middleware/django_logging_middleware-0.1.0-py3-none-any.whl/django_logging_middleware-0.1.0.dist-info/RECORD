@@ -1,0 +1,9 @@
+logging_middleware/__init__.py,sha256=Ybk96cZjPAL3QZq6W4qMXanEDHRU7IqxVOkG4SaOGUc,52
+logging_middleware/checks.py,sha256=ZMmvkFICm721uqeHUXGHGqk1ILlBrVsnMcln8swSrBY,166
+logging_middleware/middlewares.py,sha256=En60iUuqbjpt736-QScN-GPEhbsHftG_yoo9hNVcZ-0,1307
+logging_middleware/settings.py,sha256=C66-Z0S9vjh7TDRBRC2LMmcL4ipaa0_w7j4_S2-DC4o,1677
+django_logging_middleware-0.1.0.dist-info/LICENSE,sha256=DlGkrve-pG66HuswiTEG_AdLrwGkW_pZQC37g93Q870,1060
+django_logging_middleware-0.1.0.dist-info/METADATA,sha256=zxNdhpBxyarkgWfiq0mUIi40UWuOoqkQVQoV5TM7k0A,3413
+django_logging_middleware-0.1.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+django_logging_middleware-0.1.0.dist-info/top_level.txt,sha256=b1PNkdQozpW3ltjwpB8SnldNy8Lff2rXSPLtmmQwmRA,19
+django_logging_middleware-0.1.0.dist-info/RECORD,,
