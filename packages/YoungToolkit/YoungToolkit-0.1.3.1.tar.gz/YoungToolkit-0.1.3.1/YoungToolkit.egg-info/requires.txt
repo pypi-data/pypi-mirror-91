@@ -1,0 +1,15 @@
+visdom
+pyhocon
+
+[full]
+numpy
+torch
+pynvml
+
+[nv-io]
+torch
+
+[nv-track]
+numpy
+torch
+pynvml
