@@ -1,0 +1,3 @@
+[console_scripts]
+ttcv_sample = ttcv.samples.select_sample:run
+

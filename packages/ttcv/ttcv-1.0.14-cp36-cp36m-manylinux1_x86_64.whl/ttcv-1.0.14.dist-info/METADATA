@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: ttcv
+Version: 1.0.14
+Summary: An AI picking package
+Home-page: https://github.com/mtbui2010
+Author: Trung M. Bui
+Author-email: bmtrungvp@gmail.com
+License: MIT
+Keywords: AI,VISION,UTILITY
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+Requires-Dist: opencv-python
+Requires-Dist: scipy
+Requires-Dist: matplotlib
+
+# VisionUtils
+
+## Installation
+```sh
+cd $ROOT
+python3 -m pip install -e .
+```
+
+## Usage
+```sh
+from ttcv.sensor.realsense_sensor import get_realsense_modules     	# for get realsense
+
+from ttcv.basic.basic_objects import BasObj            			# an example  module
+class  TestModule(BasObj):
+def load_params(self, args):
+    super().load_params(args=args)
+    # your initalization here
+def gui_run_module(self, inputs=None, method_ind=0):
+    if method==0: print('{} method 1 run ...'.format('+'*10))
+
+from ttcv.gui.basic_gui import GuiModule, BasGUI			# call GUI
+amodule = GuiModule(module=TestModule, type='test_module', name='Test Module', num_method=1)
+BasGUI(title='test GUI', modules=[amodule] + get_realsense_modules())
+```
+
+
