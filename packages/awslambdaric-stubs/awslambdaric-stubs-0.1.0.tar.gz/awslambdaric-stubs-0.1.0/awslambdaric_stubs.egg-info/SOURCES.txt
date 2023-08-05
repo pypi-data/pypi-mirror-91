@@ -1,0 +1,8 @@
+README.md
+setup.py
+awslambdaric-stubs/__init__.pyi
+awslambdaric-stubs/lambda_context.pyi
+awslambdaric_stubs.egg-info/PKG-INFO
+awslambdaric_stubs.egg-info/SOURCES.txt
+awslambdaric_stubs.egg-info/dependency_links.txt
+awslambdaric_stubs.egg-info/top_level.txt
