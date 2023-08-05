@@ -1,0 +1,51 @@
+Metadata-Version: 2.1
+Name: hypothesis-asn1
+Version: 0.0.1
+Summary: Generate test data from ASN.1 descriptions with Hypothesis
+Home-page: https://github.com/Zac-HD/hypothesis-asn1
+Author: Zac Hatfield-Dodds
+Author-email: zac@zhd.dev
+License: MPL 2.0
+Keywords: python testing fuzzing property-based-testing ASN.1
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Framework :: Hypothesis
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Mozilla Public License 2.0 (MPL 2.0)
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Software Development :: Testing
+Classifier: Typing :: Typed
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: hypothesis (>=6.0.0)
+Requires-Dist: pyasn1 (>=0.4.8)
+
+# hypothesis-asn1
+
+A [Hypothesis](https://hypothesis.readthedocs.io) strategy for generating data
+that matches some [ASN.1 format](https://en.wikipedia.org/wiki/ASN.1).
+
+[Here's the PyPI page](https://pypi.org/project/hypothesis-asn1/) and
+[the GitHub repo](https://github.com/Zac-HD/hypothesis-asn1).
+
+## API
+
+`hypothesis-asn1` is in the planning stages, so there is no public API yet.
+
+## Supported versions
+
+`hypothesis-asn1` requires Python 3.6 or later.
+In general, 0.x versions will require very recent versions of all dependencies
+because I don't want to deal with compatibility workarounds.
+
+
+## Changelog
+
+Patch notes [can be found in `CHANGELOG.md`](https://github.com/Zac-HD/hypothesis-asn1/blob/master/CHANGELOG.md).
+
+
