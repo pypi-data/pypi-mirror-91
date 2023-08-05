@@ -1,0 +1,15 @@
+speechlight/__init__.py,sha256=88Ck1UoBLywhP5BWh-lyWRpxaK_IzjV-IvRGoGi9P9Y,886
+speechlight/base.py,sha256=bVRKhzMqzcxZgnTzpDjU_vkpwLTETPOJe2QAO1TRm_k,1287
+speechlight/darwin.py,sha256=wkoL-oUlwyQkpUfNRJMojs-qsCL4mTgGuhIiZhcD8Rw,1041
+speechlight/dummy.py,sha256=eRJoDN6FPsLIMJS0jAWzhkW7I9UXUfHWsgVgI2Wirn8,763
+speechlight/utils.py,sha256=U85feMlnrHKi3G05KU1nraCxnXBiXyIL73iD_cWUEsA,1622
+speechlight/windows.py,sha256=YlkHweyyJOeGeoJkl54UguQXD1qr0kpST8I-dMSKU2k,7918
+speechlight/speech_libs/SAAPI32.dll,sha256=IGqwVvf1YZodcFz9z1kcBhivPg6k5HyJfD90PWx2zYo,77792
+speechlight/speech_libs/SAAPI64.dll,sha256=XnJW3khvqR9f19PTZQ5_bmC3W2pgsJUlrYysDUvOKas,85984
+speechlight/speech_libs/nvdaControllerClient32.dll,sha256=oNGTiD3Pvq5uaaoAoMWqUqGUsaJlYXuPkg0MfUFkxYc,132608
+speechlight/speech_libs/nvdaControllerClient64.dll,sha256=QcH131mX55j8-_fI8lid6BHnaLBppgcQYAz1fLI6Cwk,153600
+Speechlight-1.2.dist-info/LICENSE.txt,sha256=JoTeFzAOCkNGhvHsf4r2BFIHpLRXo_4EsrnOZV58XVA,17098
+Speechlight-1.2.dist-info/METADATA,sha256=EF8piKpeh7mKB1iv87qEVaJ3uIYNBh4rYnNJ1Hqi2A0,1929
+Speechlight-1.2.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+Speechlight-1.2.dist-info/top_level.txt,sha256=pF3EFDRUXEkGPbWBXXLwkynKlRZMvPRMzxGqsL8dbcQ,12
+Speechlight-1.2.dist-info/RECORD,,
