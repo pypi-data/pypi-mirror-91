@@ -1,0 +1,68 @@
+Metadata-Version: 2.1
+Name: vl6180x-multi
+Version: 1.0.1
+Summary: Multiple VL6180X time of flight distance sensors on the same I2C bus.
+Home-page: https://gitlab.com/vitus133/vl6180x_multi
+Author: Vitaly Grinberg
+Author-email: vtalikgr@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: Adafruit-Blinka
+Requires-Dist: adafruit-circuitpython-busdevice
+Requires-Dist: adafruit-circuitpython-lis3dh
+Requires-Dist: adafruit-circuitpython-vl6180x
+Requires-Dist: Adafruit-PlatformDetect
+Requires-Dist: Adafruit-PureIO
+Requires-Dist: pigpio
+Requires-Dist: pkg-resources
+Requires-Dist: pyftdi
+Requires-Dist: pyusb
+Requires-Dist: rpi-ws281x
+Requires-Dist: RPi.GPIO
+Requires-Dist: sysv-ipc
+
+# __Multiple VL6180X sensors on the same I2C bus__
+
+# Introduction
+
+This module allows operating several VL6180X Time Of Flight sensors on the same I2C bus. This is achieved by reallocating each sensor' address.
+The project is intended to run on RaspberryPi. Specifically, it was tested on RaspberryPi 4 with Python 3.7
+
+# Prerequisites
+The example below is using Raspberry PI default I2C bus and two GPIOs to control two sensors:
+
+<img src="images/connections.png">
+
+# Running the example
+1. Clone the repository:
+```bash
+git clone https://gitlab.com/vitus133/vl6180x_multi && cd vl6180x_multi
+```
+2. Create and activate Python virtual environment, install dependencies:
+```bash
+python3 -m venv venv
+source venv/bin/activate
+pip install -r requirements.txt
+
+```
+3. Install the package
+```bash
+pip install -e .
+```
+4. Run the example
+```bash
+cd example/
+python range.py
+```
+
+
+
+
+
+
+
