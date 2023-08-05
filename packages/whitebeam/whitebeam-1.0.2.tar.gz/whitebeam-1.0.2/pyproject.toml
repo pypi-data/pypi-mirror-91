@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "whitebeam"
+version = "1.0.2"
+description = "Whitebeam is a framework for creating decision tree functions."
+authors = ["K-Molloy <kieran.b.molloy@outlook.com>"]
+build = 'build.py'
+
+[tool.poetry.dependencies]
+python = "^3.7"
+numpy = "^1.19.5"
+Cython = "^0.29.21"
+joblib = "^1.0.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0", "cython"]
+build-backend = "poetry.core.masonry.api"
