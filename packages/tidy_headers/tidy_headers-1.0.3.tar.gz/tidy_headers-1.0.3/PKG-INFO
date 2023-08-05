@@ -1,0 +1,7 @@
+Metadata-Version: 1.1
+Name: tidy_headers
+Version: 1.0.3
+Summary: Easy headers, inspired by the tidy data specification.
+Home-page: https://github.com/untzag/tidy_headers
+Author: Blaise Thompson
+Author-email: blaise@untzag.com
