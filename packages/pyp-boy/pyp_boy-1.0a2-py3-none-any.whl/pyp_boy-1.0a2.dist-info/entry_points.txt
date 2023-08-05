@@ -1,0 +1,3 @@
+[console_scripts]
+pyp-boy=pyp_boy.main:run_gui
+

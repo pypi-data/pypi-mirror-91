@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: pyp-boy
+Version: 1.0a2
+Summary: Python-based program to assist with Fallout hacking. With a GUI!
+License: WTFPL
+Author: Taylor-Jayde Blackstone
+Author-email: t.blackstone@inspyre.tech
+Requires-Python: >=3.7,<4.0
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: PySimpleGUI (>=4.32.1,<5.0.0)
+Requires-Dist: RandomWords (>=0.3.0,<0.4.0)
+Requires-Dist: inspy-logger (==2.0-a3)
+Requires-Dist: inspyre-toolbox (>=1.0a2,<2.0)
+Project-URL: Bug Tracking, https://github.com/tayjaybabee/pyp_boy/issues?q=is%3Aissue+is%3Aopen+sort%3Aupdated-desc
+Project-URL: Developer Website, https://softworks.inspyre.tech
+Project-URL: Github, https://github.com/tayjaybabee/pyp_boy
