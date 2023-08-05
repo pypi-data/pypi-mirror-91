@@ -1,0 +1,10 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+Tunapy.egg-info/PKG-INFO
+Tunapy.egg-info/SOURCES.txt
+Tunapy.egg-info/dependency_links.txt
+Tunapy.egg-info/entry_points.txt
+Tunapy.egg-info/top_level.txt
