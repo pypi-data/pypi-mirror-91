@@ -1,0 +1,208 @@
+Metadata-Version: 2.1
+Name: log_everywhere
+Version: 0.0.0
+Summary: Logging package to enable writing all program information with corresponding datetime to multiple, DIFFERENT files safely when running multiple threads (multi-threading).
+Home-page: https://github.com/Shail-Shouryya/log_everywhere
+Author: Shail-Shouryya
+Author-email: yt.videos.list@gmail.com
+License: Apache License 2.0
+Project-URL: Bug Reports, https://github.com/Shail-Shouryya/log_everywhere/issues
+Project-URL: PyPi Funding, https://donate.pypi.org
+Project-URL: Source, https://github.com/Shail-Shouryya/log_everywhere
+Project-URL: Pull requests, https://github.com/Shail-Shouryya/log_everywhere/pulls
+Project-URL: Issues, https://github.com/Shail-Shouryya/log_everywhere/issues
+Project-URL: Code, https://github.com/Shail-Shouryya/log_everywhere/tree/main/python
+Description: # log_everywhere Python API
+        
+        <p align="center">
+          <a href="https://github.com/Shail-Shouryya/log_everywhere/blob/master/LICENSE"><img alt="GitHub license" src="https://img.shields.io/github/license/Shail-Shouryya/log_everywhere?color=yellow&labelColor=black"></a>
+          <a href="https://docs.python.org/3/index.html">    <img src="https://img.shields.io/badge/python-3.6%2B-blue?labelColor=black"/></a>
+          <a href="https://www.python.org/dev/peps/pep-0008"><img src="https://img.shields.io/badge/code%20style-PEP8-yellow.svg?labelColor=black"/></a>
+          <a href="https://github.com/Shail-Shouryya/log_everywhere/stargazers"><img alt="GitHub stars" src="https://img.shields.io/github/stars/Shail-Shouryya/log_everywhere?color=blue&labelColor=black"></a>
+          <a href="https://github.com/Shail-Shouryya/log_everywhere/network"><img alt="GitHub forks" src="https://img.shields.io/github/forks/Shail-Shouryya/log_everywhere?color=yellow&labelColor=black"></a>
+          <br>
+          <a href="https://badge.fury.io/py/log-everywhere"><img src="https://badge.fury.io/py/log-everywhere.svg" alt="PyPI version" height="20"></a>
+          <br>
+          <a href="https://pypi.org/project/log-everywhere/"><img alt="PyPI - Wheel" src="https://img.shields.io/pypi/wheel/log_everywhere?labelColor=black&label=PyPI%20-%20Wheel"></a>
+          <a href="https://pypi.org/project/log-everywhere/#files/"><img alt="PyPI - Format" src="https://img.shields.io/pypi/format/log_everywhere?labelColor=black&label=PyPI%20-%20Format"></a>
+          <a href="https://pypi.org/project/log-everywhere/#history/"><img alt="PyPI - Status" src="https://img.shields.io/pypi/status/log_everywhere?labelColor=black&label=PyPI%20-%20Status"></a>
+          <br>
+          <a href="https://pypi.org/project/log-everywhere/"><img alt="PyPI - Implementation" src="https://img.shields.io/pypi/implementation/log_everywhere?labelColor=black&label=PyPI%20-%20Implementation"></a>
+          <a href="https://pypi.org/project/log-everywhere/"><img alt="PyPI - Python Version" src="https://img.shields.io/pypi/pyversions/log_everywhere?labelColor=black&label=PyPI%20-%20Python%20Version"></a>
+          <br>
+          <a href="https://codebeat.co/projects/github-com-shail-shouryya-log_everywhere-master"><img src="https://codebeat.co/badges/46b103ed-da79-4893-96af-ce95c9149532" alt="codebeat badge"/></a>
+        </p>
+        
+        <details>
+          <summary><b>Usage Statistics</b></summary>
+        
+        - [PePy](https://pepy.tech/project/log-everywhere)
+        - [PyPi Stats](https://pypistats.org/packages/log-everywhere)
+        </details>
+        <p>
+          <a href="https://pypistats.org/packages/log-everywhere"><img alt="PyPI - Daily Downloads" src="https://img.shields.io/pypi/dd/log_everywhere?labelColor=black&color=blue&label=PyPI%20downloads"></a>
+          <br>
+          <a href="https://pypistats.org/packages/log-everywhere"><img alt="PyPI - Weekly Downloads" src="https://img.shields.io/pypi/dw/log_everywhere?labelColor=black&color=yellow&label=PyPI%20downloads"></a>
+          <a href="https://pepy.tech/project/log-everywhere"><img alt="PePY Weekly Downloads" src="https://static.pepy.tech/personalized-badge/log-everywhere?period=week&units=international_system&left_color=black&right_color=blue&left_text=PePY%20Downloads/week"></a>
+          <br>
+          <a href="https://pypistats.org/packages/log-everywhere"><img alt="PyPI - Monthly Downloads" src="https://img.shields.io/pypi/dm/log_everywhere?labelColor=black&color=blue&label=PyPI%20downloads"></a>
+          <a href="https://pepy.tech/project/log-everywhere"><img alt="PePY Monthly Downloads" src="https://static.pepy.tech/personalized-badge/log-everywhere?period=month&units=international_system&left_color=black&right_color=yellow&left_text=PePY%20Downloads/month"></a>
+          <br>
+          <a href="https://pepy.tech/project/log-everywhere"><img alt="PePY Total Downloads" src="https://static.pepy.tech/personalized-badge/log-everywhere?period=total&units=international_system&left_color=black&right_color=yellow&left_text=PePY%20Downloads%20Total"></a>
+        </p>
+        
+Keywords: logging logger threading multi-threading datetime time archiving tracing debugging tracer debugger automation csv txt markdown md YouTube videos URL scraping Selenium macos windows linux
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: Free for non-commercial use
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Topic :: Internet :: Log Analysis
+Classifier: Topic :: System :: Logging
+Classifier: Environment :: Console
+Classifier: Environment :: MacOS X
+Classifier: Environment :: Plugins
+Classifier: Environment :: Web Environment
+Classifier: Environment :: Web Environment :: Mozilla
+Classifier: Environment :: Win32 (MS Windows)
+Classifier: Intended Audience :: Customer Service
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Financial and Insurance Industry
+Classifier: Intended Audience :: Healthcare Industry
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: Legal Industry
+Classifier: Intended Audience :: Manufacturing
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: System Administrators
+Classifier: Intended Audience :: Telecommunications Industry
+Classifier: Natural Language :: English
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft
+Classifier: Operating System :: Microsoft :: MS-DOS
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: Operating System :: OS Independent
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: POSIX :: AIX
+Classifier: Operating System :: POSIX :: BSD
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: Unix
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Communications
+Classifier: Topic :: Communications :: BBS
+Classifier: Topic :: Communications :: Chat
+Classifier: Topic :: Communications :: Chat :: Unix Talk
+Classifier: Topic :: Communications :: Conferencing
+Classifier: Topic :: Communications :: Email
+Classifier: Topic :: Communications :: File Sharing
+Classifier: Topic :: Database
+Classifier: Topic :: Database :: Front-Ends
+Classifier: Topic :: Documentation
+Classifier: Topic :: Education :: Testing
+Classifier: Topic :: Home Automation
+Classifier: Topic :: Internet
+Classifier: Topic :: Internet :: File Transfer Protocol (FTP)
+Classifier: Topic :: Internet :: Finger
+Classifier: Topic :: Internet :: Name Service (DNS)
+Classifier: Topic :: Internet :: Proxy Servers
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Internet :: WWW/HTTP :: Browsers
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content :: CGI Tools/Libraries
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content :: Content Management System
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content :: Message Boards
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content :: News/Diary
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content :: Page Counters
+Classifier: Topic :: Internet :: WWW/HTTP :: HTTP Servers
+Classifier: Topic :: Internet :: WWW/HTTP :: Indexing/Search
+Classifier: Topic :: Internet :: WWW/HTTP :: Session
+Classifier: Topic :: Internet :: WWW/HTTP :: Site Management
+Classifier: Topic :: Internet :: WWW/HTTP :: Site Management :: Link Checking
+Classifier: Topic :: Internet :: WWW/HTTP :: WSGI :: Middleware
+Classifier: Topic :: Multimedia
+Classifier: Topic :: Multimedia :: Graphics :: 3D Modeling
+Classifier: Topic :: Multimedia :: Graphics :: 3D Rendering
+Classifier: Topic :: Multimedia :: Graphics :: Capture
+Classifier: Topic :: Multimedia :: Graphics :: Capture :: Digital Camera
+Classifier: Topic :: Multimedia :: Graphics :: Capture :: Scanners
+Classifier: Topic :: Multimedia :: Graphics :: Capture :: Screen Capture
+Classifier: Topic :: Multimedia :: Graphics :: Presentation
+Classifier: Topic :: Multimedia :: Graphics :: Viewers
+Classifier: Topic :: Multimedia :: Sound/Audio
+Classifier: Topic :: Multimedia :: Sound/Audio :: Analysis
+Classifier: Topic :: Multimedia :: Sound/Audio :: Capture/Recording
+Classifier: Topic :: Multimedia :: Sound/Audio :: Conversion
+Classifier: Topic :: Multimedia :: Sound/Audio :: Sound Synthesis
+Classifier: Topic :: Multimedia :: Sound/Audio :: Speech
+Classifier: Topic :: Multimedia :: Video :: Capture
+Classifier: Topic :: Office/Business
+Classifier: Topic :: Office/Business :: Financial
+Classifier: Topic :: Office/Business :: Financial :: Accounting
+Classifier: Topic :: Office/Business :: Financial :: Investment
+Classifier: Topic :: Office/Business :: Financial :: Point-Of-Sale
+Classifier: Topic :: Office/Business :: Financial :: Spreadsheet
+Classifier: Topic :: Office/Business :: Groupware
+Classifier: Topic :: Office/Business :: News/Diary
+Classifier: Topic :: Office/Business :: Scheduling
+Classifier: Topic :: Printing
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Information Analysis
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Bug Tracking
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: Topic :: Software Development :: Debuggers
+Classifier: Topic :: Software Development :: Documentation
+Classifier: Topic :: Software Development :: Internationalization
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Application Frameworks
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Software Development :: Localization
+Classifier: Topic :: Software Development :: Quality Assurance
+Classifier: Topic :: Software Development :: Testing
+Classifier: Topic :: Software Development :: Testing :: Acceptance
+Classifier: Topic :: Software Development :: Testing :: Mocking
+Classifier: Topic :: Software Development :: Testing :: Traffic Generation
+Classifier: Topic :: Software Development :: Testing :: Unit
+Classifier: Topic :: Software Development :: Version Control :: Git
+Classifier: Topic :: System
+Classifier: Topic :: System :: Archiving
+Classifier: Topic :: System :: Archiving :: Backup
+Classifier: Topic :: System :: Benchmark
+Classifier: Topic :: System :: Boot
+Classifier: Topic :: System :: Distributed Computing
+Classifier: Topic :: System :: Filesystems
+Classifier: Topic :: System :: Hardware :: Symmetric Multi-processing
+Classifier: Topic :: System :: Installation/Setup
+Classifier: Topic :: System :: Monitoring
+Classifier: Topic :: System :: Networking
+Classifier: Topic :: System :: Networking :: Firewalls
+Classifier: Topic :: System :: Networking :: Monitoring
+Classifier: Topic :: System :: Networking :: Monitoring :: Hardware Watchdog
+Classifier: Topic :: System :: Networking :: Time Synchronization
+Classifier: Topic :: System :: Operating System
+Classifier: Topic :: System :: Recovery Tools
+Classifier: Topic :: System :: Shells
+Classifier: Topic :: System :: Software Distribution
+Classifier: Topic :: System :: System Shells
+Classifier: Topic :: System :: Systems Administration
+Classifier: Topic :: Text Editors :: Documentation
+Classifier: Topic :: Text Editors :: Text Processing
+Classifier: Topic :: Text Editors :: Word Processors
+Classifier: Topic :: Text Processing
+Classifier: Topic :: Text Processing :: Filters
+Classifier: Topic :: Text Processing :: Fonts
+Classifier: Topic :: Text Processing :: General
+Classifier: Topic :: Text Processing :: Indexing
+Classifier: Topic :: Text Processing :: Linguistic
+Classifier: Topic :: Text Processing :: Markup
+Classifier: Topic :: Text Processing :: Markup :: HTML
+Classifier: Topic :: Utilities
+Requires-Python: >=3.6.*, <4
+Description-Content-Type: text/markdown
