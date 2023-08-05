@@ -1,0 +1,3 @@
+[console_scripts]
+ocio-lut-prescription = ocio_lut_prescription.__main__:main
+

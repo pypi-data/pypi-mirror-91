@@ -1,0 +1,13 @@
+ocio_lut_prescription/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ocio_lut_prescription/__main__.py,sha256=efIdXn2tSUM9LRObfVvJADRkdNAvf2FCP8OVulPHZcE,6456
+ocio_lut_prescription/core/__init__.py,sha256=30qYsCdRliXCtCu1Y-bV2QCnnbyFNo87xTPf0MOFKpY,1500
+ocio_lut_prescription/core/ocio.py,sha256=TiJbn2Z8eKxpVIUvnDSrfeXj26XFOKow1fC01rKzzTk,1097
+ocio_lut_prescription/core/ui.py,sha256=SsyfAsP4xYHPkCyuNXAGE2S4BnWveDAvhQlywRKatww,17428
+ocio_lut_prescription/ui/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ocio_lut_prescription/ui/qrc.py,sha256=9plo9oOcMv5mnzYu9zv5o17NaMCdYhEL4cL-Ebq5qNM,8696
+ocio_lut_prescription-1.0.1.dist-info/LICENSE,sha256=er02bioepJ2Le3sv5Y3wfOgKBseT4Vs-8UyX-lbpTc4,1080
+ocio_lut_prescription-1.0.1.dist-info/METADATA,sha256=tYYu1OUZM72v2gEi-ovJGU3M72wR0ZCTgSiAuPrSl1I,2421
+ocio_lut_prescription-1.0.1.dist-info/WHEEL,sha256=Z-nyYpwrcSqxfdux5Mbn_DQ525iP7J2DG3JgGvOYyTQ,110
+ocio_lut_prescription-1.0.1.dist-info/entry_points.txt,sha256=YUp3zbGloeeirPYKLKozbabXw5Ka7AbF2qrwCQxOh04,79
+ocio_lut_prescription-1.0.1.dist-info/top_level.txt,sha256=BAeljQ1haNvUJx7LXwEZtIbgFAt_sPNR1P8Jce3wzzo,22
+ocio_lut_prescription-1.0.1.dist-info/RECORD,,
