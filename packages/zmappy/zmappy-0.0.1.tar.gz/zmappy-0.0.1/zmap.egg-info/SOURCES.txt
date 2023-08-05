@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENSE.txt
+MANIFEST.in
+README.txt
+setup.py
+zmap/__init__.py
+zmap.egg-info/PKG-INFO
+zmap.egg-info/SOURCES.txt
+zmap.egg-info/dependency_links.txt
+zmap.egg-info/top_level.txt
