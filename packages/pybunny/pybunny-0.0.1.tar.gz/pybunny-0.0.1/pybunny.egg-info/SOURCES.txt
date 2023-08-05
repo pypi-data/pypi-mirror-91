@@ -1,0 +1,12 @@
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+pybunny/__init__.py
+pybunny/bunny.py
+pybunny.egg-info/PKG-INFO
+pybunny.egg-info/SOURCES.txt
+pybunny.egg-info/dependency_links.txt
+pybunny.egg-info/not-zip-safe
+pybunny.egg-info/requires.txt
+pybunny.egg-info/top_level.txt
