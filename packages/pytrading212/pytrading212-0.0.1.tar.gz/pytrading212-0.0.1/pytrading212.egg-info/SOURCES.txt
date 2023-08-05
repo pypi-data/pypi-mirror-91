@@ -1,0 +1,7 @@
+README.md
+setup.py
+pytrading212.egg-info/PKG-INFO
+pytrading212.egg-info/SOURCES.txt
+pytrading212.egg-info/dependency_links.txt
+pytrading212.egg-info/requires.txt
+pytrading212.egg-info/top_level.txt
