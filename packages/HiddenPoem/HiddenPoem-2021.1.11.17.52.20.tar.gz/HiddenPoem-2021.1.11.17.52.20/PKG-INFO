@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: HiddenPoem
+Version: 2021.1.11.17.52.20
+Summary: description
+Home-page: https://github.com/Jie-Yuan/HiddenPoem
+Author: YuanJie
+Author-email: 313303303@qq.com
+Maintainer: JieYuan
+Maintainer-email: 313303303@qq.com
+License: Apache
+Description: - **Install**
+        ```bash
+        pip install poetry
+        ```
+        - **Shell**
+        
+        ![shell][1]
+        
+        - **Python**
+        
+        ![python][2]
+        
+        
+Keywords: tool wheel,yuanjie,utils
+Platform: all
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: Implementation
+Description-Content-Type: text/markdown
