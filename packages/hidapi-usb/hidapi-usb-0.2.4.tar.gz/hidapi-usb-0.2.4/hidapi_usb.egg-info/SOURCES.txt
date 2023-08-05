@@ -1,0 +1,7 @@
+README.md
+hidapi.py
+setup.py
+hidapi_usb.egg-info/PKG-INFO
+hidapi_usb.egg-info/SOURCES.txt
+hidapi_usb.egg-info/dependency_links.txt
+hidapi_usb.egg-info/top_level.txt
