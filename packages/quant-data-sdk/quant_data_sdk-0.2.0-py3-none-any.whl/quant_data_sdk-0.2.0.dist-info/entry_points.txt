@@ -1,0 +1,3 @@
+[console_scripts]
+quantdata_sdk = quantdata_sdk.entry_points:main
+
