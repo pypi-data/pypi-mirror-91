@@ -1,0 +1,13 @@
+README.md
+get-datatypes.py
+load-into-galaxy-library.py
+setup.cfg
+setup.py
+galaxy_library_maker.egg-info/PKG-INFO
+galaxy_library_maker.egg-info/SOURCES.txt
+galaxy_library_maker.egg-info/dependency_links.txt
+galaxy_library_maker.egg-info/requires.txt
+galaxy_library_maker.egg-info/top_level.txt
+library/__init__.py
+library/tests/__init__.py
+library/tests/test_library.py
