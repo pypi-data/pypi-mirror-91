@@ -1,0 +1,17 @@
+contact/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+contact/forms.py,sha256=GUoRMS4Xl17_htw3bfCVYnoXiOzJMPi_pRlH2akPqpw,1571
+contact/locale/fr/LC_MESSAGES/django.mo,sha256=fBlnMfNfgHUo8w6xPpzNndX2NFwduCoAtpPpzAVLtn4,1956
+contact/locale/fr/LC_MESSAGES/django.po,sha256=p8XG1ij2cjojTj2SHMYchUrBkHWY9IjiJnU6Tn_YPCg,2400
+contact/static/css/contact.css,sha256=SjimxHvMmceCf7h2Ej2pj4VW1k8zGnwPoHaHZVzP138,1732
+contact/templates/contact/form.html,sha256=bbBk3tmXHA5GWLW2fHWDb2Cup0U0JXgJfA6aZeJ98ws,847
+contact/templates/contact/thanks.html,sha256=d5UnWW2TKnrnLp1f9X9nn7wwGKcCqk8lByw7EZF_MG0,421
+contact/test_settings.py,sha256=f-eB1vkvz_SAZCZKWqNnWXwusqW6W4_KpB715UhPF6k,647
+contact/test_templates/base.html,sha256=JwHQM4F_v-m_9V0CT6fWwLfdfgFs6sB69S4o0Be90jc,218
+contact/test_urls.py,sha256=Pma01g-6zrMcL69tVmyT_pnuCMJwcL0kYYRQeFcBkwQ,118
+contact/test_views.py,sha256=MYPszqhzmHepvm1rnfpT28ZFRu5r2H3dvsYFC22PQWE,1371
+contact/urls.py,sha256=jhofs0bjjEIFILlsmNEtEDEjdnYoKDqOfZMQkrK-dAU,222
+contact/views.py,sha256=c-Fv-dhVbT4poDhxnQngqymePXP1PKZLSsQPpFvRlV4,523
+myks_contact-1.5.dist-info/LICENSE,sha256=7NW_RxzfqaZZ4S0f7jqSyCfFD0J1pPA5Xlb2_BLu288,1522
+myks_contact-1.5.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+myks_contact-1.5.dist-info/METADATA,sha256=TC738plGs_kXFaONQEH19pJm-Ig9PFz20U87lzuAUpQ,2908
+myks_contact-1.5.dist-info/RECORD,,
