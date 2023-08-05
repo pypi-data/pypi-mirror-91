@@ -1,0 +1,17 @@
+bittensor/__init__.py,sha256=W2ZZf1IFg6AsGO8rLtsFaovwet5VKW-z_XMwYOcnCGw,3712
+bittensor/axon.py,sha256=N3kGzdW9CyhQBM2t7zP81vNv3Xnc4lPQqqpumnqrWVE,24896
+bittensor/bittensor_pb2.py,sha256=2hDtlxfQdRi2OGsTO6SDcDMuBu-ZAkctZiHlKyZx1R4,25075
+bittensor/bittensor_pb2_grpc.py,sha256=kvUtM7SVrOW6_tJQmC_bbr9-ItnpXIU8cteyeRfvt-k,4005
+bittensor/config.py,sha256=oH14v6jjI37d-_j2OPI5r5CXaZkJmyUY3dRudoXSRrM,10015
+bittensor/dendrite.py,sha256=zYwIDqAWK2xvu8UH7O8xP_DL7d4FMzU-E3U9edDSwDk,32639
+bittensor/metagraph.py,sha256=0OqN7yek7eH_6XgfZq1lwM-QTPHfmNRHuaF65G3oWFc,42496
+bittensor/neuron.py,sha256=sbCWo5RnEW9GG5_EZ-bBwjLIfJUftAXwhJYzxH3D0E8,10704
+bittensor/nucleus.py,sha256=CBS6r6WM2dA0W7w14U6XmXRGlClWQEefLEtlqWjsiek,11366
+bittensor/serialization.py,sha256=9FtiUfClISucB_b8MYPHpgtDB9e3_6vdpEPPNp13BzE,8553
+bittensor/synapse.py,sha256=ePchVTJtJOQrRbMB8QNa5bEu9QKLI2CoUE3kyzkJJtg,5746
+bittensor-1.0.0.data/scripts/bittensor-cli,sha256=ycKy7efnoq8vxzIrqMOCnvRxCwOnw1Lr-CSIkJPpL6w,21961
+bittensor-1.0.0.dist-info/LICENSE,sha256=N0Ssx5du1k1ynCi03e28Ycny_JWw1hGY-E5ShWaaITo,1088
+bittensor-1.0.0.dist-info/METADATA,sha256=jstau1Tt2hMNT3MZQaF8DeO05zM_GXD8NVLkFy7r5rE,4948
+bittensor-1.0.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+bittensor-1.0.0.dist-info/top_level.txt,sha256=LiM_vRBCOQawZF5posfmbwehFFVMDy8Rg8bX5bIxdKE,10
+bittensor-1.0.0.dist-info/RECORD,,
