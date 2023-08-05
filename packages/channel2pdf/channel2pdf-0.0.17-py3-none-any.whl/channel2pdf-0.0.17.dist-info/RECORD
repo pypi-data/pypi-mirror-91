@@ -1,0 +1,10 @@
+channel2pdf/__init__.py,sha256=yPVUI_-89qlPlBcF3qHzC904FUFHl8zRmPLsiOAl0bk,1622
+channel2pdf/article.py,sha256=HIUiqQVFkyHwrjLgOWT7rbnlc4r8lIg5U4yhJMJ2S2M,838
+channel2pdf/find_links.py,sha256=dKLm2uMVXj3tXNcUSg1gAVwrVFmdHaOqrA8MH1kUXcc,1318
+channel2pdf/find_resource.py,sha256=wVoV9WVFV6fnqCib0VCErrLSPdZVdPH2-cFdw7kOmlI,1858
+channel2pdf/index.py,sha256=eiYrQaq6v8efKck6fhbnrFN9Uehq8Zw7J7NB-08yUKk,1188
+channel2pdf-0.0.17.dist-info/LICENSE,sha256=Ep-IKW9GzIUQmaKQOr2239YhmBvNj2rQ7i38aFJV5uk,1071
+channel2pdf-0.0.17.dist-info/METADATA,sha256=P2JSWic0PNqlfmJFrzqJP-lsAH5WA_o46obFo0aha-Y,856
+channel2pdf-0.0.17.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+channel2pdf-0.0.17.dist-info/top_level.txt,sha256=k7xn3v_ZfM0HaNpeyBKMYUqCEweLBxvSyiKL_kpbFB4,12
+channel2pdf-0.0.17.dist-info/RECORD,,
