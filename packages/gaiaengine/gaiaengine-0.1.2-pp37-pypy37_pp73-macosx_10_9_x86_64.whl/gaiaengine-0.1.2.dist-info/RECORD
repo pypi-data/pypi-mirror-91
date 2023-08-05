@@ -1,0 +1,12 @@
+gaiaengine-0.1.2.dist-info/RECORD,,
+gaiaengine-0.1.2.dist-info/WHEEL,sha256=-Jhffr_tLYYWUvIfhYgIEOA5clPnojF2CE9Lpw9gEXU,116
+gaiaengine-0.1.2.dist-info/top_level.txt,sha256=5ZQVHC1v0EZlrf8Qad2S3TmNBellD4KB040qFJBjq7s,11
+gaiaengine-0.1.2.dist-info/METADATA,sha256=2VgCvgo6nDOxMnXZchqURST9Ldpqi2gVEtys7aihHJo,439
+gaiaengine/__init__.py,sha256=wtj7znCqD_DcpnVIkwmK54vma9gd1GuBgTO8o-PH4yI,25
+gaiaengine/gaiaengine.pypy37-pp73-darwin.so,sha256=3SeC0I6Wtq8hIrPeQppKLRlsZXunTXnl2zp36hzl0X0,641312
+gaiaengine/.dylibs/libSDL2-2.0.0.dylib,sha256=sBMOvu4yQO87XNHhj0H9Ap0B83qFRD_wGSWZ6EUGmAM,1242112
+gaiaengine/.dylibs/libpng16.16.dylib,sha256=uTbJo24E9nqNJ_7bChSF8sFN0utE9N5VqHyv1TfG3J0,177352
+gaiaengine/.dylibs/libjpeg.9.dylib,sha256=z9fhvmeCfYqXTxof1UgZRIcHClohArC_AYVF5rWD57o,219172
+gaiaengine/.dylibs/libwebp.7.dylib,sha256=LOZm0_Zm1CYLaPJ_5Sd1ByFye4WZgzGzGU46SFOh_iE,391212
+gaiaengine/.dylibs/libSDL2_image-2.0.0.dylib,sha256=SHrUNJZPhvYC7jeQbKCbmEx3biuYJvmYmZuMscTx88g,125032
+gaiaengine/.dylibs/libtiff.5.dylib,sha256=wPDRKeX1ajnUb7nq9zATRjxOpYakkyUyQ0QTAC2CYYw,459864
