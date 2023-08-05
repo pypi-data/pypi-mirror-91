@@ -1,0 +1,11 @@
+README.md
+setup.py
+openwebinars/Openwebinar.py
+openwebinars/__init__.py
+openwebinars/__main__.py
+taller_openwebinar.egg-info/PKG-INFO
+taller_openwebinar.egg-info/SOURCES.txt
+taller_openwebinar.egg-info/dependency_links.txt
+taller_openwebinar.egg-info/entry_points.txt
+taller_openwebinar.egg-info/requires.txt
+taller_openwebinar.egg-info/top_level.txt

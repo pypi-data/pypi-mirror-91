@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: taller-openwebinar
+Version: 2.0.0
+Summary: Definicion de Openwebinar
+Home-page: https://github.com/Tlalocan-Courses/Taller-publica-un-paquete-en-Pypi
+Author: OpenWebinars
+Author-email: openwebinars@openwebinars.net
+License: MIT
+Description: # OpenWebinars
+        
+        Esto es una taller para subir un paquete a Pypi
+        
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Description-Content-Type: text/markdown

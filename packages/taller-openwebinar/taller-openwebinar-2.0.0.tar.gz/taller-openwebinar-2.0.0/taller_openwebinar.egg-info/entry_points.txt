@@ -1,0 +1,3 @@
+[console_scripts]
+openwebinars = openwebinars.__main__:main
+
