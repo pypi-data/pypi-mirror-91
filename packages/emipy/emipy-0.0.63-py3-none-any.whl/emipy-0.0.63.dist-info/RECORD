@@ -1,0 +1,12 @@
+emipy/__init__.py,sha256=0MLDEZLkBGwG9h_jQH8S07J2rI90aKs9XURZc45Ukgw,162
+emipy/exporttocalliope.py,sha256=fhlqaWN328mxq5R6oJ4ScU3rfefPiVRxgnWVbFfQf_0,4113
+emipy/paper.py,sha256=PgcHfMx8-3kYBbjXwFN_IU0IT0SNT8uSDyaaA5NpKBM,1827
+emipy/processdata.py,sha256=L5rcvy2lN8YkADfW57_lH0oGNJXX7j_uXRKkt0GUxAc,25440
+emipy/rawdata.py,sha256=Nen47mDhNzYXoSmuEl_a6gKn2_p0owbJx5-tQx034bc,11626
+emipy/visualizedata.py,sha256=8e6kc5KHdaCx2981tVzOd7r1cPpU_udBCfYzBKcZc0Y,19568
+emipy/configuration/configuration.ini,sha256=B_qkWCZVFprfokWYjD2mGYwddfA_s5oizvSnv6nLiWw,489
+emipy-0.0.63.dist-info/LICENSE,sha256=LOMP3kKsNGsmWDQq-BesWIKTqhjwK164gdk3e1eT6T8,1092
+emipy-0.0.63.dist-info/METADATA,sha256=iLooHx9vbGfh7s2Z0PUQgnhZFXNmt22wgI-eddO321c,2096
+emipy-0.0.63.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+emipy-0.0.63.dist-info/top_level.txt,sha256=rk3fN-U2RHF5NMEzW29NTEGPk7qChrEJApMfBTh6ldo,6
+emipy-0.0.63.dist-info/RECORD,,
