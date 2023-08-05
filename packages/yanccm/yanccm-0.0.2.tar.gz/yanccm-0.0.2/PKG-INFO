@@ -1,0 +1,18 @@
+Metadata-Version: 1.1
+Name: yanccm
+Version: 0.0.2
+Summary: YANCCM (pronounced yank'em) - Yet Another Network Configuration and Change Managment tool, is 
+    multi-threaded configuration manger for network devices that leverages the NETCONF protocol
+Home-page: https://github.com/cunningr/yanccm
+Author: Richard Cunningham
+Author-email: cunningr@gmail.com
+License: MIT
+Download-URL: https://github.com/cunningr/yanccm
+Description: UNKNOWN
+Keywords: Netconf,Cisco,configuration management
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
