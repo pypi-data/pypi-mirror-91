@@ -1,0 +1,13 @@
+Metadata-Version: 1.2
+Name: pysplines
+Version: 0.1.0.dev1
+Summary: Tool to create discrete b-splines with surface properties
+Home-page: https://github.com/Corwinpro/PySplines
+Author: Petr Kungurtsev
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
