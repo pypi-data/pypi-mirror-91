@@ -1,0 +1,8 @@
+README.md
+setup.py
+numeric_sets/__init__.py
+numeric_sets/main.py
+numeric_sets_dyaroshevych.egg-info/PKG-INFO
+numeric_sets_dyaroshevych.egg-info/SOURCES.txt
+numeric_sets_dyaroshevych.egg-info/dependency_links.txt
+numeric_sets_dyaroshevych.egg-info/top_level.txt
