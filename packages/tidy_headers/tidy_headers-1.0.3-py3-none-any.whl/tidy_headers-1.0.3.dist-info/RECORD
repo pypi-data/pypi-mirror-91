@@ -1,0 +1,12 @@
+tidy_headers/VERSION,sha256=9eXJU0UyhA_NRbsALmnthcYduidTRQ4mtEi33xSB4k0,6
+tidy_headers/__init__.py,sha256=my9_yCHhaiiBlBVichVINkaQ6yNl348qS7wQwkb0fKQ,126
+tidy_headers/__version__.py,sha256=KVFce3q29jNUJjYfx-LIQQI0clN1MsaglwhLmgB0gY8,232
+tidy_headers/_eval.py,sha256=ah1UuTHESFWKT5bfcxIlsCj3KO_SCozySOWAS8C7pJI,1353
+tidy_headers/_main.py,sha256=fftom8BrMAb1pKlfECGbzLfRzdi5S8ktZNVy0LapL6g,2423
+tidy_headers/_parse_array.py,sha256=j8j8V4Lj98BgSJbC4YaN39aLVo45BnSfwcb1pFL2qHI,1010
+tidy_headers/_parse_item.py,sha256=T8pDpubtIGlZKjpnQAGyDkkkIfBScaj2jSkjQ3r57Sk,3032
+tidy_headers-1.0.3.dist-info/LICENSE,sha256=TVIlyUtbE1_b1rcfkN9onw0glSBX7iAkZEfc4JgGf3c,1082
+tidy_headers-1.0.3.dist-info/LICENSE.txt,sha256=8bS0YKbRyNFiH9QFKNwisDgAt_G0OQ8TP2T3uC-qfv0,1077
+tidy_headers-1.0.3.dist-info/WHEEL,sha256=CqyTrkghQBNsEzLD3HbCSEIJ_fY58-XpoU29dUzwHSk,81
+tidy_headers-1.0.3.dist-info/METADATA,sha256=Cgz4SpdmeAcUSiyknzOJVMt0TgJd3dJ2N0k_6vrMDA4,2053
+tidy_headers-1.0.3.dist-info/RECORD,,
