@@ -1,0 +1,16 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+setuptools = "*"
+wheel = "*"
+twine = "*"
+pushdit = {editable = true, path = "."}
+
+[dev-packages]
+check-manifest = "*"
+
+[requires]
+python_version = "3.8"
