@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: pushl
+Version: 0.3.1
+Summary: A conduit for pushing changes in a feed to the rest of the IndieWeb
+License: MIT
+Author: fluffy
+Author-email: fluffy@beesbuzz.biz
+Requires-Python: >=3.6,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: aiohttp (>=3.7.3,<4.0.0)
+Requires-Dist: async_lru (>=1.0.2,<2.0.0)
+Requires-Dist: awesome-slugify (>=1.6.5,<2.0.0)
+Requires-Dist: beautifulsoup4 (>=4.9.3,<5.0.0)
+Requires-Dist: feedparser (>=6.0.2,<7.0.0)
+Requires-Dist: lxml (>=4.6.2,<5.0.0)
+Requires-Dist: mf2py (>=1.1.2,<2.0.0)
