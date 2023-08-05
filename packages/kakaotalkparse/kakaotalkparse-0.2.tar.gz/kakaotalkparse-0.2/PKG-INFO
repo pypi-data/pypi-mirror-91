@@ -1,0 +1,20 @@
+Metadata-Version: 1.1
+Name: kakaotalkparse
+Version: 0.2
+Summary: parse exported txt file from kakaotalk group chat
+Home-page: https://github.com/1kko/kakaotalkparse
+Author: 1kko
+Author-email: me@1kko.com
+License: MIT
+Download-URL: https://github.com/1kko/kakaotalkparse/archive/0.1.tar.gz
+Description: UNKNOWN
+Keywords: kakao,kakaotalk,parse,katalk
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
