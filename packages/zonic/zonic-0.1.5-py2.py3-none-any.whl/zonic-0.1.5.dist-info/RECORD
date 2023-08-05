@@ -1,0 +1,14 @@
+zonic/__init__.py,sha256=dlMaWcR4SFPHbuSVoREtEAA9PcDdiPynxosoxiQaBew,595
+zonic/configuration.py,sha256=dg6liolNrsNjhJarVAI1GYlXhNuejr3AEztEIj4OvR4,1529
+zonic/decorators.py,sha256=8sgUVL210JF7wyud_OlMFBXRy_KG5MlZnTrZrJe4nzM,498
+zonic/exceptions.py,sha256=_KqM3EhOaWXNiVR-_oJGLG1aIg2CthS1k0a9PVQZ--8,44
+zonic/main.py,sha256=YTyYKK_peSUIsSr5Tw03nIfQrAwiwPZ99XhPwrumiY0,2763
+zonic/ports.py,sha256=qlSWGzxd3l_vc3Jgt-6pdiH1sxJIyovuHJ9jWXWLRSU,1973
+zonic/scanner.py,sha256=42CLyHf3eeo_tbqSpfuGT7KtDB_eZ8mv6r7JF8RJfIU,1711
+zonic-0.1.5.dist-info/AUTHORS.rst,sha256=oIy26jOe4ynmhK5PGmZfyZLLK-n63QuzmgyunTHy80Q,158
+zonic-0.1.5.dist-info/LICENSE,sha256=ihzcf2O4ByBFO4s1QPmvecTcEGDZt5Ad3DN-4OD2wjw,1068
+zonic-0.1.5.dist-info/METADATA,sha256=LiHsxU3QV1hKhvQTsyjtY42hGfkJE0KJcQI8PrpX_jM,591
+zonic-0.1.5.dist-info/WHEEL,sha256=Z-nyYpwrcSqxfdux5Mbn_DQ525iP7J2DG3JgGvOYyTQ,110
+zonic-0.1.5.dist-info/entry_points.txt,sha256=LX3G_bkFwITZbr77pyJCifGrtnjTBXdxh4jKyFMjqg8,43
+zonic-0.1.5.dist-info/top_level.txt,sha256=2wnnCT76bkm0XXa1386dAyNFv-v7buaZdOcvLX2MW_8,6
+zonic-0.1.5.dist-info/RECORD,,
