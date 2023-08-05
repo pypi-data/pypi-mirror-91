@@ -1,0 +1,10 @@
+apputils/config/__init__.py,sha256=_SXxweclS83vL7IEk99U0sxD6vc_yc6t5xcsCN31k84,4625
+apputils/config/base_storage.py,sha256=JeUU4hjxC7WnDzzLZ46HsEgYo-s1DhsM5T_YOKlLHvQ,2498
+apputils/config/sql_storage.py,sha256=-LI4zcb1mXVSEPEa0WMOJpXfU7Zsdx8xGtGc2qBaujY,10819
+apputils/config/upgrades.py,sha256=4cKpHKahHg94PWmsGNkDrjjoTD7Mga2Lp8X_4NXKIws,4021
+apputils_config-2.0.2.dev19.dist-info/LICENSE,sha256=zkd7RsuGS1gxBlpTkgR-W_As92CoyoBJM_a1xiYw-8g,835
+apputils_config-2.0.2.dev19.dist-info/METADATA,sha256=D9g9bXxZvpbyZYh_YuWYwq6RzZ3wl9HaAP7f9iUThnI,451
+apputils_config-2.0.2.dev19.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+apputils_config-2.0.2.dev19.dist-info/top_level.txt,sha256=Z11LvLenE0zQL_r29ZkTXgeGiFLECjjH3F2TGi0JbU8,9
+apputils_config-2.0.2.dev19.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+apputils_config-2.0.2.dev19.dist-info/RECORD,,
