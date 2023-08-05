@@ -1,0 +1,4 @@
+wxyz_core<0.5,>=0.4
+wxyz_html<0.5,>=0.4
+pandas
+traittypes
