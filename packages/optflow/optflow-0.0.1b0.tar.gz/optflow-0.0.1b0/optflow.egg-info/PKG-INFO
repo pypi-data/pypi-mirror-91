@@ -1,0 +1,13 @@
+Metadata-Version: 1.1
+Name: optflow
+Version: 0.0.1b0
+Summary: Wrapper convenience methods for OpenCV optical flow
+Home-page: https://github.com/maxzuo/optflow
+Author: Max Zuo
+Author-email: max.zuo@gmail.com
+License: UNKNOWN
+Description: None
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
