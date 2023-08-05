@@ -1,0 +1,15 @@
+Metadata-Version: 1.1
+Name: micropython-spotify-web-api
+Version: 0.0.1
+Summary: Spotify Web API client for MicroPython
+Home-page: https://github.com/tltx/micropython-spotify-web-api
+Author: Tore Lundqvist
+Author-email: tlt@mima.x.se
+License: MIT
+Description: Spotify Web API client for MicroPython
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python :: Implementation :: MicroPython
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: 3.5
+Classifier: License :: OSI Approved :: MIT License
