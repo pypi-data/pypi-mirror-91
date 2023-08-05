@@ -1,0 +1,9 @@
+docopt
+pyyaml
+jinja2
+markdown
+tqdm
+
+[dev]
+mkdocs
+pdoc3
