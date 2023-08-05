@@ -1,0 +1,16 @@
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+src/wxyz/yaml/__init__.py
+src/wxyz/yaml/_version.py
+src/wxyz/yaml/base.py
+src/wxyz/yaml/widget_yaml.py
+src/wxyz/yaml/js/LICENSE.txt
+src/wxyz/yaml/js/package.json
+src/wxyz_yaml.egg-info/PKG-INFO
+src/wxyz_yaml.egg-info/SOURCES.txt
+src/wxyz_yaml.egg-info/dependency_links.txt
+src/wxyz_yaml.egg-info/not-zip-safe
+src/wxyz_yaml.egg-info/requires.txt
+src/wxyz_yaml.egg-info/top_level.txt
