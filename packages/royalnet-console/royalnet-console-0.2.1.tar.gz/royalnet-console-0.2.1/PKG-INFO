@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: royalnet-console
+Version: 0.2.1
+Summary: A terminal-based frontend for the royalnet.engineer module.
+License: AGPL-3.0-or-later
+Author: Stefano Pigozzi
+Author-email: me@steffo.eu
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3 or later (AGPLv3+)
+Classifier: Programming Language :: Python :: 3
+Requires-Dist: psutil (>=5.8.0,<6.0.0)
+Requires-Dist: royalnet (>=6.0.0a37,<7.0.0)
