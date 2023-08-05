@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+
+{% block title%} {{msg}} {% end %}
+
+{% block container %} 
+<div class="message is-danger">
+  <div class="message-body"> {{ msg }}  </div>
+</div>
+{% end %}
