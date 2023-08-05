@@ -1,0 +1,7 @@
+CHANGES
+=======
+
+v1.2.1
+------
+
+* Added \_\_contains\_\_ to mapping Item
