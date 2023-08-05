@@ -1,0 +1,52 @@
+Metadata-Version: 2.1
+Name: zip-import
+Version: 0.0.1
+Summary: Load module from zip 
+Home-page: https://github.com/cn-kali-team/zip_import
+Author: Kali-Team
+Author-email: root@kali-team.cn
+License: MIT
+Description: 
+        # zip_import
+        
+        - 推荐(最新的版本)
+        
+        ```bash
+        pip install https://github.com/cn-kali-team/zip_import/archive/master.zip
+        ```
+        
+        - 内存加载Python模块
+        
+        ```python
+        import io
+        import sys
+        import zipfile
+        from zip_import import ZipPathFinder
+        
+        
+        def _get_zip(path, password=None):
+            with open(path, "rb") as f:
+                zip_bytes = io.BytesIO(f.read())
+                zip_instantiation = zipfile.ZipFile(zip_bytes)
+                if password is not None:
+                    zip_instantiation.setpassword(pwd=bytes(str(password), 'utf-8'))
+                return zip_instantiation
+        
+        
+        sys.meta_path.append(
+            ZipPathFinder(zip_path='zip://pocsuite3.zip', zip_ins=_get_zip(path='pocsuite3.zip', password="11")))
+        import pocsuite3
+        
+        print(dir(pocsuite3))
+        ```
+        
+        - zip_path随意字符串，zip_ins是zipfile.ZipFile返回的实例化对象
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.6.0
+Description-Content-Type: text/markdown

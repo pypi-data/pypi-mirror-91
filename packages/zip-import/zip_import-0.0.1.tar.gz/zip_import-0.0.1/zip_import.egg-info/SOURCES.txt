@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+__init__.py
+setup.py
+zip_import/__init__.py
+zip_import/zip_import.py
+zip_import.egg-info/PKG-INFO
+zip_import.egg-info/SOURCES.txt
+zip_import.egg-info/dependency_links.txt
+zip_import.egg-info/top_level.txt
