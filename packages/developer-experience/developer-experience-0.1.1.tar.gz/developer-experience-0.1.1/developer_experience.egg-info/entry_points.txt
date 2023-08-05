@@ -1,0 +1,3 @@
+[console_scripts]
+pydx = pydx.main:cli
+
