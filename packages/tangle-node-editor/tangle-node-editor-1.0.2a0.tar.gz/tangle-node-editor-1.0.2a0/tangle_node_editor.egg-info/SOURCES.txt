@@ -1,0 +1,12 @@
+README.md
+setup.py
+tangle/__init__.py
+tangle/app.py
+tangle/node_db.py
+tangle/tangle_window.py
+tangle_node_editor.egg-info/PKG-INFO
+tangle_node_editor.egg-info/SOURCES.txt
+tangle_node_editor.egg-info/dependency_links.txt
+tangle_node_editor.egg-info/entry_points.txt
+tangle_node_editor.egg-info/requires.txt
+tangle_node_editor.egg-info/top_level.txt

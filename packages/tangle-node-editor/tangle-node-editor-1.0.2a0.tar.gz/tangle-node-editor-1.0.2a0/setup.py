@@ -1,0 +1,22 @@
+from setuptools import setup
+
+with open("README.md", "r") as fh:
+    long_description = fh.read()
+
+setup(
+    name='tangle-node-editor',
+    version='1.0.2-alpha',
+    packages=['tangle'],
+    url='https://www.github.com/nielsvaes/tangle',
+    long_description=long_description,
+    long_description_content_type="text/markdown",
+    install_requires=["ez-qt", "ez-settings", "ez-utils", "PySide2", "numpy"],
+    license='MIT',
+    author='Niels Vaes',
+    author_email='nielsvaes@gmail.com',
+    description='A Python based node editor',
+
+    entry_points = {
+                   'console_scripts': ['tangle=tangle.app:main'],
+               },
+)
