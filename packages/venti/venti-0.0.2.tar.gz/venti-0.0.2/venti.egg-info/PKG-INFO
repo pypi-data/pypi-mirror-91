@@ -1,0 +1,12 @@
+Metadata-Version: 1.2
+Name: venti
+Version: 0.0.2
+Summary: UNKNOWN
+Home-page: https://github.com/MinRegret/venti
+Author: Daniel Suo
+Author-email: danielsuo@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Keywords: ventilator,ventilation
+Platform: UNKNOWN
+Requires-Python: >=3.7.*
