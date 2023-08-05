@@ -1,0 +1,6 @@
+ta
+requests
+importlib_metadata
+matplotlib
+pandas
+pydantic
