@@ -1,0 +1,8 @@
+README.md
+meowsay.py
+setup.py
+meowsay.egg-info/PKG-INFO
+meowsay.egg-info/SOURCES.txt
+meowsay.egg-info/dependency_links.txt
+meowsay.egg-info/entry_points.txt
+meowsay.egg-info/top_level.txt
