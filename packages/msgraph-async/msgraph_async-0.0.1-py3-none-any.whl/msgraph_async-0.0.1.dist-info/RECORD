@@ -1,0 +1,13 @@
+msgraph_async/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+msgraph_async/client/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+msgraph_async/common/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+msgraph_async/common/client.py,sha256=rJrAt13ibr06rICv6JI_B7NKgXWYwhEFtgFVCBhio7s,8693
+msgraph_async/common/constants.py,sha256=pRYcByTYARcJMHFKz0jqcvPMSzUg2T6BpprmiaOkiIM,459
+msgraph_async/common/exceptions.py,sha256=P6HwqHL_lHY0BiAt2GSm2869xa7Nzn69cyKJHUr155E,2300
+msgraph_async/common/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+msgraph_async/common/tests/test_client.py,sha256=4SIYh51By1UJTdzKrOV-C_9JzmpvBkonEWxiChWY4rs,4156
+msgraph_async-0.0.1.dist-info/LICENSE,sha256=6kbiFSfobTZ7beWiKnHpN902HgBx-Jzgcme0SvKqhKY,1091
+msgraph_async-0.0.1.dist-info/METADATA,sha256=UkkO-Ow8Nd-rpBIJOvhdvyFosEch5rKe63eONbt2Xpw,459
+msgraph_async-0.0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+msgraph_async-0.0.1.dist-info/top_level.txt,sha256=4WNCeoE_CmHnnXkT5V2uwFmHmVZ_o_c7LikxnAmf24U,14
+msgraph_async-0.0.1.dist-info/RECORD,,
