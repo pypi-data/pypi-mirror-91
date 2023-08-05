@@ -1,0 +1,10 @@
+pydx/__init__.py,sha256=kUR5RAFc7HCeiqdlX36dZOHkUI5wI6V_43RpEcD8b-0,22
+pydx/main.py,sha256=L7zS3bjBp7kv5iryV7BMndVxeCCKoRX6mcSPK-d_lVI,74
+pydx/commands/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pydx/common/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+developer_experience-0.1.0.dist-info/LICENSE.rst,sha256=eTBSVCqSmYfVuurnzBYwVgNUoDhXbC2BkuTPbgrkM3Y,1481
+developer_experience-0.1.0.dist-info/METADATA,sha256=lF8ixwkmFkzA-iWyFCEgcOCfeOCCdC4fc-x1RF2JxRU,1854
+developer_experience-0.1.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+developer_experience-0.1.0.dist-info/entry_points.txt,sha256=V-nwU-oFz7DuDxaA-_Zb95DtjLWVw-DU5XjnJ1Tfd4Y,40
+developer_experience-0.1.0.dist-info/top_level.txt,sha256=V1749dIx_85AMlSSQQQTFLbGyDme4ivBuWj96Cc92nE,5
+developer_experience-0.1.0.dist-info/RECORD,,
