@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: pyvalem
+Version: 2.1.0
+Summary: A package for managing simple chemical species and states
+Home-page: https://github.com/xnx/pyvalem
+Author: Christian Hill
+Author-email: ch.hill@iaea.org
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Requires-Python: >=3.4
+Description-Content-Type: text/markdown
+
+PyValem is a Python package for parsing, validating, manipulating and interpreting the chemical formulas, quantum states and labels of atoms, ions and small molecules.
+
+Species and states are specfied as strings using a simple and flexible syntax, and may be compared, output in different formats and manipulated using a variety of predefined Python methods.
+
+See https://github.com/xnx/pyvalem for documentation and more information.
+
+
