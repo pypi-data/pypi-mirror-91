@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: sentinel-datetime
+Version: 0.0.1
+Summary: Sentinel Result Object for python-dateutil
+Home-page: UNKNOWN
+Author: S. Williams-Wynn
+Author-email: s.williamswynn.mail@gmail.com
+License: UNKNOWN
+Description: 
+        <h1 align='center'>
+            Sentinel Datetime
+        </h1>
+        
+        <h4 align='center'>
+            For dateutil
+        </h4>
+        
+        ## Install
+        
+        ```
+        pip install sentinel-datetime
+        ```
+        
+        ## Usage
+        
+        ```python
+        from dateutil import parser
+        
+        from sentinel_datetime import sentinel
+        
+        date = parser.parse("Sep-2nd 11:00:00", default=sentinel())
+        print("Day:", date.has_day)
+        print("Year:", date.has_year)
+        print(date.todatetime())
+        ```
+        
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
