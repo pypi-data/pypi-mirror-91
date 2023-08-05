@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: odeintw2
+Version: 0.0.0
+Summary: UNKNOWN
+Home-page: https://github.com/HEMENGLONGIEEE/odeintw2
+Author: Menglong He
+Author-email: UNKNOWN
+License: UNKNOWN
+Keywords: scipy odeint
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Requires-Dist: scipy
+
+UNKNOWN
+
+
