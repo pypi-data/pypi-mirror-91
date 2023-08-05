@@ -1,0 +1,10 @@
+vipy
+dask
+distributed
+boto3
+xmltodict
+pandas==1.0.5
+torch
+torchvision
+pytorch_lightning
+ujson
