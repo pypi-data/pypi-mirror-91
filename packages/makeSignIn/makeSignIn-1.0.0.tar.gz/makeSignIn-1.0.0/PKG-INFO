@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: makeSignIn
+Version: 1.0.0
+Summary: a Python module to create a sign in page for your python project.
+Home-page: UNKNOWN
+Author: Viraj Khanna
+Author-email: virajkhanna2811@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Boost Software License 1.0 (BSL-1.0)
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Natural Language :: English
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Typing :: Typed
