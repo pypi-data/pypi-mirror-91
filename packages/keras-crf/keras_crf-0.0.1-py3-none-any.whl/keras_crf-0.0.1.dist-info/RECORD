@@ -1,0 +1,9 @@
+keras_crf/__init__.py,sha256=fBHv9PubsmQC3DFxFGOVKrm7Q_GR4tXmwNvrMhiNbLc,101
+keras_crf/crf.py,sha256=bAcoXHRmqmpg8mOOJYBLHiadO7AciCRLmhlZbHa1vZg,2777
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/crf_test.py,sha256=4ErnBGgF_AGGhlyQuuf7fApLLeXLOx86ahVmTWz4NGk,927
+keras_crf-0.0.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+keras_crf-0.0.1.dist-info/METADATA,sha256=E6sVKpygXgPymxV8Am0U2FhHl-hC31n8CQOeeMZ8gMs,2591
+keras_crf-0.0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+keras_crf-0.0.1.dist-info/top_level.txt,sha256=lznLcovUvsuOafu11ejQIp6M23FwW3bx6jBCAR06aPo,16
+keras_crf-0.0.1.dist-info/RECORD,,
