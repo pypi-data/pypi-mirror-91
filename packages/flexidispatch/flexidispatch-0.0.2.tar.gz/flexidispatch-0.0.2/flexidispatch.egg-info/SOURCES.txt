@@ -1,0 +1,15 @@
+CONTRIBUTING.md
+LICENSE
+MANIFEST.in
+README.md
+settings.ini
+setup.py
+flexidispatch/__init__.py
+flexidispatch/_nbdev.py
+flexidispatch/core.py
+flexidispatch.egg-info/PKG-INFO
+flexidispatch.egg-info/SOURCES.txt
+flexidispatch.egg-info/dependency_links.txt
+flexidispatch.egg-info/entry_points.txt
+flexidispatch.egg-info/not-zip-safe
+flexidispatch.egg-info/top_level.txt
