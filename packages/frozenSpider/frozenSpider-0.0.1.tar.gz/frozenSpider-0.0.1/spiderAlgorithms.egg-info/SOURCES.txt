@@ -1,0 +1,6 @@
+setup.py
+spiderAlgorithms.egg-info/PKG-INFO
+spiderAlgorithms.egg-info/SOURCES.txt
+spiderAlgorithms.egg-info/dependency_links.txt
+spiderAlgorithms.egg-info/requires.txt
+spiderAlgorithms.egg-info/top_level.txt

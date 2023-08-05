@@ -1,0 +1,10 @@
+README.txt
+setup.py
+spider/__init__.py
+spider/spiderAlgorithmLR.py
+spider/spiderAlgorithms.py
+spider/spiderNets.py
+spider.egg-info/PKG-INFO
+spider.egg-info/SOURCES.txt
+spider.egg-info/dependency_links.txt
+spider.egg-info/top_level.txt
