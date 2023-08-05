@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: taskid
+Version: 0.1.2
+Summary: Taskid client library
+Home-page: https://github.com/taskidhq/taskid-python
+Author: Tiago Botelho
+Author-email: tiagonbotelho@gmail.com
+License: Apache Software License 2.0
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+## Taskid Python client
+
+The client library for Taskid in Python
+
+
