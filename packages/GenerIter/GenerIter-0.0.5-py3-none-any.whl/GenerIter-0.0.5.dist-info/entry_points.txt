@@ -1,0 +1,4 @@
+[console_scripts]
+generinv = GenerIter.app.clep_inventory:main
+generiter = GenerIter.app.clep_generator:main
+
