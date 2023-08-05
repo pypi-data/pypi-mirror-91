@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: financial_cdd
+Version: 0.0.2
+Summary: Concept drift detectors for financial time series
+Home-page: https://github.com/filipponeri/financial_cdd
+Author: Filippo Neri
+Author-email: filippo.neri.email@gmail.com
+License: UNKNOWN
+Description: Concept drift detectors for financial time series. It is appreciated the citation of the author and the study. Filippo Neri (2021). Domain Specific Concept Drift Detectors for Predicting Financial Time Series, Preprint. Available at: https://www.researchgate.net/publication/348371870_Domain_Specific_Concept_Drift_Detectors_for_Predicting_Financial_Time_Series 
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown

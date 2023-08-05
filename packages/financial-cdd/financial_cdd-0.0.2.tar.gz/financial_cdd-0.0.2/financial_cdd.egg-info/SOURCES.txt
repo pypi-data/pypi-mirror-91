@@ -1,0 +1,6 @@
+README.md
+setup.py
+financial_cdd.egg-info/PKG-INFO
+financial_cdd.egg-info/SOURCES.txt
+financial_cdd.egg-info/dependency_links.txt
+financial_cdd.egg-info/top_level.txt
