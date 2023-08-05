@@ -1,0 +1,20 @@
+Metadata-Version: 1.1
+Name: sandatetime
+Version: 0.5
+Summary: This is a repository for managing Persian date-time for our group
+Home-page: https://github.com/behnamkvl/SanDateTime
+Author: Behnam Vakili
+Author-email: behnamkvl@gmail.com
+License: MIT
+Download-URL: https://github.com/behnamkvl/SanDateTime/archive/v_05.tar.gz
+Description: UNKNOWN
+Keywords: JalaliDateTime,Persian,datetime
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
