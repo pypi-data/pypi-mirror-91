@@ -1,0 +1,8 @@
+MANIFEST.in
+README.txt
+setup.py
+selinstapy.egg-info/PKG-INFO
+selinstapy.egg-info/SOURCES.txt
+selinstapy.egg-info/dependency_links.txt
+selinstapy.egg-info/requires.txt
+selinstapy.egg-info/top_level.txt
