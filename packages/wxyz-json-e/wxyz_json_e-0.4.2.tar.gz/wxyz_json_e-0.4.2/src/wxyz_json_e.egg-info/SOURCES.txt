@@ -1,0 +1,16 @@
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+src/wxyz/json_e/__init__.py
+src/wxyz/json_e/_version.py
+src/wxyz/json_e/base.py
+src/wxyz/json_e/widget_jsone.py
+src/wxyz/json_e/js/LICENSE.txt
+src/wxyz/json_e/js/package.json
+src/wxyz_json_e.egg-info/PKG-INFO
+src/wxyz_json_e.egg-info/SOURCES.txt
+src/wxyz_json_e.egg-info/dependency_links.txt
+src/wxyz_json_e.egg-info/not-zip-safe
+src/wxyz_json_e.egg-info/requires.txt
+src/wxyz_json_e.egg-info/top_level.txt
