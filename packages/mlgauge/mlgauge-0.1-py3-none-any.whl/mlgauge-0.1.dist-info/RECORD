@@ -1,0 +1,9 @@
+mlgauge/VERSION,sha256=pjEQCcbDIsqKwuYgz_UgTww68jEV1AMpOgy1vjZ5Zog,4
+mlgauge/__init__.py,sha256=yK_6tFHzosRVYi_ycOT-xuYi7OA2fDel-VSdeOFtZoU,312
+mlgauge/analysis.py,sha256=DGukRWQwY93yK7io0Vi4P8KMn6jsDPr5nmo0Y9f2G-w,17973
+mlgauge/method.py,sha256=3jWFTf2370Cp6TBw69t9aSSMSYU4zhTV-qJj9-cFREk,6048
+mlgauge-0.1.dist-info/LICENSE,sha256=b89ECp6i-4BGCF0yLY9vTm73i5uvGtseiWTW54Scx3Q,1076
+mlgauge-0.1.dist-info/METADATA,sha256=Ooe6oXjCd0tZsFkYYEAXhwPd_RBq8sjMfGoggUsPZUA,1211
+mlgauge-0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+mlgauge-0.1.dist-info/top_level.txt,sha256=_LDOGrjNACqzkI6hfk9luaG0mFzL6oAYFTSO3BLoNrY,8
+mlgauge-0.1.dist-info/RECORD,,
