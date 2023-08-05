@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: process-uptime
+Version: 2021.1.10
+Summary: process starttime
+Home-page: https://github.com/andrewp-as-is/process-uptime.py
+License: Unlicense
+Description: <!--
+        https://readme42.com
+        -->
+        
+        
+        [![](https://img.shields.io/pypi/v/process-uptime.svg?maxAge=3600)](https://pypi.org/project/process-uptime/)
+        [![](https://img.shields.io/badge/License-Unlicense-blue.svg?longCache=True)](https://unlicense.org/)
+        
+        ### Installation
+        ```bash
+        $ [sudo] pip install process-uptime
+        ```
+        
+        #### Examples
+        starttime (`datetime`)
+        ```python
+        from process_uptime import getstarttime
+        
+        getstarttime()    # current process starttime
+        getstarttime(42)  # starttime by pid
+        ```
+        
+        uptime (`int` seconds)
+        ```python
+        from process_uptime import getuptime
+        
+        getuptime()     # current process uptime
+        getuptime(42)   # uptime by pid
+        ```
+        
+        <p align="center">
+            <a href="https://readme42.com/">readme42.com</a>
+        </p>
+Keywords: process starttime
+Platform: UNKNOWN
+Classifier: License :: Public Domain
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
