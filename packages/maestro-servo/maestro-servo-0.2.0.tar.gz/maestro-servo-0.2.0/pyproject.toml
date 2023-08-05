@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "maestro-servo"
+version = "0.2.0"
+description = "A library for interacting with Pololu Maestro servo controllers"
+authors = ["Alex Dutton <maestro@alexdutton.co.uk>"]
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/alexsdutton/python-maestro-servo"
+documentation = "https://maestro-servo.readthedocs.org/"
+packages = [
+    { include = "maestro"},
+]
+
+[tool.poetry.dependencies]
+python = ">=3.7"
+pyusb = "^1.1.0"
+Sphinx = { version = "^3.4.3", optional = true }
+sphinx-autodoc-annotation = { version = "^1.0-1", optional = true }
+
+[tool.poetry.extras]
+docs = ["Sphinx", "sphinx-autodoc-annotation"]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
