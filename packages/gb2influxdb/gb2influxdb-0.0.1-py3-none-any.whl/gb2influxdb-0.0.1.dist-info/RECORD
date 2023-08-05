@@ -1,0 +1,8 @@
+gb2influxdb/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gb2influxdb/gb2influxdb.py,sha256=dh-uXtXaGmWdvoiDDzaO-HY64igaxyKTKOI6U9Cp22E,6952
+gb2influxdb/version.py,sha256=Qs9tJnu9ox1ZVjUG8vgm8RqD00P9gLGcr_PD-wvKpbQ,15
+gb2influxdb-0.0.1.dist-info/METADATA,sha256=pQkZ2nHAnkvb4VT4NgSrg9VAnb50-idwgO6HNcwujZU,795
+gb2influxdb-0.0.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+gb2influxdb-0.0.1.dist-info/entry_points.txt,sha256=InIHluL25DjhCV6NfFckiM4llC0vLyZwYRbb3759q5Q,80
+gb2influxdb-0.0.1.dist-info/top_level.txt,sha256=-IEqMJw2JiooyZOQb_lfikXjfipLTxREn9u0oAsgs5o,12
+gb2influxdb-0.0.1.dist-info/RECORD,,

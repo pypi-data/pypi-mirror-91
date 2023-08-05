@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: gb2influxdb
+Version: 0.0.1
+Summary: A tool for syncing a Gadgetbridge database export to InfluxDB.
+Home-page: https://github.com/tjhowse/gb2influxdb
+Author: Travis Howse
+Author-email: tjhowse@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.5.0
+Description-Content-Type: text/markdown
+Requires-Dist: click (>=6.7)
+
+# gb2influxdb
+
+https://github.com/tjhowse/gb2influxdb
+
+https://pypi.org/project/gb2influxdb/
+
+A tool for syncing a Gadgetbridge database export to InfluxDB.
+
+## Installation
+
+### Python module
+
+```bash
+$ pip3 install --user gb2influxdb
+$ gb2influxdb --help
+```
+
+

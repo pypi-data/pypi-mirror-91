@@ -1,0 +1,4 @@
+
+        [console_scripts]
+        gb2influxdb=gb2influxdb.gb2influxdb:main
+    
