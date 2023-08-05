@@ -1,0 +1,8 @@
+README.md
+setup.py
+irr-generator/__init__.py
+irr-generator/irrgenerator.py
+irr_generator.egg-info/PKG-INFO
+irr_generator.egg-info/SOURCES.txt
+irr_generator.egg-info/dependency_links.txt
+irr_generator.egg-info/top_level.txt
