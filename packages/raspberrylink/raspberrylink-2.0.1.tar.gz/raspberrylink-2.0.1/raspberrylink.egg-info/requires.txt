@@ -1,0 +1,4 @@
+flask
+waitress
+dbus-python
+PyGObject
