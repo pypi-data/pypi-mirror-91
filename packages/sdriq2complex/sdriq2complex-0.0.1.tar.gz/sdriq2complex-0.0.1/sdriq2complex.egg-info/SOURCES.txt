@@ -1,0 +1,10 @@
+README.md
+setup.py
+bin/sdriq2complex
+sdriq2complex/__init__.py
+sdriq2complex/sdriq2complex.py
+sdriq2complex.egg-info/PKG-INFO
+sdriq2complex.egg-info/SOURCES.txt
+sdriq2complex.egg-info/dependency_links.txt
+sdriq2complex.egg-info/requires.txt
+sdriq2complex.egg-info/top_level.txt
