@@ -1,0 +1,10 @@
+setup.py
+tiandafu_distributions/Binomialdistribution.py
+tiandafu_distributions/Gaussiandistribution.py
+tiandafu_distributions/Generaldistribution.py
+tiandafu_distributions/__init__.py
+tiandafu_distributions.egg-info/PKG-INFO
+tiandafu_distributions.egg-info/SOURCES.txt
+tiandafu_distributions.egg-info/dependency_links.txt
+tiandafu_distributions.egg-info/not-zip-safe
+tiandafu_distributions.egg-info/top_level.txt
