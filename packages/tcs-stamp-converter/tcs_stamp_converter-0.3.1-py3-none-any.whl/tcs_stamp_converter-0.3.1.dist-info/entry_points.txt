@@ -1,0 +1,3 @@
+[console_scripts]
+tcs_stamp = tcsstamp.__main__:main
+
