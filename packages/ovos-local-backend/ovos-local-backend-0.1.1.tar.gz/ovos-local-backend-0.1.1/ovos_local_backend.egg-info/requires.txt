@@ -1,0 +1,8 @@
+Flask>=0.12
+requests>=2.2.1
+yagmail
+speech2text
+pyOpenSSL
+geocoder
+timezonefinder
+json_database
