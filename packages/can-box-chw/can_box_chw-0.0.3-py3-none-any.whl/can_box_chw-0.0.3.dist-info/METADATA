@@ -1,0 +1,50 @@
+Metadata-Version: 2.1
+Name: can-box-chw
+Version: 0.0.3
+Summary: Learn Python Packaging
+Home-page: https://github.com/pypa/sampleproject
+Author: chenhewen
+Author-email: chenhewen@example.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: aenum (==2.2.6)
+Requires-Dist: argparse-addons (==0.6.0)
+Requires-Dist: bitstruct (==8.11.1)
+Requires-Dist: bleach (==3.2.1)
+Requires-Dist: cantools (==36.0.0)
+Requires-Dist: certifi (==2020.12.5)
+Requires-Dist: chardet (==4.0.0)
+Requires-Dist: colorama (==0.4.4)
+Requires-Dist: diskcache (==5.1.0)
+Requires-Dist: docutils (==0.16)
+Requires-Dist: idna (==2.10)
+Requires-Dist: keyboard (==0.13.5)
+Requires-Dist: keyring (==21.8.0)
+Requires-Dist: packaging (==20.8)
+Requires-Dist: pkginfo (==1.6.1)
+Requires-Dist: Pygments (==2.7.3)
+Requires-Dist: pyparsing (==2.4.7)
+Requires-Dist: python-can (==3.3.4)
+Requires-Dist: pywin32-ctypes (==0.2.0)
+Requires-Dist: readme-renderer (==28.0)
+Requires-Dist: requests (==2.25.1)
+Requires-Dist: requests-toolbelt (==0.9.1)
+Requires-Dist: rfc3986 (==1.4.0)
+Requires-Dist: six (==1.15.0)
+Requires-Dist: textparser (==0.23.0)
+Requires-Dist: tqdm (==4.56.0)
+Requires-Dist: twine (==3.3.0)
+Requires-Dist: urllib3 (==1.26.2)
+Requires-Dist: webencodings (==0.5.1)
+Requires-Dist: windows-curses (==2.2.0)
+Requires-Dist: wrapt (==1.12.1)
+
+# Can box module for sending can message
+
+
+
