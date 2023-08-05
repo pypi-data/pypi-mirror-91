@@ -1,0 +1,7 @@
+Flask
+paramiko
+Owlready2
+flaskwebgui
+Werkzeug
+rdflib
+requests
