@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: cit
+Version: 0.2.0
+Summary: 让github的下载速度比之前快一千倍
+Home-page: https://github.com/solider245/cit.git
+Author: 中箭的吴起
+Author-email: solider245@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: sh (>=1.14.1,<2.0.0)
+Requires-Dist: typer (>=0.3.2,<0.4.0)
+Description-Content-Type: text/markdown
+
+## 序言
+github上有很多好项目,但是国内用户连github却非常的慢.每次都要用插件或者其他工具来解决.
+这次自己做一个小工具,输入github原地址后,就可以自动替换为代理地址,方便大家更快速的下载.
+
+<!-- more -->
+## 主要功能
+1. 将用户输入的github地址替换为代理地址
