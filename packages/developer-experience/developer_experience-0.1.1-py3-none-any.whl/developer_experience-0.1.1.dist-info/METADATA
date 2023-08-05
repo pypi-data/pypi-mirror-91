@@ -1,0 +1,56 @@
+Metadata-Version: 2.1
+Name: developer-experience
+Version: 0.1.1
+Summary: UNKNOWN
+Home-page: UNKNOWN
+License: BSD-3-Clause
+Project-URL: Code, https://github.com/infosmith/pydx
+Project-URL: Issue tracker, https://github.com/infosmith/pydx/issues
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Natural Language :: English
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: POSIX
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Requires-Python: >=3.4
+
+Python Developer Experience (PyDX)
+##################################
+
+A knowledge base of things that make the Python developer experience pythonic.
+
+
+Dependencies
+------------
+Integrate pyenv_ with pipenv_ to install the Pipfile pinned version of Python
+or use  miniconda_ to install the pinned version of Python then activate the
+conda environment before running pipenv install so that pipenv finds the correct
+version of Python. Alternatively, use Poetry_ for managing both dependencies and
+environments.
+
+.. code-block:: bash
+
+    conda create python=3.8 --name pydx
+    conda activate pydx
+    pip install -r requirements/assumed.txt
+    pipenv install --dev -r requirements/development.txt
+    pipenv shell
+
+
+.. _miniconda: https://docs.conda.io/en/latest/miniconda.html
+.. _pipenv: https://github.com/pypa/pipenv
+.. _poetry: https://python-poetry.org/
+.. _pyenv: https://github.com/pyenv/pyenv
+
+
+
+
