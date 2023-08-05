@@ -1,0 +1,16 @@
+examples/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+examples/communication/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+examples/communication/service.py,sha256=42UHQe4Ba_erCRrxc5HgYvvlXDbbu-sVYzRFk_RY8dk,1104
+examples/flask-leader/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+examples/flask-leader/server.py,sha256=NUDz8o-nXYZOW18y2IQSOHjF2nAb6K1ACdw72ZW7P-E,1906
+qcluster/__init__.py,sha256=fqHVa7J_LQ8A8W5Zt2NQGrnFc_uWfmAOEStkndfYchE,130
+qcluster/communication.py,sha256=vhEZr0wwPubPiDDr694-mOizYAsmcSCYnMo1UTkaWLo,15485
+qcluster/consensus.py,sha256=mHkZrP_I9Cx2v21Ha1CxjxbhY56sFCDcYjrBX2ZKbUU,7900
+qcluster/qcluster.py,sha256=6EzOpmAQS3EPSJxH1wHCLeKshIbh1qgOirFLVgOVnYE,1353
+qcluster/registry.py,sha256=t6llYx6mlnEkM_cZv03Fggg1TSDzPz1Oa7q728IweEM,2074
+qcluster/utils.py,sha256=z_XzRV9vek_Fb5syi8RPALL77Nuw6KiMBWYqBnSgkm4,1292
+QCluster-0.0.5.dist-info/LICENSE,sha256=5bXK_2zMBxOXUvWrQJ9BWELVRXnJB5U9PAk7z5ViQ7E,11545
+QCluster-0.0.5.dist-info/METADATA,sha256=qo_GAtcnStWzEyzLWl2D03m_1bpO3sSSLIVOoA9JJLg,8394
+QCluster-0.0.5.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+QCluster-0.0.5.dist-info/top_level.txt,sha256=unzC290O0zG6G5kPcfQJj8b5pmd2zRgI23h0gehM9rI,18
+QCluster-0.0.5.dist-info/RECORD,,
