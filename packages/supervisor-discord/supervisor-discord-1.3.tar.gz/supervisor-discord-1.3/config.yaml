@@ -1,0 +1,13 @@
+---
+test:
+  alerts:
+  - STARTING
+  - RUNNING
+  - BACKOFF
+  - STOPPING
+  - FATAL
+  - EXITED
+  - STOPPED
+  - UNKNOWN
+  message_format: '{{process_name}} changed to state {{to_state}}'
+  webhookURL: https://discord.com/api/webhooks/796184182594338898/6wTbxY49_u4Ytepj0t7f_5p49sKPYoQi35rRGGFaVSs9G3jtVhf8kM9WeC7OdgVMLPI8

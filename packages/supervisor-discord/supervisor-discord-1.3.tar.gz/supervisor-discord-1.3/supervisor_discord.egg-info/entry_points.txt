@@ -1,0 +1,3 @@
+[console_scripts]
+supervisor-discord = supervisordiscord.alertHandler:run
+
