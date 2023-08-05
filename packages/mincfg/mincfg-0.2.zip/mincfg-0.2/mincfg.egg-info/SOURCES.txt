@@ -1,0 +1,11 @@
+README.md
+setup.py
+mincfg/__init__.py
+mincfg/configs.py
+mincfg/sources.py
+mincfg.egg-info/PKG-INFO
+mincfg.egg-info/SOURCES.txt
+mincfg.egg-info/dependency_links.txt
+mincfg.egg-info/not-zip-safe
+mincfg.egg-info/requires.txt
+mincfg.egg-info/top_level.txt

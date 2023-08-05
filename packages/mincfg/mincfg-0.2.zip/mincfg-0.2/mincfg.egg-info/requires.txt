@@ -1,0 +1,14 @@
+
+[all]
+pyyaml
+
+[dev]
+pytest
+pytest-cov
+pytest-mypy
+pytest-pylint
+pyyaml
+wheel
+
+[yaml]
+pyyaml
