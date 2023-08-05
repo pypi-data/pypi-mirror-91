@@ -1,0 +1,9 @@
+README.md
+setup.py
+MathisonTuring.egg-info/PKG-INFO
+MathisonTuring.egg-info/SOURCES.txt
+MathisonTuring.egg-info/dependency_links.txt
+MathisonTuring.egg-info/requires.txt
+MathisonTuring.egg-info/top_level.txt
+mathisonturing/__init__.py
+mathisonturing/tools.py
