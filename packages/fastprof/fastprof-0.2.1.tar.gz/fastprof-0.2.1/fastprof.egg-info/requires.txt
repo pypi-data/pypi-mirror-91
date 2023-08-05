@@ -1,0 +1,7 @@
+matplotlib
+mock
+numpy
+pandas
+scipy
+sphinx-argparse
+sphinx-rtd-theme
