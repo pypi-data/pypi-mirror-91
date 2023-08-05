@@ -1,0 +1,9 @@
+cellular_automaton/__init__.py,sha256=QEmqRUAzeqwixhy3J4Wzg-CXBll7glsByIfKTnUnjAY,826
+cellular_automaton/automaton.py,sha256=EpTlKJM9pqvN5llTmnZrr9GJ0wkTXi6LLKo2RrpEBH0,6353
+cellular_automaton/display.py,sha256=xuJPE2gBR_MooipOTN9KwzpIBRMivfFtHrWIHVknl6c,7450
+cellular_automaton/neighborhood.py,sha256=cXafa76R50YmH834LpzxSYGDEbEzrE4IgdkCx1G_mq0,9688
+cellular_automaton-1.0.8.dist-info/LICENSE.txt,sha256=TNE_ejHpj1HE-5YKEV6amrnEIoTKXVybXMvPMi3kW_0,10140
+cellular_automaton-1.0.8.dist-info/METADATA,sha256=S5htVJ-OjLjLAdGZ59mL_faPP7DStBXZGSkLSS00Z2s,7012
+cellular_automaton-1.0.8.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+cellular_automaton-1.0.8.dist-info/top_level.txt,sha256=1FjHWSXK9oDXgjviPbzQFHzijlyJisU-gRu8KUf0I5g,19
+cellular_automaton-1.0.8.dist-info/RECORD,,
