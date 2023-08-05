@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: vsw
+Version: 0.0.0
+Summary: vsw CLI commands
+Home-page: https://github.com/verifiablesoftware/vsw
+Author: Felix
+Author-email: gang4.chen@symbio.com
+License: MIT
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Requires-Dist: pkginfo (>=1.4.2)
+Requires-Dist: readme-renderer (>=21.0)
+Requires-Dist: requests (>=2.20)
+Requires-Dist: requests-toolbelt (!=0.9.0,>=0.8.0)
+Requires-Dist: setuptools (>=0.7.0)
+Requires-Dist: setuptools-scm
+Requires-Dist: tqdm (>=4.14)
+Requires-Dist: keyring (>=15.1)
+Requires-Dist: rfc3986 (>=1.4.0)
+Requires-Dist: colorama (>=0.4.3)
+Requires-Dist: importlib-metadata ; python_version < "3.8"
+
+UNKNOWN
+
+

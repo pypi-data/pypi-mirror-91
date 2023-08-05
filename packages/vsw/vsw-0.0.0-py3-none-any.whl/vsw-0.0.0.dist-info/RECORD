@@ -1,0 +1,17 @@
+src/__init__.py,sha256=jjcIifK0qBWtJRT2UN7Zc334cH_z7UeopdNBSgLaeFU,1237
+src/__main__.py,sha256=ExA7alQ9LBM_QYtnYi_VbF3L1w0-vTpg2RFanKxywUY,221
+src/_installed.py,sha256=tSD8sWJ3BKngZd7ISW3yppETsSAoe5moBYzgB1UkaJU,2403
+src/cli.py,sha256=L1ZLhuCCqHGEtbFkSo0Os02oh7_mrSj6x4cSgulqiAk,2157
+src/commands/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+src/commands/exit.py,sha256=gCaRu3To8gKuxpkaiStO9Exn1mhGwA9JMJICIoOnLn0,532
+src/commands/help.py,sha256=wX4PiEQ7tMEHLzcMk7znFqJm9ss9FNtyVkDOfv_w5h8,532
+src/commands/init.py,sha256=5VIknfl5-XZRM_dujp7li_GG261l_PTOjVc9b18rcgI,532
+src/commands/list.py,sha256=lOsokaFh_5zn2oH77AkuqZURMthei3anFdu_uWhBW5Q,532
+src/commands/publish.py,sha256=Y1jKyv6wv2fb_KYv61UgZoPOyQa2MzlQ5AUjVjUG4iM,535
+src/commands/register.py,sha256=WxW4as4sj0YltXj51cyolRX-kXRNQuJam3tGuRdIYSM,536
+src/commands/verify.py,sha256=TIxR3JEpQE8z9HRsro_bU8qmE5waoqQA3pBBoj9CCZI,534
+vsw-0.0.0.dist-info/METADATA,sha256=uQvbCi3QgKB_TYRv6NFHImXqbArPzes4Uq1BDcT3Flk,651
+vsw-0.0.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+vsw-0.0.0.dist-info/entry_points.txt,sha256=2HFaWfAebCT8VciX2HDQ6d4LGlbKl9TJfeXB1UiYXR0,309
+vsw-0.0.0.dist-info/top_level.txt,sha256=74rtVfumQlgAPzR5_2CgYN24MB0XARCg0t-gzk6gTrM,4
+vsw-0.0.0.dist-info/RECORD,,
