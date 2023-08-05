@@ -1,0 +1,41 @@
+# Subnet
+
+The Subnet is a python library that can subnet an IP address for different networks. A user can set the static or dynamic mode for subnetting. Currently, this library only supports IPv4 addresses.
+
+## Installation
+
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install the subnet.
+
+```bash
+pip install subnet
+```
+
+## Usage
+
+```python
+import subnet as sb
+
+IP = "192.168.1.12/24"
+```
+To subnet this data for 3 networks (1,2,3) which have 10,3 and 0 hosts then the data variable would be in the following form.
+```python
+data = {1:10,2:3,3:0}
+```
+This library automatically assigns the IP address for the network and broadcast even if the host's value is 0.
+### Static Subnetting
+```python
+a = sb.Subnet(IP,data,static=True)
+a.summary()
+```
+### Dynamic Subnetting
+```python
+a = sb.Subnet(IP,data)
+a.summary()
+```
+## Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+Please make sure to update tests as appropriate.
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)

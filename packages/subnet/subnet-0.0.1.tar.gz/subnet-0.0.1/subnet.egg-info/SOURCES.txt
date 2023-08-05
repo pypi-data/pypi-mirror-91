@@ -1,0 +1,8 @@
+README.md
+setup.py
+subnet/__init__.py
+subnet/subnet.py
+subnet.egg-info/PKG-INFO
+subnet.egg-info/SOURCES.txt
+subnet.egg-info/dependency_links.txt
+subnet.egg-info/top_level.txt
