@@ -1,0 +1,9 @@
+certbot_dns_infomaniak/__init__.py,sha256=IqB0hUYQ-c6_mU6sAQI3Hh-8wMnFOXC9dgiSZzyhgPU,93
+certbot_dns_infomaniak/dns_infomaniak.py,sha256=lMtK7qUCQkD8Zkah5sqiw6C3kMxWLQmufjZ2EQ6lZPw,7755
+certbot_dns_infomaniak/dns_infomaniak_test.py,sha256=ObbCeYyAmWPqL98EISAln6swacidsvB8ZeE-hrxDFzI,6338
+certbot_dns_infomaniak-0.1.5.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+certbot_dns_infomaniak-0.1.5.dist-info/METADATA,sha256=qkaaE1710-Jck6IHLCfbTRVmB-5NCIyKmAoZ6FJ80Wc,2318
+certbot_dns_infomaniak-0.1.5.dist-info/WHEEL,sha256=Z-nyYpwrcSqxfdux5Mbn_DQ525iP7J2DG3JgGvOYyTQ,110
+certbot_dns_infomaniak-0.1.5.dist-info/entry_points.txt,sha256=lnbhPT6mJUFyUmOVqX6ersvh6oLIho5wXLzSviUxET8,88
+certbot_dns_infomaniak-0.1.5.dist-info/top_level.txt,sha256=HhdpQ94KrJljpuv6-xoatUvFZ0CniMCX-qQnAC6xI4Q,23
+certbot_dns_infomaniak-0.1.5.dist-info/RECORD,,
