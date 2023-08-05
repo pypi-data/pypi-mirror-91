@@ -1,0 +1,5 @@
+pyproject.toml
+TeachableMachineEasy.egg-info/PKG-INFO
+TeachableMachineEasy.egg-info/SOURCES.txt
+TeachableMachineEasy.egg-info/dependency_links.txt
+TeachableMachineEasy.egg-info/top_level.txt
