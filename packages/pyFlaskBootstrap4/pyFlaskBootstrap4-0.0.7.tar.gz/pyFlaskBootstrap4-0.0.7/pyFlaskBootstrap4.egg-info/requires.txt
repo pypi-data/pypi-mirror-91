@@ -1,0 +1,7 @@
+Bootstrap-Flask
+Flask
+Flask-SQLAlchemy
+Flask-WTF
+Flask-HTTPAuth
+requests
+pydevd
