@@ -1,0 +1,24 @@
+Metadata-Version: 1.1
+Name: UltimateChemCalc
+Version: 1.0
+Summary: This package comes with an entire collection of chemistry calculators. Topics
+include basic mole conversions, stoichiometry, molarity, and balancing problems. Furthermore,
+the second file represents a graphical program containing all calculators that will run upon
+being imported; this program can be included via #import FILE# within the local
+scope of a function (this way users can choose when to launch the program). Examples
+are covered below...
+Home-page: www.inventorsniche.com
+Author: Harold J. Iwen
+Author-email: inventorsniche349@gmail.com
+License: MIT
+Download-URL: https://github.com/Hiwen-STEM/UltimateChemCalc
+Description: UNKNOWN
+Keywords: Chemistry,Mole,Stoichiometry,Conversion,Chemical,Equation,Balancing,Chemical_Equation_Balancing
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
