@@ -1,0 +1,14 @@
+*.egg-info/
+/*.png
+*.sqlite
+.venv/
+Exports/
+__pycache__/
+config.ini
+dist/
+tags
+*.secret
+temp.png
+archives/
+DONE_*.txt
+build/

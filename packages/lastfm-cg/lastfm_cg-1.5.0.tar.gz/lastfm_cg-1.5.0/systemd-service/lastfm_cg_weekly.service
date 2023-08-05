@@ -1,0 +1,11 @@
+[Unit]
+Description=lastfm_cg_weekly.service
+
+[Service]
+Type=oneshot
+WorkingDirectory=%h/Documents/lastfm_cg/Exports
+# With pipenv
+ExecStart=%h/Documents/lastfm_cg/.venv/bin/lastfm_cg -u d_beley
+
+[Install]
+WantedBy=multi-user.target
