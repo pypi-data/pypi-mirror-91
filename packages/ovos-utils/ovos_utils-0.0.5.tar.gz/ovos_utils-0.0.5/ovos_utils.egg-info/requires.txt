@@ -1,0 +1,8 @@
+phoneme_guesser
+mycroft-messagebus-client
+inflection
+colour
+pexpect
+PyYAML
+json_database
+requests
