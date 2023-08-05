@@ -1,0 +1,11 @@
+html2excel/__init__.py,sha256=BylufUCb2wMjKU-zV2gmxEReeqzyO9U8oHF_a6XmVjc,64
+html2excel/__main__.py,sha256=OYPuJTpGXDNhd28HYCGUu1HdbeLlDiArpNbL4VeGd-Q,434
+html2excel/base/__init__.py,sha256=d4IG0OxUXj2HffepzQcYixHlZeuuuDMAFa09H_6LtmU,12
+html2excel/base/parser.py,sha256=MSKjtrNY36LShyU1wYJWME1fwna1KowDl4if43IEuWc,1509
+html2excel/excel/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+html2excel/excel/parser.py,sha256=h19_-SDbMRJ_8c6qnCV6mMxOzNJG3RrIuW1ERR_4kbo,932
+html2excel-0.0.4.dist-info/LICENSE,sha256=IcpGV8-HCpJExxyDuSEs2-RmZ3I0GAk67TxJdYX93gI,1070
+html2excel-0.0.4.dist-info/METADATA,sha256=KcpNzHeR0AgfV_-uxRZe2qnmmQ6qSglCML9KfROqgiE,712
+html2excel-0.0.4.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+html2excel-0.0.4.dist-info/top_level.txt,sha256=lE1QuS0ijPD0RsaHEOWoQg-QsXlgEjjrPYRntPILFT4,11
+html2excel-0.0.4.dist-info/RECORD,,
