@@ -1,0 +1,80 @@
+Metadata-Version: 2.1
+Name: quo
+Version: 2021.1.dev1
+Summary: Quo is a Python  based module for writing Command-Line Interface(CLI) applications. It improves programmer's productivity because it's easy to use and supports auto completion which means less time will be spent debugging. 
+Home-page: https://github.com/viewerdiscretion/quo 
+License: UNKNOWN
+Author: Gerrishon Sirere
+Author-email: gerryshon254@gmail.com
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: System Administrators
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python
+Classifier: Topic :: Software Development :: Libraries :: Application Frameworks
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: MIT License
+Requires-Dist: colorama >=0.4.3,<0.5.0
+Requires-Dist: shellingham >=1.3.0,<2.0.0
+Requires-Dist: colorama >=0.4.3,<0.5.0 ; extra == "all"
+Requires-Dist: shellingham >=1.3.0,<2.0.0 ; extra == "all"
+Requires-Dist: autoflake >=1.3.1,<2.0.0 ; extra == "dev"
+Requires-Dist: flake8 >=3.8.3,<4.0.0 ; extra == "dev"
+Requires-Dist: mkdocs >=1.1.2,<2.0.0 ; extra == "doc"
+Requires-Dist: mkdocs-material >=5.4.0,<6.0.0 ; extra == "doc"
+Requires-Dist: markdown-include >=0.5.1,<0.6.0 ; extra == "doc"
+Requires-Dist: shellingham >=1.3.0,<2.0.0 ; extra == "test"
+Requires-Dist: pytest >=4.4.0,<5.4.0 ; extra == "test"
+Requires-Dist: pytest-cov >=2.10.0,<3.0.0 ; extra == "test"
+Requires-Dist: coverage >=5.2,<6.0 ; extra == "test"
+Requires-Dist: pytest-xdist >=1.32.0,<2.0.0 ; extra == "test"
+Requires-Dist: pytest-sugar >=0.9.4,<0.10.0 ; extra == "test"
+Requires-Dist: mypy ==0.782 ; extra == "test"
+Requires-Dist: black >=19.10b0,<20.0b0 ; extra == "test"
+Requires-Dist: isort >=5.0.6,<6.0.0 ; extra == "test"
+Project-URL: Documentation, https://viewerdiscretion.github.io/quo
+Provides-Extra: all
+Provides-Extra: dev
+Provides-Extra: doc
+Provides-Extra: test
+
+# quo
+Quo is a Python based toolkit for creating Command-Line Interface (CLI) applications. Quo improves programmer's productivity because it's easy to use and supports auto completion which means less time will be spent debugging.
+
+[![Quo](pics/quo.png)](https://github.com/viewerdiscretion) 
+
+---
+
+**Quo📄** : <a href="https://viewerdiscretion.github.io/quo" class="external-link" target="_blank">Documentation</a>
+
+---
+
+## Requirements
+
+Python 3.6+
+
+## Installation
+
+<div class="termy">
+
+```console
+Install
+$ pip install quo
+
+or install and update
+$ pip install -U quo
+🔸🔸🔸🔸🔸💯 
+Quo has been installed successfully🎉 
+```
+
+</div>
+
