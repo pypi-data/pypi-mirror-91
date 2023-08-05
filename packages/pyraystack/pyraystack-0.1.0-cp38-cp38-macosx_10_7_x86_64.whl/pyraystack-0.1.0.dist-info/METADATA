@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: pyraystack
+Version: 0.1.0
+Classifier: Programming Language :: Rust
+Author: A Mackay <amk@gegroup.com.au>
+Author-Email: A Mackay <amk@gegroup.com.au>
