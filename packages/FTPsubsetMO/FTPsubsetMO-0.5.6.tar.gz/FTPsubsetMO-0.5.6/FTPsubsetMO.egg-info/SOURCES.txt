@@ -1,0 +1,11 @@
+README.md
+setup.py
+FTPsubsetMO/__init__.py
+FTPsubsetMO/__main__.py
+FTPsubsetMO.egg-info/PKG-INFO
+FTPsubsetMO.egg-info/SOURCES.txt
+FTPsubsetMO.egg-info/dependency_links.txt
+FTPsubsetMO.egg-info/entry_points.txt
+FTPsubsetMO.egg-info/not-zip-safe
+FTPsubsetMO.egg-info/requires.txt
+FTPsubsetMO.egg-info/top_level.txt
