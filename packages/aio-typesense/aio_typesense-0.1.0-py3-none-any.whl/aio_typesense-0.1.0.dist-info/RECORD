@@ -1,0 +1,10 @@
+README.md,sha256=Pxp49VQ57A74c06TIhaHsUuF1cfq5MPLSInquv6E3gI,4507
+aio_typesense/__init__.py,sha256=p6THSHWwmAp_Sp5Lu4W9fkDE3Ws2-R_IhkXm9NvlynQ,225
+aio_typesense/api_call.py,sha256=6dIMznB_uqQHQxT0j3JFuThihd95hd_2LlRuf72tv7w,988
+aio_typesense/client.py,sha256=EbEhYWGPuyzERfZYW95FG5ro9CS_1cQLQ9GJVDAOlKo,275
+aio_typesense/collections.py,sha256=qo3B42f67ScKodqWH7zINqxtZG7JCyWMvG_22lHztxU,2136
+aio_typesense/documents.py,sha256=3aJYIW-0RwXN6OOuqXe9miX8yhbVPifUOHWvt4G6Ld0,6489
+aio_typesense/types.py,sha256=yS_n9XVGxGKwbxebcb6360Qhy0jM7xFrrpO1CyPE6MU,1423
+aio_typesense-0.1.0.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+aio_typesense-0.1.0.dist-info/METADATA,sha256=g3kX7VdSctCJ_AIKeBuo1LXGzCRgLxTSHvO4GuZTQ8k,5554
+aio_typesense-0.1.0.dist-info/RECORD,,
