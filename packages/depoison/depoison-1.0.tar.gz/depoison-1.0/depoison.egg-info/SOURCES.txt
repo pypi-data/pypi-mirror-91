@@ -1,0 +1,11 @@
+README.md
+setup.cfg
+setup.py
+./scripts/depoison
+depoison.egg-info/PKG-INFO
+depoison.egg-info/SOURCES.txt
+depoison.egg-info/dependency_links.txt
+depoison.egg-info/requires.txt
+depoison.egg-info/top_level.txt
+lib/depoison/__init__.py
+lib/depoison/__main__.py
