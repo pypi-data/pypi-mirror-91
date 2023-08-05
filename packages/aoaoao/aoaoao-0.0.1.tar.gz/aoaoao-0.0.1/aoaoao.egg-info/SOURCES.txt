@@ -1,0 +1,7 @@
+setup.py
+aoaoao/__init__.py
+aoaoao/pta.py
+aoaoao.egg-info/PKG-INFO
+aoaoao.egg-info/SOURCES.txt
+aoaoao.egg-info/dependency_links.txt
+aoaoao.egg-info/top_level.txt
