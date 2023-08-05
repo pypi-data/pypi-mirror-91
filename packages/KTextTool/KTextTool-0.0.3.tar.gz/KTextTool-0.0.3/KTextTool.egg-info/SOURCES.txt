@@ -1,0 +1,10 @@
+README.md
+setup.py
+KTextTool/FE.py
+KTextTool/__init__.py
+KTextTool/analyze.py
+KTextTool/preProcess.py
+KTextTool.egg-info/PKG-INFO
+KTextTool.egg-info/SOURCES.txt
+KTextTool.egg-info/dependency_links.txt
+KTextTool.egg-info/top_level.txt
