@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: teachable-machine-easy
+Version: 0.0.1
+Summary: This package allows you to connect teachable machine with python in a very simple way.
+Home-page: https://repl.it/@EpicCodeWizard/Module-Source-Code
+Author: Sarvesh Madullapalli
+Author-email: sarveshsaharsh@gmail.com
+License: UNKNOWN
+Description: # Teachable Machine Easy Library
+        Many people know of Teachable Machine, by Google. This certain library/module only supports the image part of it. [Website where you can create it a h5 file/model.](https://teachablemachine.withgoogle.com/train/image) Checklist:
+        - [x] h5 File Support, without user opening file themselves.
+        - [ ] Other Teachable Machine Options, like audio.
+        - [ ] Cross-platform testing.
+        
+        Simple Syntax:
+        ```python
+        from teachable-machine-easy import main
+        main(keras_model.h5, messages=["You have Pepsi.", "You have Coke.", "You have Fanta.", "You have Red Bull."])
+        ```
+        This will open up the camera, and constantly tell whch type of soda there is.
+        
+        Note: This library is in no way associated with these drinks. They are here for demostartion purposes only.
+        
+        ---
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
