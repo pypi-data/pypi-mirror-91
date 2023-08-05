@@ -1,0 +1,12 @@
+limoo/__init__.py,sha256=xTYaCjf87Al8Lyq_bxO9yA5oIpAG3jGpCq7en9zGoRE,83
+limoo/driver.py,sha256=Uh316LDs800iaoRf-kPCdVFciPyZuhc4hNdxCsCeEjk,8784
+limoo/exceptions.py,sha256=O1FfweNY3mwGb3KukayIliyLuvdeJdtFd_SkwcobJg4,92
+limoo/entities/__init__.py,sha256=hK1dwkI-vgUxK_n6tk4GWmyWp6PAYWOIIbaa87OFdGM,157
+limoo/entities/conversations.py,sha256=2B-kx221N9nwjTvHVcgzv6KuwhKFDAmzXZLLzs-Jd7k,1380
+limoo/entities/files.py,sha256=wMxfq_8_jLs-SfT0jNU0oIBOjg_mW4jodKH-q7OnIjk,302
+limoo/entities/messages.py,sha256=HowW2JXf8aAiDIu1FJbJJlcUf_2hl6Yd6vsd3eDIC54,706
+limoo/entities/users.py,sha256=E1xOKnanP_Y6j9j_hfrbvQqQexpXGzA9ImYwzGyFE5s,288
+limoo/entities/workspaces.py,sha256=ZVY8Bka1HTZFynsTjYlng9WB0tojSmXVETSDRFrkCw8,226
+limoo_sdk-0.1.2.dist-info/WHEEL,sha256=CqyTrkghQBNsEzLD3HbCSEIJ_fY58-XpoU29dUzwHSk,81
+limoo_sdk-0.1.2.dist-info/METADATA,sha256=LXa4ztmUyOrAzr04GvvVyKYkVdQ2J69_kzBqb6j8H6c,5183
+limoo_sdk-0.1.2.dist-info/RECORD,,
