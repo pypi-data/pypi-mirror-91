@@ -1,0 +1,10 @@
+setup.py
+distributions/Binomialdistribution.py
+distributions/Gaussiandistribution.py
+distributions/Generaldistribution.py
+distributions/__init__.py
+sydist.egg-info/PKG-INFO
+sydist.egg-info/SOURCES.txt
+sydist.egg-info/dependency_links.txt
+sydist.egg-info/not-zip-safe
+sydist.egg-info/top_level.txt
