@@ -1,0 +1,3 @@
+[console_scripts]
+flametrace = flametrace.main:cli
+
