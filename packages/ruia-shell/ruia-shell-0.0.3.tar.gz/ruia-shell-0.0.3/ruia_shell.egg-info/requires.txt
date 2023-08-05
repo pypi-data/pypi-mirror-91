@@ -1,0 +1,4 @@
+fire
+ruia>=0.8.0
+ipython
+nest_asyncio
