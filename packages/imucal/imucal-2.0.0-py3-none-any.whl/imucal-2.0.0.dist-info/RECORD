@@ -1,0 +1,11 @@
+imucal/__init__.py,sha256=UmWVn2TLydu0OPyqfXh_2RPKKoWb3eOgdbWbdhG4f4s,716
+imucal/calibration_gui.py,sha256=veS4QntyhU7ZhK8EFJ7C0h0BDUhpxnXMY4Zj0k8gxFw,8676
+imucal/calibration_info.py,sha256=PhdHpUkkQAu5oVtE_3agqVBkGk3BNjn-XVdZfxo8LL8,11394
+imucal/ferraris_calibration.py,sha256=plLaO7UXIk8a02W7S0-JBOQSyco9U28R8ACPQ-sD7_Q,20282
+imucal/ferraris_calibration_info.py,sha256=oRGZiYOE6u9YsHZDkwwm5gaRmjJZoDQJGhWdtqQccF8,5485
+imucal/legacy.py,sha256=s9faX-NmZeQUg4IrJFjNWnszHDVqxhrVtiIAVAUiWm0,1785
+imucal/management.py,sha256=QiasdY8WekKO5Nl83aMXrMRP3k2g1uMukL0wkkBBTxA,11281
+imucal-2.0.0.dist-info/LICENSE,sha256=7E6JrNYdHeQPZzaP_PKTWKN9iPU1ftiJFMNU5VoJCgo,1073
+imucal-2.0.0.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+imucal-2.0.0.dist-info/METADATA,sha256=ng9IXChtc0emV6VdEywoAlJhPg6l5qDdTpKz4JJuLGs,5491
+imucal-2.0.0.dist-info/RECORD,,
