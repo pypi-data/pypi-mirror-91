@@ -1,0 +1,3 @@
+[console_scripts]
+croudtech-helm-values-parser = croudtech_helm_values_parser.cli:cli
+
