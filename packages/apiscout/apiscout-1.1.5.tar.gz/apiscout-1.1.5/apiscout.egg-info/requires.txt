@@ -1,0 +1,4 @@
+numpy
+Pillow
+wheel
+lief==0.10.1
