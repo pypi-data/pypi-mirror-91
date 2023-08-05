@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: pyUsmap
+Version: 1.1.0
+Summary: .usmap file reader
+Home-page: https://github.com/MinshuG/pyUsmap
+Author: MinshuG
+License: UNKNOWN
+Description: # pyUsmap
+        .usmap parser
+        
+        # Installation
+        `pip install pyUsmap`
+        
+        # Usages
+        ```py
+        from Usmap import Usmap
+        
+        with open("xyz.usmap", "rb") as f:
+            data = Usmap(f).read()
+        
+        # from bytes or byte array
+        import io
+        
+        data = Usmap(io.BytesIO(b'')).read()
+        
+        ```
+        # Requirements
+        
+        * Python 3
+        * Brotli
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
