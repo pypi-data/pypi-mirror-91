@@ -1,0 +1,10 @@
+CHANGELOG.rst,sha256=uHa21LUvlcKjF7BYnf6RsU_inua3cmfGQRqNqWXIwQQ,730
+databricks_dbapi/__init__.py,sha256=A6U07Qh2LpMdlL45lu31EcRwBg7-_tUAsTZDxqS-Abo,276
+databricks_dbapi/_version.py,sha256=aVv_OC6feubXY7MeU9T_mZISYGfBvqGwMq2_WdYptCI,321
+databricks_dbapi/databricks.py,sha256=h3cBuweEubHob0dovtlBT-n3tWfh1pgfCD-BfiJBqEk,2929
+databricks_dbapi/sqlalchemy_databricks.py,sha256=qjV0y516wj-CvAjwFGZe35FuvKLucWp8gx-912g7wRw,2423
+databricks_dbapi-0.4.0.dist-info/entry_points.txt,sha256=SBzKsaJlXBfjRD7tkZIhm29x93A9VYLSwyIkgcBfHt0,98
+databricks_dbapi-0.4.0.dist-info/LICENSE.txt,sha256=tOUSRPpcrR1pBTPz3XgRV-N5YqTqGsiNuZWfEZ3p2mU,1078
+databricks_dbapi-0.4.0.dist-info/WHEEL,sha256=2SyTS6-hWVbCVhxpPo1j5f9gwaWw-hVIJs0s_cC8MXM,87
+databricks_dbapi-0.4.0.dist-info/METADATA,sha256=PhxQa5xnCqKeTLor6UxOxihyaY64I-z8jXafJOg43_k,7018
+databricks_dbapi-0.4.0.dist-info/RECORD,,
