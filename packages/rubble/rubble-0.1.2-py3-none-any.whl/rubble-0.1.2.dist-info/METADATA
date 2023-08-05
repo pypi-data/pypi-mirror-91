@@ -1,0 +1,49 @@
+Metadata-Version: 2.1
+Name: rubble
+Version: 0.1.2
+Summary: An implicit code for simulating the local evolution of solid size distributions in protoplanetary disks
+Home-page: https://github.com/astroboylrx/Rubble
+Author: Rixin Li
+Author-email: rixinli.astro@gmail.com
+License: GPLv3+
+Keywords: dust evolution,coagulation,Smoluchowski
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Astronomy
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: matplotlib
+Requires-Dist: astropy
+Provides-Extra: dev
+Requires-Dist: check-manifest ; extra == 'dev'
+Provides-Extra: test
+Requires-Dist: coverage ; extra == 'test'
+
+# Rubble: An implicit code for simulating the local evolution of solid size distributions in protoplanetary disks
+
+## Installation
+
+You may install `Rubble` by this command:
+
+```bash
+pip install -U rubble
+```
+
+Or, you may try the most updated `Rubble` by this command:
+
+```bash
+pip install -U -e git+git://github.com/astroboylrx/Rubble
+```
+
+It will automatically install all the required modules. Also, if you are using Intel processors, please use [Intel Distribution for Python](https://software.intel.com/content/www/us/en/develop/tools/distribution-for-python.html) or at least `intel-numpy` and `intel-scipy`, which will speed up the program for one or two order of magnitudes.
+
+# Usage
+
+Check out the Jupyter Notebooks under the `doc/JupyterNotebooks` folder. More examples will be added soon.
+
+You may also try `help(Rubble)`.
+
