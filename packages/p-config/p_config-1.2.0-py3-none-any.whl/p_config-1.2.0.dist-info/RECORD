@@ -1,0 +1,8 @@
+p_config/__init__.py,sha256=_JQsioJSdMzDh9Hmigx5JNoNdvQhftd2QtM9GW90tqw,2179
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_p_config.py,sha256=rx74FFKC8kJsSYddUP5tvpPuGhvg72lzBIlXBHzyeLw,2228
+p_config-1.2.0.dist-info/LICENSE,sha256=H0zalJ5WOktrJF3OEm4k20wchvm90BXKXUP4RBDuT4M,1314
+p_config-1.2.0.dist-info/METADATA,sha256=2Nf5MlmXXRUatCu2Zg5lcEJv0iS3jDZY08NUjaF_3Bw,1803
+p_config-1.2.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+p_config-1.2.0.dist-info/top_level.txt,sha256=Ir09x3RBHBpnUOV6H5jeyiUbPR3a9-6YBvMrtvk0Pu8,15
+p_config-1.2.0.dist-info/RECORD,,
