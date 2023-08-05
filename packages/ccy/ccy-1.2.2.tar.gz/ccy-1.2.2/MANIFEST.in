@@ -1,0 +1,6 @@
+include MANIFEST.in
+include README.rst
+graft ccy
+graft dev
+graft docs
+global-exclude *.pyc
