@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: scrapy-allen
+Version: 0.1.0
+Summary: 模块描述
+Home-page: UNKNOWN
+Author: Shu Huang
+Author-email: fengyeyouni@163.com
+License: MIT Licence
+Description: 模块详细描述
+Keywords: pip,scrapy,elasticsearch
+Platform: any
