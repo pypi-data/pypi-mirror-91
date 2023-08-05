@@ -1,0 +1,11 @@
+README.md
+setup.cfg
+setup.py
+sentry_ldap_auth_fix/__init__.py
+sentry_ldap_auth_fix/backend.py
+sentry_ldap_auth_fix.egg-info/PKG-INFO
+sentry_ldap_auth_fix.egg-info/SOURCES.txt
+sentry_ldap_auth_fix.egg-info/dependency_links.txt
+sentry_ldap_auth_fix.egg-info/not-zip-safe
+sentry_ldap_auth_fix.egg-info/requires.txt
+sentry_ldap_auth_fix.egg-info/top_level.txt
