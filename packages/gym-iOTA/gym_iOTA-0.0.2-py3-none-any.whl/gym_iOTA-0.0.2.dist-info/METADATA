@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: gym-iOTA
+Version: 0.0.2
+Summary: A Open AI Gym Env for a Multiagent systems with our bot 'iOTA'
+Home-page: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: gym
+Requires-Dist: opencv-python
+Requires-Dist: pybullet
+Requires-Dist: Pillow
+
+UNKNOWN
+
+
