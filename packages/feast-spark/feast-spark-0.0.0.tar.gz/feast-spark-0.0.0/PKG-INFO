@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: feast-spark
+Version: 0.0.0
+Summary: Python Spark SDK for Feast
+Home-page: https://github.com/feast-dev/feast-spark
+Author: Feast Developers
+Author-email: UNKNOWN
+License: Apache
+Description: UNKNOWN
+Platform: UNKNOWN
