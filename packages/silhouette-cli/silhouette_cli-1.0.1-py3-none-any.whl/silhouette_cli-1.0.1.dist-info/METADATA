@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: silhouette-cli
+Version: 1.0.1
+Summary: Silhouette is a cli tool to bootstrap projects from templates published on Github
+Home-page: https://github.com/sharek-org/Silhouette
+Author: Hamza EL KAROUI
+Author-email: helkarou@gmail.com
+License: MIT License
+Platform: UNKNOWN
+Requires-Dist: click (==7.1.2)
+Requires-Dist: requests (==2.24.0)
+Requires-Dist: GitPython (==3.1.12)
+Requires-Dist: rich (==9.7.0)
+
+UNKNOWN
+
+
