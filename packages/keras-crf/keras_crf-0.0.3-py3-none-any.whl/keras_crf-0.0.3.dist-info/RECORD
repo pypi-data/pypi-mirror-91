@@ -1,0 +1,12 @@
+keras_crf/__init__.py,sha256=A3fXlj13mZriMTtxqPc9TWKYdDMjvvCe_LUvcdSoZ64,90
+keras_crf/crf.py,sha256=FJWd_f8vO0U6BtN4EMdxc6qS3Z8cMx2g31Rq5bGBm5k,3139
+keras_crf/dataset.py,sha256=660N5GNvgFQsoIyE158PF0-hnWuS0VLG3liui4HY_kk,4090
+keras_crf/utils.py,sha256=fsE47aZcgsO8pX4zL_wRQ-IgAnXLCSJBLjOKtBXcx1I,1844
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/model_build_test.py,sha256=a82YQv2SJyI7TldSPOcAhBlb-w_9PMEA9octOwSRWes,1040
+tests/model_train_test.py,sha256=C32clxp78VNi7ysF762cS5VXOgGX0Gx00nvTYwmL4WM,1990
+keras_crf-0.0.3.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+keras_crf-0.0.3.dist-info/METADATA,sha256=O0WULyVjIhV75z_1YxLYrb_Yk24GfzQ4KyTcRlLSmVk,3028
+keras_crf-0.0.3.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+keras_crf-0.0.3.dist-info/top_level.txt,sha256=lznLcovUvsuOafu11ejQIp6M23FwW3bx6jBCAR06aPo,16
+keras_crf-0.0.3.dist-info/RECORD,,
