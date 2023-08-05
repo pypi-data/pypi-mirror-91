@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: cgroup-parser
+Version: 0.0.2
+Summary: cgroup parser for python
+Home-page: https://github.com/ZhuYuJin/cgroup-parser
+Author: robertzhu
+Author-email: 630268695@qq.com
+License: UNKNOWN
+Description: # Python解析cgroup（支持容器）
+        1. 获取CPU核数
+        2. 获取CPU使用率
+        3. 获取内存限量
+        4. 获取内存占用量
+        
+        ```
+        import cgroup_parser
+        cgroup_parser.get_max_procs()
+        cgroup_parser.get_cpu_usage()
+        cgroup_parser.get_memory_limit()
+        cgroup_parser.get_memory_usage()
+        ```
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
