@@ -1,0 +1,8 @@
+README.md
+setup.py
+colorblind/__init__.py
+colorblind/colorblind.py
+colorblind.egg-info/PKG-INFO
+colorblind.egg-info/SOURCES.txt
+colorblind.egg-info/dependency_links.txt
+colorblind.egg-info/top_level.txt
