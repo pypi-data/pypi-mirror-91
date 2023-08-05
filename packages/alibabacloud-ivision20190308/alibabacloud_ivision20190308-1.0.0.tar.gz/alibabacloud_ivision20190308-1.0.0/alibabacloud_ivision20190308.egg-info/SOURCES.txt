@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README-CN.md
+README.md
+setup.cfg
+setup.py
+alibabacloud_ivision20190308/__init__.py
+alibabacloud_ivision20190308/client.py
+alibabacloud_ivision20190308/models.py
+alibabacloud_ivision20190308.egg-info/PKG-INFO
+alibabacloud_ivision20190308.egg-info/SOURCES.txt
+alibabacloud_ivision20190308.egg-info/dependency_links.txt
+alibabacloud_ivision20190308.egg-info/requires.txt
+alibabacloud_ivision20190308.egg-info/top_level.txt
