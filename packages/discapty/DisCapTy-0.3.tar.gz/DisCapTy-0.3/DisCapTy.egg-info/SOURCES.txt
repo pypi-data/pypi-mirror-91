@@ -1,0 +1,9 @@
+README.md
+setup.py
+DisCapTy.egg-info/PKG-INFO
+DisCapTy.egg-info/SOURCES.txt
+DisCapTy.egg-info/dependency_links.txt
+DisCapTy.egg-info/top_level.txt
+discapty/__init__.py
+discapty/discapty.py
+discapty/generator.py
