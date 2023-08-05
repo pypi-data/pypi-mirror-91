@@ -1,0 +1,16 @@
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+src/wxyz/svg/__init__.py
+src/wxyz/svg/_version.py
+src/wxyz/svg/base.py
+src/wxyz/svg/widget_svg.py
+src/wxyz/svg/js/LICENSE.txt
+src/wxyz/svg/js/package.json
+src/wxyz_svg.egg-info/PKG-INFO
+src/wxyz_svg.egg-info/SOURCES.txt
+src/wxyz_svg.egg-info/dependency_links.txt
+src/wxyz_svg.egg-info/not-zip-safe
+src/wxyz_svg.egg-info/requires.txt
+src/wxyz_svg.egg-info/top_level.txt
