@@ -1,0 +1,51 @@
+Metadata-Version: 2.1
+Name: betterjsonfs
+Version: 0.1.2
+Summary: A horrible Idea
+Home-page: https://bit.ly/betterjsonfs
+Author: Kool Author
+Author-email: besimat444@sofiarae.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# JsonFS
+
+a horrible idea
+
+ᵖʸᵖᶦ ᵐᵃᵈᵉ ᵐᵉ ʳᵉⁿᵃᵐᵉ ᶦᵗ ˢᵐʰ
+
+## usage
+
+```python
+import BetterJsonFS
+jsfs = BetterJsonFS.jsonfs()
+
+#write a file into fs
+with open("otherstuff/KEKW.png", "rb") as f:
+    jsfs.write("/KEKW.png", f.read())
+    f.close()
+
+#check if the file exists in fs
+print(jsfs.checkifexists("/KEKW.png"))
+
+#write file from fs
+with open("fstest.png", "wb") as f:
+    f.write(jsfs.read("/KEKW.png"))
+    f.close()
+
+#remove from fs
+jsfs.remove("/KEKW.png")
+```
+
+## Installing
+
+make sure you have python pip installed
+
+if you can use bash you can install it via `pip install betterjsonfs`
+
+
