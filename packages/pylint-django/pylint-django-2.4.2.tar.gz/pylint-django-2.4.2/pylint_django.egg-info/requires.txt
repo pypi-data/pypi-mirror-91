@@ -1,0 +1,12 @@
+pylint-plugin-utils>=0.5
+pylint>=2.0
+
+[for_tests]
+django_tables2
+factory-boy
+coverage
+pytest
+Faker<=5.0.1
+
+[with_django]
+Django
