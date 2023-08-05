@@ -1,0 +1,13 @@
+bqup/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bqup/dataset.py,sha256=bTbSYTir0JYnpNjYTKO6wV4crbriyu0htSE_tdTdZbU,2563
+bqup/main.py,sha256=k1jHgikXkOBqyvU6FhuAQPrpUqltklz6GPui05AEIdE,1608
+bqup/project.py,sha256=IFtLzo2KG_FH1sxXNF6iZMUD2ms_JzTJpZsoGtMzdXE,2453
+bqup/routine.py,sha256=xWBvQJGnfAWhD_9z9rDlsRrcZVs2BRxrNX0ofLDkyLg,4780
+bqup/table.py,sha256=XX3c04UJqG5TL22ewx0YqIDEiS6aMwEfFzfUNGiGZSs,3372
+bqup/util.py,sha256=T9zsr_CHLFv5IVPo2rUmGw9Lri8qjJ2OvZ1B5TYgkCs,207
+bqup-0.0.10.dist-info/LICENSE,sha256=o_IMClhOU9-osmFnGSOOnUu8S-jqlICzBDzRWHOZmdk,1087
+bqup-0.0.10.dist-info/METADATA,sha256=61Bw_LgT3h95viyRF9yubjW9AizX6DgPPmmMMLYuA9M,5593
+bqup-0.0.10.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+bqup-0.0.10.dist-info/entry_points.txt,sha256=7JnqFNwxQ_RA08SPcIxg01Z6KHIgMP7m25CJZ8Aa1us,41
+bqup-0.0.10.dist-info/top_level.txt,sha256=jclcWXp3ooaFipeey8HVetQqPUWI1p18Q6dRIKG-f5Y,5
+bqup-0.0.10.dist-info/RECORD,,
