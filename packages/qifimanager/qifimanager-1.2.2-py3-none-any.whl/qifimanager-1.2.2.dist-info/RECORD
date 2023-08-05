@@ -1,0 +1,9 @@
+qifimanager/__init__.py,sha256=edwLyWTIkoNY52Loijx2Q1aSi0uNfzJDaSSVMjlRnM8,346
+qifimanager/manager.py,sha256=Lqzm_CDAT62pPsqqW3cQJvVOaNhL0PhliEHiZG69uh8,9024
+qifimanager/qifiwebserver.py,sha256=XZycOI3Iw-am8fKB8_X1y141-PBLJrxzwJIuqI63Mss,4952
+qifimanager-1.2.2.dist-info/METADATA,sha256=A_zngY7oUHf8_3sD-Z6iWDycMN2sSJQxyytEHojQW44,605
+qifimanager-1.2.2.dist-info/RECORD,,
+qifimanager-1.2.2.dist-info/WHEEL,sha256=cScVKDQXc_cp1jHmxFDq9fIOIg17a2BsmfS6J39H6Eo,97
+qifimanager-1.2.2.dist-info/entry_points.txt,sha256=SJyiHk5x8CZvVAis0wBb72suULiSclbSoNBwd3HO5A4,65
+qifimanager-1.2.2.dist-info/top_level.txt,sha256=hyBgNghCiGihkH4Dd8JH8Px78CiLzUh-mBY1Z6hDJnA,12
+qifimanager-1.2.2.dist-info/zip-safe,sha256=frcCV1k9oG9oKj3dpUqdJg1PxRT2RSN_XKdLCPjaYaY,2
