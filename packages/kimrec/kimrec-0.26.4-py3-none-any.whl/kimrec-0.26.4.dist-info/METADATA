@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: kimrec
+Version: 0.26.4
+Summary: A TensorFlow recommendation algorithm and framework in Python modified by hyeonjae kim
+Home-page: UNKNOWN
+Author: Hyeonjae Kim
+Author-email: now2go@naver.com
+License: UNKNOWN
+Keywords: machine-learning,tensorflow,recommendation-system,python,recommender-system
+Platform: UNKNOWN
+Requires-Dist: numpy (>=1.14.1)
+Requires-Dist: scipy (>=0.19.1)
+Requires-Dist: six (==1.11.0)
+Requires-Dist: tensorflow (>=1.7.0)
+
+UNKNOWN
+
+
