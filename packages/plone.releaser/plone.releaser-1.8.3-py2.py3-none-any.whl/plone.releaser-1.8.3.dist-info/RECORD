@@ -1,0 +1,15 @@
+plone.releaser-1.8.3-py2.7-nspkg.pth,sha256=A-p3CbMuHePaPWt53bhXUnHzJhSeZf4O2eZeA-vKGms,534
+plone/releaser/__init__.py,sha256=3i7QkUCzSiela3sfsgrTg3mAIfd9nPhekQAJQuxOCiI,964
+plone/releaser/buildout.py,sha256=_UI5OXSOOSMhKUiGSWwvlB2PKSFU1YY-FCxfu6F-HNc,6783
+plone/releaser/changelog.py,sha256=Hiya3eefRjXEp6lggypAmaBXzCW9pMl3opXtNW-PJ40,8798
+plone/releaser/db.py,sha256=_Gw4oHFq8GRNCQhdggu_NlfN3n30zwMvSnpQJ2v7uxg,809
+plone/releaser/manage.py,sha256=MCbbLQRnzBS2Cwwq5zhHrCBT__H5T8Kt1tfAwua45jk,5018
+plone/releaser/package.py,sha256=voMqr5qouXwLN3K5mtzHXUn4VRqLcfxn7m9b52J9OLc,10853
+plone/releaser/pypi.py,sha256=tyi0BuuL1l53smjkh47elxywVlKPSU5kGQUQ8SJO-jA,410
+plone/releaser/release.py,sha256=p7cTu7oMLB7bOUf1lue49MTVc7rTv9x3Ap-49sIHMRw,8851
+plone.releaser-1.8.3.dist-info/METADATA,sha256=jrYa-9cKCsfN3dFxWvDnR5Kr5vTZFwbwRaJzLz-qxh8,7405
+plone.releaser-1.8.3.dist-info/WHEEL,sha256=ADKeyaGyKF5DwBNE0sRE5pvW-bSkFMJfBuhzZ3rceP4,110
+plone.releaser-1.8.3.dist-info/entry_points.txt,sha256=weVdm_syyt-0hrWJFg1_q7ovPBvSf6KzpQ6QoM8oK7E,707
+plone.releaser-1.8.3.dist-info/namespace_packages.txt,sha256=56bqrkG-vurYD0l15D71FPiDL7L3QqkfRWkYkdyS7WM,6
+plone.releaser-1.8.3.dist-info/top_level.txt,sha256=56bqrkG-vurYD0l15D71FPiDL7L3QqkfRWkYkdyS7WM,6
+plone.releaser-1.8.3.dist-info/RECORD,,
