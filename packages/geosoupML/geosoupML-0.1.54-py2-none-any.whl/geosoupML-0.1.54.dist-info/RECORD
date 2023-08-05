@@ -1,0 +1,11 @@
+geosoupML/__init__.py,sha256=pX5RET1fq4ZmCJiPzE-kymhGmy5cZolBVjP_hnTpDtI,176
+geosoupML/distance.py,sha256=-9YFJj--b-d0GiOJZfOAD4hboGo15Ur9Z5uEx9GZRHk,13808
+geosoupML/regression.py,sha256=kMmzi0uGinDbQ9195bnLJ7w1PhamzbD-6seI2Ymncwc,74835
+geosoupML/samples.py,sha256=xKmeVx_o8-h0VpehXJj4br1T3yUxaw9y7ehy31m9GBY,28636
+geosoupML/spatial.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+geosoupML-0.1.54.dist-info/DESCRIPTION.rst,sha256=nM6AAOuVWox7tmlYly0ekoJH72pcdKuY14uhLZzB-H0,532
+geosoupML-0.1.54.dist-info/METADATA,sha256=jg5dqYgN63zr1uzDyj8DSPObTxGPDi9flaOd_1vT6-I,1537
+geosoupML-0.1.54.dist-info/RECORD,,
+geosoupML-0.1.54.dist-info/WHEEL,sha256=90z-L1FjHEv_g8pMPaPbaXuhBIvSlvYObRaa122x8ag,97
+geosoupML-0.1.54.dist-info/metadata.json,sha256=dqkmXGXg9PjKpQ6oa-jNnrPRJ1knfdntDmV6vz6fXxY,1077
+geosoupML-0.1.54.dist-info/top_level.txt,sha256=AQMoTEwBt42mvHXYvcGu7XjoKciWLB02kHhusk-Aqag,10
