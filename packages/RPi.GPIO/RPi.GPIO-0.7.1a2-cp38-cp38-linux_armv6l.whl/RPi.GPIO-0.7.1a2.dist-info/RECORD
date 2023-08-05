@@ -1,0 +1,8 @@
+RPi/_GPIO.cpython-38-arm-linux-gnueabihf.so,sha256=C7cb5kx3qrFpwLlnrOrf1GaHymW6l0XmLbaA38faQa0,168476
+RPi/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+RPi/GPIO/__init__.py,sha256=YPsc-NQ1HHAWrnlT2mucz4gzVYgrkBkRzlAcbDKQ9HU,1224
+RPi.GPIO-0.7.1a2.dist-info/LICENCE.txt,sha256=HM8DmgMIjaQr2yGKRGpWQzC4gexx9wIqn7GTDz-2XYo,1061
+RPi.GPIO-0.7.1a2.dist-info/METADATA,sha256=jZ-ia3KL57mpieojUqF5UmnvkRG_olCAh6tm6VGVVCU,8012
+RPi.GPIO-0.7.1a2.dist-info/WHEEL,sha256=4DEL4ZjosCx9k5l0Ly8cRYRzfMcZnxe933k0xlmrgjY,103
+RPi.GPIO-0.7.1a2.dist-info/top_level.txt,sha256=D2ebmx5QNuKCb-J2LbVMXkkhIVNpXvmxlOVIZjPsALw,4
+RPi.GPIO-0.7.1a2.dist-info/RECORD,,
