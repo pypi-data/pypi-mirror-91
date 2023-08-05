@@ -1,0 +1,7 @@
+README.md
+setup.py
+python3_sitemap_generator.egg-info/PKG-INFO
+python3_sitemap_generator.egg-info/SOURCES.txt
+python3_sitemap_generator.egg-info/dependency_links.txt
+python3_sitemap_generator.egg-info/top_level.txt
+sitemap_generator/__init__.py
