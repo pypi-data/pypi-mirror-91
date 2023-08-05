@@ -1,0 +1,115 @@
+Metadata-Version: 2.1
+Name: pymegatools
+Version: 0.2.6
+Summary: Python wrapper for the megatools cmdline utility.
+Home-page: https://github.com/justaprudev/pymegatools
+Author: justaprudev
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: License :: OSI Approved
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# PyMegatools - A WIP Python Wrapper for [megatools](https://megatools.megous.com/)
+
+This is a WIP Python Library for the [megatools](https://megatools.megous.com/) command line utility 
+
+As of right now, you can use this library to download files from mega.nz
+
+
+## Installation
+
+You can either install it from PyPi
+```shell
+pip install pymegatools
+```
+
+or traditionally with [setup.py](setup.py)
+```shell
+python3 setup.py install
+```
+
+## A quick example
+
+This example shows how to use this wrapper to download any file from mega.nz
+
+```python
+from pymegatools import Megatools
+
+# Initialization
+# By default the linux x86_64 binary is loaded
+mega = Megatools()
+
+# Or you can get the official megatools static binaries for your platform at https://megatools.megous.com/builds/experimental/
+# And load it like this:
+mega = Megatools(executable='path/to/megatools')
+
+# Downloading a file from url
+url = 'https://mega.nz/file/PpVB0CTZ#bwa51HbeKaVjuCff_lzbH4nQnV27uBxmcF89PnnACvY'
+mega.download(url)
+```
+
+The output should look something like:
+```shell
+boot_T295XXU2ASJ1.img.tar: 0.00% - 0 bytes of 8.5 MiB
+
+boot_T295XXU2ASJ1.img.tar: 0.49% - 42.7 KiB (43772 bytes) of 8.5 MiB (40.3 KiB/s)
+
+boot_T295XXU2ASJ1.img.tar: 8.58% - 748.7 KiB (766716 bytes) of 8.5 MiB (702.2 KiB/s)
+
+boot_T295XXU2ASJ1.img.tar: 28.83% - 2.5 MiB (2576900 bytes) of 8.5 MiB (1.7 MiB/s)
+
+boot_T295XXU2ASJ1.img.tar: 48.39% - 4.1 MiB (4324956 bytes) of 8.5 MiB (1.7 MiB/s)
+
+boot_T295XXU2ASJ1.img.tar: 66.76% - 5.7 MiB (5967112 bytes) of 8.5 MiB (1.6 MiB/s)
+
+boot_T295XXU2ASJ1.img.tar: 85.73% - 7.3 MiB (7662924 bytes) of 8.5 MiB (1.6 MiB/s)
+
+Downloaded boot_T295XXU2ASJ1.img.tar
+```
+
+## Passing in a callback to redirect the output
+```python
+from pymegatools import Megatools
+
+# We define a callback function that accepts a subprocess Process as proc
+def callback(proc):
+    # We read the last line in the output stream of our megatools process
+    output = proc.stdout.readline()
+    # And finally we write it to a file instead of printing it to the console
+    with open('output.txt', 'a+') as f:
+        f.write(output.decode('utf-8', 'ignore' )) # The output stream is in bytes so we must decode it
+
+# Now we pass in our callback function to Megatools
+mega = Megatools(callback=callback)
+
+# Downloading a file
+mega.download('https://mega.nz/file/PpVB0CTZ#bwa51HbeKaVjuCff_lzbH4nQnV27uBxmcF89PnnACvY')
+```
+
+Now the output is written to output.txt
+```shell
+cat output.txt
+```
+
+```shell
+boot_T295XXU2ASJ1.img.tar: 0.00% - 0 bytes of 10.2Â MiB
+
+boot_T295XXU2ASJ1.img.tar: 0.03% - 2.8Â KiB (2824 bytes) of 10.2Â MiB (2.1Â KiB/s)
+
+boot_T295XXU2ASJ1.img.tar: 3.51% - 365.4Â KiB (374180 bytes) of 10.2Â MiB (362.3Â KiB/s)
+
+boot_T295XXU2ASJ1.img.tar: 29.40% - 3.0Â MiB (3131816 bytes) of 10.2Â MiB (2.6Â MiB/s)
+
+boot_T295XXU2ASJ1.img.tar: 69.56% - 7.1Â MiB (7408764 bytes) of 10.2Â MiB (4.1Â MiB/s)
+
+Downloaded boot_T295XXU2ASJ1.img.tar
+```
+
+## Credits
+
+[@megous](https://github.com/megous) for making the amazing megatools cmdline utility
+
+
