@@ -1,0 +1,7 @@
+exact_cover/.gitignore,sha256=MRyp81AFtOndS3OF0BE0VCExpewegu5m1mI3pMUfues,31
+exact_cover/exact_cover_np.c,sha256=GyvjUbhv6qM2ny1wRnPqT-Tc65jYXL7CD98xdS4tzBw,3193
+exact_cover/setup.py,sha256=dGdzmKuRxztl4ih-JIJj3ooc-cvnNSDe0Xj-AmzL-54,873
+exact_cover-0.1.0.dist-info/LICENSE,sha256=pF0LtXLteS7TRienJiGDSzupKqtuLMTgQwHe56co11M,18027
+exact_cover-0.1.0.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+exact_cover-0.1.0.dist-info/METADATA,sha256=MFxze_9QTlZltVGO5b41f3k6EkrHo2H2JvVMZ-n02Zc,517
+exact_cover-0.1.0.dist-info/RECORD,,
