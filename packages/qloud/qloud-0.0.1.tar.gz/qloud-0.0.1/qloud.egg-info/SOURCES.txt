@@ -1,0 +1,7 @@
+README.md
+setup.py
+qloud/__init__.py
+qloud.egg-info/PKG-INFO
+qloud.egg-info/SOURCES.txt
+qloud.egg-info/dependency_links.txt
+qloud.egg-info/top_level.txt
