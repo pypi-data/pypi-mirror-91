@@ -1,0 +1,14 @@
+starlette_i18n/__init__.py,sha256=7xuBUi45Q4COad55RhpPCqXfCX_l2U1e7qkcij2LyTI,221
+starlette_i18n/constants.py,sha256=LZAFgS7Ns4WJQ7QZ4KE1yQwvA0VTM0uwDTkL6UF3VJo,58
+starlette_i18n/context.py,sha256=edYt2eZinxn2y6c4JY7IE2lz4DwdsIKmatlJoe_TFxI,528
+starlette_i18n/i18n.py,sha256=OVdDWz2pde9dqMM9pCzvui_dIdHqmTDBCvkragZvt7w,1810
+starlette_i18n/locale.py,sha256=Xk2vRxlJB5Jtta06BWhxObeFBwxKZD9u8cnwZJYkmbY,2496
+starlette_i18n/middleware.py,sha256=ZTKHyZ2R1FRL7vieO7fkXEkWxTI0SIuItGeW_IogNJc,787
+starlette_i18n/version.py,sha256=qT3rchIKUxC3I0Q07Dukg8T_w5Q6TrHYYbJo3hc4qMQ,39
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_constants.py,sha256=qWbSmQzD_ZXyAmvqT5FhIkSCjgxeuBVmmGQ2KLnOk6Y,204
+starlette_i18n-0.1.0.dist-info/LICENSE,sha256=2SItc_2sUJkhdAdu-gT0T2-82dVhVafHCS6YdXBCpvY,11466
+starlette_i18n-0.1.0.dist-info/METADATA,sha256=a2ywUiuALs-rCXTKEk7AB31GNHOfGWHCDeVzEgaoP-U,1433
+starlette_i18n-0.1.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+starlette_i18n-0.1.0.dist-info/top_level.txt,sha256=3Xx2Tdg_Q0wk3QS5NBHmO9PPqVhGr2gAMDU5vWGR_3Y,21
+starlette_i18n-0.1.0.dist-info/RECORD,,
