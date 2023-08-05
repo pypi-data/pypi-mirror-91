@@ -1,0 +1,122 @@
+Metadata-Version: 2.1
+Name: pymegatools
+Version: 0.3.1
+Summary: Python wrapper for the megatools cmdline utility.
+Home-page: https://github.com/justaprudev/pymegatools
+Author: justaprudev
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: License :: OSI Approved
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# PyMegatools - A WIP Python Wrapper for [megatools](https://megatools.megous.com/)
+
+This is a WIP Python Library for the [megatools](https://megatools.megous.com/) command line utility 
+
+As of right now, you can use this library to download files from mega.nz
+
+
+## Installation
+
+You can either install it from PyPi
+```shell
+pip install pymegatools
+```
+
+or traditionally with [setup.py](setup.py)
+```shell
+python3 setup.py install
+```
+
+## A quick example
+
+This example shows how to use this wrapper to download any file from mega.nz
+
+```python
+from pymegatools import Megatools
+
+# Initialization
+# By default the linux x86_64 binary is loaded
+mega = Megatools()
+
+# Or you can get the official megatools static binaries for your platform at https://megatools.megous.com/builds/experimental/
+# And load it like this:
+mega = Megatools(executable='path/to/megatools')
+
+# Get version of the currrent mega binary
+print(mega.version())
+
+url = 'https://mega.nz/file/PpVB0CTZ#bwa51HbeKaVjuCff_lzbH4nQnV27uBxmcF89PnnACvY'
+
+# Get a file name from url
+print(mega.filename(url))
+
+# Downloading a file from url
+mega.download(url)
+```
+
+The output should look something like:
+```shell
+megatools 1.11.0 - command line tools for Mega.nz
+Filename: boot_T295XXU2ASJ1.img.tar
+boot_T295XXU2ASJ1.img.tar: 0.00% - 0 bytes of 10.2 MiB
+boot_T295XXU2ASJ1.img.tar: 1.15% - 120.0 KiB (122844 bytes) of 10.2 MiB (118.6 KiB/s)
+boot_T295XXU2ASJ1.img.tar: 21.94% - 2.2 MiB (2336372 bytes) of 10.2 MiB (1.7 MiB/s)
+boot_T295XXU2ASJ1.img.tar: 51.38% - 5.2 MiB (5472912 bytes) of 10.2 MiB (2.4 MiB/s)
+Downloaded boot_T295XXU2ASJ1.img.tar
+```
+
+## Passing in a callback to modify and redirect the output of downloads
+```python
+from pymegatools import Megatools
+
+# We define a callback function that accepts a subprocess Process as proc
+# And an extra custom prefix
+def callback(proc, prefix):
+    # We read the last line in the output stream of our megatools process
+    output = proc.stdout.readline()
+    # And then we write it to a file instead of printing it to the console
+    with open('output.txt', 'a+') as f:
+        # The output stream is in bytes so we must decode it
+        f.write(prefix + output.decode('utf-8', 'ignore' ))
+
+# Initializing megatools
+mega = Megatools()
+
+# Downloading the file and passing in our callback
+# We can also pass in our prefix using the callback_args paramerter
+# The value for callback_args must be an iterable that includes your args
+prefix = "This is the special prefix: "
+mega.download('https://mega.nz/file/PpVB0CTZ#bwa51HbeKaVjuCff_lzbH4nQnV27uBxmcF89PnnACvY', callback=callback, callback_args=[prefix]) 
+```
+
+Now the output is written to output.txt
+```shell
+cat output.txt
+```
+
+```shell
+This is the special prefix: boot_T295XXU2ASJ1.img.tar: 0.00% - 0 bytes of 10.2MiB
+This is the special prefix: boot_T295XXU2ASJ1.img.tar: 0.01% - 1.4KiB (1412 bytes) of 10.2MiB (1.1KiB/s)
+This is the special prefix: boot_T295XXU2ASJ1.img.tar: 1.29% - 133.8KiB (136964 bytes) of 10.2MiB (114.9KiB/s)
+This is the special prefix: boot_T295XXU2ASJ1.img.tar: 3.69% - 383.3KiB (392536 bytes) of 10.2MiB (249.3KiB/s)
+This is the special prefix: boot_T295XXU2ASJ1.img.tar: 7.97% - 828.7KiB (848612 bytes) of 10.2MiB (314.7KiB/s)
+This is the special prefix: boot_T295XXU2ASJ1.img.tar: 7.97% - 828.7KiB (848612 bytes) of 10.2MiB (0 bytes/s)
+This is the special prefix: boot_T295XXU2ASJ1.img.tar: 18.24% - 1.9MiB (1942912 bytes) of 10.2MiB (1.0MiB/s)
+This is the special prefix: boot_T295XXU2ASJ1.img.tar: 26.70% - 2.7MiB (2843768 bytes) of 10.2MiB (693.6KiB/s)
+This is the special prefix: boot_T295XXU2ASJ1.img.tar: 42.86% - 4.4MiB (4564996 bytes) of 10.2MiB (1.4MiB/s)
+This is the special prefix: boot_T295XXU2ASJ1.img.tar: 59.71% - 6.1MiB (6359648 bytes) of 10.2MiB (1.7MiB/s)
+This is the special prefix: boot_T295XXU2ASJ1.img.tar: 66.62% - 6.8MiB (7096224 bytes) of 10.2MiB (619.8KiB/s)
+This is the special prefix: boot_T295XXU2ASJ1.img.tar: 74.94% - 7.6MiB (7982036 bytes) of 10.2MiB (777.5KiB/s)
+This is the special prefix: boot_T295XXU2ASJ1.img.tar: 89.71% - 9.1MiB (9555004 bytes) of 10.2MiB (1.4MiB/s)
+This is the special prefix: Downloaded boot_T295XXU2ASJ1.img.tar
+```
+
+## Credits
+
+[@megous](https://github.com/megous) for making the amazing megatools cmdline utility
+
+
