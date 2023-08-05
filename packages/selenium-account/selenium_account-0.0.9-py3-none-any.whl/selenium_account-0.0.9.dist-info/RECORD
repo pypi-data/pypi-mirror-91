@@ -1,0 +1,8 @@
+selenium_account/__init__.py,sha256=qHdskQMaxHSa3dhRTA8Vu3ffU4blMIkscQ9hQcqVuaI,88
+selenium_account/selenium_account.py,sha256=zSKoyD41WqyuFZTW5emqLPjU5BVopcRxZMwpAWWqYV8,7581
+selenium_account/time_out_error.py,sha256=7M_k28ZnuEFm2exezuXp2jWIn-P7nLLmGHNdM0dVZSE,904
+selenium_account-0.0.9.dist-info/LICENSE,sha256=fpoAq-19W9yDhw5HO22d8KHmAoEx15dfgl5x2ImqAHQ,1080
+selenium_account-0.0.9.dist-info/METADATA,sha256=-4xLhsWQqx45pYoT5RYTx_Z1WhWuOQs4attjZqtPM8Y,869
+selenium_account-0.0.9.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+selenium_account-0.0.9.dist-info/top_level.txt,sha256=4GKGhvWg-iAegyljHlqy-iMBrnDkbv3OCn_LETFrk5w,17
+selenium_account-0.0.9.dist-info/RECORD,,
