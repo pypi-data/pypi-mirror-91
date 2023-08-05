@@ -1,0 +1,8 @@
+README.md
+setup.cfg
+setup.py
+alleycat_ui.egg-info/PKG-INFO
+alleycat_ui.egg-info/SOURCES.txt
+alleycat_ui.egg-info/dependency_links.txt
+alleycat_ui.egg-info/requires.txt
+alleycat_ui.egg-info/top_level.txt
