@@ -1,0 +1,11 @@
+README.md
+setup.py
+highres.egg-info/PKG-INFO
+highres.egg-info/SOURCES.txt
+highres.egg-info/dependency_links.txt
+highres.egg-info/entry_points.txt
+highres.egg-info/requires.txt
+highres.egg-info/top_level.txt
+highresmodule/__init__.py
+highresmodule/command_line.py
+highresmodule/highres.py
