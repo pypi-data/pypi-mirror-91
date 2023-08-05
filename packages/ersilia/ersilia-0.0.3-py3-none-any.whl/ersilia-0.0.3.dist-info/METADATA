@@ -1,0 +1,136 @@
+Metadata-Version: 2.1
+Name: ersilia
+Version: 0.0.3
+Summary: Ersilia model hub for open source drug discovery
+Home-page: https://github.com/ersilia-os/ersilia
+Author: Ersilia Open Source Initiative
+Author-email: hello@ersilia.io
+License: MIT
+Project-URL: Landing page, http://ersilia.io
+Project-URL: Models, https://github.com/ersilia-os/eos-models/
+Project-URL: Source Code, https://github.com/ersilia-os/ersilia/
+Keywords: drug-discovery machine-learning ersilia open-science global-health model-hub
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.7
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: bentoml (==0.9.2)
+Requires-Dist: PyGitHub
+Requires-Dist: autologging
+Requires-Dist: streamlit
+Requires-Dist: pygit2
+Requires-Dist: osfclient
+Requires-Dist: joblib
+Requires-Dist: hashids
+Requires-Dist: bioservices
+Requires-Dist: biopython
+Requires-Dist: chembl-webresource-client
+Requires-Dist: markdown
+Requires-Dist: pycrypto
+Requires-Dist: python-dateutil (<2.8.1,>=2.1)
+Requires-Dist: urllib3 (!=1.25.0,!=1.25.1,<1.26,>=1.21.1)
+Requires-Dist: requests (<=2.24)
+Requires-Dist: dockerfile-parse
+Requires-Dist: pytest (==3.10.0)
+Requires-Dist: sphinx (==1.8.1)
+Requires-Dist: boto3
+Provides-Extra: dev
+Requires-Dist: bentoml (==0.9.2) ; extra == 'dev'
+Requires-Dist: PyGitHub ; extra == 'dev'
+Requires-Dist: autologging ; extra == 'dev'
+Requires-Dist: streamlit ; extra == 'dev'
+Requires-Dist: pygit2 ; extra == 'dev'
+Requires-Dist: osfclient ; extra == 'dev'
+Requires-Dist: joblib ; extra == 'dev'
+Requires-Dist: hashids ; extra == 'dev'
+Requires-Dist: bioservices ; extra == 'dev'
+Requires-Dist: biopython ; extra == 'dev'
+Requires-Dist: chembl-webresource-client ; extra == 'dev'
+Requires-Dist: markdown ; extra == 'dev'
+Requires-Dist: pycrypto ; extra == 'dev'
+Requires-Dist: python-dateutil (<2.8.1,>=2.1) ; extra == 'dev'
+Requires-Dist: urllib3 (!=1.25.0,!=1.25.1,<1.26,>=1.21.1) ; extra == 'dev'
+Requires-Dist: requests (<=2.24) ; extra == 'dev'
+Requires-Dist: dockerfile-parse ; extra == 'dev'
+Requires-Dist: pytest (==3.10.0) ; extra == 'dev'
+Requires-Dist: sphinx (==1.8.1) ; extra == 'dev'
+Requires-Dist: boto3 ; extra == 'dev'
+Provides-Extra: doc_builder
+Requires-Dist: bentoml (==0.9.2) ; extra == 'doc_builder'
+Requires-Dist: PyGitHub ; extra == 'doc_builder'
+Requires-Dist: autologging ; extra == 'doc_builder'
+Requires-Dist: streamlit ; extra == 'doc_builder'
+Requires-Dist: pygit2 ; extra == 'doc_builder'
+Requires-Dist: osfclient ; extra == 'doc_builder'
+Requires-Dist: joblib ; extra == 'doc_builder'
+Requires-Dist: hashids ; extra == 'doc_builder'
+Requires-Dist: bioservices ; extra == 'doc_builder'
+Requires-Dist: biopython ; extra == 'doc_builder'
+Requires-Dist: chembl-webresource-client ; extra == 'doc_builder'
+Requires-Dist: markdown ; extra == 'doc_builder'
+Requires-Dist: pycrypto ; extra == 'doc_builder'
+Requires-Dist: python-dateutil (<2.8.1,>=2.1) ; extra == 'doc_builder'
+Requires-Dist: urllib3 (!=1.25.0,!=1.25.1,<1.26,>=1.21.1) ; extra == 'doc_builder'
+Requires-Dist: requests (<=2.24) ; extra == 'doc_builder'
+Requires-Dist: dockerfile-parse ; extra == 'doc_builder'
+Requires-Dist: pytest (==3.10.0) ; extra == 'doc_builder'
+Requires-Dist: sphinx (==1.8.1) ; extra == 'doc_builder'
+Requires-Dist: boto3 ; extra == 'doc_builder'
+Provides-Extra: test
+Provides-Extra: yatai_service
+Requires-Dist: bentoml (==0.9.2) ; extra == 'yatai_service'
+Requires-Dist: PyGitHub ; extra == 'yatai_service'
+Requires-Dist: autologging ; extra == 'yatai_service'
+Requires-Dist: streamlit ; extra == 'yatai_service'
+Requires-Dist: pygit2 ; extra == 'yatai_service'
+Requires-Dist: osfclient ; extra == 'yatai_service'
+Requires-Dist: joblib ; extra == 'yatai_service'
+Requires-Dist: hashids ; extra == 'yatai_service'
+Requires-Dist: bioservices ; extra == 'yatai_service'
+Requires-Dist: biopython ; extra == 'yatai_service'
+Requires-Dist: chembl-webresource-client ; extra == 'yatai_service'
+Requires-Dist: markdown ; extra == 'yatai_service'
+Requires-Dist: pycrypto ; extra == 'yatai_service'
+Requires-Dist: python-dateutil (<2.8.1,>=2.1) ; extra == 'yatai_service'
+Requires-Dist: urllib3 (!=1.25.0,!=1.25.1,<1.26,>=1.21.1) ; extra == 'yatai_service'
+Requires-Dist: requests (<=2.24) ; extra == 'yatai_service'
+Requires-Dist: dockerfile-parse ; extra == 'yatai_service'
+Requires-Dist: pytest (==3.10.0) ; extra == 'yatai_service'
+Requires-Dist: sphinx (==1.8.1) ; extra == 'yatai_service'
+Requires-Dist: boto3 ; extra == 'yatai_service'
+
+# Welcome to Ersilia!
+[![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/uk/fundraiser/charity/4145012)
+[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-v2.0%20adopted-ff69b4.svg)](code_of_conduct.md)
+
+This is work in progress.
+
+* Models can be checked at [Ersilia model hub](http://ersilia-hub.netlify.app) (also work in progress)
+* High-level documentation is available at [Ersilia docs](http://ersilia-hub.netlify.app/docs/) (also work in progress)
+
+
+## Installation
+
+Ersilia can be installed as a PyPi package.
+
+```
+pip install ersilia
+```
+
+To get install the latest version of Ersilia, you can install directly from GitHub.
+
+```
+pip install git+git://github.com/ersilia-os/ersilia.git
+```
+
+## Usage
+
+Work in progress
+```
+ersilia --help
+```
+
+
