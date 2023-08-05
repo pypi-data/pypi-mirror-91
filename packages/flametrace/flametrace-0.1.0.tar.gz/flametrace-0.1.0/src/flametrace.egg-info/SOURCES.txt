@@ -1,0 +1,17 @@
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/flametrace/__init__.py
+src/flametrace/core.py
+src/flametrace/main.py
+src/flametrace.egg-info/PKG-INFO
+src/flametrace.egg-info/SOURCES.txt
+src/flametrace.egg-info/dependency_links.txt
+src/flametrace.egg-info/entry_points.txt
+src/flametrace.egg-info/requires.txt
+src/flametrace.egg-info/top_level.txt
+src/flametrace/perl/flamegraph.pl
+src/tests/__init__.py
+src/tests/test_flametrace.py
