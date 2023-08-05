@@ -1,0 +1,13 @@
+FTPsubsetMO/__init__.py,sha256=hPf6EX1oFI1wbq6kBZTWsbUg-L-C_VZEitBvJAAdbXg,343
+FTPsubsetMO/__main__.py,sha256=-4JU82sWvX-HOS8YDUGYWkCGkEtI2nM8R_LmWsCXHQw,64993
+FTPsubsetMO/Database/CMEMS_Database.json,sha256=UbjcWm-Fbbd0GEZNtTEMbQhHcVjIJlRWRSUkKgEV5xc,29977
+FTPsubsetMO/Database/datasets_MY.pdf,sha256=0gYqOifqMEP6dc9B5GLQd8PgFwTBjwiTWRylsziRIDs,313474
+FTPsubsetMO/IMAGES/LOGO.gif,sha256=0QrugP1oB0JFuUmYKNaEMNpAMLk-_PkP6zrrQdPM9vw,11232
+FTPsubsetMO/Script/CMEMS_Database.json,sha256=UbjcWm-Fbbd0GEZNtTEMbQhHcVjIJlRWRSUkKgEV5xc,29977
+FTPsubsetMO/Script/FTPsubsetMO.py,sha256=S_18_bLHwsjolLJ-xrS1CRKrsmh7CPhXa9XDBwP2n0M,44486
+FTPsubsetMO-0.5.6.dist-info/LICENSE,sha256=YF6QR6Vjxcg5b_sYIyqkME7FZYau5TfEUGTG-0JeRK0,35129
+FTPsubsetMO-0.5.6.dist-info/METADATA,sha256=bjdrfG_hl6PsBzPN2kdFY55JLVtbDLGZutIteTsiUlI,5298
+FTPsubsetMO-0.5.6.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+FTPsubsetMO-0.5.6.dist-info/entry_points.txt,sha256=lgkhYxaRagOIsWy7Hk2LxrC8syGd9kvDEH4rNa8vjbY,59
+FTPsubsetMO-0.5.6.dist-info/top_level.txt,sha256=dJiXKshnHCpFrJAAzdG6TgJYhYGv30znYCcGqmgOAPY,12
+FTPsubsetMO-0.5.6.dist-info/RECORD,,

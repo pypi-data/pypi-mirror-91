@@ -1,0 +1,3 @@
+[console_scripts]
+FTPsubsetMO = FTPsubsetMO.__main__:main
+
