@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: pyspng
+Version: 0.0.3
+Summary: Minimal binding for libspng
+Home-page: https://github.com/nurpax/pyspng
+Author: Janne Hellsten
+Author-email: jjhellst@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: numpy
+Provides-Extra: test
+Requires-Dist: pytest ; extra == 'test'
+
+UNKNOWN
+
+
