@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+Pipfile
+Pipfile.lock
+README.md
+pyproject.toml
+setup.py
+pushdit/__init__.py
+pushdit/pushit.py
+pushdit.egg-info/PKG-INFO
+pushdit.egg-info/SOURCES.txt
+pushdit.egg-info/dependency_links.txt
+pushdit.egg-info/top_level.txt
