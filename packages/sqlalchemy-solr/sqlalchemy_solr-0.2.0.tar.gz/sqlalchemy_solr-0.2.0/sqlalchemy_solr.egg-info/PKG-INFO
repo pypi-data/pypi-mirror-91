@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: sqlalchemy-solr
+Version: 0.2.0
+Summary: Apache Solr Dialect for Apache Superset::SQLAlchemy
+Home-page: https://github.com/aadel/sqlalchemy-solr
+Author: Ahmed Adel
+Author-email: hello@aadel.io
+License: MIT
+Description: # Apache Solr dialect for SQLAlchemy Superset
+        
+        A dialect for Apache Solr that can be used with [Apache Superset](https://superset.incubator.apache.org).
+        
+        ## Installation
+        
+        The driver can either be installed through PyPi or from the source code.
+        
+        ### Through Python Package Index
+        
+        `pip install sqlalchemy-solr`
+        
+        ### Latest from Source Code
+        
+        `pip install git+https://github.com/aadel/sqlalchemy-solr`
+        
+        ## Usage
+        
+        To connect to Solr with SQLAlchemy, the following URL pattern can be used:
+        
+        ```
+        solr://<username>:<password>@<host>:<port>/solr/<collection>[?use_ssl=true|false]
+        ```
+        
+        ## Resources
+        1. [SQLAlchemy documentation](https://docs.sqlalchemy.org/en/13/index.html)
+        2. [SQLAlchemy dialects](https://docs.sqlalchemy.org/en/13/dialects/index.html)
+        
+Keywords: Apache Solr Superset SQLAlchemy dialect
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Topic :: Database :: Front-Ends
+Description-Content-Type: text/markdown
