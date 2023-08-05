@@ -1,0 +1,6 @@
+napari_arnheim/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+napari_arnheim/widgets/__init__.py,sha256=jGrpObLRHWtXsR4gQQ8CJmQE6AF7hQdZ3ge-O2Ofcbo,31
+napari_arnheim/widgets/main.py,sha256=0Mbqgv7ARq3b_X-MIIhmHkcHabR0HO2sO7HBENg-HMI,2676
+napari_arnheim-0.1.0.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+napari_arnheim-0.1.0.dist-info/METADATA,sha256=FAMY5iSa7ZNx6wqBqbbxhpDuZEdqk5AuTSc91mxghPI,2446
+napari_arnheim-0.1.0.dist-info/RECORD,,
