@@ -1,0 +1,10 @@
+README.md
+setup.py
+pirsa_dl.egg-info/PKG-INFO
+pirsa_dl.egg-info/SOURCES.txt
+pirsa_dl.egg-info/dependency_links.txt
+pirsa_dl.egg-info/entry_points.txt
+pirsa_dl.egg-info/requires.txt
+pirsa_dl.egg-info/top_level.txt
+pirsadl/__init__.py
+pirsadl/__main__.py
