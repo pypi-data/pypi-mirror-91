@@ -1,0 +1,6 @@
+README.md
+setup.py
+KTextTool.egg-info/PKG-INFO
+KTextTool.egg-info/SOURCES.txt
+KTextTool.egg-info/dependency_links.txt
+KTextTool.egg-info/top_level.txt
