@@ -1,0 +1,8 @@
+README.md
+setup.py
+BetterJsonFS/JsonFS.py
+BetterJsonFS/__init__.py
+betterjsonfs.egg-info/PKG-INFO
+betterjsonfs.egg-info/SOURCES.txt
+betterjsonfs.egg-info/dependency_links.txt
+betterjsonfs.egg-info/top_level.txt
