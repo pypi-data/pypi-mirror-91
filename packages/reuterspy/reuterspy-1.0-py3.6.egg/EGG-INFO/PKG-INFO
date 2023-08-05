@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: reuterspy
+Version: 1.0
+Summary: Financial Data Extraction from Reuters.com with Python
+Home-page: https://github.com/viniciuswovst/reuterspy/
+Author: Vinicius Wovst
+Author-email: viniciuswovst@gmail.com
+License: MIT License
+Project-URL: Bug Reports, https://github.com/viniciuswovst/reuterspy/issues
+Project-URL: Source, https://github.com/viniciuswovst/reuterspy
+Description: # reuterspy
+        Financial Data Extraction from Reuters.com with Python
+        
+Keywords: reuters,reuters-api,historical-data,financial-data,stocks,balance sheet,cash flow,funds,etfs,indices,currency crosses,bonds,commodities,crypto currencies
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Office/Business :: Financial
+Classifier: Topic :: Office/Business :: Financial :: Investment
+Classifier: Topic :: Scientific/Engineering :: Information Analysis
+Classifier: Topic :: Software Development :: Libraries
+Requires-Python: >=3
+Description-Content-Type: text/markdown
