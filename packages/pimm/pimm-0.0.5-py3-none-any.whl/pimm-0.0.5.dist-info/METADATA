@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: pimm
+Version: 0.0.5
+Summary: pypi mirrors manager
+Home-page: https://github.com/lollipopnougat/pimm
+Author-email: lollipopnougat@126.com
+License: MIT
+Keywords: pimm source manager
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
+Requires-Dist: ping3
+
+# pimm
+
+## pip mirrors manager
+
+This is a pip mirrors manager, just like [nrm](https://github.com/Pana/nrm) for npm.
+
+### support command
+
+```bash
+pmm ls # list all server
+pmm help # show help
+pmm test # show response time of all servers 
+pmm use <server_name> # use <server_name> server 
+pmm -V # show current version
+```
+
+### LICENSE
+
+MIT
+
+
