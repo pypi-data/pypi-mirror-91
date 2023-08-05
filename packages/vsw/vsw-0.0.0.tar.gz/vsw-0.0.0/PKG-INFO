@@ -1,0 +1,11 @@
+Metadata-Version: 1.2
+Name: vsw
+Version: 0.0.0
+Summary: vsw CLI commands
+Home-page: https://github.com/verifiablesoftware/vsw
+Author: Felix
+Author-email: gang4.chen@symbio.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.6

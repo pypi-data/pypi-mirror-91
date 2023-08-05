@@ -1,0 +1,12 @@
+[console_scripts]
+vsw = src.__main__:main
+
+[vsw.registered_commands]
+exit = src.commands.exit:main
+help = src.commands.register:main
+init = src.commands.init:main
+list = src.commands.register:main
+publish = src.commands.register:main
+register = src.commands.register:main
+verify = src.commands.register:main
+
