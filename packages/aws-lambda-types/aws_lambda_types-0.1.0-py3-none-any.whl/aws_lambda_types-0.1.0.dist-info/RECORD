@@ -1,0 +1,8 @@
+aws_lambda_types/__init__.py,sha256=kUR5RAFc7HCeiqdlX36dZOHkUI5wI6V_43RpEcD8b-0,22
+aws_lambda_types/event_bridge.py,sha256=ZKJ1wonzLhua2nUSanid-9oZ9dB4FMAW1qxTpgfM0JA,396
+aws_lambda_types/sns.py,sha256=BYW1jW0VfyJ_F06YjaxstiH8a--p-3agAQbEJiY9frw,911
+aws_lambda_types/sqs.py,sha256=FWcuC4JChM-UrEPYAQ3Fht2L-bKl6voVCMJWNjFMCxE,978
+aws_lambda_types-0.1.0.dist-info/LICENSE,sha256=eJPtyL4kPj4sbSOnhr5dVlcTPaNLWHRBN5CzU7JnQoc,1074
+aws_lambda_types-0.1.0.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+aws_lambda_types-0.1.0.dist-info/METADATA,sha256=p3iPnJO8aQX1oBNYKLzjsI16MpoLExgsUsBvks7d12M,488
+aws_lambda_types-0.1.0.dist-info/RECORD,,
