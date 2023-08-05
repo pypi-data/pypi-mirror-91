@@ -1,0 +1,9 @@
+exact_cover/.gitignore,sha256=MRyp81AFtOndS3OF0BE0VCExpewegu5m1mI3pMUfues,31
+exact_cover/exact_cover_np.c,sha256=6sAHZEGeAYmN3Z29WGbSvSpbXEuFpWHqyjpxkYB-LiU,3172
+exact_cover/setup.py,sha256=dGdzmKuRxztl4ih-JIJj3ooc-cvnNSDe0Xj-AmzL-54,873
+exact_cover.cpython-37m-arm-linux-gnueabihf.so,sha256=7VvIGMd4_C2XSqhYcrqoCxtTNOZRD3jLES7fy30wcnc,68232
+exact_cover-0.1.0.dist-info/entry_points.txt,sha256=6XWMX0WqDt6zKRp5b04KpsyAWhgUk31c_a81dRxB43Y,35
+exact_cover-0.1.0.dist-info/LICENSE,sha256=pF0LtXLteS7TRienJiGDSzupKqtuLMTgQwHe56co11M,18027
+exact_cover-0.1.0.dist-info/WHEEL,sha256=2AGDV5_3nuDU-vFooXw5Fuy8AP_YKlI88EU1xPM01-U,103
+exact_cover-0.1.0.dist-info/METADATA,sha256=52a0AUzaH10agjiMsN0g_XO4bYAf7txfbUIwDq-GOSc,421
+exact_cover-0.1.0.dist-info/RECORD,,
