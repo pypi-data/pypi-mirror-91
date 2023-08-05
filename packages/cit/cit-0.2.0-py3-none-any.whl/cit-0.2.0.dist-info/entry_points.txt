@@ -1,0 +1,3 @@
+[console_scripts]
+cit=cit.main:app
+
