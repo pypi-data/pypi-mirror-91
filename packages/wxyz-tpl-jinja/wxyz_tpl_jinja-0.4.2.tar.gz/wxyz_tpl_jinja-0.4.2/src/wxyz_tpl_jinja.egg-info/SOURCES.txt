@@ -1,0 +1,16 @@
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+src/wxyz/tpl_jinja/__init__.py
+src/wxyz/tpl_jinja/_version.py
+src/wxyz/tpl_jinja/base.py
+src/wxyz/tpl_jinja/widget_template.py
+src/wxyz/tpl_jinja/js/LICENSE.txt
+src/wxyz/tpl_jinja/js/package.json
+src/wxyz_tpl_jinja.egg-info/PKG-INFO
+src/wxyz_tpl_jinja.egg-info/SOURCES.txt
+src/wxyz_tpl_jinja.egg-info/dependency_links.txt
+src/wxyz_tpl_jinja.egg-info/not-zip-safe
+src/wxyz_tpl_jinja.egg-info/requires.txt
+src/wxyz_tpl_jinja.egg-info/top_level.txt
