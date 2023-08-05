@@ -1,0 +1,8 @@
+lxml
+numpy
+pandas
+pandera
+requests
+scikit-learn
+tqdm
+unidecode
