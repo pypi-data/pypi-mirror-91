@@ -1,0 +1,9 @@
+catdiva/__init__.py,sha256=aJC5UJBZXw4tbyeu_K4QMYVeCH8P0lR23hhvugNP0eM,131
+catdiva/catdiva.py,sha256=nf7C4e-JgldFit3-oGyjDqaNOlUEDazhONlVJmqyz9c,2571
+catdiva/dict.py,sha256=BMU6RUtCHdciwfDSnCxXEf82sgFbJc3TlS27xKvjoIs,162
+catdiva/error.py,sha256=uwv0GdCNyYm9Jetp572RXO1jz9RJ5xP9oQEyfFa4MkU,215
+catdiva/http.py,sha256=rHhdof7x3qVNpKvM9Ot1cAOtpqJmC1DCo_oun1w9tsA,1064
+catdiva/loveimg.py,sha256=UWxelnGEwVC93E-VOjDOQuDgmkBsWHFXBPD_zKsJWCI,3603
+catdiva-0.1.1.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+catdiva-0.1.1.dist-info/METADATA,sha256=dIsAGkNyynxiXpBf22jiGxyXq_YfbFN-jUqDGfNp9eY,471
+catdiva-0.1.1.dist-info/RECORD,,
