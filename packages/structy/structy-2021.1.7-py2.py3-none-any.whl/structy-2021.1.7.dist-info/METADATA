@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: structy
+Version: 2021.1.7
+Summary: Structy runtime components for Python
+Home-page: https://github.com/theacodes/structy
+License: UNKNOWN
+Author: Alethea Katherine Flowers
+Author-email: thea@winterbloom.com
+Classifier: License :: OSI Approved :: MIT License
