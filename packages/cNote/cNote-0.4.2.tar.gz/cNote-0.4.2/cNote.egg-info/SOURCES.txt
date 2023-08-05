@@ -1,0 +1,9 @@
+README.md
+setup.py
+cNote.egg-info/PKG-INFO
+cNote.egg-info/SOURCES.txt
+cNote.egg-info/dependency_links.txt
+cNote.egg-info/entry_points.txt
+cNote.egg-info/not-zip-safe
+cNote.egg-info/requires.txt
+cNote.egg-info/top_level.txt
