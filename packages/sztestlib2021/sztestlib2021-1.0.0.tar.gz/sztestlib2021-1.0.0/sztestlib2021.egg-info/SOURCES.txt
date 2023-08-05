@@ -1,0 +1,8 @@
+Tool.py
+setup.py
+sztestlib2021/__init__.py
+sztestlib2021/szmod.py
+sztestlib2021.egg-info/PKG-INFO
+sztestlib2021.egg-info/SOURCES.txt
+sztestlib2021.egg-info/dependency_links.txt
+sztestlib2021.egg-info/top_level.txt
