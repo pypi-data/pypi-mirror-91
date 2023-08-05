@@ -1,0 +1,12 @@
+include *.rst
+include CONTRIBUTORS
+include LICENSE
+include tox.ini
+include requirements*.txt
+include *.yml
+include *.yaml
+include *.sh
+recursive-include docs *.bat
+recursive-include docs *.py
+recursive-include docs *.rst
+recursive-include docs Makefile
