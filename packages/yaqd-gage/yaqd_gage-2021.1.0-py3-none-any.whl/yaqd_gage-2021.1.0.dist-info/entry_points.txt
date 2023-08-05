@@ -1,0 +1,3 @@
+[console_scripts]
+yaqd-gage-compuscope=yaqd_gage._compuscope:CompuScope.main
+
