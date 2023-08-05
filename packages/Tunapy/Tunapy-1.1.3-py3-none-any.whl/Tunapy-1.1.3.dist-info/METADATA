@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: Tunapy
+Version: 1.1.3
+Summary: Get notified with events in bdm
+Home-page: https://github.com/edwarddubi/Tunapy
+Author: Edward Mensah
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Environment :: Web Environment
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# Tunapy
+
+
