@@ -1,0 +1,11 @@
+ibm2ieee/__init__.py,sha256=RjObl4HR7diHW77jKGKN9PS0EvmglmKODOIpZjRaxFc,582
+ibm2ieee/_ibm2ieee.cp36-win32.pyd,sha256=936LnJMe3aKBJAv3glRjoCKPRlo4UI5w0qEh-72soxM,13824
+ibm2ieee/version.py,sha256=MYm9NPsG0CHoogmPbwAwNzGCVmnvEUuR42szpBfrWdk,456
+ibm2ieee/test/__init__.py,sha256=RiAnDVyV8pjCw4YWybQiQubTQF6LY2LPYC6z38C93a8,416
+ibm2ieee/test/test_ibm2ieee.py,sha256=fWRD2lyrlXATX_2-ayFay-keK4n3WifDYmBfDSmrniU,20505
+ibm2ieee/test/test_version.py,sha256=q1HWsZ2dLgzcRJFqP_DRnUn3Xia8DTZoC7Zsai3PIkQ,1014
+ibm2ieee-1.1.0.dist-info/LICENSE.txt,sha256=5zTY-lwx_-8nAfRz8JIiyUaQyiVMxOE1VgX9H1extO8,1560
+ibm2ieee-1.1.0.dist-info/METADATA,sha256=GbMUyxCKkir7feysaifO4wpp8BtcGLC9YE3hnIATovc,7046
+ibm2ieee-1.1.0.dist-info/WHEEL,sha256=MIcnjHs8vB2T7t3biMROEABHsna_miSfN1s4sPkohUM,97
+ibm2ieee-1.1.0.dist-info/top_level.txt,sha256=iOx6O5Xyrf2drc_ZdLBiReKQ4JhU4oQhMrB8JZIm05Y,9
+ibm2ieee-1.1.0.dist-info/RECORD,,
