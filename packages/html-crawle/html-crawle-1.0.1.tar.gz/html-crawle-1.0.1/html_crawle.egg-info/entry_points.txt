@@ -1,0 +1,3 @@
+[console_scripts]
+crawler = crawle.crawler:onehone_main
+
