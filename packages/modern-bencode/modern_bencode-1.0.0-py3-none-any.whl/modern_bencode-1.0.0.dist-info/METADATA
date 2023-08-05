@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: modern-bencode
+Version: 1.0.0
+Summary: UNKNOWN
+Home-page: https://github.com/retonato/modern-bencode
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+A simple library for decoding/encoding bencoded data.
+
+
