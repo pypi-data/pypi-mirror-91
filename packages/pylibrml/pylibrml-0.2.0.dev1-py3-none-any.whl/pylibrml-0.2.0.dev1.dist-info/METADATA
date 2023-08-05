@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: pylibrml
+Version: 0.2.0.dev1
+Summary: Example implementation for LibRML
+Home-page: https://github.com/slub/pylibrml
+Author: Thomas Baer
+Author-email: thomas.baer@slub-dresden.de
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: ~=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: jinja2
+
+# Python LibRML
+This is the first implementation of the concept LibRML in Python.
+
+
