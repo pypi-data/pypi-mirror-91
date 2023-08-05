@@ -1,0 +1,58 @@
+Metadata-Version: 2.1
+Name: tubex
+Version: 0.3.0
+Summary: Command Line Interface to download MP3 from youtube and MP4 from oreilly
+Home-page: https://github.com/ricky-lim/tubex
+Author: Ricky Lim
+Author-email: rlim.email@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: youtube-dl (==2021.1.8)
+Requires-Dist: eyeD3 (==0.9.6)
+Requires-Dist: Click (==7.1.2)
+Requires-Dist: ffmpeg-python (==0.2.0)
+Requires-Dist: tqdm (==4.55.2)
+
+# Tubex
+
+A simple Command Line Interface to download mp3 from youtube and mp4 from oreilly.
+
+```
+tubex download-mp3 <youtube_playlist_url> --album <album_name> --artist <artist_name>
+tubex --username <username> --password <password> download-oreilly <oreilly_learning_url>
+```
+
+## Example
+```bash
+
+# To learn more about pipx: https://github.com/pipxproject/pipx
+$ pipx install tubex
+$ pipx upgrade tubex
+
+# Download mp3
+$ tubex download-mp3 \
+    https://www.youtube.com/playlist?list=PLSdmnemG6jbv1-GRf23jwDsYWkjz7mblP \
+    --album test --artist mixed
+
+# Enjoy the music (e.g using `vlc`)
+$ vlc tubex_out
+
+# Download mp4 (video) 
+$ tubex --outdir 20210110 download-mp4 https://www.youtube.com/watch?v=aUrmkKDJ1t8
+
+# Download oreilly
+$ tubex --username <username> --password <password> \
+    download-oreilly https://learning.oreilly.com/videos/modern-python-livelessons/9780134743400
+
+# Enjoy learning
+$ vlc tubex_out/Modern_Python_LiveLessons_-_Big_Ideas_and_Little_Code_in_Python/
+
+```
+
+
+
