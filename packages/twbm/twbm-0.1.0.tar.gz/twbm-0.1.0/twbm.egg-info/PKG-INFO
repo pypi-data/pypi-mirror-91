@@ -1,0 +1,55 @@
+Metadata-Version: 2.1
+Name: twbm
+Version: 0.1.0
+Summary: bookmark manager based on buku
+Home-page: https://github.com/sysid/twbm
+Author: sysid
+Author-email: sysid@gmx.de
+License: GPLv3
+Description: # twbm
+        
+        Fork of https://github.com/jarun/buku.
+        
+        ## Reason
+        I do not need bukuserver.
+        I need to have some additional functionality in buku, e.g. alphabetical ordering, ...
+        
+        
+        
+        
+        ## Personal Notes
+        Collection of bookmark handling utilities.
+        
+        # Loading buku DB:
+        use original interface, but parse additional hashtags in title. This allows to populated tags in Buku from title
+        hashtags.
+        `scripts/load_db.sh`
+        
+        # Howto patch buku
+        install buku with pipx
+        
+        ```bash
+        rm buku
+        wget https://raw.githubusercontent.com/jarun/buku/master/buku ~/dev/py/bookmark/bookmark
+        patch it: `# tw: add title tagging`
+        ```
+        
+        set `main.py:DBFILE` for testing
+        
+        
+        # WIP
+        Fork of buku:
+        too many moving parts and differences.
+        currently it is easier just to patch this one file: `buku`
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Utilities
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Description-Content-Type: text/markdown
