@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: cNote
+Version: 0.4.1
+Summary: Simple CLI utility for managing notes with AWS
+Home-page: https://github.com/yetisir/cnote
+Author: M. Yetisir
+Author-email: yetisir@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Provides-Extra: dev
