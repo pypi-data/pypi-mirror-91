@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: whitebeam
+Version: 1.0.2
+Summary: Whitebeam is a framework for creating decision tree functions.
+Author: K-Molloy
+Author-email: kieran.b.molloy@outlook.com
+Requires-Python: >=3.7,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: Cython (>=0.29.21,<0.30.0)
+Requires-Dist: joblib (>=1.0.0,<2.0.0)
+Requires-Dist: numpy (>=1.19.5,<2.0.0)
