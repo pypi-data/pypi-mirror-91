@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: casinogv
+Version: 0.0.0.1
+Summary: Gibson's casino library
+Home-page: UNKNOWN
+Author: Sagiv
+License: MIT
+Description: # PyCasino 
+        
+        This is my implement of casino classes, objects and list of commands 
+        that will help you get started.<br/>
+        ## Have fun
+        
+        
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
