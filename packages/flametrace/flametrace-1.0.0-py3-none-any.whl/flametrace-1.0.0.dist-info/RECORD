@@ -1,0 +1,12 @@
+flametrace/__init__.py,sha256=gbBkrJJmhf6p9a5WIt44VRaJMvdOgkn38WLs6tWR4w0,1533
+flametrace/core.py,sha256=PxH6rybdZHrHPLZfOqe75a-P2EXHsRgK_XfhflI97gk,11957
+flametrace/main.py,sha256=4b9E-IZHYJ1JJ0S99DLByzHnTNxhPriwpqNeweFh8z4,4748
+flametrace/perl/flamegraph.pl,sha256=Jb5AvY6F-pkYMbvP1HWpp9Z4bzIjcS4WS2m8JQxmOYc,35896
+tests/__init__.py,sha256=7E9fNAoDd7eobPj0n6LMJ6Yf_f7ldVzQaFP1579yiis,1510
+tests/test_flametrace.py,sha256=Blc7LMbvfjT7JnxlzFeov9Lqh1UdVMq7q8SvjCtAy2s,2790
+flametrace-1.0.0.dist-info/LICENSE,sha256=7c69ZO_mZRwQf4gVgCCXNFjZFpKk5QkE8rToJP7K04g,1518
+flametrace-1.0.0.dist-info/METADATA,sha256=nEzrAz8FbmX6vVQNFT92RWgEKeiKmnMfOjegVHbDyDk,2753
+flametrace-1.0.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+flametrace-1.0.0.dist-info/entry_points.txt,sha256=qVDLYHt0eeRJlvpwfYdhPT8D-1B4sjz6gRyN38AG1i8,52
+flametrace-1.0.0.dist-info/top_level.txt,sha256=UR61wEXl_8hQr8mYV9sxrjRUbQ7RouozCDoSW8jbw2U,17
+flametrace-1.0.0.dist-info/RECORD,,
