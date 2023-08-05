@@ -1,0 +1,10 @@
+heritrix3/__init__.py,sha256=ffdZHAslzEfse3sASNVbA2HfpG3gmLjHpqBara244OM,17311
+heritrix3/__main__.py,sha256=kX3pNp_EbJK6AaCKXU67WfXB1Oc8TAF9ZW8LaDg00eo,365
+heritrix3/cli.py,sha256=0L3ktjhOmAgEtQ4gAkB2chj0LhK2wvr2-vLbd86EsY8,6245
+heritrix3-0.1.0.dist-info/AUTHORS.rst,sha256=mcXDrbCEVCiIRTVbmlZZTv6czUbD9pfxxvXJbu0ZMIQ,69
+heritrix3-0.1.0.dist-info/LICENSE,sha256=mafCvo1iQS7TRb_4OhemtQapN2kXubfcX6et_D8nlA4,1101
+heritrix3-0.1.0.dist-info/METADATA,sha256=wM3faPr3fnFpJzk-KGNeBwqmQoRkQTYhbu8PSkFHD9o,2423
+heritrix3-0.1.0.dist-info/WHEEL,sha256=Z-nyYpwrcSqxfdux5Mbn_DQ525iP7J2DG3JgGvOYyTQ,110
+heritrix3-0.1.0.dist-info/entry_points.txt,sha256=HrYMTD3KTmyFJGgUPkeoL-mjT5FqvlKhUjakX-iYuZE,50
+heritrix3-0.1.0.dist-info/top_level.txt,sha256=-SOYQNoKPEC5Hz7a4ww68AJaYxGhiB-HW4DhF_-oFgo,10
+heritrix3-0.1.0.dist-info/RECORD,,
