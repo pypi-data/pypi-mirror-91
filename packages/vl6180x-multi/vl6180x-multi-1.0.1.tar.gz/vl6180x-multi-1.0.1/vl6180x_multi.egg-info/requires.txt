@@ -1,0 +1,13 @@
+Adafruit-Blinka
+adafruit-circuitpython-busdevice
+adafruit-circuitpython-lis3dh
+adafruit-circuitpython-vl6180x
+Adafruit-PlatformDetect
+Adafruit-PureIO
+pigpio
+pkg-resources
+pyftdi
+pyusb
+rpi-ws281x
+RPi.GPIO
+sysv-ipc
