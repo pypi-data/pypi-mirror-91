@@ -1,0 +1,3 @@
+[console_scripts]
+plex-watched-sync=plex_watched_sync.cli:main
+

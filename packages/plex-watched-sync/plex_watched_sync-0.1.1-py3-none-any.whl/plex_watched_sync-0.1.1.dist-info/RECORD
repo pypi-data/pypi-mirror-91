@@ -1,0 +1,10 @@
+LICENSE.md,sha256=PSicJntOVxgZp5I9CUhAlFmPDkmzcvfmWAPw657I_3g,1495
+plex_watched_sync/__init__.py,sha256=zYoDfWEi23terpTE4YizgKWLxdqKZW44pwRchCjexoo,194
+plex_watched_sync/cli.py,sha256=eFFtufpxp4mrnHwGRw_Ul46rbEr5kokBd3XQmc5snp0,3656
+plex_watched_sync/log.py,sha256=0hb2HP9fDVe_CauguhrmRP0x8p-R2dHCsAGyd0Kh6yg,635
+plex_watched_sync/sync.py,sha256=L4TlFOepIBuiOu2HR36MKhFSDknyVRFep4-t-Vxk4i8,2906
+plex_watched_sync-0.1.1.dist-info/entry_points.txt,sha256=EKo4dA1lNe_5M9WnB_SAQLn3S9Sc0dKzMy_8FZdEsvg,64
+plex_watched_sync-0.1.1.dist-info/LICENSE.md,sha256=PSicJntOVxgZp5I9CUhAlFmPDkmzcvfmWAPw657I_3g,1495
+plex_watched_sync-0.1.1.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+plex_watched_sync-0.1.1.dist-info/METADATA,sha256=EMCRCk_tYuAs735fQ--8pRg2v7WG7JvqxZeJZ4yGPd0,1415
+plex_watched_sync-0.1.1.dist-info/RECORD,,
