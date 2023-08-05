@@ -1,0 +1,7 @@
+setup.py
+src/2233223.egg-info/PKG-INFO
+src/2233223.egg-info/SOURCES.txt
+src/2233223.egg-info/dependency_links.txt
+src/2233223.egg-info/top_level.txt
+src/test/__init__.py
+src/test/hello.py
