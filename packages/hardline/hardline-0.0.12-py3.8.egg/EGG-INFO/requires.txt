@@ -1,0 +1,6 @@
+lxml
+pyOpenSSL
+pynacl
+python-dateutil
+requests
+six
