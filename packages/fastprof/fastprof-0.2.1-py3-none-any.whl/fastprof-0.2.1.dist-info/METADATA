@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: fastprof
+Version: 0.2.1
+Summary: A fast profiling tool for likelihood-based statistical analyses
+Home-page: UNKNOWN
+Author: N. Berger
+Author-email: nicolas.berger@cern.ch
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: matplotlib
+Requires-Dist: mock
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: scipy
+Requires-Dist: sphinx-argparse
+Requires-Dist: sphinx-rtd-theme
+
+UNKNOWN
+
+
