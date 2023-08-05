@@ -1,0 +1,3 @@
+[console_scripts]
+halfbricks = app:main
+
