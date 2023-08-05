@@ -1,0 +1,18 @@
+Metadata-Version: 1.1
+Name: wiserHeatAPIv2
+Version: 0.0.1
+Summary: A simple API for controlling the Drayton Wiser Heating system
+Home-page: https://github.com/msp1974/wiserheatapiv2
+Author: Mark Parker
+Author-email: msparker@sky.com
+License: MIT
+Download-URL: https://github.com/msp1974/wiserheatapiv2/archive/v0.0.1.tar.gz
+Description: UNKNOWN
+Keywords: Wiser,Heating,V2,API
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
