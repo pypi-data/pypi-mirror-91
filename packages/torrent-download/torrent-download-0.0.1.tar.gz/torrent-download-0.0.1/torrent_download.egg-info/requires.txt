@@ -1,0 +1,8 @@
+bs4
+requests
+cfscrape
+typing
+colorama
+python-qbittorrent
+puffotter
+sentry-sdk
