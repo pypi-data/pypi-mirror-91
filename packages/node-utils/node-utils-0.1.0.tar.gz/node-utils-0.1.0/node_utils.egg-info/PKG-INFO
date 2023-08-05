@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: node-utils
+Version: 0.1.0
+Summary: UNKNOWN
+Home-page: https://github.com/apeworx/node-utils
+Author: ApeWorX Ltd.
+Author-email: admin@apeworx.io
+License: Apache License 2.0
+Description: # Compiler AST Node Utilities
+        
+        Utility classes and functions for working with generic abstract syntax tree (AST) nodes.
+        
+        ## Installation
+        
+        ```bash
+        pip install node-utils
+        ```
+        
+        ## Contributiing
+        
+        ```bash
+        $ pip install -e .[dev]
+        ```
+        
+        ```bash
+        $ pytest
+        ```
+        
+Keywords: ethereum
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.6, <4
+Description-Content-Type: text/markdown
+Provides-Extra: test
+Provides-Extra: lint
+Provides-Extra: doc
+Provides-Extra: dev
