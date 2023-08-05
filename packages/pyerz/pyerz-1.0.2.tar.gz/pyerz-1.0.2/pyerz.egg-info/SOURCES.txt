@@ -1,0 +1,12 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.py
+pyerz/__init__.py
+pyerz/pyerz.py
+pyerz.egg-info/PKG-INFO
+pyerz.egg-info/SOURCES.txt
+pyerz.egg-info/dependency_links.txt
+pyerz.egg-info/entry_points.txt
+pyerz.egg-info/requires.txt
+pyerz.egg-info/top_level.txt
