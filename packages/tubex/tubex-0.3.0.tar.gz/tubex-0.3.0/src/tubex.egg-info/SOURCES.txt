@@ -1,0 +1,13 @@
+README.md
+setup.py
+src/tubex/__init__.py
+src/tubex/cli.py
+src/tubex/mp3.py
+src/tubex/mp4.py
+src/tubex/utils.py
+src/tubex.egg-info/PKG-INFO
+src/tubex.egg-info/SOURCES.txt
+src/tubex.egg-info/dependency_links.txt
+src/tubex.egg-info/entry_points.txt
+src/tubex.egg-info/requires.txt
+src/tubex.egg-info/top_level.txt
