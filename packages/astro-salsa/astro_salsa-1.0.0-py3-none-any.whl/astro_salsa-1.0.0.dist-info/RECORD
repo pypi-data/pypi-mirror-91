@@ -1,0 +1,15 @@
+salsa/__init__.py,sha256=1XIF9l-TuAdv3MIvQCFg9ym94MiX6XvZlOsqV_7jzlw,370
+salsa/absorber_extractor.py,sha256=lJG89zoyzRe7DPWThi-wFq9i6PbVsw55phh79ieM-lY,24263
+salsa/absorber_plotter.py,sha256=cN0fEKRLqpTtxSADbE68x-Ryys6D7Vy8XKFk0GxYLqc,32351
+salsa/collect_features.py,sha256=1muGohhlMspKC7Gy1yh5dXQYX0IFD5J5nFoNVnwGEOw,9620
+salsa/generate_catalog.py,sha256=j4XeCwDixBRECvUVsEquQ2Q55TQuKAAUsk7IXNWCXk0,9293
+salsa/generate_light_rays.py,sha256=u0z_8zCY_xTSK5WIkgz_D1do2FwwoetzK4zHqdWB8Zo,9114
+salsa/utils/__init__.py,sha256=j8V6dloA8RJ1tHlIhTN3RyhFRGTyYPY-CkQQsTHc8PQ,143
+salsa/utils/collect_files.py,sha256=0FmFuQ5XIrTu0tl-kbutcrjJYdiE6bj6fzS2m41-K9w,5764
+salsa/utils/defaults.py,sha256=G6QpevQe9RSvmmssVCMzbN8b_aOm3LxwqJxUeKmAUxA,613
+salsa/utils/functions.py,sha256=JhFpAgfxDM-fDzlphYXYWHrt3y173BL8aphANooNt00,2357
+astro_salsa-1.0.0.dist-info/LICENSE,sha256=T2CceE73Yz4PdlbLNY1NKKMZAmWjvZo1D4Lq0N-fciA,1520
+astro_salsa-1.0.0.dist-info/METADATA,sha256=r84RDMYQNjJezebuMbnb2pYUKjEFLyU7K6Y4xxUvh8w,4599
+astro_salsa-1.0.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+astro_salsa-1.0.0.dist-info/top_level.txt,sha256=MJybHRGx3btY8ZbKk4jftaYhwDyOngY7103liHlxjhA,6
+astro_salsa-1.0.0.dist-info/RECORD,,
