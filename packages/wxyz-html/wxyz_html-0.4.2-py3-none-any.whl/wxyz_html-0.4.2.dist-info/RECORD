@@ -1,0 +1,13 @@
+wxyz/html/__init__.py,sha256=o_wzlw1xAfrfhFxmsZCKBafu0RkjbNMvH9XSbq33EPs,432
+wxyz/html/_version.py,sha256=43GyS0akcGjY9RePXqazCLVEtghgfWzf3KfH8AbDVEg,331
+wxyz/html/base.py,sha256=7alb4Zb6gJRLBmUDLxwofG5pQP6AjYFbnKQxCFheBjQ,514
+wxyz/html/widget_color.py,sha256=IoGsoULjqB6ksAHEgEpq0oA3U1EvCY4NdBJLYaujHtY,920
+wxyz/html/widget_file.py,sha256=U-83ygmNcEurqUIP32w5VoYu8v7xVjXKiUX8FOThZRc,4497
+wxyz/html/widget_fullscreen.py,sha256=qes-Yvv-trWN39dnJ2ratokNd_Lpt_pYC0Uv2HBV_Qc,266
+wxyz/html/js/LICENSE.txt,sha256=eCLRDwnuKT4Cjf3-GQnzbErv3RI6VztYjoc5ASOpzUE,1502
+wxyz/html/js/package.json,sha256=5Lo48f8buuR-_8FEQbYpIFgWy9T79OrEq_mfjlgrBlU,1567
+wxyz_html-0.4.2.dist-info/LICENSE.txt,sha256=eCLRDwnuKT4Cjf3-GQnzbErv3RI6VztYjoc5ASOpzUE,1502
+wxyz_html-0.4.2.dist-info/METADATA,sha256=awdOAUuLZlnx1UyUjyCIYOhDQRZ00nUgXcQcUQOs36o,6831
+wxyz_html-0.4.2.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+wxyz_html-0.4.2.dist-info/top_level.txt,sha256=L2IhezSAoU7rRMbA8WYT1_SIc5UXysQlIHtVbIvLWNs,5
+wxyz_html-0.4.2.dist-info/RECORD,,
