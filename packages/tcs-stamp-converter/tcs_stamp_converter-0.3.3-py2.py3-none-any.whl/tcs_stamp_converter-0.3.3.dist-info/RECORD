@@ -1,0 +1,12 @@
+tcsstamp/__init__.py,sha256=qP5XSM_i0yziFJrFsobOBjU8JoR_A52w962JjLNI3jA,145
+tcsstamp/__main__.py,sha256=QZyiDkZLJ7of70y3Hyn5aUCnrTqkPGm2tx-kSErgXO0,3657
+tcsstamp/__version__.py,sha256=PEWz41zkMatVm2d_Q_ZaQBdlsPTUTJ-1WAu8e_r1YSc,140
+tcsstamp/process.py,sha256=rOOl6RYjvuBfXaeZxzNt9WPipcF_s7T6CtrvEjlPSnU,4665
+tcsstamp/sock_if.py,sha256=i9YEN2qyU0gKBpyhq_Xq3q2opTnYWIH0Wl1ARXjQV3Y,5402
+tcsstamp/tcs_stamp_converter.py,sha256=t4BtyI8BnzW3D76q0YTj-W8dJ_A7-sDcA3Lxitxvaws,9980
+tcs_stamp_converter-0.3.3.dist-info/LICENSE,sha256=FjCSfoI1Vm_-KHFE4UyYQyFQJl6y4yp_2AVl-ZF6XbY,1067
+tcs_stamp_converter-0.3.3.dist-info/METADATA,sha256=QznhU9-URFpvujZ9LkGxr1TlznhiJuoRZshkBzX3jpo,2957
+tcs_stamp_converter-0.3.3.dist-info/WHEEL,sha256=ADKeyaGyKF5DwBNE0sRE5pvW-bSkFMJfBuhzZ3rceP4,110
+tcs_stamp_converter-0.3.3.dist-info/entry_points.txt,sha256=Ej1QgMzzM-_-Z8BD40jTCuINvh7SrVsj10jD3PWkagE,54
+tcs_stamp_converter-0.3.3.dist-info/top_level.txt,sha256=Ofu8If3BNwbNrmiZLOgk9S29sYK1bjwCfThOlJJ79VM,9
+tcs_stamp_converter-0.3.3.dist-info/RECORD,,
