@@ -1,0 +1,3 @@
+[console_scripts]
+impack = image_packer.cli.pack:main
+
