@@ -1,0 +1,8 @@
+aws_cdk_build_badge/__init__.py,sha256=ThWx9zSuzDnHLZ2WSKVvmg3N9_Fj3yeZBMVMR5cT1Jo,5503
+aws_cdk_build_badge/py.typed,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+aws_cdk_build_badge/_jsii/__init__.py,sha256=xhf2TLLb9_9E5KIJu777u8iDfcZrBG494fcbkm6346Y,525
+aws_cdk_build_badge/_jsii/aws-cdk-build-badge@0.0.4.jsii.tgz,sha256=MRvGK1g4Tky60lAvwoaINC_vjt0YIyKPd6AiyjU3txY,13288330
+aws_cdk_build_badge-0.0.4.dist-info/METADATA,sha256=qdKAoGiYg4kVOhAoPOJ7aoeoQN8GAtUAPELt4At6vE8,3907
+aws_cdk_build_badge-0.0.4.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+aws_cdk_build_badge-0.0.4.dist-info/top_level.txt,sha256=1GDnbl0owrlGy9Fxb2jvuPA7kmhYPPtC_9wSt8f_bjM,20
+aws_cdk_build_badge-0.0.4.dist-info/RECORD,,
