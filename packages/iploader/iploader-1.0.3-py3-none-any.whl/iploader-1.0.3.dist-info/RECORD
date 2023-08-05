@@ -1,0 +1,12 @@
+iploader/AbuseCheck.py,sha256=zGmDPX6e3WHlM_-EkTPnztG3FC55X6HHg3clYNbj9m4,1661
+iploader/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+iploader/compare.py,sha256=gln5ugE68VFG28NsTO1OP5T38WJGyhAK080G8ZhMDis,1912
+iploader/database.py,sha256=K4zBJ6Sejve4C8Uw8OYdd39oDH6JeIhmfmndmyWk864,3964
+iploader/file.py,sha256=iTcM0SBabbFey8pX1L04J17Q1KCliBGMR7DBN2A8gnk,2545
+iploader/readConfig.py,sha256=SCxDshsl4sf5TM2a8PH1PdM4_PW1wQO0voQG5cn7lCE,1068
+iploader-1.0.3.data/scripts/iploader,sha256=ux2Sy1omDGAAgcnmGG21RfHeSBgTZBM9khWP29lchKQ,2691
+iploader-1.0.3.dist-info/LICENSE,sha256=P09A-QNxic14nZ8ZmGx5YXMM1D4TwrR1AqSQeAxrbHc,1071
+iploader-1.0.3.dist-info/METADATA,sha256=EjLG7ihVqOOLjUwRqZAPIP_bQdNsXW-RhuFlk9Tliqk,2263
+iploader-1.0.3.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+iploader-1.0.3.dist-info/top_level.txt,sha256=TfXXTvVa532XsI2-icnoyJ08bUw4_alzbRwFGcWQjUQ,9
+iploader-1.0.3.dist-info/RECORD,,
