@@ -1,0 +1,94 @@
+Metadata-Version: 2.1
+Name: squirrel-battle
+Version: 23.14
+Summary: Watch out for squirrel's knives!
+Home-page: https://gitlab.crans.org/ynerant/squirrel-battle
+Author: ÿnérant, eichhornchen, nicomarg, charlse
+Author-email: squirrel-battle@crans.org
+License: GPLv3
+Description: [![pipeline status](https://gitlab.crans.org/ynerant/squirrel-battle/badges/master/pipeline.svg)](https://gitlab.crans.org/ynerant/squirrel-battle/-/commits/master)
+        [![coverage report](https://gitlab.crans.org/ynerant/squirrel-battle/badges/master/coverage.svg)](https://gitlab.crans.org/ynerant/squirrel-battle/-/commits/master)
+        [![Documentation Status](https://readthedocs.org/projects/squirrel-battle/badge/?version=latest)](https://squirrel-battle.readthedocs.io/fr/latest/?badge=latest)
+        [![Supported Python versions](https://img.shields.io/pypi/pyversions/squirrel-battle)](https://pypi.org/project/squirrel-battle/)
+        [![PyPI](https://img.shields.io/pypi/v/squirrel-battle)](https://pypi.org/project/squirrel-battle/)
+        [![PYPI downloads](https://img.shields.io/pypi/dm/squirrel-battle)](https://pypi.org/project/squirrel-battle/)
+        [![AUR version](https://img.shields.io/aur/version/python-squirrel-battle)](https://aur.archlinux.org/packages/python-squirrel-battle/)
+        [![License: GPL v3](https://img.shields.io/badge/License-GPL%20v3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0.txt)
+        
+        # Squirrel Battle
+        
+        Squirrel Battle is an infinite rogue-like game with randomly generated levels, in which the player controls a squirrel in its quest down in a dungeon, using diverse items to defeat monsters, and trying not to die.
+        
+        ##Installation
+        
+        ####Via PyPI : 
+        ``` pip install --user squirrel-battle
+        ``` to install
+        
+        ``` pip install --user --upgrade squirrel-battle
+        ``` to upgrade
+        
+        ####Via ArchLinux package : 
+        Download one of these two packages on the AUR :
+        
+        * python-squirrel-battle
+        * python-squirrel-battle-git
+        
+        ####Via Debian package :
+        Available on our git repository, has a dependency on fonts-noto-color-emoji (to be found in the official Debian repositories).
+        
+        Run ```
+            dpkg -i python3-squirrelbattle_23.14_all.deb
+        ``` after downloading
+        
+        In all cases, execute via command line : ```squirrel-battle```
+        
+        ##For first-time players
+        
+        The game is played in a terminal only, preferably one that supports color, markdown and emojis, but it can be played with only grey levels and relatively classic unicode characters.
+        
+        Upon starting, the game will display the main menu. To navigate in menus, use zqsd or the keyboard arrows. To validate one of the options, use the Enter key. Mouse click is also supported in most menus, **but not in game**.
+        
+        The game in itself can have two types of display : using ascii and simple unicode characters, or using emojis. To activate emoji mode, go to the settings menu and select the squirrel texture pack. Emojis will not work if the terminal does not support them, so do tests before to ensure the terminal can display them.
+        
+        The game is translated (almost entirely) in English, French, German and Spanish. To change the language, go to the settings menu.
+        
+        Controls in-game are pretty basic : use zqsd or the keyboard arrows to move. To hit an ennemy, simply go in its direction if it is in an adjacent tile.
+        
+        There are several special control keys, they can be changed in the settings menu :
+        
+        * To close a store menu or go back to the main menu, use Space
+        * To open/close the inventory, use i
+        * To use an object in the inventory, use u
+        * To equip an object in the inventory, use e
+        * To use a long range weapon after it has been equipped, use l and then select the direction to shoot in
+        * To drop an object from the inventory, use r (to pick up an object, simply go on its tile, its automatic)
+        * To talk to certains entities (or open a chest), use t and then select the direction of the entity
+        * To wait a turn (rather than moving), use w
+        * To dance and confuse the ennemies, use y
+        * To use a ladder, use <
+        
+        The dungeon consists in empty tiles (you can not go there), walls (which you can not cross) and floor ( :) ). Entities that move are usually monsters, but if you see a trumpet (or a '/'), do not kill it ! It is a familiar that will help you defeat monsters. Entities that do not move are either entities to which you can talk, like merchants and ... chests for some reason, or objects. Differentiating the two is not difficult, trying to go on the same tile as a living entity (or a chest) is impossible. Objects have pretty clear names, so it should not be too difficult determining what they do (if you still don't know, you can either read the docs, or test for yourself (beware of surprises though))
+        
+        And that is all you need to get started! You can now start your adventure and don't worry, floors are randomly generated, so it won't always be the same boring level.
+        
+        ## Documentation
+        
+        The documentation for the project cen be found at [squirrel-battle.readthedocs.io](https://squirrel-battle.readthedocs.io). It is unfortunately only written in French.
+        
+        Anyone interested in understanding how the code works can find a few explanations in the documentation.
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console :: Curses
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Natural Language :: French
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Games/Entertainment
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
