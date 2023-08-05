@@ -1,0 +1,46 @@
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+src/wxyz/notebooks/Utils.ipynb
+src/wxyz/notebooks/__init__.py
+src/wxyz/notebooks/_version.py
+src/wxyz/notebooks/index.ipynb
+src/wxyz/notebooks/API/JSON Schema Form.ipynb
+src/wxyz/notebooks/API/JSON-LD.ipynb
+src/wxyz/notebooks/API/JSON.ipynb
+src/wxyz/notebooks/API/__init__.py
+src/wxyz/notebooks/Design/Tribbles.ipynb
+src/wxyz/notebooks/Design/__init__.py
+src/wxyz/notebooks/Design/DVCS/App.ipynb
+src/wxyz/notebooks/Design/DVCS/Simple Example.ipynb
+src/wxyz/notebooks/Design/DVCS/index.ipynb
+src/wxyz/notebooks/Examples/DataGrid.ipynb
+src/wxyz/notebooks/Examples/Dock Panel.ipynb
+src/wxyz/notebooks/Examples/Editor.ipynb
+src/wxyz/notebooks/Examples/Filing.ipynb
+src/wxyz/notebooks/Examples/Full Screen.ipynb
+src/wxyz/notebooks/Examples/Git I.ipynb
+src/wxyz/notebooks/Examples/Git II.ipynb
+src/wxyz/notebooks/Examples/Git III.ipynb
+src/wxyz/notebooks/Examples/Hello Worlds.ipynb
+src/wxyz/notebooks/Examples/JSON Schema Form.ipynb
+src/wxyz/notebooks/Examples/JSON Tricks.ipynb
+src/wxyz/notebooks/Examples/JSON-E.ipynb
+src/wxyz/notebooks/Examples/JSON-LD Playground.ipynb
+src/wxyz/notebooks/Examples/SVG.ipynb
+src/wxyz/notebooks/Examples/SelectGrid.ipynb
+src/wxyz/notebooks/Examples/StyleGrid I.ipynb
+src/wxyz/notebooks/Examples/StyleGrid II.ipynb
+src/wxyz/notebooks/Examples/TPOTWXYZ.ipynb
+src/wxyz/notebooks/Examples/Terminal.ipynb
+src/wxyz/notebooks/Examples/__init__.py
+src/wxyz/notebooks/Examples/example.svg
+src/wxyz/notebooks/js/LICENSE.txt
+src/wxyz/notebooks/js/package.json
+src/wxyz_notebooks.egg-info/PKG-INFO
+src/wxyz_notebooks.egg-info/SOURCES.txt
+src/wxyz_notebooks.egg-info/dependency_links.txt
+src/wxyz_notebooks.egg-info/not-zip-safe
+src/wxyz_notebooks.egg-info/requires.txt
+src/wxyz_notebooks.egg-info/top_level.txt
