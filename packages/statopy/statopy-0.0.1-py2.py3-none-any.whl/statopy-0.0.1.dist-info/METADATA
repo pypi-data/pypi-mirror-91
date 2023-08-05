@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: statopy
+Version: 0.0.1
+Summary: Statistics and Probability modules
+Home-page: https://github.com/mmiguel6288code/statopy
+Author: Matthew Miguel
+Author-email: mmiguel6288@gmail.com
+License: mit
+Project-URL: Documentation, https://github.com/mmiguel6288code/statopy
+Platform: any
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python
+Description-Content-Type: text/x-rst; charset=UTF-8
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: matplotlib
+Provides-Extra: testing
+Requires-Dist: pytest ; extra == 'testing'
+Requires-Dist: pytest-cov ; extra == 'testing'
+
+=======
+statopy
+=======
+
+Statistics and Probability processing
+
+Description
+===========
+
+Code for scalar and vector running (online) statistics and linear regression, CDF/PDF estimation from data.
+
+`Class descriptions <http://htmlpreview.github.io/?https://github.com/mmiguel6288code/statopy/blob/master/docs/statopy/statopy.html>`_
+
+Note
+====
+
+This project has been set up using PyScaffold 3.3. For details and usage
+information on PyScaffold see https://pyscaffold.org/.
+
+
