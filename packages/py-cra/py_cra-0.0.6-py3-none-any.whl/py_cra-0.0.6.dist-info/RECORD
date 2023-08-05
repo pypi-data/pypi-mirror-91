@@ -1,0 +1,11 @@
+PyCRA/__init__.py,sha256=HwfQWZKTB-CcG5ISQk-FmtMSdj3ModUqPwMF5shMBXo,7337
+PyCRA/__main__.py,sha256=1gMswJBXLzYEGdqm-QfvcQtamznZ5vGR4fbOBV0HJFI,1646
+PyCRA/_checker.py,sha256=_t_AIOuqTdW4ohw1TABp8RuSnqw3xDnol-1Hpt0esh8,754
+PyCRA/files_content.py,sha256=4rQUyCyZdsxDAXwjqWVzOBkzetuEKwmZpA8JmmD-6wA,1723
+PyCRA/messages.py,sha256=p38wMvhofBVNg3sXCtxWNRES19lbeJzvPwFoAI6Ergw,790
+PyCRA/parser.py,sha256=221ompjGQwErrEgiCNuonzRI23BumYGIAzfpERUylDI,405
+py_cra-0.0.6.dist-info/LICENSE.txt,sha256=a9JnlbSSaezroymnA9H9Po7rC8nRLtlR0SaGF1ZBgMk,1067
+py_cra-0.0.6.dist-info/METADATA,sha256=A46C9M6JE38PXTGY0WmTcGussespl3UrVdW7VXmskLU,3648
+py_cra-0.0.6.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+py_cra-0.0.6.dist-info/top_level.txt,sha256=wMmSEF864z8ZAg4J-aPAJLuUNaMGBuwfRxPCAUVw0l4,6
+py_cra-0.0.6.dist-info/RECORD,,
