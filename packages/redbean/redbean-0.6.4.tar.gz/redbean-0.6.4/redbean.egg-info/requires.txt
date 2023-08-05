@@ -1,0 +1,5 @@
+aiohttp>=3.7
+toml>=0.10
+cryptography>=3.3
+watchgod>=0.6
+pytest
