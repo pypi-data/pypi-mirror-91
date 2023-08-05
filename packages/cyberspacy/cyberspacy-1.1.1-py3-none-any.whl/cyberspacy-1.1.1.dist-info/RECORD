@@ -1,0 +1,16 @@
+cyberspacy/__init__.py,sha256=tRtI8KkNf01xO08ip_SD6IHAAykvmpGFRd962FBTPjc,199
+cyberspacy/about.py,sha256=tIf_KQBJ1cWp_tXatzeouX-LFLrbME4pngVCopH8bwE,288
+cyberspacy/expressions.py,sha256=2nYHaM5N8LUIdHXVNdS5zv3sNp2qhGPWLgyONrmQI7s,1600
+cyberspacy/lemmatizer.py,sha256=daEdpEyAJIa8b2VkCqSKcw8PaExcB6Qro80XNes_sHA,2
+cyberspacy/processor.py,sha256=P-gTJ6xJkJezymltbg0Ra0UwQQrv41p95fN8DhEwWd4,2137
+cyberspacy/stemmer.py,sha256=JS2saHDXvY-dbFhQ_bnq-f3JffuFDX_gIUeSgOiOK-w,3846
+cyberspacy/tagger.py,sha256=HnEaoTPc7dznqNiHjbeQHknI8LlDowfTBJWrei5GFfA,16532
+cyberspacy/tokenizer.py,sha256=YkAOy-_ckRPaH-R_MzVbwuUQIWcVUFB_bS-zMfxK5LQ,2198
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_commandline.py,sha256=0Ok9Bm67_VvucVFAwBm7CEPf8WDx6CwPpR4CiCOTv5o,8242
+tests/test_detections.py,sha256=4G5Btppaa_APrP1LN-NhspmrOwP6IX32wTygRfYb7Ok,2688
+cyberspacy-1.1.1.dist-info/LICENSE,sha256=CCbajonzCHURhbZ4zEA6UiHZwXiCW4BClQylD8CFtoI,1085
+cyberspacy-1.1.1.dist-info/METADATA,sha256=Oyh1sGuGM5i_ifp3dF4Bm2-j5mBnDspwc6WNtK3VuZE,6362
+cyberspacy-1.1.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+cyberspacy-1.1.1.dist-info/top_level.txt,sha256=8zGujV9ytzUw6Bv5cQba8Fxo0pXUvyqq05DrGfjx7T4,17
+cyberspacy-1.1.1.dist-info/RECORD,,
