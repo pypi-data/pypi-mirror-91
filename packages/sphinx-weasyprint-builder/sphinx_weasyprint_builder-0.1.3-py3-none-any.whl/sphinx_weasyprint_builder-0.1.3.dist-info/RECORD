@@ -1,0 +1,13 @@
+sphinx_weasyprint_builder/__init__.py,sha256=Jx0on8r6Lx46B2CYBx7_XTAywYzmhJ8PJCXOyjj9ERo,1953
+sphinx_weasyprint_builder/loghandler.py,sha256=vYQ8ax86sp7Ek_sJzR2hODsgiBIlNfQ_Q9yq3YtbcYw,712
+sphinx_weasyprint_builder/weasyprint_builder.py,sha256=_RNnAiLZCS1EsZDE0bwSWeIJaVxTswPVKBmwZX-qdwc,6201
+sphinx_weasyprint_builder/locale/fr/LC_MESSAGES/sphinx.po,sha256=pMOdE2GzYkuPWirYYqCWn81XU3bZg-n9vkv_9F3VXCs,656
+sphinx_weasyprint_builder-0.1.3.dist-info/LICENSE,sha256=b8nnCcy_4Nd_v_okJ6mDKCvi64jkexzbSfIag7TR5mU,13827
+sphinx_weasyprint_builder-0.1.3.dist-info/LICENSE-de,sha256=IIcFvrbfbEGLgh9zss8ZLZ1caDehpZORomHHq-L7Dc4,15282
+sphinx_weasyprint_builder-0.1.3.dist-info/LICENSE-fr,sha256=FOWbwALhM55VVEUa7a18KxE9x--ULpa0ELVRcJmtbZE,15898
+sphinx_weasyprint_builder-0.1.3.dist-info/LICENSE-nl,sha256=eiG-ceFOVWhJOrJjpi-odf3iJEY146yhAxkxRXI76-A,15887
+sphinx_weasyprint_builder-0.1.3.dist-info/METADATA,sha256=Y15t0zyctDPXcJov35fDzPOM0Ttr3Kj3ujQWjSZRT_g,3404
+sphinx_weasyprint_builder-0.1.3.dist-info/WHEEL,sha256=S6zePDbUAjzMmpYOg2cHDxuYFWw7WiOXt6ogM6hIB5Q,92
+sphinx_weasyprint_builder-0.1.3.dist-info/entry_points.txt,sha256=lwFs3W9nWqZ_k4I3-O3gdFEnGqIjpYVwZojoTAK52RU,58
+sphinx_weasyprint_builder-0.1.3.dist-info/top_level.txt,sha256=EUTYXP-FGIjAIMA3CIdGj7TnmOHQalVIJxdul_knRfQ,26
+sphinx_weasyprint_builder-0.1.3.dist-info/RECORD,,
