@@ -1,0 +1,16 @@
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+src/wxyz/jsonld/__init__.py
+src/wxyz/jsonld/_version.py
+src/wxyz/jsonld/base.py
+src/wxyz/jsonld/widget_jsonld.py
+src/wxyz/jsonld/js/LICENSE.txt
+src/wxyz/jsonld/js/package.json
+src/wxyz_jsonld.egg-info/PKG-INFO
+src/wxyz_jsonld.egg-info/SOURCES.txt
+src/wxyz_jsonld.egg-info/dependency_links.txt
+src/wxyz_jsonld.egg-info/not-zip-safe
+src/wxyz_jsonld.egg-info/requires.txt
+src/wxyz_jsonld.egg-info/top_level.txt
