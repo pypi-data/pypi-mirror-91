@@ -1,0 +1,11 @@
+ibm2ieee-1.1.0.dist-info/WHEEL,sha256=0MSpaUzP5zzwal1dxeHUy0SBa34DZ1IXf7uOC2KAHL4,112
+ibm2ieee-1.1.0.dist-info/METADATA,sha256=GbMUyxCKkir7feysaifO4wpp8BtcGLC9YE3hnIATovc,7046
+ibm2ieee-1.1.0.dist-info/top_level.txt,sha256=iOx6O5Xyrf2drc_ZdLBiReKQ4JhU4oQhMrB8JZIm05Y,9
+ibm2ieee-1.1.0.dist-info/RECORD,,
+ibm2ieee-1.1.0.dist-info/LICENSE.txt,sha256=am_O1qydFRpUFHEFgMChGvBoAGIVJ8evIhMSRMed34E,1531
+ibm2ieee/version.py,sha256=fDHMXZaqTyzxkQ3JEd8ivwGZ053srRw9sEpalxYsLr0,444
+ibm2ieee/_ibm2ieee.cpython-37m-x86_64-linux-gnu.so,sha256=voUXRUNkR_uArLvyCd7Dwvs3aIo9oZKR5zFtbdddLFc,52288
+ibm2ieee/__init__.py,sha256=VowSZsFkcbvEee00w8L9nOFw8fUq97I21ApD_GxIRTE,565
+ibm2ieee/test/test_version.py,sha256=rhK8ocWuxHrjO4XX0kZ0cpqaEmEJ7C0R4ZGdw--mfnw,983
+ibm2ieee/test/test_ibm2ieee.py,sha256=WhjinxUm8yY4sdFkK54I0X-DeyXd6hbPcUgO-64ZK78,20002
+ibm2ieee/test/__init__.py,sha256=-WatNOqtrxrKA3thxssyKXXDNv4hkhRsy-b0ewqh7NU,407
