@@ -1,0 +1,11 @@
+tcsstamp/__init__.py,sha256=1GWTguHfKOL1khBMaNORCx3MvvrkmkBvevoAPD9YKhw,130
+tcsstamp/__main__.py,sha256=cIqiW20vf76QIxheNiD6t5xLo57nIBiAsAtI-AbyPW0,3398
+tcsstamp/process.py,sha256=IJVT_LHTRBGg3KR7NzVgS9mN32pDsaxGptRsuXE1O-0,4568
+tcsstamp/sock_if.py,sha256=i9YEN2qyU0gKBpyhq_Xq3q2opTnYWIH0Wl1ARXjQV3Y,5402
+tcsstamp/tcs_stamp_converter.py,sha256=t4BtyI8BnzW3D76q0YTj-W8dJ_A7-sDcA3Lxitxvaws,9980
+tcs_stamp_converter-0.2.0.dist-info/LICENSE,sha256=FjCSfoI1Vm_-KHFE4UyYQyFQJl6y4yp_2AVl-ZF6XbY,1067
+tcs_stamp_converter-0.2.0.dist-info/METADATA,sha256=g5ER3A-vbsYd59K0tDtxxxNBL8WI-PL4Vfa6acgOB9o,2893
+tcs_stamp_converter-0.2.0.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+tcs_stamp_converter-0.2.0.dist-info/entry_points.txt,sha256=Ej1QgMzzM-_-Z8BD40jTCuINvh7SrVsj10jD3PWkagE,54
+tcs_stamp_converter-0.2.0.dist-info/top_level.txt,sha256=Ofu8If3BNwbNrmiZLOgk9S29sYK1bjwCfThOlJJ79VM,9
+tcs_stamp_converter-0.2.0.dist-info/RECORD,,
