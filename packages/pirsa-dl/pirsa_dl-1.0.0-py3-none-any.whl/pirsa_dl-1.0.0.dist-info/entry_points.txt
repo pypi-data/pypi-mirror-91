@@ -1,0 +1,4 @@
+
+        [console_scripts]
+        pirsa-dl=pirsadl.__main__:main
+    
