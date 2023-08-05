@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "pwninit"
+version = "0.1.4"
+description = "pwnable challenge quick starter."
+authors = ["exd0tpy <jsw5258@ajou.ac.kr>"]
+
+[tool.poetry.dependencies]
+python = "^2.7 || ^3.6"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+pwninit = 'pwninit:main'
