@@ -1,0 +1,11 @@
+tanabe/__init__.py,sha256=hTmJCJo8G0XRQhdUS7qRXeZChp3eZcac__LuUnTKPaI,63
+tanabe/__main__.py,sha256=4DKuMldrhPUQfHDnfjqIhU2bL0UZcyxlHpEbwKed-z4,9927
+tanabe/matrices.py,sha256=lD_kyTWxFBeapnG3McPTWhFy4CTcUVrHaQJz-Ar2Jgc,49346
+test/__init__.py,sha256=IJkI7l20h3TmSXV89qJDJTyixil0zofJKp-3vocGHJU,68
+test/test_front.py,sha256=4kSIcwNB6X1bmPi--ABWW_oKu0F73mQevkUR6JjP0Xs,188
+test/test_num.py,sha256=uyZ30IcL_Jp2exaTrAV-v2ouBluOKV8ho_Wk_uvYZgg,883
+TanabeSugano-1.1.2.dist-info/LICENSE,sha256=_K3bdxWFLtrw24lxJa1SGXvicIBKn2a467v7uwyhZ6E,1068
+TanabeSugano-1.1.2.dist-info/METADATA,sha256=ndWkrAOxchCQ_HXz7sm6HjYDLonRo5sNpfggk109kRw,5461
+TanabeSugano-1.1.2.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+TanabeSugano-1.1.2.dist-info/top_level.txt,sha256=6qUMzD4n_vr2DY3hcU3OWBJjaZiz-bFWsPPHbpMYzLk,12
+TanabeSugano-1.1.2.dist-info/RECORD,,
