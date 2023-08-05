@@ -1,0 +1,4 @@
+include MANIFEST.in README.rst LICENSE
+
+exclude .github/
+recursive-exclude .github

@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+certifi/__init__.py
+certifi/__main__.py
+certifi/core.py
+certifi_debian.egg-info/PKG-INFO
+certifi_debian.egg-info/SOURCES.txt
+certifi_debian.egg-info/dependency_links.txt
+certifi_debian.egg-info/not-zip-safe
+certifi_debian.egg-info/top_level.txt
