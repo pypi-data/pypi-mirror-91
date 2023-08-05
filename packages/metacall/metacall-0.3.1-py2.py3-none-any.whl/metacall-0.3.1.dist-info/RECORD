@@ -1,0 +1,11 @@
+metacall/__init__.py,sha256=9565JF9ihEGONbYwkoNsrTEofa_zACKUYKC-Rd56iu0,848
+metacall/api.py,sha256=wosCOuYnUdhc6cteK3Be7VDsAY3Sfa_kJrP0lEQGSbs,6621
+metacall/module_linux.py,sha256=yJ3JUqdeVinrIWti6S3qmCoNSW4O8qZ_cW2nviVEUWM,1738
+metacall/module_win32.py,sha256=IeM1Otb02miuYfkZLxGy8aW5Bea73QONdBBPzcRsvnY,3006
+test/__init__.py,sha256=1oLL20yLB1GL9IbFiZD8OReDqiCpFr-yetIR6x1cNkI,23
+test/test_simple.py,sha256=0XggbnImdCGYOvciXr1a2fYocNEQTws0yz0qX8pqYrw,4802
+metacall-0.3.1.dist-info/LICENSE.txt,sha256=iNtH6y7eEeGXValAn0OWTfS4eOm9Nvq5_Io718TwVvA,11383
+metacall-0.3.1.dist-info/METADATA,sha256=NzmxSJCOAwpeHc7UllniJVXYJTqf-yOov-6OHHuoriI,2182
+metacall-0.3.1.dist-info/WHEEL,sha256=Z-nyYpwrcSqxfdux5Mbn_DQ525iP7J2DG3JgGvOYyTQ,110
+metacall-0.3.1.dist-info/top_level.txt,sha256=GWiYOvU_QDeWUR2Y5d5eepT961LbhK4lP0V1IZnQZxA,14
+metacall-0.3.1.dist-info/RECORD,,
