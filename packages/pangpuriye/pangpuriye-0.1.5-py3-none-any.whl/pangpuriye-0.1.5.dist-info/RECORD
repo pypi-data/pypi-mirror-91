@@ -1,0 +1,8 @@
+pangpuriye/README.md,sha256=uLcObXzjm2WsxPiy6jyRFPA4QlDOdftV9Z-RvaiIDw8,669
+pangpuriye/ai/ocr.py,sha256=fC8GjYrEjP9VjsKj5WNbejGI6TRZih9QUQja_1pQpVM,5961
+pangpuriye/common/file_handler.py,sha256=cyc7w_yJ6y5jRufyAZ3ESnI2B875RV50eG55MHN51TQ,309
+pangpuriye/example/ocr.ipynb,sha256=lGni_XGBtNiejJIXTAQoZle7BbbYP1l02Ffn08eFYiQ,2352883
+pangpuriye/tests/test_ocr.py,sha256=MeNb19y8Gas_6aFKdXZuxxBOiC2dmjzRqSllH9qcCp8,216
+pangpuriye-0.1.5.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+pangpuriye-0.1.5.dist-info/METADATA,sha256=Jmt7yHz19vbHo_5dmAAWNtpNlgRP5nmlWpmRZ4GZuJA,1402
+pangpuriye-0.1.5.dist-info/RECORD,,
