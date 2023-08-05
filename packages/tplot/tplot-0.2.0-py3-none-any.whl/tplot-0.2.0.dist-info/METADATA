@@ -1,0 +1,91 @@
+Metadata-Version: 2.1
+Name: tplot
+Version: 0.2.0
+Summary: Create text-based graphs
+Home-page: https://github.com/JeroenDelcour/tplot
+License: MIT
+Author: Jeroen Delcour
+Author-email: jeroendelcour@gmail.com
+Requires-Python: >=3.6,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: colorama (>=0.4.3,<0.5.0)
+Requires-Dist: importlib-metadata (>=1.0,<2.0); python_version < "3.8"
+Requires-Dist: numpy (>=1.11,<2.0)
+Requires-Dist: termcolor (>=1.1.0,<2.0.0)
+Project-URL: Repository, https://github.com/JeroenDelcour/tplot
+Description-Content-Type: text/markdown
+
+tplot
+=====
+
+tplot is a Python module for creating text-based graphs. Useful for visualizing data to the terminal or log files.
+
+Features
+--------
+
+- Scatter, line, horizontal/vertical bar, and image plotting
+- Supports numerical and categorical data
+- Legend
+- Automatic detection of unicode support with ascii fallback
+- Colors using ANSI escape characters (Windows supported)
+- Few dependencies
+- Lightweight
+
+
+Installation
+------------
+
+tplot is available on [PyPi](https://pypi.org/project/tplot/):
+```bash
+pip install tplot
+```
+
+
+Basic usage
+-----------
+
+```python
+import tplot
+fig = tplot.Figure()
+fig.scatter([0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10])
+fig.show()
+```
+
+Prints:
+
+```
+10┤                                                                            •
+  │                                                                             
+  │                                                                    •        
+  │                                                                             
+ 8┤                                                             •               
+  │                                                                             
+  │                                                     •                       
+  │                                                                             
+ 6┤                                              •                              
+  │                                                                             
+  │                                      •                                      
+  │                                                                             
+ 4┤                              •                                              
+  │                                                                             
+  │                       •                                                     
+  │                                                                             
+ 2┤               •                                                             
+  │                                                                             
+  │        •                                                                    
+  │                                                                             
+ 0┤•                                                                            
+   ┬───────┬──────┬───────┬──────┬───────┬───────┬──────┬───────┬──────┬───────┬
+   0       1      2       3      4       5       6      7       8      9      10
+```
+
+
+Documentation
+-------------
+
+Documentation is available on [readthedocs](https://tplot.readthedocs.io/en/latest/).
+
