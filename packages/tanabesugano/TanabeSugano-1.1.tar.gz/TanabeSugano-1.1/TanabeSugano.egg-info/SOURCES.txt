@@ -1,0 +1,13 @@
+README.md
+setup.py
+TanabeSugano.egg-info/PKG-INFO
+TanabeSugano.egg-info/SOURCES.txt
+TanabeSugano.egg-info/dependency_links.txt
+TanabeSugano.egg-info/requires.txt
+TanabeSugano.egg-info/top_level.txt
+tanabe/__init__.py
+tanabe/__main__.py
+tanabe/matrices.py
+test/__init__.py
+test/test_front.py
+test/test_num.py
