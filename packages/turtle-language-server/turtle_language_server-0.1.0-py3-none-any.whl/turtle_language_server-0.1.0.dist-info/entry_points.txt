@@ -1,0 +1,3 @@
+[console_scripts]
+turtle_langserver=turtle_language_server.entry:main
+
