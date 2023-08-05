@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: royalpack
+Version: 6.0.0a2
+Summary: Royalnet Commands for the RYG community
+License: AGPL-3.0-or-later
+Author: Stefano Pigozzi
+Author-email: ste.pigozzi@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3 or later (AGPLv3+)
+Classifier: Programming Language :: Python :: 3
+Requires-Dist: aiohttp (>=3.7.3,<4.0.0)
+Requires-Dist: coloredlogs (>=15.0,<16.0)
+Requires-Dist: royalnet (>=6.0.0a36,<7.0.0)
