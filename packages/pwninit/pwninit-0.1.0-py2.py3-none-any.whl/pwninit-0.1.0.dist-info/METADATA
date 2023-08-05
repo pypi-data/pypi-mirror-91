@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: pwninit
+Version: 0.1.0
+Summary: pwnable challenge quick starter.
+Author: ICEB3AR
+Author-email: !dong992016
+Requires-Python: >=2.7,<3.0
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
