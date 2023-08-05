@@ -1,0 +1,14 @@
+followed/__init__.py,sha256=XGGE0G10kT9X2VoP8H-FD0x8CH9CIr9__8k8TDc2FTU,1226
+followed/_version.py,sha256=svrQfDF8cyxtnDNiGZB7vxlcjWfs8sEbaiXwsVSPC_I,497
+followed/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+followed/tests/conftest.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+followed/tests/test_examples.py,sha256=Hm1x01HZ9BiYYw4dS44uo0o_ku16oFRwSMjIh8_Uu-s,99
+followed/tests/test_helloworld.py,sha256=nXCBQrk93BZK7t0yd_B8-B4Tl44jxrKTPcH0B_YQfWs,284
+followed/tests/test_wraps.py,sha256=ocjXZY5OmM_glVjAKi8r846AR43DtgHIttJMX_v6KZI,276
+followed-0.0.3.dist-info/AUTHORS.rst,sha256=u1dp0ET91zRG84f7CrIoxovUzhMyQzzzgyWhAzkrO24,165
+followed-0.0.3.dist-info/LICENSE,sha256=YpNdJyfyUH3ZmbPPDsaKE_r3UzrBI4pjmIrNUOnbmG4,1516
+followed-0.0.3.dist-info/METADATA,sha256=ngZ9aCd-zn7n-IAK1IfESnfT25sfepWyZtGfNt_r71g,881
+followed-0.0.3.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+followed-0.0.3.dist-info/entry_points.txt,sha256=eqGnTHtEVMYwfXVk1Z9MhC8O2N8wuqAbr0lisLmrkxs,20
+followed-0.0.3.dist-info/top_level.txt,sha256=GYqPdYMVcNJ3cp1iqUUkBnAvhs4tQ_VmCWMwyIqbdAc,9
+followed-0.0.3.dist-info/RECORD,,
