@@ -1,0 +1,8 @@
+README.md
+setup.py
+simple_ad/Simple_AD.py
+simple_ad/__init__.py
+simple_ad.egg-info/PKG-INFO
+simple_ad.egg-info/SOURCES.txt
+simple_ad.egg-info/dependency_links.txt
+simple_ad.egg-info/top_level.txt
