@@ -1,0 +1,15 @@
+pytest_rabbitmq/__init__.py,sha256=He0R61NfIsTbHea8NVDAmITdbBmCaaoZzxu32GXVft4,872
+pytest_rabbitmq/plugin.py,sha256=4MvDQS0vaNFK4VirbtujqIT_30IOBYpRnG-no3HZQ98,3167
+pytest_rabbitmq/port.py,sha256=62RJF0lX8iYvxxijBtrc38WcYCDY9Xc7CJHP0PPy3ws,3037
+pytest_rabbitmq/factories/__init__.py,sha256=nEdo-98CrymgrLqbJ-tFaftHHjm5sKiKpyDhtobpwgU,979
+pytest_rabbitmq/factories/client.py,sha256=0RFMoCcLckayTwdj5WSYnaT-9LVRAx2V_-0yKTrAJJ0,4255
+pytest_rabbitmq/factories/executor.py,sha256=xSaKj5hraHFYIOiql4KAibqzh6boDrIOZjhZXG3-00g,2701
+pytest_rabbitmq/factories/process.py,sha256=zTKRLDAFmgFjecpIzmwPc8mc7EdhG_ltneH2j7mBujo,4202
+pytest_rabbitmq-2.1.0.dist-info/AUTHORS.rst,sha256=1RnQqC_PfVsv4oFqr01S4fNQIfZVMT60EbQfhaygrGM,268
+pytest_rabbitmq-2.1.0.dist-info/COPYING,sha256=xTplwv1WHIfqq_EHLvXcq4ZTBCvBUwhGX1JBNYXrYnE,35146
+pytest_rabbitmq-2.1.0.dist-info/COPYING.lesser,sha256=6or154nLLU6bELzjh0mCreFjt0m2v72zLi3yHE0QbeE,7650
+pytest_rabbitmq-2.1.0.dist-info/METADATA,sha256=HPOyj8hhHThephpwUdULxPjVioOcHNVYhudugzfnoMA,6766
+pytest_rabbitmq-2.1.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+pytest_rabbitmq-2.1.0.dist-info/entry_points.txt,sha256=5PfhldgSr9zaagy6ztAEE9Xg1MIhWPzSZl07dOoo2ew,53
+pytest_rabbitmq-2.1.0.dist-info/top_level.txt,sha256=3daOzsb3AE-tBfLvrTXHJ4cO1Ns2SKKYhwkmLxQOQYA,16
+pytest_rabbitmq-2.1.0.dist-info/RECORD,,
