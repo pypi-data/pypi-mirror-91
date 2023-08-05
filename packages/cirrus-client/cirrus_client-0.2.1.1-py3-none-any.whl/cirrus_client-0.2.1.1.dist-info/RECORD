@@ -1,0 +1,8 @@
+cirrus_client/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cirrus_client/__main__.py,sha256=MYdZlbvUbs_3AHSAKPAb2BiHh1GWZf6yPLIcYSBrl_k,11526
+cirrus_client/about.py,sha256=P9iJk65HgBBkg8N-vUBnxVgO8lAm5kRnnWMem6VobDg,23
+cirrus_client-0.2.1.1.dist-info/METADATA,sha256=l6O4wxR27HfYD8zSk9jTkxEwWyQP4skT5bnxIMem2NA,1271
+cirrus_client-0.2.1.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+cirrus_client-0.2.1.1.dist-info/entry_points.txt,sha256=erUOXwMIgs6T6dHOcepEAD3UDRO9fcPLEIy4q_uUYCk,73
+cirrus_client-0.2.1.1.dist-info/top_level.txt,sha256=JpGgKYPRNgtp5Q-pTjZymwhuJOtnFK-EeHjigVtOx7M,14
+cirrus_client-0.2.1.1.dist-info/RECORD,,
