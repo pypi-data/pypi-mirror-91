@@ -1,0 +1,1 @@
+Nanoleaf Discovery module with few option
