@@ -1,0 +1,2 @@
+motuclient>=1.8.1
+ftputil>=3.4
