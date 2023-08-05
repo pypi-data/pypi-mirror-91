@@ -1,0 +1,11 @@
+tcsstamp/__init__.py,sha256=_VtEwF-a_2HzSJtpkNrbW_Qs2JeQOHHDDgSlzzpnpAo,130
+tcsstamp/__main__.py,sha256=Wrso-Cn_fgV90h75LKm4Uxq2UxL-8R7DDRS6y-OlW4c,3645
+tcsstamp/process.py,sha256=nYiZQ5SWFCKTRZOjideCrHF0-q6_HTXs-EnUvtz7NrE,4717
+tcsstamp/sock_if.py,sha256=i9YEN2qyU0gKBpyhq_Xq3q2opTnYWIH0Wl1ARXjQV3Y,5402
+tcsstamp/tcs_stamp_converter.py,sha256=t4BtyI8BnzW3D76q0YTj-W8dJ_A7-sDcA3Lxitxvaws,9980
+tcs_stamp_converter-0.3.0.dist-info/LICENSE,sha256=FjCSfoI1Vm_-KHFE4UyYQyFQJl6y4yp_2AVl-ZF6XbY,1067
+tcs_stamp_converter-0.3.0.dist-info/METADATA,sha256=t1rxXzV1rvN2GHGyW9WhjpTaKoXrnnWiHcpCwZdb0dU,2893
+tcs_stamp_converter-0.3.0.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+tcs_stamp_converter-0.3.0.dist-info/entry_points.txt,sha256=Ej1QgMzzM-_-Z8BD40jTCuINvh7SrVsj10jD3PWkagE,54
+tcs_stamp_converter-0.3.0.dist-info/top_level.txt,sha256=Ofu8If3BNwbNrmiZLOgk9S29sYK1bjwCfThOlJJ79VM,9
+tcs_stamp_converter-0.3.0.dist-info/RECORD,,
