@@ -1,0 +1,8 @@
+README.md
+gevent_queue.py
+setup.py
+gevent_queue.egg-info/PKG-INFO
+gevent_queue.egg-info/SOURCES.txt
+gevent_queue.egg-info/dependency_links.txt
+gevent_queue.egg-info/requires.txt
+gevent_queue.egg-info/top_level.txt

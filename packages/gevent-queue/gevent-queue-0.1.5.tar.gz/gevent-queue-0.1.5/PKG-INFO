@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: gevent-queue
+Version: 0.1.5
+Summary: A persistent multi-producer multi-consumer gevent queue
+Home-page: https://github.com/knazarov/gevent-queue
+Author: Konstantin Nazarov
+Author-email: mail@knazarov.com
+License: BSD-3-Clause
+Description: file: README.md
+Platform: UNKNOWN
