@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: pwiki
+Version: 0.0.1
+Summary: A Python library for effortlessly interacting with Wikipedia/MediaWiki
+Home-page: https://github.com/fastily/pwiki
+Author: Fastily
+Author-email: fastily@users.noreply.github.com
+License: UNKNOWN
+Description: # pwiki
+        [![Python 3.8+](https://upload.wikimedia.org/wikipedia/commons/9/92/Blue_Python_3.8%2B_Shield_Badge.svg)](https://www.python.org)
+        [![License: GPL v3](https://upload.wikimedia.org/wikipedia/commons/8/86/GPL_v3_Blue_Badge.svg)](https://www.gnu.org/licenses/gpl-3.0.en.html)
+        
+        pwiki is a Python library for effortlessly interacting with Wikipedia/MediaWiki
+Platform: UNKNOWN
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
