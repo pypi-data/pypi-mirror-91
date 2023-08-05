@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: zonic
+Version: 0.1.0
+Summary: Port scanning made easy with python
+Home-page: https://github.com/symonk/zonic
+Author: Simon Kerr
+Author-email: jackofspaces@gmail.com
+License: MIT license
+Keywords: zonic
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.8
+Requires-Dist: colorama
+Requires-Dist: pluggy
+Requires-Dist: halo
+
+complete me later
+
+
