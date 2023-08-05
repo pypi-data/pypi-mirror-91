@@ -1,0 +1,8 @@
+README.md
+setup.py
+bencode/__init__.py
+bencode/bencode.py
+modern_bencode.egg-info/PKG-INFO
+modern_bencode.egg-info/SOURCES.txt
+modern_bencode.egg-info/dependency_links.txt
+modern_bencode.egg-info/top_level.txt
