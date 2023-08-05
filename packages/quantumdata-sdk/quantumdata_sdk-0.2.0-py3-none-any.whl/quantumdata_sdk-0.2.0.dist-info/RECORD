@@ -1,0 +1,13 @@
+quantdata_sdk/__init__.py,sha256=nh79C9gelGRXYktrlUCJNhExKfMisFG8a1uc2cWuXeI,24
+quantdata_sdk/__version__.py,sha256=L1W8Zcf9dFVBYJK-LORBWHYnJAHwXYjsFzsz_7zWjFI,337
+quantdata_sdk/api.py,sha256=hpk2UImu6daviRJ4yrDUStt6N73y6KyBskecAWp5S_0,2189
+quantdata_sdk/constants.py,sha256=qxcnNL70q46SQsW6ghqOqSi8B8vEYCGJ1T-LSWLvGNs,111
+quantdata_sdk/entry_points.py,sha256=7Bmb0ZXX-QhAeyG1SyBMuCrnWHAe-kH4QEUBNHl4R0I,1438
+quantdata_sdk/response.py,sha256=FbmPPgiI1jDumSS_AEV5g8UBbBTwMEijAPR9uIRiGmA,249
+quantdata_sdk/utils.py,sha256=EvVNV2E_i3Z4Oge-_XHrmXjJMvQfKpJZ4oQ_GAKmNZM,90
+quantumdata_sdk-0.2.0.dist-info/LICENSE,sha256=UrkHncffeoJlzWHpRYWu06jCfBcHSmLtJwmye7GWVi0,554
+quantumdata_sdk-0.2.0.dist-info/METADATA,sha256=JvYRNNYasqUfqkUneQGIajNPSvsMoV7hpnL_uVrsOyQ,965
+quantumdata_sdk-0.2.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+quantumdata_sdk-0.2.0.dist-info/entry_points.txt,sha256=hBHvYEutW2193PWzYYwmZBuiTbS2XnQMGz0eqcseits,67
+quantumdata_sdk-0.2.0.dist-info/top_level.txt,sha256=Ulomyi3tO42L_qr7IHj9Gx1Ds3c3RVn4m73VYVhYPmo,14
+quantumdata_sdk-0.2.0.dist-info/RECORD,,
