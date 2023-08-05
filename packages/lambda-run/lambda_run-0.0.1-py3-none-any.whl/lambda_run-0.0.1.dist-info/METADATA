@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: lambda-run
+Version: 0.0.1
+Summary: run code or subprocess on aws lambda invoke context
+Home-page: https://github.com/marxus/lambda-run
+Author: Amit Marcus
+Author-email: marxus@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+
+# lambda-run
+run code or subprocess on aws lambda invoke context
+
+#### install:
+```
+$ pip install lambda-run
+```
+
+
