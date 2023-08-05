@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.md
+setup.py
+pyPWD/__init__.py
+pyPWD.egg-info/PKG-INFO
+pyPWD.egg-info/SOURCES.txt
+pyPWD.egg-info/dependency_links.txt
+pyPWD.egg-info/top_level.txt
