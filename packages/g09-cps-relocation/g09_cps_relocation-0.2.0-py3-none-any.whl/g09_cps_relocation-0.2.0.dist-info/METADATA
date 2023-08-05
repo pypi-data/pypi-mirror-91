@@ -1,0 +1,87 @@
+Metadata-Version: 2.1
+Name: g09-cps-relocation
+Version: 0.2.0
+Summary: A python client library used to get a quick overview between the different libraries of g09_CPS_relocation.
+Home-page: https://gitlab.dke.univie.ac.at/edu-semtech/semtec_ws2020/g09_cps_relocation
+Author: Anton La Fontaine, Lukas Lehnert
+Author-email: a01351415@unet.univie.ac.at
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: Flask
+Requires-Dist: paramiko
+Requires-Dist: Owlready2
+Requires-Dist: flaskwebgui
+Requires-Dist: Werkzeug
+Requires-Dist: rdflib
+Requires-Dist: requests
+Requires-Dist: AST
+
+# CPS relocation
+
+We are Group9 and in the following we'll give you an instruction of how to use our CPS relocation implementation. 
+
+## Installation
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install the necessary modules.
+
+On [PyPi](https://pypi.org/project/g09-cps-relocation/) you can find the pip statement to install all necessary modules within your project automatically:
+
+```bash
+pip install g09-cps-relocation
+```
+
+Alternatively, you can install the modules one by one.
+
+```bash
+pip install paramiko
+```
+
+```bash
+pip install Owlready2
+```
+```bash
+pip install Flask
+```
+```bash
+pip install flaskwebgui
+```
+```bash
+pip install Werkzeug
+```
+```bash
+pip install rdflib
+```
+```bash
+pip install AST
+```
+For some cases we figured out that a html-library is necessary for running the code. However, this might be optional for you:
+```bash
+pip install requests
+```
+
+## Relocation
+
+By running the "relocation.py" in the folder "relocation" you will get intelligent decisions for a relocation of the CPS1 and CPS2. The decision is based on the ontologies of the CPS.
+
+### Ontology
+Every decision of the CPS is based on their individual ontology.
+You can find the written .owl files in the folder "Ontologies". For just in time access, the ontologies are positioned on the Apache2 server under following links:
+
+- [CPS1-Ontology](http://wwwlab.cs.univie.ac.at/~lukasl93/CPS1.owl)
+- [CPS2-Ontology](http://wwwlab.cs.univie.ac.at/~lukasl93/CPS2.owl)
+
+### Using Flask
+By running the the "app.py" a link in output console will appear. The URL will probably look like the following: "http://127.0.0.1:1337/". When you open this link your web browser will open and you are confronted with our GUI. The people who will drive with our CPS in the future have the possibility to evaluate the pickup position. The pickup position is the previous decided relocation of the CPS. So try to fill out the survey. 
+
+The login credentials are:
+
+- Username: admin
+
+- Password: admin
+
+## To be continued
+For a even more intelligent CPS decision making, a dynamic influenced ontology is under construction. Stay tuned!!!
+
+
+
