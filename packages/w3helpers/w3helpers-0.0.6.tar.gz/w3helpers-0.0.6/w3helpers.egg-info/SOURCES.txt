@@ -1,0 +1,13 @@
+MANIFEST.in
+setup.py
+tests/ERC20.json
+tests/UniPair.json
+tests/__init__.py
+tests/test_main.py
+w3helpers/ERC20.json
+w3helpers/UniPair.json
+w3helpers/__init__.py
+w3helpers.egg-info/PKG-INFO
+w3helpers.egg-info/SOURCES.txt
+w3helpers.egg-info/dependency_links.txt
+w3helpers.egg-info/top_level.txt
