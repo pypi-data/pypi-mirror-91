@@ -1,0 +1,10 @@
+pyctx/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyctx/__version__.py,sha256=0BXOWja9GoJ5g2AIcXrK-GijcMiwn3KpLdLru8RlMl4,271
+pyctx/context.py,sha256=EB8726mVgyBolDm2cgpObHuWvt9aI4gj7itcCMEMljU,6960
+pyctx/context_data.py,sha256=kEk_elq78i8Ub8tDWZqLxMDr2McU-zLiX7zKOimEeRc,756
+pyctx/helpers.py,sha256=a0YbvUO78ImT6AYQQVass51kXqOj3mWdGf-mSOgTNG0,595
+pyctx-0.1.7.dist-info/LICENSE,sha256=ACwmltkrXIz5VsEQcrqljq-fat6ZXAMepjXGoe40KtE,1069
+pyctx-0.1.7.dist-info/METADATA,sha256=4496-EphLnShLGQBS9ht8_OIvglEg0LVeRDyWugYSw8,1460
+pyctx-0.1.7.dist-info/WHEEL,sha256=Z-nyYpwrcSqxfdux5Mbn_DQ525iP7J2DG3JgGvOYyTQ,110
+pyctx-0.1.7.dist-info/top_level.txt,sha256=u8F0DTfHsWksXv6wirBBnuW3NRCznfFduKGvCYAgGoo,6
+pyctx-0.1.7.dist-info/RECORD,,
