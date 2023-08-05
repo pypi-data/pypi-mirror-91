@@ -1,0 +1,9 @@
+pangpuriye/README.md,sha256=BtJJIGFmdRkPNfYtn4iqK3KCdHX02LRbuPjMGvtGqyE,1321
+pangpuriye/ai/ocr.py,sha256=fC8GjYrEjP9VjsKj5WNbejGI6TRZih9QUQja_1pQpVM,5961
+pangpuriye/common/file_handler.py,sha256=cyc7w_yJ6y5jRufyAZ3ESnI2B875RV50eG55MHN51TQ,309
+pangpuriye/example/ocr-on-colab.ipynb,sha256=9zIGaiC3DXVL9lBZUOUWQKgbmhqVs1nODfy3FH4n7BA,2495334
+pangpuriye/example/ocr.ipynb,sha256=27mJib2basDA4jmnuUrgFUmQu9OLLgVMzW7xV1oLsAU,2352990
+pangpuriye/tests/test_ocr.py,sha256=MeNb19y8Gas_6aFKdXZuxxBOiC2dmjzRqSllH9qcCp8,216
+pangpuriye-0.1.6.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+pangpuriye-0.1.6.dist-info/METADATA,sha256=kt9JSbbkQ7v5etiWACleBPayhaObaUQPQwBidNUW7ak,2054
+pangpuriye-0.1.6.dist-info/RECORD,,
