@@ -1,0 +1,3 @@
+[console_scripts]
+srenamer = srenamer.srenamer:cli
+
