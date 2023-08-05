@@ -1,0 +1,53 @@
+Metadata-Version: 2.1
+Name: meowsay
+Version: 1.0.1
+Summary: Cowsay, but better.
+Home-page: https://github.com/tusharsadhwani/meowsay
+Author: Tushar Sadhwani
+Author-email: tushar.sadhwani000@gmail.com
+License: UNKNOWN
+Description: # meowsay
+        
+        Cowsay, but better.
+        
+        ## Installation
+        
+        ```console
+        pip install meowsay
+        ```
+        
+        ## Usage
+        
+        ```console
+        > meowsay meow
+         ______
+        < meow >
+         ------
+                \      |\---/|
+                 \     | ,_, |
+                        \_`_/-..----.
+                     ___/ `   ' ,\"\"+ \  sk
+                    (__...'   __\    |`.___.';
+                      (_,...'(_,.`__)/'.....+
+        
+        > fortune | meowsay
+         _____________________________________
+        / "I looked all over the place for an \
+        | explanation. Elves and Gremlins."   |
+        |                                     |
+        \ - Mike "Heisen who?" Galbraith      /
+         -------------------------------------
+                \      |\---/|
+                 \     | ,_, |
+                        \_`_/-..----.
+                     ___/ `   ' ,\"\"+ \  sk
+                    (__...'   __\    |`.___.';
+                      (_,...'(_,.`__)/'.....+
+        ```
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
