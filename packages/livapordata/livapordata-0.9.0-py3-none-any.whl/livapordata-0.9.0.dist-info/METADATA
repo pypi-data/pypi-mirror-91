@@ -1,0 +1,49 @@
+Metadata-Version: 2.1
+Name: livapordata
+Version: 0.9.0
+Summary: Literature data on lithium, especially its vapor
+Home-page: https://github.com/cfe316/livapordata
+Author: Jacob Schwartz
+Author-email: jacobas@princeton.edu
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Scientific/Engineering :: Physics
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Intended Audience :: Science/Research
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: numpy (>=1.15)
+Requires-Dist: scipy (>=1.2)
+
+Lithium vapor data
+==================
+
+This python module contains various data useful for physical modeling of lithium, especially neutral lithium vapor.
+
+It has data on
+
+- Vapor pressure
+- Vapor viscosity
+- Vapor thermal conductivity
+- Vapor self-diffusivity
+
+as functions of temperature, each from a variety of sources. If you find sources in the literature not listed here, I'd be interested to incorporate them!
+
+It also contains functions to calculate
+
+- Equilibrium vapor flux (Langmuir flux)
+- Surface tension
+
+And for convenience, provides basic data on
+
+- (averaged) Li atomic mass
+- Heat of vaporization
+
+This module is most concerned with temperatures from 300 K to 1500 K.
+
+Multiple sources from the literature are included wherever possible. (Nearly) All data sources are cited.
+
+

@@ -1,0 +1,12 @@
+livapordata/__init__.py,sha256=cHSkw1zQCfgyWCTkqPm6BcrVIAi6NW4CTl4ZoLMVaQo,36
+livapordata/basics.py,sha256=mJZ8KCtO0gzHGbsqXTuW_G43J1GiW7W4vtrMr6YY4Tk,1686
+livapordata/constants.py,sha256=W0SbJ3c7JYBxSCXYUk0xwJHu550lkDuKB3QzihGewR0,590
+livapordata/lithium.py,sha256=7QPY1skITxGHfqsa8GTevbmAvjsTVpWFYlg11P1wA5I,2554
+livapordata/transport.py,sha256=OmfOke25v7CpsbvzMbTtEhRsllGc9rCJ0_qfTvV61SI,26812
+livapordata/utility.py,sha256=z_FJL4THTKzt8UKTxO_sVjLkMqMzIs7L903fizUaUsQ,865
+livapordata/vaporpressure.py,sha256=mwC7Zx0fdlPNKwXfnZMXtaQPS8Gd7MM3WSqqkcsarRg,8081
+livapordata-0.9.0.dist-info/LICENSE.rst,sha256=MkIVCkXYqd2empeFdRVkdaYIabPtqUh35pN82WcONr8,1495
+livapordata-0.9.0.dist-info/METADATA,sha256=MCkJY0wYe0WrJJhDSFlRBqhSRo1t20bCm4TqYwKZ-NM,1468
+livapordata-0.9.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+livapordata-0.9.0.dist-info/top_level.txt,sha256=2wKktKLk4z6Pp_4J2lD8uoDFRPPaw-05vf17VbE_o3Q,12
+livapordata-0.9.0.dist-info/RECORD,,
