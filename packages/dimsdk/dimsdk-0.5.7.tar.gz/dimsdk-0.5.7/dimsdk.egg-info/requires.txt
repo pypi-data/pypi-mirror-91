@@ -1,0 +1,7 @@
+dimp>=0.10.11
+mkm>=0.10.11
+dkd>=0.10.11
+Crypto
+base58
+numpy
+ecdsa
