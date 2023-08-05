@@ -1,0 +1,33 @@
+Metadata-Version: 1.2
+Name: TanabeSugano
+Version: 1.1.1
+Summary: A python-solver for Tanabe-Sugano and energy-correlation diagrams
+Home-page: https://github.com/Anselmoo/TanabeSugano
+Author: ['Anselm Hahn']
+Author-email: Anselm.Hahn@gmail.com
+Maintainer: ['Anselm Hahn']
+Maintainer-email: Anselm.Hahn@gmail.com
+License: MIT
+Download-URL: https://github.com/Anselmoo/TanabeSugano/releases
+Description: UNKNOWN
+Keywords: terminal,data-visualization,tanabe,sugano,tanabe-sugano,energy-correlation,complex-ions
+Platform: MacOS :: MacOS X
+Platform: Microsoft :: Windows
+Platform: POSIX :: Linux
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: Unix
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: System :: Shells
+Classifier: Topic :: Scientific/Engineering :: Visualization
+Classifier: Topic :: Scientific/Engineering :: Chemistry
+Classifier: Topic :: Scientific/Engineering :: Physics
+Classifier: Topic :: Utilities

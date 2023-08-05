@@ -1,0 +1,6 @@
+# List all dependencies of TanabeSugano
+# Requires pip >= 8.0
+
+prettytable
+numpy
+matplotlib
