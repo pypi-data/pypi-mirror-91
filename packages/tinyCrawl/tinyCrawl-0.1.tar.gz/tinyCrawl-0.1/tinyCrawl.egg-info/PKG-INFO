@@ -1,0 +1,17 @@
+Metadata-Version: 1.2
+Name: tinyCrawl
+Version: 0.1
+Summary: Very easy and tiny crawling framework, support multithread processing.
+Home-page: https://github.com/Irvinfaith/tinyCrawl
+Author: Irvinfaith
+Author-email: irvinfaith@hotmail.com
+License: MIT
+Description: UNKNOWN
+Platform: python 3.6
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6,<4
