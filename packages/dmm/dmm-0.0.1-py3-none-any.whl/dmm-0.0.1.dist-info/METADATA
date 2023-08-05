@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: dmm
+Version: 0.0.1
+Summary: DMM API Client for Python
+Home-page: https://github.com/matz1ppei/dmm
+Author: Ippei Matsubara
+Author-email: matz1ppei@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+
+# dmm
+
+DMM API Client for Python
+
+## Dependencies
+requests
+
+## Install
+```bash
+pip intsall dmm
+```
+
+## Usage
+```python
+from dmm import DMM
+
+dmm = DMM('<API_ID>', '<AFFILIATE_ID>')
+```
+
+## Function
+### get_floors
+```python
+floors = dmm.get_floors()
+```
+
