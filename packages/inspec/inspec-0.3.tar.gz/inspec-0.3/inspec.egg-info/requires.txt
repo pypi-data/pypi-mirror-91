@@ -1,0 +1,9 @@
+Click
+SoundFile
+numpy
+Pillow
+sounddevice
+wheel
+
+[:platform_system == "Windows"]
+windows-curses
