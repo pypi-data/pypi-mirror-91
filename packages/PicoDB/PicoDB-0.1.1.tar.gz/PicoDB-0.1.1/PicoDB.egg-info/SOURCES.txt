@@ -1,0 +1,7 @@
+README.md
+picodb.py
+setup.py
+PicoDB.egg-info/PKG-INFO
+PicoDB.egg-info/SOURCES.txt
+PicoDB.egg-info/dependency_links.txt
+PicoDB.egg-info/top_level.txt
