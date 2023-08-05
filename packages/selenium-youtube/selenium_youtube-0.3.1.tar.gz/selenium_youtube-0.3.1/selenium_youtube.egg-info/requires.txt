@@ -1,0 +1,6 @@
+selenium_firefox
+kcu
+selenium_account
+stopit
+selenium
+beautifulsoup4
