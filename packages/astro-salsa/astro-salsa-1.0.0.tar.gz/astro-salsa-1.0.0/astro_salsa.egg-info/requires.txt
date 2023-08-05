@@ -1,0 +1,8 @@
+numpy
+yt
+trident
+spectacle
+matplotlib
+pandas
+scipy
+mpi4py
