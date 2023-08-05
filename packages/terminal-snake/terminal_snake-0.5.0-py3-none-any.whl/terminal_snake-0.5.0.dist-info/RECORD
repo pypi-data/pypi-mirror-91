@@ -1,0 +1,7 @@
+terminal_snake/__init__.py,sha256=PKYItBgAOaqqvhfJRrBRK3F9MhfL3U8qRaadYLO8YMY,31
+terminal_snake/__main__.py,sha256=PQmrGaVWpRP8HEEvkXH6PX_q-czLbtnL5qLZj4WdQz8,787
+terminal_snake/game.py,sha256=EpOI3SFJsh3eMiQHC7lWSPAZilyX7oBrBUXu053TH_M,4612
+terminal_snake/theme.py,sha256=H5VVPfGVGXn8I0LaKbqUqa-nrOIkl1YTJ3_tbuegqGo,955
+terminal_snake-0.5.0.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+terminal_snake-0.5.0.dist-info/METADATA,sha256=fPN71UFvSqkH-MYov9dMN0mwcOg5Sd7swsJIqG4MVck,864
+terminal_snake-0.5.0.dist-info/RECORD,,
