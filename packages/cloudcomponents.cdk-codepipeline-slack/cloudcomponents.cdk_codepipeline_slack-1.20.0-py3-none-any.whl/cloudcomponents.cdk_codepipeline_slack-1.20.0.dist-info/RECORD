@@ -1,0 +1,8 @@
+cloudcomponents/cdk_codepipeline_slack/__init__.py,sha256=m6L63ik_w_NrJGbE7SU0TvL0bb6auqMAiZFdlGNXMho,22737
+cloudcomponents/cdk_codepipeline_slack/py.typed,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+cloudcomponents/cdk_codepipeline_slack/_jsii/__init__.py,sha256=M8mV0IhRKM5bo4dYwreL_8-nf2sKE0rFRiSVC-T3VwU,802
+cloudcomponents/cdk_codepipeline_slack/_jsii/cdk-codepipeline-slack@1.20.0.jsii.tgz,sha256=1r2oWkYV6KsmhZASrLnBY8-NEVMwtvuokjmHIEdXK5k,960431
+cloudcomponents.cdk_codepipeline_slack-1.20.0.dist-info/METADATA,sha256=4UI3MjcL2PFfEWUtvT1tHOYITWbtc3MmU5efdH1AAus,6756
+cloudcomponents.cdk_codepipeline_slack-1.20.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+cloudcomponents.cdk_codepipeline_slack-1.20.0.dist-info/top_level.txt,sha256=B4EWas985OPzDPLZgw2jcOsscXpuQJyowJnB5pl9rpQ,16
+cloudcomponents.cdk_codepipeline_slack-1.20.0.dist-info/RECORD,,
