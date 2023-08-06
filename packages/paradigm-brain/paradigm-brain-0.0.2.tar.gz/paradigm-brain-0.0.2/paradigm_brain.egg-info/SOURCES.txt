@@ -1,0 +1,8 @@
+README.md
+setup.py
+paradigm/__init__.py
+paradigm/brain.py
+paradigm_brain.egg-info/PKG-INFO
+paradigm_brain.egg-info/SOURCES.txt
+paradigm_brain.egg-info/dependency_links.txt
+paradigm_brain.egg-info/top_level.txt
