@@ -1,0 +1,11 @@
+Cython
+six
+
+[mongo]
+pymongo
+
+[mssql]
+pymssql
+
+[mysql]
+mysqlclient
