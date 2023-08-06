@@ -1,0 +1,8 @@
+README.md
+setup.py
+force_kill/__init__.py
+force_kill/force_kill.py
+force_kill.egg-info/PKG-INFO
+force_kill.egg-info/SOURCES.txt
+force_kill.egg-info/dependency_links.txt
+force_kill.egg-info/top_level.txt
