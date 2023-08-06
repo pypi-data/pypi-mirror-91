@@ -1,0 +1,8 @@
+README.md
+setup.py
+RoboMax.egg-info/PKG-INFO
+RoboMax.egg-info/SOURCES.txt
+RoboMax.egg-info/dependency_links.txt
+RoboMax.egg-info/requires.txt
+RoboMax.egg-info/top_level.txt
+src/RoboMax/__init__.py

@@ -1,0 +1,15 @@
+Metadata-Version: 1.2
+Name: RoboMax
+Version: 9.1
+Summary: python code for versatile Functional Ontology Assignments for Metagenomes via Hidden Markov Model (HMM) searching with environmental focus of shotgun meta'omics data
+Home-page: https://github.com/raw937/robomax
+Author: Richard White III
+Author-email: rwhit101@uncc.edu
+License: UNKNOWN
+Download-URL: https://osf.io/72p6g/download
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6.9

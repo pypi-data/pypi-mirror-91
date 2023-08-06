@@ -1,0 +1,11 @@
+setuptools
+scikit-bio
+dask
+pandas
+numpy
+humanize
+plotly
+psutil
+joblib
+hmmer
+dash
