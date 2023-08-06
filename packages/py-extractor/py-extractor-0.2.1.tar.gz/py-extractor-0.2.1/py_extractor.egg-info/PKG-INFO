@@ -1,0 +1,15 @@
+Metadata-Version: 1.1
+Name: py-extractor
+Version: 0.2.1
+Summary: extract pdf
+Home-page: https://github.com/yangyueguang/parser
+Author: super
+Author-email: 2829969299@qq.com
+License: MIT
+Description: extract pdf include edit or not
+Keywords: pdf,extractor,extracter,parser
+Platform: any
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent

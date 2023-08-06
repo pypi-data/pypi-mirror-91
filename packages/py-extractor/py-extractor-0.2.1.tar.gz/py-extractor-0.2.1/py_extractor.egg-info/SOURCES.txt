@@ -1,0 +1,17 @@
+MANIFEST.in
+README.md
+setup.py
+extractor/.DS_Store
+extractor/__init__.py
+extractor/cleaner.py
+extractor/doc.py
+extractor/document.cpython-38-x86_64-linux-gnu.so
+extractor/executor.py
+extractor/translator.py
+extractor/utils.py
+py_extractor.egg-info/PKG-INFO
+py_extractor.egg-info/SOURCES.txt
+py_extractor.egg-info/dependency_links.txt
+py_extractor.egg-info/not-zip-safe
+py_extractor.egg-info/requires.txt
+py_extractor.egg-info/top_level.txt
