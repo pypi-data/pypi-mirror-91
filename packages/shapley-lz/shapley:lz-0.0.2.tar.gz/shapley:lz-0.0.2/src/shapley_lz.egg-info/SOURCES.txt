@@ -1,0 +1,8 @@
+README.md
+setup.py
+src/shapley_lz.py
+src/shapley_lz.egg-info/PKG-INFO
+src/shapley_lz.egg-info/SOURCES.txt
+src/shapley_lz.egg-info/dependency_links.txt
+src/shapley_lz.egg-info/requires.txt
+src/shapley_lz.egg-info/top_level.txt
