@@ -1,0 +1,15 @@
+README.md
+setup.py
+pytikz/__init__.py
+pytikz/abstract.py
+pytikz/constants.py
+pytikz/figure.py
+pytikz/node.py
+pytikz/shape.py
+pytikz/vector.py
+pytikz/view.py
+pytikz.egg-info/PKG-INFO
+pytikz.egg-info/SOURCES.txt
+pytikz.egg-info/dependency_links.txt
+pytikz.egg-info/requires.txt
+pytikz.egg-info/top_level.txt
