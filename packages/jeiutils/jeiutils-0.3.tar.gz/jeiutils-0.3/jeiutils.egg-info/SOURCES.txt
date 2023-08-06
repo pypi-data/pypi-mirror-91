@@ -1,0 +1,7 @@
+README.md
+setup.py
+jeiutils/__init__.py
+jeiutils.egg-info/PKG-INFO
+jeiutils.egg-info/SOURCES.txt
+jeiutils.egg-info/dependency_links.txt
+jeiutils.egg-info/top_level.txt
