@@ -1,0 +1,11 @@
+README.md
+setup.py
+flattenator/__init__.py
+flattenator/_version.py
+flattenator/flattenator.py
+flattenator.egg-info/PKG-INFO
+flattenator.egg-info/SOURCES.txt
+flattenator.egg-info/dependency_links.txt
+flattenator.egg-info/entry_points.txt
+flattenator.egg-info/requires.txt
+flattenator.egg-info/top_level.txt
