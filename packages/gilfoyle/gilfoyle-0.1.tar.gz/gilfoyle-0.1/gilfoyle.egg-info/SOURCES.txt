@@ -1,0 +1,9 @@
+README.md
+setup.py
+gilfoyle/__init__.py
+gilfoyle/report.py
+gilfoyle.egg-info/PKG-INFO
+gilfoyle.egg-info/SOURCES.txt
+gilfoyle.egg-info/dependency_links.txt
+gilfoyle.egg-info/requires.txt
+gilfoyle.egg-info/top_level.txt
