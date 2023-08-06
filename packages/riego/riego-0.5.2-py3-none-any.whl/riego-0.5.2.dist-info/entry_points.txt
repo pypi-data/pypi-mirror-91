@@ -1,0 +1,3 @@
+[console_scripts]
+riego_service = riego.app:main
+
