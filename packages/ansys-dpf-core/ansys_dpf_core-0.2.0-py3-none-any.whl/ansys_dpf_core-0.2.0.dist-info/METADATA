@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: ansys-dpf-core
+Version: 0.2.0
+Summary: DPF Python gRPC client
+Home-page: UNKNOWN
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering :: Information Analysis
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.5.*
+Requires-Dist: pyvista (>=0.24.0)
+Requires-Dist: matplotlib
+Requires-Dist: scooby
+Requires-Dist: pillow (>=7.0.0)
+Requires-Dist: pexpect
+Requires-Dist: ansys-grpc-dpf (==0.2.2)
+
+UNKNOWN
+
+
