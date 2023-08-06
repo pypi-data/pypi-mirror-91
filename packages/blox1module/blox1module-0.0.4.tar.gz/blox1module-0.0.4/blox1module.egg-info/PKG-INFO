@@ -1,0 +1,15 @@
+Metadata-Version: 1.1
+Name: blox1module
+Version: 0.0.4
+Summary: Package for infoblox bloxone users
+Home-page: UNKNOWN
+Author: Amit Mishra
+Author-email: amithrh@gmail.com
+License: UNKNOWN
+Description: Initial package for infoblox bloxone
+Keywords: python,first package
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Education
+Classifier: Programming Language :: Python :: 2
+Classifier: Operating System :: MacOS :: MacOS X
