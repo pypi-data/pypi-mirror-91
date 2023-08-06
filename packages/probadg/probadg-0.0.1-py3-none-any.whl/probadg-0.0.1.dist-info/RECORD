@@ -1,0 +1,9 @@
+probadg/Binomialdistribution.py,sha256=B8f6a0HVXPJE6sHNpc1J_HrzzExgVDuL8pTvhnxMxU8,4770
+probadg/Gaussiandistribution.py,sha256=3ofMQmSyLmnLrlbwXSIZdipNwPUCRhInuSRYQWJrdB0,5164
+probadg/Generaldistribution.py,sha256=E_21--8_Lnhz6YLg1U-8QL6k_2CPkwPrtYHNkOlq7YY,1050
+probadg/__init__.py,sha256=EUs0DRF7SCeyEWihc5H9dKlnFlesUkb0PhqP0f0WaPk,113
+probadg/my_random.py,sha256=6yGQS99Pz7Si4gLB0nH7q7q3gfL9A1xBjsDzhbLvAik,5661
+probadg-0.0.1.dist-info/METADATA,sha256=e0D49CnBDdMUeZRS1W_YBhmUYJbchG2WcYldrXqWpMo,1438
+probadg-0.0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+probadg-0.0.1.dist-info/top_level.txt,sha256=Vh-SsCvrlWCp-YeJiCMbxlnyamTA9FPuTD9fDBHxjY4,8
+probadg-0.0.1.dist-info/RECORD,,
