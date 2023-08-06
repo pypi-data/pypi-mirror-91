@@ -1,0 +1,9 @@
+README.md
+setup.py
+dictmagic/__init__.py
+dictmagic/obj.py
+dictmagic/paths.py
+dictmagic.egg-info/PKG-INFO
+dictmagic.egg-info/SOURCES.txt
+dictmagic.egg-info/dependency_links.txt
+dictmagic.egg-info/top_level.txt
