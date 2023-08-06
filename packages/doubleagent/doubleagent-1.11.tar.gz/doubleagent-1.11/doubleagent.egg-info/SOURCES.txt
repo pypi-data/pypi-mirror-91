@@ -1,0 +1,9 @@
+README.md
+setup.py
+doubleagent/__init__.py
+doubleagent/double.py
+doubleagent/single.py
+doubleagent.egg-info/PKG-INFO
+doubleagent.egg-info/SOURCES.txt
+doubleagent.egg-info/dependency_links.txt
+doubleagent.egg-info/top_level.txt
