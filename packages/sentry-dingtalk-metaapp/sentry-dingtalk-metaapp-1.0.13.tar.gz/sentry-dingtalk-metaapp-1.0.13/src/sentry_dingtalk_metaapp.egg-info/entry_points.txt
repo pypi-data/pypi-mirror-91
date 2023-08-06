@@ -1,0 +1,3 @@
+[sentry.plugins]
+sentry_dingtalk_metaapp = sentry_dingtalk_metaapp.plugin:DingTalkPlugin
+
