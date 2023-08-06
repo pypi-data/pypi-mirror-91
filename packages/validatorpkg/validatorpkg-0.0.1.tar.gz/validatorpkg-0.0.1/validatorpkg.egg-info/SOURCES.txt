@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENSE.txt
+MANIFEST.in
+README.txt
+setup.py
+validator/__init__.py
+validatorpkg.egg-info/PKG-INFO
+validatorpkg.egg-info/SOURCES.txt
+validatorpkg.egg-info/dependency_links.txt
+validatorpkg.egg-info/top_level.txt
