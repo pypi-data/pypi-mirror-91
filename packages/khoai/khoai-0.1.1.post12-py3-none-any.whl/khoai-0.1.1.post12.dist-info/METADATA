@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: khoai
+Version: 0.1.1-12
+Summary: A small datascience package
+Home-page: https://github.com/lhduc94/khoai
+Author: Lê Huỳnh Đức
+Author-email: lhduc94@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+# KHOAI - Package for data science
+
+**User installation**
+
+You can install my package via `pip`
+```
+pip install khoai
+```
+or install from my latest source code by following:
+- Clone my repo:
+```git clone https://github.com/lhduc94/khoai.git```
+- Go to directory
+```cd khoai```
+- And install my package:
+```python setup.py install```
+
+Documentation:
+
