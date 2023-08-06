@@ -1,0 +1,13 @@
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+src/cdk_personalize_datasetgroup/__init__.py
+src/cdk_personalize_datasetgroup/py.typed
+src/cdk_personalize_datasetgroup.egg-info/PKG-INFO
+src/cdk_personalize_datasetgroup.egg-info/SOURCES.txt
+src/cdk_personalize_datasetgroup.egg-info/dependency_links.txt
+src/cdk_personalize_datasetgroup.egg-info/requires.txt
+src/cdk_personalize_datasetgroup.egg-info/top_level.txt
+src/cdk_personalize_datasetgroup/_jsii/__init__.py
+src/cdk_personalize_datasetgroup/_jsii/cdk-personalize-datasetgroup@1.73.1.jsii.tgz
