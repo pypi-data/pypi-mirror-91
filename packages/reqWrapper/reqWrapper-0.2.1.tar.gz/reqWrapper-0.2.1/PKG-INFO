@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: reqWrapper
+Version: 0.2.1
+Summary: Wrapper of requests with retry options
+Home-page: https://github.com/box-archived/reqWrap
+Author: box-archived
+Author-email: box.cassette@gmail.com
+License: Apache License 2.0
+Description: UNKNOWN
+Platform: UNKNOWN

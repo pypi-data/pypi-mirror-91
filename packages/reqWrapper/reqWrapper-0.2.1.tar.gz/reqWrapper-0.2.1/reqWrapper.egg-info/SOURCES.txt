@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+reqWrapper/__init__.py
+reqWrapper/api.py
+reqWrapper/model.py
+reqWrapper.egg-info/PKG-INFO
+reqWrapper.egg-info/SOURCES.txt
+reqWrapper.egg-info/dependency_links.txt
+reqWrapper.egg-info/requires.txt
+reqWrapper.egg-info/top_level.txt
