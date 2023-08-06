@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: range-dict
+Version: 0.1.1
+Summary: Store ranges as keys in a dictionary
+Home-page: https://github.com/logx/range-dict
+Author: Piotr Kardaś
+Author-email: pkardas.it@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN

@@ -1,0 +1,11 @@
+README.md
+setup.cfg
+setup.py
+range_dict/__init__.py
+range_dict/interval_tree.py
+range_dict/py.typed
+range_dict/range_dict.py
+range_dict.egg-info/PKG-INFO
+range_dict.egg-info/SOURCES.txt
+range_dict.egg-info/dependency_links.txt
+range_dict.egg-info/top_level.txt
