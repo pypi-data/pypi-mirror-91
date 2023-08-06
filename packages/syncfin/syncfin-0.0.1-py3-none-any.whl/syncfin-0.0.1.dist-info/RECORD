@@ -1,0 +1,11 @@
+syncfin/__init__.py,sha256=yC0MQCZ0PgAdvEv1rHumGuyYJf1K4ba6Pn9Bwqni7MM,20
+syncfin/config.py,sha256=AiydGacX9v0r0slo-8KtgHJ9uSE3U-HeIgnjopSvedo,1262
+syncfin/intrinsic_value.py,sha256=TDLBpgfI4XywHF3HTGef2xKFAjaU9htBqbAYTgkG-ac,2319
+syncfin/scrapper.py,sha256=2ECG-KbJOogqlf-98pOCTOKpCcDH8P97tZsjh7hpB38,2395
+syncfin/syncfin.py,sha256=n2wtTMHT4YuwVtlcZY4fQtRfi-6nHHlRznYlCt8nb4s,892
+syncfin/wf_client.py,sha256=ZqQrTMGDbhWHLNhih1A0m0-47nzuNqx6F5McDgqnfio,2267
+syncfin-0.0.1.dist-info/LICENSE,sha256=T5A9M4H3ivv-AyZfTlR04wep-rzxUWwQI1OxqDOJkbM,1060
+syncfin-0.0.1.dist-info/METADATA,sha256=Q0IQ8rP8angYApBBO9-jiQ88a0_a6tmKC1h_hOML89c,438
+syncfin-0.0.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+syncfin-0.0.1.dist-info/top_level.txt,sha256=eYa6J2SmrJUG1EZbTdeHVNGIEmXyTThBHN6RKhgVBzg,8
+syncfin-0.0.1.dist-info/RECORD,,
