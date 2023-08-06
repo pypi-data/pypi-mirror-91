@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+hear/__init__.py
+hear.egg-info/PKG-INFO
+hear.egg-info/SOURCES.txt
+hear.egg-info/dependency_links.txt
+hear.egg-info/not-zip-safe
+hear.egg-info/requires.txt
+hear.egg-info/top_level.txt
