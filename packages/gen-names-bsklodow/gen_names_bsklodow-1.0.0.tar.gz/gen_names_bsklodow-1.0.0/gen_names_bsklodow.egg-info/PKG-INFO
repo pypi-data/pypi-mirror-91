@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: gen-names-bsklodow
+Version: 1.0.0
+Summary: Generate random names with lenght
+Home-page: https://github.com/treyhunner/names
+Author: Bartosz Skłodowski
+Author-email: sklodowski94@gmail.com
+License: UNKNOWN
+Description: Generate random names with lenght long
+Keywords: random names
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
