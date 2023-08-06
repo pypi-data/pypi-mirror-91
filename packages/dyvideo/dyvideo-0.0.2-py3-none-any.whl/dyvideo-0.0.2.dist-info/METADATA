@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: dyvideo
+Version: 0.0.2
+Summary: Download Douyin video without watermark
+Home-page: https://github.com/spartanfuk/dyvideo
+Author: SpartanFuk
+Author-email: 2383731235@qq.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+
+1、pip install dyvideo
+2、from dyvideo import dydownload
+3、dydownload().run(url,save_path)
+	url:分享链接
+	save_path:保存路径
+
+
