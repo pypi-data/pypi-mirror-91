@@ -1,0 +1,13 @@
+pytest_doctestplus/__init__.py,sha256=ICVlMfJSyUfBfTrbT0iaRCQuzdTOdpNCGyxVOwgxXzQ,117
+pytest_doctestplus/output_checker.py,sha256=NV6swkgECZ53FfpmrWqIzm7T2VEQLrenYkg2vVxEItc,11111
+pytest_doctestplus/plugin.py,sha256=4a1KBhxTGj5lq2t6Qt8jUGiV6FbN-uz4igHMu1bOnJ0,26277
+pytest_doctestplus/utils.py,sha256=PJGknhapJqRqrvR1uHRYApaAG9I3OOGgcBu9Jk3X9xo,835
+pytest_doctestplus/version.py,sha256=OFbGax8ko2nIQ9RQvu77D8Lj3CgldGEFB97k9nRq6WA,142
+pytest_doctestplus/sphinx/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pytest_doctestplus/sphinx/doctestplus.py,sha256=oOGIQAJt3i_rVUMUzj8VVxF04bKF-fNXlD1uqWuDVSk,1983
+pytest_doctestplus-0.9.0.dist-info/LICENSE.rst,sha256=A3EvQ_7eUwFVty49RJe-3PasHE2Bufbk2V4Idv7JEto,1496
+pytest_doctestplus-0.9.0.dist-info/METADATA,sha256=VRadIVbyE5bSfl4b7zeUjXzEKVJvrUM5lGOScm8AV28,12519
+pytest_doctestplus-0.9.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+pytest_doctestplus-0.9.0.dist-info/entry_points.txt,sha256=Uvwqoc1_I_T-sybwfV0s8N19GW8_C6dofNaytSS7J8M,59
+pytest_doctestplus-0.9.0.dist-info/top_level.txt,sha256=oGfPCmrYba27S_b9zuVAjRCp01ggaa1oBAvHviYmBr4,19
+pytest_doctestplus-0.9.0.dist-info/RECORD,,
