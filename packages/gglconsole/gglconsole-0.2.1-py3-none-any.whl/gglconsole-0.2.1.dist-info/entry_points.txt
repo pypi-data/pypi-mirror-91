@@ -1,0 +1,6 @@
+
+    [console_scripts]
+    ggl=gglconsole:main
+    bing=gglconsole:main
+    qiita=gglconsole:main
+    
