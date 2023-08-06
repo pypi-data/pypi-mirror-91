@@ -1,0 +1,8 @@
+beautifulsoup4
+numpy
+graphviz
+matplotlib
+requests
+nltk
+torch
+cached_property

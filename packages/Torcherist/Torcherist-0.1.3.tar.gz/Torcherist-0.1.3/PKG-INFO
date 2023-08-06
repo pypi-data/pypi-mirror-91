@@ -1,0 +1,18 @@
+Metadata-Version: 1.1
+Name: Torcherist
+Version: 0.1.3
+Summary: utils codes for pyTorch
+Home-page: https://github.com/cnut1648/torcher
+Author: Jiashu Xu
+Author-email: 1999J0615une@gmail.com
+License: MIT license
+Download-URL: https://github.com/cnut1648/torcherist/archive/v0.1.2.tar.gz
+Description: UNKNOWN
+Keywords: nlp,skills,onet,pytorch
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
