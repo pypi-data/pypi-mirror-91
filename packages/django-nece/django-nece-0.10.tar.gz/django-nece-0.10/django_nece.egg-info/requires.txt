@@ -1,0 +1,11 @@
+Django>=1.9
+six>=1.10.0
+
+[admin]
+django-admin-json-editor
+
+[psycopg2]
+psycopg2>=2.8.1
+
+[psycopg2_binary]
+psycopg2-binary>=2.8.1

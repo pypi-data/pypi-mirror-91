@@ -1,0 +1,14 @@
+README.rst
+setup.cfg
+setup.py
+django_nece.egg-info/PKG-INFO
+django_nece.egg-info/SOURCES.txt
+django_nece.egg-info/dependency_links.txt
+django_nece.egg-info/requires.txt
+django_nece.egg-info/top_level.txt
+nece/__init__.py
+nece/admin.py
+nece/exceptions.py
+nece/managers.py
+nece/models.py
+nece/tests.py
