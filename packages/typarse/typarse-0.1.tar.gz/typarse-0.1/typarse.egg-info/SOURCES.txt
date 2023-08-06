@@ -1,0 +1,8 @@
+README.md
+setup.cfg
+setup.py
+typarse.egg-info/PKG-INFO
+typarse.egg-info/SOURCES.txt
+typarse.egg-info/dependency_links.txt
+typarse.egg-info/requires.txt
+typarse.egg-info/top_level.txt
