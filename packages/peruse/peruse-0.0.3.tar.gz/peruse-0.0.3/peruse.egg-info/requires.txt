@@ -1,0 +1,8 @@
+slang
+hum
+numpy
+scikit-learn
+matplotlib
+soundfile
+flask
+py2api
