@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+{% load patternfly %}
+{% if 'use_i18n'|patternfly_setting %}
+    {% load i18n %}
+    {% get_current_language as LANGUAGE_CODE %}
+{% endif %}
+<html lang="{{ LANGUAGE_CODE|default:'en_us' }}">
+
+<head>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Page title -->
+    <title>{% block patternfly_title %}django-patternfly template title{% endblock %}</title>
+
+    <!-- Patternfly CSS -->
+    {% patternfly_css %}
+
+    <!-- Bootstrap JavaScript if it is in head -->
+    {% if 'javascript_in_head'|patternfly_setting %}
+        {% bootstrap_javascript %}
+    {% endif %}
+
+    {% block patternfly_extra_head %}{% endblock %}
+
+</head>
+
+<body>
+    <div class="pf-c-page">
+{% block patternfly_before_content %}{% endblock %}
+{% block patternfly_content %} CONTENT {% endblock %}
+{% block patternfly_after_content %}{% endblock %}
+
+<!-- Bootstrap JavaScript if it is in body -->
+{% if not 'javascript_in_head'|patternfly_setting %}
+    {% bootstrap_javascript %}
+{% endif %}
+
+{% block patternfly_extra_script %}{% endblock %}
+    </div>
+</body>
+
+</html>
