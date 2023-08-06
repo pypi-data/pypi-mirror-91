@@ -1,0 +1,8 @@
+fdtd/__init__.py,sha256=sXLh7g3KC4QCFxcZGBTpG2scR7hmmBsMjq6LqRptkRg,22
+fdtd/field.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fdtd/pml.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fdtd/solver.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fdtd/source.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fdtd.py-0.0.1.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+fdtd.py-0.0.1.dist-info/METADATA,sha256=prNeAqi6dYIOvdEj7qXIoySFuCH21nftN9_bwOOC4xY,373
+fdtd.py-0.0.1.dist-info/RECORD,,
