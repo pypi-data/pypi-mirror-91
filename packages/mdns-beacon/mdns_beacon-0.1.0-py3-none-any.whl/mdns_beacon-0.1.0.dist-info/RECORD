@@ -1,0 +1,10 @@
+mdns_beacon/__init__.py,sha256=38b8F35lCl_za828Hx82lL3Bor0xsZrINH6FGQ5PoDQ,231
+mdns_beacon/base.py,sha256=EVya6pEqubexXb-aG0jnKoNpXS-Be7nfAQETwd_w3A4,1645
+mdns_beacon/beacon.py,sha256=PA3Z5Uwcqdid_cFrepgHp5uDeV7dOYQQLpXNgSOHBuw,4037
+mdns_beacon/cli.py,sha256=VLCTrMujZJePcEpH_5VDwAEF7AbCAP9KZw0pNpLaZc4,4226
+mdns_beacon/listener.py,sha256=VVjXC6rk5Tbq7vuDE-5FzAk66fVaISRXZ1RFYAk5mP0,1954
+mdns_beacon-0.1.0.dist-info/entry_points.txt,sha256=5gtOJZiRcnQV_az7DKxeqQ8rRC4FPPfrwt7HhRw-vGM,52
+mdns_beacon-0.1.0.dist-info/LICENSE.rst,sha256=1gETyqMkQFGoWQFiRAsmw0C65tqqPdqlMXCwkNM_N64,1092
+mdns_beacon-0.1.0.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+mdns_beacon-0.1.0.dist-info/METADATA,sha256=WyGUhqQl4qf1CWrCaAc-hP50dMz5NA4Hq7xjLsD3wH0,5293
+mdns_beacon-0.1.0.dist-info/RECORD,,
