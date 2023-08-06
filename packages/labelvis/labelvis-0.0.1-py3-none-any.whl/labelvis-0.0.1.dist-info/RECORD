@@ -1,0 +1,10 @@
+labelvis/__init__.py,sha256=5DAq_lQA6JJA_Hp8lEI6hjKwoY-oPH3G6XKjqk7dvMM,230
+labelvis/config.py,sha256=cm__Hvsc0R3MQZzenPbakrSRUnXgh5HIuKZ08iOD0Z0,433
+labelvis/dataloaders.py,sha256=9ymtbFEkHFgcVWHa4K1RknwC87pPm-5t59i4c2Uf0qw,11292
+labelvis/labelvis.py,sha256=rESfx7dTZNl4XPeTUFovoXIJyTyhBX-i-BohkQM6huE,6116
+labelvis/utils.py,sha256=6QDUIK7Kg3xUDg6znWkH45g09zcW4St-mYqZzBqcaY0,1549
+labelvis-0.0.1.dist-info/LICENSE,sha256=9mpFePyRuaX2QrdDSgVMGbWkXauDrebOrYP1Q_lTJEw,1067
+labelvis-0.0.1.dist-info/METADATA,sha256=OD5veGRq7ul14KDnbg9pIOmAruyKY6w0i8HteTl0e4A,2341
+labelvis-0.0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+labelvis-0.0.1.dist-info/top_level.txt,sha256=4flkbcI0DyS9c2pU4TXJQKu4ryICQ9yA7uUca1E6DdA,9
+labelvis-0.0.1.dist-info/RECORD,,
