@@ -1,0 +1,7 @@
+doubleagent/__init__.py,sha256=mPw0MT-oIljz_CpCusLofb03QsZ7V28GgJe8UbJs2Dg,46
+doubleagent/ll2l.py,sha256=iZB-VA1DUdrxNI8wBPnTbPTY3sDnRJzxKACfXqUV5R4,174
+doubleagent/s2l.py,sha256=sUJn9nV2oFFJKKPopz81zY6Kjr0G0P6vfqILIMLs0dk,56
+doubleagent-1.12.dist-info/METADATA,sha256=wDUKK03DNqGiiF0gvzhBDR5bNWxCevuejMMcXb7fl80,348
+doubleagent-1.12.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+doubleagent-1.12.dist-info/top_level.txt,sha256=FGvjLgT-Qc3ecmDIBKZaZmXkkJ3nFvsqVSb2ilzOokA,12
+doubleagent-1.12.dist-info/RECORD,,
