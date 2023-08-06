@@ -1,0 +1,6 @@
+README.md
+setup.py
+booster_cooler.egg-info/PKG-INFO
+booster_cooler.egg-info/SOURCES.txt
+booster_cooler.egg-info/dependency_links.txt
+booster_cooler.egg-info/top_level.txt
