@@ -1,0 +1,10 @@
+README.md
+setup.py
+dirtools2/__init__.py
+dirtools2/__main__.py
+dirtools2/test_dirtools.py
+dirtools2.egg-info/PKG-INFO
+dirtools2.egg-info/SOURCES.txt
+dirtools2.egg-info/dependency_links.txt
+dirtools2.egg-info/requires.txt
+dirtools2.egg-info/top_level.txt
