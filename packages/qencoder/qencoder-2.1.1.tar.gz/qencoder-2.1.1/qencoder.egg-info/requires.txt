@@ -1,0 +1,3 @@
+Av1an-minimal
+PyQt5
+psutil
