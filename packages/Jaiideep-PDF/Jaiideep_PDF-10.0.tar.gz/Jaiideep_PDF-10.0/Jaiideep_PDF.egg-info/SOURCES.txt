@@ -1,0 +1,9 @@
+README.md
+setup.py
+Jaiideep_PDF.egg-info/PKG-INFO
+Jaiideep_PDF.egg-info/SOURCES.txt
+Jaiideep_PDF.egg-info/dependency_links.txt
+Jaiideep_PDF.egg-info/top_level.txt
+pdf_to_text/__init__.py
+pdf_to_text/pdf_to_image.py
+pdf_to_text/pdf_to_text.py
