@@ -1,0 +1,3 @@
+doreah>=1.6.11
+send2trash
+tabulate
