@@ -1,0 +1,14 @@
+afitop100/__init__.py,sha256=IF5hDXPQCUi1O3DSmvJ2fItV2lk9vqyb0YJG9yEUba4,216
+afitop100/__main__.py,sha256=giBKsDma2nOIk_FHGLBdgeqDkJy9x6sKkiC5nrW-J9g,431
+afitop100/afi.py,sha256=t8k1NwvZd6RMljPVzJRa8AnWvxwST4X_d1vVlmbmZcQ,2791
+afitop100/app.py,sha256=FqZCvh159M9jF8r5TB-k0fV6SlMs0eJbXEuu-Lynl_s,514
+afitop100/film.py,sha256=9x9dgEo2rlY7n9-Lm_jaKGUdxh7B_vb29zsIMAC8LKM,1158
+afitop100/common/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+afitop100/common/wikipedia.py,sha256=2V2iSnPxdY3sfU9_FgfR9bu4aK_5y4q7LzZeWurTBPI,985
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_afitop100.py,sha256=k5XHd5fDhZ1XFmSgAvJgGVESOgN-0TwnbuxYf3AEj_M,1297
+afitop100-0.1.0.dist-info/METADATA,sha256=mWhuXTicv0v0hdHUVsfZZ4_JzArVoTHohvXB8S0MeZk,303
+afitop100-0.1.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+afitop100-0.1.0.dist-info/entry_points.txt,sha256=G34hdI3q_jigxBWO1-9IhmR4PJ_c_gE5OVY6t9TOhD8,55
+afitop100-0.1.0.dist-info/top_level.txt,sha256=3IoZy9Eaycc20PJqw9W5BTmnnbDQ-yc6pufoRtU2xW0,16
+afitop100-0.1.0.dist-info/RECORD,,
