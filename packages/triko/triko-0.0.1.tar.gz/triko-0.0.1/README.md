@@ -1,0 +1,119 @@
+[![Python 3.7](https://img.shields.io/badge/python-3.7-blue.svg)](https://www.python.org/downloads/release/python-370/)
+
+# 🤼  Triko
+Simplifies the process of encoding/decoding data using [TFRecord](https://www.tensorflow.org/tutorials/load_data/tfrecord) framework.
+
+## Getting Started
+
+I was a bit overwhelmed after using TFRecord framework for the first time. I don't find its interface very appealing, so the idea was to encapsulate all the nitty-gritty in this library.
+
+**Note: I'm not an expert in TFRecord. I just found my approach very helpful in my workflow.**
+
+### TrikoFeature
+
+For each feature you want to serialize ( images, numbers, strings, labels ), you should use a separate `TrikoFeature` subclass.  Each `TrikoFeature` subclass must be initialized with a unique key ( see `init` method ). Those keys are used to serialize data in `TFRecord`.
+
+`TrikoFeature` utilizes generic. Each subclass must provide three types for itself.
+
+**An abstract example:**
+
+`class DemoFeature(TrikoFeature[RAW_TYPE, ENCODED_TYPE, DECODED_TYPE])`
+
+- `RAW_TYPE` - an original type of your data that you want to encode
+- `ENCODED_TYPE` - a type your data will be in after encoding (TFRecord supports only a few types)
+- `DECODED_TYPE` - a type your data will be in after decoding
+
+**A specific example:**
+Let's say we want to encode an image. We read it, transform it the way we like, and then it's time to serialize it to a `TFRecord` dataset.
+
+`class DemoImageFeature(TrikoFeature[np.ndarray, bytes, np.ndarray])`
+
+- `np.ndarray ( RAW_TYPE )` - our image data is initially a `numpy` matrix
+- `bytes ( ENCODED_TYPE )` - we can't serialize raw `numpy` arrays using `TFRecord` ( it won't be a good idea anyway ), so we will convert them to `bytes`
+- `np.ndarray ( DECODED_TYPE )` - when reading `TFRecord` dataset, `bytes` are useless to us, so we will decoded it back to `np.ndarray`
+
+
+**How does `Triko` encode/decode data?**
+
+You must tell it how by overriding either `_encode_raw` or `_decode_value` methods.
+
+Continuing our example:
+```python
+class DemoImageFeature(TrikoFeature[np.ndarray, bytes, np.ndarray]):
+	def _encode_raw(self, raw_value: np.ndarray) -> bytes:
+		# convert numpy array to bytes and return
+		pass
+	
+	def _decode_value(self, encoded_value: bytes) -> np.ndarray:
+		# read bytes and return numpy array
+		pass
+```
+
+**A simple built-in raw data validation**
+
+Before encoding raw data, you can validate its value by overriding `_validate_raw_value`.
+
+### TrikoFeature in action
+
+**Encoding**
+
+Consider a pseudocode:
+```python
+with TFRecordWriter as writer:
+	# you read an image and perform transformations
+	img_array: np.ndarray = ...
+	# label for the image
+	label: str = ...
+	
+	# list of your TrikoFeature subclasses
+	features: List[TrikoFeature] = ...
+	
+	def raw_value_getter(feature: TrikoFeature) -> Any:
+		"""
+		Maps a feature to a raw data
+		"""
+		
+		# 'image' is a key you used for your TrikoFeature subclass
+		# that represents an image
+		if feature.key == 'image':
+			return img_array
+		
+		return label
+	
+	serialized_features = TrikoFeature.encode_features_to_string(
+		features=features, raw_value_getter=raw_value_getter,
+	)
+	writer.write(serialized_features)
+	
+```
+
+
+**Decoding**
+
+Consider a pseudocode:
+```python
+# list of your TrikoFeature subclasses
+features: List[TrikoFeature] = ...
+
+dataset = tf.data.TFRecordDataset().map(TrikoFeature.decoder(features=features))
+```
+
+### The lib is cool, but pseudocode is not
+See documented real-world example [here](https://github.com/ityutin/triko/blob/master/examples/cats_and_dogs/cats_and_dogs.ipynb)
+
+### Limitations
+Only [FixedLenFeature](https://www.tensorflow.org/api_docs/python/tf/io/FixedLenFeature) are now supported.
+
+### Prerequisites
+
+\`\`\`
+python 3.7
+tensorflow
+numpy
+\`\`\`
+
+### Installing
+
+\`\`\`
+pip install triko
+\`\`\`
