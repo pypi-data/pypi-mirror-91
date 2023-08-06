@@ -1,0 +1,8 @@
+cloudcomponents/cdk_chatops/__init__.py,sha256=Q1erHSFSaNuzdDFgbCNgi5mjR4gd2gep5rhcp5zUcCo,21076
+cloudcomponents/cdk_chatops/py.typed,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+cloudcomponents/cdk_chatops/_jsii/__init__.py,sha256=17RoKiPZoJvQXgxmgYK65LytJqQC-piSNcpuXGQu0lA,561
+cloudcomponents/cdk_chatops/_jsii/cdk-chatops@1.19.0.jsii.tgz,sha256=VgKzsStWeg1ulT8cPI9Odl49ZVSvpRiwc3q7-5q3oeE,83767
+cloudcomponents.cdk_chatops-1.19.0.dist-info/METADATA,sha256=7QQu0HRINmWlb6eEG61-n0Hi-Qt21XeZ3Zj2fiHlq-U,6561
+cloudcomponents.cdk_chatops-1.19.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+cloudcomponents.cdk_chatops-1.19.0.dist-info/top_level.txt,sha256=B4EWas985OPzDPLZgw2jcOsscXpuQJyowJnB5pl9rpQ,16
+cloudcomponents.cdk_chatops-1.19.0.dist-info/RECORD,,
