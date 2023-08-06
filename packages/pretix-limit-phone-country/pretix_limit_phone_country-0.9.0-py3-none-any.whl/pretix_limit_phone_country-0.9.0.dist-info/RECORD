@@ -1,0 +1,13 @@
+pretix_limit_phone_country/__init__.py,sha256=7TKznh6MekAhbsLX-RHT6z36Dr31R4oLHqQZeX6e-kk,1179
+pretix_limit_phone_country/signals.py,sha256=UMEZPpnJVaa3iV4Pxd3Ejr0mtofKHq2bO7__l2R0zVw,31
+pretix_limit_phone_country/locale/de/LC_MESSAGES/django.po,sha256=ixnRtMAsm5dDvbKRSorenUtIb6cU9E3f7tAJLWDrOfA,312
+pretix_limit_phone_country/locale/de_Informal/.gitkeep,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pretix_limit_phone_country/locale/de_Informal/LC_MESSAGES/django.po,sha256=ixnRtMAsm5dDvbKRSorenUtIb6cU9E3f7tAJLWDrOfA,312
+pretix_limit_phone_country/static/pretix_limit_phone_country/.gitkeep,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pretix_limit_phone_country/templates/pretix_limit_phone_country/.gitkeep,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pretix_limit_phone_country-0.9.0.dist-info/LICENSE,sha256=o8zNVN8Op6MXLsIYsI3AmJg3s77pb1m3H6pdvxzvRa0,555
+pretix_limit_phone_country-0.9.0.dist-info/METADATA,sha256=73WUGeoS1ahv-Ol2F3ugcnrYwk4BvqCltfHnuKwVsQI,1640
+pretix_limit_phone_country-0.9.0.dist-info/WHEEL,sha256=S6zePDbUAjzMmpYOg2cHDxuYFWw7WiOXt6ogM6hIB5Q,92
+pretix_limit_phone_country-0.9.0.dist-info/entry_points.txt,sha256=am7vc_djsZEWSvL4rSHV2z7NL9p69i16XGIl27vg14U,88
+pretix_limit_phone_country-0.9.0.dist-info/top_level.txt,sha256=Jkpv8_iPJdXBbGi1y4ifgG1bmBngW4frGlZ1QtwY4fQ,27
+pretix_limit_phone_country-0.9.0.dist-info/RECORD,,
