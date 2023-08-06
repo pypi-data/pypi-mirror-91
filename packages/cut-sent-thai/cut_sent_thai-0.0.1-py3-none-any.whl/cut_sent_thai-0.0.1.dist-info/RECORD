@@ -1,0 +1,11 @@
+cut_sent_thai/__init__.py,sha256=yyeIvvRH-EgKCnSsa2Gzqk2EJlOGgpxASG4nnC7h71E,39
+cut_sent_thai/cut_sent_utils.py,sha256=yun4fMr653_ec9x12WuC4WyEOhVKfypSMPpFAq9TMEY,18224
+cut_sent_thai/cut_sentence.h5,sha256=S1KbErU6UgNWIKXjDz5lcfuAURFgZxnTwDZNHLBH3Uo,71593264
+cut_sent_thai/main.py,sha256=LNFd2wjqHT9irWAXOJaK2oOB75_r0dW08QSZZ3lza9w,8443
+cut_sent_thai/stoi.pickle,sha256=K3gBCtb9B-gOu_lBfdQbDiQYRNFJuHldDazDx6IhcgY,455713
+cut_sent_thai/stoi_pos.pickle,sha256=rNgDycqnW0Kbix6RPhovMjMWtF9-wq2_7rm5171vz64,2080
+cut_sent_thai-0.0.1.dist-info/LICENSE.txt,sha256=pCc1bO_gJ5x_lUX4QXv7jckmeTxXLXMtQlgQWaCQw8w,1050
+cut_sent_thai-0.0.1.dist-info/METADATA,sha256=vmytBB1j3mp85u77gD7ApYbXhhK4--x71iV_Zt_xtmI,353
+cut_sent_thai-0.0.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+cut_sent_thai-0.0.1.dist-info/top_level.txt,sha256=mO4SJaCAt8vE5U3Fmb4bcfEj4lULl07eKYvqBGcEzWA,14
+cut_sent_thai-0.0.1.dist-info/RECORD,,
