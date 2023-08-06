@@ -1,0 +1,3 @@
+[console_scripts]
+qdownloader = qdownloader.qdownloader:usage
+

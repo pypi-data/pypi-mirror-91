@@ -1,0 +1,12 @@
+setup.py
+qdownloader/__init__.py
+qdownloader/__version__.py
+qdownloader/guc.py
+qdownloader/idm.py
+qdownloader/qdownloader.py
+qdownloader.egg-info/PKG-INFO
+qdownloader.egg-info/SOURCES.txt
+qdownloader.egg-info/dependency_links.txt
+qdownloader.egg-info/entry_points.txt
+qdownloader.egg-info/requires.txt
+qdownloader.egg-info/top_level.txt
