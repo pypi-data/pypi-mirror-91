@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: snake-wars
+Version: 0.1.0
+Summary: Snake game implementation for multiplayer and reinforcement learning
+Home-page: https://snake-wars.readthedocs.io/
+Author: Joffrey Bienvenu
+Author-email: joffreybvn@gmail.com
+License: MIT
+Description: # Snake Wars
+        
+        A multiplayer Snake implementation designed to train AI by reinforcement, and make them fight together. This package (server and client) doesn't work on Windows.
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Topic :: Software Development :: Libraries :: pygame
+Classifier: Topic :: Games/Entertainment
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Operating System :: POSIX :: Linux
+Description-Content-Type: text/markdown
