@@ -1,0 +1,10 @@
+pathops/__init__.py,sha256=BifnC-rm4wU0YGdroWomXXAOPInkrR9A5Xjjeg0OG4Y,501
+pathops/_pathops.cp37-win32.pyd,sha256=U7iIzQ_4gcYBs609G8wyCF0qvgpkx29kgm4SSkJDORs,314368
+pathops/_version.py,sha256=YvREsLs1IJS0NWNh1XXPK-YQaQ8TtbY3s438VkMqeq0,162
+pathops/operations.py,sha256=lJEPoviT4CC8dSapzxkkNCxsXDYJ7udpnxVi5buJXV0,1241
+pathops/skia.dll,sha256=fGtUkjGfrJrvupd_RTntV3BBVF1ZPiZHBSZOIWscoXc,4096000
+skia_pathops-0.6.0.post1.dist-info/LICENSE,sha256=EQJEsCFAhm7jfRf6dElDajd-w7haSB-7II9Mh5ZDgt4,1475
+skia_pathops-0.6.0.post1.dist-info/METADATA,sha256=NFEdxRjSm3O22B7M_4wefcmy9-UpykmLf8vWwnup7gs,2290
+skia_pathops-0.6.0.post1.dist-info/WHEEL,sha256=HMboZ8ZR71bu96oAB49ix1AoR5WMLRAlp0J7XJ13Vok,97
+skia_pathops-0.6.0.post1.dist-info/top_level.txt,sha256=urHS64kx2OKt5ebS91C49hSYx5a1rfpmDXw47OhV5uc,8
+skia_pathops-0.6.0.post1.dist-info/RECORD,,
