@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: esteira
+Version: 1.0.0
+Summary: A open source automation server.
+Home-page: https://github.com/guilhermewebdev/esteira
+Author: Guilherme Isaías
+Author-email: guilherme@guilhermeweb.dev
+License: UNKNOWN
+Description: # esteira
+        A open source automation server.
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Description-Content-Type: text/markdown
