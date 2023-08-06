@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: wev-awscodeartifact
+Version: 1.0.0a5
+Summary: "wev" plugin for Amazon Web Services CodeArtifact authorisation
+Home-page: https://github.com/cariad/wev-awscodeartifact
+Author: Cariad Eccleston
+Author-email: cariad@hey.com
+License: MIT License
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: boto3 (>=1.16)
+
+# wev-awscodeartifact
+
+[![codecov](https://codecov.io/gh/cariad/wev-awscodeartifact/branch/main/graph/badge.svg?token=D48XKZJXJ7)](https://codecov.io/gh/cariad/wev-awscodeartifact)
+
+Amazon Web Services CodeArtifact authentication plugin for wev.
+
+TODO: Finish this README.
+
+
