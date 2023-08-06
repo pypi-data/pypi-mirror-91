@@ -1,0 +1,9 @@
+mdbridge/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mdbridge/mdbridge2html.py,sha256=VxAEnhLNo-7WT6BD8ZRxB0pukbqNDhsqKcpt6jL7CnU,3631
+mdbridge/mdbridge2latex.py,sha256=OeTDNXsRvBVu0CLvaRqgKVDO-Eb0qAhhBJhqOlPWf5w,6813
+mdbridge-0.2.1.dist-info/LICENSE,sha256=Urk2FSMscDHJXg6UwqehPZ72YbMwGDjJnJMgmyGC1xQ,1066
+mdbridge-0.2.1.dist-info/METADATA,sha256=-az1LNDgSk70TnmMA0RhpSqHsMxNNxW7tSXHt8IcO2Y,4352
+mdbridge-0.2.1.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+mdbridge-0.2.1.dist-info/entry_points.txt,sha256=8y7UAuWs0OhbXEsiG1TYB0bpkRww0fBwyi3xzl50Vcc,109
+mdbridge-0.2.1.dist-info/top_level.txt,sha256=aF7qCMIV38U8knrTf3XbxSqIkXHqo93o2P-3kK6_0uo,9
+mdbridge-0.2.1.dist-info/RECORD,,
