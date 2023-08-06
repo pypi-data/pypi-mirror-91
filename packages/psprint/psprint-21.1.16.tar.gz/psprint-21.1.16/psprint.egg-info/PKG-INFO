@@ -1,0 +1,11 @@
+Metadata-Version: 1.2
+Name: psprint
+Version: 21.1.16
+Summary: psprint - Prompt String Print
+Home-page: https://github.com/pradyparanjpe/psprint
+Author: Pradyumna Paranjape
+Author-email: pradyparanjpe@rediffmail.com
+License: LGPLv3
+Description: UNKNOWN
+Platform: linux
+Requires-Python: >=3.7
