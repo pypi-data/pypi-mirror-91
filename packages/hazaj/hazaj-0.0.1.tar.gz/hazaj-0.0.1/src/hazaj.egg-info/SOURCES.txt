@@ -1,0 +1,7 @@
+README.md
+setup.py
+src/hazaj.py
+src/hazaj.egg-info/PKG-INFO
+src/hazaj.egg-info/SOURCES.txt
+src/hazaj.egg-info/dependency_links.txt
+src/hazaj.egg-info/top_level.txt
