@@ -1,0 +1,11 @@
+README.md
+setup.cfg
+setup.py
+economypackage/__init__.py
+economypackage/mathseconomy/__init__.py
+economypackage/mathseconomy/mathsadvancefuncs.py
+economypackage/mathseconomy/mymathsUtils.py
+pypipackageexample.egg-info/PKG-INFO
+pypipackageexample.egg-info/SOURCES.txt
+pypipackageexample.egg-info/dependency_links.txt
+pypipackageexample.egg-info/top_level.txt
