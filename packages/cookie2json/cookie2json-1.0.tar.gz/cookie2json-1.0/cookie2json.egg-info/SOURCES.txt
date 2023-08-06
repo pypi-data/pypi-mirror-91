@@ -1,0 +1,8 @@
+README.md
+setup.py
+cookie2json/__init__.py
+cookie2json/__main__.py
+cookie2json.egg-info/PKG-INFO
+cookie2json.egg-info/SOURCES.txt
+cookie2json.egg-info/dependency_links.txt
+cookie2json.egg-info/top_level.txt
