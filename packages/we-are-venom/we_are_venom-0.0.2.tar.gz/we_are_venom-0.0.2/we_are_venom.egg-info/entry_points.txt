@@ -1,0 +1,3 @@
+[console_scripts]
+venom = we_are_venom.venom:cli
+
