@@ -1,0 +1,12 @@
+click
+click-completion
+imapclient
+pluggy
+pbr
+pyyaml
+six
+requests
+thesmuggler
+aprslib
+py3-validate-email
+pre-commit
