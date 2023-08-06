@@ -1,0 +1,3 @@
+[console_scripts]
+autoact = autoact.autoact:main
+
