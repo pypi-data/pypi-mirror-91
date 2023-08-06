@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: WorthData
+Version: 1.1.1
+Summary: WorthData is a simple database that can handle big amount of data
+Home-page: https://github.com/IM-code111/jsonbase-1.0.0
+Author: WinXpDev
+Author-email: muhammad184276@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# WorthData(WD)
+## Simple Database For Python
+****
+## Usage
+```py
+import WorthData as WD
+
+database = WD.get('MyDatabase')
+```
+```py
+database.create()
+data = database.access()
+```
+```py
+data['dict'] = {'str':'Support every data type','int':10,'list':['support','list'],'float':10.6}
+```
+```py
+database.keep(data)
+```
+****
+- Can Handle Big Amount Of Data
+- Live Updating
+    - when you change value of the key it will automatically update at your code
+
