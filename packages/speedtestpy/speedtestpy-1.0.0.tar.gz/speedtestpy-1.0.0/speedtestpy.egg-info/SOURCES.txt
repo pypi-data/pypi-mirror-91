@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.md
+setup.py
+speedtestpy/__init__.py
+speedtestpy.egg-info/PKG-INFO
+speedtestpy.egg-info/SOURCES.txt
+speedtestpy.egg-info/dependency_links.txt
+speedtestpy.egg-info/top_level.txt
