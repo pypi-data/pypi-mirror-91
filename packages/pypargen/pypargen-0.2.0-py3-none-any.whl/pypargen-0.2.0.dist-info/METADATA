@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: pypargen
+Version: 0.2.0
+Summary: A parser generator built with Python
+Home-page: https://github.com/ilango100/pypargen
+License: UNKNOWN
+Author: Ilango Rajagopal
+Author-email: ilangokul@gmail.com
+Requires-Python: >=3.9
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Requires-Dist: pytest ; extra == "test"
+Requires-Dist: pytest-cov ; extra == "test"
+Provides-Extra: test
