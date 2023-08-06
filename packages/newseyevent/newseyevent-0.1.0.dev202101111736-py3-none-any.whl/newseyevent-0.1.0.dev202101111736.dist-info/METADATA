@@ -1,0 +1,58 @@
+Metadata-Version: 2.1
+Name: newseyevent
+Version: 0.1.0.dev202101111736
+Summary: A simple Python package to build event based requests for the NewsEye API
+Home-page: https://gitlab.com/guilieb/newseyevent
+Author: Guillaume Bernard
+Author-email: contact@guillaume-bernard.fr
+License: GPLv3 License
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Topic :: Scientific/Engineering :: Information Analysis
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Description-Content-Type: text/markdown
+Requires-Dist: requests (==2.24.0)
+Requires-Dist: wikivents
+
+# `newseyevent`
+
+This Python package is used to represent a `wikivents` `Event` object as a Solr or [platform.newseye.eu](https://platform.newseye.eu) query string. [Full documentation](https://guilieb.gitlab.io/wikivents) is hosted on Gitlab Pages and available publicly.
+
+### Request managers
+
+The only object you should use in order to export event is either the `SolrCollection` and the `SolrQueryEventArticlesInLanguage` class or inherited classes.
+
+Below is an example on how to use the `SolrRequestManager`:
+
+```python
+from wikivents.models import ISO6391LanguageCode
+from wikivents.factories.wikimedia import WikimediaFactory
+from datetime import datetime
+from newseyevent.solr import SolrQueryEventArticlesInLanguage, SolrQueryEventArticlesInLanguageDateRange, \
+    SolrInstance, SolrCollection
+
+# Create the Easter Rising event instance
+event = WikimediaFactory.create_event("Q193689")
+
+# Create the object representing the Solr Collection (on a specific host, with an explicit collection name)
+solr_collection = SolrCollection(SolrInstance("localhost", 8993), "newseye_collection")
+
+# Query articles related to the event, in English
+query_articles_in_lang = SolrQueryEventArticlesInLanguage(event, ISO6391LanguageCode("fr"))
+print(solr_collection.query(query_articles_in_lang))
+
+# Query articles related to the event, in English, published between 01/01/1910 and 01/01/1911
+query_articles_in_lang_date_range = SolrQueryEventArticlesInLanguageDateRange(
+    event, ISO6391LanguageCode("en"),
+    datetime.strptime("1910-01-01", "%Y-%m-%d"),
+    datetime.strptime("1911-01-01", "%Y-%m-%d")
+)
+print(solr_collection.query(query_articles_in_lang_date_range))
+```
+
+
