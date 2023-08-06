@@ -1,0 +1,130 @@
+Metadata-Version: 2.1
+Name: cloup
+Version: 0.4.1
+Summary: Option groups and subcommand help sections for pallets/click
+Home-page: https://github.com/janLuke/cloup
+Author: Gianluca Gippetto
+Author-email: gianluca.gippetto@gmail.com
+License: MIT license
+Keywords: cloup click option
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.5
+Description-Content-Type: text/x-rst
+Requires-Dist: click (<9.0,>=7.0)
+
+========
+Cloup
+========
+
+====================  ==========================================================
+**Master branch**     |travis| |coverage| |latest-docs|
+--------------------  ----------------------------------------------------------
+**Package**           |pypi-release| |python-versions| |release-docs|
+====================  ==========================================================
+
+.. |pypi-release| image:: https://img.shields.io/pypi/v/cloup.svg
+    :alt: Latest release on PyPI
+    :target: https://pypi.org/project/cloup/
+
+.. |travis| image:: https://img.shields.io/travis/com/janluke/cloup/master?label=tests
+    :alt: Travis-CI Build Status
+    :target: https://travis-ci.com/janLuke/cloup?branch=master
+
+.. |coverage| image:: https://codecov.io/github/janLuke/cloup/coverage.svg?branch=master
+    :alt: Coverage Status
+    :target: https://codecov.io/github/janLuke/cloup?branch=master
+
+.. |python-versions| image:: https://img.shields.io/pypi/pyversions/cloup.svg
+    :alt: Supported versions
+    :target: https://pypi.org/project/cloup
+
+.. |latest-docs| image:: https://readthedocs.org/projects/cloup/badge/?version=latest
+    :alt: Documentation Status (master branch)
+    :target: https://cloup.readthedocs.io/en/latest/
+
+.. |release-docs| image:: https://readthedocs.org/projects/cloup/badge/?version=stable
+    :alt: Documentation Status (latest release)
+    :target: https://cloup.readthedocs.io/en/stable/
+
+Cloup (= **Cl**\ick + gr\ **oup**\s) adds to `Click <https://github.com/pallets/click>`_
+the following features:
+
+- **option groups** for ``Command``;
+
+- the possibility to organize the subcommands of a ``Group`` in multiple
+  **help sections**.
+
+Cloup implements these features by providing subclasses of ``Command`` and ``Group``,
+and by defining a new decorator ``@option_group(name, *options, ...)`` decorator.
+
+Currently, cloup only affects how the command help is formatted, it doesn't
+allow to specify constraints on option groups. Group constraints are coming
+though.
+
+.. if-doc-stop-here
+
+Documentation
+=============
+Read more at https://cloup.readthedocs.io/.
+
+
+==========
+Change Log
+==========
+
+v0.4.0 (2020-01-10)
+===================
+This is the last release officially supporting Python 3.5.
+
+Package-wise:
+
+* changed the internal (non-public) structure of the package
+* no new features or public API changes
+* minor code improvements and fixes.
+
+Repository-wise:
+
+* new documentation (hosted by ReadTheDocs)
+* tox, TravisCI, Makefile completely rewritten.
+
+
+v0.3.0 (2020-03-26)
+===================
+Backward incompatible API changes
+---------------------------------
+* ``option_groups`` decorator now takes options as positional arguments ``*options``;
+* ``Group.section`` decorator now takes sections as positional arguments ``*sections``;
+* ``align_sections_help`` was renamed to ``align_sections``;
+* ``GroupSection.__init__() sorted_`` argument was renamed to ``sorted``.
+
+Other changes
+-------------
+* Additional signature for ``option_group``: you can pass the ``help`` argument
+  as 2nd positional argument.
+* Aligned option groups (option ``align_option_groups`` with default ``True``).
+* More refactoring and testing.
+
+
+v0.2.0 (2020-03-11)
+===================
+* [Feature] Add possibility of organizing subcommands of a cloup.Group in
+  multiple help sections.
+* Various code improvements.
+* Backward incompatible change:
+    - rename ``CloupCommand`` and ``CloupGroup`` resp. to just ``Command`` and ``Group``.
+
+
+v0.1.0 (2020-02-25)
+===================
+* First release on PyPI.
+
+
