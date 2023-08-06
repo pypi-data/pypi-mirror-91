@@ -1,0 +1,221 @@
+Metadata-Version: 2.1
+Name: seaplan
+Version: 0.4.9
+Summary: Sea-going mission planning
+Home-page: https://github.com/WayneCrawford/seaplan
+Author: Wayne Crawford
+Author-email: crawford@ipgp.fr
+License: UNKNOWN
+Description: ===================
+        seaplan
+        ===================
+        
+        Seagoing mission planning based on station positions and occupation times
+        
+        Overview
+        ======================
+        
+        Reads in a parameter file  (YAML format) containing variables 
+        and a list of actions to perform.
+        
+        The parameter file can also specify a "station file" containing the names, latitudes
+        and longitudes of the stations.  All of these stations will be plotted on the map and
+        if an action has the same name and no specified latitude and longitude, this station's
+        position will be used.
+        
+        Outputs a table of actions and predicted (or specified) times in HTML format.
+        
+        Parameter file
+        ======================
+        
+        The value between the field name and the comment below is the default value
+        (if the field is notentered) or the [type] to use to fill in this field:
+        
+        .. code:: yaml
+        
+            ---
+            format_version: [string] # seaplan major version number ("0.4")
+            description:    [string] # Will be printed at the top of the output
+            variables:
+                station_file:  # NOT REQUIRED
+                  name: ''              # CSV file containing the station positions
+                  field_separator: ";"  # CSV field separator
+                printout:     # NOT REQUIRED
+                  show_comments: False  # Print comments in output table
+                  print_past: True      # Print past events (date before UTC.now())
+                timing:
+                  ignore_depart_arrive_times: False  # Calculate all times, ignoring explicit Event values
+                  ship_speed.kn_i: 11.               # Ship speed in transit between stations
+                  ship_latency.h: 0.5                # Add this time to each transit to account for acceleration/deceleration             
+                  action_times.h:                  # Default times for each listed action
+                    "{Action1}":                     # First Action type
+                      "{TYPE1}": [float]               # Station type and default time
+                      "{TYPE2}": [float]               # Station type and default time
+                      default: [float]]                # default time for non-specified station type
+                    "{Action2}":                     # Second Action type
+                      ...
+                map:
+                  grid:
+                    x: 1.                # Plot grid longitude spacing in decimal degrees
+                    y: 1.                # Plot grid longitude spacing in decimal degrees
+                  bounds: [float, float, float, float]   # plot bounds in degrees [left, right, bottom, top]   # degrees left, right, bottom, top
+                  bathy_map: [str]       # Path to netCDF bathy/topo map to plot
+                  plot_past_tracks: True # Plot tracks make prior to UTC.now()
+                  show_plot: True        # plot map to screen
+            events:  # List of events to plot
+              - station: [str]         # Station name: if found in station_file, will get coordinates from there
+                lat: [float]           # Station latitude  (overwrites value in station_file, if any)
+                lon: [float]           # Station longitude  (overwrites value in station_file, if any)
+                arrive_time: [ISO8601] # Fix arrival time (otherwise uses previous depart_time+transit+latency)
+                depart_time: [ISO8601] # Fix depart time (otherwise uses arrive_time + hours)
+                hours: [float]         # Time spent on the operation.  If zero, the event
+                                       # is considered to be a waypoint.  If not specified,
+                                       # use action_time.h['{Action_type}']['{Station_TYPE}'] 
+                                       # or action_time.h['{Action_type}']['default'],
+                comment: [str]         # Comment
+                speed: [float]         # Speed between previous and given site (overrides ship_speed_knots) 
+              - station:               # Station name
+                ...
+              
+        Here's an example:
+        
+        .. code:: yaml
+        
+            ---
+            format_version: "0.4"
+            description: "Locate all unlocated, deploy all by cable"
+            variables:
+                station_file:
+                  name: 'MayOBS_I_stations.csv' 
+                  field_separator: ";"
+                printout:
+                  show_comments: False
+                  print_past: True
+                timing:
+                  ignore_depart_arrive_times: False
+                  ship_speed.kn_i: 11
+                  ship_latency.h: 0.5                   
+                  action_times.h:
+                    "Deploy":
+                      "SP": 0.25
+                      "BB": 0.5
+                      default: 0.5
+                    "Survey":
+                      default: 2.0
+                map:
+                  grid:
+                    x: 0.2
+                    y: 0.1
+                  bounds: [45,46,-13.1,-12.4]   # degrees left, right, bottom, top
+                  bathy_map: '/Users/crawford/_Work/Figures_Etc/2_Maps/Mayotte/grd/MNT-global-Mayotte_netcdf.grd'
+                  #bathy_map: True
+                  plot_past_tracks: True
+                  show_plot: True
+            
+            events:
+              - station: "MONH"
+                arrive_time: 2019-02-23T00:00
+                action: "Recover"
+                hours: 1.5
+                comment: "1h30m MAYOBS15 sans survey, should be located by SISMAORE1 active seismics"
+              - station: "MOCH"
+                action: "Recover"
+                hours: 1.7
+                comment: "1h40m MAYOBS15, already well located"
+              - station: "MOSH"
+                action: "Recover+survey: 1200m rayon"
+                hours: 4.00
+                comment: "2h45m MAYOBS15 sans survey"
+              - station: "MOAH"
+                action: "Recover+survey: 1700m rayon"
+                hours: 4.25
+                comment: "2h20m MAYOBS15 sans survey"
+              - station: "MOBH"
+                action: "Recover+survey: 1600m rayon"
+                hours: 3.75
+                comment: "1h45m MAYOBS15 sans survey"
+              - station: "MOBx"
+                action: "Deploy cable"
+                hours: 3.5
+              - station: "MODH"
+                action: "Recover"
+                hours: 2.6
+                comment: "2h35m MAYOBS15 sans survey, should be located by SISMAORE1 active seismics."
+              - station: "MODx"
+                action: "Deploy cable"
+                hours: 3.6
+              - station: "MOAx"
+                action: "Deploy cable"
+                hours: 3.9
+              - station: "MOSx"
+                action: "Deploy cable"
+                hours: 3.17
+              - station: "MOCx"
+                action: "Deploy cable"
+                hours: 2.5
+              - station: "MONx"
+                action: "Deploy cable"
+                hours: 2.7
+        
+        Station file
+        ---------------------------------
+        
+        A CSV file who's first line is a header that specifies the field order,
+        using the names ``Name``, ``Lat``, ``Lon``, ``Type`` and ``Comment``.  For example:
+        
+        .. code::
+        
+            Name;Lat;Lon;Type;Comment
+            MOAx;-12.9625;45.8199;SP;
+            MOBx;-12.8417;45.6250;SP;
+            MOCx;-12.7837;45.4113;SP;BUBBLEPHONE
+            MODx;-12.6710;45.5929;SP;
+            MONx;-12.5956;45.4091;SP;
+            MOSx;-13.0208;45.4585;SP;
+            MOAH;-12.9567;45.8192;SP;
+            MOBH;-12.8423;45.6210;SP;
+            MOCH;-12.7842;45.4110;SP;BUBBLEPHONE
+            MODH;-12.6707;45.5928;SP;
+            MONH;-12.5958;45.4090;SP;
+            MOSH;-13.0252;45.4557;SP;
+            Volc;-12.91755;45.71525;VOLC;New Volcano
+            SISN;-12.1;45.71525;SP;Active Survey station
+            SISS;-13.8;45.71525;SP;Active Survey station
+        
+        Miscellaneous features
+        ---------------------------------
+        
+        - Puts name of stations/actions on plot UNLESS they have no "hours" (just a
+          waypoint) 
+             
+        - Crosses out stations that have already been visited (departure_time entered
+          and before UTCDateTime.now() 
+             
+        - Changes the color of the ship's track every time you use the action name "NEWLEG"
+          
+        Other subdirectories
+        ======================
+        
+        `seaplan/_examples/`
+        ------------------------------------------------------------
+        
+        Example files and scripts:
+        
+        Use `reStructuredText
+        <http://docutils.sourceforge.net/rst.html>`_ to modify this file.
+        
+Keywords: oceanography,marine,OBS
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Physics
+Requires-Python: >=3.7
+Description-Content-Type: text/x-rst; charset=UTF-8
