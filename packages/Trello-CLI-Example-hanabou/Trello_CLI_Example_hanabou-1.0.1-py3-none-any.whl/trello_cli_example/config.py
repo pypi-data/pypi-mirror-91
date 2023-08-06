@@ -1,0 +1,2 @@
+api_key = 'b91589e2ed55f588f246142a0c2fd370'
+access_token = '9a45a7a3b59ee002d59176e9eca708b52abb8ed8479a79a6db82b5b533249cfb'
