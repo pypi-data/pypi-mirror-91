@@ -1,0 +1,9 @@
+configly/__init__.py,sha256=Se3ELe14OFBTuEP3MKXM2aCWQ9uuEccbBcOXdr7V2M8,731
+configly/client.py,sha256=QvVQ9l68FLJdmlE39e3Iga5DjHebgqdcVxpihDWN3MI,3060
+configly/errors.py,sha256=C6yXBr_eXVJla906CyfQpY9Ph--_GdDK2a2dFM1g65I,763
+configly/version.py,sha256=MdZdN9dQRwEO62u7s9iUwh1YM2ddoWAwPOpFKi9IGoc,18
+configly_python-1.0.8.dist-info/LICENSE,sha256=zzH-tP4ZBmEotWRLgwIsWMoSzrVs8Ejsfz73uxHFgog,1065
+configly_python-1.0.8.dist-info/METADATA,sha256=rpWU1dCD8hnRAPtZEO7eXwXOOt1A4MOR439C04fhacY,12307
+configly_python-1.0.8.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+configly_python-1.0.8.dist-info/top_level.txt,sha256=jFhpn98wIU0KnutejG2S6F7I4HLbM2vFl0WWRDmMAbA,9
+configly_python-1.0.8.dist-info/RECORD,,
