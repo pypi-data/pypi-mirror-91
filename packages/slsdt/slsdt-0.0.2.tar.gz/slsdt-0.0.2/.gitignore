@@ -1,0 +1,15 @@
+.eggs/
+.venv/
+.vscode
+artifacts_article/
+instances_tests/
+slsdt.egg-info/
+smac/
+slsdt/.mypy_cache
+slsdt/__pycache__
+slsdt/test.py
+build/
+dist/
+sdist/
+slsdt/version.py
+slsdt/__version__.py
