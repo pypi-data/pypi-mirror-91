@@ -1,0 +1,10 @@
+wurm/__init__.py,sha256=5S1lcWfSDQdba6WK9PN-Fr_XJcvNZOsy104GzGZET_8,335
+wurm/connection.py,sha256=c-q61aX7RNIE8FFOyA1XAbqtqEzVYkBrY5vMKa9OFnw,894
+wurm/queries.py,sha256=4MyLcsFLQk1xJENNbj6YuLm9_vTManxpOfRJhOR6zTk,6120
+wurm/sql.py,sha256=oT7uQ2rWxvTyxfiUmbhyIRbRKk-rRgNT4XNKtmHUrRg,1408
+wurm/tables.py,sha256=LZ8BYHfuCOndw2D7E1zUR-IXQ0O8Z-elfAItt9XdDb8,3978
+wurm/typemaps.py,sha256=eRXc4nu0MW8ZUtP7nIX0zUSlGrw7Kx6LEso6vFQ46sM,2783
+wurm-0.1.0.dist-info/METADATA,sha256=pOtmM54rLRFFp7mQaAH4CNuOo37x6cZDPBlezN2_Q64,2412
+wurm-0.1.0.dist-info/RECORD,,
+wurm-0.1.0.dist-info/WHEEL,sha256=cScVKDQXc_cp1jHmxFDq9fIOIg17a2BsmfS6J39H6Eo,97
+wurm-0.1.0.dist-info/top_level.txt,sha256=LGtzhS8RbBDzuMGP4S7YWFN85CGqMOGSCqc3X_e9Dl4,5
