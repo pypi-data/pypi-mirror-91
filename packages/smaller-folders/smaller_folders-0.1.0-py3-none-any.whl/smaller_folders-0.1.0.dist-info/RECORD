@@ -1,0 +1,9 @@
+smaller_folders/__init__.py,sha256=kUR5RAFc7HCeiqdlX36dZOHkUI5wI6V_43RpEcD8b-0,22
+smaller_folders/__main__.py,sha256=EwgrZujcMN1I6axkdOyOETWL-l1wZ1KyfhUc9hT9_gw,30
+smaller_folders/cli.py,sha256=WjJfjTGJ4lBrIbQ3QWfFHU-uM-M0ZujkIscq0i5fl5M,3043
+smaller_folders/core.py,sha256=r8oO9AaTMUl8db1JiM-ZLOon6uOtiLWv_7NPzmiNq8c,2678
+smaller_folders/program_config.py,sha256=bUrBChVsGgKl9AVs2rpyZcxPY6und2M9x-RIKrN2Kh4,256
+smaller_folders-0.1.0.dist-info/entry_points.txt,sha256=nKQrxc652wC0Bu6TsR23W8kJD8dbPZ-OAMyBHlBTGT8,60
+smaller_folders-0.1.0.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+smaller_folders-0.1.0.dist-info/METADATA,sha256=1WXWNVbUeR-qJziA1JbJwMGQEeh7D5JGTpH_Q1fjt68,544
+smaller_folders-0.1.0.dist-info/RECORD,,
