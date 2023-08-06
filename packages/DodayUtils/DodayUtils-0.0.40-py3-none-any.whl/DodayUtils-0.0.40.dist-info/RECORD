@@ -1,0 +1,13 @@
+DodayUtils/DodayHttpClient.py,sha256=GBVySllMkDaHDmJIh_Kbzv_bsJY7c82XDdusUN1bjig,805
+DodayUtils/DodayInventory.py,sha256=EqOQw9HcVYRZMowFZNBdZUobu-cM8sr163EJLp66HYU,1125
+DodayUtils/DodayPeripherals.py,sha256=fXXM0pHVXjGLhhGUt7co-GvcSNQpda0gZ3EXqtuNN8Y,20165
+DodayUtils/DodayUtilManager.py,sha256=b5ZOhWot82zUg6lo2gvUj-LQkeo1YBAfouLA-YJtuB4,3114
+DodayUtils/DodayWebsocket.py,sha256=qU_32a-mqfQCz9NMWj6Y1CyZTIpWcdwUALqM-J4HxbI,4299
+DodayUtils/OrderInfo.py,sha256=1FPbb4qrxzAyBiUTpx1o5Umyqkp8A1ylhT0KBGesSnk,22335
+DodayUtils/__init__.py,sha256=fdy2Hy4bzTYKHRd2vFqSdkoDHT9_uxy4Rn41PP9LlJU,509
+DodayUtils/_dwrappers.py,sha256=d0jMT-_bB1vwKIIvRf6GH8qQ8Ix0y9s9RN_gFkpXk_w,964
+DodayUtils/_exceptions.py,sha256=52vUH9JvD6WEJXLedRLs9XjfQf6tEtBGBJ32srPPLWM,1882
+DodayUtils-0.0.40.dist-info/METADATA,sha256=_uc5YDMEW9MhKwZ_mZpf60PYw1vtTAIdv8OjDdP6-48,920
+DodayUtils-0.0.40.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+DodayUtils-0.0.40.dist-info/top_level.txt,sha256=Ja42LQVMwixR2deU2kXFoc1maYuFkTxLQNDe_1MPbRA,11
+DodayUtils-0.0.40.dist-info/RECORD,,
