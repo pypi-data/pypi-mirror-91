@@ -1,0 +1,3 @@
+[aopi_index]
+python=aopi_python.main:main
+
