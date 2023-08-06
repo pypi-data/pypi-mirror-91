@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: hammer-sh
+Version: 0.0.2
+Summary: A package containing useful methods for my masterthesis
+Home-page: https://github.com/hammerse65450/hammer_python_package
+Author: Sebastian Hammer
+Author-email: hammerse65450@th-nuernberg.de
+License: UNKNOWN
+Description: # hammer Package
+        
+        This is a package with useful classes and methods, that i used in my masterthesis.
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
