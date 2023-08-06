@@ -1,0 +1,52 @@
+Metadata-Version: 2.1
+Name: Augmentext
+Version: 0.1.0
+Summary: Text augmentation package for machine learning and NLP, with a focus on medical applications
+Home-page: https://github.com/mdbloice/Augmentext
+Author: Marcus D. Bloice
+Author-email: marcus.bloice@medunigraz.at
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+
+Augmentext
+==========
+
+.. image:: https://img.shields.io/pypi/v/Augmentext.svg
+    :target: https://pypi.python.org/pypi/Augmentext
+    :alt: Latest PyPI version
+
+.. image:: https://travis-ci.org/kragniz/cookiecutter-pypackage-minimal.png
+   :target: https://travis-ci.org/kragniz/cookiecutter-pypackage-minimal
+   :alt: Latest Travis CI build status
+
+Text augmentation package for machine learning and NLP, with a focus on medical applications
+
+Usage
+-----
+
+Installation
+------------
+
+Requirements
+^^^^^^^^^^^^
+
+Compatibility
+-------------
+
+Licence
+-------
+
+Authors
+-------
+
+`Augmentext` was written by `Marcus D. Bloice <marcus.bloice@medunigraz.at>`_.
+
+
