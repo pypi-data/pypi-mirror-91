@@ -1,0 +1,67 @@
+name: Tests
+
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+env:
+  PIP_CACHE_DIR: ~/.cache/pip
+  FLUIDSIM_TRANSONIC_BACKEND: python
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+    strategy:
+      max-parallel: 4
+      matrix:
+        python-version: [3.6, 3.7, 3.8]
+
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v2
+      with:
+        submodules: recursive
+        fetch-depth: 0
+
+    - name: Install apt packages
+      run: |
+        sudo apt-get update
+        sudo apt-get install gfortran libopenmpi-dev
+
+    - name: Set up Python ${{ matrix.python-version }}
+      uses: actions/setup-python@v1
+      with:
+        python-version: ${{ matrix.python-version }}
+
+    - name: Cache pip requirements
+      id: pip-cache
+      uses: actions/cache@v1
+      with:
+        path: ${{ env.PIP_CACHE_DIR }}
+        key: ${{ runner.os }}-pip-${{ hashFiles('**/setup.*') }}
+        restore-keys: |
+          ${{ runner.os }}-pip-
+
+    - name: Verify Python environment
+      run: |
+        pip list
+        pip cache list
+
+    - name: Install dependencies
+      run: |
+        pip install .[tests]
+        pip install "phill @ git+https://github.com/exabl/snek5000-phill.git"
+
+    - name: Run tests
+      run: |
+        source activate.sh
+        pytest -s --cov-report=xml --cov-report=term-missing
+
+    - name: Upload coverage to codecov
+      if: ${{ success() }}
+      uses: codecov/codecov-action@v1
+      with:
+        fail_ci_if_error: true
