@@ -1,0 +1,17 @@
+README.md
+setup.py
+re_wx.egg-info/PKG-INFO
+re_wx.egg-info/SOURCES.txt
+re_wx.egg-info/dependency_links.txt
+re_wx.egg-info/requires.txt
+re_wx.egg-info/top_level.txt
+rewx/__init__.py
+rewx/components.py
+rewx/core.py
+rewx/dispatch.py
+rewx/icon.png
+rewx/util.py
+rewx/widgets.py
+tests/__init__.py
+tests/test_create_element.py
+tests/test_widgets.py
