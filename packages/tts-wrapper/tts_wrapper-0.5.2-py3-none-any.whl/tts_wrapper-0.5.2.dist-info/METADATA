@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: tts-wrapper
+Version: 0.5.2
+Summary: A hassle-free Python library that allows one to use text-to-speech APIs with the same interface
+License: MIT
+Author: Giulio Bottari
+Author-email: giuliobottari@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Requires-Dist: boto3 (==1.11.3)
+Requires-Dist: google-cloud-texttospeech (==2.2.0)
+Requires-Dist: ibm-watson (==4.3.0)
+Requires-Dist: requests (==2.22.0)
