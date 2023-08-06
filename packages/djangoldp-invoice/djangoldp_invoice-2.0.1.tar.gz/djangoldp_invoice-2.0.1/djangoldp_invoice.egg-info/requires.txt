@@ -1,0 +1,2 @@
+djangoldp>=2
+djangoldp_project>=2
