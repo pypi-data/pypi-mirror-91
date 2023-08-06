@@ -1,0 +1,12 @@
+README.md
+setup.cfg
+setup.py
+src/echostream_managed_app/__init__.py
+src/echostream_managed_app/__main__.py
+src/echostream_managed_app/appsync_websockets.py
+src/echostream_managed_app.egg-info/PKG-INFO
+src/echostream_managed_app.egg-info/SOURCES.txt
+src/echostream_managed_app.egg-info/dependency_links.txt
+src/echostream_managed_app.egg-info/entry_points.txt
+src/echostream_managed_app.egg-info/requires.txt
+src/echostream_managed_app.egg-info/top_level.txt
