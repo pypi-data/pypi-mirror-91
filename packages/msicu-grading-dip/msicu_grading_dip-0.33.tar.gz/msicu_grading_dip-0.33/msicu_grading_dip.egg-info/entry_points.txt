@@ -1,0 +1,5 @@
+[console_scripts]
+check_one = msicu_grading_dip.one:main
+check_project = msicu_grading_dip.project:main
+check_two = msicu_grading_dip.two:main
+

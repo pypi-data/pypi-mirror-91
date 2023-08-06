@@ -1,0 +1,15 @@
+README.md
+setup.py
+msicu_grading_dip/__init__.py
+msicu_grading_dip/one.py
+msicu_grading_dip/project.py
+msicu_grading_dip/two.py
+msicu_grading_dip.egg-info/PKG-INFO
+msicu_grading_dip.egg-info/SOURCES.txt
+msicu_grading_dip.egg-info/dependency_links.txt
+msicu_grading_dip.egg-info/entry_points.txt
+msicu_grading_dip.egg-info/requires.txt
+msicu_grading_dip.egg-info/top_level.txt
+msicu_grading_dip/resources/entierro_yalalag_lola_alvares_bravo_1946.txt
+msicu_grading_dip/resources/gt.bin
+msicu_grading_dip/resources/resultado_one.txt
