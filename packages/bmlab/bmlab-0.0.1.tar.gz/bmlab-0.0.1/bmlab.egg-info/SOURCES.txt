@@ -1,0 +1,15 @@
+CHANGELOG
+LICENSE
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+bmlab/__init__.py
+bmlab/_version.py
+bmlab/_version_save.py
+bmlab.egg-info/PKG-INFO
+bmlab.egg-info/SOURCES.txt
+bmlab.egg-info/dependency_links.txt
+bmlab.egg-info/requires.txt
+bmlab.egg-info/top_level.txt
+tests/test_basic.py
