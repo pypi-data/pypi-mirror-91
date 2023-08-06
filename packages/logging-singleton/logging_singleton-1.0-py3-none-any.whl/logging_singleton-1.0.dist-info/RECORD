@@ -1,0 +1,7 @@
+logging_service/__init__.py,sha256=09SEgLTHZPpKzlcoNxuQtjI-P42GqqQsHYwJnvjfktM,44
+logging_service/logging_service.py,sha256=GCycm8_K_iX2fGsgRZNVRN_I4RspdtHxIXmesgI0hIM,10303
+logging_service/test_logging_service.py,sha256=bu10GTG_DipXqURILkUu_PGZBdDyI1uVsGwKj5cO4H0,3039
+logging_singleton-1.0.dist-info/METADATA,sha256=LlnX-RWQ2x67BgCa2SK_oQT9tDzC-yijZb4YzKBhFEU,2286
+logging_singleton-1.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+logging_singleton-1.0.dist-info/top_level.txt,sha256=wZgq8STeXNRr5E5Dvo3TF1tQwJCpAaFCSoMDSlSDRBs,16
+logging_singleton-1.0.dist-info/RECORD,,
