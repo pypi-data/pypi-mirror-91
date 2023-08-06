@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: psdm-qs-cli
+Version: 0.3.1
+Summary: Python client for interacting with the PCDS questionnaire.
+Home-page: https://github.com/slaclab/psdm_qs_cli.git
+Author: Murali Shankar
+Author-email: mshankar@slac.stanford.edu
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: krtc
+Requires-Dist: six
+Requires-Dist: requests
+Requires-Dist: openpyxl
+
+UNKNOWN
+
+
