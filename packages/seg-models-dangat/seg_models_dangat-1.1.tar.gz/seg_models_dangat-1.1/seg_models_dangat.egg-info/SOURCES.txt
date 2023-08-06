@@ -1,0 +1,11 @@
+README.md
+setup.cfg
+setup.py
+seg_models/__init__.py
+seg_models/data_preparation.py
+seg_models/modelo_unet_tf.py
+seg_models_dangat.egg-info/PKG-INFO
+seg_models_dangat.egg-info/SOURCES.txt
+seg_models_dangat.egg-info/dependency_links.txt
+seg_models_dangat.egg-info/not-zip-safe
+seg_models_dangat.egg-info/top_level.txt
