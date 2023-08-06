@@ -1,0 +1,58 @@
+Metadata-Version: 2.1
+Name: netpalm-client
+Version: 1.0.3
+Summary: Simple Client for accessing a Netpalm Service
+Home-page: https://github.com/wrgeorge1983/netpalm-client
+License: MIT
+Keywords: netpalm
+Author: Will George
+Author-email: wrgeorge1983@gmail.com
+Requires-Python: >=3.7,<4.0
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Information Technology
+Classifier: Intended Audience :: System Administrators
+Classifier: Intended Audience :: Telecommunications Industry
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: System :: Networking
+Requires-Dist: requests (>=2.25.1,<3.0.0)
+Project-URL: Repository, https://github.com/wrgeorge1983/netpalm-client
+Description-Content-Type: text/markdown
+
+# Netpalm-Client
+
+Simple client library for working with [Netpalm](https://github.com/tbotnz/netpalm)
+
+Detailed example available in [examples](https://github.com/wrgeorge1983/netpalm-client/tree/master/example) folder of this repo
+
+
+## Install
+```
+pip install netpalm-client
+```
+
+## Basic Usage
+```python
+from netpalm_client import NetpalmClient
+
+netpalm = NetpalmClient(
+    url='https://netpalm.example.org',
+    key='someApiKey',
+    cli_user='cisco',
+    cli_pass='cisco'
+)
+
+task_id = netpalm.netmiko_getconfig(
+    command='show run | i bgp router-id',
+    host='192.168.0.1'
+)['task_id']
+
+netpalm_result = netpalm.poll_task(task_id)  # blocks until polling returns either completion or failure
+
+actual_result = netpalm_result['task_result'][command]  # failures will have a 'task_errors' key, but not a 'task_result' key.
+
+print(f'{actual_result=}')
+```

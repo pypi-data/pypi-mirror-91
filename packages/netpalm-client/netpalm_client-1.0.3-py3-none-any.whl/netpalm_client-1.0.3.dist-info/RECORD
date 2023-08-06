@@ -1,0 +1,7 @@
+netpalm_client/__init__.py,sha256=uB9yTN7s7MbuSA8XiIkvTX-TPeLNLP2lpQd2N5Ucf1w,59
+netpalm_client/netpalm_client.py,sha256=4CYu5Latrwt74xpXPB7KsCz9-TyxLLyIkc611ywT6Y0,9360
+netpalm_client/utils.py,sha256=umdfklugJ9orUrhXsaeRb0flH9HFYaQWCXNnfxMETeE,1020
+netpalm_client-1.0.3.dist-info/LICENSE,sha256=4_o8eHjV4MXOgymAG__xdriWQN8ES5BST5BzOlCcSQg,1096
+netpalm_client-1.0.3.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+netpalm_client-1.0.3.dist-info/METADATA,sha256=4o9NNljzmnEIV5MVlSrrlj0hG6ejsuANz9R6skcPSV0,1810
+netpalm_client-1.0.3.dist-info/RECORD,,
