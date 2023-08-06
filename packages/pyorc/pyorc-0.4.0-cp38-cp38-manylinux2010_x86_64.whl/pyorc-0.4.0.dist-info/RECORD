@@ -1,0 +1,13 @@
+pyorc-0.4.0.dist-info/WHEEL,sha256=RIeRBYNNiNK3sXfnenIjXDrR2Tzyz05xCMpKF2hJ1iA,111
+pyorc-0.4.0.dist-info/METADATA,sha256=KJaxhAwtdtpBN0Wq84ETepkyI1CVoB1RvDwtnRYv-wQ,2656
+pyorc-0.4.0.dist-info/top_level.txt,sha256=502jb1VC8_Mr1NXf_Xl7hxeCcfWZUYkmWWChMm0mFts,6
+pyorc-0.4.0.dist-info/RECORD,,
+pyorc-0.4.0.dist-info/LICENSE,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+pyorc/converters.py,sha256=2b8HEIR2YIiBltb5Y4k2U2F9PSw7hBYcrbzQyV3Sysw,2587
+pyorc/writer.py,sha256=VYcxzY6ziQU6sds1nzBEVXfB48wzbxDKM7NVZugFOqE,3137
+pyorc/typedescription.py,sha256=v_MXncwS2eNaLT8tqhxKEnrEcfEmHBZdWuTBHjpIBpk,6604
+pyorc/reader.py,sha256=TbcAu_yi5NGX4TkLSFrxZc5pbOr11BkfHlK42Fmw85A,2973
+pyorc/enums.py,sha256=3ghMY84PGny40JilYFmt00vJ12f1qtxQ65kU7EtMTBg,1011
+pyorc/_pyorc.cpython-38-x86_64-linux-gnu.so,sha256=r7yyLktaC1BEZ8cXi2UVoLNNmtyEBDykuLMMuZ7ZljQ,8307928
+pyorc/errors.py,sha256=N-MuqN84ZiLySjBtcaY7qYLq6o6RC64__LYw471jiXI,142
+pyorc/__init__.py,sha256=XhuIFQpQDwvIP-ObbZE9oe8hfVZYTQLAw9OW14vBiwQ,546
