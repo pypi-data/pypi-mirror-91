@@ -1,0 +1,3 @@
+[console_scripts]
+pypi-version-check = pypi_version_check.__main__:cli
+

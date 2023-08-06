@@ -1,0 +1,13 @@
+click
+click-log
+requests
+
+[test]
+isort
+black
+bandit
+flake8
+pylint
+mamba
+expects
+coverage

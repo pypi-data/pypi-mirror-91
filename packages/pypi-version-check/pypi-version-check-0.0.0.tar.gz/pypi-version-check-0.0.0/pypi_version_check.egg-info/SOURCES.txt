@@ -1,0 +1,10 @@
+README.md
+setup.py
+pypi_version_check/__init__.py
+pypi_version_check/__main__.py
+pypi_version_check.egg-info/PKG-INFO
+pypi_version_check.egg-info/SOURCES.txt
+pypi_version_check.egg-info/dependency_links.txt
+pypi_version_check.egg-info/entry_points.txt
+pypi_version_check.egg-info/requires.txt
+pypi_version_check.egg-info/top_level.txt
