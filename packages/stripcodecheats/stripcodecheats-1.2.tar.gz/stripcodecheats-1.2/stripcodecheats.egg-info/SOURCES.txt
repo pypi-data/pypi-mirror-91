@@ -1,0 +1,11 @@
+README.md
+setup.py
+stripcodecheats/__init__.py
+stripcodecheats/cache.py
+stripcodecheats/github_requests.py
+stripcodecheats/selenium_cheat.py
+stripcodecheats.egg-info/PKG-INFO
+stripcodecheats.egg-info/SOURCES.txt
+stripcodecheats.egg-info/dependency_links.txt
+stripcodecheats.egg-info/requires.txt
+stripcodecheats.egg-info/top_level.txt
