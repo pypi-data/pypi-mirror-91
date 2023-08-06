@@ -1,0 +1,181 @@
+Metadata-Version: 2.1
+Name: wordle
+Version: 0.2.1
+Summary: Create a wordcloud for a Git repository.
+Home-page: https://github.com/domdfcoding/wordle
+Author: Dominic Davis-Foster
+Author-email: dominic@davis-foster.co.uk
+License: MIT License
+Project-URL: Documentation, https://wordle.readthedocs.io/en/latest
+Project-URL: Issue Tracker, https://github.com/domdfcoding/wordle/issues
+Project-URL: Source Code, https://github.com/domdfcoding/wordle
+Platform: Windows
+Platform: macOS
+Platform: Linux
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Utilities
+Classifier: Typing :: Typed
+Requires-Python: >=3.6.1
+Description-Content-Type: text/x-rst
+Requires-Dist: domdf-python-tools (>=2.2.0)
+Requires-Dist: dulwich (>=0.20.6)
+Requires-Dist: pygments (>=2.7.4)
+Requires-Dist: southwark (>=0.8.0)
+Requires-Dist: wordcloud (>=1.8.0)
+Requires-Dist: matplotlib (>=3.2.2) ; platform_machine != "aarch64" or python_version > "3.6"
+Requires-Dist: matplotlib (==3.2.2) ; platform_machine == "aarch64" and python_version == "3.6"
+Requires-Dist: numpy (>=1.19.2) ; platform_system != "Windows"
+Requires-Dist: numpy (!=1.19.4,<1.20,>=1.19.3) ; platform_system == "Windows"
+Provides-Extra: all
+
+****************
+wordle
+****************
+
+.. start short_desc
+
+**Create a wordcloud for a Git repository.**
+
+.. end short_desc
+
+Can also create wordclouds from directories of source files or a single source file.
+
+.. start shields
+
+.. list-table::
+	:stub-columns: 1
+	:widths: 10 90
+
+	* - Docs
+	  - |docs| |docs_check|
+	* - Tests
+	  - |actions_linux| |actions_windows| |actions_macos| |coveralls|
+	* - PyPI
+	  - |pypi-version| |supported-versions| |supported-implementations| |wheel|
+	* - Activity
+	  - |commits-latest| |commits-since| |maintained| |pypi-downloads|
+	* - QA
+	  - |codefactor| |actions_flake8| |actions_mypy| |pre_commit_ci|
+	* - Other
+	  - |license| |language| |requires|
+
+.. |docs| image:: https://img.shields.io/readthedocs/wordle/latest?logo=read-the-docs
+	:target: https://wordle.readthedocs.io/en/latest
+	:alt: Documentation Build Status
+
+.. |docs_check| image:: https://github.com/domdfcoding/wordle/workflows/Docs%20Check/badge.svg
+	:target: https://github.com/domdfcoding/wordle/actions?query=workflow%3A%22Docs+Check%22
+	:alt: Docs Check Status
+
+.. |actions_linux| image:: https://github.com/domdfcoding/wordle/workflows/Linux/badge.svg
+	:target: https://github.com/domdfcoding/wordle/actions?query=workflow%3A%22Linux%22
+	:alt: Linux Test Status
+
+.. |actions_windows| image:: https://github.com/domdfcoding/wordle/workflows/Windows/badge.svg
+	:target: https://github.com/domdfcoding/wordle/actions?query=workflow%3A%22Windows%22
+	:alt: Windows Test Status
+
+.. |actions_macos| image:: https://github.com/domdfcoding/wordle/workflows/macOS/badge.svg
+	:target: https://github.com/domdfcoding/wordle/actions?query=workflow%3A%22macOS%22
+	:alt: macOS Test Status
+
+.. |actions_flake8| image:: https://github.com/domdfcoding/wordle/workflows/Flake8/badge.svg
+	:target: https://github.com/domdfcoding/wordle/actions?query=workflow%3A%22Flake8%22
+	:alt: Flake8 Status
+
+.. |actions_mypy| image:: https://github.com/domdfcoding/wordle/workflows/mypy/badge.svg
+	:target: https://github.com/domdfcoding/wordle/actions?query=workflow%3A%22mypy%22
+	:alt: mypy status
+
+.. |requires| image:: https://requires.io/github/domdfcoding/wordle/requirements.svg?branch=master
+	:target: https://requires.io/github/domdfcoding/wordle/requirements/?branch=master
+	:alt: Requirements Status
+
+.. |coveralls| image:: https://img.shields.io/coveralls/github/domdfcoding/wordle/master?logo=coveralls
+	:target: https://coveralls.io/github/domdfcoding/wordle?branch=master
+	:alt: Coverage
+
+.. |codefactor| image:: https://img.shields.io/codefactor/grade/github/domdfcoding/wordle?logo=codefactor
+	:target: https://www.codefactor.io/repository/github/domdfcoding/wordle
+	:alt: CodeFactor Grade
+
+.. |pypi-version| image:: https://img.shields.io/pypi/v/wordle
+	:target: https://pypi.org/project/wordle/
+	:alt: PyPI - Package Version
+
+.. |supported-versions| image:: https://img.shields.io/pypi/pyversions/wordle?logo=python&logoColor=white
+	:target: https://pypi.org/project/wordle/
+	:alt: PyPI - Supported Python Versions
+
+.. |supported-implementations| image:: https://img.shields.io/pypi/implementation/wordle
+	:target: https://pypi.org/project/wordle/
+	:alt: PyPI - Supported Implementations
+
+.. |wheel| image:: https://img.shields.io/pypi/wheel/wordle
+	:target: https://pypi.org/project/wordle/
+	:alt: PyPI - Wheel
+
+.. |license| image:: https://img.shields.io/github/license/domdfcoding/wordle
+	:target: https://github.com/domdfcoding/wordle/blob/master/LICENSE
+	:alt: License
+
+.. |language| image:: https://img.shields.io/github/languages/top/domdfcoding/wordle
+	:alt: GitHub top language
+
+.. |commits-since| image:: https://img.shields.io/github/commits-since/domdfcoding/wordle/v0.2.1
+	:target: https://github.com/domdfcoding/wordle/pulse
+	:alt: GitHub commits since tagged version
+
+.. |commits-latest| image:: https://img.shields.io/github/last-commit/domdfcoding/wordle
+	:target: https://github.com/domdfcoding/wordle/commit/master
+	:alt: GitHub last commit
+
+.. |maintained| image:: https://img.shields.io/maintenance/yes/2021
+	:alt: Maintenance
+
+.. |pypi-downloads| image:: https://img.shields.io/pypi/dm/wordle
+	:target: https://pypi.org/project/wordle/
+	:alt: PyPI - Downloads
+
+.. |pre_commit_ci| image:: https://results.pre-commit.ci/badge/github/domdfcoding/wordle/master.svg
+	:target: https://results.pre-commit.ci/latest/github/domdfcoding/wordle/master
+	:alt: pre-commit.ci status
+
+.. end shields
+
+|
+
+Examples
+------------
+
+.. image:: https://raw.githubusercontent.com/domdfcoding/wordle/master/examples/c_wordcloud.png
+
+Further examples are shown in the "Examples" directory
+
+Installation
+--------------
+
+.. start installation
+
+``wordle`` can be installed from PyPI.
+
+To install with ``pip``:
+
+.. code-block:: bash
+
+	$ python -m pip install wordle
+
+.. end installation
+
+
