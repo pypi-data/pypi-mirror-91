@@ -1,0 +1,12 @@
+simber/__init__.py,sha256=hf6PnagLWueIBJcv_W-ynh19YgpJtYknXGfYGKW_P20,196
+simber/colors.py,sha256=dhP3DPlCFji6NG6inkVkadYmiV3vE-9y-hUv060hFLY,3103
+simber/configurations.py,sha256=cHWvl_VLtnXm95lYTyUWrMZx3bjeIpRhiydxqE_nuTI,2021
+simber/exceptions.py,sha256=v1xKIcUN5w_KlvxDkeCTAbsFP6bmy15moBX84etHRfQ,1790
+simber/formatter.py,sha256=Yg5d24a1kSJ67arpsn3p_TLX7IVWPp4epzs8wey-QSA,3109
+simber/logger.py,sha256=D_fxiBaKMsiZng2TUL92IxiZqgYzbKPcH82RPcpPi4Y,12494
+simber/stream.py,sha256=822kgnBCx9uYkZFNKBgv-Rubh52-h6suOYSdgJloUI0,3986
+simber-0.2.1.dist-info/LICENSE,sha256=6hvc-2U6kEksT5DINSo1xKxCYA_gdNnHZMnWJ7i06pQ,1076
+simber-0.2.1.dist-info/METADATA,sha256=cu_FoOiI_fDWmKmGjJI4FbNjqf2fASTiAdSttyqvxoQ,2042
+simber-0.2.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+simber-0.2.1.dist-info/top_level.txt,sha256=Ud144Z-G6fVfWjmGidmVFgELl5KpCZrM5KOagd7Rj1E,7
+simber-0.2.1.dist-info/RECORD,,
