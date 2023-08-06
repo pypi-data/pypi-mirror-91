@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "django-pyctx"
+version = "0.2.1"
+description = "Context package to use data between function calls, use timers and log it for Django."
+authors = ["M. Olcay TERCANLI <molcay@mail.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = ">3.7.0"
+pyctx = ">0.1.7"
+Django = ">2.2"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
