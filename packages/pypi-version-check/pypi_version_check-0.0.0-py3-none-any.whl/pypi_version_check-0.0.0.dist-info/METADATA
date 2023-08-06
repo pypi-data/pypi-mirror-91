@@ -1,0 +1,50 @@
+Metadata-Version: 2.1
+Name: pypi-version-check
+Version: 0.0.0
+Summary: PyPI Version Check
+Home-page: https://gitlab.com/pypi-version-check/pypi-version-check
+Author: Simó Albert i Beltran
+Author-email: sim6@bona.gent
+License: AGPL-3.0-or-later
+Project-URL: Bug Reports, https://gitlab.com/pypi-version-check/pypi-version-check/-/issues
+Project-URL: Funding, https://liberapay.com/sim6/donate
+Project-URL: Source, https://gitlab.com/pypi-version-check/pypi-version-check/-/tree/master
+Keywords: pypi
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3 or later (AGPLv3+)
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.7, <4
+Description-Content-Type: text/markdown
+Requires-Dist: click
+Requires-Dist: click-log
+Requires-Dist: requests
+Provides-Extra: test
+Requires-Dist: isort ; extra == 'test'
+Requires-Dist: black ; extra == 'test'
+Requires-Dist: bandit ; extra == 'test'
+Requires-Dist: flake8 ; extra == 'test'
+Requires-Dist: pylint ; extra == 'test'
+Requires-Dist: mamba ; extra == 'test'
+Requires-Dist: expects ; extra == 'test'
+Requires-Dist: coverage ; extra == 'test'
+
+# PyPI Version Check
+
+Tool to check if PyPI publishes the current package version. Useful as a test in CI to force version change.
+
+See also how is used by this project via [.gitlab-ci](https://gitlab.com/pypi-version-check/pypi-version-check/-/blob/main/.gitlab-ci.yml#L6) that runs it via [script](https://gitlab.com/pypi-version-check/pypi-version-check/-/blob/main/test.sh#L10)
+
+## Donations:
+
+- [Liberapay](https://liberapay.com/sim6/donate)
+- [Bitcoin](bitcoin:15QqofyoWxDSZU9VbXwVZKFxAVdmpkE5uH?message=pypi-version-check)
+
+## Other works:
+
+- [pypi-version](https://pypi.org/project/pypi-version/): Abandoned and requires TravisCI or CicleCI
+
+
