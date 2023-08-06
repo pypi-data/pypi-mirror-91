@@ -1,0 +1,3 @@
+[console_scripts]
+run-it = run_it.__main__:run_it
+
