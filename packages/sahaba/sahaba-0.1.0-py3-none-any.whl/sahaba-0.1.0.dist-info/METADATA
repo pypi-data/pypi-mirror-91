@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: sahaba
+Version: 0.1.0
+Summary: UNKNOWN
+Home-page: https://github.com/lotreal/sahaba
+Author: Luo Tao
+Author-email: lotreal@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# Sahaba
+![Latest PyPI version](https://img.shields.io/pypi/v/sahaba.svg)
+
+- Installation : `pip install sahaba --upgrade`
+
+### Usage
+
+
+### License
+
+Sahaba is licensed under [MIT License](LICENSE).
+
