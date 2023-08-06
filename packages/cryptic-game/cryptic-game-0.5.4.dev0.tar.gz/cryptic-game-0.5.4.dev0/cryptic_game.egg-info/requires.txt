@@ -1,0 +1,5 @@
+uuid
+SQLAlchemy
+PyMySQL
+pyscheme
+sentry_sdk
