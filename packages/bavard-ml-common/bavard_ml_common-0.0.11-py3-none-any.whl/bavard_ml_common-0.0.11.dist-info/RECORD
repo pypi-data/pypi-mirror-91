@@ -1,0 +1,15 @@
+bavard_ml_common/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bavard_ml_common/mlops/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bavard_ml_common/mlops/gcs.py,sha256=3tt6exBrkMh1d5TFnqXZCl8nzqht6TDOXdjeOKUloKw,1399
+bavard_ml_common/mlops/pub_sub.py,sha256=i3elg6-hbdUDxPXPPazpNBSdixSjr-i3B5xEV_7v8dE,933
+bavard_ml_common/mlops/serialization.py,sha256=e4l3CCDVkViNM8h1jYLH9qdq2Of4GjGkx4lGCN6t_JE,6695
+bavard_ml_common/mlops/web_service.py,sha256=iRwfuz5LjFwQFrXvJLPOxYuvApPldPri08OaB3mNnig,3450
+test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+test/mlops/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+test/mlops/test_gcs.py,sha256=DkXUfFiId_cAoBp3PUObUupI8ZeNP4EA9h5d09rlDDA,1331
+test/mlops/test_serialization.py,sha256=MmcDMV2Z8oLAZJDezWoH6I7r7YJT5_3ArTCyI2rDkx0,7985
+test/mlops/test_web_service.py,sha256=PfJleOUlQ1cIFdUG4OlTpYFICXHqhPoJG1x0qdm0EPk,4478
+bavard_ml_common-0.0.11.dist-info/METADATA,sha256=UipXS8Lgmizst_DRLen6hPZSxlTvO1l5b8STisqR06s,2822
+bavard_ml_common-0.0.11.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+bavard_ml_common-0.0.11.dist-info/top_level.txt,sha256=7vxYGdDoJ5-CPIvBCGLGn6Kp1X1SglORcR9FFeiu1kw,22
+bavard_ml_common-0.0.11.dist-info/RECORD,,
