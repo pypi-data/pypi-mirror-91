@@ -1,0 +1,6 @@
+#!python
+
+if __name__ == "__main__":
+	import hello
+	PRENOM = hello.hello()
+	print(f"{PRENOM}")

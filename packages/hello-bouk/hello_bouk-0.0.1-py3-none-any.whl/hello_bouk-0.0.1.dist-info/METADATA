@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: hello-bouk
+Version: 0.0.1
+Summary: Un petit package pour dire bonjour
+Home-page: https://gitlab.com/mrbouk/hello
+Author: Reda BOUKENTAR
+Author-email: reda.boukentar.esv@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.6
+
+UNKNOWN
+
+
