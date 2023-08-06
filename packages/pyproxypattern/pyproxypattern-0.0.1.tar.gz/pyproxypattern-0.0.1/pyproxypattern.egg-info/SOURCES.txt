@@ -1,0 +1,13 @@
+CHANGELOG.md
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+pyproxypattern/__init__.py
+pyproxypattern/proxy.py
+pyproxypattern.egg-info/PKG-INFO
+pyproxypattern.egg-info/SOURCES.txt
+pyproxypattern.egg-info/dependency_links.txt
+pyproxypattern.egg-info/not-zip-safe
+pyproxypattern.egg-info/top_level.txt
