@@ -1,0 +1,14 @@
+clask/__init__.py,sha256=vWU_gCERArhDE_qIr_BUBzBllEBgMXo4qQt7i8omEps,50
+clask/clask.py,sha256=Cc9bxu5qahY4b5mHhIgxCEf_b2RYnboQ5A-FaPSHu7E,5992
+clask/logger.py,sha256=KeRPeXCxxF4ucmsF1-9AzrGI5ILiy-ikDgu0sCpJlXY,407
+clask/utils.py,sha256=qAoneoUIAM79ZYfaZT1epYJaL3zcPAGAG_akwxhoVzo,223
+clask/version.py,sha256=o39HrLe7mji6GbiwCdR4dry_70TSeeDWTLrADOaj1SE,43
+test/__init__.py,sha256=iwhKnzeBJLKxpRVjvzwiRE63_zNpIBfaKLITauVph-0,24
+test/clask_demo.py,sha256=LFyHQdJl88qobcSN9aydxGK30_1TvvnKKeClNdm3HSw,984
+test/clask_test.py,sha256=26YqgCrQ8jA-QwXYRUvBNFc-B7FlKeomCCP7cqrxjpw,473
+test/flask_api.py,sha256=PgsR23MphvsCEMfDzGr-x4Lddt5T-6xmg8LSBV4U6Tw,839
+clask-0.0.2.dist-info/METADATA,sha256=TrB68e9oCc_B2S-WkYYT_Xvy7QlfO3xFJGvD7bMm6bo,1245
+clask-0.0.2.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+clask-0.0.2.dist-info/top_level.txt,sha256=u_dV2Q8ImQE6Rzim3KxTblRlqT_kJ9ZMjra94NKoKG0,11
+clask-0.0.2.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+clask-0.0.2.dist-info/RECORD,,
