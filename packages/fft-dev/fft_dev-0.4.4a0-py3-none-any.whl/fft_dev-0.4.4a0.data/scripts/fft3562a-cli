@@ -1,0 +1,283 @@
+#!python
+
+"""package fft_dev
+brief     Basic cli program to acquiere data trace from HP3562 FFT analyzer
+          interfaced with Prologix GPIB to Ethernet converter.
+author    Benoit Dubois
+copyright FEMTO Engineering, 2021
+licence   GPL 3.0+
+"""
+
+import logging
+import argparse
+import os
+import itertools
+import numpy as np
+import matplotlib.pyplot as plt
+from time import strftime
+from fft_dev.fft3562a.fft3562a_dev_prologix import YAXIS_UNIT_MAPPING, \
+    XAXIS_UNIT_MAPPING, FUNCTION_MAPPING, DOMAIN_TYPE_MAPPING
+# Real device
+from fft_dev.fft3562a.fft3562a_dev_prologix import Fft3562aDevPrologix as Fft3562aDev  # Real device
+from fft_dev.fft3562a.fft3562a_dev_prologix import FftStream
+# Mocked device for test
+##from fft_dev.fft3562a.fft3562a_dev_mock import Fft3562aDevMock as Fft3562aDev
+##from fft_dev.fft3562a.fft3562a_dev_mock import FftStream
+
+# GPIB address of device
+GPIB_ADDR = 10
+# Port adapter communicates on (1234 for prologix)
+DEV_PORT = 1234
+# Default output directory
+ODIR = os.getcwd()
+
+
+def parse():
+    """Specific parsing procedure for transfering data trace from HP 3562A
+    FFT analyzer.
+    :returns: populated namespace (parser)
+    """
+    parser = argparse.ArgumentParser(
+        description='Acquire data trace from HP3562A FFT analyzer connected '\
+        'through a Prologix GPIB-Ethernet adapter. ' \
+        'Warning: In case of timeout error, check that 3562A ' \
+        'device is configured as \'ADDRESS_ONLY\' (menu HP-IB FCTN). ' \
+        'Check the HPIB address too.',
+        epilog='Example: \'fft3562a-cli -g classic -a 3 -o toto 192.168.0.34\' ' \
+        ' configure acquisition with graphical data trace, output file toto.dat '\
+        'analyzer at GPIB address 3 and GPIB adapter @ address 192.168.0.34')
+    parser.add_argument('-n', type=int, action='store', dest='nb_acq',
+                        default=1,
+                        help='Number of acquisition, 0 means infinite acquisition, default=1')
+    parser.add_argument('-g', action='store', dest='gdisplay', nargs='?',
+                        const='classic', choices=['classic', 'xkcb'], type=str,
+                        help='Enable graphical data display (default=disable).')
+    parser.add_argument('-dc', action='store', dest='gdc',
+                        type=float, default=None, help='DC gain '
+                        'of phase noise setup (dB)')
+    parser.add_argument('-s', action='store', dest='sens',
+                        type=float, default=None, help='Sensitivity '
+                        'of phase noise setup (rad/V)')
+    parser.add_argument('-d', action='store', dest='odir',
+                        help='Output directory (default is current directory)')
+    parser.add_argument('-o', action='store', dest='ofile',
+                        help='Output data filename '
+                        + '(default=YYYYMMDD-HHMMSS.dat)')
+    parser.add_argument('-a', type=int, action='store', dest='gpib_addr',
+                        default=GPIB_ADDR, help='GPIB address')
+    parser.add_argument('ip', action='store',
+                        help='IP address of GPIB-ethernet controller')
+    args = parser.parse_args()
+    return args
+
+
+def display_datas(stream, style='classic', gdc=None, sens=None):
+    """Displays data in a graphical window.
+    :param stream: raw data collected from device (numpy array)
+    :param style: style of graphic ('classic' or 'xkcb') (string)
+    :param gdc: DC gain of phase noise setup (in dB) (float)
+    :param sens: sensitivity of phase noise setup (in u.a./V) (float)
+    :returns: None
+    """
+    if stream.param.function == 1: # Frequency response mode
+        plt.subplot(2, 1, 1)
+        plt.grid(which='minor', axis='x', linewidth=0.5)
+        plt.grid(which='major', axis='y', linewidth=0.5)
+        plt.semilogx(stream.xdata, stream.ydata[:, 0], 'blue')
+        plt.xlabel("f (Hz)")
+        plt.ylabel("Magnitude (dB)")
+        plt.subplot(2, 1, 2)
+        plt.semilogx(stream.xdata, stream.ydata[:, 1], 'blue')
+        plt.ylim(-180, 180) # Normalized around (+-180)
+        plt.grid(which='minor', axis='x', linewidth=0.5)
+        plt.grid(which='major', axis='y', linewidth=0.5)
+        plt.xlabel("f (Hz)")
+        plt.ylabel("Phase (degree)")
+        plt.suptitle("Frequency response")
+    elif stream.param.function == 2 or stream.param.function == 3 or \
+        stream.param.function == 5: # If spectrum
+        if gdc != None:
+            unity = "dBrad/Hz^0.5"
+            stream.ydata = stream.ydata - gdc
+        if sens != None:
+            unity = "dBrad/Hz^0.5"
+            stream.ydata = stream.ydata - 20*np.log10(sens)
+        if stream.param.unitx in fft3562a.XAXIS_UNIT_MAPPING:
+            unitx = fft3562a.XAXIS_UNIT_MAPPING[stream.param.unitx]
+        else:
+            unitx = ""
+        if stream.param.unity in fft3562a.YAXIS_UNIT_MAPPING:
+            unity = fft3562a.YAXIS_UNIT_MAPPING[stream.param.unity]
+        else:
+            unity = ""
+        if stream.param.function in fft3562a.FUNCTION_MAPPING:
+            plt.title(fft3562a.FUNCTION_MAPPING[stream[key].param.function])
+        labelx = fft3562a.DOMAIN_TYPE_MAPPING[stream[key].param.domain] + \
+            " (" + unitx + ")"
+        labely = fft3562a.DOMAIN_TYPE_MAPPING[stream[key].param.domain] + \
+            " (" + unity + ")"
+        plt.xlabel(labelx)
+        plt.ylabel(labely)
+        plt.grid(which='minor', axis='x', linewidth=0.5)
+        plt.grid(which='major', axis='y', linewidth=0.5)
+        plt.semilogx(stream.xdata, stream.ydata, 'blue')
+    else: # Others mode
+        plt.xlabel(str(stream.param.unitx))
+        plt.ylabel("(" + str(stream.param.unity) + ")")
+        plt.grid(which='minor', axis='x', linewidth=0.5)
+        plt.grid(which='major', axis='y', linewidth=0.5)
+        plt.plot(stream.xdata, stream.ydata, 'blue')
+    if style == 'xkcb':
+        plt.xkcd()
+    plt.show()
+
+
+def display_data(stream, style='classic', gdc=0.0, sens=1.0):
+    """Displays data in a graphical window.
+    :param stream: raw data collected from device (numpy array)
+    :param style: style of graphic ('classic' or 'xkcb') (string)
+    :param gdc: DC gain of phase noise setup (in dB) (float)
+    :param sens: sensitivity of phase noise setup (in u.a./V) (float)
+    :returns: None
+    """
+    if stream.param.function in FUNCTION_MAPPING:
+        plt.suptitle(FUNCTION_MAPPING[stream.param.function])
+    if stream.param.function == 1: # if frequency response
+        plt.subplot(2, 1, 1)
+        plt.plot(stream.xdata, stream.ydata[:, 2], 'blue')
+        plt.grid(which='minor', axis='x', linewidth=0.5)
+        plt.grid(which='major', axis='y', linewidth=0.5)
+        plt.xlabel("f (Hz)")
+        plt.ylabel("Magnitude (dB)")
+        if stream.param.is_log is True:
+            plt.gca().set_xscale('log')
+        plt.subplot(2, 1, 2)
+        plt.plot(stream.xdata, stream.ydata[:, 3], 'blue')
+        plt.ylim(-180, 180) # Normalized around (+-180)
+        plt.grid(which='minor', axis='x', linewidth=0.5)
+        plt.grid(which='major', axis='y', linewidth=0.5)
+        plt.xlabel("f (Hz)")
+        plt.ylabel("Phase (degree)")
+        if stream.param.is_log is True:
+            plt.gca().set_xscale('log')
+    else:
+        datax = stream.xdata
+        if self.data_stream[key].param.function == 5: # if cross spectrum
+            datay = stream.ydata[:,2] + 20*np.log10(sens) + gdc
+        else:
+            datay = stream.ydata + 20*np.log10(sens) + gdc
+        #
+        if stream.param.unitx in XAXIS_UNIT_MAPPING:
+            unitx = XAXIS_UNIT_MAPPING[stream.param.unitx]
+        else:
+            unitx = ""
+        labelx = DOMAIN_TYPE_MAPPING[stream.param.domain] + " (" + unitx + ")"
+        labely = DOMAIN_TYPE_MAPPING[stream.param.domain] + " (" + \
+          YAXIS_UNIT_MAPPING[stream.param.unity] + ")"
+        #
+        plt.plot(datax, datay, 'blue')
+        plt.xlabel(labelx)
+        plt.ylabel(labely)
+        plt.grid(which='minor', axis='x', linewidth=0.5)
+        plt.grid(which='major', axis='y', linewidth=0.5)
+        if stream.param.is_log is True:
+            plt.gca().set_xscale('log')
+    if style == 'xkcb':
+        plt.xkcd()
+    plt.show()
+
+
+def write_data(data, ofile, dir_=None, gdc=0.0, sens=1.0):
+    """Writes data to file.
+    :param data: data to store (array of float)
+    :param ofile: name of file where data are stored (numpy array)
+    :param gdc: DC gain of phase noise setup (in dB) (float)
+    :param sens: sensitivity of phase noise setup (in u.a./V) (float)
+    :returns: None
+    """
+    # Prepare header
+    header = ""
+    for line in str(data.param).split('\n'):
+        header += "# " + line + "\n"
+    if sens != 1.0:
+        header += "# Sensitivity:" + str(sens) + " rad/V\n"
+    if gdc != 0.0:
+        header += "# Gain:" + str(gdc) + " dB\n"
+    if data.param.function == 1: # if frequency response
+        header += "# Xdata\tReal\tImag\tMag\tPhy\n"
+    elif data.param.function == 5: # if cross spectrum
+        header += "# Xdata\tReal\tImag\tCrossSpectrum\n"
+    else:
+        header += "# Xdata\tYdata\n"
+    #
+    X_data = np.concatenate((data.xdata, data.ydata), axis=1)
+    try:
+        np.savetxt(fname=ofile, X=X_data, delimiter='\t', header=header)
+    except Exception as ex:
+        logging.error("Unexpected exception when storing data: %r", ex)
+
+
+def main():
+    """Main script.
+    """
+    # Handle input arguments
+    args = parse()
+    nb_acq = args.nb_acq
+    gdc = args.gdc
+    sens = args.sens
+    ip = args.ip
+    gpib_addr = args.gpib_addr
+    odir = os.path.expanduser(args.odir)
+    ofile = args.ofile
+    gdisplay = args.gdisplay
+    dev = fft3562a.Fft3562aDev(ip, DEV_PORT, gpib_addr)
+    #
+    if os.path.isdir(odir) is False:
+        if os.path.exists(odir):
+            print("Error: a file with the name {} already exists".format(odir))
+            return
+        os.mkdir(odir)
+    try:
+        dev.connect()
+        print("You can stop acquisition by pressing CTRL+C")
+        for i in itertools.count(start=1):
+            if nb_acq != 0 and i > nb_acq:
+                break
+            rawdata = dev.dump_data_trace()
+            data = fft3562a.FftStream(rawdata)
+            if ofile:
+                filename = "{}-{}.dat".format(ofile, i)
+            else:
+                filename = strftime("%Y%m%d-%H%M%S") + ".dat"
+            filename = os.path.join(odir, filename)
+            write_data(data, filename, gdc, sens)
+        dev.clear_hpib_interface()
+        dev.write("LCL") # Set analyzer in local mode
+    except KeyboardInterrupt:
+        logging.info("Interrupted by user")
+        raise
+    except Exception as ex:
+        logging.error("Exception: %r", ex)
+        raise
+    #
+    if gdisplay is not None:
+        display_data(stream, gdisplay, gdc, sens)
+
+
+#==============================================================================
+if __name__ == "__main__":
+    # For "Ctrl+C" works
+    import signal
+    signal.signal(signal.SIGINT, signal.SIG_DFL)
+
+    import sys
+
+    # Handles log
+    date_fmt = "%d/%m/%Y %H:%M:%S"
+    log_format = "%(asctime)s %(levelname) -8s %(filename)s " + \
+                 " %(funcName)s (%(lineno)d): %(message)s"
+    logging.basicConfig(level=logging.INFO, \
+                        datefmt=date_fmt, \
+                        format=log_format)
+
+    main()

@@ -1,0 +1,17 @@
+fft_dev/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fft_dev/version.py,sha256=BcbStbA4lAwV2CE04FiXyzcgvGO9htfI9yvj5ZUDkCM,1058
+fft_dev/fft3562a/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fft_dev/fft3562a/fft3562a_dev_mock.py,sha256=FFFy08KfdHW-yIDSTUIfhHisftxA94E5k8ncFLxHnGU,4900
+fft_dev/fft3562a/fft3562a_dev_prologix.py,sha256=p_Tc_buChXnzphSR0cABnfxWI1GXKMPnl_iNPGsIHAg,14570
+fft_dev/fft3562a/fft3562a_form.py,sha256=rKqpHjspi-tNRDSsyo9p5GqAFBzaT7Y0RXH6yQJiXFk,9227
+fft_dev/fft35670a/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fft_dev/fft35670a/fft35670a_dev_prologix.py,sha256=JiyouXz6NYRWj8cyO6O5NpEKJrlpzWl-_U7MR6npbr8,34231
+fft_dev/fft35670a/fft35670a_form.py,sha256=PhiLvh0yt04I12ZhWpuJELzA6jKNlNhzSpywnrq-3YA,31053
+fft_dev-0.4.4a0.data/scripts/fft3562a-cli,sha256=PvQK42QsqQWPnSHDjqrPmz6DFUw0WIrXb9HKVqxgSG8,11311
+fft_dev-0.4.4a0.data/scripts/fft3562a-gui,sha256=tn-dvB01C17-TGN4u6w6_0Q4cqbnC-pWGu_XSgIv7YU,15268
+fft_dev-0.4.4a0.data/scripts/fft35670a-gui,sha256=cgqU40AAEAlo9sX3of2th2KUwkbdRjnPJYuw2tEYVqo,52821
+fft_dev-0.4.4a0.dist-info/LICENSE.txt,sha256=y6PMwyPrdtfoyIJCgzm7rL-i0jFDk6FF7q_sYwDwo60,780
+fft_dev-0.4.4a0.dist-info/METADATA,sha256=Zov2VpvDZc4RFPsVRdxdAXs-A23FlnnYTJ630NaUElg,791
+fft_dev-0.4.4a0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+fft_dev-0.4.4a0.dist-info/top_level.txt,sha256=a4jcW057nTGySoYNAwI2f3iE93tolM95R_1p19NJIwY,8
+fft_dev-0.4.4a0.dist-info/RECORD,,
