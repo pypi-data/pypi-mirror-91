@@ -1,0 +1,8 @@
+whois_vu/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+whois_vu/adataclasses.py,sha256=BIyoglkS58LGb4vxuMpTHgRLcRSpWcplE3LC5MWiHV4,676
+whois_vu/api.py,sha256=wGYHOfyUvDiwPrmHevuHHTDihRAdmozSMKIm-I77Z1E,1576
+whois_vu/atypes.py,sha256=JDXLvIOQPSZ8jcd7KPjG8Snv2T-KwewQNzTR2qC1xyw,279
+whois_vu/errors.py,sha256=85on0XQjbDoW7Hnz4onliczZ5eNwdADna4nYy8Zw7Rc,49
+whois_vu-0.1.0.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+whois_vu-0.1.0.dist-info/METADATA,sha256=9MJqNH5jcnWIpcC59R5FbHmctbixQwmh2qlR-CJlzOM,423
+whois_vu-0.1.0.dist-info/RECORD,,
