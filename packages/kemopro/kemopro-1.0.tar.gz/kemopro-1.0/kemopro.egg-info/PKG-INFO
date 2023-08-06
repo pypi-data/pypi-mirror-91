@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: kemopro
+Version: 1.0
+Summary: a pip-installable package example
+Home-page: https://github.com/bgse/hellostackoverflow
+Author: Benjamin Gerfelder
+Author-email: benjamin.gerfelder@gmail.com
+License: MIT
+Description: UNKNOWN
+Keywords: example
+Platform: UNKNOWN
