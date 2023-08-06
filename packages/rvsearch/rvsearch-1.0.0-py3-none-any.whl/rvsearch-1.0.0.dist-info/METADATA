@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: rvsearch
+Version: 1.0.0
+Summary: GPLv3
+Home-page: UNKNOWN
+Author: Sadiq SheshKhan
+Author-email: sadiqush@gmail.com
+License: UNKNOWN
+Keywords: rvsearch,youtube,video,reverse_search
+Platform: UNKNOWN
+Requires-Python: >= 3
+Requires-Dist: pandas
+Requires-Dist: youtube-dl
+Requires-Dist: opencv-python
+Requires-Dist: numpy
+Requires-Dist: setuptools
+Requires-Dist: scikit-video
+
+UNKNOWN
+
+
