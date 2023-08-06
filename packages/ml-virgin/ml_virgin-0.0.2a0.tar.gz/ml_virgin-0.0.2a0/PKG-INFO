@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: ml_virgin
+Version: 0.0.2a0
+Summary: Simple and customizable machine learning pipelines.
+Home-page: https://github.com/solemn-leader/ml_virgin
+Author: Dan Zimerman
+Author-email: solemnda@gmail.com
+License: UNKNOWN
+Description: # ML Pipelines actually
+        Framework for simple and customizable machine learning pipelines.
+        
+        To do:
+        - Target transformations
+        - Bayesian optimizer
+        - Test on alpha bank competition
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
