@@ -1,0 +1,8 @@
+setup.py
+Credman/__init__.py
+Credman/functions.py
+Credman/structures.py
+Credman.egg-info/PKG-INFO
+Credman.egg-info/SOURCES.txt
+Credman.egg-info/dependency_links.txt
+Credman.egg-info/top_level.txt
