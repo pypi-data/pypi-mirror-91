@@ -1,0 +1,6 @@
+edx-opaque-keys
+xblock
+django-model-utils
+edx-drf-extensions
+Django>=1.11
+edx-django-utils
