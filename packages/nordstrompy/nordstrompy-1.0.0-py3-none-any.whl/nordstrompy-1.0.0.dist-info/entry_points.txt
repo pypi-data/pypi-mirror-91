@@ -1,0 +1,4 @@
+
+        [console_scripts]
+        nordstrompy=nordstrom.__main__:main
+    
