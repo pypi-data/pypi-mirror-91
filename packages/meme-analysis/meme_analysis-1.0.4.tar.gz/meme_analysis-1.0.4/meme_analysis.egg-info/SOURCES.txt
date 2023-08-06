@@ -1,0 +1,8 @@
+README.md
+setup.py
+meme_analysis/__init__.py
+meme_analysis/meme_analysis.py
+meme_analysis.egg-info/PKG-INFO
+meme_analysis.egg-info/SOURCES.txt
+meme_analysis.egg-info/dependency_links.txt
+meme_analysis.egg-info/top_level.txt
