@@ -1,0 +1,17 @@
+README.md
+setup.py
+PyTempMail.egg-info/PKG-INFO
+PyTempMail.egg-info/SOURCES.txt
+PyTempMail.egg-info/dependency_links.txt
+PyTempMail.egg-info/requires.txt
+PyTempMail.egg-info/top_level.txt
+pytempmail/__init__.py
+pytempmail/consts.py
+pytempmail/emailid.py
+pytempmail/excep.py
+pytempmail/inbox.py
+pytempmail/mail.py
+pytempmail/tempmail.py
+pytempmail/tempmailapi.py
+pytempmail/testgen.py
+pytempmail/timer.py
