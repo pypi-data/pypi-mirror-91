@@ -1,0 +1,15 @@
+geodesic/__init__.py,sha256=RJdho8LIS0So81PTBvwMym-SUIWJspmBxqPbmvrxVN0,131
+geodesic/client.py,sha256=piOW6vPOhSSxjdcWxVeVZpSsQNzEtbb1YYRwu72h-d0,1628
+geodesic/features.py,sha256=lTrHWm_3kqBKH_xQuWSIAjlXQo8OWB3ioAaUNphsGnQ,3765
+geodesic/oauth.py,sha256=44ORttpMjMhraliExT_fFV67usiN4cgbtKOzvGWrUYg,10266
+geodesic/raster.py,sha256=jMwCm8IDXDEjHK-Y2oMwCeVa9XW8Hjt2WNZSq64sMD0,2512
+geodesic/cli/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+geodesic/cli/cli.py,sha256=RfciUOqCdBEIk6JZUmeCcJWC7KTvk1fc7RYVNeMki7Q,383
+geodesic/datasets/__init__.py,sha256=oHLzHKnzP7a7vE1MzjYJNQSnuAahO37rlfR_hWQqjF0,450
+geodesic/datasets/dataset.py,sha256=3erBoHxp_nT2jtd13Unedpz15tNZph9QS6P6-moAhj4,8819
+geodesic/utils/memcache.py,sha256=XLliBsjT3MUn8Eyks5_CMjM_EWheAPjMt64IK8vbK-c,2309
+geodesic_api-0.0.1.dist-info/METADATA,sha256=f1cthh06R4OZyylvRL1wvbIitLD9R9Ij3SMYMxMRqQY,876
+geodesic_api-0.0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+geodesic_api-0.0.1.dist-info/entry_points.txt,sha256=3n1wnyYswrGJjvnDYOVfq-9S-cre9KLk3dLM3ie23gg,52
+geodesic_api-0.0.1.dist-info/top_level.txt,sha256=mt356X7WufKmFiOWMjsMedi7qJc-ZgQASdCmZmxceww,9
+geodesic_api-0.0.1.dist-info/RECORD,,
