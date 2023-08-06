@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+aminos/__init__.py
+aminos/clientsid.py
+aminos.egg-info/PKG-INFO
+aminos.egg-info/SOURCES.txt
+aminos.egg-info/dependency_links.txt
+aminos.egg-info/requires.txt
+aminos.egg-info/top_level.txt

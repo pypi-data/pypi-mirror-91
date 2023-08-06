@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: aminos
+Version: 1.0.0.0
+Summary: login sid in amino with Amino.py 
+Home-page: https://github.com/kira-xc
+Author: kira_xc
+Author-email: noemail@example.com
+License: UNKNOWN
+Description: no khokria
+        this is package for sid login in amino with Amino.py
+Keywords: aminoapps,amino-py,amino,amino-bot,narvii,api,python,python3,python3.x,kira_xc
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
