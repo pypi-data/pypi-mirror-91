@@ -1,0 +1,14 @@
+graft docs
+graft src
+graft tests
+
+include .coveragerc
+include .editorconfig
+
+include CHANGELOG.md
+include CONTRIBUTING.md
+include LICENSE
+include README.md
+
+
+global-exclude *.py[cod] __pycache__/* *.so *.dylib
