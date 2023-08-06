@@ -1,0 +1,14 @@
+Metadata-Version: 1.2
+Name: font2img
+Version: 1.0
+Summary: Drawing glyph in font file (woff, tff ..) 
+Home-page: UNKNOWN
+Author: coderfly,magicalbomb
+Author-email: coderflying@163.com,3379747207@qq.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.5

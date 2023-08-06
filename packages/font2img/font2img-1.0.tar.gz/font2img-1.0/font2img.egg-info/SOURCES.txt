@@ -1,0 +1,8 @@
+README
+font2img.py
+setup.py
+font2img.egg-info/PKG-INFO
+font2img.egg-info/SOURCES.txt
+font2img.egg-info/dependency_links.txt
+font2img.egg-info/requires.txt
+font2img.egg-info/top_level.txt
