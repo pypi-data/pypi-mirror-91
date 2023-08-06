@@ -1,0 +1,5 @@
+pybind11>=2.6.0
+numpy
+tskit>=0.3.2
+sparse
+attrs>=0.19.2
