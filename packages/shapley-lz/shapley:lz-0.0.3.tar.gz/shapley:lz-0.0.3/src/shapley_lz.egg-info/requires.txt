@@ -1,0 +1,8 @@
+numpy
+scipy
+tqdm
+matplotlib
+sklearn
+
+[dev]
+pytest>=3.7
