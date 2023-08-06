@@ -1,0 +1,11 @@
+mdocument/__init__.py,sha256=-wvXRhDXKqrr2rKcznXonXR4wyyebjxYsvahmYO4WVU,86
+mdocument/client.py,sha256=o3h5YGK9yxEnZEZDPz6WCTynORP2ZGX5_kBLD_eSinQ,3674
+mdocument/document.py,sha256=JPmbEJQvjUgtgqomKZeG3z8x5fceZp0yGF7_DZhV42Q,9141
+mdocument/document_array.py,sha256=bbkpJ9OOEGBpP72aVoI8-BQ9Ys_YVMWlxZ2msQpEw50,291
+mdocument/document_dict.py,sha256=A_5zkUyWW4doMtWv5phVTeKxR0HNeewj-8pj3RXRKqo,4285
+mdocument/relations.py,sha256=PFWx0LzBqQqr9OkJSJeQQKSx7PkdMTaadGSSp_X19Ek,8364
+mdocument-4.0.1610663369.dist-info/LICENSE,sha256=166FQETKEIUyxAo5eNNFDnWPdMndnmlswEuAoax_S3o,1049
+mdocument-4.0.1610663369.dist-info/METADATA,sha256=z13Xd5Wla4bntr2ww8qg7Kwjft-jMfsLbgoTgrO9BGc,4656
+mdocument-4.0.1610663369.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+mdocument-4.0.1610663369.dist-info/top_level.txt,sha256=amMJeCP1qqwniQ5ldPo587ujTmKE-nbF8Fv--qtxELU,10
+mdocument-4.0.1610663369.dist-info/RECORD,,
