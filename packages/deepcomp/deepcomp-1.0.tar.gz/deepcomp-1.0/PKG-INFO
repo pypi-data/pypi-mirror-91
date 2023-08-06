@@ -1,0 +1,10 @@
+Metadata-Version: 1.2
+Name: deepcomp
+Version: 1.0
+Summary: DeepCoMP: Self-Learning Dynamic Multi-Cell Selection for Coordinated Multipoint (CoMP)
+Home-page: https://github.com/CN-UPB/DeepCoMP
+Author: Stefan Schneider
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.8.*
