@@ -1,0 +1,11 @@
+MANIFEST.in
+README.md
+setup.py
+correlaidmatplotlib/__init__.py
+correlaidmatplotlib/correlaid.mplstyle
+correlaidmatplotlib/figure_helpers.py
+correlaidmatplotlib.egg-info/PKG-INFO
+correlaidmatplotlib.egg-info/SOURCES.txt
+correlaidmatplotlib.egg-info/dependency_links.txt
+correlaidmatplotlib.egg-info/requires.txt
+correlaidmatplotlib.egg-info/top_level.txt
