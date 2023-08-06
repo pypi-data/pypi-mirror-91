@@ -1,0 +1,34 @@
+Metadata-Version: 1.2
+Name: decotools
+Version: 0.0.1
+Summary: This is a decorator toolbox.
+Home-page: https://github.com/ke-zhang-rd/decotools
+Author: Ke Zhang
+Author-email: kezhang0729@gmail.com
+License: BSD (3-clause)
+Description: =========
+        decotools
+        =========
+        
+        .. image:: https://img.shields.io/travis/ke-zhang-rd/decotools.svg
+                :target: https://travis-ci.org/ke-zhang-rd/decotools
+        
+        .. image:: https://img.shields.io/pypi/v/decotools.svg
+                :target: https://pypi.python.org/pypi/decotools
+        
+        
+        This is a decorator toolbox.
+        
+        * Free software: 3-clause BSD license
+        * Documentation: (COMING SOON!) https://ke-zhang-rd.github.io/decotools.
+        
+        Features
+        --------
+        
+        * TODO
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
