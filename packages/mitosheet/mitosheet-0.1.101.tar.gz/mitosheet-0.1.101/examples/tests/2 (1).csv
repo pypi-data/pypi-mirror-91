@@ -1,0 +1,57 @@
+Segment,Platform,Plant,Asset Name,Metric Name,Year Month,Amount
+Business Services,US Packaging,Seattle,E1_S1 KBA 0640-CUV,P-METRIC MR Hrs TARGET,202102,1
+Business Services,US Packaging,Seattle,E1_S1 KBA 0640-CUV,P-METRIC Run Hrs TARGET,202102,2
+Business Services,US Packaging,Seattle,E1_S1 KBA 0640-CUV,P-METRIC Delay Hrs TARGET,202102,3
+Business Services,US Packaging,Seattle,E1_S1 KBA 0640-CUV,P-METRIC SchMtce Hrs TARGET,202102,7
+Business Services,US Packaging,Seattle,E1_S1 KBA 0640-CUV,P-METRIC DT/NC Hrs TARGET,202102,8
+Business Services,US Packaging,Seattle,E1_S1 KBA 0640-CUV,P-METRIC # of MR TARGET,202102,1
+Business Services,US Packaging,Seattle,E1_S1 KBA 0640-CUV,P-METRIC # NetGood TARGET,202102,2
+Business Services,US Packaging,Seattle,E1_S1 KBA 0640-CUV,P-METRIC MR Hrs ACTUAL,202102,4
+Business Services,US Packaging,Seattle,E1_S1 KBA 0640-CUV,P-METRIC Run Hrs ACTUAL,202102,5
+Business Services,US Packaging,Seattle,E1_S1 KBA 0640-CUV,P-METRIC Delay Hrs ACTUAL,202102,6
+Business Services,US Packaging,Seattle,E1_S1 KBA 0640-CUV,P-METRIC SchMtce Hrs ACTUAL,202102,9
+Business Services,US Packaging,Seattle,E1_S1 KBA 0640-CUV,P-METRIC DT/NC Hrs ACTUAL,202102,0
+Business Services,US Packaging,Seattle,E1_S1 KBA 0640-CUV,P-METRIC # of MR ACTUAL,202102,3
+Business Services,US Packaging,Seattle,E1_S1 KBA 0640-CUV,P-METRIC # NetGood ACTUAL,202102,4
+Business Services,US Packaging,Seattle,E1_S1 KBA 0640-CUV,P-METRIC MR Hrs TARGET,202102,1
+Business Services,US Packaging,Seattle,E1_S1 KBA 0640-CUV,P-METRIC Run Hrs TARGET,202102,2
+Business Services,US Packaging,Seattle,E1_S1 KBA 0640-CUV,P-METRIC Delay Hrs TARGET,202102,3
+Business Services,US Packaging,Seattle,E1_S1 KBA 0640-CUV,P-METRIC SchMtce Hrs TARGET,202102,7
+Business Services,US Packaging,Seattle,E1_S1 KBA 0640-CUV,P-METRIC DT/NC Hrs TARGET,202102,8
+Business Services,US Packaging,Seattle,E1_S1 KBA 0640-CUV,P-METRIC # of MR TARGET,202102,1
+Business Services,US Packaging,Seattle,E1_S1 KBA 0640-CUV,P-METRIC # NetGood TARGET,202102,2
+Business Services,US Packaging,Seattle,E1_S1 KBA 0640-CUV,P-METRIC MR Hrs ACTUAL,202102,4
+Business Services,US Packaging,Seattle,E1_S1 KBA 0640-CUV,P-METRIC Run Hrs ACTUAL,202102,5
+Business Services,US Packaging,Seattle,E1_S1 KBA 0640-CUV,P-METRIC Delay Hrs ACTUAL,202102,6
+Business Services,US Packaging,Seattle,E1_S1 KBA 0640-CUV,P-METRIC SchMtce Hrs ACTUAL,202102,9
+Business Services,US Packaging,Seattle,E1_S1 KBA 0640-CUV,P-METRIC DT/NC Hrs ACTUAL,202102,0
+Business Services,US Packaging,Seattle,E1_S1 KBA 0640-CUV,P-METRIC # of MR ACTUAL,202102,3
+Business Services,US Packaging,Seattle,E1_S1 KBA 0640-CUV,P-METRIC # NetGood ACTUAL,202102,4
+Business Services,US Packaging,Seattle,E1_S1 KBA 0640-CUV,P-METRIC MR Hrs TARGET,202101,0.75
+Business Services,US Packaging,Seattle,E1_S1 KBA 0640-CUV,P-METRIC Run Hrs TARGET,202101,4.5
+Business Services,US Packaging,Seattle,E1_S1 KBA 0640-CUV,P-METRIC Delay Hrs TARGET,202101,0.25
+Business Services,US Packaging,Seattle,E1_S1 KBA 0640-CUV,P-METRIC SchMtce Hrs TARGET,202101,1.5
+Business Services,US Packaging,Seattle,E1_S1 KBA 0640-CUV,P-METRIC DT/NC Hrs TARGET,202101,1.5
+Business Services,US Packaging,Seattle,E1_S1 KBA 0640-CUV,P-METRIC # of MR TARGET,202101,6
+Business Services,US Packaging,Seattle,E1_S1 KBA 0640-CUV,P-METRIC # NetGood TARGET,202101,"35,000"
+Business Services,US Packaging,Seattle,E1_S1 KBA 0640-CUV,P-METRIC MR Hrs ACTUAL,202101,1.25
+Business Services,US Packaging,Seattle,E1_S1 KBA 0640-CUV,P-METRIC Run Hrs ACTUAL,202101,5
+Business Services,US Packaging,Seattle,E1_S1 KBA 0640-CUV,P-METRIC Delay Hrs ACTUAL,202101,0
+Business Services,US Packaging,Seattle,E1_S1 KBA 0640-CUV,P-METRIC SchMtce Hrs ACTUAL,202101,1.25
+Business Services,US Packaging,Seattle,E1_S1 KBA 0640-CUV,P-METRIC DT/NC Hrs ACTUAL,202101,1.25
+Business Services,US Packaging,Seattle,E1_S1 KBA 0640-CUV,P-METRIC # of MR ACTUAL,202101,6
+Business Services,US Packaging,Seattle,E1_S1 KBA 0640-CUV,P-METRIC # NetGood ACTUAL,202101,"34,356"
+Business Services,US Packaging,Reynosa,RY_S1 KBA 656-CUV,P-METRIC MR Hrs TARGET,202105,111
+Business Services,US Packaging,Reynosa,RY_S1 KBA 656-CUV,P-METRIC Run Hrs TARGET,202105,980
+Business Services,US Packaging,Reynosa,RY_S1 KBA 656-CUV,P-METRIC Delay Hrs TARGET,202105,25
+Business Services,US Packaging,Reynosa,RY_S1 KBA 656-CUV,P-METRIC SchMtce Hrs TARGET,202105,12
+Business Services,US Packaging,Reynosa,RY_S1 KBA 656-CUV,P-METRIC DT/NC Hrs TARGET,202105,24
+Business Services,US Packaging,Reynosa,RY_S1 KBA 656-CUV,P-METRIC # of MR TARGET,202105,125
+Business Services,US Packaging,Reynosa,RY_S1 KBA 656-CUV,P-METRIC # NetGood TARGET,202105,8600000
+Business Services,US Packaging,Reynosa,RY_S1 KBA 656-CUV,P-METRIC MR Hrs ACTUAL,202105,96
+Business Services,US Packaging,Reynosa,RY_S1 KBA 656-CUV,P-METRIC Run Hrs ACTUAL,202105,1025
+Business Services,US Packaging,Reynosa,RY_S1 KBA 656-CUV,P-METRIC Delay Hrs ACTUAL,202105,13
+Business Services,US Packaging,Reynosa,RY_S1 KBA 656-CUV,P-METRIC SchMtce Hrs ACTUAL,202105,12
+Business Services,US Packaging,Reynosa,RY_S1 KBA 656-CUV,P-METRIC DT/NC Hrs ACTUAL,202105,24
+Business Services,US Packaging,Reynosa,RY_S1 KBA 656-CUV,P-METRIC # of MR ACTUAL,202105,128
+Business Services,US Packaging,Reynosa,RY_S1 KBA 656-CUV,P-METRIC # NetGood ACTUAL,202105,10900000
