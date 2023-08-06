@@ -1,0 +1,10 @@
+tameris/__init__.py,sha256=rl46juDd5Rk9OxsGQvKgRb9Zvvkzmsrqdw6xtTqttwg,604
+tameris/client.py,sha256=8n_OXh_i8ajWlGaw25Z5sA1bJsKEdNrQ4c_aSLfCr1Y,32744
+tameris/event_handler.py,sha256=OcY8DcET9vVAD2mP72IeWPv1wvQhjUrnJIgZ9ShN1Ps,5522
+tameris/extensions.py,sha256=BonVgzqUx3cjdKxL6xvwOn6ELxxQZsJm7oVujJNPobo,4146
+tameris/request_handler.py,sha256=Glaf0C-Ey_tBsGtbRz4NoaxMG37LW-8Mco1wNFxzsmE,996
+tameris-0.0.1a0.dist-info/LICENSE,sha256=kmSms8E0URzPyuSO04CDIGiK5pM-xPxUdHagBQlfwe8,10349
+tameris-0.0.1a0.dist-info/METADATA,sha256=GwtTGM8FSpRkAQqBTHNbqZEliW0wS86SFmTXvtOg6tg,516
+tameris-0.0.1a0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+tameris-0.0.1a0.dist-info/top_level.txt,sha256=ghukVkkOfyglDCeq50z-gqoEbr7rdgMw9CmHrb3fXqM,8
+tameris-0.0.1a0.dist-info/RECORD,,
