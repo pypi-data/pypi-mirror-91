@@ -1,0 +1,54 @@
+Metadata-Version: 2.1
+Name: gracefull-shutdown-py
+Version: 0.1.0
+Summary: attr: gracefull_shutdown.__doc__
+Home-page: https://github.com/zifter/gracefull-shutdown-py
+Author: Oleg Strokachuk
+Author-email: zifter.ai@gmail.com
+License: MIT
+Description: |License| |Release| |Supported versions| |Docs| |Contact| |Blog|
+        
+        gracefull-shutdown-py
+        =====================
+        
+        Helps to support gracefull shutdown for your python application.
+        
+        Example of usage
+        ----------------
+        Roman
+        ^^^^^
+        .. code:: python
+        
+            from gracefull_shutdown import ExitSignalHandler
+        
+            shutdown = ExitSignalHandler()
+            while not shutdown.triggered:
+                sleep(1)
+        
+        .. |Release| image:: https://img.shields.io/github/release/zifter/numeral-system-py.svg
+           :target: https://github.com/zifter/numeral-system-py/releases
+        .. |Supported versions| image:: https://img.shields.io/pypi/pyversions/numeral-system-py.svg
+           :target: https://pypi.org/project/numeral-system/
+        .. |Contact| image:: https://img.shields.io/badge/telegram-write%20me-blue.svg
+            :target:  https://t.me/zifter
+        .. |Blog| image:: https://img.shields.io/badge/site-my%20blog-yellow.svg
+            :target:  https://zifter.github.io/
+        .. |License| image:: https://img.shields.io/badge/License-MIT-yellow.svg
+            :target:  https://opensource.org/licenses/MIT
+        .. |Docs| image:: https://readthedocs.org/projects/numeral-system-py/badge/?version=latest&style=flat
+            :target:  https://numeral-system-py.readthedocs.io/en/latest/
+        
+        
+Keywords: gracefull,shutdown
+Platform: any
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.5
+Description-Content-Type: text/x-rst
