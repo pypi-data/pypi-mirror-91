@@ -1,0 +1,31 @@
+CHANGES
+=======
+
+v1.0.4
+------
+
+* Added Makefile, pre-commit. Also update for 1.5.0
+
+v1.0.3
+------
+
+* Plugin gets the version from pbr version now
+
+v1.0.2
+------
+
+* cleaned up dev reqs
+* Reduced the shit
+
+v1.0.1
+------
+
+* Added some config checking at setup time
+* remote the pinning of aprsd 1.0.0
+
+v1.0
+----
+
+* Updates for release
+* Make aprsd a requirement
+* Initial commit

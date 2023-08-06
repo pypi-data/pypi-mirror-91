@@ -1,0 +1,6 @@
+aprsd>=1.5.0
+pbr
+requests
+six
+slack-sdk
+slackeventsapi
