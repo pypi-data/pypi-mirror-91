@@ -1,0 +1,49 @@
+Metadata-Version: 2.1
+Name: pytoolkit42
+Version: 0.1.0
+Summary: Collection of useful utilities and tools for python projects
+Home-page: https://github.com/HazardDede/pytoolkit
+License: MIT
+Keywords: library,tools,python,utility,mixins,decorators
+Author: Dennis Muth
+Author-email: d.muth@gmx.net
+Maintainer: Dennis Muth
+Maintainer-email: d.muth@gmx.net
+Requires-Python: >=3.6,<4.0
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Utilities
+Requires-Dist: fastcore (>=1.3.18,<2.0.0)
+Requires-Dist: typeguard (>=2.10.0,<3.0.0)
+Project-URL: Documentation, https://github.com/HazardDede/pytoolkit
+Project-URL: Repository, https://github.com/HazardDede/pytoolkit
+Description-Content-Type: text/markdown
+
+# pytoolkit
+
+[![Python](https://img.shields.io/badge/Python-3.6%20%7C%203.7%20%7C%203.8-green.svg)](https://www.python.org/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![Docs](https://readthedocs.org/projects/pytoolkit42/badge/?version=latest)](https://pytoolkit42.readthedocs.io/en/latest)
+[![GitHub Activity](https://img.shields.io/github/commit-activity/y/HazardDede/pytoolkit.svg)](https://github.com/HazardDede/pytoolkit/commits/main)
+[![Build Status](https://travis-ci.org/HazardDede/pytoolkit.svg?branch=main)](https://travis-ci.org/HazardDede/pytoolkit)
+[![Coverage Status](https://coveralls.io/repos/github/HazardDede/pytoolkit/badge.svg?branch=main)](https://coveralls.io/github/HazardDede/pytoolkit?branch=main)
+![Project Maintenance](https://img.shields.io/badge/maintainer-Dennis%20Muth%20%40HazardDede-blue.svg)
+
+
+> Collection of useful utilities and tools for python projects
+
+## Installation
+
+```bash
+pip install pytoolkit
+```
+
+## Tools
+
+TBD
