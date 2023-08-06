@@ -1,0 +1,8 @@
+aws_cdk/aws_appflow/__init__.py,sha256=JlpUHRaflL4hEX2yE4l3QyLye2_6ZcfgsA_IMBUJ_Mo,254132
+aws_cdk/aws_appflow/py.typed,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+aws_cdk/aws_appflow/_jsii/__init__.py,sha256=bJvykGLVgrvQpqQUpy_i_jqRI7agpFMrvTHWQZQSmlw,347
+aws_cdk/aws_appflow/_jsii/aws-appflow@1.84.0.jsii.tgz,sha256=C640kvLSNPdZ6EZ1OXN4N5c-M2k9aNzqSzwiwBfXCdM,83802
+aws_cdk.aws_appflow-1.84.0.dist-info/METADATA,sha256=9eFK3-1JJSp0eWPP7wqGTsx5Bw_89rs30UbqV4aeTXk,1653
+aws_cdk.aws_appflow-1.84.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+aws_cdk.aws_appflow-1.84.0.dist-info/top_level.txt,sha256=1TALAKbuUGsMSrfKWEf268lySCmcqSEO6cDYe_XlLHM,8
+aws_cdk.aws_appflow-1.84.0.dist-info/RECORD,,
