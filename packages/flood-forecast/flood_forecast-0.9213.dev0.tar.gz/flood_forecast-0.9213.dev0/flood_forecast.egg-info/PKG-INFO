@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: flood-forecast
+Version: 0.9213.dev0
+Summary: UNKNOWN
+Home-page: UNKNOWN
+License: Public
+Description: A public package for deep time series forecasting with PyTorch
+Platform: UNKNOWN
+Provides-Extra: dev
