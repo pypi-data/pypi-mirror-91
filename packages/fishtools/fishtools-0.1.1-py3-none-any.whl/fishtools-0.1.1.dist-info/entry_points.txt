@@ -1,0 +1,3 @@
+[console_scripts]
+fishtools-process=fishtools.process:process_from_config
+
