@@ -1,0 +1,16 @@
+README.md
+setup.py
+fdscraper/__init__.py
+fdscraper.egg-info/PKG-INFO
+fdscraper.egg-info/SOURCES.txt
+fdscraper.egg-info/dependency_links.txt
+fdscraper.egg-info/top_level.txt
+fdscraper/preprocess/__init__.py
+fdscraper/preprocess/preprocess_financials.py
+fdscraper/preprocess/utils.py
+fdscraper/score/__init__.py
+fdscraper/score/score.py
+fdscraper/score/utils.py
+fdscraper/scrape/__init__.py
+fdscraper/scrape/download.py
+fdscraper/scrape/utils.py
