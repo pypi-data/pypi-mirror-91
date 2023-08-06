@@ -1,0 +1,6 @@
+README.md
+setup.py
+melvil_test_package.egg-info/PKG-INFO
+melvil_test_package.egg-info/SOURCES.txt
+melvil_test_package.egg-info/dependency_links.txt
+melvil_test_package.egg-info/top_level.txt
