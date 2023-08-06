@@ -1,0 +1,9 @@
+README.md
+setup.py
+Richpdf/__init__.py
+Richpdf/pdf2image.py
+Richpdf/pdf2text.py
+Richpdf.egg-info/PKG-INFO
+Richpdf.egg-info/SOURCES.txt
+Richpdf.egg-info/dependency_links.txt
+Richpdf.egg-info/top_level.txt
