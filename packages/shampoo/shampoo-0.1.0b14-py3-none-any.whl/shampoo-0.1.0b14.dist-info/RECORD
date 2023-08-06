@@ -1,0 +1,10 @@
+shampoo/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+shampoo/shampoo.py,sha256=Nm4RT5nC_7o-qJQ_KdF5GRCePA7SnA72la8TEXBhFtM,14377
+shampoo/schemas/push_message.json,sha256=3yfcL2dMqHSE01OpKelaN2LNCQXb1wrG-25urXMuTZU,588
+shampoo/schemas/request.json,sha256=dc0TufcSmUmt97BPZf8SbK92Ua7MhOXvGynjIq788LM,867
+shampoo/schemas/response.json,sha256=OL3QJeFzV7m2aoe__Lqeo8vFC6is8LDdnSAEjaUJT0A,954
+shampoo-0.1.0b14.dist-info/LICENCE,sha256=xk3YlIKNCXSKcI9p3e8x_MVjv-I37wcTgzZXJvPngIs,1071
+shampoo-0.1.0b14.dist-info/METADATA,sha256=4xplMqKE-sEylhd5k2UFIa3KKAr5rg76ULlnuRFlIto,683
+shampoo-0.1.0b14.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+shampoo-0.1.0b14.dist-info/top_level.txt,sha256=rbaFjUGW9eOqaUBfd4IvIyN5NOFmTSPtiujbckWH0Eo,8
+shampoo-0.1.0b14.dist-info/RECORD,,
