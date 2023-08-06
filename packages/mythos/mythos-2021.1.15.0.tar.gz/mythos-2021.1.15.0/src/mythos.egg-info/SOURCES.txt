@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/mythos/__init__.py
+src/mythos.egg-info/PKG-INFO
+src/mythos.egg-info/SOURCES.txt
+src/mythos.egg-info/dependency_links.txt
+src/mythos.egg-info/not-zip-safe
+src/mythos.egg-info/requires.txt
+src/mythos.egg-info/top_level.txt
+src/mythos/mythos/__init__.py
+src/mythos/mythos/__version__.py
