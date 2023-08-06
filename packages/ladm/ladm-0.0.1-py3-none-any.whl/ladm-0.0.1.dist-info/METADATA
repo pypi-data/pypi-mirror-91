@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: ladm
+Version: 0.0.1
+Summary: Language Agnostic Dependency Management
+Author: Leftshift One
+Requires-Python: >=3.7.7,<4.0.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: pyyaml (>=5.3.1,<6.0.0)
