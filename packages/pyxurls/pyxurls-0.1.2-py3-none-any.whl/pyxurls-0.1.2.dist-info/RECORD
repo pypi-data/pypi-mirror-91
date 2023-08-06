@@ -1,0 +1,13 @@
+xurls/__init__.py,sha256=Gr3tUqgqi0M2O7uss5Efjz1Xikzju2-TE_dDdtXa6AM,165
+xurls/_regex.py,sha256=B7LYrcOGiUPWK4-Maq6yJakJXHoxSvtHukvUxM-oU94,216
+xurls/express.py,sha256=hYg0_L_J8uj21hGgrlkmrziw0hmRxlXxbIyfPknNdc8,2842
+xurls/schemes.py,sha256=Ce5LbAPtjdhm38iGCOb05gM5yzQPXqEmEGtEaZJfMSI,6205
+xurls/tlds.py,sha256=nH7Lpl14U-o8qhVRQ01n1EcRpgRUPuAKwuLBkkb7QHs,20697
+xurls/tlds_pseudo.py,sha256=en7VY2sl11433mtR1HvKuBGhBDOD2R_LN1FDgB-gOEg,856
+xurls/unicode.py,sha256=svtl3eEnY7DSyqY1aNc_vNYjQpxRQsemAytxTmlDVc4,2086
+xurls/xurls.py,sha256=zaCkvaCYcr5vszE1mlPxvuW0rvH3sK4ZRsIJdIdiBmU,872
+pyxurls-0.1.2.dist-info/LICENSE,sha256=XU_uWAXiGfB2isYoTUvnghcqX-ry4xErbjcHOizeFws,1518
+pyxurls-0.1.2.dist-info/METADATA,sha256=FaYYrH5lZR2ftunH9jNnsRm29h6gBKCmz5SdjaiUtVE,2862
+pyxurls-0.1.2.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+pyxurls-0.1.2.dist-info/top_level.txt,sha256=UzsPCuv8yLNvL8dE391CYowZ-cFRgTCTno3ETYWh_f8,6
+pyxurls-0.1.2.dist-info/RECORD,,
