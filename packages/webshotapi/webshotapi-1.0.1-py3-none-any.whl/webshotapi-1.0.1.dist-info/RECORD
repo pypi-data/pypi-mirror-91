@@ -1,0 +1,12 @@
+webshotapi/ApiClient.py,sha256=LiAobYFx6A2Rv9HlC69IPxb6O7U1kespT0noi6U47MY,3818
+webshotapi/ApiException.py,sha256=eVuLH8cIS7o_2rhXK2f0BQjo09geWN6ZhPEGgFEL8_s,868
+webshotapi/Project.py,sha256=xqmZ9B4vwSXYSoKmXe7MLfxqPWio3gIksZ0C91bxG0M,2070
+webshotapi/RESTResponse.py,sha256=Z1gCy3KTOJ3Oa6IdFEtHTHdWc1R0TNhkd1mQAnjdWTM,3243
+webshotapi/RequestClient.py,sha256=gRCz9Y6n97HHKO11u6r0UrxsxentXOauYlCiOeG0eOc,9861
+webshotapi/__init__.py,sha256=NpNKMm6QDsgwDVDRIQyLpKfhQhro-Ta9202AMJzdd2Y,214
+webshotapi/version.py,sha256=IHLFZjMb0vgBlKcf9dCRW1U4VxbLccustVvxbxGMxQw,19
+webshotapi-1.0.1.dist-info/LICENSE,sha256=WV6Dk2WJrLcP2Gju0hihwtNioURIh19t9FfUCSYFu68,1070
+webshotapi-1.0.1.dist-info/METADATA,sha256=l8OrIZpSl5IpU03sVSzM0n_c0Za44m51lF2B3tF-n_I,5271
+webshotapi-1.0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+webshotapi-1.0.1.dist-info/top_level.txt,sha256=aQlqQRD6d0KFIImZO-XCZIeJzaln9HymB6kIAci7W-E,11
+webshotapi-1.0.1.dist-info/RECORD,,
