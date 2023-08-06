@@ -1,0 +1,11 @@
+Change Log
+==========
+
+1.0.0 (11/01/2021)
+------------------
+- First Release
+
+1.1.0 (12/01/2021)
+------------------
+- added email_subject parameter
+- added app passwords workaround for gmail
