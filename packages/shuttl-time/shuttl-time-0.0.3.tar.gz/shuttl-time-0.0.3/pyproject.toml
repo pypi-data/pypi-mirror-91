@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "shuttl-time"
+version = "0.1.0"
+description = ""
+authors = ["Himani Joshi <himani.joshi@shuttl.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+pytz = "2020.1"
+
+[tool.poetry.dev-dependencies]
+pytest = "5.4.2"
+pytest-cov = "2.10.0"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
