@@ -1,0 +1,9 @@
+README.md
+hackertype.py
+setup.py
+hackertype.egg-info/PKG-INFO
+hackertype.egg-info/SOURCES.txt
+hackertype.egg-info/dependency_links.txt
+hackertype.egg-info/entry_points.txt
+hackertype.egg-info/requires.txt
+hackertype.egg-info/top_level.txt
