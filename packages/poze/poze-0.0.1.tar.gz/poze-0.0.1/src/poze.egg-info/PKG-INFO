@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: poze
+Version: 0.0.1
+Summary: " A handy utility to backup a python session."
+Home-page: UNKNOWN
+Author: "An Truong"
+Author-email: "antruong.bq@gmail.com"
+License: MIT
+Description: UNKNOWN
+Keywords: poze
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Provides-Extra: lint
+Provides-Extra: dev
+Provides-Extra: doc

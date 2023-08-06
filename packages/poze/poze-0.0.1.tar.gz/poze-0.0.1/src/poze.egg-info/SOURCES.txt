@@ -1,0 +1,8 @@
+setup.cfg
+setup.py
+src/poze.egg-info/PKG-INFO
+src/poze.egg-info/SOURCES.txt
+src/poze.egg-info/dependency_links.txt
+src/poze.egg-info/not-zip-safe
+src/poze.egg-info/requires.txt
+src/poze.egg-info/top_level.txt
