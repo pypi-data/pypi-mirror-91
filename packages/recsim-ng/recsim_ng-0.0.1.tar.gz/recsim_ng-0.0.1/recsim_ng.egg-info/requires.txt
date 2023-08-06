@@ -1,0 +1,8 @@
+absl-py
+edward2
+gin-config
+gym
+matplotlib
+numpy
+tensorflow-probability
+tensorflow>=2.3.0
