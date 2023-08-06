@@ -1,0 +1,8 @@
+README.md
+setup.py
+wintermute/__init__.py
+wintermute.egg-info/PKG-INFO
+wintermute.egg-info/SOURCES.txt
+wintermute.egg-info/dependency_links.txt
+wintermute.egg-info/not-zip-safe
+wintermute.egg-info/top_level.txt
