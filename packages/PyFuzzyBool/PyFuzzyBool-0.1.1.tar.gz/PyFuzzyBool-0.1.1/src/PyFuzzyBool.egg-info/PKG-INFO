@@ -1,0 +1,72 @@
+Metadata-Version: 2.1
+Name: PyFuzzyBool
+Version: 0.1.1
+Summary: Additional boolean values: KindaTrue, KindaFalse, VeryTrue, and VeryFalse. (This is a joke project.)
+Home-page: https://github.com/asweigart/pyfuzzybool
+Author: Al Sweigart
+Author-email: al@inventwithpython.com
+License: MIT
+Description: PyFuzzyBool
+        ======
+        
+        Additional boolean values: KindaTrue, KindaFalse, VeryTrue, and VeryFalse. (This is a joke project.)
+        
+        Installation
+        ------------
+        
+        To install with pip, run:
+        
+            pip install pyfuzzybool
+        
+        Quickstart Guide
+        ----------------
+        
+            >>> from pyfuzzybool import *
+            >>> KindaTrue == KindaFalse
+            True
+            >>> KindaTrue == True
+            False
+            >>> VeryTrue == True
+            True
+            >>> VeryFalse == False
+            True
+            >>> KindaFalse == False
+            False
+            >>> fuzzybool(1)
+            fuzzybool(True)
+            >>> fuzzybool(0.9)
+            KindaTrue
+            >>> fuzzybool(0)
+            fuzzybool(False)
+            >>> fuzzybool(-1)
+            VeryFalse
+            >>> fuzzybool(1.1)
+            VeryTrue
+            >>> fuzzybool()
+            KindaFalse
+            >>> KindaFalse < True
+            True
+            >>> KindaFalse > False
+            True
+            >>> KindaFalse <= KindaTrue
+            True
+        
+        Contribute
+        ----------
+        
+        If you'd like to contribute to PyFuzzyBool, check out https://github.com/asweigart/pyfuzzybool
+        
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.1
+Classifier: Programming Language :: Python :: 3.2
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
