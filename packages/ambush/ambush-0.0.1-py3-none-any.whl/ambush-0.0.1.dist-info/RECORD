@@ -1,0 +1,12 @@
+ambush/__init__.py,sha256=snzWWa9XAo0AZWOV2sPwfx1n6t7lw7z4qX1VFTJvFKg,1168
+ambush/_version.py,sha256=kxEUwMh0Z2hR5IQIkIvNaW1S2aFzS6abq0LnDRTtjQA,497
+ambush/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ambush/tests/conftest.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ambush/tests/test_examples.py,sha256=Hm1x01HZ9BiYYw4dS44uo0o_ku16oFRwSMjIh8_Uu-s,99
+ambush-0.0.1.dist-info/AUTHORS.rst,sha256=u1dp0ET91zRG84f7CrIoxovUzhMyQzzzgyWhAzkrO24,165
+ambush-0.0.1.dist-info/LICENSE,sha256=smoh22-N4BMJjrya4kSPpZDYzdDInw80vX1CoW3Zshc,1516
+ambush-0.0.1.dist-info/METADATA,sha256=LpHT8mrVsON_6Y4By3FYgMUeF8eJtoIq7LFAU-nra18,803
+ambush-0.0.1.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+ambush-0.0.1.dist-info/entry_points.txt,sha256=eqGnTHtEVMYwfXVk1Z9MhC8O2N8wuqAbr0lisLmrkxs,20
+ambush-0.0.1.dist-info/top_level.txt,sha256=A5WMm_jUVCCtMLjdlqURnQ7iRhT8hRsy7exQO8cZOOk,7
+ambush-0.0.1.dist-info/RECORD,,
