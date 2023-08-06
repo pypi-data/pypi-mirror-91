@@ -1,0 +1,3 @@
+[console_scripts]
+move-imports = move_imports:main
+
