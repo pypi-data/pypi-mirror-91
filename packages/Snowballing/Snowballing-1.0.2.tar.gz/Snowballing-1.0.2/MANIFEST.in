@@ -1,0 +1,19 @@
+# Include the license file
+include LICENSE
+
+# Include the README files
+include README.rst
+include README.md
+
+
+# Include the example directory
+recursive-include example *
+
+# Include the bibtex directory
+recursive-include bibtex *
+
+# Include the extensions directory
+recursive-include extensions *
+
+# Include the resources directory
+recursive-include resources *
