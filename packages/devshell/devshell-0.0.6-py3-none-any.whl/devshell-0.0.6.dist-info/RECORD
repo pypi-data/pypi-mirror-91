@@ -1,0 +1,10 @@
+devshell/__init__.py,sha256=AyvhWdMdzGrU3dsVdgFdif7VUkSjo4hMpU028kStERc,108
+devshell/__main__.py,sha256=C2qFvWhjvsY9yiL0HtzSM6CHhqIQ-rBhT_mlT6zOO2s,901
+devshell/injector.py,sha256=C0FChEmD_tbLn6dSzkmlHFs_9LVw32IrNYv8gls3aMY,12628
+devshell/ptcmd.py,sha256=E5tTbutPEqfb-_jJA17yFUkd95H_vMjBnoliCAdvaeU,3489
+devshell/shell.py,sha256=ozYtC9VYYAGgieNKwNiq0KshMmFOHKiL9wpNFH4o220,50248
+devshell-0.0.6.dist-info/LICENSE,sha256=X8FscawJ6xt-Ppx1GEoLDKXcPG889Ya6Jez7_rry0RM,1066
+devshell-0.0.6.dist-info/METADATA,sha256=sjMYdPjk1Ensf3e3Tq2pu8oqvf8OZA0qGFbIOsF9te0,7026
+devshell-0.0.6.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+devshell-0.0.6.dist-info/top_level.txt,sha256=4E19CjGL2kAJ2cs_0YNxV5SjA8Qi80Eule7j7FtJChk,9
+devshell-0.0.6.dist-info/RECORD,,
