@@ -1,0 +1,3 @@
+[console_scripts]
+pygennaro=pygennaro.commandline:command_line_handler
+

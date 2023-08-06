@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: pygennaro
+Version: 0.1.0
+Summary: BNF parsing, formal grammar conversion and string generation utilities
+License: GPL-3.0-or-later
+Author: Kien Tuong Truong
+Author-email: info@ktruong.dev
+Requires-Python: >=3.9,<4.0
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Other Audience
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Artistic Software
+Classifier: Topic :: Games/Entertainment
