@@ -1,0 +1,12 @@
+ethtool:
+fio:
+hdparm:
+infiniband-diags:
+lldpad:
+pciutils:
+sdparm:
+smartmontools:
+sysbench:
+
+biosdevname:
+    when: IPA_DISTRO_FAMILY = rh
