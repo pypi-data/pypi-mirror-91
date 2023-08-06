@@ -1,0 +1,12 @@
+piskle/__init__.py,sha256=0nMM5JsemtcK2WE2h2SNUTgQnsjI_JawcSMKKLYxrV4,741
+piskle/_piskle_initializer.py,sha256=SLPUZKyMUaC3oPZH8hjQngl_LXLu0yPFvSHHmxXl9aQ,4001
+piskle/partial_object.py,sha256=qa6nn_mgujMNT1_F4hTCyXQAY9nSsZH55xzp7sGaaMM,38
+piskle/partializer.py,sha256=bA_BbRs-1oQpL96F8UitjYuThzroi37qThUFav-nMUE,2756
+piskle/piskle.py,sha256=RKMTfon_DeJAGL5ispu3if6uRPLgnUxk1RrPxCSNMd8,2068
+piskle/sklearn_piskle_partializer.py,sha256=U22YC44F3J-LyOw9siyxOZGVs1RluTJXmDydbqh0SC4,603
+piskle/utils.py,sha256=xGrRgYJMYDCTGvnirg16yRapPl0Su50CnsaA0DD8hpE,278
+piskle-0.1.1.dist-info/LICENSE,sha256=55dwSQAuw_Py1rUQSTu7bFzBH4oGkgkbLNcq-_qmZjI,1101
+piskle-0.1.1.dist-info/METADATA,sha256=EhFkr4KB7wvVVY7YbWaVm1HlLg2EVhQ55swpb0cjNGw,4566
+piskle-0.1.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+piskle-0.1.1.dist-info/top_level.txt,sha256=QJy2bEveQWaw5ooA9U_p1fhY1hsvk1vi-7fkbU7DJAw,7
+piskle-0.1.1.dist-info/RECORD,,
