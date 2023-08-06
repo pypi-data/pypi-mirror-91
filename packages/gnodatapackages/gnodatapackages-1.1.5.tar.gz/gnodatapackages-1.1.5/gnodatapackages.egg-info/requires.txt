@@ -1,0 +1,3 @@
+pandas
+string
+ftfy
