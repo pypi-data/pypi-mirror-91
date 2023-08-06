@@ -1,0 +1,17 @@
+Metadata-Version: 1.2
+Name: insight_extractor
+Version: 0.1.0
+Summary: Identify Insights in Full Text Documents
+Home-page: https://github.com/NoahFinberg/insight_extractor
+Author: Noah Finberg
+Author-email: noahfinberg@gmail.com
+License: MIT
+Description: Identify Insights in Full Text Documents
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Python: >=3.6.0
