@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: LyricMasterAPI-LyricScrapping
+Version: 1.0.0
+Summary: LyricMaster's API in Python
+Home-page: UNKNOWN
+Author: proguy914629
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: aiohttp
+Requires-Dist: requests
+Requires-Dist: lyrics-extractor
+Requires-Dist: asyncio
+
+# LyricMaster
+
+LyricMaster's API.
+
+This API can get Lyrics and get some more Info!
+
