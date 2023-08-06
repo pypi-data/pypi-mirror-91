@@ -1,0 +1,3 @@
+[console_scripts]
+james = james.cli:main
+
