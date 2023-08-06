@@ -1,0 +1,13 @@
+CHANGELOG.txt
+LICENSE.txt
+MANIFEST.in
+README.txt
+setup.py
+abkp009_simple_calc.egg-info/PKG-INFO
+abkp009_simple_calc.egg-info/SOURCES.txt
+abkp009_simple_calc.egg-info/dependency_links.txt
+abkp009_simple_calc.egg-info/top_level.txt
+calc/__init__.py
+calc.egg-info/SOURCES.txt
+calc.egg-info/dependency_links.txt
+calc.egg-info/top_level.txt

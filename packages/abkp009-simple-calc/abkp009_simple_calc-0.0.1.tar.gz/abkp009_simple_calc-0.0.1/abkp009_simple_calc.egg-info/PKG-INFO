@@ -1,0 +1,21 @@
+Metadata-Version: 1.1
+Name: abkp009-simple-calc
+Version: 0.0.1
+Summary: A very basic calculator
+Home-page: UNKNOWN
+Author: Abhishek Pandey
+Author-email: abkp009@gmail.com
+License: MIT
+Description: simple calculator
+        
+        16 Jan 2021
+        ------------
+        Author: Abhishek Pandey
+        Change: initial checkin
+Keywords: calculator
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
