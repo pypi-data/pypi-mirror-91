@@ -1,0 +1,10 @@
+MANIFEST.in
+README.txt
+setup.py
+demo/__init__.py
+demo/demo.py
+demo/demo.txt
+haetek_demo.egg-info/PKG-INFO
+haetek_demo.egg-info/SOURCES.txt
+haetek_demo.egg-info/dependency_links.txt
+haetek_demo.egg-info/top_level.txt
