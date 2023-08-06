@@ -1,0 +1,24 @@
+Metadata-Version: 1.1
+Name: passant
+Version: 0.0.1
+Summary: A very basic tensorflow
+Home-page: https://github.com/ASU-DEVs/NNFramework
+Author: 98Passant_Elbaroudy.98
+Author-email: passantbaroodyy@hotmail.com
+License: MIT
+Description: our code
+        
+        change log
+        ==========
+        
+        0.0.1(17/01/2021)
+        -----------------
+        First Release
+        
+Keywords: layer
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
