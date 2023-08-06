@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: svm2csr
+Version: 0.2.4
+Author: Vladimir Feinberg <vladimir.feinberg@gmail.com>
+Author-Email: Vladimir Feinberg <vladimir.feinberg@gmail.com>
+Maintainer: Vladimir Feinberg
+Maintainer-Email: vladimir.feinberg@gmail.com
+Project-URL: github, https://github.com/vlad17/svm2csr
