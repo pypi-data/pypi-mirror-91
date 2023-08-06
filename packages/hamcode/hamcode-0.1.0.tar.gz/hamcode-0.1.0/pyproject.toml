@@ -1,0 +1,36 @@
+# Poetry pyproject.toml: https://python-poetry.org/docs/pyproject/
+[build-system]
+requires = ["poetry_core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry]
+authors = ["peach lasagna <kir.kud@inbox.ru>"]
+maintainers = ["baskiton"]
+description = "True implementation of Hamming Code on Python"
+license = "MIT"
+repository = "https://github.com/peach-lasagna/True-Hamming-Code"
+name = "hamcode"
+readme = "README.md"
+version = "0.1.0"
+
+homepage = "https://github.com/peach-lasagna/True-Hamming-Code"
+keywords = [
+  "hamming",
+  "hamming code",
+  "hamcode",
+  "decode",
+  "telecommunication"
+]
+packages = [
+  { include = "hamcode" },
+]
+# Pypi classifiers: https://pypi.org/classifiers/
+classifiers = [
+  "Intended Audience :: Telecommunications Industry",
+  "Topic :: Scientific/Engineering :: Mathematics"
+]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+[tool.poetry.dev-dependencies]

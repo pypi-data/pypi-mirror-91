@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: hamcode
+Version: 0.1.0
+Summary: True implementation of Hamming Code on Python
+Home-page: https://github.com/peach-lasagna/True-Hamming-Code
+License: MIT
+Keywords: hamming,hamming code,hamcode,decode,telecommunication
+Author: peach lasagna
+Author-email: kir.kud@inbox.ru
+Maintainer: baskiton
+Requires-Python: >=3.9,<4.0
+Classifier: Intended Audience :: Telecommunications Industry
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Project-URL: Repository, https://github.com/peach-lasagna/True-Hamming-Code
+Description-Content-Type: text/markdown
+
+
