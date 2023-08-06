@@ -1,0 +1,13 @@
+meaningless/__init__.py,sha256=8ZoUZgzvUJEgGajfsU7QRECtqYXFe0OGbE2mgGXushU,867
+meaningless/bible_web_extractor.py,sha256=y9VmUIElUVmSgkSGgd1mXTac46f7xAmWyEXXwdKDq2E,19352
+meaningless/bible_yaml_downloader.py,sha256=Pkm9SJwqe57Te_PKxXofPalzv2Q3cxou0SXg_LuEpNY,18653
+meaningless/bible_yaml_extractor.py,sha256=UaC2E-B6gzX0850OrJev6cHnywoo5-Tldgqe1aeR8RU,12805
+meaningless/utilities/__init__.py,sha256=wRlI4NoNAW43uBzlRE6ZqEbYBvjQnrUuuZ7dnpOCmws,275
+meaningless/utilities/common.py,sha256=h4GAFqRgOn6x_xPG5KixOUDs60kkAQeiG6HRMaxxTA4,9531
+meaningless/utilities/exceptions.py,sha256=Dc2rETE7-23YHSgy__Fk2EE567CzIdy3wgf3JH3x_YU,3644
+meaningless/utilities/yaml_file_interface.py,sha256=YoulUgs2cqhq6f_SfyCdTu0FubiWxjRMnarpObCAy5w,1675
+meaningless-0.1.0.dist-info/LICENSE.md,sha256=eVs8cp3sZXWtKq1MLVDk-TywPlb1ed-HwQG1wLMfBl0,1068
+meaningless-0.1.0.dist-info/METADATA,sha256=pSJAKg9SMksLgRYCPkJ2LN3LHgwvv6jU0t9SoXmycE4,7966
+meaningless-0.1.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+meaningless-0.1.0.dist-info/top_level.txt,sha256=N_xQkcq39_guXweNnTZfBcNz2crcOtlqAakfVzetWoI,12
+meaningless-0.1.0.dist-info/RECORD,,
