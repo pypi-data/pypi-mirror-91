@@ -1,0 +1,9 @@
+mutract/__init__.py,sha256=AWmpbvSGbUj7sLHsKP0THh-HJPoxvH7qp_ERNcVh_oE,19
+mutract/mutract.py,sha256=A-CZLzAp6bPki3FVaGZ4Lqd7ikjre643X7NWDuSXpTE,791
+mutract/tests.py,sha256=uD0fGAG9ciDOP-38nPBx8qfxfdjjP8c5Dlyy9zLGgCI,3383
+mutract/utils.py,sha256=vT6Zqo05nV8vMgih6lhKGEhtztC79Dl7sOOdE0cRQO0,14699
+mutract-1.0.dist-info/METADATA,sha256=XeeDGWeJzw8Pj5iFvgOUj5g87VGd_ohJDV3CqDaPeok,2417
+mutract-1.0.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+mutract-1.0.dist-info/entry_points.txt,sha256=FGWSDz2IgFSevN1KXI77pWlafMetadjlf__EaNo2oPU,50
+mutract-1.0.dist-info/top_level.txt,sha256=qBRapgjEBBxwDDv6yKFo8Ga7yFJpBTEWUs6heFwSvCo,8
+mutract-1.0.dist-info/RECORD,,
