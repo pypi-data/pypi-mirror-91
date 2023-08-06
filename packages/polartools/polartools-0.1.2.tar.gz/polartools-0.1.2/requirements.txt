@@ -1,0 +1,7 @@
+# List required packages in this file, one per line.
+numpy
+matplotlib
+pandas
+scipy
+lmfit
+spec2nexus

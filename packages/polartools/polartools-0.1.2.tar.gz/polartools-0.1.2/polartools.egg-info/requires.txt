@@ -1,0 +1,6 @@
+numpy
+matplotlib
+pandas
+scipy
+lmfit
+spec2nexus
