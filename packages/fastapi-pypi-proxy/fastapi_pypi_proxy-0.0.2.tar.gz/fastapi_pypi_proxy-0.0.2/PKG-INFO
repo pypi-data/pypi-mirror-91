@@ -1,0 +1,11 @@
+Metadata-Version: 1.2
+Name: fastapi_pypi_proxy
+Version: 0.0.2
+Summary: A pypi proxy using fastapi
+Home-page: https://github.com/singingplayer/fastapi-pypi-proxy
+Author: xyzou
+Author-email: zouxinyin1992@163.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >3.6.0
