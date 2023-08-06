@@ -1,0 +1,3 @@
+[console_scripts]
+cc_bbdml = corncob.command_line:main
+
