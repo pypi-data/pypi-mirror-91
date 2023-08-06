@@ -1,0 +1,52 @@
+{% extends 'base.html' %}
+
+{% block write_active %}active{% endblock %}
+
+{% block right_pannel %}
+<div class="form-group row">
+	<div class="col-md-12" id="tools">
+		<a class="btn btn-secondary" id="undo">Undo</a>
+		<a class="btn btn-secondary" id="reset">Reset</a>
+		<a class="btn btn-primary" id="save">Submit</a>
+	</div>
+	<div class="col-md-12" id="box-block">
+		<div id="box">
+
+		</div>
+	</div>
+	<div class="col-md-12">
+		<span id="formula"> </span>
+	</div>
+</div>
+{% endblock %}
+{% block script %}
+<script>
+	$(function() {
+		$("#box").jSignature({"UndoButton": true});
+	});
+	$("#save").click(function() {
+		let datapair = $("#box").jSignature("getData", "image");
+		$.ajax({
+			url: '/submit',
+			type: 'POST',
+			dataType: "text",
+			data: {
+				image_uri: 'data:' + datapair[0] + "," + datapair[1],
+			},
+		})
+		.done(function(response) {
+			let res = JSON.parse(response);
+			add_formula(res.latex_styled, parseFloat(res.confidence_rate));
+		})
+		.fail(function() {
+			console.log("error");
+		});   
+	});
+	$("#reset").click(function(){
+		$("#box").jSignature("reset");
+	});
+	$("#undo").click(function() {
+		$("#box input").click()
+	});
+</script>
+{% endblock %}

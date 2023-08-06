@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8">
+<script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdn.bootcdn.net/ajax/libs/jSignature/2.1.3/jSignature.min.js"></script>
+<script src="https://cdn.bootcdn.net/ajax/libs/jSignature/2.1.3/flashcanvas.js"></script>
+<script src="https://cdn.bootcdn.net/ajax/libs/twitter-bootstrap/4.5.3/js/bootstrap.min.js"></script>
+<link href="https://cdn.bootcdn.net/ajax/libs/twitter-bootstrap/4.5.3/css/bootstrap.min.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.bootcss.com/KaTeX/0.11.1/katex.min.css">
+<script defer src="https://cdn.bootcss.com/KaTeX/0.11.1/katex.min.js"></script>
+<link rel="icon" href="/static/Calculation-64.ico" type="image/x-icon" />
+<link rel="shortcut icon" href="/static/Calculation-64.ico" type="image/x-icon"/>
+<style type="text/css">
+	html, body {
+		height: 100%;
+		width: 100%;
+		overflow: hidden;
+	}
+	#box {
+		width: 100%;
+		border: 1px solid #000;
+	}
+	canvas {
+		height: 500px !important;
+	}
+	#formula {
+		font-size: 50px;
+	}
+	#tools {
+		height: 60px;
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+	#tools .btn {
+		width: 100px;
+		margin-right: 20px; 
+	}
+	#box input {
+		display: none !important;
+	}
+	#box-block {
+		margin-top: 5px;
+	}
+	#main {
+		margin: 0;
+		margin-top: 56px;
+		height: calc(100% - 56px);
+	}
+	.nav-item {
+		padding-left: 10px;
+	}
+	#left-pannel {
+		background-color: #EEE;
+		height: 100%;
+		overflow-y: auto;
+	}
+	#formulas {
+		list-style: none;
+		margin-top: 20px;
+		padding-right: 20px;
+	}
+	#formulas li {
+		padding-top: 30px;
+	}
+	#formulas li:hover {
+		cursor: pointer;
+		color: #1e7e34;
+	}
+	.progress {
+		height: 5px;
+		background-color: #ffffff;
+	}
+	.progress-bar {
+		background-color: #6c757d;
+	}
+</style>
+<body>
+	<nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top row">
+		  <a class="navbar-brand col-md-4" id="brand">FormuLaTeX</a>
+		  <ul class="navbar-nav col-md-8">
+			<li class="nav-item">
+			  <a class="nav-link {% block write_active %}{% endblock %}" href="/">WRITE</a>
+			</li>
+			<li class="nav-item">
+			  <a class="nav-link {% block paste_active %}{% endblock %}" href="/paste">PASTE</a>
+			</li>
+			<li class="nav-item">
+			  <a class="nav-link {% block photo_active %}{% endblock %}" href="#">PHOTO</a>
+			</li>
+		  </ul>
+	</nav>
+	<div class="row" id="main">
+		<div class="col-md-4" id="left-pannel">
+			<ul id="formulas">
+				
+			</ul>
+		</div>
+		<div class="col-md-8" id="right-pannel">
+			{% block right_pannel %}
+			<div class="form-group row">
+				<div class="col-md-12" id="tools">
+					<a class="btn btn-secondary" id="undo">Undo</a>
+					<a class="btn btn-secondary" id="reset">Reset</a>
+					<a class="btn btn-primary" id="save">Submit</a>
+				</div>
+				<div class="col-md-12" id="box-block">
+					<div id="box">
+
+					</div>
+				</div>
+				<div class="col-md-12">
+					<span id="formula"> </span>
+				</div>
+			</div>
+			{% endblock %}
+		</div>
+	</div>
+<script>
+	function copy2clip(elem) {
+		$.ajax({
+			url: '/copy',
+			type: 'POST',
+			dataType: "text",
+			data: {
+				latex: $(elem).attr("data")
+			},
+		}).done(function() {
+			console.log("copy success!");
+		});
+	}
+	function add_formula(formula, rate) {
+		let formula_html = katex.renderToString(formula, {
+			throwOnError: false
+		});
+		let list_item = "<li onclick='copy2clip(this)' data='" + formula + "'>" + formula_html + "</li>" + '<div class="progress"><div class="progress-bar" style="width:' + rate * 100 + '%"></div></div>'
+		$("#formulas").prepend(list_item);
+	}
+	$(function() {
+		{% for rate, formula in formulas %}
+			add_formula("{{formula|safe}}", {{rate}});
+		{% endfor %}
+		$("#brand").click(function(event) {
+			$.ajax({
+				url: '/usage',
+				type: 'POST',
+			})
+			.done(function(usage) {
+				console.log("success");
+				alert(usage);
+			})
+			.fail(function() {
+				console.log("error");
+			})	
+		});
+	});
+</script>
+{% block script %}
+{% endblock %}
+</body>
+</html>

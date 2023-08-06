@@ -1,0 +1,69 @@
+{% extends 'base.html' %}
+
+{% block paste_active %}active{% endblock %}
+
+{% block right_pannel %}
+<style type="text/css">
+	#paste_input {
+		padding-top: 20px;
+	}
+	#testInput {
+		width: 100%;
+		outline: none;
+		border: none;
+		border-bottom: 2px solid #6c757d;
+	}
+</style>
+<div id="paste_input">
+	<input type="text" id="testInput" placeholder="Paste after snipping" size="30" />
+	<img id="snip_preview" src="" style="margin-top: 15px" />
+</div>
+{% endblock %}
+{% block script %}
+<script type="text/javascript">
+$(function(){
+	var imgReader = function( item ){
+		var blob = item.getAsFile(), reader = new FileReader();
+		reader.onload = function( e ){
+			$("#snip_preview").attr("src", e.target.result);
+			$.ajax({
+				url: '/submit',
+				type: 'POST',
+				dataType: "text",
+				data: {
+					image_uri: e.target.result,
+				},
+			})
+			.done(function(response) {
+				let res = JSON.parse(response);
+				add_formula(res.latex_styled, parseFloat(res.confidence_rate));
+			})
+			.fail(function() {
+				console.log("error");
+			});  
+		};
+		reader.readAsDataURL( blob );
+	};
+	document.getElementById( 'testInput' ).addEventListener('paste', function(e){
+		var clipboardData = e.clipboardData, i = 0, items, item, types;
+		if( clipboardData ){
+			items = clipboardData.items;
+			if( !items ){
+				return;
+			}
+			item = items[0];
+			types = clipboardData.types || [];
+			for( ; i < types.length; i++ ){
+				if( types[i] === 'Files' ){
+					item = items[i];
+					break;
+				}
+			}
+			if( item && item.kind === 'file' && item.type.match(/^image\//i) ){
+				imgReader( item );
+			}
+		}
+	});
+});  
+</script>
+{% endblock %}

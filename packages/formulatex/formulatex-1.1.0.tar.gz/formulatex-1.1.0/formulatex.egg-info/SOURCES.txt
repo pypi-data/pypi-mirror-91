@@ -1,0 +1,14 @@
+README.md
+setup.py
+formulatex/__init__.py
+formulatex/math2latex.py
+formulatex.egg-info/PKG-INFO
+formulatex.egg-info/SOURCES.txt
+formulatex.egg-info/dependency_links.txt
+formulatex.egg-info/requires.txt
+formulatex.egg-info/top_level.txt
+statics/Calculation-64.ico
+templates/base.html
+templates/hand_input.html
+templates/history.html
+templates/paste.html

@@ -1,0 +1,52 @@
+Metadata-Version: 2.1
+Name: formulatex
+Version: 1.1.0
+Summary: A web app to translate formulas into latex
+Home-page: https://github.com/ThomasAtlantis/mathpix-formulatex
+Author: Shangyu Liu
+Author-email: liushangyu@sjtu.edu.cn
+License: MIT
+Description: ## FormuLaTeX
+        
+        FormuLaTeX是一个可将公式识别为LaTeX源码的轻量级Web应用。在本地的PC端开启服务器后，局域网内任何支持浏览器的设备都可以访问其功能。通过对[Mathpix](https://mathpix.com/)开发者API的封装，它不仅可以识别截图或照片中的公式，还支持移动端尤其是平板电脑进行手写输入，识别的结果将自动传送到PC的剪贴板中，从而实现了移动端手写和PC端LaTeX编辑的无缝衔接。
+        
+        ### 使用方法
+        
+        Execute the commands in your terminal
+        
+        ```
+        pip install -i https://pypi.tuna.tsinghua.edu.cn/simple pyperclip
+        pip install -i https://pypi.tuna.tsinghua.edu.cn/simple flask
+        cd mathpix-formulatex
+        python math2latex.py
+        ```
+        
+        Visit the website URL with a browser
+        
+        ![](https://tva1.sinaimg.cn/large/0081Kckwly1gkb4l22x6kj318w0caqip.jpg)
+        
+        Notice that the URL in this demo's outputs is `http://10.162.129.100:8000/`
+        
+        ![](https://tva1.sinaimg.cn/large/0081Kckwly1gkb4qsse2vj31j30u0grx.jpg)
+        
+        Your querying history is shown on the left side. There will be nothing if you are running this program first time on your machine. The bar below each formula means the confidence of OCR result.
+        
+        **WRITE** You can handwrite your formula on the right canvas with your mouse on PC or iPencil on iPad. Click `Undo` to withdraw your last stroke. Click `Reset` to clean up the canvas. Click `Submit` and wait a second to get OCR result. When you see a new record show up on the left side, it means the result has already been copied into your clipboard. You can copy the result again by clicking on the corresponding formula.
+        
+        ![](https://tva1.sinaimg.cn/large/0081Kckwly1gkb5fnq52ej31j90u044y.jpg)
+        
+        **PASTE** You can get a screenshot with tools of third party, eg. Sougou Pinyin for Windows and `Command+Shift+4` for Mac OS. Then paste your picture into the input box on the right side. Then you will get a preview of the screenshot below the input box. When you see a new record show up on the left side, it means the result has already been copied into your clipboard. You can copy the result again by clicking on the corresponding formula.
+        
+        **PHOTO** To be continued. If you must use a photo, you can copy the photo file and try to paste it into the input box mentioned in introduction to `PASTE`.
+        
+        ### NOTICE
+        
+        +   If there isn't a new record shown up after operations, you should check the output of program in the terminal. Mostly this means your input is too scribble to process.
+        +   There maybe some mistakes in the result, you should always check it manually.
+Keywords: latex mathpix formula
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
