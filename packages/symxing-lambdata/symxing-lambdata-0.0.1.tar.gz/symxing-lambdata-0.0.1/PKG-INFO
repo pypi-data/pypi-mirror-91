@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: symxing-lambdata
+Version: 0.0.1
+Summary: UNKNOWN
+Home-page: https://github.com/symxing/lambdata-symxing
+Author: Symone Hohensee
+Author-email: symone.hohensee@gmail.com
+License: UNKNOWN
+Description: # lambdata-symxing
+        Unit 3 Learning how to build packages
+        ## Installation
+        TODO
+        ## Usage
+        TODO
+        ```py
+        #  todo
+        ```
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
