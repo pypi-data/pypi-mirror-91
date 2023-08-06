@@ -1,0 +1,17 @@
+napari_arnheim/__init__.py,sha256=6rXE_-ep8ontibqqpqgW2OryJvsQgOsA5nEn6XdE_mM,260
+napari_arnheim/auths/implicit/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+napari_arnheim/auths/implicit/backend.py,sha256=KGENfkueJoUhcKURrNk4KagRZD4CUBPF_M-IVFHqfZE,1985
+napari_arnheim/auths/implicit/widgets/login.py,sha256=xQvT-H4Uwax87AdDAEpLeB5SM19plTyzM6TULfRdpE4,2097
+napari_arnheim/client.py,sha256=0rSO1YPz7l-oZg1P__7kKRtCQDTxmXhLZLYirgbonMg,1078
+napari_arnheim/registries/napari.py,sha256=r0m0LJZBD1FU-Rx_V5Dc-GWjiZG0SMg8WMN4bWfaFp4,335
+napari_arnheim/run.py,sha256=j7GVhfqcfhK4SA96pTbDDmONZQw9wm9tdEwS1es2MQ4,212
+napari_arnheim/widgets/__init__.py,sha256=1zqxYu9E0cdg7LaPlaKJEGwzFF4P6OKyqroWg4jHIKY,34
+napari_arnheim/widgets/arnheim.py,sha256=5fcOFxdOb0ti17aGZCPCR74wekYMSufu-DOM0rtIWzQ,2631
+napari_arnheim/widgets/items/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+napari_arnheim/widgets/items/representaiton.py,sha256=WyB-PHL7QWSa410dhE_NK7gzeSacXN7NR_zVClvnb7Q,1199
+napari_arnheim/widgets/lists/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+napari_arnheim/widgets/lists/replist.py,sha256=1DF1m8A2uFhhlXtrl9x8FZ1_tGqc31GiclYUCB3odLQ,992
+napari_arnheim-0.1.1.dist-info/entry_points.txt,sha256=LUnNwh4u5P-oDjxLYeBnCvSC6eMzRxsLf9AxM_h8bEs,58
+napari_arnheim-0.1.1.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+napari_arnheim-0.1.1.dist-info/METADATA,sha256=1hKwscrtiW9RYOE28h1QE9JTA9aHryGIfFHU778-pxg,2493
+napari_arnheim-0.1.1.dist-info/RECORD,,
