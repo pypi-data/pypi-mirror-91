@@ -1,0 +1,14 @@
+clikpython/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+clikpython/clik.py,sha256=BGpLhWxoPtWaAk4ui9QUA_CQ-i-udL8W4oU3Gy3SG6M,3451
+clikpython/encrypt.py,sha256=PNxHMlVrisG4eeWemra5RZ1luDlU2G3a5gdCtHAALmA,3233
+clikpython/helpVersion.py,sha256=weIZPy8L8Y5VLQa9KOv9R152f6ImYbcVBOC2hCMFIaY,807
+clikpython/json_convert.py,sha256=eHPiHoiLQP9TB0iaioLVu18gmf4QbStvLyDk-b99GUg,1784
+clikpython/keys_init.py,sha256=kgf7_RoACvkIVyt8JJxR3vec1u9wIWt4ASL7CHvEZP8,2502
+clikpython/menu_functions.py,sha256=amzcN8z3KI_X2ytowPvu6J04nfpUsUIqFNNoDpYX-Lo,2323
+clikpython/utils.py,sha256=tInyYKVjSlK0ld1T8TsYNBw3f2Q3SwfROi6bmMibvRw,2325
+python_clik-1.0.dist-info/LICENSE,sha256=1sxX9CKrT66_2Qc2FdlBEx-wfrBLgJmzdScBkBmbyZQ,1096
+python_clik-1.0.dist-info/METADATA,sha256=nXYTYLkntoF-YkcV6loJkUYQc96VVYsHSFFxejydzfI,4458
+python_clik-1.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+python_clik-1.0.dist-info/entry_points.txt,sha256=RDe6diirN0WBaxEGVyjEBwQpmqqYMdaRisBQR1oU65g,52
+python_clik-1.0.dist-info/top_level.txt,sha256=Pdhq0OQdURfLSULNxqvC8ZacrPvcVwiJxvLfvfvAOnI,11
+python_clik-1.0.dist-info/RECORD,,
