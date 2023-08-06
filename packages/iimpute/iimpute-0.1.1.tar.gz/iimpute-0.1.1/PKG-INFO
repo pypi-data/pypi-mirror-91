@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: iimpute
+Version: 0.1.1
+Summary: Package to make smart imputation easy
+Home-page: https://gitlab.com/i19/imputation
+Author: ira
+Author-email: ira.saktor@gmail.com
+License: UNKNOWN
+Description: # Imputation
+        
+        A package to make filling of missing values super easy.
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
