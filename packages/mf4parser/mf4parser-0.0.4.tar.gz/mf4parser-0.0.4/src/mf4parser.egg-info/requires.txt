@@ -1,0 +1,4 @@
+asammdf
+pandas
+numpy
+pathlib
