@@ -1,0 +1,15 @@
+flask
+lxml
+pathlib
+tabulate
+sqlalchemy
+setuptools
+Flask_SQLAlchemy
+flask-cors
+flask-socketio
+eventlet
+flask_httpauth
+random_word
+
+[ui]
+FreeTAKServer_UI
