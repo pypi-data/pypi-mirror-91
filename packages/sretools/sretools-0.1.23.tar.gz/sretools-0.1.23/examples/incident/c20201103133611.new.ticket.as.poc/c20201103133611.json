@@ -1,0 +1,37 @@
+{
+  "%Impacted": "100%",
+  "ActionItem": "blabla",
+  "DurationOfProblem": "5H",
+  "HowToRepeat": "xx xx xxx",
+  "Impact": "xx server",
+  "KeywordsForSearch": "storage,blktrace",
+  "LessonLearned": "blabla",
+  "OncallOps": "Yonghang",
+  "References": "n/a",
+  "Resolution": "a,bc,xyz",
+  "RevenueImpact": "unknown",
+  "RootCause": "storage",
+  "ServiceImpacted": "database",
+  "Status": "Resolved",
+  "UserImpact": "all user",
+  "brief": "new ticket as poc",
+  "create_time": "2020-11-03 13:36:11",
+  "incident_number": "c20201103133611",
+  "updates": [
+    {
+      "create_time": "2020-11-03 13:36:43",
+      "update_content": "another update \n 2nd line",
+      "xcontent": "update from command \n 2nd line\n 3rd line"
+    },
+    {
+      "create_time": "2020-11-03 13:37:18",
+      "update_content": "attach a file",
+      "xcontent": "root:x:0:0:root:/root:/bin/bash\nbin:x:1:1:bin:/bin:/sbin/nologin\ndaemon:x:2:2:daemon:/sbin:/sbin/nologin\nadm:x:3:4:adm:/var/adm:/sbin/nologin\nlp:x:4:7:lp:/var/spool/lpd:/sbin/nologin\nsync:x:5:0:sync:/sbin:/bin/sync\nshutdown:x:6:0:shutdown:/sbin:/sbin/shutdown\nhalt:x:7:0:halt:/sbin:/sbin/halt\nmail:x:8:12:mail:/var/spool/mail:/sbin/nologin\noperator:x:11:0:operator:/root:/sbin/nologin\ngames:x:12:100:games:/usr/games:/sbin/nologin\nftp:x:14:50:FTP User:/var/ftp:/sbin/nologin\nnobody:x:65534:65534:Kernel Overflow User:/:/sbin/nologin\ndbus:x:81:81:System message bus:/:/sbin/nologin\nsystemd-coredump:x:999:997:systemd Core Dumper:/:/sbin/nologin\nsystemd-resolve:x:193:193:systemd Resolver:/:/sbin/nologin\ntss:x:59:59:Account used by the trousers package to sandbox the tcsd daemon:/dev/null:/sbin/nologin\npolkitd:x:998:996:User for polkitd:/:/sbin/nologin\nsssd:x:997:993:User for sssd:/:/sbin/nologin\nsshd:x:74:74:Privilege-separated SSH:/var/empty/sshd:/sbin/nologin\nchrony:x:996:992::/var/lib/chrony:/sbin/nologin\nrngd:x:995:991:Random Number Generator Daemon:/var/lib/rngd:/sbin/nologin\nyonghang:x:6666:6666:yonghang:/home/yonghang:/bin/bash\nunbound:x:994:990:Unbound DNS resolver:/etc/unbound:/sbin/nologin\npcp:x:993:989:Performance Co-Pilot:/var/lib/pcp:/sbin/nologin\ntcpdump:x:72:72::/:/sbin/nologin\n"
+    },
+    {
+      "create_time": "2020-11-03 13:37:39",
+      "update_content": "attach from vi",
+      "xcontent": "[yonghang@x200 sretools]$ ls -l\ntotal 16\ndrwxrwxr-x. 2 yonghang yonghang   36 Nov  3 13:29 dist\ndrwxrwxr-x. 2 yonghang yonghang   29 Nov  3 13:18 examples\n-rw-rw-r--. 1 yonghang yonghang 1087 Nov  3 11:51 LICENSE\n-rw-rw-r--. 1 yonghang yonghang   37 Nov  3 11:51 README.md\n-rw-rw-r--. 1 yonghang yonghang 1160 Nov  3 13:29 setup.py\ndrwxrwxr-x. 2 yonghang yonghang  114 Nov  3 13:28 sretools\ndrwxrwxr-x. 2 yonghang yonghang  134 Nov  3 13:03 sretools.egg-info\n-rwxrwxr-x. 1 yonghang yonghang  252 Nov  3 11:51 upload2pypi\n"
+    }
+  ]
+}

@@ -1,0 +1,172 @@
+Usage: usage : python3 -m yssh [options] 
+
+Options:
+  -h, --help            show this help message and exit
+  -r REMOTE, --remote=REMOTE
+                        remote servers. format of host1,host2,host3. Accepts
+                        host:port or user@host:port as well.
+  -c COMMAND, --command=COMMAND
+                        command to run remotely
+  -f SCRIPT, --script=SCRIPT
+                        script to run remotely
+  -u USER, --user=USER  user
+  -p PASSWORD, --password=PASSWORD
+                        password
+  -W WORKER, --worker=WORKER
+                        max number of workers
+  -C CALL, --call=CALL  way to call script, work with -f. eg. "python3
+                        {{THEONE}}"
+  -i PKEY, --pkey=PKEY  private key file for ssh
+  -w WORKDIR, --workdir=WORKDIR
+                        cache dir for script on remote server
+  -t TIMEOUT, --timeout=TIMEOUT
+                        default timeout. better > 5
+  -O OPTION, --option=OPTION
+                        extra option for ssh command
+  -I INIT, --init=INIT  command to run after ssh connection established.
+  -X, --debug           debug mode
+  -R, --remove          remove script and log after run
+  -A, --removeall       with -R, remove all in remote cache
+  -k, --rm_conflict_key
+                        remove known_hosts item without confirmation. this is
+                        useful when a large number of target server being
+                        rebuilt frequently.
+  -v, --verbose         show more info eg. command/script name
+  -T, --tmpfile         use random temp name to avoid conflict
+  
+  
+  note,
+  1.  -r is a server LIST.  
+  2.  -f is a script or a DIR.  when DIR, use the placeholder "{THEONE}" if you want to run script under it.
+  3.  -O add extra SSH options you may need in your environment.
+  4.  -X debug mode.
+  5.  -T by default a script/dir is copied to .cache/yssh dir. In case the account is shared and there may be conflicts, use -T to make sure you have a standalone copy.
+  6.  by default parallel level is set to min(4, #servers).  change this by -W.
+  7.  -k in case the target server may have been rebuilt.
+  8.  all output are grouped by host.  somehow it's one of the most important reason I'm writing this utility for parallel SSH processing.
+  
+  
+[root@n1 examples]# time python3 -myssh -u root -r n1.leonawang.com,c1.leonawang.com,c2.leonawang.com -p $mypwd -c "date;sleep 5;date"
+# HOST : [c1.leonawang.com]
+Mon Jul  6 11:14:31 EDT 2020
+Mon Jul  6 11:14:36 EDT 2020
+
+# HOST : [c2.leonawang.com]
+Mon Jul  6 11:14:31 EDT 2020
+Mon Jul  6 11:14:36 EDT 2020
+
+# HOST : [n1.leonawang.com]
+Mon Jul  6 11:14:31 EDT 2020
+Mon Jul  6 11:14:36 EDT 2020
+
+
+real    0m5.824s
+user    0m0.263s
+sys     0m0.093s
+[root@n1 examples]# 
+[root@n1 examples]# 
+[root@n1 examples]# time python3 -myssh -W2 -u root -r n1.leonawang.com,c1.leonawang.com,c2.leonawang.com -p $mypwd -c "date;sleep 5;date"
+# HOST : [c1.leonawang.com]
+Mon Jul  6 11:14:43 EDT 2020
+Mon Jul  6 11:14:48 EDT 2020
+
+# HOST : [n1.leonawang.com]
+Mon Jul  6 11:14:43 EDT 2020
+Mon Jul  6 11:14:48 EDT 2020
+
+# HOST : [c2.leonawang.com]
+Mon Jul  6 11:14:48 EDT 2020
+Mon Jul  6 11:14:53 EDT 2020
+
+
+real    0m11.435s
+user    0m0.275s
+sys     0m0.091s
+[root@n1 examples]# 
+[root@n1 examples]# 
+[root@n1 examples]# time python3 -myssh -W1 -u root -r n1.leonawang.com,c1.leonawang.com,c2.leonawang.com -p $mypwd -c "date;sleep 5;date"
+# HOST : [n1.leonawang.com]
+Mon Jul  6 11:15:01 EDT 2020
+Mon Jul  6 11:15:06 EDT 2020
+
+# HOST : [c1.leonawang.com]
+Mon Jul  6 11:15:06 EDT 2020
+Mon Jul  6 11:15:11 EDT 2020
+
+# HOST : [c2.leonawang.com]
+Mon Jul  6 11:15:12 EDT 2020
+Mon Jul  6 11:15:17 EDT 2020
+
+
+real    0m16.819s
+user    0m0.352s
+sys     0m0.102s
+  
+  
+ 
+  
+[root@n1 tmp]# cat scripts/t1.sh
+echo this is t1
+sleep 2
+echo end of t1
+[root@n1 tmp]# 
+[root@n1 tmp]# cat scripts/t2.sh
+echo this is t2
+sleep 2
+echo call t1
+./t1.sh
+echo end of t2
+
+
+[root@n1 tmp]# time python3 -myssh -u root -r n1.leonawang.com,c1.leonawang.com,c2.leonawang.com -p $mypwd -f scripts/t1.sh
+# HOST : [c2.leonawang.com]
+this is t1
+end of t1
+
+# HOST : [c1.leonawang.com]
+this is t1
+end of t1
+
+# HOST : [n1.leonawang.com]
+this is t1
+end of t1
+
+
+real    0m4.097s
+user    0m0.495s
+sys     0m0.207s
+[root@n1 tmp]#
+
+[root@n1 tmp]# time python3 -myssh -u root -r n1.leonawang.com,c1.leonawang.com,c2.leonawang.com -p $mypwd -f scripts -C "{{THEONE}}/t2.sh"
+# HOST : [c2.leonawang.com]
+this is t2
+call t1
+this is t1
+end of t1
+end of t2
+
+# HOST : [c1.leonawang.com]
+this is t2
+call t1
+this is t1
+end of t1
+end of t2
+
+# HOST : [n1.leonawang.com]
+this is t2
+call t1
+this is t1
+end of t1
+end of t2
+
+
+real    0m7.041s
+user    0m0.613s
+sys     0m0.277s
+
+
+
+
+
+  
+  

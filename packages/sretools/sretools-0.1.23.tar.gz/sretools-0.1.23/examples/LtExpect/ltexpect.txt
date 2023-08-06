@@ -1,0 +1,119 @@
+
+1. test script
+clear@x2~/projects/ltexpect $ ltexpect -h
+usage: ltexpect [-h] [--command COMMAND] [--const CONSTS] [--rule RULES] [--timeout TIMEOUT] [--debug]
+
+optional arguments:
+  -h, --help         show this help message and exit
+  --command COMMAND  command to spawn
+  --const CONSTS     const->value
+  --rule RULES       pattern->response
+  --timeout TIMEOUT  timeout
+  --debug            debug mode
+  
+2. help info
+
+clear@x2~/projects/ltexpect $ ltexpect -h
+usage: ltexpect [-h] [--command COMMAND] [--const CONSTS] [--rule RULES] [--timeout TIMEOUT] [--debug]
+
+optional arguments:
+  -h, --help         show this help message and exit
+  --command COMMAND  command to spawn
+  --const CONSTS     const->value
+  --rule RULES       pattern->response
+  --timeout TIMEOUT  timeout
+  --debug            debug mode
+  
+ 3. use ltexpect to automate it
+ 
+clear@x2~ $ ltexpect  --command "bash /home/clear/tmp/test" --rule "name->wang" --rule "age->100"
+# pls input your name :wang
+# pls input your age :100
+Answer: wang is 100 years old
+clear@x2~ $ 
+
+4. Suppose you want some adhoc INPUT. or you may want to hide your input as PASSWORD.  you can use "const", and this will parsed in rules when in format of "{{%const}}". The parsing is recursive. So make sure you don't introduce a loop there.
+
+clear@x2~ $ ltexpect  --command "bash /home/clear/tmp/test" --const "myname->INPUT" --rule "name->{{myname}}" --rule "age->100"
+% myname : laowang
+# pls input your name :laowang
+# pls input your age :100
+Answer: laowang is 100 years old
+clear@x2~ $ 
+clear@x2~ $ 
+clear@x2~ $ ltexpect  --command "bash /home/clear/tmp/test" --const "myname->PASSWORD" --rule "name->{{myname}}" --rule "age->100"
+% myname : 
+# pls input your name :laowang
+# pls input your age :100
+Answer: laowang is 100 years old
+clear@x2~ $ 
+
+5. + multiple actions with %CMD
+here, the command is something NOT interactive action in expect way, but as something like a trigger that ltexpect will run the command per request.
+this can be used for logging, or for some special situation, eg. the command exit with some error code/msg, we cannot use expect way to send command as pexpect has exited already, then use %CMD to fix it.
+
+clear@x2~/projects/ltexpect/ltexpect $ ltexpect --command "bash /home/clear/tmp/test" --const "myname->wang" --rule "name->{{myname}}" --rule "age->100;%CMD=echo 111 > /tmp/xx;%
+CMD=date > /tmp/ddd"
+# pls input your name :wang
+# pls input your age :100
+Answer: wang is 100 years old
+%CMD=echo 111 > /tmp/xx
+%CMD=date > /tmp/ddd
+clear@x2~/projects/ltexpect/ltexpect $ 
+clear@x2~/projects/ltexpect/ltexpect $ 
+clear@x2~/projects/ltexpect/ltexpect $ cat /tmp/xx
+111
+clear@x2~/projects/ltexpect/ltexpect $ 
+clear@x2~/projects/ltexpect/ltexpect $ cat /tmp/ddd
+Thu 09 Jul 2020 02:33:46 AM UTC
+clear@x2~/projects/ltexpect/ltexpect $ 
+
+
+6. RESPAWN when original process/expect exit 
+this is useful in above situaiton.  original process exit, so you do something and want to restart the same process.
+%RESPAWN only works when ltexpect detects end of execution(EOF) immediately after. or it will just be ignored.
+
+in below example, I produced an infinite loop.
+
+clear@x2~ $ /usr/bin/ltexpect  --command "bash /home/clear/tmp/test"  --rule "name->wang" --rule "age->100;%CMD=echo dosomething>>/tmp/tx;%RESPAWN"
+# pls input your name :wang
+# pls input your age :100
+Answer: wang is 100 years old
+%CMD=echo dosomething>>/tmp/tx
+# pls input your name :wang
+# pls input your age :100
+Answer: wang is 100 years old
+%CMD=echo dosomething>>/tmp/tx
+# pls input your name :wang
+# pls input your age :100
+Answer: wang is 100 years old
+%CMD=echo dosomething>>/tmp/tx
+# pls input your name :wang
+# pls input your age :100
+Answer: wang is 100 years old
+%CMD=echo dosomething>>/tmp/tx
+# pls input your name :wang
+# pls input your age :100
+Answer: wang is 100 years old
+%CMD=echo dosomething>>/tmp/tx
+# pls input your name :wang
+#^C pls input your ageTraceback (most recent call last):
+  File "/usr/bin/ltexpect", line 8, in <module>
+    sys.exit(main())
+  File "/usr/lib/python3.8/site-packages/ltexpect/__main__.py", line 39, in main
+    le.spawn()
+  File "/usr/lib/python3.8/site-packages/ltexpect/ltexpect.py", line 118, in spawn
+    self.child.sendline(rsp)
+  File "/home/clear/.local/lib/python3.8/site-packages/pexpect/pty_spawn.py", line 578, in sendline
+    return self.send(s + self.linesep)
+  File "/home/clear/.local/lib/python3.8/site-packages/pexpect/pty_spawn.py", line 563, in send
+    time.sleep(self.delaybeforesend)
+KeyboardInterrupt
+
+clear@x2~ $ 
+clear@x2~ $ cat /tmp/tx
+dosomething
+dosomething
+dosomething
+dosomething
+dosomething
