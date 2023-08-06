@@ -1,0 +1,6 @@
+numpy
+gitpython
+
+[ds]
+torch
+matplotlib
