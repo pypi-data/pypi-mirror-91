@@ -1,0 +1,10 @@
+MANIFEST.in
+README.md
+setup.py
+gen_names_wmilczarek.egg-info/PKG-INFO
+gen_names_wmilczarek.egg-info/SOURCES.txt
+gen_names_wmilczarek.egg-info/dependency_links.txt
+gen_names_wmilczarek.egg-info/requires.txt
+gen_names_wmilczarek.egg-info/top_level.txt
+getnames2wojtek/__init__.py
+getnames2wojtek/getnames2.py
