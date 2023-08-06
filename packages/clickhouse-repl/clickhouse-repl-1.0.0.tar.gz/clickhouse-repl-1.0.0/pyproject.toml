@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "clickhouse-repl"
+version = "1.0.0"
+description = "A toolkit for running ClickHouse queries interactively, leveraging the perks of an ipython console"
+readme = "README.md"
+authors = ["klic.tools"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+click = "^7.1.2"
+clickhouse-driver = "^0.2.0"
+ipython = "^7.9.0"
+jedi = "<0.18.0"
+
+[tool.poetry.dev-dependencies]
+
+[tool.poetry.scripts]
+clickhouse-repl = "clickhouse_repl.main:cli"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
