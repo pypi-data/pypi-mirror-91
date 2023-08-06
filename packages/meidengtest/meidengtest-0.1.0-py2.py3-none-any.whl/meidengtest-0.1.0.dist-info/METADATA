@@ -1,0 +1,71 @@
+Metadata-Version: 2.1
+Name: meidengtest
+Version: 0.1.0
+Summary: Python Boilerplate contains all the boilerplate you need to create a Python package.
+Home-page: https://github.com/hustyichi/meidengtest
+Author: yichi
+Author-email: libing@meideng.net
+License: MIT license
+Keywords: meidengtest
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.5
+Requires-Dist: Click (>=7.0)
+
+===========
+meidengtest
+===========
+
+
+.. image:: https://img.shields.io/pypi/v/meidengtest.svg
+        :target: https://pypi.python.org/pypi/meidengtest
+
+.. image:: https://img.shields.io/travis/hustyichi/meidengtest.svg
+        :target: https://travis-ci.com/hustyichi/meidengtest
+
+.. image:: https://readthedocs.org/projects/meidengtest/badge/?version=latest
+        :target: https://meidengtest.readthedocs.io/en/latest/?badge=latest
+        :alt: Documentation Status
+
+
+
+
+Python Boilerplate contains all the boilerplate you need to create a Python package.
+
+
+* Free software: MIT license
+* Documentation: https://meidengtest.readthedocs.io.
+
+
+Features
+--------
+
+* TODO
+
+Credits
+-------
+
+This package was created with Cookiecutter_ and the `audreyr/cookiecutter-pypackage`_ project template.
+
+.. _Cookiecutter: https://github.com/audreyr/cookiecutter
+.. _`audreyr/cookiecutter-pypackage`: https://github.com/audreyr/cookiecutter-pypackage
+
+
+=======
+History
+=======
+
+0.1.0 (2021-01-14)
+------------------
+
+* First release on PyPI.
+
+
