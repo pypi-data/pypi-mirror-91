@@ -1,0 +1,132 @@
+Metadata-Version: 2.1
+Name: dirdb
+Version: 0.1.0
+Summary: UNKNOWN
+Home-page: https://gitlab.com/franksh/dirdb
+Author: Frank S. Hestvik
+Author-email: tristesse@gmail.com
+License: MIT
+Description: # dirdb
+        
+        A very primitive "database" interface using the file system directly.
+        Databases are directories and each object is a pickled file in that
+        directory together with an optional JSON file for metadata.
+        
+        ## Use Case
+        
+        Generally: you have few (hundreds) datasets, but each set is
+        potentially big (up to memory limit).
+        
+        My use case was for some simple machine learning. Workers were
+        generating large in-memory numpy arrays. Each worker dumped this
+        training data in a common place, where the model generator could
+        iterate over them and update the metadata with statistics.
+        
+        This is obviously not a good choice if you have millions of datasets
+        or if you need any actual database features.
+        
+        ## Example
+        
+        ```python
+        import numpy as np
+        from dirdb import dirdb
+        
+        # A database is simply a valid directory path. It will be created if
+        # it doesn't exist. Here we create the directory `./testdb`.
+        db = dirdb('testdb')
+        
+        # It acts a lot like a dict() and returns "database entry" which is a
+        # proxy element that lets you inspect the entry's JSON metadata and
+        # can be used to load the associated data set.
+        
+        assert "foo" not in db
+        entry = db["foo"]
+        
+        # Note that entry also boolean-evaluates to False because it has no
+        # data evaluated with it.
+        assert not entry
+        
+        # Once we put some data into it, the data will go into
+        # `./testdb/foo.pickle` and the `.meta` attribute (if not None) will
+        # be stored in `./testdb/foo.json`.
+        entry.put_data(np.random.rand(5,5), meta={'shape': (5,5)})
+        
+        assert (entry.name in db) and entry
+        
+        # These entry objects can be used in a `with:` statement to lock them
+        # (optional, but recommended).
+        with entry:
+          # Deletes the meta data. (This action will be flushed to disk.)
+          entry.meta = None
+        
+          # This is also flushed.
+          entry.meta = {'test': [1,2]}
+        
+          # The meta dict attribute acts sort of like a javascript object.
+          # Meta data is not flushed here.
+          entry.meta.test.append(3)
+        
+          # But it will be flushed upon exit of the with: block --v
+        
+        # Saves some data without .json metadata.
+        db['bar'].put_data([1] * 1000)
+        
+        # Later, reloading the data:
+        with db['foo'] as e:
+          # Inspect the metadata (loads the .json file):
+          print("the updated meta:", e.meta)
+        
+          # Retrieve the data:
+          print("data was:\n", e.get_data())
+        
+        # Iterate over elements in the directory.
+        for entry in db:
+          with entry:
+            print(f"{entry.name} w/ meta data {str(entry.meta)}")
+        ```
+        
+        ## How It Works
+        
+        Databases are file system directories. Each dataset consists of 1-3
+        files (the pickled data, an optional meta-data JSON file, and a lock
+        file).
+        
+        Datasets are loaded and saved in full. There's no slicing. It uses
+        `pickle` to save and load data.
+        
+        Use `with` on an entry to lock that entry (file locks). This is
+        optional but can be used to block other processes from using it.
+        There's no need to lock the database itself.
+        
+        Each dataset can have a meta-data dictionary associated with it.
+        Accessing `entry.meta` automatically creates such a dictionary. This
+        object behaves like a `dict()` and will be saved as a `.json` file.
+        The purpose of this is to just have a smaller object that can be
+        loaded and inspected without loading the data itself.
+        
+        ## Why?
+        
+        Twice I had large HDF5 databases become corrupted due to unexpected
+        reboots, costing me hours or even days of work. This can very easily
+        happen if something is written to the HDF5 file but the contents isn't
+        flushed; it's an easy way to simply lose your entire dataset, because
+        there's no good tools to repair broken files. It was incredibly
+        frustrating.
+        
+        I wrote this since I didn't need most of the functionality of HDF5
+        anyway.
+        
+        # Todo
+        
+        - deletion
+        - stat()
+        - more consistent API
+        - sorting?
+        
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown

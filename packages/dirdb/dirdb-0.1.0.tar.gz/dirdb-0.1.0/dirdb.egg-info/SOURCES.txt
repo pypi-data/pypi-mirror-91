@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+dirdb/__init__.py
+dirdb/dirdb.py
+dirdb.egg-info/PKG-INFO
+dirdb.egg-info/SOURCES.txt
+dirdb.egg-info/dependency_links.txt
+dirdb.egg-info/requires.txt
+dirdb.egg-info/top_level.txt
