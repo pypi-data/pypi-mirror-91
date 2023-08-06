@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: yfantasy-api
+Version: 0.0.1
+Summary: Python package to access the Yahoo! Fantasy APIs
+Home-page: https://github.com/hkyplyr/yfantasy-api
+Author: Travis Paquette
+Author-email: tpaqu15@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.6
+
+# Yahoo Fantasy API
+
+
