@@ -1,0 +1,11 @@
+_htnorm.cpython-36m-x86_64-linux-gnu.so,sha256=2arLfhWOJdQL6B2URw5W57VP9Jgi3DEtSZ2V3HGvCEg,1367856
+pyhtnorm/c_htnorm.pxd,sha256=o1kOmXNly8XuJiUT9vy-Den_MSiTLgtDdxOEOLHAy7g,1591
+pyhtnorm/__init__.py,sha256=l-d6Sine7iEvg4Hdp0y2CXm5qazgWD7vq0Hpx285dvE,100
+pyhtnorm/__init__.pxd,sha256=vH4MAyujZHBJGq5-mtHUplcmn3zmy9vz6PZujo5qAWs,33
+pyhtnorm-1.0.0.dist-info/WHEEL,sha256=9DrkiTgoloSlhG-pKP4nkivanCjVl1YNU0tAYTbzTkk,103
+pyhtnorm-1.0.0.dist-info/RECORD,,
+pyhtnorm-1.0.0.dist-info/METADATA,sha256=Dkt66779N1afAKDjLpI2V4LfYSrWKZiJ0R_yYFZNYdE,8485
+pyhtnorm-1.0.0.dist-info/LICENSE,sha256=GWrXq-UAMGjoxT2oo2j_xo--ZKzoQS3JEe-4to-zmjU,1513
+pyhtnorm.libs/libquadmath-96973f99.so.0.0.0,sha256=l82oXdtRY-Labh7bTh1rVXgzqZpA7aB5rjflA5Rltl0,247608
+pyhtnorm.libs/libgfortran-91cc3cb1.so.3.0.0,sha256=yG4uC4CkJbuXNkV2kISH0t7i_MNYl1Y8rUbu79S2j5c,1259664
+pyhtnorm.libs/libopenblas-r0-f650aae0.3.3.so,sha256=StshHSklq1EOgnJw99rjvPnZSDkA7c4CoYzVmbJiwvE,37325000
