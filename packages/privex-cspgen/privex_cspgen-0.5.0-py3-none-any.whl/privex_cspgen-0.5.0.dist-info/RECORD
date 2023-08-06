@@ -1,0 +1,17 @@
+privex/__init__.py,sha256=Z8PZIvosV6-60-T2dlNXUTb95GIFuvA4Tf_6VhxYYzY,2196
+privex/cspgen/__init__.py,sha256=DFHfa5s6Vr9NAq-JwIJM-_pEN7p88kfIUgbaGYMw8L4,2519
+privex/cspgen/__main__.py,sha256=QnoBVTBHgLgindTk9iuJLOO62vJPZtqiIso5iAA3xXA,73
+privex/cspgen/builder.py,sha256=fibUHN0mHRUdwfEFCl0vlr_1mUm8GV_xtR6Xt4G-n1M,13949
+privex/cspgen/cli.py,sha256=BVoIeMNuWRtKp8DL4TgfvFazCjvXWWSJNhXeftEH6RU,1108
+privex/cspgen/helpers.py,sha256=mGzAxnWxjzzVTKDfF5TwDj-U8DgIaL4RVfnMV3HaR6s,4631
+privex/cspgen/version.py,sha256=QgljQ05wWg0wbYB0KIMwv6FbrylqmMS-oRBZHElWVSY,2157
+privex/cspgen/examples/example.ini,sha256=w1IDV58KlJc64Li5wrXphuFtsQIJ_LTh2e90kpbfyo0,2952
+privex_cspgen-0.5.0.data/scripts/csp-gen,sha256=jH-SpDIhl0zueefeTLDEo-lf0AkCIIhnkujiDMs7sy4,2715
+privex_cspgen-0.5.0.data/scripts/cspgen,sha256=jH-SpDIhl0zueefeTLDEo-lf0AkCIIhnkujiDMs7sy4,2715
+privex_cspgen-0.5.0.data/scripts/gen-csp,sha256=jH-SpDIhl0zueefeTLDEo-lf0AkCIIhnkujiDMs7sy4,2715
+privex_cspgen-0.5.0.dist-info/LICENSE,sha256=oe6e5zj47ALn5tetb-zL8KEgsTc7XPkom6ucGdrSvEE,2168
+privex_cspgen-0.5.0.dist-info/LICENSE.txt,sha256=oe6e5zj47ALn5tetb-zL8KEgsTc7XPkom6ucGdrSvEE,2168
+privex_cspgen-0.5.0.dist-info/METADATA,sha256=mAlX3cnmcss7H1RImJEcnhWs3N2bRe-16Sa8Egj6lNw,17319
+privex_cspgen-0.5.0.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+privex_cspgen-0.5.0.dist-info/top_level.txt,sha256=CfZhsdgr5OeyQuHMCIIgL0CnVtwImLWwXPN09JIOqz8,7
+privex_cspgen-0.5.0.dist-info/RECORD,,
