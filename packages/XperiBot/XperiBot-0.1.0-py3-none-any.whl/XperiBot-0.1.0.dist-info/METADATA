@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: XperiBot
+Version: 0.1.0
+Summary: A telegram bot to track ML experiments
+Home-page: https://github.com/Skalextric/XperiBot
+Author: Marco Formoso
+Author-email: marco.a.formoso@gmail.com
+License: Apache 2.0
+Keywords: telegram,bot,machine learning,experiments
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: python-telegram-bot
+Requires-Dist: matplotlib
+
+A telegram bot to track ML experiments
+
+
