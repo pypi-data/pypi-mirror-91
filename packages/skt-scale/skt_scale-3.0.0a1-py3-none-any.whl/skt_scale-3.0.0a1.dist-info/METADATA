@@ -1,0 +1,265 @@
+Metadata-Version: 2.1
+Name: skt-scale
+Version: 3.0.0a1
+Summary: UNKNOWN
+Home-page: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: fire
+Requires-Dist: requests
+Requires-Dist: pymongo
+Requires-Dist: enum34 ; python_version<'3'
+Provides-Extra: test
+Requires-Dist: pylint ; extra == 'test'
+Requires-Dist: pytest ; extra == 'test'
+Requires-Dist: pytest-mock ; extra == 'test'
+Requires-Dist: responses ; extra == 'test'
+
+# scale-sdk
+
+python library for skt scale
+
+## Install
+
+```sh
+pip install skt-scale
+```
+
+## Configure secret and endpoint
+
+### Description
+
+Configure SCALE CLI options. If this command is run, you will be prompted for configuration values such as your secret and your SCALE endpoint. If your config file does not exist (the location is ~/.scale/config), the SCALE CLI will create it for you.  
+
+
+### Input
+
+```sh
+$ scalecli configure 
+Enter secret: super-secret
+Endter scale endpoint: 10.0.0.2:14001
+```
+
+### Output
+
+```sh
+$ cat ~/.scale/config 
+{"endpoint": "10.0.0.2:14001", "secret": "super-secret"}  
+```
+
+## Usage
+
+### CLI create job
+
+#### Description
+
+Starts a job
+
+In the arguments you provided following:  
+
+- --job_name: job name (ex: my-job)
+- --image_name: docker image name (ex: scale/tensorflow:1.14)
+- --source_file: python source file location (ex: /home/user/test.py)
+- --gpu_type: gpu type (ex: rtx-2080-ti)
+- --cpu: cpu count (ex: 1 -> 1core)
+- --mem: memory gigabyte (ex: 4 -> 4Gi)
+- --gpu: gpu count (ex: 1 -> 1 gpu)
+
+
+#### Input
+
+```bash
+$ scalecli create_job \
+ --job_name=$RANDOM \
+ --image_name=scale/tensorflow:1.14-v1-py3 \
+ --source_file=./source.py \
+ --mem=2 \
+ --cpu=1
+```
+
+#### Output
+
+```sh
+job id:  be37ae98-f605-4c40-9f6e-70e4087e6ce7
+..........[SYSTEM] Train start.
+[2021-01-18 03:47:35:1] WARNING: Logging before flag parsing goes to stderr.
+[2021-01-18 03:47:35:2] I0118 03:47:32.800786 140663770220352 estimator.py:1790] Using default config.
+[2021-01-18 03:47:35:3] W0118 03:47:32.802039 140663770220352 estimator.py:1811] Using temporary folder as model directory: /tmp/tmp4gn_unya
+[2021-01-18 03:47:35:4] I0118 03:47:32.803353 140663770220352 estimator.py:209] Using config: {'_model_dir': '/tmp/tmp4gn_unya', '_tf_random_seed': None, '_save_summary_steps': 100, '_save_checkpoints_steps': None, '_save_checkpoints_secs': 600, '_session_config': allow_soft_placement: true
+[2021-01-18 03:47:35:5] graph_options {
+[2021-01-18 03:47:35:6]   rewrite_options {
+[2021-01-18 03:47:35:7]     meta_optimizer_iterations: ONE
+[2021-01-18 03:47:35:8]   }
+[2021-01-18 03:47:35:9] }
+[2021-01-18 03:47:35:9] }
+[2021-01-18 03:47:35:10] , '_keep_checkpoint_max': 5, '_keep_checkpoint_every_n_hours': 10000, '_log_step_count_steps': 100, '_train_distribute': None, '_device_fn': None, '_protocol': None, '_eval_distribute': None, '_experimental_distribute': None, '_experimental_max_worker_delay_secs': None, '_service': None, '_cluster_spec': <tensorflow.python.training.server_lib.ClusterSpec object at 0x7feeb27627b8>, '_task_type': 'worker', '_task_id': 0, '_global_id_in_cluster': 0, '_master': '', '_evaluation_master': '', '_is_chief': True, '_num_ps_replicas': 0, '_num_worker_replicas': 1}
+[2021-01-18 03:47:35:11] W0118 03:47:32.803683 140663770220352 model_fn.py:630] Estimator's model_fn (<function model_fn at 0x7feeb27b4d90>) includes params argument, but params are not passed to Estimator.
+[2021-01-18 03:47:35:12] W0118 03:47:32.891000 140663770220352 deprecation.py:323] From /usr/local/lib/python3.6/dist-packages/tensorflow/python/training/training_util.py:236: Variable.initialized_value (from tensorflow.python.ops.variables) is deprecated and will be removed in a future version.
+[2021-01-18 03:47:35:13] Instructions for updating:
+[2021-01-18 03:47:35:14] Use Variable.read_value. Variables in 2.X are initialized automatically both in eager and graph (inside tf.defun) contexts.
+[2021-01-18 03:47:35:15] I0118 03:47:32.996457 140663770220352 estimator.py:1145] Calling model_fn.
+[2021-01-18 03:47:35:16] W0118 03:47:32.996738 140663770220352 deprecation_wrapper.py:119] From app.py:16: The name tf.layers.Dense is deprecated. Please use tf.compat.v1.layers.Dense instead.
+[2021-01-18 03:47:35:17] 
+[SYSTEM] Train completed.
+```
+
+#### GPU example
+
+```sh
+scalecli create_job \
+ --job_name=$RANDOM \
+ --image_name=scale/tensorflow:1.14-v1-py3 \
+ --source_file=./source.py \
+ --gpu_type=Tesla_P100-PCIE-16GB \
+ --mem=2 \
+ --gpu=1 \
+ --cpu=1
+```
+
+### SDK create job
+
+#### Description
+
+Starts a job
+
+create_job function parameter you provided following:  
+
+- job_name: job name (ex: my-job)
+- image_name: docker image name (ex: scale/tensorflow:1.14)
+- source_file: python source file location (ex: /home/user/test.py)
+- gpu_type: gpu type (ex: rtx-2080-ti)
+- cpu: cpu count (ex: 1 -> 1core)
+- mem: memory gigabyte (ex: 4 -> 4Gi)
+- gpu: gpu count (ex: 1 -> 1 gpu)
+
+#### Input
+
+cpu_example.py
+
+```python
+import os
+import random
+import string
+from scale import Client
+
+
+def main():
+    client = Client()
+    random_job_name = "".join(
+        random.choice(string.ascii_letters + string.digits) for _ in range(10)
+    )
+    image_name = "scale/tensorflow:1.14-v1-py3"
+    current_dir = os.path.dirname(os.path.realpath(__file__))
+    source_file = os.path.join(current_dir, "source.py")
+    client.create_job(
+        job_name=random_job_name, image_name=image_name, source_file=source_file
+    )
+
+
+if __name__ == "__main__":
+    main()
+```
+
+gpu_example.py
+
+```python
+import os
+import random
+import string
+from scale import Client
+
+
+def main():
+    client = Client(
+        host="http://0.0.0.0:13202", user_id="user", token="secret_token"
+    )
+    random_job_name = "".join(
+        random.choice(string.ascii_letters + string.digits) for _ in range(10)
+    )
+    image_name = "scale/tensorflow:1.14-v1-py3"
+    current_dir = os.path.dirname(os.path.realpath(__file__))
+    source_file = os.path.join(current_dir, "source.py")
+    gpu_type = "Tesla_P100-PCIE-16GB"
+    client.create_job(
+        job_name=random_job_name,
+        image_name=image_name,
+        source_file=source_file,
+        gpu_type=gpu_type,
+        cpu=1,
+        mem=2,
+        gpu=1,
+    )
+
+
+if __name__ == "__main__":
+    main()
+```
+
+source.py
+
+```python
+# -*- coding: utf-8 -*-
+# pylint disable
+
+import tensorflow as tf
+
+
+tf.logging.set_verbosity(tf.logging.INFO)
+
+
+def input_fn():
+    features = tf.data.Dataset.from_tensors([[1.0]]).repeat()
+    labels = tf.data.Dataset.from_tensors(1.0).repeat()
+    return tf.data.Dataset.zip((features, labels))
+
+
+def model_fn(features, labels, mode, params):
+    layer = tf.layers.Dense(1)
+    logits = layer(features)
+    loss = tf.losses.mean_squared_error(
+        labels=labels, predictions=tf.reshape(logits, [])
+    )
+    if mode == tf.estimator.ModeKeys.TRAIN:
+        step = tf.train.get_or_create_global_step()
+        train_op = tf.train.AdamOptimizer().minimize(loss, step)
+        return tf.estimator.EstimatorSpec(
+            mode=mode, loss=loss, train_op=train_op
+        )
+
+
+def main():
+    estimator = tf.estimator.Estimator(model_fn=model_fn)
+    estimator.train(input_fn=input_fn, steps=1000)
+
+
+main()
+```
+
+#### Output
+
+```sh
+$ python test.py
+job id:  bc773270-a343-4dd0-9644-55f839de9d84
+............[SYSTEM] Train start.
+[2021-01-18 03:46:25:1] WARNING: Logging before flag parsing goes to stderr.
+[2021-01-18 03:46:25:2] I0118 03:46:22.422873 140147188627264 estimator.py:1790] Using default config.
+[2021-01-18 03:46:25:3] W0118 03:46:22.423443 140147188627264 estimator.py:1811] Using temporary folder as model directory: /tmp/tmpccfxb_6l
+[2021-01-18 03:46:25:4] I0118 03:46:22.423917 140147188627264 estimator.py:209] Using config: {'_model_dir': '/tmp/tmpccfxb_6l', '_tf_random_seed': None, '_save_summary_steps': 100, '_save_checkpoints_steps': None, '_save_checkpoints_secs': 600, '_session_config': allow_soft_placement: true
+[2021-01-18 03:46:25:5] graph_options {
+[2021-01-18 03:46:25:6]   rewrite_options {
+[2021-01-18 03:46:25:7]     meta_optimizer_iterations: ONE
+[2021-01-18 03:46:25:8]   }
+[2021-01-18 03:46:25:9] }
+[2021-01-18 03:46:25:9] }
+[2021-01-18 03:46:25:10] , '_keep_checkpoint_max': 5, '_keep_checkpoint_every_n_hours': 10000, '_log_step_count_steps': 100, '_train_distribute': None, '_device_fn': None, '_protocol': None, '_eval_distribute': None, '_experimental_distribute': None, '_experimental_max_worker_delay_secs': None, '_service': None, '_cluster_spec': <tensorflow.python.training.server_lib.ClusterSpec object at 0x7f76247387b8>, '_task_type': 'worker', '_task_id': 0, '_global_id_in_cluster': 0, '_master': '', '_evaluation_master': '', '_is_chief': True, '_num_ps_replicas': 0, '_num_worker_replicas': 1}
+[2021-01-18 03:46:25:11] W0118 03:46:22.424028 140147188627264 model_fn.py:630] Estimator's model_fn (<function model_fn at 0x7f762478ad90>) includes params argument, but params are not passed to Estimator.
+[2021-01-18 03:46:25:12] W0118 03:46:22.435012 140147188627264 deprecation.py:323] From /usr/local/lib/python3.6/dist-packages/tensorflow/python/training/training_util.py:236: Variable.initialized_value (from tensorflow.python.ops.variables) is deprecated and will be removed in a future version.
+[2021-01-18 03:46:25:13] Instructions for updating:
+[2021-01-18 03:46:25:14] Use Variable.read_value. Variables in 2.X are initialized automatically both in eager and graph (inside tf.defun) contexts.
+[2021-01-18 03:46:25:15] I0118 03:46:22.502991 140147188627264 estimator.py:1145] Calling model_fn.
+[2021-01-18 03:46:25:16] W0118 03:46:22.503099 140147188627264 deprecation_wrapper.py:119] From app.py:16: The name tf.layers.Dense is deprecated. Please use tf.compat.v1.layers.Dense instead.
+[2021-01-18 03:46:25:17] 
+[SYSTEM] Train completed.
+```
+
