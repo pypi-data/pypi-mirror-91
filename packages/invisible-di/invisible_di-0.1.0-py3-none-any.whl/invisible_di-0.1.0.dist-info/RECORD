@@ -1,0 +1,8 @@
+invisible_di/__init__.py,sha256=oCV5VhNYiNgnKv6JGvJ95YrOO4xlVNLh2f_O4T6dB-0,39
+invisible_di/_implementation.py,sha256=KTLyK3lBXCiKrYPrVDBoiGf4L2o4bUNY9LC-c4LqqYo,6370
+invisible_di/defaults.py,sha256=KFHtinGbRt89c7nsXwEDesIJwGF9uwGaAlBnushrskg,1914
+invisible_di/interface.py,sha256=9hYUNUxtHqogFA1NqgOZYDk4DTB9VZsZtE9sbVLw3dU,921
+invisible_di/type_declarations.py,sha256=nJN-76S4NK5jCKh4BQ2Ci9AKEA3UzLVnRC5j8TiUKc0,305
+invisible_di-0.1.0.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+invisible_di-0.1.0.dist-info/METADATA,sha256=4nbxUGSVwLlZIhh3R630EB8_sVmXoNWJ2g__OAUUxA0,257
+invisible_di-0.1.0.dist-info/RECORD,,
