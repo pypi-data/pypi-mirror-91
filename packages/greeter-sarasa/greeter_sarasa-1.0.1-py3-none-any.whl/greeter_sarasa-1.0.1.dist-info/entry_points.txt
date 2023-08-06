@@ -1,0 +1,3 @@
+[console_scripts]
+greet = greeter.__main__:main
+

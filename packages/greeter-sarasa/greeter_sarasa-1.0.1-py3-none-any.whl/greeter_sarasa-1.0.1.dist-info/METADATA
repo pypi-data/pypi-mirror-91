@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: greeter-sarasa
+Version: 1.0.1
+Summary: Greets people
+Home-page: https://gitlab.com/maartincm/greeter
+Author: Martin Cuesta
+Author-email: cuesta.martin.n@hotmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
+Requires-Dist: PyYAML (==5.3.1)
+
+# Greeter
+
+Greets people
+
+
