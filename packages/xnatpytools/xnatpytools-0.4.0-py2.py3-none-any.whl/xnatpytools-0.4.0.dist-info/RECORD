@@ -1,0 +1,10 @@
+xnatpytools/__init__.py,sha256=wplfcpeZu-NbA0GjmgefsqN4uw3Fy92hf26OkdX7UUs,190
+xnatpytools/utils.py,sha256=n-X5UWnIP1sXUZprYTlcmXPT77qw97-PCQHnAaVfxLY,8863
+xnatpytools/bulksharing/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+xnatpytools/bulksharing/bulksharing.py,sha256=iIyBy4g0S1C0q9BVi7oKpiTocCmrsPj3bKUVidoPtTw,2363
+xnatpytools-0.4.0.dist-info/LICENSE,sha256=EqDYGk_0ioo-kfLixhmR8siX0dZWzk3zr1UJ_FiZMGI,1075
+xnatpytools-0.4.0.dist-info/METADATA,sha256=MP_tKbKYsYG2NWv136NfWTTO1ki8An3gB6PpUHE0ZUc,1786
+xnatpytools-0.4.0.dist-info/WHEEL,sha256=8zNYZbwQSXoB9IfXOjPfeNwvAsALAjffgk27FqvCWbo,110
+xnatpytools-0.4.0.dist-info/entry_points.txt,sha256=GzH5F0fz1_mzT0DvybIie89MEWGyS8Q1MsG6zuBkVNE,74
+xnatpytools-0.4.0.dist-info/top_level.txt,sha256=mGnkadivpmLvdUQJ7Rhm4pN1Hc_GVWQzqLHVMA5DLlQ,12
+xnatpytools-0.4.0.dist-info/RECORD,,
