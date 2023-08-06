@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: kinms_fitter
+Version: 0.0.2
+Summary: Wrapper for KinMSpy that automates most common galaxy fitting tasks
+Home-page: https://github.com/TimothyADavis/KinMS_fitter
+Author: Timothy A. Davis
+Author-email: DavisT@cardiff.ac.uk
+License: GNU GPLv3
+Description: # KinMS_fitter
+        Wrapper for KinMSpy that automates most common galaxy fitting tasks
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
