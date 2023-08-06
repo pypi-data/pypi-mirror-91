@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: enbyfit
+Version: 0.0.1.dev1
+Summary: Fitness and Health
+Home-page: https://github.com/m1ghtfr3e/enbyfit
+Author: m1ghtfr3e
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Healthcare Industry
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Intended Audience :: Science/Research
+Classifier: Intended Audience :: Other Audience
+Classifier: Natural Language :: English
+Classifier: Topic :: Utilities
+Requires-Python: >=3.9
+
+UNKNOWN
+
+
