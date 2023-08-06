@@ -1,0 +1,11 @@
+mdsearch/__init__.py,sha256=C5eJAAE93iLa9cgoPx_PH1YIQoTteHi7kRW0wdSZN0Q,58
+mdsearch/searcher.py,sha256=qWuNu7si9lhljKyneuxar34J_bjaIIPDx0USQqpYfLY,14876
+mdsearch/Similarity/__init__.py,sha256=nH1f8xdSvbwIyFDYJYlbcSh50NK7KyEUopF6qLnvdZo,77
+mdsearch/Similarity/sentence_similarity.py,sha256=sFoMaOnAUDlAiIs92iyjfPd0ZXqV9I4Egr8VTtMA218,1571
+mdsearch/Similarity/similarity_server.py,sha256=iL36w7sh2YbFPwYzyVd5KVnYNRx58E5N1lZQA29Jj0I,1640
+mdsearch/Similarity/similarity_test.py,sha256=ESiQ1pJ05Zd6wDvViWo5KiPRdqDH34IXoYp75PvxX4w,1504
+mdsearch-0.0.4.dist-info/LICENSE,sha256=nl3hfEx4KWoK1uGG_qZVwLn9CGCpuiTxW05gfpHQTVQ,1104
+mdsearch-0.0.4.dist-info/METADATA,sha256=6qy8r0EDwoLiU21a3bh3CkbaXBXx9Wgo_xZ18JClroI,3385
+mdsearch-0.0.4.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+mdsearch-0.0.4.dist-info/top_level.txt,sha256=KtSxmjWzGkNX3AL7roh_j-sfyVlO7adw0_0BBrTzolg,9
+mdsearch-0.0.4.dist-info/RECORD,,
