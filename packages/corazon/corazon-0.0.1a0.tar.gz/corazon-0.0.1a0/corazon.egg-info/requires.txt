@@ -1,0 +1,14 @@
+numpy>=1.17
+astropy>=4
+
+[all]
+matplotlib
+lightkurve
+
+[docs]
+sphinx-automodapi
+sphinx_rtd_theme
+
+[test]
+pytest-astropy-header
+pytest-doctestplus
