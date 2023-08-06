@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: eqt
+Version: 0.0.1
+Summary: A number of templates and tools to develop Qt GUIs with Python effectively
+Home-page: UNKNOWN
+Author: Edoardo Pasca
+Author-email: edoardo.pasca@stfc.ac.uk
+License: Apache v2.0
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Requires-Dist: sphinx
+Requires-Dist: pyside2
+
+Qt Elements qte
+===============
+
+A number of templates and tools to develop Qt GUI's with Python effectively.
+
+Developing GUIs I often find myself creating forms to pass some input and also
+running some task asynchronously so that the interface is still responsive.
+
+This little package tries to address both recurring requirements:
+
+
+
