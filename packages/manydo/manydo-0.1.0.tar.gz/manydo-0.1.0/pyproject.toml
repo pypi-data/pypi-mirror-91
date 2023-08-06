@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "manydo"
+version = "0.1.0"
+description = "Dead-simple parallel execution."
+authors = ["malyvsen <5940672+malyvsen@users.noreply.github.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+joblib = "^1.0.0"
+tqdm = "^4.56.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
