@@ -1,0 +1,14 @@
+decotools/__init__.py,sha256=rlVqHKCOr4lm_W8Mo5lvhfOXeBRIdRjH8PrrKi0Klmc,1633
+decotools/_version.py,sha256=iv_-l76SXGkO90x9H153p2rZ6DOZtDT1o_HhXbf48pI,497
+decotools/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+decotools/tests/conftest.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+decotools/tests/test_examples.py,sha256=Hm1x01HZ9BiYYw4dS44uo0o_ku16oFRwSMjIh8_Uu-s,99
+decotools/tests/test_helloworld.py,sha256=tuEMluYU5CqXHgX2CuZ3qRGyvJirS01Dw_HVN0fd6gg,285
+decotools/tests/test_wraps.py,sha256=g8lDzW65avq0yJUCm0OCJbfHu9fm22TbbRX0bCv0lGA,277
+decotools-0.0.1.dist-info/AUTHORS.rst,sha256=u1dp0ET91zRG84f7CrIoxovUzhMyQzzzgyWhAzkrO24,165
+decotools-0.0.1.dist-info/LICENSE,sha256=smoh22-N4BMJjrya4kSPpZDYzdDInw80vX1CoW3Zshc,1516
+decotools-0.0.1.dist-info/METADATA,sha256=m1igZn0tNEzdo7-1UvgMgsu_cbRpHBW6-HeG6gOrWvg,841
+decotools-0.0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+decotools-0.0.1.dist-info/entry_points.txt,sha256=eqGnTHtEVMYwfXVk1Z9MhC8O2N8wuqAbr0lisLmrkxs,20
+decotools-0.0.1.dist-info/top_level.txt,sha256=rM1qt3LzRgONzM2YJteBqcL8M2Bpqk2ELzC553VJBkI,10
+decotools-0.0.1.dist-info/RECORD,,
