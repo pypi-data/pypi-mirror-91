@@ -1,0 +1,9 @@
+Number of samples= 50
+Location of Gaussian= 1000
+Sigma for Gaussian= 2.0
+Background per channel= 10.0
+End channel= 2000
+Start channel= 0
+Actual signal counts= 45 +/- 11.180339887498949
+Actual centroid= 999.4888888888889 +/- 0.29236448509293805
+Seed used= 10392
