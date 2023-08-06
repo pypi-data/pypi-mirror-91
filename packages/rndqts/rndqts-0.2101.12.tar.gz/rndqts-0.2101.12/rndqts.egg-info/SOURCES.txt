@@ -1,0 +1,7 @@
+README.md
+setup.py
+rndqts.egg-info/PKG-INFO
+rndqts.egg-info/SOURCES.txt
+rndqts.egg-info/dependency_links.txt
+rndqts.egg-info/requires.txt
+rndqts.egg-info/top_level.txt
