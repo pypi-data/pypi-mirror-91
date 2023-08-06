@@ -1,0 +1,8 @@
+stages:
+  - test
+  - build
+  - deploy-pipe
+  - deploy
+
+{build_content}
+{kubepipe_content}

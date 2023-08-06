@@ -1,0 +1,13 @@
+build_{stage_name}:
+  stage: build
+  image:
+    name: asia.gcr.io/warung-support/google-sdk:latest
+  tags:
+    - gke-ml
+  script:
+    - |
+      gcloud builds submit \
+      --config {local_src}/{comp_path}/cloudbuild.yaml \
+      --substitutions _LOCAL_SRC={local_src},\
+      _LOCAL_DOCKER={local_src}/{comp_path}/Dockerfile,\
+      _IMAGE_TAG={image_registry}/{image_tag}:$CI_COMMIT_REF_NAME

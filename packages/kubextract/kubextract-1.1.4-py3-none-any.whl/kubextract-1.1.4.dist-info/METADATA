@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: kubextract
+Version: 1.1.4
+Summary: cli framework generator for developing ML on kubeflow
+Home-page: UNKNOWN
+Author: Bentar Dwika
+Author-email: bentar@warungpintar.co
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: kubernetes (==11.0.0)
+Requires-Dist: ruamel.yaml (==0.16.10)
+Requires-Dist: click (==7.1.2)
+Requires-Dist: PyInquirer (==1.0.3)
+Requires-Dist: prompt-toolkit (==1.0.14)
+Requires-Dist: urllib3 (==1.25.9)
+Requires-Dist: requests (==2.23.0)
+Requires-Dist: kfp (==1.2.0)
+
+# Kubextract: ML Kubeflow Framework Generator
+Kubextract is a framework generator for end-to-end machine learning development and automate kubeflow job deployment.
+
+### How to use
+pip3
+  - install pip3 package on your computer
+  - export environment variable ```export PATH=$PATH:~/.local/bin```
+  - run ```pip3 install kubextract --upgrade```
+  - run ```kubextract```
+  - input your params.yml location
+
+### Setting pre-commit
+- ```pip install pre-commit```
+- ```pre-commit install```
+- for check previous files, run ```pre-commit run --all-files```
+
+### Documentation
+- see config documentation on ```docs/config```
+- see architecture decision record on ```docs/adr```
+- see example project on ```examples/```
+
+

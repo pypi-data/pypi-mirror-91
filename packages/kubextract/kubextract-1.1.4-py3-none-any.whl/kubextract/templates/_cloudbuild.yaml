@@ -1,0 +1,11 @@
+steps:
+  - name: 'gcr.io/cloud-builders/docker'
+    args: ['build', '-f', '${_LOCAL_DOCKER}',
+           '--no-cache', '--force-rm', '-t',
+           '${_IMAGE_TAG}', '${_LOCAL_SRC}']
+substitutions:
+    _LOCAL_SRC: LOCAL_SRC
+    _LOCAL_DOCKER: LOCAL_DOCKER
+    _IMAGE_TAG: IMAGE_TAG
+images:
+  - '${_IMAGE_TAG}'

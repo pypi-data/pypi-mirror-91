@@ -1,0 +1,16 @@
+infer_mnist_deploy:
+  stage: deploy
+  image: asia.gcr.io/warung-support/google-sdk:latest
+  tags:
+    - gke-ml
+  before_script:
+    - export PARAMS_PATH={params_path}
+    - export KFSERVING_CONFIG=$CI_PROJECT_DIR/predictor.yaml
+    - kubectl version --client
+    - apk add python3-dev
+    - apk add py3-pip
+    - pip3 install ruamel.yaml
+  script:
+    - python3 -m utils.gen_kfserv_conf
+    - cat $KFSERVING_CONFIG
+    - kubectl apply -f $KFSERVING_CONFIG

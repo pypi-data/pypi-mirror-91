@@ -1,0 +1,4 @@
+[console_scripts]
+kubextract = kubextract.utils.generate:main
+pipeline = kubextract.utils.pipeline:main
+

@@ -1,0 +1,28 @@
+REPO_ID: 542
+GITLAB_PERS_TOKEN: 4Cu_VwC-scP1Ap34ym4E
+WORKCHAT_ID: 100027473651328
+WORKCHAT_TYPE: user
+PIPE_NAME: markdown-example
+PIPE_DESC: using markdown for kubeflow artifact
+EXP_NAME: markdown-example
+EXP_DESC: using markdown for kubeflow artifact
+IMAGE_REGISTRY: asia.gcr.io/warung-support
+GITLAB_BASE_URL: https://gitlab.warungpintar.co
+GCS_BASE: gs://warpin-us-deep-learning
+LOCAL_SRC: tmp/markdown-example
+PIPE_PATH: pipeline.yaml
+PIPE_TYPE: kfpipe
+
+COMPONENTS:
+  - STAGE_NAME: markdown
+    COMP_NAME: Markdown Artifact
+    IMG_NAME: markdown-example
+    COMP_PATH: markdown
+    NODE_KEY: squad
+    NODE_VAL: rnd
+    USE_GPU: False
+    DOCKER_WORKDIR: /ml/markdown
+    PIPE_OUTPUT:
+      mlpipeline-ui-metadata: /mlpipeline-ui-metadata.json
+    CI_ENV:
+      - CI_COMMIT_SHORT_SHA

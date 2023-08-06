@@ -1,0 +1,22 @@
+GITLAB_PERS_TOKEN: 4Cu_VwC-scP1Ap34ym4E
+WORKCHAT_ID: 100027473651328
+WORKCHAT_TYPE: user
+PIPE_NAME: keras-mnist-gpu
+PIPE_DESC: digit classification with keras
+EXP_NAME: keras-mnist-gpu
+EXP_DESC: digit classification with keras
+IMAGE_REGISTRY: asia.gcr.io/warung-support
+GCS_BASE: gs://warpin-us-deep-learning
+LOCAL_SRC: tmp/training-kfpipe
+PIPE_PATH: pipeline.yaml
+PIPE_TYPE: kfpipe
+
+COMPONENTS:
+  - STAGE_NAME: mnist_train
+    COMP_NAME: Training Process
+    IMG_NAME: keras-mnist-gpu-train
+    COMP_PATH: train
+    NODE_KEY: project
+    NODE_VAL: mnist-gpu
+    USE_GPU: True
+    DOCKER_WORKDIR: /app/keras-mnist-gpu/train

@@ -1,0 +1,15 @@
+kubepipe_{stage_name}:
+  stage: deploy-pipe
+  image: asia.gcr.io/warung-support/google-sdk:latest
+  tags:
+    - gke-ml
+  before_script:
+    - kubectl version --client
+    - apk add python3-dev
+    - apk add py3-pip
+    - pip3 install kubextract --upgrade
+    - export PATH=$PATH:~/.local/bin
+    - export PARAMS_PATH={params_path}
+    - which dsl-compile
+  script:
+    - pipeline
