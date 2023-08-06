@@ -1,0 +1,12 @@
+lrc_kit/__init__.py,sha256=GBdujYZnbRzZ9DlRJZTLzzOHm58Bg27hy61GKrSuGNo,134
+lrc_kit/line.py,sha256=GjPHdUtc5nBbAOFVeP3f60PLI6iA1Ry77d21jNfI0_4,1340
+lrc_kit/lrc.py,sha256=i_8lX0W1U_OZ6nc8uruhOhd73fdAM2WWHmsqC8GObm0,866
+lrc_kit/parser.py,sha256=zIIIWDu2z5rf7COdnw09p-G7Em9XWnaGnwHwo0AFw_4,695
+lrc_kit/providers.py,sha256=v10y1BeCDsuWY4HaKpPpB85XpBerhhPsQVOIIdB4uns,13232
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_main.py,sha256=BKl6uHF6SZHDLPag4ggtjM485tzRG4h2oTs0s2HzeQI,639
+lrc_kit-0.1.1.dist-info/LICENSE,sha256=MjFUhdp67PbELgAboVoSd6-FV4PsaxMV-kUEDxQTJ7Y,1070
+lrc_kit-0.1.1.dist-info/METADATA,sha256=21oz_IJ196PPmnWht7S1ixv8n2GbqDDQ3G49IuTBJV4,811
+lrc_kit-0.1.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+lrc_kit-0.1.1.dist-info/top_level.txt,sha256=RjopxCGbotBl2lN4XsOrgVS6K75QqbpDeVpeTAkpeXs,14
+lrc_kit-0.1.1.dist-info/RECORD,,
