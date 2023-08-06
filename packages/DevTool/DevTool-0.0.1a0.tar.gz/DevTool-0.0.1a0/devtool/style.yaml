@@ -1,0 +1,8 @@
+MINE:
+    scripts:
+        main : root/main.py
+        utils_init : root/utils/__init__.py
+    folders:
+        static : root/static
+        utils : root/utils
+        tests : root/tests
