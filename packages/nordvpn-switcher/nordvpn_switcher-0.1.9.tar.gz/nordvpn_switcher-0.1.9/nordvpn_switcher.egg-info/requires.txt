@@ -1,0 +1,6 @@
+psutil
+urllib
+bs4
+requests
+lxml
+pathlib
