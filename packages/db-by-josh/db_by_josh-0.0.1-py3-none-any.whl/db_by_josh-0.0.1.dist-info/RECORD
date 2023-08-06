@@ -1,0 +1,11 @@
+db_by_josh/__init__.py,sha256=d1H2WiGgxGJEeWv2qakLfhDPQC1JITohrp6rsS-R4kw,150
+db_by_josh/query.py,sha256=DRyohT9QtlTGqyYUBXX_sTLZR5d1VnF4VF5K5xrckhA,1508
+db_by_josh/result.py,sha256=YvbENQRtwzRfXES1EacMMXsRRABgXDH3IZojts6cyAs,306
+db_by_josh/schema.py,sha256=MaNfLn3nKPAMMLxqPBTwWjqSo0ZYe0BJz8RztPBA-MQ,921
+db_by_josh/sqlite3worker.py,sha256=wjQDFFSaXB4EvhGHJmY4FkxBcRdsRrSXmCCTDd0rbPQ,7865
+db_by_josh/store.py,sha256=sxRm8i_YooJpkuQjIv1xB5EsbL72cTclGeODhGceKCU,2194
+db_by_josh-0.0.1.dist-info/LICENSE.txt,sha256=4I_rmA3n-nLK83UTrkWQ4k8KQurKYD49galyrDsM_CQ,1051
+db_by_josh-0.0.1.dist-info/METADATA,sha256=B6HFrC3NovS4uZA11bnZbOX1DRYAzmV_dh1J5_h04QI,435
+db_by_josh-0.0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+db_by_josh-0.0.1.dist-info/top_level.txt,sha256=8qb8d-CXa_pD-767x__l2nzM1iIEcG1wMVnI8HdhEOM,11
+db_by_josh-0.0.1.dist-info/RECORD,,
