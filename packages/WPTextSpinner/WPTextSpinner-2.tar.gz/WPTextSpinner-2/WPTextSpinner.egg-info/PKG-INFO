@@ -1,0 +1,13 @@
+Metadata-Version: 1.1
+Name: WPTextSpinner
+Version: 2
+Summary: Easily spin content for your WP-Sites!
+Home-page: https://github.com/dersaschahuber/WPTextSpinner
+Author: Sascha Huber
+Author-email: kontakt@sascha-huber.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.6
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent

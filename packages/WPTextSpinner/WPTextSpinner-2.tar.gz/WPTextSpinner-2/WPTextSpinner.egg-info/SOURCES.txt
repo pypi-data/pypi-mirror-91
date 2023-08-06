@@ -1,0 +1,15 @@
+setup.py
+WPTextSpinner/CommandLine.py
+WPTextSpinner/__init__.py
+WPTextSpinner.egg-info/PKG-INFO
+WPTextSpinner.egg-info/SOURCES.txt
+WPTextSpinner.egg-info/dependency_links.txt
+WPTextSpinner.egg-info/entry_points.txt
+WPTextSpinner.egg-info/top_level.txt
+WPTextSpinner/Engine/PostService.py
+WPTextSpinner/Engine/TextSpinner.py
+WPTextSpinner/Engine/__init__.py
+WPTextSpinner/Utils/Constants.py
+WPTextSpinner/Utils/Database.py
+WPTextSpinner/Utils/Logger.py
+WPTextSpinner/Utils/__init__.py
