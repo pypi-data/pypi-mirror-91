@@ -1,0 +1,11 @@
+xtsv/__init__.py,sha256=wF1X2ReKk85HXZc74Z65u202LWXSLHgP1EPxsy-GiA4,555
+xtsv/argparser.py,sha256=wvn4DX4LLZo-8ofX1gml2PQtb_R2rvumybNa-ffUVIQ,2263
+xtsv/jnius_wrapper.py,sha256=24RbRYqqiwRWreVk3Ijv9CLROsmofP_xdQM8CNgfBiw,2402
+xtsv/pipeline.py,sha256=iNdvrB1Vjp3Ms0NYoHeb8Fl77Isus_7UqRYbej5A2jY,23721
+xtsv/tsvhandler.py,sha256=UF6npgBdkfGDDU5_NL0IUojdEfpxlGFZLYuTJmd3zA8,5823
+xtsv/version.py,sha256=51QyZgDXbAetmU6X7v-X7WFnsScTKO2_0sT-Hfd_yNo,91
+xtsv-1.1.1.dist-info/LICENSE,sha256=46mU2C5kSwOnkqkw9XQAJlhBL2JAf1_uCD8lVcXyMRg,7652
+xtsv-1.1.1.dist-info/METADATA,sha256=05t2Nl0SEIGyppRjq6OdY4P5M6B37rTArCy-_mZVcjY,16289
+xtsv-1.1.1.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+xtsv-1.1.1.dist-info/top_level.txt,sha256=6fPppY_iUaPYfQejiyKtnp1nnkEDtc9fmxMO-0x_f4s,5
+xtsv-1.1.1.dist-info/RECORD,,
