@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: greg-test
+Version: 0.1
+Summary: 
+Home-page: https://github.com/GregoireHENRY/greg-test
+Author: Greg Henry
+Author-email: mail.greg.henry@gmail.com
+Maintainer: Greg Henry
+Maintainer-email: mail.greg.henry@gmail.com
+Requires-Python: >=3.6,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: click
+Requires-Dist: pudb
+Requires-Dist: pytest
+Requires-Dist: pytest-sugar
+Description-Content-Type: text/markdown
+
+# greg-test
+
+> A cool project
+
+**v0.1**
+
+-----
+
+## In action
+
+Text
+

@@ -1,0 +1,3 @@
+[console_scripts]
+greg-test=greg_test.cli:main
+

@@ -1,0 +1,10 @@
+greg_test/__init__.py,sha256=lVS_aSPjd-cW2kbP79kxNJsFGk17bl9OM6odwWAsPIU,109
+greg_test/__main__.py,sha256=fW-SJv9_x76Z4nqS2_daOSTzYZRhBiDSfYdwbm1BlXU,57
+greg_test/cli.py,sha256=sDF6ju2BO72nTyZ9es3nXf94JngUsu6I3AOFDkuTIm4,1300
+greg_test/core.py,sha256=0qMhfdVO7fpkflRA9G73aqFihsn0IGGVgKQkYSsgoi8,237
+greg_test/version.py,sha256=Lgf9keBX7aG_JEFt6UYSyiFKcm-BYGtmk9ohpQhYpyk,20
+greg_test-0.1.dist-info/entry_points.txt,sha256=vbdvewZLmZMzHw5bkkV-JeDkJwrXZovQkNk-qse5WxM,48
+greg_test-0.1.dist-info/LICENSE,sha256=1015YA02J38b2J6StYRSjx1tT5JntluqHHgdlhqZTUk,1076
+greg_test-0.1.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+greg_test-0.1.dist-info/METADATA,sha256=XDvGozMICpVEpz5ECJBX3MJ_C7HoOQiLZUdOI89-63U,717
+greg_test-0.1.dist-info/RECORD,,
