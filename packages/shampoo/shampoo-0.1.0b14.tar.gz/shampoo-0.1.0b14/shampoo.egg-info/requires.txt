@@ -1,0 +1,9 @@
+schemavalidator
+autobahn
+
+[test]
+pytest
+pytest-cov
+coverage
+pytest-mock
+coveralls
