@@ -1,0 +1,17 @@
+README.md
+setup.py
+pilyso_io/__init__.py
+pilyso_io.egg-info/PKG-INFO
+pilyso_io.egg-info/SOURCES.txt
+pilyso_io.egg-info/dependency_links.txt
+pilyso_io.egg-info/requires.txt
+pilyso_io.egg-info/top_level.txt
+pilyso_io/imagestack/__init__.py
+pilyso_io/imagestack/imagestack.py
+pilyso_io/imagestack/util.py
+pilyso_io/imagestack/readers/__init__.py
+pilyso_io/imagestack/readers/czi.py
+pilyso_io/imagestack/readers/nd2.py
+pilyso_io/imagestack/readers/ndip.py
+pilyso_io/imagestack/readers/ometiff.py
+pilyso_io/imagestack/readers/tiff.py
