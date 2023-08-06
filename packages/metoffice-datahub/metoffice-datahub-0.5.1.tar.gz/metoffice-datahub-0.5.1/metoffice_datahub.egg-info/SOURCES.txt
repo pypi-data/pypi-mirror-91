@@ -1,0 +1,11 @@
+README.md
+setup.py
+datahub/Forecast.py
+datahub/Helpers.py
+datahub/Manager.py
+datahub/__init__.py
+metoffice_datahub.egg-info/PKG-INFO
+metoffice_datahub.egg-info/SOURCES.txt
+metoffice_datahub.egg-info/dependency_links.txt
+metoffice_datahub.egg-info/requires.txt
+metoffice_datahub.egg-info/top_level.txt
