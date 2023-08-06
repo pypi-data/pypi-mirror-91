@@ -1,0 +1,60 @@
+[build-system]
+requires = ["flit_core >=2,<4"]
+build-backend = "flit_core.buildapi"
+
+[tool.flit.metadata]
+module = "antipetros_discordbot"
+author = "antistasi_tools"
+home-page = "https://github.com/Giddius/Antipetros_Discord_Bot"
+classifiers = ["License :: OSI Approved :: MIT License"]
+description-file = "README.md"
+license = "MIT"
+requires = [
+    "fuzzywuzzy==0.18.0",
+    "watchgod==0.6",
+    "WeasyPrint==52.2",
+    "dpytest==0.0.22",
+    "aiohttp==3.7.3",
+    "matplotlib==3.3.3",
+    "googletrans==4.0.0rc1",
+    "psutil==5.8.0",
+    "click==7.1.2",
+    "pyfiglet==0.8.post1",
+    "Jinja2==2.11.2",
+    "pytz==2020.5",
+    "autopep8==1.5.4",
+    "antistasi_template_checker==0.1.1",
+    "discord==1.0.1",
+    "gidappdata==0.1.5",
+    "gidlogger==0.1.7",
+    "Pillow==8.1.0",
+    "python-dotenv==0.15.0",
+    "udpy==2.0.0",
+]
+
+[tool.flit.scripts]
+antipetrosbot = "antipetros_discordbot.__main__:cli"
+mksubsupport = "antipetros_discordbot.dev_tools_and_scripts.cli.gen_sub_supporter:new_sub_supporter_class"
+
+[tool.flit.sdist]
+exclude = [
+    "antipetros_discordbot/init_userdata/data_pack",
+    "antipetros_discordbot/init_userdata/*.trigger",
+    'antipetros_discordbot/dev_tools_and_scripts',
+    'misc',
+    'temp',
+    'docs',
+    'tools',
+    '.pydeps',
+    '.isort.cfg',
+    'tests',
+    '.gitattributes',
+    '.gitignore',
+    '.editorconfig',
+    'antipetros_discordbot/utility/gidsql/_utils.archive',
+    'designer_files'
+]
+
+[tool.autopep8]
+max-line-length = 250
+ignore = ['E402', 'E501']
