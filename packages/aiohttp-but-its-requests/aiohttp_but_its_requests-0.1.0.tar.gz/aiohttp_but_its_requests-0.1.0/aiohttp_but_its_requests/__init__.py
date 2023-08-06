@@ -1,0 +1,7 @@
+from aiohttp_but_its_requests.aiohttp_but_its_requests import get
+from aiohttp_but_its_requests.aiohttp_but_its_requests import post
+from aiohttp_but_its_requests.aiohttp_but_its_requests import delete
+from aiohttp_but_its_requests.aiohttp_but_its_requests import head
+from aiohttp_but_its_requests.aiohttp_but_its_requests import options
+import aiohttp_but_its_requests.aiohttp_but_its_requests
+del aiohttp_but_its_requests.aiohttp_but_its_requests

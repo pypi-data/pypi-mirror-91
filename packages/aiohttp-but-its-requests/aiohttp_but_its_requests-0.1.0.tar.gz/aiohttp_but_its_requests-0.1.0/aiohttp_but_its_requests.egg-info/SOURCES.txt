@@ -1,0 +1,9 @@
+README.md
+setup.py
+aiohttp_but_its_requests/__init__.py
+aiohttp_but_its_requests/aiohttp_but_its_requests.py
+aiohttp_but_its_requests.egg-info/PKG-INFO
+aiohttp_but_its_requests.egg-info/SOURCES.txt
+aiohttp_but_its_requests.egg-info/dependency_links.txt
+aiohttp_but_its_requests.egg-info/requires.txt
+aiohttp_but_its_requests.egg-info/top_level.txt
