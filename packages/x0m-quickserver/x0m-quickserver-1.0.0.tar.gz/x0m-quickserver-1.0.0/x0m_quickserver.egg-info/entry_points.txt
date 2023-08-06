@@ -1,0 +1,3 @@
+[console_scripts]
+quickserver = quickserver.__main__:main
+

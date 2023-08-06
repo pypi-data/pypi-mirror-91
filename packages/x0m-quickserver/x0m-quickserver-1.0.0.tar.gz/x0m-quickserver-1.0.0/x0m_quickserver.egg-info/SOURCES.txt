@@ -1,0 +1,10 @@
+README.md
+setup.py
+quickserver/__init__.py
+quickserver/__main__.py
+x0m_quickserver.egg-info/PKG-INFO
+x0m_quickserver.egg-info/SOURCES.txt
+x0m_quickserver.egg-info/dependency_links.txt
+x0m_quickserver.egg-info/entry_points.txt
+x0m_quickserver.egg-info/requires.txt
+x0m_quickserver.egg-info/top_level.txt
