@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+test_optionaldict.py
+optionaldict/__init__.py
+optionaldict.egg-info/PKG-INFO
+optionaldict.egg-info/SOURCES.txt
+optionaldict.egg-info/dependency_links.txt
+optionaldict.egg-info/top_level.txt
