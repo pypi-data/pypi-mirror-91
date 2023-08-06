@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "postgrest-py"
+description = "PostgREST client for Python. This library provides an ORM interface to PostgREST."
+version = "0.4.0"
+authors = ["Lương Quang Mạnh <luongquangmanh85@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/supabase/postgrest-py"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+httpx = "^0.16.1"
+deprecation = "^2.1.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.0.1"
+pytest-asyncio = "^0.14.0"
+black = {version = "^19.10b0", allow-prereleases = true}
+pylint = "^2.5.3"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
