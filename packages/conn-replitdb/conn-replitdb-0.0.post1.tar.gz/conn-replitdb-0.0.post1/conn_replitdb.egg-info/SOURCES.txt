@@ -1,0 +1,7 @@
+setup.py
+conn_replitdb/__init__.py
+conn_replitdb.egg-info/PKG-INFO
+conn_replitdb.egg-info/SOURCES.txt
+conn_replitdb.egg-info/dependency_links.txt
+conn_replitdb.egg-info/requires.txt
+conn_replitdb.egg-info/top_level.txt
