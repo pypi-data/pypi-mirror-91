@@ -1,0 +1,3 @@
+[console_scripts]
+ingot-protobuf = ingot_protobuf.scripts.ingot_protobuf:main
+
