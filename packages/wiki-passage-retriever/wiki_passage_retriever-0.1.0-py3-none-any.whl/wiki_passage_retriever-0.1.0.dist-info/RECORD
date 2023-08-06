@@ -1,0 +1,14 @@
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_relevance.py,sha256=S9-FINgfXmlXs1BZ-Vjj90AXMhUVOniYp0Y_G8Tl96U,1139
+wiki_passage_retriever/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+wiki_passage_retriever/dpr_tokenizer.py,sha256=Rh39we50r876MlJOdyZnaQsHmsx6BtXZrV5c1l3yH3A,4505
+wiki_passage_retriever/retrieve.py,sha256=RaFzw1bR94V3wBMQTbADTDHYPj-Qi7EVGrAX8Tx0yLY,1372
+wiki_passage_retriever/utils.py,sha256=JvKp4vaPAquZEHyQ2xdBmFdnSy1UIN8SJZqSqlheAUE,1502
+wiki_passage_retriever/_cli/__init__.py,sha256=UXnRXLM1ORfToav-6FPljegOgG1iJEqPHQXDbSEYXGU,254
+wiki_passage_retriever/_cli/retrieve.py,sha256=TAHp3wQjzPQvcukeIiFu-dlTEa8DsG5kY-uFcSvl0LA,519
+wiki_passage_retriever-0.1.0.dist-info/LICENSE,sha256=ULjzuS5X7DwEIZoqih_kbg79bxh5XChrn98fSI6mvWQ,9143
+wiki_passage_retriever-0.1.0.dist-info/METADATA,sha256=XsaPuomJMskCnU7C-xrXKvWxvlakSadGqgpUIqSujaE,576
+wiki_passage_retriever-0.1.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+wiki_passage_retriever-0.1.0.dist-info/entry_points.txt,sha256=47qxh5-EYJzaYH1TTczLkim3461ukh-MGZ4eK8WFUrI,67
+wiki_passage_retriever-0.1.0.dist-info/top_level.txt,sha256=LQ93Qby2gJZiPTnF_subjDcd4Lq9ySEWhcJ8exJGRJw,29
+wiki_passage_retriever-0.1.0.dist-info/RECORD,,
