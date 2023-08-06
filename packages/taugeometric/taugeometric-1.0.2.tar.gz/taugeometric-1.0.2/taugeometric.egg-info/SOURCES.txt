@@ -1,0 +1,13 @@
+README.md
+setup.py
+taugeometric/__init__.py
+taugeometric.egg-info/PKG-INFO
+taugeometric.egg-info/SOURCES.txt
+taugeometric.egg-info/dependency_links.txt
+taugeometric.egg-info/top_level.txt
+taugeometric/astar/__funcs__.py
+taugeometric/astar/__init__.py
+taugeometric/poresSE/__funcs__.py
+taugeometric/poresSE/__init__.py
+taugeometric/tortuosity/__funcs__.py
+taugeometric/tortuosity/__init__.py

@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: taugeometric
+Version: 1.0.2
+Summary: TauGeometric is a set of tools to get the geometric tortuosity from 2D images of porous materials
+Home-page: https://github.com/eljosephavila123/taugeomectic
+Author: Mayken Espinoza -  Joseph Avila - Javier Pagalo 
+Author-email: josdavil@espol.edu.ec
+License: UNKNOWN
+Download-URL: https://pypi.org/project/taugeometric/
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
