@@ -1,0 +1,4 @@
+databasetools>=1.4.6
+PySimpleGUI>=3.39.0
+RuntimeWatch
+dirutility>=0.7.0
