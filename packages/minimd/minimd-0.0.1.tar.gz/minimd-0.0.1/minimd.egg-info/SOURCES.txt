@@ -1,0 +1,12 @@
+README.md
+setup.cfg
+setup.py
+lucina/__init__.py
+lucina/_about.py
+lucina/tokenizer.py
+lucina/utils.py
+minimd.egg-info/PKG-INFO
+minimd.egg-info/SOURCES.txt
+minimd.egg-info/dependency_links.txt
+minimd.egg-info/requires.txt
+minimd.egg-info/top_level.txt

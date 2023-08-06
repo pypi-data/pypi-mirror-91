@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: minimd
+Version: 0.0.1
+Summary: Minimal markdown parser
+Home-page: https://github.com/entwanne/lucina/tree/minimd
+Author: entwanne
+Author-email: antoine.rozo@gmail.com
+License: MIT
+Description: Minimd
+        ======
+        
+        Minimal markdown parser.
+        
+        https://pypi.org/project/minimd/
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Provides-Extra: dev
