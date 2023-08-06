@@ -1,0 +1,10 @@
+README.md
+setup.py
+scanprep/__init__.py
+scanprep/scanprep.py
+scanprep.egg-info/PKG-INFO
+scanprep.egg-info/SOURCES.txt
+scanprep.egg-info/dependency_links.txt
+scanprep.egg-info/entry_points.txt
+scanprep.egg-info/requires.txt
+scanprep.egg-info/top_level.txt
