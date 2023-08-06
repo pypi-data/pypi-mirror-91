@@ -1,0 +1,11 @@
+Metadata-Version: 1.2
+Name: litncov
+Version: 0.1.0
+Summary: A ncov report library and tool for LIT(Luoyang Institute of Science and Technology)
+Home-page: http://github.com/icepie/lit-ncov-report
+Author: Tea
+Author-email: icepie.dev@gmail.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.6
