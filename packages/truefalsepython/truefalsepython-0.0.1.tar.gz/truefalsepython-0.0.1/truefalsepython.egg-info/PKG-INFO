@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: truefalsepython
+Version: 0.0.1
+Summary: PyPI package with some better syntax tools for python
+Home-page: https://github.com/PasaOpasen/true-false-python
+Author: Demetry Pascal
+Author-email: qtckpuhdsa@gmail.com
+Maintainer: ['Demetry Pascal']
+License: UNKNOWN
+Description: # true-false-python
+        
+        PyPI package with some better syntax tools for python
+        
+        
+        ```
+        pip install truefalsepython
+        ```
+        
+        ## Logical tools
+        
+        For `True` and `False` values there are equal constants (like it is in C-like languages or R) `TRUE, T, true` and `FALSE, F, false`:
+        
+        ```python
+        
+        from truefalsepython import TRUE, FALSE, T, F, true, false
+        
+        print(True == T) # True
+        print(True == TRUE) # True
+        print(True == true) # True
+        
+        
+        print(False == F) # True
+        print(False == FALSE) # True
+        print(False == false) # True
+        ```
+        
+        
+        
+        
+        
+Keywords: true,false,C,fun,funny,shit
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Description-Content-Type: text/markdown
