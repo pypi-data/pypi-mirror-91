@@ -1,0 +1,10 @@
+citibox/google_cloud_tracer/__init__.py,sha256=JlLCvpPVzhX1-KKwxmUm7HRrqWxlmykz38Y6Uf_p02k,79
+citibox/google_cloud_tracer/contrib/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+citibox/google_cloud_tracer/contrib/falcon/__init__.py,sha256=pQmCpFqQY7WJA9Pcm-lDGR0kfpgTrMiDMumz2lo3cuw,140
+citibox/google_cloud_tracer/contrib/falcon/falcon_middleware.py,sha256=ejgp-s4OIbl42m7PcCOh_Wuo67kERX7u6LaImG0fQwY,5861
+citibox/google_cloud_tracer/requests/__init__.py,sha256=_3_Yvvu0XuXAkJw_yc_a04rc8KvXuT0tn5NFVl4o2AQ,1702
+citibox/google_cloud_tracer/span_context/__init__.py,sha256=s2v8NuLZjMrTRGscehhyrhgNNllwAqW0lo3ivbLX3iI,2022
+citibox_tracer-0.1a1.dist-info/METADATA,sha256=_9B0ZJnEP5qfXAnDUkcO2wcImI8RStwd4HkZkAspCGo,1472
+citibox_tracer-0.1a1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+citibox_tracer-0.1a1.dist-info/top_level.txt,sha256=3Dzvqe8uAK08GuMYQDhIT4oJAvXKY8UhFPu1RhJ9XzY,8
+citibox_tracer-0.1a1.dist-info/RECORD,,
