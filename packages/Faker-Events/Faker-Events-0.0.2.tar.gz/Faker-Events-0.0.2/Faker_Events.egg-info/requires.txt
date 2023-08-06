@@ -1,0 +1,14 @@
+faker<5.1,>=5.0
+
+[dev]
+flake8
+pytest
+pytest-cov
+kafka-python<2.1,>=2.0
+boto3<1.17,>=1.16
+
+[kafka]
+kafka-python<2.1,>=2.0
+
+[kinesis]
+boto3<1.17,>=1.16
