@@ -1,0 +1,12 @@
+nnpy-bundle
+psutil
+docker<=4.2.2
+cloudpickle
+kubernetes
+requests
+click
+
+[test]
+pytest
+docker<=4.2.2
+flake8
