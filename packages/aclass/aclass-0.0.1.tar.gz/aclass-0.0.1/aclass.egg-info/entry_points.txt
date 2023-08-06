@@ -1,0 +1,3 @@
+[console_scripts]
+azoom = azoom.__main__:main
+
