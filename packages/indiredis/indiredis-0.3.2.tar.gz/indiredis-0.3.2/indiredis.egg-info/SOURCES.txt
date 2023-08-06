@@ -1,0 +1,14 @@
+MANIFEST.in
+README.md
+setup.py
+indiredis/__init__.py
+indiredis/__main__.py
+indiredis.egg-info/PKG-INFO
+indiredis.egg-info/SOURCES.txt
+indiredis.egg-info/dependency_links.txt
+indiredis.egg-info/requires.txt
+indiredis.egg-info/top_level.txt
+indiredis/webcode/__init__.py
+indiredis/webcode/blobs.py
+indiredis/webcode/devices.py
+indiredis/webcode/setvalues.py
