@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: git-spindle
+Version: 4.0.1
+Summary: Git subcommands for integrating with central services like github, gitlab and bitbucket
+Home-page: http://github.com/seveas/git-spindle
+Author: Dennis Kaarsemaker
+Author-email: dennis@kaarsemaker.net
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development
+Classifier: Environment :: Console
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Version Control
+Requires-Dist: github3.py (>=1.3.0)
+Requires-Dist: python-gitlab (>=2.5.0)
+Requires-Dist: whelk (>=3.0)
+Requires-Dist: docopt (>=0.6.2)
+
+UNKNOWN
+
+
