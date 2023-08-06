@@ -1,0 +1,10 @@
+kmlplus/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+kmlplus/coordinates.py,sha256=rd52d0BvBoFzq7Yjt2nCvZbpmOOvdQKB4uP3LQhCSlU,7364
+kmlplus/paths.py,sha256=5t6rMAxwRsoX7a5gbWlV7MF-ML3S1YiOBucbwMz8HWQ,11678
+test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+test/test_coordinates.py,sha256=HppXPDi6mRZYs-WvE1iuSMazh3RIdiEButNmF-8LfwE,4277
+test/test_paths.py,sha256=NqVPjP1ouVyPnjwqbpVBmRwI8sftni7XpgjYm-ndKn0,1097
+KMLPlus-1.0.4.dist-info/METADATA,sha256=yjR8Ovnh7Buqm1N6s45q8ILgzQNm9JGSgYKMlOtayXo,4135
+KMLPlus-1.0.4.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+KMLPlus-1.0.4.dist-info/top_level.txt,sha256=AihjRIVoHtFB6MV0ES9r9JJXLIYBXtlJy2hs9ZLpaMA,13
+KMLPlus-1.0.4.dist-info/RECORD,,
