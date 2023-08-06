@@ -1,0 +1,4 @@
+[console_scripts]
+antipetrosbot=antipetros_discordbot.__main__:cli
+mksubsupport=antipetros_discordbot.dev_tools.cli.gen_sub_supporter:new_sub_supporter_class
+
