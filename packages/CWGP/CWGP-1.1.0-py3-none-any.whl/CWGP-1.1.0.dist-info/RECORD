@@ -1,0 +1,9 @@
+cwgp/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cwgp/cwgp.py,sha256=rIPcQ_mwadTYNWjtx-2nxLCQ1bUj4vOnsyc4lNTPQ9I,200
+cwgp/kernel.py,sha256=2-OVoZWlNhuIAgtiEUD0E8iGs4lANvyf7P5LbezLWfE,220
+cwgp/phi.py,sha256=a5x4x53KB_zVgZwXRACqe0Ph_5TbTtoua3JG7PQ4hJA,1965
+cwgp/transformations.py,sha256=gLdndf3R47pSFBShTDFkBKts0r8dwmMvJo3L9kQPTyQ,351
+CWGP-1.1.0.dist-info/METADATA,sha256=fB22juYV1jOTCyB4kzOQmwvQmWBXUXJCatv056r0I6c,460
+CWGP-1.1.0.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+CWGP-1.1.0.dist-info/top_level.txt,sha256=pkd-rcUDRAo1OuuAIBshUpcxaX3-R_rB-L-PTP-8daM,5
+CWGP-1.1.0.dist-info/RECORD,,
