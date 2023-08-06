@@ -1,0 +1,10 @@
+torchtrain/__init__.py,sha256=8ij7Vjzt3qHsuxSjwa4XacuZ8LEbyBt_9TfrItxbTSA,69
+torchtrain/callbacks.py,sha256=0acgSdQNobW-3DQlv0vBye-jnwubz-WHoNcSPDQ5qHQ,1058
+torchtrain/metrics.py,sha256=cwa6EKj9vL0OkAEeO9jnCPTw9vxmdc9pIt1yRZaJbnc,1004
+torchtrain/trainer.py,sha256=l15UigWbYjzhfd4YvvPgM9lECI1eKA1meQxXzTWXkzM,14882
+torchtrain/utils.py,sha256=Hz9A5aqATpX1UHzlWwCGhTMmn5ZSk3I8Ts79YPlqo34,1644
+torchtrain-0.4.12.dist-info/LICENSE,sha256=bWBxGgyGZjE2_-n4VXbjsCjmr40GUZuwEADkqsxp0rI,1059
+torchtrain-0.4.12.dist-info/METADATA,sha256=iCHm9VlkgCe41_smQBAk5-vPZV5dXSQWb4FeUSI-Ya4,4765
+torchtrain-0.4.12.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+torchtrain-0.4.12.dist-info/top_level.txt,sha256=jwOFQG09T94xQ4KE7M9XGcd4F4EG6FknhY9g3miTpSk,11
+torchtrain-0.4.12.dist-info/RECORD,,
