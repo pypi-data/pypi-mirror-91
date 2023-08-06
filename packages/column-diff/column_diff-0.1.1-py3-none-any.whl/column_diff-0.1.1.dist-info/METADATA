@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: column-diff
+Version: 0.1.1
+Summary: A Python package to filter emails from two columns of an Excel spreadsheet.
+Author: Thomas Breydo
+Author-email: tbreydo@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: openpyxl (>=3.0.5,<4.0.0)
+Requires-Dist: pandas (>=1.1.4,<2.0.0)
+Requires-Dist: xlrd (>=1.2.0,<2.0.0)
+Description-Content-Type: text/x-rst
+
+Description
+===========
+
+A Python package to filter emails from two columns of an Excel spreadsheet.
+
+
+Installation
+============
+
+.. code-block::
+
+    pip install column-diff
+
+Example Usage
+=============
+.. code-block:: python
+
+    filter_file("input.xlsx")
+    filter_file("input.xlsx", blacklist_column=3)
+
+
