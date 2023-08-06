@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: cole-wilson-test
+Version: 0.0.1
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: cole
+Author-email: 
+License: none
+Description: # Test_PROJECT
+        
+        ### Contributors
+        - cole
+        ### Contact
+        <> 
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown

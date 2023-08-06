@@ -1,0 +1,11 @@
+setup.py
+bin/hello
+bin/hello2
+cole-wilson-test/__init__.py
+cole-wilson-test/__main__.py
+cole-wilson-test/main.py
+cole_wilson_test.egg-info/PKG-INFO
+cole_wilson_test.egg-info/SOURCES.txt
+cole_wilson_test.egg-info/dependency_links.txt
+cole_wilson_test.egg-info/entry_points.txt
+cole_wilson_test.egg-info/top_level.txt
