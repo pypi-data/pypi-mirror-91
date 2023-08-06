@@ -1,0 +1,6 @@
+torch>=1.7
+torchvision>=0.8
+torchaudio
+tensorflow>=2.4
+Matplotlib
+Cython
