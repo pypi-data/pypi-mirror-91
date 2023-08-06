@@ -1,0 +1,7 @@
+CHANGES
+=======
+
+v1.4.0
+------
+
+* Added BaseDict and FrozenDict
