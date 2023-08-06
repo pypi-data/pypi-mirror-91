@@ -1,0 +1,11 @@
+setup.cfg
+setup.py
+dist_alx/Binomialdistribution.py
+dist_alx/Gaussiandistribution.py
+dist_alx/Generaldistribution.py
+dist_alx/__init__.py
+k_ege.egg-info/PKG-INFO
+k_ege.egg-info/SOURCES.txt
+k_ege.egg-info/dependency_links.txt
+k_ege.egg-info/not-zip-safe
+k_ege.egg-info/top_level.txt
