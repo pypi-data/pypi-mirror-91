@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: consultify
+Version: 0.0.1.1
+Summary: Turns pandas DataFrames into consulting-style PowerPoint slides
+Home-page: https://github.com/ryancarlyu/consultify
+Author: Ryan Yu
+Author-email: ryu@mba2021.hbs.edu
+License: UNKNOWN
+Description: # The So-What
+        *consultify* allows users to convert pandas DataFrames into PowerPoint slides, following the conventions of a McKinsey Marvin Table.
+        
+        # Installation
+        ```
+        pip install consultify
+        ```
+        
+        # #plsfix
+        Email ryu@mba2021.hbs.edu for feedback.
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: ==3.6
+Description-Content-Type: text/markdown
