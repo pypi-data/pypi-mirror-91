@@ -1,0 +1,18 @@
+Metadata-Version: 1.1
+Name: python_project_skeleton
+Version: 1.4
+Summary: python project skeleton
+Home-page: http://github.com/pasuder/python-project-skeleton
+Author: Paweł Suder
+Author-email: pawel@suder.info
+License: UNKNOWN
+Download-URL: http://github.com/pasuder/python-project-skeleton
+Description: UNKNOWN
+Keywords: skeleton
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Other Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
