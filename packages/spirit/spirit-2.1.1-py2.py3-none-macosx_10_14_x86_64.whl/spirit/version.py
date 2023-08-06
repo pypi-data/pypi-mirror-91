@@ -1,0 +1,16 @@
+version_major    = 2
+version_minor    = 1
+version_patch    = 1
+version          = "2.1.1"
+revision         = "14ed7782bd23f"
+version_full     = "2.1.1 (14ed7782bd23f)"
+compiler         = "AppleClang"
+compiler_version = "12.0.0.12000032"
+compiler_full    = "AppleClang (12.0.0.12000032)"
+scalartype       = "double"
+pinning          = "OFF"
+defects          = "OFF"
+cuda             = "OFF"
+openmp           = "OFF"
+threads          = "OFF"
+fftw             = "OFF"
