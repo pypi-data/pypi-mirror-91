@@ -1,0 +1,10 @@
+README.md
+setup.py
+cfo/__init__.py
+cfo/__version__.py
+cfo/utils.py
+cfo.egg-info/PKG-INFO
+cfo.egg-info/SOURCES.txt
+cfo.egg-info/dependency_links.txt
+cfo.egg-info/requires.txt
+cfo.egg-info/top_level.txt
