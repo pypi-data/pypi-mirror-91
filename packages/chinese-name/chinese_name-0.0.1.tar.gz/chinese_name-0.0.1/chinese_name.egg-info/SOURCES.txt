@@ -1,0 +1,10 @@
+README.md
+setup.py
+chinese_name.egg-info/PKG-INFO
+chinese_name.egg-info/SOURCES.txt
+chinese_name.egg-info/dependency_links.txt
+chinese_name.egg-info/top_level.txt
+src/boy.py
+src/family_name.py
+src/girl.py
+src/main.py
