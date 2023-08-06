@@ -1,0 +1,16 @@
+napari_arnheim/__init__.py,sha256=6rXE_-ep8ontibqqpqgW2OryJvsQgOsA5nEn6XdE_mM,260
+napari_arnheim/registries/napari.py,sha256=r0m0LJZBD1FU-Rx_V5Dc-GWjiZG0SMg8WMN4bWfaFp4,335
+napari_arnheim/run.py,sha256=j7GVhfqcfhK4SA96pTbDDmONZQw9wm9tdEwS1es2MQ4,212
+napari_arnheim/widgets/__init__.py,sha256=1zqxYu9E0cdg7LaPlaKJEGwzFF4P6OKyqroWg4jHIKY,34
+napari_arnheim/widgets/arnheim.py,sha256=FxTcbsQJqD3AFbGbzJ11eIfXWqu1PZCehdetr7XA4As,3618
+napari_arnheim/widgets/error/error.py,sha256=VxdwfXwaGOLiDg-RbEC68-5GbDUYEal6O1dFs3Bw6V0,833
+napari_arnheim/widgets/items/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+napari_arnheim/widgets/items/nodeitem.py,sha256=hr7LiMuz_o4qsODaVfuM5yNHYifgh7zTlgXfs3XSg0Q,1608
+napari_arnheim/widgets/items/representaiton.py,sha256=WXzJi-fhzFYQAIYQ8DW8ZnrJ15xZxk6z0Hn01k4A7Gs,1120
+napari_arnheim/widgets/lists/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+napari_arnheim/widgets/lists/nodelist.py,sha256=H5d6iKHpNfJ2PuFk9JVjgyw615ZPzp84ntj2aXoLRIg,962
+napari_arnheim/widgets/lists/replist.py,sha256=1DF1m8A2uFhhlXtrl9x8FZ1_tGqc31GiclYUCB3odLQ,992
+napari_arnheim-0.1.2.dist-info/entry_points.txt,sha256=LUnNwh4u5P-oDjxLYeBnCvSC6eMzRxsLf9AxM_h8bEs,58
+napari_arnheim-0.1.2.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+napari_arnheim-0.1.2.dist-info/METADATA,sha256=duBivM-uvNY4ciRq2KwNeQrdyU__J4-9wdXtg1VHERY,2493
+napari_arnheim-0.1.2.dist-info/RECORD,,
