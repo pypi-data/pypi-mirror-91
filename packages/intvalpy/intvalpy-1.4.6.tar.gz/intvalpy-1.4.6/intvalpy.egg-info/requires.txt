@@ -1,0 +1,8 @@
+collection
+joblib
+matplotlib
+numpy
+scipy
+setuptools
+six
+wheel
