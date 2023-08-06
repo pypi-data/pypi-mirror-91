@@ -1,0 +1,7 @@
+flask_statsdclient/__init__.py,sha256=cgQqDX2t3aljC_iHRD4fhLQ-MW4fJWQl7LV1FDuHOV4,156
+flask_statsdclient/extension.py,sha256=0O8qXgNsCsoKM-IhzUgu-zUqRJCT3nsEyO4CMCO0eVM,3793
+Flask_StatsDClient-2.1.1.dist-info/LICENSE.md,sha256=8J3DzFeufxsDspVkHyF-Pi5l_VXAdi9B9mCNKB0XusM,1061
+Flask_StatsDClient-2.1.1.dist-info/METADATA,sha256=WtDbEwFzwnjiqgm1RZP-cCs62oX8HMidUAP50PTLjik,3313
+Flask_StatsDClient-2.1.1.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+Flask_StatsDClient-2.1.1.dist-info/top_level.txt,sha256=dcKbYxcxu6UlJt5G_H8cRg9vO8GjcQz4ukNGsptpHl8,19
+Flask_StatsDClient-2.1.1.dist-info/RECORD,,
