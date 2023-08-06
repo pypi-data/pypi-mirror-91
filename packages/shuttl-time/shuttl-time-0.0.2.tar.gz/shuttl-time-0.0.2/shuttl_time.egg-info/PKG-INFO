@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: shuttl-time
+Version: 0.0.2
+Summary: Shuttl Time Library
+Home-page: UNKNOWN
+Author: himaniJoshi
+Author-email: himani.joshi@shuttl.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.7
+Provides-Extra: test
+Provides-Extra: dev
