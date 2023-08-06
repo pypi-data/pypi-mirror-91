@@ -1,0 +1,14 @@
+LICENSE.md
+MANIFEST.in
+README.md
+setup.py
+docs/index.md
+woptics/__init__.py
+woptics/fibre.py
+woptics.egg-info/PKG-INFO
+woptics.egg-info/SOURCES.txt
+woptics.egg-info/dependency_links.txt
+woptics.egg-info/requires.txt
+woptics.egg-info/top_level.txt
+woptics/tests/__init__.py
+woptics/tests/test_fibre.py

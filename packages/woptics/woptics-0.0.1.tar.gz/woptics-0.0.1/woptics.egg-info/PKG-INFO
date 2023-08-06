@@ -1,0 +1,49 @@
+Metadata-Version: 2.1
+Name: woptics
+Version: 0.0.1
+Summary: Light propogation simluation, using the scalar wave propogation approximation
+Home-page: https://github.com/rjkilpatrick/woptics
+Author: John Kilpatrick
+Author-email: john.kilpatrick@outlook.com
+License: MIT
+Description: # woptics
+        
+        Wave optics in Python.
+        Simulates light propogation through free-space, optical fibres, etc. using the scalar-wave approximation.
+        
+        ## Install
+        
+        ```sh
+        pip install woptics
+        ```
+        
+        ## Usage
+        
+        ```python
+        import woptics
+        ```
+        
+        ## Contributing
+        
+        Contributions are welcome!
+        Please read [CONTRIBUTING.md](./CONTRIBUTING.md) before submitting a PR.
+        
+        ## Versioning
+        
+        We use [SemVer](http://semver.org/) for versioning.
+        Currently the project does not have a stable release, but once it does, have a look on the [tags page](https://github.com/rjkilpatrick/woptics/tags).
+        
+        ## License
+        
+        This project is licensed under the MIT License - see the [LICENSE.md](./LICENSE.md) file for details
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Physics
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Intended Audience :: Science/Research
+Requires-Python: >=3.4
+Description-Content-Type: text/markdown
