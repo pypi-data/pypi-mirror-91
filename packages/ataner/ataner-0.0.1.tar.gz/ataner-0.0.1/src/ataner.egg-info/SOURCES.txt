@@ -1,0 +1,7 @@
+README.md
+setup.py
+src/ataner.py
+src/ataner.egg-info/PKG-INFO
+src/ataner.egg-info/SOURCES.txt
+src/ataner.egg-info/dependency_links.txt
+src/ataner.egg-info/top_level.txt
