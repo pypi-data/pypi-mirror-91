@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: gridtools
+Version: 1.0.0.post1
+Summary: A small Python library to convert between maidenhead grid locators and lat/long coördinates.
+Home-page: https://gridtools.miaow.io/
+Author: classabbyamp, 0x5c
+Author-email: dev@kb6.ee, dev@0x5c.io
+License: BSD 3-Clause
+Description: # gridtools
+        
+        A small Python library to convert between maidenhead grid locators and lat/long coördinates.
+        
+        [![PyPI](https://img.shields.io/pypi/v/gridtools)](https://pypi.org/project/gridtools/) ![PyPI - Python Version](https://img.shields.io/pypi/pyversions/gridtools) ![PyPI - License](https://img.shields.io/pypi/l/gridtools) [![Documentation Status](https://readthedocs.org/projects/gridtools/badge/?version=latest)](https://gridtools.readthedocs.io/en/latest/?badge=latest)
+        
+        ## Installation
+        
+        `gridtools` requires Python 3.8 at minimum.
+        
+        ```none
+        $ pip install gridtools
+        ```
+        
+        ## Documentation
+        
+        Documentation is available at [gridtools.miaow.io](https://gridtools.miaow.io/).
+        
+        ## Copyright
+        
+        Copyright 2020-2021 classabbyamp, 0x5c  
+        Released under the BSD 3-Clause License.  
+        See [`LICENSE`](LICENSE) for the full license text.
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Communications :: Ham Radio
+Description-Content-Type: text/markdown

@@ -1,0 +1,12 @@
+README.md
+pyproject.toml
+setup.py
+gridtools/__info__.py
+gridtools/__init__.py
+gridtools/__main__.py
+gridtools/gridtools.py
+gridtools/py.typed
+gridtools.egg-info/PKG-INFO
+gridtools.egg-info/SOURCES.txt
+gridtools.egg-info/dependency_links.txt
+gridtools.egg-info/top_level.txt
