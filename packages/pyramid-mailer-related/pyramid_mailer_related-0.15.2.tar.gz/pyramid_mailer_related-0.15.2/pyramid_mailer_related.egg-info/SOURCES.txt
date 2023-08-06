@@ -1,0 +1,17 @@
+README.rst
+setup.cfg
+setup.py
+pyramid_mailer/__init__.py
+pyramid_mailer/_compat.py
+pyramid_mailer/debug.py
+pyramid_mailer/exceptions.py
+pyramid_mailer/interfaces.py
+pyramid_mailer/mailer.py
+pyramid_mailer/message.py
+pyramid_mailer/testing.py
+pyramid_mailer_related.egg-info/PKG-INFO
+pyramid_mailer_related.egg-info/SOURCES.txt
+pyramid_mailer_related.egg-info/dependency_links.txt
+pyramid_mailer_related.egg-info/not-zip-safe
+pyramid_mailer_related.egg-info/requires.txt
+pyramid_mailer_related.egg-info/top_level.txt

@@ -1,0 +1,14 @@
+pyramid
+repoze.sendmail>=4.1
+transaction
+
+[docs]
+Sphinx>=1.8.1
+docutils
+pylons-sphinx-themes>=1.0.10
+repoze.sphinx.autointerface
+
+[testing]
+WebTest
+coverage
+nose
