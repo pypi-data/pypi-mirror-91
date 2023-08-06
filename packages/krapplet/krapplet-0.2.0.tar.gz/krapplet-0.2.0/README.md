@@ -1,0 +1,117 @@
+# Krapplet
+Krapplet is a graphical password manager which relies on gnome-keyring for storing secrets (passwords) and
+other information. It is developed as a Linux system tray icon applet in Python using GTK, and aims to not
+be in the user's way.
+
+## Introduction
+In today's on-line world, people need to maintain lots of passwords, particularly to access websites. These 
+passwords need to have a certain complexity, so that it is hard to guess them, or crack them. However, complex
+passwords are hard to remember, and therefore people write them down on a piece of paper or in text files.
+Such written down passwords are not very secure though. Password managers were invented to store complex
+passwords in a safe and secure manner.
+
+The aim of krapplet is to be a Linux native password manager. Krapplet provides the following features:
+- simple to use
+- sitting in the systray: ready to use whenever you need it
+- tries not to be in the user's way; uses only a small amount of user's computer screen
+- flexible: store also associated information, like a username, e-mail address, and the website URL
+- uses gnome-keyring, which is available in many Linux desktop environments
+- built in password generator
+
+## Installation
+### Environment
+Krapplet is based on [gnome-keyring](https://github.com/GNOME/gnome-keyring), which limits its use to the Linux
+operating system. Krapplet has been tested on the amd64 and x64 architecture, but might work on other
+architectures as well. A system tray needs to be available for the applet to embed itself in.
+
+### Software dependencies
+Krapplet makes use of the following software:
+- [Python](https://www.python.org/) as the programming language, tested with versions 3.7, 3.8 and 3.9.
+- [GTK3](https://www.gtk.org/) for the user interface. Developed against version 3.24.22. Please refer to
+[these instructions](https://pygobject.readthedocs.io/en/latest/getting_started.html) for how to install GTK3
+for your Linux distribution.
+- [Secretstorage](https://github.com/mitya57/secretstorage) as the Python API towards gnome-keyring. Developed
+against version 3.1.2. Secretstorage can be installed via [PyPI](https://pypi.org/project/SecretStorage), but is
+also available as an operating system package in many Linux distributions. Secretstorage makes use of a Python 
+package [cryptography](https://github.com/pyca/cryptography), which in turn requires some operating system
+packages to be installed: see [here](https://cryptography.io/en/latest/installation.html) for installation
+instructions.
+
+### Installers
+Krapplet is available:
+- as source code on [Gitlab](https://gitlab.com/hfernh/krapplet)
+- from the Python Package Index [PyPI](https://pypi.org/project/krapplet)
+- from the Arch Linux' User Repository [AUR](https://aur.archlinux.org/packages/krapplet)
+- from the Gentoo Linux' User Repository [GURU](https://gitweb.gentoo.org/repo/proj/guru.git/tree/app-admin/krapplet).
+
+## Usage
+Once krapplet is started it will show itself as an icon in the system tray.  When this icon is right clicked it
+will show a menu with the available keyrings, the option to add a keyring, and about and quit options.  When
+hovering over a keyring it will give the option to unlock a keyring when it is locked or show the availabe keys,
+and options to add a key, remove the keyring, or lock the keyring.
+
+Once a key has been selected it will show a small floating window to manipulate the key. It shows the key name
+as a first input field and when it is not a new key also the create and modified timestamps.
+
+Next are the key attributes in name/value pairs. There is a button to add an additional attribute. A blank
+attribute name is interpreted as an instruction to remove that attribute. When an attribute name "URL" is
+present a launch button will be shown, which opens the system webbrowser for the listed URL when clicked.
+
+The "secret" section contains the password, by default shown hidden. This section has buttons to generate a new
+password, copy the password to the system clipboard, and to show or hide the password. 
+
+The generation of a new password is based on five parameters:
+- total lenght
+- minimum number of uppercase, lowercase, numeric and special characters; use zero to exclude a category.
+
+Special characters are defined as: \!#$%&()\*+,-./:;<=>?@[\\]^\_\`{|}~
+
+## Secure storage of passwords
+Krapplet relies on gnome-keyring for storing secrets in a secure (encrypted) manner. How this works is described
+in [this gnome-keyring wiki page](https://wiki.gnome.org/Projects/GnomeKeyring/StoringSecrets). The upshot is 
+that:
+- There should be a password set for the first keyring to be unlocked, the login keyring
+- That password should be the same as the password for the user's Linux account 
+
+Desktop environments are capable of unlocking the login keyring as long as auto-login is not used.
+
+## Disclaimers
+### Password generation
+The generation of the password makes use of Python's random functions. These random funtions rely on operating
+system features, typically the current time in fractions of seconds, or when available from a random device like
+/dev/urandom in Linux, which seems better. Even better would be if there is a hardware random number generator 
+available and used by the operating system. How Python's random function works therefore depends on the Python
+interpretor, the system configuration, and the hardware. In any case, it is not good enough for real
+cryptographic purposes. Whether it is good enough for password generation is left to users of krapplet to
+decide.
+
+### Clipboard usage
+Krapplet can copy secrets to the system clipboard, allowing a user to paste a secret in an input field, seemingly
+a secure way since bystanders cannot see what is being copied. However, please be weary of clipboard managers
+maintaining a clipboard history and therefore can reveal everything that has been copied to it, including 
+passwords. Note that krapplet clears the clipboard after a key window is closed to prevent a password lingering 
+in the clipboard, and getting accidentally pasted in a place where others might see it.
+
+### Swap
+Memory constrained systems might swap krapplet out to a storage device. Encrypt your swap device or swap file to
+prevent hackers from harvesting secrets from it.
+
+## Troubleshooting
+
+### Error: could not embed in systray
+- Make sure that there is a systray for krapplet to embed itself in
+
+### Cannot see the krapplet icon
+- Verify that there are krapplet.png files in /usr/share/icons/hicolor/48x48/apps and in 
+/usr/share/icons/hicolor/96x96/apps
+- Refresh the icon cache by running gtk-update-icon-cache
+
+### Login keyring not automatically unlocked
+- Please check the official [gnome-keyring wiki](https://wiki.gnome.org/Projects/GnomeKeyring/Pam), or your 
+distribution's documentation, e.g. for [Arch Linux](https://wiki.archlinux.org/index.php/GNOME/Keyring), 
+
+## License
+Krapplet is licensed under the [BSD 3-Clause license](https://gitlab.com/hfernh/krapplet/-/blob/master/LICENSE).
+
+## Author
+Johannes Willem Fernhout
