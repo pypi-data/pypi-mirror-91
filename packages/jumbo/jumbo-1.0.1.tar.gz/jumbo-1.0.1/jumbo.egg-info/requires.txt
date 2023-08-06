@@ -1,0 +1,16 @@
+eventlet
+numpy
+pandas
+psycopg2
+pygtail
+python-dotenv
+sqlalchemy
+watchdog
+
+[doc]
+myst-parser
+sphinx
+sphinx-book-theme
+sphinx-copybutton
+sphinx-togglebutton
+sphinx-panels
