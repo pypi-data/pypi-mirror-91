@@ -1,0 +1,63 @@
+locators:
+  inclusions:
+    -
+  exclusions:
+    -
+actions:
+  - verb: ''
+    name: ''
+    locators:
+      - mode: ''
+        value: ''
+        index: 0
+        uses: 0
+  - verb: click
+    name: book
+    locators:
+      - mode: ''
+        value: ''
+        index: 0
+        uses: 0
+      - mode: text
+        value: Product
+        index: 0
+        uses: -1
+      - mode: text
+        value: Product
+        index: 0
+        uses: -1
+      - mode: value
+        value: Product
+        index: 0
+        uses: -1
+      - mode: value
+        value: Product
+        index: 0
+        uses: -1
+      - mode: css
+        value: .prod-block
+        index: 0
+        uses: 10
+  - verb: click
+    name: buy_it_now
+    locators:
+      - mode: ''
+        value: ''
+        index: 0
+        uses: 0
+      - mode: text
+        value: Buy It Now
+        index: 0
+        uses: -1
+      - mode: text
+        value: Buy it now
+        index: 0
+        uses: 9
+      - mode: value
+        value: Buy It Now
+        index: 0
+        uses: 0
+      - mode: value
+        value: Buy it now
+        index: 0
+        uses: 0
