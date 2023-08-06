@@ -1,0 +1,13 @@
+pyxlsb/__init__.py,sha256=T09ny1bMYBI3_YETWeAk6GDxY4BDxqLxa-SwujKPw_M,995
+pyxlsb/biff12.py,sha256=iWgnioJHGocSh2ePeNF07P9B2jta26zjyhsM6Bee5IU,4251
+pyxlsb/handlers.py,sha256=72WHQrDcmiSE2yfkL05C9AULnZC3MQmD93eT-0VIAb8,3711
+pyxlsb/reader.py,sha256=jkXuKcqLTVSQnGW7PjiGbFw3hpMY0SZ_Z2L0SVgf9FY,4800
+pyxlsb/stringtable.py,sha256=b0Byduz_5xOxZxq_pXOKhv16fd3TCIOQX0w0FvyielA,676
+pyxlsb/workbook.py,sha256=BqTrvWS-BxO9pmFEuklGx2-Tq_jW7BPoEO4DTYJQCCw,2477
+pyxlsb/worksheet.py,sha256=dhkfa_vzc7PVLYwiynWLI6284m3qnV1v2e_iHalg_S4,2621
+pyxlsb-1.0.8.dist-info/COPYING,sha256=jOtLnuWt7d5Hsx6XXB2QxzrSe2sWWh3NgMfFRetluQM,35147
+pyxlsb-1.0.8.dist-info/COPYING.LESSER,sha256=2n6rt7r999OuXp8iOqW9we7ORaxWncIbOwN1ILRGR2g,7651
+pyxlsb-1.0.8.dist-info/METADATA,sha256=DU5yquPCIInRNWqNeLNMGxW6Df1her6f5M5K1q47hf8,2408
+pyxlsb-1.0.8.dist-info/WHEEL,sha256=Z-nyYpwrcSqxfdux5Mbn_DQ525iP7J2DG3JgGvOYyTQ,110
+pyxlsb-1.0.8.dist-info/top_level.txt,sha256=190Zrl5NAJ7uMC9PxqKa8BN8BV_R74KQ8kQaALY1XNE,7
+pyxlsb-1.0.8.dist-info/RECORD,,
