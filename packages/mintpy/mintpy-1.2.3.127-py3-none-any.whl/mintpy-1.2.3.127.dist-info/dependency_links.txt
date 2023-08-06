@@ -1,0 +1,3 @@
+git+https://github.com/yunjunz/PyAPS.git
+git+https://github.com/insarlab/PySolid.git
+git+https://github.com/tylere/pykml.git
