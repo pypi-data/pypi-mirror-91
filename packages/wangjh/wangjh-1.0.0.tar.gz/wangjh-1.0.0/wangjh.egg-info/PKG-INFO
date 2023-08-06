@@ -1,0 +1,28 @@
+Metadata-Version: 1.1
+Name: wangjh
+Version: 1.0.0
+Summary: A small example package
+Home-page: https://github.com/Wang-jiahao
+Author: wjh
+Author-email: 1111111111@qq.com
+License: BSD License
+Description-Content-Type: UNKNOWN
+Description: # Example Package
+        This is a simple example package. You can use
+        
+        [contact the author](https://www.zhihu.com/people/wang-jia-hao-53-3)
+        
+        to write your content.
+Platform: all
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Natural Language :: Chinese (Simplified)
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Software Development :: Libraries
