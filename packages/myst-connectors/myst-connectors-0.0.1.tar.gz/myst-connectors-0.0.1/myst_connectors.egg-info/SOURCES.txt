@@ -1,0 +1,9 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+myst_connectors.egg-info/PKG-INFO
+myst_connectors.egg-info/SOURCES.txt
+myst_connectors.egg-info/dependency_links.txt
+myst_connectors.egg-info/top_level.txt
+time_array/__init__.py
