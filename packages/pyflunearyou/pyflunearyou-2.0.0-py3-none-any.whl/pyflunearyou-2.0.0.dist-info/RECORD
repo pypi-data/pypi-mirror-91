@@ -1,0 +1,12 @@
+pyflunearyou/__init__.py,sha256=9R9q9KFrbgSv8DIbdVZH4BB7HXa95hGgfJG8xwvFxn0,70
+pyflunearyou/cdc.py,sha256=cFVwqu7-d68B8fXWFwb0UGLXyCoJIififIZfDEYuoL0,2054
+pyflunearyou/client.py,sha256=8vmPBZQzkRmtzjA6u6LurX_14ddGIMDCFZchV6E5ULM,2335
+pyflunearyou/errors.py,sha256=PQtnn40pMJqBW6_OXY63ktydFRKJIruDxqe6AAk8A3Y,210
+pyflunearyou/helpers/__init__.py,sha256=dPkkdq3Mz6_4AdLPBCJqFNBzus2w5rsnBT9i1z5htuo,293
+pyflunearyou/helpers/geo.py,sha256=vKQgzC3ZbnL_lf97PiUREw6v-MK3lX6QZLvISglVaEM,1011
+pyflunearyou/helpers/report.py,sha256=2UGGkOnDZTWyDCEgJqQcHsOowFuNv23K_dp9JiRfX0A,2978
+pyflunearyou/user.py,sha256=aLmzggE_WQSEB0115wzjTN8U1ucmm_YA0KKRdJKbyi8,897
+pyflunearyou-2.0.0.dist-info/LICENSE,sha256=FTF9lC9P4MjR5EcYxNqTzoze0OjPm4L7Up_oihQ3S5I,1067
+pyflunearyou-2.0.0.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+pyflunearyou-2.0.0.dist-info/METADATA,sha256=xj2IXsHKUo6un0gnqHF-mJtrIuaaChkWFxUcfeR5OG4,4342
+pyflunearyou-2.0.0.dist-info/RECORD,,
