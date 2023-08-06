@@ -1,0 +1,59 @@
+Metadata-Version: 2.1
+Name: to4326
+Version: 1.0.0rc1
+Summary: UNKNOWN
+Home-page: https://github.com/yonda-yonda/to4326
+Author: yonda
+Author-email: yonda.fountain@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Scientific/Engineering :: GIS
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: pyproj (>=3.0.0)
+
+# to4326
+to4326 convert bounds of satellite data such as GeoTIFF to Polygon of EPSG:4326.  
+Depends: pyproj
+
+## Example
+
+```Python
+from to4326 import transform
+
+upper_left = [382200.000, 2512500.000]
+lower_left = [382200.000, 2279400.000]
+upper_right = [610500.000, 2512500.000]
+lower_right = [610500.000, 2279400.000]
+src_crs = 32645
+
+transform.geojson_from_corner_coordinates(upper_left, lower_left, upper_right, lower_right, src_crs)
+```
+**result**
+```JSON
+{
+  "type":"Feature",
+  "bbox":[
+    85.85296718933647,
+    20.610041795245515,
+    88.07596179098907,
+    22.719775713801845
+   ],
+  "properties": {},
+  "geometry":{
+    "type":"Polygon",
+    "coordinates":[
+      [
+        [85.85296718933647, 22.71566587084141],
+        [85.85471144948144, 22.505128271679137],
+        // ...
+        [85.85296718933647,22.71566587084141]
+      ]
+    ]
+  }
+}
+```
+
+
