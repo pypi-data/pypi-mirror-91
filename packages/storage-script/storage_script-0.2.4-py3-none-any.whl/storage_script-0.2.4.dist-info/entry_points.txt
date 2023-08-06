@@ -1,0 +1,3 @@
+[console_scripts]
+rasa_storage=storage_script.__main__:main
+
