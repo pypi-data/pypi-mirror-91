@@ -1,0 +1,8 @@
+kedro_dataframe_dropin/__init__.py,sha256=_tjFP7dAAL-YP-DlHfMrovPyvKkRcpzM2cJhiJ46cC0,56
+kedro_dataframe_dropin/core.py,sha256=bcCXI2q2K5415C7N3zppeIydnI9WdYVCaxdG-xD7c_w,1892
+kedro_dataframe_dropin/modin.py,sha256=vjjVz6cbBJsP0HIdShimgU-qAYy42bsJKcYl3dDAzJg,481
+kedro_dataframe_dropin/rapids.py,sha256=krNAzz7oZ-ay5Hw3H9S-1qHs7ptYLSy3vPuBtm_pA8M,446
+kedro_dataframe_dropin-0.1.0.dist-info/LICENSE.md,sha256=tzlUpXFzaHsS9og-DNDctlAeqS78NQPxgDz7M4H98cs,1067
+kedro_dataframe_dropin-0.1.0.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+kedro_dataframe_dropin-0.1.0.dist-info/METADATA,sha256=9ToyVe0Xf-GeC9E3TAIstgG1r9TGAJQB4iap_jz5zg0,6676
+kedro_dataframe_dropin-0.1.0.dist-info/RECORD,,
