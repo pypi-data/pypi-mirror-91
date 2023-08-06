@@ -1,0 +1,15 @@
+pytempmail/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pytempmail/consts.py,sha256=icaF4UqXcuIdF8-W7NG208s45esEwBQTcb-cS8tCqbE,765
+pytempmail/emailid.py,sha256=hxUL2F6Ymu--YDor5kAxIwdGgzSxABW0NW9o2Z58ujo,334
+pytempmail/excep.py,sha256=ZXINXZHrYMPrSM2Ng_sQbaUQwg0zAcFXeHVL1-373C8,87
+pytempmail/inbox.py,sha256=ZELcbvRFkKIgXTAjlwGZF-kAfNyQ5NMBDr2cJs6bBFI,671
+pytempmail/mail.py,sha256=3MSy92lVjXGUwfBYAGkcxY-gSVODY0WcbKHN2I1MaMs,889
+pytempmail/tempmail.py,sha256=SKAZmE6Iui7PaQhjuPhfg2OZJb2g1MIhJE4o6yClJkY,1000
+pytempmail/tempmailapi.py,sha256=xDzeNL7B5jObnJ5hPanew8KTudlVLup3pP5-BLIS59M,5214
+pytempmail/testgen.py,sha256=RIBYKc4pf1m859k2RE0kvHeTxX1Lyr5A-aZO32Bv6Do,99
+pytempmail/timer.py,sha256=Og859mag2vsKb8WWwZBN8gg_cMxoAll36MbqSbGthT8,254
+PyTempMail-0.1.dist-info/LICENSE,sha256=pAZXnNE2dxxwXFIduGyn1gpvPefJtUYOYZOi3yeGG94,1068
+PyTempMail-0.1.dist-info/METADATA,sha256=T_us6sK-bEZw5nFr7TlqdfSJJocc657CgXe_sj-6dRs,424
+PyTempMail-0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+PyTempMail-0.1.dist-info/top_level.txt,sha256=s9Qv3rCs7hWbGNRsHKkypmuMrgK_ActG5Gos7au7j08,11
+PyTempMail-0.1.dist-info/RECORD,,
