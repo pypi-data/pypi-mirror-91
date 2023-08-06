@@ -1,0 +1,16 @@
+scriptgen/__init__.py,sha256=YMeCWzKZeRN_xL37-btnJ5H3W5Y3r8fBmhvI7-FjCe4,223
+scriptgen/core/__init__.py,sha256=Vgx5Mh5uwa-03mPgJtiBk3RNV03dfoMQ2g_mYKgqIFk,254
+scriptgen/core/_string_builder.py,sha256=RleSxsNXrQEHcm46yvFwl3B_DFH4t12ggEAkMVB4J04,4805
+scriptgen/core/_utils.py,sha256=_ldf_Ed2nDZMfb4KVnkaVnR8GKmT6Ib9bQtRmoWKlIM,2318
+scriptgen/templates/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+scriptgen/templates/csharp/__init__.py,sha256=p27gtfKYLo2rsId1dJ8V9x3WgD_lcJ_jg1vVlAOxJtU,446
+scriptgen/templates/csharp/_csharp.py,sha256=_yzj2dMoDDFVp4pRgfVHS6PFw5uT-_CXuAl0kv-LELI,6183
+scriptgen/templates/markdown/__init__.py,sha256=f6ItXrdRBCDYsdl11IkMI9FeN8EiLVWRgxZlg-Z97PM,168
+scriptgen/templates/markdown/_markdown.py,sha256=ADrDeD1rIGnUg6eoEVLtcPyrn1wddOydirY8maxvOIg,969
+scriptgen/templates/xml/__init__.py,sha256=3JcfbQn7MRlwBaalyLOYLSCiMM3Sn22tvILRxCjQAKA,173
+scriptgen/templates/xml/_xml.py,sha256=UFmtEuHQsFyKc3CcUEF9ZJB1vVk1KmI7aIaRLw6ABVM,3378
+scriptgen-0.0.5.dist-info/LICENSE.txt,sha256=9a-ZDYV1CNzGT2guWA6P2hnB9rHw0BZA9TUFa07QPMw,1066
+scriptgen-0.0.5.dist-info/METADATA,sha256=NSG3JK7OImzrx8fQz7XqRVzTg3R7keludj-CVh3Uo8U,5959
+scriptgen-0.0.5.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+scriptgen-0.0.5.dist-info/top_level.txt,sha256=_4r5HwgUvGP8CPVFgMwKlhvoa7tRbxLRelLJ3N4CDbo,10
+scriptgen-0.0.5.dist-info/RECORD,,
