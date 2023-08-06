@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: all-relative
+Version: 0.1.5
+Summary: convert a static site to use only relative urls
+Author: Ivan Gonzalez
+Author-email: scratchmex@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: Jinja2 (>=2.11.2,<3.0.0)
+Requires-Dist: colorama (>=0.4.4,<0.5.0)
