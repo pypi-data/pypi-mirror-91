@@ -1,0 +1,9 @@
+pyseqlsa/__init__.py,sha256=WJSW-G4GLmkfGAatGypCV1m4mrKhp4eRCDKbgz_-Mxs,50
+pyseqlsa/__version__.py,sha256=6OAMtA8pie5iW9sRvHzOusV3M5s5OTxFsWqF8lH5De4,360
+pyseqlsa/lsa.py,sha256=PPH---UllgNHpVKToysZ9D9GLL0we4FOlNCv1e8nNIo,2698
+pyseqlsa/preprosessing.py,sha256=00LFsdRUcefc5skDfI9jfX9-KBA5vu2vl4Od9EY_4Fo,611
+pyseqlsa-0.1.2.dist-info/LICENSE,sha256=p9c4fBNqpjeYBa9u5xftGsgug8YFS9Ua6D6YGvSftYw,1055
+pyseqlsa-0.1.2.dist-info/METADATA,sha256=6yTDyr2WVnldaduoLSyf-Dackti5DPwqCM81IOpLHCQ,2314
+pyseqlsa-0.1.2.dist-info/WHEEL,sha256=6T3TYZE4YFi2HTS1BeZHNXAi8N52OZT4O-dJ6-ome_4,116
+pyseqlsa-0.1.2.dist-info/top_level.txt,sha256=LLIK8L5hzdsNyZP93ETU8X_uxsNySJB-eyztmtslQxs,9
+pyseqlsa-0.1.2.dist-info/RECORD,,
