@@ -1,0 +1,16 @@
+CHANGELOG.txt
+LICENSE.txt
+MANIFEST.in
+README.txt
+setup.py
+frozenSpider/Data_visualisation.py
+frozenSpider/__init__.py
+frozenSpider/spiderAlgorithmLR.py
+frozenSpider/spiderAlgorithmLoR.py
+frozenSpider/spiderAlgorithms.py
+frozenSpider/spiderNets.py
+frozenSpider.egg-info/PKG-INFO
+frozenSpider.egg-info/SOURCES.txt
+frozenSpider.egg-info/dependency_links.txt
+frozenSpider.egg-info/requires.txt
+frozenSpider.egg-info/top_level.txt
