@@ -1,0 +1,11 @@
+README.md
+setup.cfg
+setup.py
+markdown_to_sqlite/__init__.py
+markdown_to_sqlite/cli.py
+markdown_to_sqlite.egg-info/PKG-INFO
+markdown_to_sqlite.egg-info/SOURCES.txt
+markdown_to_sqlite.egg-info/dependency_links.txt
+markdown_to_sqlite.egg-info/entry_points.txt
+markdown_to_sqlite.egg-info/requires.txt
+markdown_to_sqlite.egg-info/top_level.txt

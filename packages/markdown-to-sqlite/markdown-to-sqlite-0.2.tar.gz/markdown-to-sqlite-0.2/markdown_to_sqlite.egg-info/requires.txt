@@ -1,0 +1,7 @@
+yamldown
+markdown
+sqlite-utils
+click
+
+[test]
+pytest
