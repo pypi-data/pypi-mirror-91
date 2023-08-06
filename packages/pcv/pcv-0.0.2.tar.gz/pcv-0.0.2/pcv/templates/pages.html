@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    {% block style %}
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Alegreya+Sans">
+        <style>
+            {# include the style files as inline css #}
+            {# so we don't need to include css file in the distribution #}
+            {% for style in settings.STYLES %}
+                {% include 'styles/' + style %}
+            {% endfor %}
+        </style>
+    {% endblock %}
+    <title>{% block title %}CV for {{ person.name }}{% endblock %}</title>
+</head>
+<body>
+<div class="page-container">
+    {% for page in settings.PAGES %}
+        {% include 'pages/' + page %}
+    {% endfor %}
+</div>
+</body>
+</html>

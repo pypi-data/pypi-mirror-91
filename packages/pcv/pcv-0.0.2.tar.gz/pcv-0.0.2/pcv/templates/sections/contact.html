@@ -1,0 +1,33 @@
+{% extends 'sections/section.html' %}
+{% block content %}
+    {{ super() }}
+
+    <table>
+        <tr>
+            <td>
+                <span class="fa fa-phone"></span>
+            </td>
+            <td>
+                {{ data.telephone }}
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="fa fa-at"></span>
+            </td>
+            <td>
+                {{ data.email }}
+            </td>
+        </tr>
+        <tr>
+            <td style="vertical-align: top">
+                <span class="fa fa-home"></span>
+            </td>
+            <td>
+                {{ data.street }}<br>
+                {{ data.postal }}, {{ data.city }}, {{ data.country }}
+            </td>
+        </tr>
+    </table>
+
+{% endblock %}

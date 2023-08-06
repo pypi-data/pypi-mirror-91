@@ -1,0 +1,14 @@
+{% extends 'sections/section.html' %}
+{% block content %}
+    {{ super() }}
+
+    <table>
+        {% for item in data.list %}
+            <tr class="table-row">
+                <td>{{ item.label }}:</td>
+                <td class="circles">{{ item.level|as_circles(data.scale) }}</td>
+            </tr>
+        {% endfor %}
+    </table>
+
+{% endblock %}

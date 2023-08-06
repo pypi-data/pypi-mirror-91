@@ -1,0 +1,41 @@
+* {
+{# ensure padding and border are included in width/height everywhere #}
+    box-sizing: border-box;
+}
+
+@media print {
+    @page {
+        size: A4 portrait;
+        margin: 0;
+    }
+
+    .page {
+        break-after: page;
+    {# todo: background should extend to bottom of page #}
+    }
+}
+
+@media screen {
+    body {
+        background-color: lightgray;
+    }
+
+    .page-container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .page {
+    {# absolute length units (e.g. mm) on screen are only approximate #}
+    {# (depending on physical pixel size vs reference pixel size) #}
+    {# https://developer.mozilla.org/en-US/docs/Web/CSS/length#Absolute_length_units #}
+        margin: 5mm;  {# keeps some distance between pages #}
+        padding: 0;  {# acts as "page" margin #}
+        width: 210mm;
+        height: 297mm;
+        background-color: white;
+    }
+}

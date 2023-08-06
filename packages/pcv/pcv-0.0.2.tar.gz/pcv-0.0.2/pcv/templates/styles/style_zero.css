@@ -1,0 +1,163 @@
+body {
+    font-family: "Alegreya Sans";
+    font-size: small;
+}
+
+h1 {
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.2ch;
+    color: {{ settings.THEME_COLOR }};
+}
+
+blockquote {
+    font-style: italic;
+}
+
+img {
+    filter: grayscale(100%);
+{# use content-box to prevent image resizing if we set padding #}
+    box-sizing: content-box;
+    width: 35mm;  {# official passport photo is 35mm x 45mm #}
+    height: auto;
+{# use display block and auto margins to center horizontally #}
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2em;
+}
+
+.polaroid {
+    box-sizing: content-box;
+    width: 35mm;
+    height: auto;
+    padding: 3mm 3mm 10mm 3mm;
+{#border: 1px solid dimgray;#}
+    box-shadow: 5px 5px 5px dimgray;
+    transform: rotate(5deg);
+    filter: grayscale(100%);
+    background-color: white;
+}
+
+.image-container {
+    width: 100%;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+}
+
+.left {
+    background-color: {{ settings.THEME_COLOR }};
+    color: {{ settings.THEME_FONT_COLOR }};
+    flex: 0 0 60mm;
+    padding: 5mm;
+}
+
+.right {
+    background-color: transparent;
+    flex: 1;
+    padding: 5mm;
+}
+
+.flex-columns {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 90%;
+}
+
+.circles {
+    font-size: x-small;
+    letter-spacing: 0.3ch;
+}
+
+.left .link {
+    text-decoration: none;
+    color: {{ settings.THEME_FONT_COLOR }};
+}
+
+.section {
+    padding: 4mm 5mm;  {# top/bottom, left/right #}
+}
+
+.organization {
+    font-weight: bold;
+}
+
+.period {
+    white-space: nowrap;
+}
+
+.position {
+    font-style: italic;
+}
+
+.column-header {
+    text-align: right;
+}
+
+.column-data ul {
+    padding-left: 2em;
+    text-align: left;
+}
+
+table.technology {
+    width: 100%;
+    margin-left: 1em;
+}
+
+td.technology {
+    width: 50%;
+}
+
+div.right div.label {
+    color: {{ settings.THEME_COLOR }};
+}
+
+.page.page-padding {
+    padding: 10mm 15mm;  {# acts as actual page margin (top/bottom, left/right) #}
+}
+
+.label {
+    text-transform: uppercase;
+    letter-spacing: 0.3ch;
+    font-weight: bold;
+    margin-bottom: 0.5em;
+}
+
+.label.technology {
+    color: {{ settings.THEME_COLOR }};
+}
+
+.title {
+    height: 10%;
+}
+
+
+.flex-half {
+    width: 50%;
+    margin: 1em 0;
+}
+
+.publication {
+    font-size: medium;
+}
+
+.publication-info {
+    font-style: italic;
+}
+
+#motto {
+    background-color: transparent;
+    color: black;
+    margin: 2.4em 0;  {# top/bottom, left/right #}
+}
+
+#online .list-item {
+    font-size: small;
+}
