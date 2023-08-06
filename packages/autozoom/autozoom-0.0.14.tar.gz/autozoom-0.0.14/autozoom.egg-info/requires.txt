@@ -1,0 +1,2 @@
+elevate>=0.1.0
+keyboard>0.13.0
