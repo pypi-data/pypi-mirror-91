@@ -1,0 +1,6 @@
+README.md
+setup.py
+pyedifice.egg-info/PKG-INFO
+pyedifice.egg-info/SOURCES.txt
+pyedifice.egg-info/dependency_links.txt
+pyedifice.egg-info/top_level.txt
