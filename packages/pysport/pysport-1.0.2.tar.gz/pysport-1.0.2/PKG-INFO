@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: pysport
+Version: 1.0.2
+Summary: An efficient web scraping library for everything sports
+Home-page: UNKNOWN
+Author: Sarang Purandare
+Author-email: purandare.sarang@gmail.com
+License: UNKNOWN
+Description: An efficient web scraping library for everything sports (currenlty supports https://www.premierleague.com/ and https://www.sofascore.com/
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown

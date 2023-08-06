@@ -1,0 +1,8 @@
+README.md
+setup.py
+pysport/__init__.py
+pysport.egg-info/PKG-INFO
+pysport.egg-info/SOURCES.txt
+pysport.egg-info/dependency_links.txt
+pysport.egg-info/requires.txt
+pysport.egg-info/top_level.txt
