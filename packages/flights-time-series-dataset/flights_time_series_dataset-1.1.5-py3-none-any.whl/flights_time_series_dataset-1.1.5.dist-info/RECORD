@@ -1,0 +1,12 @@
+flights_time_series_dataset/__init__.py,sha256=ObL0CM3xOjRxzmDhtFybdxM4ANBi22mzs3x9caTdbAs,212
+flights_time_series_dataset/convert_year_month_array_to_datetime.py,sha256=zXSojW7pPCJEq7qkI9qw5UXGqRK8Q-kMokTS7qHeuXw,559
+flights_time_series_dataset/dataset.py,sha256=UQ_U4HxNKnBX9ZscEcJbWVL6T2KphE9H6svyj5pfNcU,4501
+flights_time_series_dataset/flight_series_dataset.py,sha256=qyKtktt38-imAOZHUasKKo5scRCWzOYHZjzlmXojzAg,1336
+flights_time_series_dataset/flights_dataset.py,sha256=lAP01bnpRhISQaQ2M7x1IR704XjZemR_Q_9OgUuG1Ns,2396
+tests/fixtures/__init__.py,sha256=5oCsYeOIvVHh0XVhPqPPrXoLGftwC9I3GRQ3cWK0MaU,42
+tests/fixtures/expected_shape.py,sha256=X9e-qlSb0ZZGemXvtIAsDEPtEkY6YJW-Si1Q9B-fBTU,1109
+flights_time_series_dataset-1.1.5.dist-info/LICENSE,sha256=Q2ptU2E48gOsMzhYz_kqVovmJ5d1KzrblLyqD2_-fvY,1235
+flights_time_series_dataset-1.1.5.dist-info/METADATA,sha256=MXmZc1DBcwb_F5BMTeX_FL2KGAAJMhnkFiKkrjy3yhM,1792
+flights_time_series_dataset-1.1.5.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+flights_time_series_dataset-1.1.5.dist-info/top_level.txt,sha256=EKBl2Uo53A8vtWdlaPNXmPCTy3DpCdR6rpw4Oy-V2SA,34
+flights_time_series_dataset-1.1.5.dist-info/RECORD,,
