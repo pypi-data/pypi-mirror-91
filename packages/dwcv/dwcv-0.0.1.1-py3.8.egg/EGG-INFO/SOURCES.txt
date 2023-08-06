@@ -1,0 +1,16 @@
+README.md
+setup.py
+datasets/__init__.py
+datasets/create_dataset/__init__.py
+datasets/create_dataset/ava_style/__init__.py
+datasets/create_dataset/ava_style/txt2ava.py
+dwcv.egg-info/PKG-INFO
+dwcv.egg-info/SOURCES.txt
+dwcv.egg-info/dependency_links.txt
+dwcv.egg-info/not-zip-safe
+dwcv.egg-info/requires.txt
+dwcv.egg-info/top_level.txt
+fileio/__init__.py
+fileio/io.py
+fileio/rename.py
+tests/__init__.py
