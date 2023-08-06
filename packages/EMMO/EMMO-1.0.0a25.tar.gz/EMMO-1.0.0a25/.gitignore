@@ -1,0 +1,10 @@
+*~
+
+__pycache__
+.pytest_cache
+EMMO.egg-info
+MANIFEST
+dist
+build
+old
+test_graph2
