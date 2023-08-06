@@ -1,0 +1,11 @@
+Metadata-Version: 1.1
+Name: dwcl
+Version: 1.0.0
+Summary: A Dash Component that catches a the window close event and updates it's status. This can be used to stop the Dash server when the user closes his window, which is useful when using Dash apps as part of a multi step a workflow.
+Home-page: UNKNOWN
+Author: Karel Vanhoorebeeck <karel@raymon.ai>
+Author-email: UNKNOWN
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Framework :: Dash
