@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "drf-imgproxy"
+version = "1.0.0"
+description = """
+Serialize Django's ImageField into imgproxy URLs for your Django REST
+Framework APIs to generate thumbnails.
+"""
+authors = ["VIPER Development UG <info@viper.dev>"]
+
+[tool.poetry.dependencies]
+python = "^3.6"
+djangorestframework = ">=3.9.0"
+Django = ">=2.1.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+flake8 = "^3.8.4"
+pytest-django = "^4.1.0"
+pytest-cov = "^2.10.1"
+pytest-instafail = "^0.4.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
