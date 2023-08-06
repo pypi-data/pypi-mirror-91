@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: python-patch
+Version: 0.0.1
+Summary: Make your python smart
+Home-page: https://github.com/topenkoff/python-patch
+License: WTFPL
+Author: Denis Kayshev
+Author-email: topenkoff@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Project-URL: Repository, https://github.com/topenkoff/python-patch
+Description-Content-Type: text/markdown
+
+## Make your python smart
+
+
