@@ -1,0 +1,8 @@
+README.md
+setup.py
+RichMap.egg-info/PKG-INFO
+RichMap.egg-info/SOURCES.txt
+RichMap.egg-info/dependency_links.txt
+RichMap.egg-info/entry_points.txt
+RichMap.egg-info/requires.txt
+RichMap.egg-info/top_level.txt

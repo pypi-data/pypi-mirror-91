@@ -1,0 +1,4 @@
+[console_scripts]
+discover = richMap.rich_map:host_discovery
+scan = richMap.rich_map:port_scan
+
