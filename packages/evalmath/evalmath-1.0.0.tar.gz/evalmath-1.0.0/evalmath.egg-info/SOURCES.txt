@@ -1,0 +1,7 @@
+README.md
+evalmath.py
+setup.py
+evalmath.egg-info/PKG-INFO
+evalmath.egg-info/SOURCES.txt
+evalmath.egg-info/dependency_links.txt
+evalmath.egg-info/top_level.txt

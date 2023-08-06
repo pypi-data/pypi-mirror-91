@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: evalmath
+Version: 1.0.0
+Summary: evalmath that can help you make a advanced calculator with simple code
+Home-page: https://github.com/IM-code111/jsonbase-1.0.0
+Author: WinXpDev
+Author-email: muhammad184276@gmail.com
+License: UNKNOWN
+Description: # EvalMath
+        
+        ## Module that only have one fuction
+        
+        ### Want to use eval as calculator but you fear that some user will hack you code?
+        
+        ### Use **evalmath**!
+        
+        ### Its quite simple
+        ****
+        ## Usage
+        ```py
+        import evalmath
+        
+        print(evalmath.calculate('3-4/8'))
+        ```
+        ```py
+        import evalmath
+        
+        question = str(input('Insert math question: '))
+        print(evalmath.calculate(question))
+        ```
+        ****
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
