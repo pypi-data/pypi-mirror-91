@@ -1,0 +1,4 @@
+[console_scripts]
+raspilink-agent = raspberrylink.agent:run_agent
+raspilink-server = raspberrylink.server:startup
+
