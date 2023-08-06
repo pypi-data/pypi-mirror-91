@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: ulibpy
+Version: 0.0.1
+Summary: common use lib
+Home-page: https://github.com/uopensail/ulibpy.git
+Author: timepi
+Author-email: UNKNOWN
+License: GNU General Public License v3.0
+Description: common use lib
+Keywords: pip,prome
+Platform: any
