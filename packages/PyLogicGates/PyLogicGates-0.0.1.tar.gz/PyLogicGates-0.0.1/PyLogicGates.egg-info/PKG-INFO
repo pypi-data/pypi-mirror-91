@@ -1,0 +1,81 @@
+Metadata-Version: 2.1
+Name: PyLogicGates
+Version: 0.0.1
+Summary: use logic gates in python
+Home-page: https://github.com/B00bleaTea/PyLogicGates
+Author: B00bleTeA
+Author-email: asnojus039@gmail.com
+License: UNKNOWN
+Description: # PyLogicGates
+        ### version 0.0.1
+        > initial release
+        
+        #### ADDED GATES :
+        ```text
+                <<<< AND >>>>
+        False   /   False   = False
+        False   /   True    = False
+        True    /   False   = False
+        True    /   True    = False
+        
+                <<<< OR >>>>
+        False   /   False   = False
+        False   /   True    = True
+        True    /   False   = True
+        True    /   True    = True
+        
+                <<<< XOR >>>>
+        False   /   False   = False
+        False   /   True    = True
+        True    /   False   = True
+        True    /   True    = False
+        
+                <<<< NOT >>>>
+        False               = True
+        True                = False
+        
+                <<<< NAND >>>>
+        False   /   False   = True
+        False   /   True    = False
+        True    /   False   = False
+        True    /   True    = False
+        
+                <<<< NOR >>>>
+        False   /   False   = True
+        False   /   True    = False
+        True    /   False   = False
+        True    /   True    = False
+        
+                <<<< XNOR >>>>
+        False   /   False   = True
+        False   /   True    = False
+        True    /   False   = False
+        True    /   True    = True
+        
+                <<<< EXNOR >>>>
+        False   /   False   = True
+        False   /   True    = False
+        True    /   False   = False
+        True    /   True    = True
+        
+                <<<< EXOR >>>>
+        False   /   False   = False
+        False   /   True    = True
+        True    /   False   = True
+        True    /   True    = False
+        ```
+        
+        #### ADDITIONAL FUNCTIONS:
+        ```text
+                <<<< RANDOM >>>>
+        True / False
+        ```
+        
+        [GITHUB](https://github.com/B00bleaTea/PyLogicGates)
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown

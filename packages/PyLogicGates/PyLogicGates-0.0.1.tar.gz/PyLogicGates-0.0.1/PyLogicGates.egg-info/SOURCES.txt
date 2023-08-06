@@ -1,0 +1,7 @@
+README.md
+setup.py
+PyLogicGates/__init__.py
+PyLogicGates.egg-info/PKG-INFO
+PyLogicGates.egg-info/SOURCES.txt
+PyLogicGates.egg-info/dependency_links.txt
+PyLogicGates.egg-info/top_level.txt
