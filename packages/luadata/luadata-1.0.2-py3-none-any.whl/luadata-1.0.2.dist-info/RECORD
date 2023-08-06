@@ -1,0 +1,14 @@
+luadata/__init__.py,sha256=csf2Xhx0J1PHGrdqFi_xG6qxAgY5DxK0dJ3VA-mdHCM,286
+luadata/io/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+luadata/io/read.py,sha256=XRRLv4ZWa6lS3TQsa29I9nW88vWcOapka383yK1nODo,733
+luadata/io/serialize.py,sha256=x1fKS_OmK9PKIZHVJbZDupL1S80f5rnJJqMEt1g1Fws,2902
+luadata/io/write.py,sha256=cvjoAZk9gSkwhYU0Y6E_FOnHaBDZxSsfOFYjb9t5yJ8,610
+luadata/serializer/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+luadata/serializer/__test__.py,sha256=X6JwGvmldyCYjln5G_AjLx4-HjXi_GnSdZYH7LFP-oE,6187
+luadata/serializer/serialize.py,sha256=Q_EkS9IsfeAerv5IYEkD3Zw_T1N20gefmyUa4APxJBA,4166
+luadata/serializer/unserialize.py,sha256=6WZKGCKFr21ZXgHB6MQwejx7MjixCyvOaStoEjVdC_I,14572
+luadata-1.0.2.dist-info/LICENSE,sha256=iyWQ2IcjEvqrHzrNVnNcKfcQKjPpnS-jZ-4jfafDZEg,1518
+luadata-1.0.2.dist-info/METADATA,sha256=8Ayj1OF53yTcw7LNFy-K_YIH6vUlXurURcf47fuGknI,1775
+luadata-1.0.2.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+luadata-1.0.2.dist-info/top_level.txt,sha256=w1FzMpA6GSNUCujaoy07Zsp6UP3L-VTA83hAlDm0e4A,8
+luadata-1.0.2.dist-info/RECORD,,
