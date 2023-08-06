@@ -1,0 +1,13 @@
+ez_address_parser/__init__.py,sha256=IQhGwDX1VWWgabNRdHlxQS1Fc0DPmxtwbB_9avqpLkk,43
+ez_address_parser/__main__.py,sha256=VEwkjotZS_UoM6XLV7IEC5VmrT_BbaiVbpmLLfyHUUc,324
+ez_address_parser/address_parser.py,sha256=efQo80_bFHn9PctfiJ3p4paUJxkeD2r_qfxInO8yHPM,1135
+ez_address_parser/constants.py,sha256=NGnKuTOLnwd61Nv2Ngmb75BUSEskgjubooFzC0K9F_I,3659
+ez_address_parser/features.py,sha256=O2ZwLPmIu4KxmEYxuMym_Lc3dVoFlteYdwfdBxN7doM,2206
+ez_address_parser/model,sha256=lFb9EtiwU8N9ZypP02XNNeVIRGRcUjyKIM0ZztCFxT8,65391
+ez_address_parser/utils.py,sha256=VvcyrmS4kTSfRGli0cJFTZCEI9rVqp7g0Jh1ChxMaxI,218
+ez_address_parser-0.2.2.dist-info/LICENSE,sha256=NfoA_myUwv5a6f13_SeIUQgdOZHxP9nrD82IDDa560E,1087
+ez_address_parser-0.2.2.dist-info/METADATA,sha256=AJBpGC2TGghgheCdDy4yVH5hDh2VJ_Uzs2NmxJbvi-0,3559
+ez_address_parser-0.2.2.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+ez_address_parser-0.2.2.dist-info/entry_points.txt,sha256=eqGnTHtEVMYwfXVk1Z9MhC8O2N8wuqAbr0lisLmrkxs,20
+ez_address_parser-0.2.2.dist-info/top_level.txt,sha256=PQ1JDlHMy178wOc2S_0x9Dvpmj_zkJGo1BvZmbhGuug,18
+ez_address_parser-0.2.2.dist-info/RECORD,,
