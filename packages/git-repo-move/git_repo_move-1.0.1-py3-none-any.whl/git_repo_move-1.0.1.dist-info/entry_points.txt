@@ -1,0 +1,3 @@
+[console_scripts]
+git-repo-move=git_repo_move.cli:main
+
