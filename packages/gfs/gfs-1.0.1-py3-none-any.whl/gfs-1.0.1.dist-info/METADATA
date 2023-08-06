@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: gfs
+Version: 1.0.1
+Summary: A GeneticFuzzySystem implemented by Python.
+Home-page: https://github.com/HarderThenHarder/GeneticFuzzySystem
+Author: ican
+Author-email: 1414463123@qq.com
+License: LGPL
+Keywords: gfs
+Platform: UNKNOWN
+Requires-Dist: dearpygui
+Requires-Dist: numpy
+Requires-Dist: matplotlib
+
+UNKNOWN
+
+
