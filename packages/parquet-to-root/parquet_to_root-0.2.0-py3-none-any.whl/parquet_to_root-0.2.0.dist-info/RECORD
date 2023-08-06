@@ -1,0 +1,10 @@
+parquet_to_root/__init__.py,sha256=rQ-vZ8DOCbEzPG4rOQwaRMsKr5ETJNjA0_E2zFElbFg,108
+parquet_to_root/__main__.py,sha256=o6GBgA-MFw_1sAmBBQ47rlJkGhyzMx7tZ-8HgZ_SL_M,650
+parquet_to_root/parquet_to_root_pyroot.py,sha256=b0uCVkw8nOFWsZ59p168BdrZ6x81mETQUv1RUJL1R9I,5931
+tests/__init__.py,sha256=oYd5WnXrit_A99U1EwJ1cde7-RqztzWt__TDcEworZw,20
+tests/test_run.py,sha256=FLSZHpl_OOc_wkqiVY2QC0BfLrM5x6332YXwVSyBS5k,4027
+parquet_to_root-0.2.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+parquet_to_root-0.2.0.dist-info/METADATA,sha256=pcEu3FTM3veMWHmfprECg6PZ3eMvrCtDS3pkX6BP9cM,1512
+parquet_to_root-0.2.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+parquet_to_root-0.2.0.dist-info/top_level.txt,sha256=NiXXi9J4rLoyM2u2fXcRsDrCwAYWsIaEmb4QDJH6UcM,22
+parquet_to_root-0.2.0.dist-info/RECORD,,
