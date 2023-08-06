@@ -1,0 +1,36 @@
+import functools
+import re
+
+from django.conf import settings
+from django.core.exceptions import ImproperlyConfigured
+from django.core.files.storage import FileSystemStorage
+from django.dispatch import receiver
+from django.test.signals import setting_changed
+from django.utils.module_loading import import_string
+
+
+@functools.lru_cache()
+def get_storage(name):
+    name = name.upper()
+    storage_setting = f'GALLERY_{name}_STORAGE'
+    dir_setting = f'GALLERY_{name}_DIR'
+    try:
+        storage_class = getattr(settings, storage_setting)
+    except AttributeError:
+        # There's a good chance that this fallback will survive for a long
+        # time because deprecating it would require updating all the tests.
+        try:
+            storage_dir = getattr(settings, dir_setting)
+        except AttributeError:
+            raise ImproperlyConfigured(
+                f"Please define {storage_setting} or {dir_setting}")
+        else:
+            return FileSystemStorage(location=storage_dir)
+    else:
+        return import_string(storage_class)()
+
+
+@receiver(setting_changed)
+def clear_storages_cache(**kwargs):
+    if re.match(r'^GALLERY_[A-Z]+_(STORAGE|DIR)$', kwargs['setting']):
+        get_storage.cache_clear()
