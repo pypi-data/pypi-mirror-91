@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: EasyNMT
+Version: 0.0.2
+Summary: Easy to use state-of-the-art Neural Machine Translation
+Home-page: https://github.com/UKPLab/easynmt
+Author: Nils Reimers
+Author-email: info@nils-reimers.de
+License: Apache License 2.0
+Download-URL: https://github.com/UKPLab/easynmt/archive/v0.0.1.zip
+Description: # EasyNMT - Easy to use, state-of-the-art Neural Machine Translation
+Keywords: Neural Machine Trnslation
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Description-Content-Type: text/markdown
+Provides-Extra: fairseq
