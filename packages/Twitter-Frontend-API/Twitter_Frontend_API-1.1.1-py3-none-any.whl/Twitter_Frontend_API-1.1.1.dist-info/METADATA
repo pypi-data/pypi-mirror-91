@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: Twitter-Frontend-API
+Version: 1.1.1
+Summary: Get information from Twitter and work with your account using the front-end API built into the Twitter website.
+Home-page: https://github.com/KohnoseLami/Twitter_Frontend_API
+Author: 神瀬来未
+Author-email: info@vxxx.cf
+License: MIT
+Keywords: twitter scraper frontend api
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: requests
+Requires-Dist: lxml
+Requires-Dist: fake-useragent
+
+UNKNOWN
+
+
