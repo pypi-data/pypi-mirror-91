@@ -1,0 +1,15 @@
+bb_wrapper/__init__.py,sha256=t9KZdp_DIvv91kyAlbqfXkrky_63qicYujvE-nd8xlM,93
+bb_wrapper/_version.py,sha256=H3jvQYDY3xit6Z8v8MW9rKH9FSQx79aOpvqUn59s3jk,18685
+bb_wrapper/constants.py,sha256=7utThSWJCv4eRPYv8dA1k_dBy-gc1Y6XIJuzQS_ecwM,748
+bb_wrapper/utils.py,sha256=U-3HTdnfa20zpbYS3v3xuKCgGHRVIXQNahgo55-WrgM,2138
+bb_wrapper/models/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bb_wrapper/models/boleto.py,sha256=lBEadeIu0GeAy1SLqHRPmGGWyo-Ol9tWTAQzI_bibSU,2455
+bb_wrapper/models/perfis.py,sha256=pcWnSPzDv1XPRDxmr1v8oGXUQUhIrXpUGYje5cAKKZk,645
+bb_wrapper/wrapper/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bb_wrapper/wrapper/bb.py,sha256=69F7ZOplTXdZoIdrirZAv7t9K440QW7z7L66fm8k6TE,2509
+bb_wrapper/wrapper/cobrancas.py,sha256=ryvXIM8ovHQcszlnL1FeRdOqOaVLqH9hPl_C2Qawhys,4635
+bb_wrapper/wrapper/request.py,sha256=KNRKBKZDCjUtYJUbQCc2UUS20VobWVMa6eMmzEpGybY,4385
+bb_wrapper-0.0.11.dist-info/METADATA,sha256=ZZew7AuVts_2L9AtG6YhfZbtl8CgA1jaaTnKCIlHiqU,1441
+bb_wrapper-0.0.11.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+bb_wrapper-0.0.11.dist-info/top_level.txt,sha256=EM-VMIOs5gaZez4MSgRyXO21SKkoku5zr0bj0QRKCp0,11
+bb_wrapper-0.0.11.dist-info/RECORD,,
