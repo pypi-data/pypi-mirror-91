@@ -1,0 +1,10 @@
+MANIFEST.in
+setup.py
+pokr/__init__.py
+pokr/tasks.py
+pokr.egg-info/PKG-INFO
+pokr.egg-info/SOURCES.txt
+pokr.egg-info/dependency_links.txt
+pokr.egg-info/requires.txt
+pokr.egg-info/top_level.txt
+pokr/templates/scorecard.html
