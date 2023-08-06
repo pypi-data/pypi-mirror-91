@@ -1,0 +1,8 @@
+README.md
+setup.py
+quarrierpackage/__init__.py
+quarrierpackage/hello.py
+quarrierpackage.egg-info/PKG-INFO
+quarrierpackage.egg-info/SOURCES.txt
+quarrierpackage.egg-info/dependency_links.txt
+quarrierpackage.egg-info/top_level.txt
