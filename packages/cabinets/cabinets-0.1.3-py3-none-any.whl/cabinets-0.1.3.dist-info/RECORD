@@ -1,0 +1,12 @@
+cabinets/__init__.py,sha256=p6tVpzCCIOmb4e0CzkM27adlbWPMYDkX44VwP1QYeoQ,181
+cabinets/cabinet.py,sha256=fbu2f4XZyzYczvY9hgWN05Yey0SmwDRF4DOal7DnC1k,1950
+cabinets/logger.py,sha256=qXcnbeYXDz7vnb2btFODCmJI659T7_7otG7niAqta5g,1658
+cabinets/parser.py,sha256=lQqdxCDcjGWk439SExgQUZqHfLsML9lm0dvRCNQnGFw,2393
+cabinets/protocols/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cabinets/protocols/file.py,sha256=gWX0bWxaZhJS7tGzoWg8mGCm1o4RTs8DrIhOM9Kt6es,767
+cabinets/protocols/s3.py,sha256=InVZ0_9Wq2jjv4M6_Jw3zpM_j5L0HjuT2TcQb8t1k_0,1972
+cabinets-0.1.3.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+cabinets-0.1.3.dist-info/METADATA,sha256=IHJGoOP2ITqEiUAH3QQ90xUm58wqaQYl74v0l7D4Tng,5193
+cabinets-0.1.3.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+cabinets-0.1.3.dist-info/top_level.txt,sha256=IN4vRygyzdBgqkm1kYxFRA4ER9JqxHFWavLtOy4PS-s,9
+cabinets-0.1.3.dist-info/RECORD,,
