@@ -1,0 +1,15 @@
+fdscraper/__init__.py,sha256=gAtozHwh1H46o_TTlzB0Td1eVNs0s8mtgMr9hqRDRRM,128
+fdscraper/preprocess/__init__.py,sha256=hzqv0S7rh7x4d6whpdWK0rwzzvtx1yLSA_nBt0blHNI,84
+fdscraper/preprocess/preprocess_financials.py,sha256=waDOER0vKFjSe8BJYiZ-xJe_J79UCXX2lo1Pc47puAo,2402
+fdscraper/preprocess/utils.py,sha256=PCOpulfQkH-6UPbvJeHaCuZV__hhGaeUKXIH5tpoXOI,4610
+fdscraper/score/__init__.py,sha256=Bn9jx5RFd7XswYqNALfdhRUagNhuza1SwlqyXXC4oMI,172
+fdscraper/score/score.py,sha256=AZjz0aKm-U_TTkKkQfwH_Yh-n5NltODs2ne63MURQmo,951
+fdscraper/score/utils.py,sha256=MYPe0iez9NhKXtctZ2eqNToEk-ya-ygPXP1WU4LhTmc,2137
+fdscraper/scrape/__init__.py,sha256=DT2FQ1TK5J1Rb_vl5ofo11lfD2f7i0sxrQaowzWRjBM,155
+fdscraper/scrape/download.py,sha256=BqTp37UmvQ3VSqajv6HlwM1EyRDZVCqYfdIxD7aznSc,6309
+fdscraper/scrape/utils.py,sha256=c4PmOSvKw1qp_hIpZF23_dKorb_hauq--kexDGqkSyU,6290
+fdscraper-0.0.1.dist-info/LICENSE.txt,sha256=HrhfyXIkWY2tGFK11kg7vPCqhgh5DcxleloqdhrpyMY,11558
+fdscraper-0.0.1.dist-info/METADATA,sha256=qFjWEdpXn3GB2OZIu3INDLftBw9TA1srxfeoGi8Pkz4,2180
+fdscraper-0.0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+fdscraper-0.0.1.dist-info/top_level.txt,sha256=tZJ7B9_5laWMAHzT80rRP0YQo7sHEL0zCTH4WXsLs1o,10
+fdscraper-0.0.1.dist-info/RECORD,,
