@@ -1,0 +1,12 @@
+jupyter_auth/__init__.py,sha256=ZgZl3SGhyWoc1ldQuWOZVULFMvHFvbH_OLq4q75X1dU,486
+jupyter_auth/__main__.py,sha256=oNDBOSvKkIrQry6Ofbvo0M5VWjggUfUWZz3RBazmE9w,61
+jupyter_auth/_version.py,sha256=lAuDDcc7YRjKoIXjSkgjANmRpbRThGJl2fKCxk5OCCk,73
+jupyter_auth/app.py,sha256=VQ3Er8fTRFqk0p7rYTbqPeaoYVrCVCljo1bOdyGmVaI,1207
+jupyter_auth/handlers.py,sha256=dQWP6TNCRUdAeCbM9bsg4aDjQ6JU2KGXypsbuJxgSA8,1148
+jupyter_auth/labextension/package.json,sha256=fxhLJsclgvXSXBDhvrMBBVC1GrXUukd8cT_4wEp_hF4,2843
+jupyter_auth-0.0.1.data/data/share/jupyter/labextensions/@datalayer/jupyter-auth/package.json,sha256=fxhLJsclgvXSXBDhvrMBBVC1GrXUukd8cT_4wEp_hF4,2843
+jupyter_auth-0.0.1.dist-info/LICENSE,sha256=2wI795tkiq91s_o2xIfW2y4v5542U1DgHnRVFR5u-qw,1509
+jupyter_auth-0.0.1.dist-info/METADATA,sha256=PkYkbJKi7BpsDzt4Q9r-YOR7SH6o56aPNW58HgLjxCg,4079
+jupyter_auth-0.0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+jupyter_auth-0.0.1.dist-info/top_level.txt,sha256=QfgUwqCCmcOlMwdFNmkERoAA4JFmSfYZ5JjRXdmxiA4,13
+jupyter_auth-0.0.1.dist-info/RECORD,,
