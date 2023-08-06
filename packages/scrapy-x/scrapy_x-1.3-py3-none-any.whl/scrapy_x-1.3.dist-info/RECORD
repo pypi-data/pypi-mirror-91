@@ -1,0 +1,11 @@
+scrapy_x-1.3.dist-info/DESCRIPTION.rst,sha256=eBymzgPfvG5XrnuTcVOjluc3EwOM3eqhLHI_9JiWLRE,295
+scrapy_x-1.3.dist-info/METADATA,sha256=ipyus8ENUbySwYsxB0AY-RMjVVajJkf8VhzOqC-VYio,782
+scrapy_x-1.3.dist-info/RECORD,,
+scrapy_x-1.3.dist-info/WHEEL,sha256=8Lm45v9gcYRm70DrgFGVe4WsUtUMi1_0Tso1hqPGMjA,92
+scrapy_x-1.3.dist-info/entry_points.txt,sha256=2Fy25Td2Cll8Y_H-tPd4mDRyuTlJ5owPvzD1j2P2C6w,41
+scrapy_x-1.3.dist-info/metadata.json,sha256=d3CCaro1lvq3-EJvjkitJm7w0kd2d6ARGXbvAmRSyaI,721
+scrapy_x-1.3.dist-info/top_level.txt,sha256=nJbDrqhV81FJlmTwzF-ihkF4BLJm1qXWdINmWDtQB4s,8
+scrapyx/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+scrapyx/routes.py,sha256=SvZZ4hCmsqHzoKxMy7gVHSFeADM_X1PjDjj7lBtkRQ4,4551
+scrapyx/utils.py,sha256=xlsk-tPz4byZdZewxyGIEJGTyxmH3W4rX6N-dJYGhcs,1689
+scrapyx/x.py,sha256=6iyRNYGn7h1bKwn_ecDZpqLY_l6iynzy8FNZmvJ29zc,5563
