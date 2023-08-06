@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: RandoWordo
+Version: 1.0
+Summary: a simple random word generator
+Home-page: UNKNOWN
+Author: Ewen
+Author-email: 1lorimerewe2@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: <=3.9
+Description-Content-Type: text/markdown
+
+All you need to know is RandWord(textfile.txt), or randoword() if you don't have a pre defined text file         \ the default text file does contair swears and NSFW words
+
+
