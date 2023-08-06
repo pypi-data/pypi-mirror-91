@@ -1,0 +1,125 @@
+Metadata-Version: 2.1
+Name: pydecos
+Version: 0.0.1
+Summary: The set of useful decorators.
+Home-page: https://github.com/c-pher/pydecos.git
+Author: Andrey Komissarov
+Author-email: a.komisssarov@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: System Administrators
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: System :: Systems Administration
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# pydecos - is a set of useful decorators.
+
+## deprecate
+
+to deprecate class/method/function. Deprecation reason can be specified.
+
+# Installation
+
+For most users, the recommended method to install is via pip:
+
+```cmd
+pip install pydedecos
+```
+
+or from a source:
+
+```cmd
+python setup.py install
+```
+
+# Import
+
+```python
+from pydecos import deprecated
+```
+
+---
+
+# Usage
+
+### function
+
+```python
+from pydecos import deprecated
+
+
+@deprecated
+def some_func(t):
+    print('weeeee' * t)
+
+
+some_func(3)
+# <input>:1: DeprecationWarning: Call to deprecated function some_func.
+# weeeeeweeeeeweeeee
+```
+
+### class
+
+```python
+from pydecos import deprecated
+
+
+@deprecated
+class SomeClass:
+    def some_method(self):
+        ...
+
+
+SomeClass()
+# DeprecationWarning: Deprecated class has been invoked "SomeClass".
+# SomeClass()
+```
+
+### method
+
+```python
+from pydecos import deprecated
+
+
+class SomeClass:
+
+    @deprecated
+    def some_method(self):
+        ...
+
+
+SomeClass().some_method()
+# DeprecationWarning: Deprecated function/method "some_method" has been invoked.
+# SomeClass().some_method()
+```
+
+### deprecation with reason specified
+
+```python
+from pydecos import deprecated
+
+
+@deprecated('Use the new function "awesome_func()" instead')
+def some_func(t):
+    return t
+
+
+some_func(3)
+# DeprecationWarning: Deprecated function/method "some_func" has been invoked: Use the new function "awesome_func()" instead.
+#  some_func(3)
+```
+
+# Changelog
+
+##### 1.0.0 (14.01.2021)
+
+- initial commit
+
+
