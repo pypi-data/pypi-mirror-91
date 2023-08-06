@@ -1,0 +1,3 @@
+[console_scripts]
+PyOneLiner = PyOneLiner:oneliner
+

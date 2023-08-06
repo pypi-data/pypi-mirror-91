@@ -1,0 +1,11 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.py
+PyOneLiner/OneLiner.py
+PyOneLiner/__init__.py
+PyOneLiner.egg-info/PKG-INFO
+PyOneLiner.egg-info/SOURCES.txt
+PyOneLiner.egg-info/dependency_links.txt
+PyOneLiner.egg-info/entry_points.txt
+PyOneLiner.egg-info/top_level.txt
