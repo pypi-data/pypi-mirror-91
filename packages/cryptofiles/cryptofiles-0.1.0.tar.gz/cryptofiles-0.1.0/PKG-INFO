@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: cryptofiles
+Version: 0.1.0
+Summary: for working with blockchained files
+Home-page: https://github.com/xloem/cryptofiles
+Author: xloem
+Author-email: 0xloem@gmail.com
+License: UNKNOWN
+Description: cryptofiles blockchained files datacoin
+        
+        this works, but please develop it better.
+        
+        
+        Public Domain with Polite Request
+        
+        Please contribute any further work to the community, and recognise and share that something is wrong if you don't.
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
