@@ -1,0 +1,8 @@
+README.md
+setup.cfg
+setup.py
+lambdata_bcd.egg-info/PKG-INFO
+lambdata_bcd.egg-info/SOURCES.txt
+lambdata_bcd.egg-info/dependency_links.txt
+lambdata_bcd.egg-info/requires.txt
+lambdata_bcd.egg-info/top_level.txt
