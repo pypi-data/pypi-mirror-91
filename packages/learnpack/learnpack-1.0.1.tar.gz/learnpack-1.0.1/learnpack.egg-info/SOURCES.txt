@@ -1,0 +1,6 @@
+README.md
+setup.py
+learnpack.egg-info/PKG-INFO
+learnpack.egg-info/SOURCES.txt
+learnpack.egg-info/dependency_links.txt
+learnpack.egg-info/top_level.txt
