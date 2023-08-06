@@ -1,0 +1,8 @@
+setup.cfg
+setup.py
+case_frameworks/mathematics-practise.py
+case_frameworks.egg-info/PKG-INFO
+case_frameworks.egg-info/SOURCES.txt
+case_frameworks.egg-info/dependency_links.txt
+case_frameworks.egg-info/not-zip-safe
+case_frameworks.egg-info/top_level.txt
