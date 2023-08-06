@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: pusher-websocket
+Version: 0.1
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: tomekcp
+Author-email: tcp@tomekcp.com
+License: UNKNOWN
+Description: # PusherWebsocketOverride
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown

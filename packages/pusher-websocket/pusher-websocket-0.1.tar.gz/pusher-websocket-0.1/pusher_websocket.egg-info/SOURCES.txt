@@ -1,0 +1,9 @@
+README.md
+setup.py
+pusher_websocket/__init__.py
+pusher_websocket/websocket_override.py
+pusher_websocket.egg-info/PKG-INFO
+pusher_websocket.egg-info/SOURCES.txt
+pusher_websocket.egg-info/dependency_links.txt
+pusher_websocket.egg-info/requires.txt
+pusher_websocket.egg-info/top_level.txt
