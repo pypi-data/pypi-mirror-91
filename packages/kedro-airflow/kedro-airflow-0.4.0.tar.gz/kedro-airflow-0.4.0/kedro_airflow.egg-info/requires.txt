@@ -1,0 +1,4 @@
+apache-airflow<1.11
+kedro>=0.17.0
+python-slugify<4.1.0
+semver~=2.10
