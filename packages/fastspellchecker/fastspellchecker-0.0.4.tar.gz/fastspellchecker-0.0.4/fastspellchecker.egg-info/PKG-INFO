@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: fastspellchecker
+Version: 0.0.4
+Summary: A dependancy-free C++ Spell Checker with Python bindings
+Home-page: https://github.com/soduco/FastSpellChecker
+Author: Edwin Carlinet
+Author-email: edwin.carlinet@lrde.epita.fr
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN

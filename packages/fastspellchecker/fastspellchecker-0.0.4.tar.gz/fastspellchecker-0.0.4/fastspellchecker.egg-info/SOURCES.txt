@@ -1,0 +1,14 @@
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+FastSpellChecker/Dictionary.py
+FastSpellChecker/FastSpellChecker.cpp
+FastSpellChecker/__init__.py
+fastspellchecker.egg-info/PKG-INFO
+fastspellchecker.egg-info/SOURCES.txt
+fastspellchecker.egg-info/dependency_links.txt
+fastspellchecker.egg-info/not-zip-safe
+fastspellchecker.egg-info/top_level.txt
+libfsc/include/fsc.hpp
+libfsc/src/fsc.cpp
