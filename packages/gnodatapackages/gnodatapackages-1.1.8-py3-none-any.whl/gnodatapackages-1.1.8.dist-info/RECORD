@@ -1,0 +1,17 @@
+gnodatapackages/NOTES.txt,sha256=Ppq0F8mdmMivEniXKkqpVL6YxwAfKAirFI_EDyezrLc,119
+gnodatapackages/__init__.py,sha256=JMUA49xcS7rwOFP5NAyv6C29iAI1iTmpuYR-TA__xn4,370
+gnodatapackages/coname_stopwords_gno.csv,sha256=c2SIjMlU2Cm7-Yj1njF_jcmUsRCajaQ_PmvRBXN7B_E,589
+gnodatapackages/gen_stopwords_gno.csv,sha256=gPwCg36YEX9YBXyDi_sDt2yPh2O-lGAtMLh-zQbF4pY,8682
+gnodatapackages/gno_coname_stopwords.py,sha256=HyCZdicYxSVpf7uZnJb6fDUoEVLECp6iH9CVapreFz0,623
+gnodatapackages/gno_gen_stopwords.py,sha256=Tkfhe8GJweNCy8oEdBDzzDnNupSuhNbfoQIhwzvB4AI,946
+gnodatapackages/gno_name_stopwords.py,sha256=elnlQBUZnFzRRCEwyo7wvx_D3cbR79-KtcaMIiCVzFg,958
+gnodatapackages/gno_uploadfile_clean.py,sha256=MM_LDzB6hoyv3SrKy7NvkjDSIHUln5kU48eRluJEcy0,3933
+gnodatapackages/honorifics_remove_gno.csv,sha256=A6v_24czyckAIT-6_BdHMWXysnd3nZZPviD-0irJCV0,455
+gnodatapackages/personname_wordsremove_gno.csv,sha256=UiAIG7sd8MiakGeOz2F6EBpRVMb9uRjf6nBbR0fJjbQ,51
+gnodatapackages/stopwords_cn.csv,sha256=UnvoQiOoRAaWNdobAnVw76s-hcRzhk7h9OSsDcja0V0,5798
+gnodatapackages/stopwords_cn.txt,sha256=gZ6Pqzl8z9ZXENri6vBrMp5sM26LNFQLifBbrgiSe4c,5788
+gnodatapackages-1.1.8.dist-info/LICENSE.txt,sha256=6kbiFSfobTZ7beWiKnHpN902HgBx-Jzgcme0SvKqhKY,1091
+gnodatapackages-1.1.8.dist-info/METADATA,sha256=gDvukh7o4eH8jVAMDYC128D9M2BRLNBau0daAe23LYY,554
+gnodatapackages-1.1.8.dist-info/WHEEL,sha256=D1Wh14kWDxPnrM-5t_6UCB-UuQNrEODtRa3vF4OsvQY,97
+gnodatapackages-1.1.8.dist-info/top_level.txt,sha256=SDEQpOLUUz0urFh4tHLVnnfAIcfeNk8L-E-Ty3h4YFU,16
+gnodatapackages-1.1.8.dist-info/RECORD,,
