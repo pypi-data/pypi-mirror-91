@@ -1,0 +1,15 @@
+hysteresis/__init__.py,sha256=EGCOLsePpPUTSsDO0c19qo2JvzThu1fBeeMWh3jMBjU,500
+hysteresis/baseClass.py,sha256=F1sm3iWB5-f9Y5oW70yqp_k-jWDe3Fs2GPYGdIsnVTU,18655
+hysteresis/baseFuncs.py,sha256=P-Esnj3Huj30jjCFTwPRBF0GcQNmpe7TEwwYvwWjODk,4439
+hysteresis/climate.py,sha256=2sEspAsx-6er00KBqMNIPn8ChVF5Nlu3QSRi2_qqmlk,4167
+hysteresis/compare.py,sha256=aL9ss5sn_wGcIIv-ZoAQHjpjf3hl66rItbDWCol0Qak,2643
+hysteresis/data.py,sha256=IFSXZnfOlvYxv4tKHKMww-A3NRF3gj08LcNoASAvYXw,13013
+hysteresis/defaultDataFuncs.py,sha256=OgyyAwEEliPUxMJhlkIDbs5Tc13lGeYm5X6mHxtPMDA,3877
+hysteresis/defaultPlotFuncs.py,sha256=pWdYg8ZQmg7uR0xGXrZCibKp8TA2fFs6cVYS6K9AGRU,4892
+hysteresis/protocol.py,sha256=6mw-rlYBtPeIM_rkYp5iOegv5rSAlbPNBYee_V0Ej08,7197
+hysteresis/resample.py,sha256=iprdROMhka8Y06KfjNXTErWeYzzwj-1r3keIumTVgRc,4375
+hysteresis-0.8.2.dist-info/METADATA,sha256=ylWScrLTqcq_usegX_0MURG-5L9am6aDBDj8IU97rbU,687
+hysteresis-0.8.2.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+hysteresis-0.8.2.dist-info/license.txt,sha256=4pCK7LJ8sNLYjk2D5kN4_4JHuvlYvm8LsoxGkIQL7nc,1096
+hysteresis-0.8.2.dist-info/top_level.txt,sha256=ZBpGZ4rG5vabwRDBQtt3Tzowm4IoLYJ5Winbil648y0,11
+hysteresis-0.8.2.dist-info/RECORD,,
