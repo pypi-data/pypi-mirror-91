@@ -1,0 +1,8 @@
+README.md
+setup.py
+codetestsol/__init__.py
+codetestsol/functions.py
+codetestsol.egg-info/PKG-INFO
+codetestsol.egg-info/SOURCES.txt
+codetestsol.egg-info/dependency_links.txt
+codetestsol.egg-info/top_level.txt
