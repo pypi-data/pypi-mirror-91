@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: AsyncWebsocketStreamInterface
+Version: 0.9.2
+Summary: Exchange one normal asynchronous websocket connection to unlimited number of data streams.
+Home-page: https://github.com/monk-after-90s/AsyncWebsocketStreamInterface.git
+Author: Antas
+Author-email: 
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+#AsyncWebsocketStreamInterface
+Exchange one normal asynchronous websocket connection to unlimited number of data streams.
+The websocket dictionary messages are processed well.
+
+Application:https://github.com/monk-after-90s/HuobiAsyncWebsocket.git
+
