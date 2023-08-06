@@ -1,0 +1,12 @@
+svm2csr-0.2.0.dist-info/METADATA,sha256=5gnIaOSmyjYa6BmUcCU3IN2nqLxFAj0PxxlrD8j3TCE,387
+svm2csr-0.2.0.dist-info/WHEEL,sha256=i9X_s6cZAcDSp97Br-zhy7EVCvO3SPilEypszCzDl-U,106
+svm2csr/__pycache__/load.cpython-39.pyc,sha256=uBqHPYclHd9HkfwmX-DGWBqLRykcPhPxBS6YiSiknN4,1377
+svm2csr/__pycache__/__init__.cpython-39.pyc,sha256=WJmX-l6x8JWZIbKNJUF1FqE_aGwpXey5SNTHjr74BSE,219
+svm2csr/__pycache__/load.cpython-37.pyc,sha256=r3f0uf10xxqHfOFolxGvBv-8WgskDcYBLEAoE2NH0o4,1229
+svm2csr/__pycache__/__init__.cpython-37.pyc,sha256=5PWeIe4Km8mbOb12AClepcs14XrazWPHAoLzPx2ymHU,215
+svm2csr/load.py~,sha256=JcWcy4d74FFx2sim1N6iGyUWCBaFRJANk7dixQUAMQk,217
+svm2csr/load.py,sha256=ibK6IfTq_4j0hc8GcCnea094sIrgaoqHo23E3AQWVkQ,1367
+svm2csr/__init__.py,sha256=I3lyD9gS0gkO6PPsnDhu4h0jMUmwVaZCyYr_LLB18QE,66
+svm2csr/__init__.py~,sha256=4y3GiQCFxFeSl6srjmdrRAm8Ch7vp-jgCsDi9hxtO5Y,23
+svm2csr/svm2csr.cpython-36m-x86_64-linux-gnu.so,sha256=LYjCaXBVIXHyrKjfock30Rh7WWUCgNnyyYjgVn8Sjzw,530776
+svm2csr-0.2.0.dist-info/RECORD,,
