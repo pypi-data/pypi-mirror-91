@@ -1,0 +1,8 @@
+README.md
+setup.py
+objtojson/__init__.py
+objtojson/serialize.py
+objtojson.egg-info/PKG-INFO
+objtojson.egg-info/SOURCES.txt
+objtojson.egg-info/dependency_links.txt
+objtojson.egg-info/top_level.txt
