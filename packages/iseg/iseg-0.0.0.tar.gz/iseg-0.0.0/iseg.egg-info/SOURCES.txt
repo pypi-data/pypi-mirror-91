@@ -1,0 +1,11 @@
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+iseg/__info__.py
+iseg/__init__.py
+iseg.egg-info/PKG-INFO
+iseg.egg-info/SOURCES.txt
+iseg.egg-info/dependency_links.txt
+iseg.egg-info/requires.txt
+iseg.egg-info/top_level.txt

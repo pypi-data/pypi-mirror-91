@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: iseg
+Version: 0.0.0
+Summary: UNKNOWN
+Home-page: https://github.com/DIYer22/iSeg
+Author: DIYer22
+Author-email: ylxx@live.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Requires-Python: >=3
+Description-Content-Type: text/markdown

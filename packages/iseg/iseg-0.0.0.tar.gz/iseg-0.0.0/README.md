@@ -1,0 +1,1 @@
+# iSeg: codebase for semantic/instance/panoptic segmentation without anchor, bbox, and NMS.
