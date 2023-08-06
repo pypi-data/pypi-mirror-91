@@ -1,0 +1,3 @@
+var layout = function (theme) { return "\n  display: grid;\n\n  > *:nth-child(4n) {\n    text-align: right;\n  }\n  > *:nth-child(4n-1) {\n    display: none;\n  }\n\n  grid-template-columns: 0.5fr 0.6fr 0.3fr;\n\n  @media (min-width: " + theme.breakpoints[0] + ") {\n    > *:nth-child(4n-1) {\n      display: flex;\n    }\n    grid-template-columns: 0.5fr 1.3fr 1.4fr 0.4fr;\n  }\n\n  @media (min-width: " + theme.breakpoints[2] + ") {\n    grid-template-columns: 0.5fr 0.9fr 1.4fr 0.5fr;\n  }\n\n  @media (min-width: " + theme.breakpoints[3] + ") {\n\n    grid-template-columns: 0.5fr 1.5fr 1.4fr 0.4fr;\n  }\n"; };
+export default layout;
+//# sourceMappingURL=layout.jsx.map
