@@ -1,0 +1,10 @@
+README.md
+setup.py
+makerchip/__init__.py
+makerchip/__main__.py
+makerchip_app.egg-info/PKG-INFO
+makerchip_app.egg-info/SOURCES.txt
+makerchip_app.egg-info/dependency_links.txt
+makerchip_app.egg-info/entry_points.txt
+makerchip_app.egg-info/requires.txt
+makerchip_app.egg-info/top_level.txt

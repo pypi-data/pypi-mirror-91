@@ -1,0 +1,5 @@
+requests
+psutil
+native_web_app
+click
+humanize
