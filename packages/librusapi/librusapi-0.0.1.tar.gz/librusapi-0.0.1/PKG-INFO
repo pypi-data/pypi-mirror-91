@@ -1,0 +1,16 @@
+Metadata-Version: 1.1
+Name: librusapi
+Version: 0.0.1
+Summary: Scraper for Librus Synergia
+Home-page: https://github.com/ravensiris/librusapi
+Author: Maksymilian Jodłowski
+Author-email: UNKNOWN
+License: MIT
+Download-URL: https://github.com/ravensiris/librusapi/archive/v0.0.1b.tar.gz
+Description: README.org, LICENSE
+Keywords: librus,scraper,api
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
