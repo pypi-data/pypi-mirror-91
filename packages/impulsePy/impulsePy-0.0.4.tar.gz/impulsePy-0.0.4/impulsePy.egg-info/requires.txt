@@ -1,0 +1,7 @@
+zmq
+pandas
+numpy
+threading
+json
+os
+time
