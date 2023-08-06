@@ -1,0 +1,11 @@
+README.md
+setup.py
+Dykstra.egg-info/PKG-INFO
+Dykstra.egg-info/SOURCES.txt
+Dykstra.egg-info/dependency_links.txt
+Dykstra.egg-info/requires.txt
+Dykstra.egg-info/top_level.txt
+Dykstra.egg-info/zip-safe
+dykstra/Dykstra.py
+dykstra/__init__.py
+dykstra/version.py
