@@ -1,0 +1,108 @@
+#!python
+
+# TODO : Add CLI functionality 
+
+import argparse
+import os
+import sys
+
+import libvivp
+"""
+vivp --setup
+vivp -s
+
+vivp --install <package>
+vivp -i <package>
+
+vivp --update <package>
+vivp -u <package>
+
+vivp --remove <package>
+vivp -r <package>
+
+vivp --execute <package>
+vivp -e
+
+vivp --add-files <file-list>
+vivp -af
+vivp --remove-files <file-list>
+vivp -rf
+
+vivp --add-testbench <file-list>
+vivp -at
+vivp --remove-testbench <file-list>
+vivp -rt
+
+
+vivp --list
+vivp -l
+"""
+
+argparser = argparse.ArgumentParser(description="Verilog Package Manager")
+argparser.add_argument('-s', '--setup', help='Setup current directory as Verilog Package')
+argparser.add_argument('-i', '--install', help='Install a package', nargs='+')
+argparser.add_argument('-u', '--update', help='Update all packages', action='store_true')
+argparser.add_argument('-r', '--remove', help='Remove a package [vivp -r * to remove all]', nargs='+')
+argparser.add_argument('-e', '--execute', help='Execute the current package', action='store_true')
+
+argparser.add_argument('-af', '--add-files', help='Add files to package', nargs='+')
+argparser.add_argument('-rf', '--remove-files', help='Remove files from package', nargs='+')
+argparser.add_argument('-at', '--add-testbench', help='Add testbench to package', nargs='+')
+argparser.add_argument('-rt', '--remove-testbench', help='Remove testbench from package', nargs='+')
+
+argparser.add_argument('-l', '--list', help='List all packages')
+args = argparser.parse_args()
+
+
+try:
+    if args.setup:
+        
+        setup_dir = os.path.join(os.getcwd(), args.setup)
+        #print(setup_dir)
+        if libvivp.utils.is_vivp_dir(setup_dir):
+            print("Already VIVP directory")
+            exit(0)
+        """
+        if libvivp.is_vivp_dir(setup_dir):
+            print("Already a VIVP directory")
+            exit(0)
+        """
+        # Setup "vpackage.json"
+        packageName = input("Enter Package Name : ")
+        packageAuthors = input("Enter Authors [space seperated] : ").split(' ')
+        packageURL = input("Enter package remote URL [optional] : ")
+
+        libvivp.setup(setup_dir, packageName=packageName, packageAuthors=packageAuthors, packageURL=packageURL)
+    else:
+        """
+        if not libvivp.is_vivp_dir(os.getcwd()):
+            print("Not a VIVP directory")
+            exit(0)
+        """
+        # Check for remaining options
+        if args.install:
+            #print(os.path.join(os.getcwd(), '.'))
+            #libvivp.install(os.path.join(os.getcwd(), '.'), args.install)
+            libvivp.install(os.getcwd(), args.install)
+        elif args.update:
+            libvivp.update(os.getcwd())
+        elif args.remove:
+            libvivp.remove(os.getcwd(), args.remove)
+        
+        elif args.execute:
+            libvivp.execute(os.getcwd())
+        elif args.add_files:
+            libvivp.add_files(os.getcwd(), args.add_files)
+        elif args.remove_files:
+            libvivp.remove_files(os.getcwd(), args.remove_files)
+        elif args.add_testbench:
+            libvivp.add_testbench(os.getcwd(), args.add_testbench)
+        elif args.remove_testbench:
+            libvivp.remove_testbench(os.getcwd(), args.remove_testbench)
+
+        elif args.list:
+            libvivp.list_vivp(os.getcwd())
+        else:
+            argparser.print_help()
+
+except Exception as e: print(e)
