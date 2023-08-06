@@ -1,0 +1,11 @@
+README.md
+setup.py
+nnprof/__init__.py
+nnprof/info_table.py
+nnprof/profiler.py
+nnprof/utils.py
+nnprof.egg-info/PKG-INFO
+nnprof.egg-info/SOURCES.txt
+nnprof.egg-info/dependency_links.txt
+nnprof.egg-info/requires.txt
+nnprof.egg-info/top_level.txt
