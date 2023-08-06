@@ -1,0 +1,7 @@
+db_magic/__init__.py,sha256=QlIsbCgNeJr8NIm7eRGL9Hbg_CVEEJR4wB5nKKBesFU,144
+db_magic/magic.py,sha256=dZeN_X75YKV_dJ6x6jWyHgF6R_zwZMIsKV0I37GPy0w,6814
+db_magic/schema_upgrades.py,sha256=9a4aaojpLYFGTKb5iwWTfd61n0AjpQqIJL6hM-J98c4,1129
+bp_db_magic-0.2.dist-info/METADATA,sha256=DXxu6Bhvbegua646jZspYLeHBZcN5-OeG6s3j1HaxCM,684
+bp_db_magic-0.2.dist-info/WHEEL,sha256=gxPaqcqKPLUXaSAKwmfHO7_iAOlVvmp33DewnUluBB8,116
+bp_db_magic-0.2.dist-info/top_level.txt,sha256=rc6oIV4wdUNfZWzJeSKbu9zk0cfnax-p2Dqd1JmtvTY,9
+bp_db_magic-0.2.dist-info/RECORD,,

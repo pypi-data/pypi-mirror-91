@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: bp-db-magic
+Version: 0.2
+Summary: Several helpers for sqlalchemy
+Home-page: https://github.com/blindpandas/bp-db_magic
+Author: Blind Pandas Team (original: Christopher Toth<q@q-continuum.net>)
+Author-email: info@blindpandas.com
+License: MIT
+Keywords: db sa sqlite3
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Requires-Dist: sqlalchemy (<=1.4)
+
+UNKNOWN
+
+
