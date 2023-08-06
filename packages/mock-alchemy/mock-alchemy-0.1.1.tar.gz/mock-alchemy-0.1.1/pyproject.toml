@@ -1,0 +1,78 @@
+[tool.poetry]
+name = "mock-alchemy"
+version = "0.1.1"
+description = "SQLAlchemy mock helpers."
+license = "MIT"
+homepage = "https://github.com/rajivsarvepalli/mock-alchemy"
+repository = "https://github.com/rajivsarvepalli/mock-alchemy"
+authors = ["Rajiv Sarvepalli <rajiv@sarvepalli.net>", "Miroslav Shubernetskiy <mail@miki725.com>", "Serkan Hoscai <serkan@hosca.com"]
+readme = "README.rst"
+keywords = ["sqlalchemy mock testing", "sqlalchemy mock", "mock sqlalchemy"]
+documentation = "https://mock-alchemy.readthedocs.io/"
+classifiers=[
+    "Intended Audience :: Developers",
+    "Natural Language :: English",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 2.7",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.6",
+    "Development Status :: 2 - Pre-Alpha",
+]
+
+[tool.poetry.dependencies]
+python = "^2.7 || ^3.6.1 ||  ^3.7"
+SQLAlchemy = "^1.3.22"
+six = "^1.15.0"
+
+
+[tool.poetry.dev-dependencies]
+black = { version = "^20.8b1", python = "^3.6" }
+flake8-bugbear = { version = "^20.0", python = "^3.6" }
+"collective.checkdocs" = "^0.2"
+importanize = "^0.7.0"
+mock = [
+    {version = "^1.0.1", python = "^2.7"},
+    { version = "^4.0.3", python = "^3.6" }
+]
+pdbpp = "^0.10.2"
+coverage = {extras = ["toml"], version = "^5.3.1", python = "^3.6"}
+flake8 = "^3.8.4"
+ptpython = [
+    {version = "^2.0", python = "^2.7"},
+    { version = "^3.0.9", python = "^3.6" }
+]
+
+pytest = [
+    {version = "^4.6", python = "^2.7"},
+    { version = "^6.2.1", python = "^3.6" }
+]
+pytest-cov = "^2.10.1"
+tox = [
+    {version = "3.12.1", python = "^2.7"},
+    { version = "^3.21.0", python = "^3.6" }
+]
+
+pre-commit =  [
+    {version = "~1.18.0", python = "^2.7"},
+    { version = "^2.9", python = "^3.6" }
+]
+pre-commit-hooks =  [
+    {version = "~2.0", python = "^2.7"},
+    { version = "^3.0", python = "^3.6" }
+]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.coverage.paths]
+source = ["src", "*/site-packages"]
+
+[tool.coverage.run]
+branch = true
+source = ["mock_alchemy"]
+
+[tool.coverage.report]
+show_missing = true
+fail_under = 0
