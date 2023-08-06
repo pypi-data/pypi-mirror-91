@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: qdownloader
+Version: 1.49
+Summary: qdownloader cli
+Home-page: https://bitbucket.org/licface/qdownloader
+Author: Hadi Cahyadi LD
+Author-email: cumulus13@gmail.com
+Maintainer: cumulus13 Team
+Maintainer-email: cumulus13@gmail.com
+License: BSD
+Project-URL: Code, https://bitbucket.org/licface/qdownloader
+Project-URL: Documentation, https://bitbucket.org/licface/qdownloader
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=2.7
+Requires-Dist: make-colors (>=3.12)
+Requires-Dist: requests
+Requires-Dist: progressbar2
+Requires-Dist: bs4
+Requires-Dist: clipboard
+Requires-Dist: pydebugger
+Requires-Dist: configset
+Requires-Dist: proxy-tester
+Requires-Dist: safeprint
+Requires-Dist: xnotify
+Requires-Dist: youtube-dl
+
+UNKNOWN
+
+
