@@ -1,0 +1,11 @@
+README.md
+setup.py
+datasette_query_history/__init__.py
+datasette_query_history.egg-info/PKG-INFO
+datasette_query_history.egg-info/SOURCES.txt
+datasette_query_history.egg-info/dependency_links.txt
+datasette_query_history.egg-info/entry_points.txt
+datasette_query_history.egg-info/requires.txt
+datasette_query_history.egg-info/top_level.txt
+datasette_query_history/static/datasette-query-history.css
+datasette_query_history/static/datasette-query-history.js
