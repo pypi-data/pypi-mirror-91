@@ -1,0 +1,9 @@
+llutils/Greetings.py,sha256=xLXBFevnnaMDWoTUCM8K2jqmwBSSM2hMb9V4On-HIG8,748
+llutils/__init__.py,sha256=oUsfW1dxudoppPIzj2yJG9RLzQNaRSXFCpdGPbGuQQM,39
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_greetings.py,sha256=VuIzxE8TgaB4H8kKpKjdnSQ3nuRiKs9xzbx4C-nrmII,346
+llutils-0.0.1.dist-info/LICENSE,sha256=xASdimwKtClqozxwM6IBm17kqt3MG3r6D-cAESer638,1092
+llutils-0.0.1.dist-info/METADATA,sha256=we40eZ5WaZXRCbZXvF4V32wzoXGbWvS_v1p_FY41xsw,456
+llutils-0.0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+llutils-0.0.1.dist-info/top_level.txt,sha256=VWjST7nEVcPl5-tsZStD3MtKg-3KnAxvxga35gL0IkM,14
+llutils-0.0.1.dist-info/RECORD,,
