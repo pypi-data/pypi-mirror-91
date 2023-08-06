@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: igenius-adapters-sdk
+Version: 1.0.0
+Summary: 
+Author: iGenius Backend
+Author-email: backend@igenius.ai
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Requires-Dist: pydantic (>=1.7.2,<2.0.0)
