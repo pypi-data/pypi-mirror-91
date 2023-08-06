@@ -1,0 +1,17 @@
+arlas_persistence_api_python/__init__.py,sha256=dnpBA2WoGAyRqv2pFic62Iy4Mby9ZKZYgFAwdqusoUk,568
+arlas_persistence_api_python/api_client.py,sha256=kRXHw-M3gOU9qYjGFINQIRt29S7ycCBkdidiTFx-VZ8,24169
+arlas_persistence_api_python/configuration.py,sha256=t0VAKAZtoVcdTpwW_WRQMGSg0UkUhhgNK0m51EVZ0LI,6827
+arlas_persistence_api_python/rest.py,sha256=Y4gMEQwPjqOyQPMXXIMJjvzJyB1R90Obl7JH7OQYMDE,12809
+arlas_persistence_api_python/apis/__init__.py,sha256=gOkHqVnG96-hfw_uYUPn7KPzeMEjpacC1BKRu8ySAks,111
+arlas_persistence_api_python/apis/authorize_api.py,sha256=AHvcMtn_Fcde7B1cSgyAtg2FXOkxRrtKWF_ONv_7ukc,5643
+arlas_persistence_api_python/models/__init__.py,sha256=TOgyCqKd6lIA2dVBMxNR8OX08CF8iY6yc9NAlkmOOkA,350
+arlas_persistence_api_python/models/error.py,sha256=r-6y7cJUCoVBLzCMKHYO2-AOzmP9u5z1FkriZ0CaWk4,3984
+arlas_persistence_api_python/models/resource.py,sha256=cmOJgJjW2lHxUQUwofvMj0f-iJVEXoUqiITlvhLwmWY,3518
+test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+test/test_authorize_api.py,sha256=bX1M7csplfJEfVPpgb-2prolI_VmcoYt1OYYEgqAQQo,898
+test/test_error.py,sha256=IJuOTQEteaJnDZzMEenh2PqB1i6JryCI8WxnWD8xV2k,875
+test/test_resource.py,sha256=fUjcdzyr3lkSXG5zfaKPRYg1ab4ncb7LO0PGeWztv0E,899
+arlas_permissions_api-14.0.1.dist-info/METADATA,sha256=vgqdkd6ceEmo_1ETWor3U5Bn4QGcVXdI6hm-Wa9t2HY,432
+arlas_permissions_api-14.0.1.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+arlas_permissions_api-14.0.1.dist-info/top_level.txt,sha256=H5VCjpUSexiNyLBYTZLPkb6vhqbp5H7T_tLq17KiUdc,34
+arlas_permissions_api-14.0.1.dist-info/RECORD,,
