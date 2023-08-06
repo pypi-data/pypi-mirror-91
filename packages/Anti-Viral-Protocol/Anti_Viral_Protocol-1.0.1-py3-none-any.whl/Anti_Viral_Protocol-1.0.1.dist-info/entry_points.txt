@@ -1,0 +1,3 @@
+[console_scripts]
+anti_viral_protocol = anti_viral_protocol.main:run
+
