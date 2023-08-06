@@ -1,0 +1,12 @@
+README.md
+setup.py
+probadg/Binomialdistribution.py
+probadg/Gaussiandistribution.py
+probadg/Generaldistribution.py
+probadg/__init__.py
+probadg/my_random.py
+probadg.egg-info/PKG-INFO
+probadg.egg-info/SOURCES.txt
+probadg.egg-info/dependency_links.txt
+probadg.egg-info/not-zip-safe
+probadg.egg-info/top_level.txt
