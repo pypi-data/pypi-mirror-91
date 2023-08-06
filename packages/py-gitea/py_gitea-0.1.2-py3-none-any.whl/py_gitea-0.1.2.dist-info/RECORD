@@ -1,0 +1,10 @@
+gitea/__init__.py,sha256=APL-9Xq4E3usMAwmygqreC1ojWjzIv8mcqIMZMmheCw,390
+gitea/basicGiteaApiObject.py,sha256=TPtO6XmDjyDg0AgSrYvuG_Hp0-Q3eVSnOv2iLq_e4Vk,3070
+gitea/exceptions.py,sha256=Hy1cPueBxUUM3kbwAkCPby_H-CAT8KFsX9KZEKNHNFs,203
+gitea/gitea.py,sha256=e_HQI8uQoz7npqQJ8bVqntDLULFhO6kfrrmPQzrcFzI,39633
+gitea/giteaApiObject.py,sha256=5lUHv4shfnHQ1GQ9hbDeRjK7M5XO26kFpaqFohAjZwg,961
+py_gitea-0.1.2.dist-info/LICENSE,sha256=_A9W-51YRNpZ7TJV6kzgpE6DmvjgnNR8YXeg7qR24Sk,1096
+py_gitea-0.1.2.dist-info/METADATA,sha256=AC-pc3tK-SgxzojaKQ-ecaNPOjKRqW7Kq7F8CBhbEO4,2957
+py_gitea-0.1.2.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+py_gitea-0.1.2.dist-info/top_level.txt,sha256=9e8iBRdztlNKBZADZNN9vRnc0ZSgYssMnwubIP7UuQI,6
+py_gitea-0.1.2.dist-info/RECORD,,
