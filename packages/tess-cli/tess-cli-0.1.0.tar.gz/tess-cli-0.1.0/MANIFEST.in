@@ -1,0 +1,5 @@
+include tess/resources/scripts/*.sh
+include tess/resources/config/*.json
+include tess/resources/templates/cpp/*.cpp
+include tess/resources/templates/java/*.java
+include tess/resources/templates/cases/*.txt

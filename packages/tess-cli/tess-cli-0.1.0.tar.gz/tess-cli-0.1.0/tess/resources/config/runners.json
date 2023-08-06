@@ -1,0 +1,15 @@
+{
+  "compiled": [
+    {
+      "runner": "java",
+      "extension": ".class",
+      "flags": ["-Xmx1024m"]
+    }
+  ],
+  "interpreted": [
+    {
+      "runner": "python3",
+      "extension": ".py"
+    }
+  ]
+}
