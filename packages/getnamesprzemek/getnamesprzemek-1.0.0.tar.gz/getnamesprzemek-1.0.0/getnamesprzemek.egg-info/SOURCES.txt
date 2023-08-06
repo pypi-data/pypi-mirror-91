@@ -1,0 +1,10 @@
+MANIFEST.in
+README.md
+setup.py
+getnames/__init__.py
+getnames/getnames.py
+getnamesprzemek.egg-info/PKG-INFO
+getnamesprzemek.egg-info/SOURCES.txt
+getnamesprzemek.egg-info/dependency_links.txt
+getnamesprzemek.egg-info/requires.txt
+getnamesprzemek.egg-info/top_level.txt
