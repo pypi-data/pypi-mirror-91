@@ -1,0 +1,3 @@
+[console_scripts]
+youku-upload = youku_upload.command:main
+

@@ -1,0 +1,14 @@
+MANIFEST.in
+README.md
+setup.py
+youku_upload/__init__.py
+youku_upload/command.py
+youku_upload/util.py
+youku_upload/youku_upload.py
+youku_upload.egg-info/PKG-INFO
+youku_upload.egg-info/SOURCES.txt
+youku_upload.egg-info/dependency_links.txt
+youku_upload.egg-info/entry_points.txt
+youku_upload.egg-info/not-zip-safe
+youku_upload.egg-info/requires.txt
+youku_upload.egg-info/top_level.txt
