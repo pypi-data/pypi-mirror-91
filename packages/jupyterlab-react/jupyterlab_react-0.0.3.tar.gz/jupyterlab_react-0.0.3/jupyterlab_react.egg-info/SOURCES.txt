@@ -1,0 +1,10 @@
+README.md
+setup.py
+jupyterlab_react/__init__.py
+jupyterlab_react/version.py
+jupyterlab_react.egg-info/PKG-INFO
+jupyterlab_react.egg-info/SOURCES.txt
+jupyterlab_react.egg-info/dependency_links.txt
+jupyterlab_react.egg-info/requires.txt
+jupyterlab_react.egg-info/top_level.txt
+jupyterlab_react.egg-info/zip-safe
