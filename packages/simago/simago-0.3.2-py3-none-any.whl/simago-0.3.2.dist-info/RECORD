@@ -1,0 +1,10 @@
+simago/__init__.py,sha256=Gn2DOfnJBvfgXA_IfzPgP9j6rfUqMbjXs3rSYsvXCCQ,450
+simago/__main__.py,sha256=NRrqfdgOaxSTtpE6Khq8rNlfJkKLxWgc2CsAjfKMPfY,1299
+simago/population.py,sha256=RLGhEFnq-M3fdcIiCw5e4gjnYnJNwC7mKxZYpEIz0WI,9754
+simago/probability.py,sha256=S_7oYyvcLtqw1kI5WQTGUq1RFMrxIf5aJMUdOMazJE0,15692
+simago/yamlutils.py,sha256=bVLvgbPMR2wjnesKnGNj0zMWb4bqervgZ5M20wrg-Xg,6337
+simago-0.3.2.dist-info/LICENCE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+simago-0.3.2.dist-info/METADATA,sha256=SGwTblCuVNAY5n7YR2iY2bCOlNpDRJH7yo53_nTtijw,3030
+simago-0.3.2.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+simago-0.3.2.dist-info/top_level.txt,sha256=xQs9Hohzt4lGUM-Ohtpb8XNiQdVHtAM6z674y3keKXg,7
+simago-0.3.2.dist-info/RECORD,,
