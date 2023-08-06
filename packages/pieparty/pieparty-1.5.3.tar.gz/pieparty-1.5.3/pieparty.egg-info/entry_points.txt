@@ -1,0 +1,3 @@
+[console_scripts]
+pieparty = pieparty.piemain:main
+

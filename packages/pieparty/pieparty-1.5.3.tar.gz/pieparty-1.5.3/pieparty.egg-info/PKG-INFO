@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: pieparty
+Version: 1.5.3
+Summary: scRNA seq visualization tool.
+Home-page: UNKNOWN
+Author: Stefan Kurtenbach
+Author-email: stefan.kurtenbach@med.miami.edu
+License: MIT
+Description: UNKNOWN
+Keywords: scRNA,UMAP,tSNE
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
