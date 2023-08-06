@@ -1,0 +1,13 @@
+Metadata-Version: 1.1
+Name: auto_nlp
+Version: 0.3
+Summary: Automated NLP tools. Plug N Play.
+Home-page: https://github.com/aryxns/auto-nlp
+Author: Aryan Sharma
+Author-email: aryansharma.prime@gmail.com
+License: MIT
+Download-URL: https://github.com/aryxns/auto-nlp/archive/v_001.tar.gz
+Description: UNKNOWN
+Keywords: ASPECT BASED,SENTIMENT,ANALYSIS
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
