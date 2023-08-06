@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: hcpa-biomed-processing
+Version: 1.0.2
+Summary: Apply color deconvolution and threshold on selected images
+Home-page: https://github.com/RafaelFreita/hcpa-image-processing
+Author: Rafael de Freitas
+Author-email: dfr.rafael@gmail.com
+License: UNKNOWN
+Description: # hcpa-image-processing
+        Python script to help processing images for HCPA
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
