@@ -1,0 +1,27 @@
+import json
+from os import environ
+from pathlib import Path
+from typing import List
+from typing import Union
+
+from talus import DurableBlockingProducerWrapper
+
+from dkist_processing_common._util.graphql import graph_ql_client
+from dkist_processing_common._util.graphql import RecipeRunInputDatasetQuery
+from dkist_processing_common._util.graphql import RecipeRunResponse
+from dkist_processing_common._util.interservice_bus import CatalogFrameMessage
+from dkist_processing_common._util.interservice_bus import CatalogObjectMessage
+from dkist_processing_common._util.interservice_bus import RABBITMQ_CONFIG
+
+
+def publish_messages(messages: List[Union[CatalogFrameMessage, CatalogObjectMessage]]):
+    bindings = [message.binding() for message in messages]
+    with DurableBlockingProducerWrapper(
+        producer_queue_bindings=bindings,
+        publish_exchange="master.direct.x",
+        retry_tries=0,
+        **RABBITMQ_CONFIG
+    ) as producer:
+
+        for message in messages:
+            producer.publish_message(message)
