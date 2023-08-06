@@ -1,0 +1,11 @@
+Metadata-Version: 1.2
+Name: rcvformats
+Version: 0.0.0
+Summary: Schema validations, migrations, and conversions to standardize the Ranked Choice Voting ecosystem
+Home-page: https://github.com/artoonie/rcvformats
+Author: Armin Samii
+Author-email: armin.samii@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3
