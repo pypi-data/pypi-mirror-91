@@ -1,0 +1,7 @@
+syntax: glob
+*.pyc
+*~
+build/
+1.py
+couchdb_python_requests.egg-info/
+dist/
