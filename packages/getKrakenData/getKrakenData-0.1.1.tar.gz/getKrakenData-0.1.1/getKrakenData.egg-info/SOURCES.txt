@@ -1,0 +1,10 @@
+README.rst
+setup.cfg
+setup.py
+getKrakenData.egg-info/PKG-INFO
+getKrakenData.egg-info/SOURCES.txt
+getKrakenData.egg-info/dependency_links.txt
+getKrakenData.egg-info/entry_points.txt
+getKrakenData.egg-info/not-zip-safe
+getKrakenData.egg-info/requires.txt
+getKrakenData.egg-info/top_level.txt
