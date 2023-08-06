@@ -1,0 +1,17 @@
+physicslab/__init__.py,sha256=MILpWakAzCnNvQYv3AwMxyaUlDOI5uUox-lK67kyxJ0,325
+physicslab/curves.py,sha256=xMLjlAQwpdOVH9Nu2JAhjXEbf2SRT6h9mw9R1lLBwEM,6405
+physicslab/electricity.py,sha256=_-uVHGInN0wbjgDgGCmc-vynJk12ZaJ9etKVJCKztg4,2745
+physicslab/io.py,sha256=kGyQXnFCMW4k1WNSmsJ_YSEbycgAGey1Uo7f6IDkNUc,2225
+physicslab/ui.py,sha256=z_XhPAyuDKMQANGNcxrhpOfLxAi4PnFZnVG8n9VUOeo,27
+physicslab/utility.py,sha256=L4aDrSQTr5kVPTx8IkxGfWuw36Xiz_89XPXAHV51WCA,819
+physicslab/experiment/__init__.py,sha256=ByeqaD72e04QwzETET0sVIULngKJceS-p0mm7SQQV58,1281
+physicslab/experiment/hall.py,sha256=E4TpsJ_cQ5uGEFFCuqhGl9XK_GW7KJGJNWMAcH6wywI,4095
+physicslab/experiment/magnetism_type.py,sha256=cIYuQtwiYJA-y7cEFrzOWVK1R7kZ0oYipEwzYEMAWcI,8686
+physicslab/experiment/van_der_pauw.py,sha256=uWnbPtpBTMonPjbwCL_XglI2GwwqBUj6z_pEKQ62MdI,9836
+tests/__init__.py,sha256=1Zzz4FKcIYrxTtzq9M-xlbijSyzY8iBt6JCNAu6cnG8,17
+tests/tests.py,sha256=kST098-gJJxr4mfwemPmbab-t82WwZgtftPY5kBThLA,3356
+physicslab-0.3.0.dist-info/LICENSE,sha256=Yp-reHwY4J6SPtu7g1NNyF_Vh6COXFyuEXOcIel52Xc,1091
+physicslab-0.3.0.dist-info/METADATA,sha256=Jm_6WwaDBqiY9DgOP0lniwa4xC2kmerdc9ZMYZh55KQ,2170
+physicslab-0.3.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+physicslab-0.3.0.dist-info/top_level.txt,sha256=yA21g2Grqh1641CZDzXmdyXTzns45hiFA7WYDOiZd_c,17
+physicslab-0.3.0.dist-info/RECORD,,
