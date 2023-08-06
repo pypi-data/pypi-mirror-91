@@ -1,0 +1,9 @@
+README.md
+setup.py
+jaideepconvert.egg-info/PKG-INFO
+jaideepconvert.egg-info/SOURCES.txt
+jaideepconvert.egg-info/dependency_links.txt
+jaideepconvert.egg-info/top_level.txt
+uploading/__init__.py
+uploading/imageConversion.py
+uploading/textConversion.py
