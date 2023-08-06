@@ -1,0 +1,10 @@
+tkcalc/__init__.py,sha256=MsSFjiLMLJZ7QhUPpVBWKiyDnCzryquRyr329NoCACI,2
+tkcalc/__main__.py,sha256=39W8xko8ieZqlsnzCb2b_nPk5QEgcTX4NtsWHAfyFlU,905
+tkcalc/app.py,sha256=1iaYbM7ByXOvnH7YWgTdHrXmOGYSgO3VscWXwq4CdYI,1095
+tkcalc/main.py,sha256=0ZliMhp7W2sI228NzjquWZ30FtGMqijF596vFXsLp2A,940
+tkcalc/model.py,sha256=xprg3I46KQi3Uze8xKhqgLoo9rHx9SQXQ_V99O9H2Zw,5034
+tkcalc-1.2.5.dist-info/METADATA,sha256=RDxxmjuVWfB5KFqIqmHOuzFBqqpfSAYoV8V4tEP-294,332
+tkcalc-1.2.5.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+tkcalc-1.2.5.dist-info/entry_points.txt,sha256=DU0A7BAgE0_xCZ1qd-uzIQvdUeL_FsMChiNt391Cj3U,44
+tkcalc-1.2.5.dist-info/top_level.txt,sha256=oXUbKjLqISGsfKJIMVq7OYwPwuH_BTEZ-IW9kYJnuFg,7
+tkcalc-1.2.5.dist-info/RECORD,,
