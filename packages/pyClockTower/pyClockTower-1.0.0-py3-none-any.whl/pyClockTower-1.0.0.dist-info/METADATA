@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: pyClockTower
+Version: 1.0.0
+Summary: A module that allows the user to check the status and attributes of a website
+Home-page: UNKNOWN
+Author: Seaver Olson
+Author-email: Sjolson007@gmail.com
+License: MIT
+Platform: UNKNOWN
+
+This module has four submodules :siteinfo, sitemapping,  sitelocation, and aircom.
+Each of these submodules have different uses. Siteinfo can be used to find the sites: encoding, cookies, ip and port, and
+header.   Sitemapping is used to: check if a url is valid and online,  map all internal and external urls on a site,
+and find all hidden urls on a site like robot.txt.  Sitelocation is still in development but in the future it will be used
+mainly for pulling up a heatmap of the world based on traffic, where the sites server is located and more. aircom is used
+for tracking the traffic on a website. To use aircom you will have to have a google API key and include that key in the attributes of the functions.
+
+
+
