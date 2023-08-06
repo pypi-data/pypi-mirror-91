@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: deepmini
+Version: 0.0.1
+Summary: deepmini
+Home-page: https://github.com/jeakwon/deepmini
+Author: jeakwon, SoHyung Kim
+Author-email: onlytojay@gmail.com
+License: UNKNOWN
+Download-URL: https://github.com/jeakwon/deepmini/archive/0.0.tar.gz
+Keywords: deepmini
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.2
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=3
+
+UNKNOWN
+
+
