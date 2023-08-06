@@ -1,0 +1,11 @@
+requests
+jsonschema==3.0.0a3
+rfc3987
+future
+simplejson
+pypeln==0.1.6
+opentargets-urlzsource
+
+[dev]
+pytest-cov
+codecov
