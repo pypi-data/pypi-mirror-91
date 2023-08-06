@@ -1,0 +1,14 @@
+MANIFEST.in
+README.md
+setup.py
+aws_cli_mfa.egg-info/PKG-INFO
+aws_cli_mfa.egg-info/SOURCES.txt
+aws_cli_mfa.egg-info/dependency_links.txt
+aws_cli_mfa.egg-info/entry_points.txt
+aws_cli_mfa.egg-info/requires.txt
+aws_cli_mfa.egg-info/top_level.txt
+awsclimfa/__init__.py
+awsclimfa/main.py
+awsclimfa/log/__init__.py
+awsclimfa/log/config.yaml
+awsclimfa/log/logger.py

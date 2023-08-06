@@ -1,0 +1,3 @@
+[console_scripts]
+aws-cli-mfa = awsclimfa.main:run
+
