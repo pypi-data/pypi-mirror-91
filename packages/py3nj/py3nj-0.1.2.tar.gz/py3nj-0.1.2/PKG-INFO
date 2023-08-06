@@ -1,0 +1,18 @@
+Metadata-Version: 1.1
+Name: py3nj
+Version: 0.1.2
+Summary: numpy compatible wigner 3n-J symbols
+Home-page: http://github.com/fujiisoup/py3nj
+Author: Keisuke Fujii
+Author-email: fujiisoup@gmail.com
+License: BSD 3-clause
+Description: UNKNOWN
+Keywords: atomic physics,quantum physics
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Natural Language :: English
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Scientific/Engineering :: Physics
