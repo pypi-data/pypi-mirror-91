@@ -1,0 +1,142 @@
+Metadata-Version: 2.1
+Name: rainbond-python
+Version: 0.3.0
+Summary: Rainbond python cloud native development base library
+Home-page: https://github.com/hekaiyou/rainbond-python
+Author: Kaiyou He
+Author-email: hky0313@outlook.com
+License: UNKNOWN
+Description: # Rainbond Python
+        
+        基于 Rainbond 云原生平台和 Flask 框架的 Python 云原生开发基础库
+        
+        ## 使用说明
+        
+        快速开始创建一个 Python 云原生组件：
+        
+        ```python
+        rainbond -c demo-component
+        ```
+        
+        ### Parameter
+        
+        处理请求与响应参数的通用类
+        
+        ```python
+        from rainbond_python.parameter import Parameter
+        ```
+        
+        #### 获取请求参数
+        
+        通过 `Parameter` 类实例，可以获取以下信息：
+        
+        - parameter.method: 请求类型
+        - parameter.headers: 请求头
+        - parameter.param_url: URL中传递的参数
+        - parameter.param_json: Json请求中的参数
+        - parameter.param_form: 表单请求中的参数
+        
+        所有信息均为字典类型，通过 `json.dumps()` 可以直接作为响应返回：
+        
+        ```python
+        @app.route('/api/1.0/demo', methods=['GET', 'POST', 'PUT', 'DELETE'])
+        def api_demo():
+            parameter = Parameter(request)
+            if parameter.method == 'GET':
+                return json.dumps(parameter.param_url, ensure_ascii=False), 200, []
+            elif parameter.method == 'POST':
+                return json.dumps(parameter.param_json, ensure_ascii=False), 200, []
+            elif parameter.method == 'PUT':
+                return json.dumps(parameter.param_json, ensure_ascii=False), 200, []
+            elif parameter.method == 'DELETE':
+                return json.dumps(parameter.param_json, ensure_ascii=False), 200, []
+        ```
+        
+        #### 校验参数内容
+        
+        通过 `Parameter` 类的 `verification()` 方法，可以判断参数字典是否符合要求：
+        
+        ```python
+            elif parameter.method == 'POST':
+                if parameter.verification(checking=parameter.param_json, verify={'name': str, 'age': int}):
+                    return '请求参数正确', 200, []
+                else:
+                    return '请求参数错误', 400, []
+        ```
+        
+        其中 `checking` 参数是需要校验的参数字典，通常传递 `parameter.param_url`、`parameter.param_json` 或 `parameter.param_form`。第二个 `verify` 参数则是校验内容字典，需要指定 *参数名* 和 *参数类型* 作为字典项。
+        
+        ### DBConnect
+        
+        处理 MongoDB 读写行为的通用类
+        
+        ```python
+        from rainbond_python.db_connect import DBConnect
+        db = DBConnect(db='db_name', collection='collection_name')
+        ```
+        
+        #### 写文档
+        
+        ```python
+        insert_dict = {'name': 'Xiao Ming', 'age': 23}
+        if db.write_one_docu(docu=insert_dict):
+            print('Insert success')
+        else:
+            print('Insert failure')
+        ```
+        
+        #### 文档是否存在
+        
+        ```python
+        examine_dict = {'name': 'Xiao Ming'}
+        if db.does_it_exist(docu=examine_dict):
+            print('Docu already exists')
+        else:
+            print('Docu does not exist')
+        ```
+        
+        #### 更新文档
+        
+        ##### 更新单个匹配文档
+        
+        ```python
+        find_dict = {'name': 'Xiao Ming'}
+        modify_dict = {'$set': {'name': 'Xiao Hong'}}
+        if db.update_docu(find_docu=find_dict, modify_docu=modify_dict):
+            print('Update success')
+        else:
+            print('Update failure')
+        ```
+        
+        ##### 更新全部匹配文档
+        
+        ```python
+        find_dict = {'age': 23}
+        modify_dict = {'$set': {'name': '23 year old'}}
+        if db.update_docu(find_docu=find_dict, modify_docu=modify_dict, many=True):
+            print('Update all success')
+        else:
+            print('Update all failure')
+        ```
+        
+        ### 通用方法
+        
+        #### handle_date()
+        
+        将 *2020-10-1* 或 *601481600* 即日期格式或时间戳格式的字符串，处理成 Python 的 `datetime.datetime` 数据：
+        
+        ```python
+        from rainbond_python.tools import handle_date
+        print(handle_date(date='2020-10-1'))
+        print(handle_date(date='2020-10-31', date_type='end'))
+        ```
+        
+        ## 参考
+        
+        - [Restful API](https://www.runoob.com/w3cnote/restful-architecture.html) : 具体的组件API开发标准
+        - [12 Factor](https://12factor.net/zh_cn/) : 符合十二要素的才是云原生应用
+        - [RainBond](https://www.rainbond.com/docs/) : 一个开源的云原生平台
+        
+Keywords: rainbond python cloud native
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
