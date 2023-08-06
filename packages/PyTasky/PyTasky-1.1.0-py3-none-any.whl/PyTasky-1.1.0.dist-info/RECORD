@@ -1,0 +1,15 @@
+PyTasky/__init__.py,sha256=lrNFeaPIDkweK8bGIrL7QgwxFFxAcfHt5Dms60q2IbI,63
+PyTasky/client.py,sha256=vInPfoiySS110yFZ-CeIRXUNe6u0BV7Sau5JuRpMBr8,2866
+PyTasky/errors/__init__.py,sha256=R0JPZXMA519H0_XCdVdjtNgW2v8SooHQOv_OOabxXvU,345
+PyTasky/errors/accounts.py,sha256=x7Bl1BelyfiJsTvMagpOAkyEDs3t44KlxxIGCFkNuP4,222
+PyTasky/errors/api_limits.py,sha256=PnMh4FtVKMllQnWB3dfZzKeOjqeMq-8qAg3O9gGiR6M,110
+PyTasky/errors/groups.py,sha256=RsQMx9eDBUJD2aVshP65tsZhdVRPLFU3JpbZyV1v_B0,228
+PyTasky/errors/users.py,sha256=wk7bwnpSV4kdmXBYRu3kOJdl5HZ1xKoY8X2jhgzzA90,110
+PyTasky/types/__init__.py,sha256=Bowwi-0CpQy8GrCREUN9gLuJ0oor0LjBe6YsfvBK9fk,95
+PyTasky/types/groups.py,sha256=ihgZskHr1XGmdoeWbkPBBkrkCdr3KNG4NqEZaTc7VmY,256
+PyTasky/types/users.py,sha256=_CL5RKIQKKbQfjgTJuNlNCBu10FtiC6RuyXQQTCEFkI,197
+PyTasky-1.1.0.dist-info/LICENSE,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+PyTasky-1.1.0.dist-info/METADATA,sha256=kqm64Pmws8oCev9MzA507AbGm-UJbABGowOKE-rjafY,904
+PyTasky-1.1.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+PyTasky-1.1.0.dist-info/top_level.txt,sha256=4fiqQkOj6j-aRAmwORH0mQDmW_9mV7LnFB8S8KxAAuY,8
+PyTasky-1.1.0.dist-info/RECORD,,
