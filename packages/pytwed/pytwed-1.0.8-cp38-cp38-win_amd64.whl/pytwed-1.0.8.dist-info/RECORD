@@ -1,0 +1,11 @@
+twed.cp38-win_amd64.pyd,sha256=_lkVFuczCDP29eHzSvcDN0pNeRVjoTjx-gzUaQ21HmU,15872
+pytwed/__init__.py,sha256=wQIZfHxGWdhiVOeScdID_Ut-hikyvzdzNF7w0vySuRw,2242
+pytwed/fast_twed.c,sha256=Qmp3yj2IJC81nX4LqAUH7FSaB3m_HWdmQdUXsnZN1h8,4585
+pytwed/slow_twed.py,sha256=lKDZvobY8Vt_wab50j2bdoRK4SPaMixSADYONRg5tHU,3520
+pytwed/twed.c,sha256=86LSAstsBm3dL0JjcqcvUbJ_nDR3U3pHsX7c-IiYC1I,4642
+pytwed/twed.h,sha256=NK-_VDljVQyLNvc1eCcgXJxTPBrCSO0yDBcPLgGWJiI,200
+pytwed-1.0.8.dist-info/LICENSE,sha256=ePVEDexyZD7ZPAsb_kY3roRAluEsVIjkw3cC3QGHwpo,1090
+pytwed-1.0.8.dist-info/METADATA,sha256=CkjgO7NTiaAJYoH-aHBf6fJuVxNnWAf18r58LgMLinU,4792
+pytwed-1.0.8.dist-info/WHEEL,sha256=HLtxc_HoM-kGM7FPJVPSnTt0Nv2G3fZEAjT3ICdG8uY,100
+pytwed-1.0.8.dist-info/top_level.txt,sha256=0BvfEwGY9lfxqnWzrB-XXzGABwhPNiEyqW8Fli9N8Go,12
+pytwed-1.0.8.dist-info/RECORD,,
