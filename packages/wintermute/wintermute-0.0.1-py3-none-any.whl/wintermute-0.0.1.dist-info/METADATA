@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: wintermute
+Version: 0.0.1
+Summary: Registry for machine learning models
+Home-page: https://github.com/scruwys/wintermute
+Author: Scott Cruwys
+Author-email: scruwys@gmail.com
+License: MIT
+Platform: any
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: Unix
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.5
+
+
+Registry for machine learning models.
+
+
