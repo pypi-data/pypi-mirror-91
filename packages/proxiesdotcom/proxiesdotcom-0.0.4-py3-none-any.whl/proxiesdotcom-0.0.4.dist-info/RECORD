@@ -1,0 +1,9 @@
+proxiesdotcom/__init__.py,sha256=pH0vE-iHinHcvGQzjZmC5GsBHFpjWmVJTXGefafHx9A,63
+proxiesdotcom/proxiesdotcom.py,sha256=skJI-umvQQlbG2GLhWe4Ku_auDjlPrGuVGMoNFdxiK0,11665
+proxiesdotcom/models/__init__.py,sha256=ryU0ctaIoN-27iaGXDv-r6Z0sUzuFgnp0Mbkwjv5WNk,58
+proxiesdotcom/models/base_proxy.py,sha256=tj4d9Lhzu35TRiyf6fFHAp3AQAx5tOfrVN0srVErWlw,2141
+proxiesdotcom/models/proxy.py,sha256=PBPO4CEORPP_4C2qHu_DsJoOxyCcsj-Aq6fu6tMo6l0,1567
+proxiesdotcom-0.0.4.dist-info/METADATA,sha256=FrAoC1v9eo-rusVUmwsesu9MhxcU6QFC_Lb5H1omULw,989
+proxiesdotcom-0.0.4.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+proxiesdotcom-0.0.4.dist-info/top_level.txt,sha256=9gupCnrewIuBB8OkS6N_7OPExYjhxmr7vLmM3dEWkug,14
+proxiesdotcom-0.0.4.dist-info/RECORD,,
