@@ -1,0 +1,15 @@
+README.md
+setup.py
+pogodata/__init__.py
+pogodata/game_objects.py
+pogodata/mons.py
+pogodata/moves.py
+pogodata/pogodata.py
+pogodata/util.py
+pogodata.egg-info/PKG-INFO
+pogodata.egg-info/SOURCES.txt
+pogodata.egg-info/dependency_links.txt
+pogodata.egg-info/requires.txt
+pogodata.egg-info/top_level.txt
+pogodata/pogoinfo/pogoinfo.py
+pogodata/pogoinfo/raids.py
