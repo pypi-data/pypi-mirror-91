@@ -1,0 +1,7 @@
+networkx_astar_path/__init__.py,sha256=DBXMlX0SWWIGREkPVSTpzlnP-NfwlF9GVJ7s0Wm8xHs,29
+networkx_astar_path/astar.py,sha256=UX9IVn2N0cRsGwX2Mr1LzVUSbLGa58FlKCeLpqyGSsk,8858
+networkx_astar_path/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+networkx_astar_path-1.0.1.dist-info/LICENSE,sha256=7oqre_bL6AR6FBlnbGUR31sygy4gphb31zfKn8i-HJA,3425
+networkx_astar_path-1.0.1.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+networkx_astar_path-1.0.1.dist-info/METADATA,sha256=GdFhKFN6ksndhZN-Fz7TlrsiGJ1uf95Zyu5QSg-tOXE,5683
+networkx_astar_path-1.0.1.dist-info/RECORD,,
