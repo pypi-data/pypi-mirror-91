@@ -1,0 +1,9 @@
+py_telegram/__init__.py,sha256=G51wTniamVIQDhEP32vQZGd8kGpWjE8luQvts0dzdCU,8212
+py_telegram/__main__.py,sha256=AaFN9oeiQ_-5-bzQeqbpZ_Y8Ke5a6Q1rHHDEC-GyMSs,1652
+py_telegram/archive_maker.py,sha256=JG2sqLo44DUGQEhhz1XIjrqz7FaEMmvShkzptH5uQlg,1211
+py_telegram/install.py,sha256=Zm8gMitKvEsZM08m6yT9MgXD_cyTLsDHu_j_Ws2zqfY,1315
+py_telegram-1.0.0.4.dev0.dist-info/LICENSE,sha256=bcP8OxPFbv0RtrhDHuO_8XawWgsgwtr9eUpAuVW5Tkw,1136
+py_telegram-1.0.0.4.dev0.dist-info/METADATA,sha256=O2F20psGQ07EsM0LvaeqDfKyljaB9QQiFscayMCi78U,3468
+py_telegram-1.0.0.4.dev0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+py_telegram-1.0.0.4.dev0.dist-info/top_level.txt,sha256=kBnWJMLRBxw6u2QA6SCj6CEKlrbpzEkJNIWIfU-14zc,12
+py_telegram-1.0.0.4.dev0.dist-info/RECORD,,
