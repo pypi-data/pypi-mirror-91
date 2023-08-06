@@ -1,0 +1,13 @@
+CHANGELOG.txt
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.py
+PlotMyGoogleSheet28/PlotMyGoogleSheet.py
+PlotMyGoogleSheet28/__init__.py
+PlotMyGoogleSheet28.egg-info/PKG-INFO
+PlotMyGoogleSheet28.egg-info/SOURCES.txt
+PlotMyGoogleSheet28.egg-info/dependency_links.txt
+PlotMyGoogleSheet28.egg-info/not-zip-safe
+PlotMyGoogleSheet28.egg-info/requires.txt
+PlotMyGoogleSheet28.egg-info/top_level.txt
