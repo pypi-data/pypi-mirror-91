@@ -1,0 +1,7 @@
+README.md
+setup.py
+vapix/__init__.py
+vapix.egg-info/PKG-INFO
+vapix.egg-info/SOURCES.txt
+vapix.egg-info/dependency_links.txt
+vapix.egg-info/top_level.txt
