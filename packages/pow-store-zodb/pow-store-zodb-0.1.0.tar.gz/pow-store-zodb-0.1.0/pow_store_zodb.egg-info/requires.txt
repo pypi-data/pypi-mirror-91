@@ -1,0 +1,4 @@
+BTrees
+ZODB
+rdflib>=4.1.0
+transaction
