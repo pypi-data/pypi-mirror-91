@@ -1,0 +1,34 @@
+﻿tosearch,toreplace,Notes
+\(S\), singapore ,
+\(M\), malaysia ,
+\(HK\), hong kong ,
+s'pore,Singapore,
+spore,Singapore,
+ Co.$,Corporation,endofname
+\.,  ,punctuations
+\-, ,punctuations
+\', ,punctuations
+"\,", ,punctuations
+\(, ,punctuations
+\), ,punctuations
+\&,  and ,punctuations
+\`, ,punctuations
+ inc$, incorporated,endofname
+ corp$, corporation,endofname
+Co$,Corporation,endofname
+ co , company ,
+intl, international ,
+ltd,limited,
+pvt, private ,
+pte, private ,
+hldgs, holdings ,
+ inc , incorporated ,
+hongkong,hong kong,
+bhd,berhad,
+sdn,sendirian,
+PT ,perseroan terbatas ,
+ tech , technology ,
+ grp, group ,
+ corp , corporation ,
+ env ,environment,
+ Tbk,Terbuka,
