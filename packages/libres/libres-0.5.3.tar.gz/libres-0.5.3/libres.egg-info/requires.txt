@@ -1,0 +1,14 @@
+SQLAlchemy>=0.9
+cached_property>=1.2.0
+psycopg2-binary
+python-dateutil
+pytz
+sedate
+
+[test]
+jsonpickle
+mock
+pg8000<=1.12.4
+pytest
+pytest-cov
+testing.postgresql
