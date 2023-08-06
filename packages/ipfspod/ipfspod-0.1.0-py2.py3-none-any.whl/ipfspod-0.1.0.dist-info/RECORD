@@ -1,0 +1,9 @@
+ipfspod/__init__.py,sha256=q7tYosVgQ5EtsZGARTsgnA9pKz0G-gd6gzRf6b5XueE,105
+ipfspod/__main__.py,sha256=mFoCJEktX2TDCmvLSwrPRvxjehItrPO7dSwtC-vKrrA,8549
+ipfspod/feed_template.xml.jinja,sha256=2IlVVLckilq53Dc8w_otdeCV-MXKZ1S48accvkbG2DI,3032
+ipfspod/icon.png,sha256=W8AjSEq88SYc902xptVnI6FhWbfC6E8iUoy9Jg_82RM,7519
+ipfspod/test_main.py,sha256=qx_heAGgsnV5OTthCFgdAhdn-Ya-2IUyMSLhW7ghFlk,2349
+ipfspod-0.1.0.dist-info/LICENSE,sha256=eghA8KRssUSlFOccbRYhBC6QHgkhB_MrnnGhx751hB4,1071
+ipfspod-0.1.0.dist-info/WHEEL,sha256=NLqmsx-ZFZ6gDavYgh2oH0ZSN-KRmpcdEXIZDnYy9Pg,99
+ipfspod-0.1.0.dist-info/METADATA,sha256=0gEF5xKDtAlp5KWlHjdAO6j-0-t4AMsynvu9dMDbPPQ,344
+ipfspod-0.1.0.dist-info/RECORD,,
