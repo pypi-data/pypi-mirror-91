@@ -1,0 +1,13 @@
+MANIFEST.in
+README.md
+setup.py
+greeter/__init__.py
+greeter/__main__.py
+greeter/config.yml
+greeter/greeter.py
+greeter_sarasa.egg-info/PKG-INFO
+greeter_sarasa.egg-info/SOURCES.txt
+greeter_sarasa.egg-info/dependency_links.txt
+greeter_sarasa.egg-info/entry_points.txt
+greeter_sarasa.egg-info/requires.txt
+greeter_sarasa.egg-info/top_level.txt
