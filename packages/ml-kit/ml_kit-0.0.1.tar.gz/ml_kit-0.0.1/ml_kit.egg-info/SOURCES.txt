@@ -1,0 +1,15 @@
+CONTRIBUTING.md
+LICENSE
+MANIFEST.in
+README.md
+settings.ini
+setup.py
+ml_kit.egg-info/PKG-INFO
+ml_kit.egg-info/SOURCES.txt
+ml_kit.egg-info/dependency_links.txt
+ml_kit.egg-info/entry_points.txt
+ml_kit.egg-info/not-zip-safe
+ml_kit.egg-info/top_level.txt
+mlkit/__init__.py
+mlkit/_nbdev.py
+mlkit/core.py
