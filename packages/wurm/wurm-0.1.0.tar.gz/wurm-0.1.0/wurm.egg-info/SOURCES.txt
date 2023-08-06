@@ -1,0 +1,16 @@
+LICENSE-MIT
+MANIFEST.in
+README.rst
+pyproject.toml
+setup.py
+wurm/__init__.py
+wurm/connection.py
+wurm/queries.py
+wurm/sql.py
+wurm/tables.py
+wurm/typemaps.py
+wurm.egg-info/PKG-INFO
+wurm.egg-info/SOURCES.txt
+wurm.egg-info/dependency_links.txt
+wurm.egg-info/requires.txt
+wurm.egg-info/top_level.txt
