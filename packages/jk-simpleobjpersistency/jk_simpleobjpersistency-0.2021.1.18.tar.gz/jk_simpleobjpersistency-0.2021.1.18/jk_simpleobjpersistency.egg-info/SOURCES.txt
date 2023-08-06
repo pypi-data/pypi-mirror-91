@@ -1,0 +1,15 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+README.rst
+setup.py
+jk_simpleobjpersistency/PersistencyManager.py
+jk_simpleobjpersistency/PersistencyManager2.py
+jk_simpleobjpersistency/_ClassRecord.py
+jk_simpleobjpersistency/__init__.py
+jk_simpleobjpersistency.egg-info/PKG-INFO
+jk_simpleobjpersistency.egg-info/SOURCES.txt
+jk_simpleobjpersistency.egg-info/dependency_links.txt
+jk_simpleobjpersistency.egg-info/not-zip-safe
+jk_simpleobjpersistency.egg-info/requires.txt
+jk_simpleobjpersistency.egg-info/top_level.txt
