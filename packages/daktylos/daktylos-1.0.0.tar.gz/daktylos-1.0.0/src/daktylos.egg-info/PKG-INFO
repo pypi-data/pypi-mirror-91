@@ -1,0 +1,13 @@
+Metadata-Version: 1.1
+Name: daktylos
+Version: 1.0.0
+Summary: low-startup-overhead, scalable, distributed-testing pytest plugin
+Home-page: https://github.com/nak/daktylos
+Author: John Rusnak
+Author-email: jrusnak@linkedin.com
+License: BSD 2-CLAUSE
+Download-URL: https://github.com/daktylos/dist/1.0.0
+Description: UNKNOWN
+Keywords: metrics validation capture
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: BSD License
