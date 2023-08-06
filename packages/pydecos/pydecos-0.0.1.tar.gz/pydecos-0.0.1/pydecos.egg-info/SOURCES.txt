@@ -1,0 +1,7 @@
+README.md
+setup.py
+pydecos/__init__.py
+pydecos.egg-info/PKG-INFO
+pydecos.egg-info/SOURCES.txt
+pydecos.egg-info/dependency_links.txt
+pydecos.egg-info/top_level.txt
