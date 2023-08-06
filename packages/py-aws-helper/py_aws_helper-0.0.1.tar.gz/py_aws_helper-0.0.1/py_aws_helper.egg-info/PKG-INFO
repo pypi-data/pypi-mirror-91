@@ -1,0 +1,12 @@
+Metadata-Version: 1.0
+Name: py-aws-helper
+Version: 0.0.1
+Summary: Helper for AWS services like S3 written in python...
+Home-page: https://github.com/1CloudHub/py_aws_helper.git
+Author: Sripranav P
+Author-email: sripranav@1cloudhub.com
+License: MIT
+Description: # py_aws_helper
+        Helper for AWS services like S3 written in python...
+        
+Platform: UNKNOWN
