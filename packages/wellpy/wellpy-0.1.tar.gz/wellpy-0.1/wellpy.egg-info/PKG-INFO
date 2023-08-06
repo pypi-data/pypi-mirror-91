@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: wellpy
+Version: 0.1
+Summary: Library that contains the Well and WellsGroup Classes
+Home-page: https://github.com/scuervo91/wellpy
+Author: Santiago Cuervo
+Author-email: scuervo91@gmail.com
+License: UNKNOWN
+Download-URL: https://github.com/scuervo91/wellpy/archive/v0.1.tar.gz
+Description: # Wellpy
+        
+        Base Package to perform Oil and Gas reservoir Analysis in Python. It contains the
+        Well and WellsGroup with some features to be extended by others reservoir libraries.
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown

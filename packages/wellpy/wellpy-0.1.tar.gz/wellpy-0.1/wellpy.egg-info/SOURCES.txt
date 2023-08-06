@@ -1,0 +1,15 @@
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+wellpy/__init__.py
+wellpy/checkarrays.py
+wellpy/interpolate.py
+wellpy/mincurve.py
+wellpy/projection.py
+wellpy/well.py
+wellpy.egg-info/PKG-INFO
+wellpy.egg-info/SOURCES.txt
+wellpy.egg-info/dependency_links.txt
+wellpy.egg-info/requires.txt
+wellpy.egg-info/top_level.txt
