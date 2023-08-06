@@ -1,0 +1,13 @@
+wind_stats/__init__.py,sha256=mtzjQIpDx-3ANjFxeLI9wEtUR9qdLo3pNl7KaoCUVBk,370
+wind_stats/__version__.py,sha256=Ek_Mi6pj-rVToozAqmwLa-vDIIEnGe8n6mW9kuuNSzo,289
+wind_stats/constants.py,sha256=28IflSIR317TfLJYRTVgQvLEbSLhccboC57QM2CdSYQ,162
+wind_stats/geometry.py,sha256=u9_KiowSeERgi4zRBwVQhqvMSebqIhtb-p_3DO2gvm4,3490
+wind_stats/gwa_reader.py,sha256=Te_kmuRyl4SHoQGSe6Sx9IVnotHd-sLRddHa2YinUi8,8063
+wind_stats/models.py,sha256=7-HXqCdJZabq9gZR5jganqXm4XFIsoleOTYHp8C87_s,9605
+wind_stats/stats.py,sha256=GgjYNZA3tZzouckho4TcEi7HYkAUAKPhdl_NzpN2fcg,1713
+wind_stats/units.py,sha256=YEiyY8rYKLlmIa24AqKFf3XcUScMsWglxd3-6eicB14,268
+wind_stats/utils.py,sha256=AsbBqByrLtZcunKua7ZZwEr0fULL612ui0Vx8c9el0M,1542
+wind_stats-0.1.1.dist-info/LICENSE,sha256=_NhEXwmTBVxAKaaZ_4qVnQj0UM-y3ads9SmVBScKkAc,1069
+wind_stats-0.1.1.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+wind_stats-0.1.1.dist-info/METADATA,sha256=NMoOMDUpPg20Ivmmg4b23z2NXCEg2U-RhAGeGeES0dg,3245
+wind_stats-0.1.1.dist-info/RECORD,,
