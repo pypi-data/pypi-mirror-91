@@ -1,0 +1,13 @@
+maxcube/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+maxcube/connection.py,sha256=cXgyW56U1wRcpTJKq-ytB6CVTutkre63ki3gtBEjt5E,1336
+maxcube/cube.py,sha256=L1Hy3ARVn2GHno0HLQ_loIXzz8YZQzov9nzHXk6i2Xs,16162
+maxcube/device.py,sha256=0xs-b4jRzgYwCB76XczwQoY-EvYNaDXyHe4kZV21Kz4,1322
+maxcube/room.py,sha256=LKJk4iXS2tACoAcEiZ0MFUUDuA6RMFNB1BGBIAeoh_w,95
+maxcube/thermostat.py,sha256=0aJbpuygL5EKYZKlm7teD3MEZ8gTlqEcYVKBQjQNd84,427
+maxcube/wallthermostat.py,sha256=m3vKSHaJgG9TJaLUL-N9A2mfkmRtJyY9rnpfkz3gA0I,400
+maxcube/windowshutter.py,sha256=oCptJMGKe5dPjCpi52ZMnUDZfSti7exfc8wSccls0xY,208
+maxcube_api-0.2.0.dist-info/LICENSE,sha256=3LzfhV3iSX_lGLj50yH_pDzL8rV28re5-ygHdqmvPuw,1084
+maxcube_api-0.2.0.dist-info/METADATA,sha256=ajDTXf3NqRUyRSnezdnlpJOWNmJF7rBASjDeAJWhCQ8,2311
+maxcube_api-0.2.0.dist-info/WHEEL,sha256=8zNYZbwQSXoB9IfXOjPfeNwvAsALAjffgk27FqvCWbo,110
+maxcube_api-0.2.0.dist-info/top_level.txt,sha256=LNROZL-ZOtgkwGzelqKCaod_8QaI61fICfieNgNINHE,8
+maxcube_api-0.2.0.dist-info/RECORD,,
