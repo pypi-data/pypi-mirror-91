@@ -1,0 +1,19 @@
+Metadata-Version: 2.0
+Name: ghost-wordpack
+Version: 0.1.0
+Summary: Word List for Ghost word game
+Home-page: https://github.com/pikulet/ghost-wp
+Author: Joyce Yeo
+Author-email: jycyeo@yahoo.com.sg
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# ghost-wp
+yes just a wordpack
+
+
