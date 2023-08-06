@@ -1,0 +1,11 @@
+countingworkspace/__init__.py,sha256=nnXL7yvHAbAa8KaHu0-IEkT3FJ7WCxHu-3vYZyNL4oU,79
+countingworkspace/countingworkspace.py,sha256=HOg2NsKbJ_NALQCbQnMg6L82zfuiz17_iJgYc8mEwho,19133
+countingworkspace/examples.py,sha256=ZhA_TXr-IgyseuY60RcatCXe9WTb-PTGMe0qb_wyl0k,2921
+countingworkspace/utils.py,sha256=3P78uzJypC1AuMIvDkBQgq9MmS0hTzLoFvtYuArNOR4,7247
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/bug.py,sha256=H4moT6qpsdXFlysdI9nTNk-gHuyMtye24wv-aTwCYYo,3016
+tests/test_all.py,sha256=FNmFCc9jZ6l-rF_KQW7sVA60sr7bRbHBjU4kAy2rs3Y,27308
+countingworkspace-0.2.1.dist-info/METADATA,sha256=Dref_oIi_5DOy0BGMZ2FTJY2VFa713KoVx0qNjvSbCo,3351
+countingworkspace-0.2.1.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+countingworkspace-0.2.1.dist-info/top_level.txt,sha256=3AkLjn9DeghlAqwUJMOpoM57cGu1dVLv8JZPXaShT30,24
+countingworkspace-0.2.1.dist-info/RECORD,,
