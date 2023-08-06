@@ -1,0 +1,17 @@
+qprof_myqlm/NamedRoutine.py,sha256=J0E-k9RTloPedsekJQSFGHd2zC68qnioLKZXdGWl6DQ,2892
+qprof_myqlm/RoutineWrapper.py,sha256=NXwsjItEpZJhb78rzrVYzvxE4NkcGI7xsAEUlghUGXA,8154
+qprof_myqlm/__init__.py,sha256=UMZV0VY92_AtS5XmrneTWJ9Y4uM4StDpAj4iuIdiRpE,1908
+qprof_myqlm/_interfaces.py,sha256=rnK1FzN5ojlwSiJV4tR8TYPifoJrjZB_N0ItAsU1SfI,1799
+qprof_myqlm/name_routines.py,sha256=zhZXTKCmkkoVutT7Gtc0PTyE1bqezEw6d-nofIinvAc,2687
+qprof_myqlm/supports_routine_test.py,sha256=pQu5udnG0BQZ2aw2xXbVX3Zy7T6v_BZqsRpI-ZQ6emk,1844
+qprof_qat/NamedRoutine.py,sha256=J0E-k9RTloPedsekJQSFGHd2zC68qnioLKZXdGWl6DQ,2892
+qprof_qat/RoutineWrapper.py,sha256=_N5m_OZlT1hHJIgGTOznUAObP16hKdTZE8OZeLr_muE,5323
+qprof_qat/__init__.py,sha256=UMZV0VY92_AtS5XmrneTWJ9Y4uM4StDpAj4iuIdiRpE,1908
+qprof_qat/_interfaces.py,sha256=rnK1FzN5ojlwSiJV4tR8TYPifoJrjZB_N0ItAsU1SfI,1799
+qprof_qat/name_routines.py,sha256=zhZXTKCmkkoVutT7Gtc0PTyE1bqezEw6d-nofIinvAc,2687
+qprof_qat/supports_routine_test.py,sha256=pQu5udnG0BQZ2aw2xXbVX3Zy7T6v_BZqsRpI-ZQ6emk,1844
+qprof_myqlm-1.0.1.dist-info/LICENSE,sha256=rhNiLRP9Qy0uMe1MsgVmfZjiA7DLVLHyRL2Ng1TO_Ug,21393
+qprof_myqlm-1.0.1.dist-info/METADATA,sha256=YtvBGodPLuZXdwYdIVKEkg05gETt4lkyq9Rv7pE_cqM,2226
+qprof_myqlm-1.0.1.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+qprof_myqlm-1.0.1.dist-info/top_level.txt,sha256=OVoiBIAF0JCX5_ToE_IKZlJxLPqmQNNFlLbGGEqZ5vQ,12
+qprof_myqlm-1.0.1.dist-info/RECORD,,
