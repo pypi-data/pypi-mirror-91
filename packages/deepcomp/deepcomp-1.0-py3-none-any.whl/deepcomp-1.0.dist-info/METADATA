@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: deepcomp
+Version: 1.0
+Summary: DeepCoMP: Self-Learning Dynamic Multi-Cell Selection for Coordinated Multipoint (CoMP)
+Home-page: https://github.com/CN-UPB/DeepCoMP
+Author: Stefan Schneider
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.8.*
+Requires-Dist: ray[rllib] (==1.0)
+Requires-Dist: structlog (>=20.2.0)
+Requires-Dist: structlog-round (>=1.0)
+Requires-Dist: shapely (==1.7.0)
+Requires-Dist: matplotlib (==3.2.1)
+Requires-Dist: seaborn (==0.10.1)
+Requires-Dist: numpy (==1.19.1)
+Requires-Dist: gym (>=0.17.1)
+Requires-Dist: tensorflow (==2.2.0)
+Requires-Dist: gputil (==1.4.0)
+Requires-Dist: pandas (==1.0.5)
+Requires-Dist: tqdm (==4.47.0)
+Requires-Dist: joblib (==0.16.0)
+Requires-Dist: jupyter (>=1.0.0)
+
+UNKNOWN
+
+
