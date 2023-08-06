@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: osu-cleaner-cli
+Version: 0.0.2
+Summary: A simple program on python to remove unneeded files from osu! Songs directory
+Home-page: https://github.com/Layerex/osu-cleaner-cli
+Author: Layerex
+Author-email: layerex@dismail.de
+License: UNKNOWN
+Description: # osu-cleaner-cli
+        Script to remove unwanted files from osu! Songs directory. A rewrite of [that](https://github.com/henntix/osu-cleaner) tool, which is not cross-platform and does not work as intended.
+        ## Usage
+        ```
+        usage: osu-cleaner-cli [-h] [--delete-videos] [--delete-hitsounds] [--delete-backgrounds] [--delete-skin-elements] [--delete-storyboard-elements] [--delete-all] [osu_songs_directory]
+        
+        A simple program on python to remove unneeded files from osu! Songs directory
+        
+        positional arguments:
+          osu_songs_directory   path to your osu! Songs directory
+        
+        optional arguments:
+          -h, --help            show this help message and exit
+          --delete-videos
+          --delete-hitsounds
+          --delete-backgrounds
+          --delete-skin-elements
+          --delete-storyboard-elements
+          --delete-all
+        ```
+        If no arguments or only file path specified script will start in interactive mode.
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 6 - Mature
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Utilities
+Description-Content-Type: text/markdown

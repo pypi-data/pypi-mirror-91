@@ -1,0 +1,8 @@
+README.md
+osu_cleaner_cli.py
+setup.py
+osu_cleaner_cli.egg-info/PKG-INFO
+osu_cleaner_cli.egg-info/SOURCES.txt
+osu_cleaner_cli.egg-info/dependency_links.txt
+osu_cleaner_cli.egg-info/entry_points.txt
+osu_cleaner_cli.egg-info/top_level.txt
