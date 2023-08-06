@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: zonic
+Version: 0.1.7
+Summary: Extendable python port scanner
+Home-page: https://github.com/symonk/zonic
+Author: Simon Kerr
+Author-email: jackofspaces@gmail.com
+Maintainer: Simon Kerr
+Maintainer-email: jackofspaces@gmail.com
+License: MIT license
+Keywords: zonic,port-scanner,network
+Platform: unix
+Platform: linux
+Platform: osx
+Platform: cygwin
+Platform: win32
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python
+Requires-Python: >3.8
+Requires-Dist: colorama
+Requires-Dist: halo
+Provides-Extra: testing
+Requires-Dist: assertpy (==1.1) ; extra == 'testing'
+Requires-Dist: coverage (==5.3.1) ; extra == 'testing'
+Requires-Dist: pip (==20.3.3) ; extra == 'testing'
+Requires-Dist: pytest (==6.2.1) ; extra == 'testing'
+Requires-Dist: pytest-cov (==2.10.1) ; extra == 'testing'
+Requires-Dist: pytest-httpserver (==0.3.6) ; extra == 'testing'
+Requires-Dist: Sphinx (==3.4.3) ; extra == 'testing'
+Requires-Dist: sphinx-rtd-theme (==0.5.1) ; extra == 'testing'
+Requires-Dist: tox (==3.21.1) ; extra == 'testing'
+Requires-Dist: twine (==3.3.0) ; extra == 'testing'
+Requires-Dist: watchdog (==1.0.2) ; extra == 'testing'
+Requires-Dist: wheel (==0.36.2) ; extra == 'testing'
+Requires-Dist: pre-commit (==2.9.3) ; extra == 'testing'
+Requires-Dist: towncrier (==19.2.0) ; extra == 'testing'
+
+TODO
+
+
