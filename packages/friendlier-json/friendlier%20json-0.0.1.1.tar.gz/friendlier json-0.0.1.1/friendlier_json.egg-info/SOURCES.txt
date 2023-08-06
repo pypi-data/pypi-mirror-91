@@ -1,0 +1,8 @@
+README.md
+setup.py
+friendlier_json/__init__.py
+friendlier_json/transactions.py
+friendlier_json.egg-info/PKG-INFO
+friendlier_json.egg-info/SOURCES.txt
+friendlier_json.egg-info/dependency_links.txt
+friendlier_json.egg-info/top_level.txt
