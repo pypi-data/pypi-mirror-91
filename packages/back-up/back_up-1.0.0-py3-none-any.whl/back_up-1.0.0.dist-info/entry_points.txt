@@ -1,0 +1,3 @@
+[console_scripts]
+back-up = back_up:main
+
