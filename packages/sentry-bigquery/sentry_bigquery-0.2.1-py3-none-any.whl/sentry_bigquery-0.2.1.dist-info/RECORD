@@ -1,0 +1,9 @@
+sentry_bigquery/__init__.py,sha256=C6_bKVZqd3E8JYmGC1a2mAJI_0weof0EMKLzF_hASRs,59
+sentry_bigquery/client.py,sha256=6yfdUfEdWiUcmr9DDK2WqnnQQQHI9zyUzXEIR7UoyU4,2995
+sentry_bigquery/plugin.py,sha256=kNvt7xSpNW3VrZ8bAbeqE5YGDJLaKPeCsjH7DM73BQU,2839
+sentry_bigquery-0.2.1.dist-info/LICENSE,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+sentry_bigquery-0.2.1.dist-info/METADATA,sha256=ei4fAGkdExDVzhxn45EmF4Zk3OvyG5nTpNWbqQxCrkw,1146
+sentry_bigquery-0.2.1.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+sentry_bigquery-0.2.1.dist-info/entry_points.txt,sha256=A1CsvJ_qtGW3hMnvhqU2fS1DuHu7T0nWobRqZ-UB1m4,74
+sentry_bigquery-0.2.1.dist-info/top_level.txt,sha256=mczw5trfrL9l4zA1j0xPo6_CjrEs6gV59dbxT2M9E2o,16
+sentry_bigquery-0.2.1.dist-info/RECORD,,
