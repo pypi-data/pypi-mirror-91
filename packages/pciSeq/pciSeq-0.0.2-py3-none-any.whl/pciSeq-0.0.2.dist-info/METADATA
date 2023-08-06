@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: pciSeq
+Version: 0.0.2
+Summary: Probabilistic cell typing for spatial transcriptomics
+Home-page: https://github.com/acycliq/pciSeq
+Author: Dimitris Nicoloutsopoulos
+Author-email: dimitris.nicoloutsopoulos@gmail.com
+License: BSD
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: sklearn
+Requires-Dist: numpy-groupies
+Requires-Dist: xarray
+Requires-Dist: numexpr
+Requires-Dist: diplib
+Requires-Dist: scikit-image
+Requires-Dist: opencv-python
+Provides-Extra: interactive
+Requires-Dist: matplotlib (>=2.2.0) ; extra == 'interactive'
+Requires-Dist: jupyter ; extra == 'interactive'
+
+# pciSeq
+
+You can run a pciSeq demo in google colab: [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/acycliq/pciSeq/blob/dev/notebooks/run_pciSeq.ipynb)
+
