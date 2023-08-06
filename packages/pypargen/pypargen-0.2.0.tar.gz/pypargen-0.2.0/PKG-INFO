@@ -1,0 +1,7 @@
+Metadata-Version: 1.1
+Name: pypargen
+Version: 0.2.0
+Summary: A parser generator built with Python
+Home-page: https://github.com/ilango100/pypargen
+Author: Ilango Rajagopal
+Author-email: ilangokul@gmail.com
