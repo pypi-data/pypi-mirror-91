@@ -1,0 +1,11 @@
+README.md
+setup.py
+configly/__init__.py
+configly/client.py
+configly/errors.py
+configly/version.py
+configly_python.egg-info/PKG-INFO
+configly_python.egg-info/SOURCES.txt
+configly_python.egg-info/dependency_links.txt
+configly_python.egg-info/requires.txt
+configly_python.egg-info/top_level.txt
