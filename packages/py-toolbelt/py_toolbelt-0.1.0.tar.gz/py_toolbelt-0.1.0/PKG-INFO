@@ -1,0 +1,14 @@
+Metadata-Version: 1.1
+Name: py_toolbelt
+Version: 0.1.0
+Summary: PyToolBelt - Extend your built-in methods.
+Home-page: UNKNOWN
+Author: Soami Charan
+Author-email: charansoami@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Keywords: python,PyToolBelt
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Education
+Classifier: Programming Language :: Python :: 3
