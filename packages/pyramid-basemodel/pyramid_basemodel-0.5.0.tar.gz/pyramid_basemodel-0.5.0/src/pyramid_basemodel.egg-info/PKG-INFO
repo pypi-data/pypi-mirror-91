@@ -1,0 +1,202 @@
+Metadata-Version: 2.1
+Name: pyramid-basemodel
+Version: 0.5.0
+Summary: pyramid_basemodel - a thin, low level SQLAlchemy bindings to pyramid
+Home-page: http://github.com/fizyk/pyramid_basemodel
+Author: James Arthur
+Maintainer: Grzegorz Śliwiński
+Maintainer-email: fizyk+pypi@fizyk.net.pl
+License: UNLICENSE
+Description: # pyramid_basemodel
+        
+        **pyramid_basemodel** is a thin, low level package that provides an SQLAlchemy
+        declarative `Base` and a thread local scoped `Session` that can be used by
+        different packages whilst only needing to be bound to a db engine once.
+        
+        # Usage
+        
+        You can use these as base classes for declarative model definitions, e.g.::
+        
+            from pyramid_basemodel import Base, BaseMixin, Session, save
+            
+            class MyModel(Base, BaseMixin):
+                """Example model class."""
+                
+                @classmethod
+                def do_foo(cls):
+                    instance = Session.query(cls).first()
+                    save(instance)
+                
+            
+        You can then bind these to the `sqlalchemy.url` in your paster `.ini` config by
+        importing your model and this package, e.g.:
+        
+            # for example in yourapp.__init__.py
+            import mymodel
+            
+            def main(global_config, **settings):
+                config = Configurator(settings=settings)
+                config.include('pyramid_basemodel')
+                config.include('pyramid_tm')
+                return config.make_wsgi_app()
+        
+        Or if this is all too much voodoo, you can just use the `bind_engine` function::
+        
+            from pyramid_basemodel import bind_engine
+            from mypackage import mymodel
+            
+            # assuming `engine` is a bound SQLAlchemy engine.
+            bind_engine(engine)
+        
+        Note that the `Session` is designed to be used in tandem with [pyramid_tm][].
+        If you don't include `pyramid_tm`, you'll need to take care of committing
+        transactions yourself.
+        
+        # Tests
+        
+        To run the tests use:
+        
+            py.test -v --cov pyramid_basemodel tests/
+        
+        [pyramid_basemodel]: http://github.com/thruflo/pyramid_basemodel
+        [pyramid_simpleauth]: http://github.com/thruflo/pyramid_basemodel
+        [pyramid_tm]: http://pyramid_tm.readthedocs.org
+        
+        # CHANGES
+        
+        ## 0.5.0
+        
+        * [simplify] Removed `inspect` and `to_slug` from `BaseSlugNameMixin.set_slug` method. These parameters seemd like a way 
+          to override some core functionality, which seems like a rare enough case to not maintain it, especially without tests.
+        * [simplify] Removed `named_tempfile_cls` from `Blob.get_as_named_tempfile` as it wasn't used.
+        * [simplify] Simplified the `Blob.update_from_url`. Now the method accepts only url parameter and does exactly one thing.
+        * [code] Use default arguments instead of compose sections.
+        
+        ## 0.4.0
+        
+        * [enhancement] Switch slugify to python-slugify as the latter is python3 compatible
+        * [enhancement] As far as existing tests are concerned, now there's both full compatibility and feature parity between python 2 and python 3
+        * [CI] use CI
+        
+        ## 0.3.7
+        
+        Fix support for zope.sqlalchemy >= 1.2
+        
+        ## 0.3.4
+        
+        Remove stray print statements.
+        
+        ## 0.3.3
+        
+        Bump to remove `src/*.egg-info` directory from PyPI distribution.
+        
+        ## 0.3.2
+        
+        Make engine kwargs configurable.
+        
+        ## 0.3.1
+        
+        Introduce the `basemodel.should_bind_engine` config flag, which can be used,
+        e.g.: in ftests, to disable the automatic engine setup, even when application
+        code `config.include('pyramid_basemodel')`s.
+        
+        Defaults to `True`!
+        
+        ## 0.3
+        
+        Default `basemodel.should_create_all` to `False`. This will break apps that rely on tables being created by default. However, it's much saner to only
+        invoke both `metadata.create_all(engine)` and `metadata.drop_all(engine)` when
+        explicitly told to, particularly as most applications will use migrations
+        to manage the database schema.
+        
+        ## 0.2.4 -> 0.2.6
+        
+        Faff about horribly with the slug generation code.
+        
+        ## 0.2.3
+        
+        Fix Python3 `KeyError` syntax bug.
+        
+        ## 0.2.2
+        
+        Support dotted path `sqlalchemy.pool_class` configuration.
+        
+        ## 0.2.1
+        
+        Provide `util.get_object_id` function and stamp
+        `sqlalchemy.ext.declarative.declarative_base()` subclasses with the
+        `interfaces.IDeclarativeBase` interface.
+        
+        ## 0.2
+        
+        Fix Python3 support (requires 3.3 for the unicode literal character).
+        
+        ## 0.1.8
+        
+        Allow concrete subclasses of ``BaseModelContainer`` to be provided in the
+        ``tree.BaseContentRoot.mapping`` (as well as interfaces).
+        
+        ## 0.1.7
+        
+        Added a `pyramid_basemodel.blob.Blob` model class to store large binary files.
+        
+        Fixed up `.slug` module doctests. Fix ``install_requires` list in `setup.py`.
+        
+        ## 0.1.6
+        
+        Base the ``BaseMixin.class_name`` on a singularised version of the plural
+        class name.  This may seem a bit arse about face, but allows us to use the
+        tablename to split the word, e.g.:
+        
+            >>> class OperatingScale(Base, BaseMixin):
+            ...     __tablename__ 'operating_scales'
+            ... 
+        
+            >>> OperatingScale.class_name
+            'Operating Scale'
+        
+        Just ignore all this if you don't plan on using the `class_name`, `class_slug` and
+        `plural_class_name` properties.
+        
+        ## 0.1.5
+        
+        Provide `BaseMixin.class_slug` and base it and the `BaseMixin.plural_class_name`
+        on the `cls.__tablename__` instead of the `cls.__name__`.
+        
+        All still manually overrideable by providing the corresponding property with a
+        single underscore, e.g.: `cls._plural_class_name`.
+        
+        ## 0.1.4
+        
+        Provide `BaseMixin.class_name` and `BaseMixin.plural_class_name`.
+        
+        ## 0.1.3
+        
+        Bugfix to parse config options properly.
+        
+        ## 0.1.2
+        
+        Added `basemodel.should_create_all` configuration option.
+        
+        
+Keywords: pyramid,sqlalchemy
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: The Unlicense (Unlicense)
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Framework :: Pyramid
+Classifier: Topic :: Database :: Front-Ends
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Internet :: WWW/HTTP :: WSGI
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Provides-Extra: tests
