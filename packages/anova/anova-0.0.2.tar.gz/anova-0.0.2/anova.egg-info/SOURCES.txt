@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+anova/__init__.py
+anova.egg-info/PKG-INFO
+anova.egg-info/SOURCES.txt
+anova.egg-info/dependency_links.txt
+anova.egg-info/not-zip-safe
+anova.egg-info/requires.txt
+anova.egg-info/top_level.txt
