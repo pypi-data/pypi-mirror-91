@@ -1,0 +1,23 @@
+Metadata-Version: 1.2
+Name: dans-netbox-plugins
+Version: 0.3
+Summary: creating example and Pilot"s first plugin
+Home-page: https://github.com/dmurphy112/public
+Author: daniel murphy
+Author-email: dev@danielmurphy.email
+License: Apache 2.0
+Description: Here I am creating two plugins:
+        1) Animal Sounds.
+        2) Patch Tracker.
+        
+        Animal Sounds is the NetBox plugin from the documentation.
+        
+        Patch Tracker is Dan's NetBox plugin for tracking pre-patches inside Pilot's instance of NetBox.
+        
+        Documentation of this process are [[https://roamresearch.com/#/app/dans_life/page/0F1dqbyqT][being written here, in Roam.]]
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
