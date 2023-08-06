@@ -1,0 +1,73 @@
+Metadata-Version: 2.1
+Name: postcell
+Version: 0.1.2
+Summary: Jupyter magic to post content of cells to postcell.io
+Home-page: https://postcell.io
+Author: Shahbaz Chaudhary
+Author-email: shahbazc@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+Requires-Dist: ipython
+Requires-Dist: jupyter
+
+# Real-time Jupyter Code Feedback (beta software)
+This project provides a magic command to users of Jupyter Notebook. 
+
+The contents of a cell are sent to a remote server at the time of cell execution. This allows teachers in a class to mark certain cells with `%postcell` magic command and view how their students are performing those exercises in real-time. Instructors can sign up for this service at https://postcell.io
+
+## Pre-requisites
+This utility is designed to work within Jupyter notebooks. 
+
+## Installation
+`pip install postcell`
+
+## Usage
+
+Since contents of a cell are sent to a remote server, do the following to set up the server:
+1. Go to https://postcell.io to create an account
+2. Create a new class and click `Sample config` to get configuration information
+3. Create a file called `postcell.conf` in your project directory and paste the contents of the sample config dialog box. Here is an example:
+
+```json
+{
+"url" : "https://postcell.io/post_cell",
+"student_id" : "TEST_USER",
+"instructor_id": "INSTRUCTOR_ID_GENERATED_BY_THE_PROCESS_ABOVE",
+"class_id": "PythonForPoets",
+"should_send_to_server" : true
+}
+```
+
+## Load and register the newly created class
+
+```
+%reload_ext postcell
+%postcell register
+```
+
+The `register` command will automatically look for `postcell.conf` in the directory containing your notebook, or any of the parent directories.
+
+You can also give an explicit config file name as:
+
+`%postcell register -config C:\Users\...\custom_postcell.conf`
+
+If you prefer not to use a physical config file, you can pass in the following properties:
+
+`%postcell register -student_id STUDENT_USER_NAME -instructor_id INSTRUCTOR_ID -class_id python_intro`
+
+## Submit code
+Create a cell and give it an exercise name:
+
+```
+%%postcell TEST_EXERCISE1
+
+1+1
+```
+
+Executing this cell will send the code to a server, where an instructor will be able to view submission in real-time. An instructor can monitor their students' progress, provide real-time feedback and even share the submission screen to show sudents how their classmates solve the same exercise.
+
