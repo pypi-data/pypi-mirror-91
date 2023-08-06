@@ -1,0 +1,7 @@
+README.md
+setup.cfg
+setup.py
+pypipackageexample.egg-info/PKG-INFO
+pypipackageexample.egg-info/SOURCES.txt
+pypipackageexample.egg-info/dependency_links.txt
+pypipackageexample.egg-info/top_level.txt
