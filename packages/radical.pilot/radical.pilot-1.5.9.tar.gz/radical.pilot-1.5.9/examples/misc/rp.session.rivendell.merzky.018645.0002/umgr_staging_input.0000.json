@@ -1,0 +1,21 @@
+{
+    "base": "/mnt/home/merzky/radical/radical.pilot.test/examples/misc",
+    "bulk_collection_size": 100,
+    "bulk_collection_time": 1.0,
+    "cmgr": "cmgr.0002",
+    "count": 1,
+    "db_poll_sleeptime": 1.0,
+    "dburl": "mongodb://localhost/am",
+    "heartbeat": {
+        "addr_pub": "tcp://10.0.0.3:44463",
+        "addr_sub": "tcp://10.0.0.3:42205",
+        "interval": 1.0,
+        "timeout": 60.0
+    },
+    "kind": "umgr_staging_input",
+    "owner": "umgr.0000",
+    "path": "/mnt/home/merzky/radical/radical.pilot.test/examples/misc/rp.session.rivendell.merzky.018645.0002",
+    "scheduler": "round_robin",
+    "sid": "rp.session.rivendell.merzky.018645.0002",
+    "uid": "umgr_staging_input.0000"
+}

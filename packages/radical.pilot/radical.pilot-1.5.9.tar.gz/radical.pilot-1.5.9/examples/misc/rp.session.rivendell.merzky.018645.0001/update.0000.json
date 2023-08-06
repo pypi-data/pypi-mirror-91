@@ -1,0 +1,22 @@
+{
+    "base": "/mnt/home/merzky/radical/radical.pilot.test/examples/misc",
+    "bulk_size": 1024,
+    "bulk_time": 1.0,
+    "client_sandbox": "/mnt/home/merzky/radical/radical.pilot.test/examples/misc",
+    "cmgr": "cmgr.0000",
+    "count": 1,
+    "dburl": "mongodb://localhost/am",
+    "default_dburl": "mongodb://rct:rct_test@two.radical-project.org/rct_test",
+    "heartbeat": {
+        "addr_pub": "tcp://10.0.0.3:36203",
+        "addr_sub": "tcp://10.0.0.3:46449",
+        "interval": 1.0,
+        "timeout": 60.0
+    },
+    "kind": "update",
+    "path": "/mnt/home/merzky/radical/radical.pilot.test/examples/misc/rp.session.rivendell.merzky.018645.0001",
+    "record": null,
+    "session_base": "/mnt/home/merzky/radical/radical.pilot.test/examples/misc",
+    "sid": "rp.session.rivendell.merzky.018645.0001",
+    "uid": "update.0000"
+}

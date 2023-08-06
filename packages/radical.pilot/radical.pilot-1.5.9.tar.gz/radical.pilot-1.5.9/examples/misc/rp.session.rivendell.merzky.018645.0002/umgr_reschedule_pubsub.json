@@ -1,0 +1,17 @@
+{
+    "bulk_size": 0,
+    "channel": "umgr_reschedule_pubsub",
+    "cmgr": "cmgr.0002",
+    "heartbeat": {
+        "addr_pub": "tcp://10.0.0.3:44463",
+        "addr_sub": "tcp://10.0.0.3:42205",
+        "interval": 1.0,
+        "timeout": 60.0
+    },
+    "kind": "pubsub",
+    "log_level": "error",
+    "path": "/mnt/home/merzky/radical/radical.pilot.test/examples/misc/rp.session.rivendell.merzky.018645.0002",
+    "sid": "rp.session.rivendell.merzky.018645.0002",
+    "stall_hwm": 0,
+    "uid": "umgr_reschedule_pubsub"
+}
