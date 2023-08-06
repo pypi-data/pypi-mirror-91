@@ -1,0 +1,11 @@
+geode_conversion/Geode-Conversion_mesh.dll,sha256=n16YSUpzJX0GI-hy-gBRWxTVQmEA2gO0rHff2UvQv30,83456
+geode_conversion/Geode-Conversion_model.dll,sha256=dUDK_xL9r-mk0AiqoS0Hk14n6ORu39Ah5sq_7qie7LU,269824
+geode_conversion/__init__.py,sha256=ehIpCpu7l6hcT_hwcPgX_ETombzhKZNCUd5enLQDONk,118
+geode_conversion/geode_conversion_py_mesh.cp36-win_amd64.pyd,sha256=0P1tm0c2yqkgGbPA8mkOf3u2eLEx1YjHHeVLRFVUjuc,118784
+geode_conversion/geode_conversion_py_model.cp36-win_amd64.pyd,sha256=AmrnQ8h5Mq3TZilKHCdLp6EbjG9DdZbKtm8zvd1mdpE,132096
+geode_conversion/mesh.py,sha256=uo2ZG7k2ZTXBqvPJ9Oe8VzQxodqJi1X94xxsKDLYA-o,167
+geode_conversion/model.py,sha256=3A8fFexhtuIPOUVCU4AoqL-g-9wnHdYrqF4RRF4dRMU,203
+Geode_Conversion-2.10.1.dist-info/METADATA,sha256=vKnX7gaic1wA5hr6i1UTCHuGRCrA7sWfBeSn0Lfw1D0,438
+Geode_Conversion-2.10.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+Geode_Conversion-2.10.1.dist-info/top_level.txt,sha256=PnM_M6Sy8psC1M_rMpCs6FAGjv7uyDWsRvR46jFUpXU,17
+Geode_Conversion-2.10.1.dist-info/RECORD,,
