@@ -1,0 +1,10 @@
+setup.py
+spark/__init__.py
+spark/sparkmain.py
+sparkNGS.egg-info/PKG-INFO
+sparkNGS.egg-info/SOURCES.txt
+sparkNGS.egg-info/dependency_links.txt
+sparkNGS.egg-info/entry_points.txt
+sparkNGS.egg-info/not-zip-safe
+sparkNGS.egg-info/requires.txt
+sparkNGS.egg-info/top_level.txt
