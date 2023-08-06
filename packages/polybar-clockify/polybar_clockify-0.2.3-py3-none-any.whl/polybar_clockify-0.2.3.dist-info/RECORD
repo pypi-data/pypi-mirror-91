@@ -1,0 +1,11 @@
+LICENSE,sha256=yL2bqZQ_UIALU_QqPZ8ssvUiDYeoN2SOP3DoXGXQ_0g,1063
+polybar_clockify/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+polybar_clockify/api.py,sha256=xN8jggf4y9lhOpRpZTeG7gulccOBLKMHZgPmrR9l0AM,2168
+polybar_clockify/app.py,sha256=Gyvt0eeCAGCZ6yKphX0dBsKgnfSJZNrn0-c8sxKIHms,9071
+polybar_clockify/settings.py,sha256=wMnoHmIRS5OadRE_S3fUXU3M10u6-9tS115xABkqAmI,397
+polybar_clockify/utils.py,sha256=3P0uB1wnFSBDQXWP8Xwe4S98TBpmOuOTur0NSmjiLsI,380
+polybar_clockify-0.2.3.dist-info/entry_points.txt,sha256=2Xrq7-SVelZNklqPg_R0M8zp-WO_NDzHO0qhD18s1ug,61
+polybar_clockify-0.2.3.dist-info/LICENSE,sha256=yL2bqZQ_UIALU_QqPZ8ssvUiDYeoN2SOP3DoXGXQ_0g,1063
+polybar_clockify-0.2.3.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+polybar_clockify-0.2.3.dist-info/METADATA,sha256=Ksk91lTT4gsJG8mIA6CXET4T_2_yoU3WwLGTg10wnLw,2516
+polybar_clockify-0.2.3.dist-info/RECORD,,
