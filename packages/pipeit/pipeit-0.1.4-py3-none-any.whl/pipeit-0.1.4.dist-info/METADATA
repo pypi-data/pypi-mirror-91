@@ -1,0 +1,70 @@
+Metadata-Version: 2.1
+Name: pipeit
+Version: 0.1.4
+Summary: Syntax suger for python's functional programming as Unix pipes. - GoodManWEN/pipeit
+Home-page: https://github.com/GoodManWEN/pipeit
+Author: WEN
+License: UNKNOWN
+Keywords: pipeit
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: Microsoft :: Windows
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
+
+# pipeit
+[![fury](https://badge.fury.io/py/pipeit.svg)](https://badge.fury.io/py/pipeit)
+[![licence](https://img.shields.io/github/license/GoodManWEN/pipeit)](https://github.com/GoodManWEN/pipeit/blob/master/LICENSE)
+[![pyversions](https://img.shields.io/pypi/pyversions/pipeit.svg)](https://pypi.org/project/pipeit/)
+[![Publish](https://github.com/GoodManWEN/pipeit/workflows/Publish/badge.svg)](https://github.com/GoodManWEN/pipeit/actions?query=workflow:Publish)
+[![Build](https://github.com/GoodManWEN/pipeit/workflows/Build/badge.svg)](https://github.com/GoodManWEN/pipeit/actions?query=workflow:Build)
+
+This is a super simple wrapper , let's use python functional programming like Unix pipe!
+
+Inspired by [abersheeran/only-pipe](https://github.com/abersheeran/only-pipe) , [czheo/syntax_sugar_python](https://github.com/czheo/syntax_sugar_python) , [pipetools](https://pypi.org/project/pipetools/)
+
+## Install
+
+    pip install pipeit
+
+## Usage
+- Statements start with `PIPE` and end with `END`.
+- There're only two objects(`PIPE` & `END`) and three types(`Filter` ,`Map` & `Reduce`) in namespace, so feel free to use `from pipeit import *`.
+- Convert filter into tuple , e.g. `map(lambda x:x + 1) => (map , lambda x:x + 1)`
+
+## Example
+
+Some description.
+```Python
+>>> from pipit import PIPE , END , Map , Filter , Reduce
+
+>>> data = PIPE | range(10) | (map , lambda x:x + 1) | (map , str) | list | END
+>>> data
+['1', '2', '3', '4', '5', '6', '7', '8', '9', '10']
+
+# (map , lambda x:x + 1) equals to Map(lambda x:x + 1)
+>>> func = lambda x: PIPE | range(x) | Map(lambda x:x + 1) | Map(str) | list | END
+>>> func(10)
+['1', '2', '3', '4', '5', '6', '7', '8', '9', '10']
+
+# Or you may want more easy use.
+>>> range(10) | Filter(lambda x:x<5) | list
+[0, 1, 2, 3, 4]
+
+>>> for _ in range(3) | Map(str):
+        print(repr(_))
+
+
+'0'
+'1'
+'2'
+```
+
+
