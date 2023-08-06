@@ -1,0 +1,16 @@
+jupyterlab_sublime/__init__.py,sha256=hW84pHvkfgQa6FPtTk7nGZVcrfFA6APy0f8nYOHw2nE,326
+jupyterlab_sublime/_version.py,sha256=yt4Vh3ZAy1CM6ZooFLHG3S1A-6HRtzl9G4fzpib_lRo,459
+jupyterlab_sublime/labextension/package.json,sha256=Lqhh3veeTvvwgoCsrMjrIQ6Yvk1ee1sHLH1pSO6QgRo,2539
+jupyterlab_sublime/labextension/static/743.317da3d5d9ac3c9e41af.js,sha256=UuBqOJb1DfuI-FXGhS5O46xs03ugDT8QcDK636-J654,7477
+jupyterlab_sublime/labextension/static/remoteEntry.39834bb24d7facc6f2b3.js,sha256=Bk7eolfqa1FLq_eaM8vynHjt9ZvsLLnXljc3RiwyHwo,6212
+jupyterlab_sublime/labextension/static/style.js,sha256=-CQt0ZTPaCTvrRiLcznxflAbfvIKlOVzjOos-muaXQ8,118
+jupyterlab_sublime-0.4.0.data/data/share/jupyter/labextensions/@ryantam626/jupyterlab_sublime/install.json,sha256=gY-Dp1SHoF6rAi-zkghPppiw2qt01Gi4NC9kriXTZkY,197
+jupyterlab_sublime-0.4.0.data/data/share/jupyter/labextensions/@ryantam626/jupyterlab_sublime/package.json,sha256=Lqhh3veeTvvwgoCsrMjrIQ6Yvk1ee1sHLH1pSO6QgRo,2539
+jupyterlab_sublime-0.4.0.data/data/share/jupyter/labextensions/@ryantam626/jupyterlab_sublime/static/743.317da3d5d9ac3c9e41af.js,sha256=UuBqOJb1DfuI-FXGhS5O46xs03ugDT8QcDK636-J654,7477
+jupyterlab_sublime-0.4.0.data/data/share/jupyter/labextensions/@ryantam626/jupyterlab_sublime/static/remoteEntry.39834bb24d7facc6f2b3.js,sha256=Bk7eolfqa1FLq_eaM8vynHjt9ZvsLLnXljc3RiwyHwo,6212
+jupyterlab_sublime-0.4.0.data/data/share/jupyter/labextensions/@ryantam626/jupyterlab_sublime/static/style.js,sha256=-CQt0ZTPaCTvrRiLcznxflAbfvIKlOVzjOos-muaXQ8,118
+jupyterlab_sublime-0.4.0.dist-info/LICENSE,sha256=sdI1TUFnxSplitmqCgBvXY2T9PaB_vaSmcKOVx5Z9TY,1052
+jupyterlab_sublime-0.4.0.dist-info/METADATA,sha256=FZ1pZLT4vxWh9OYX_gP1UB9qstiEEh_khPpKekZHxho,2324
+jupyterlab_sublime-0.4.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+jupyterlab_sublime-0.4.0.dist-info/top_level.txt,sha256=_dm_Ux5TN2v0pQiUp-xJoJBvF1gbUOLtK_5AV47yMYc,19
+jupyterlab_sublime-0.4.0.dist-info/RECORD,,
