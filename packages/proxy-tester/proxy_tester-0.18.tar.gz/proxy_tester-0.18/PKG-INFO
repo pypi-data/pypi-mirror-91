@@ -1,0 +1,28 @@
+Metadata-Version: 1.2
+Name: proxy_tester
+Version: 0.18
+Summary: proxy_tester like proxychains
+Home-page: https://bitbucket.org/licface/proxy_tester
+Author: Hadi Cahyadi LD
+Author-email: cumulus13@gmail.com
+Maintainer: cumulus13 Team
+Maintainer-email: cumulus13@gmail.com
+License: BSD
+Project-URL: Documentation, https://bitbucket.org/licface/proxy_tester
+Project-URL: Code, https://bitbucket.org/licface/proxy_tester
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=2.7
