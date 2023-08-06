@@ -1,0 +1,12 @@
+README.md
+setup.py
+syncfin/__init__.py
+syncfin/config.py
+syncfin/intrinsic_value.py
+syncfin/scrapper.py
+syncfin/syncfin.py
+syncfin/wf_client.py
+syncfin.egg-info/PKG-INFO
+syncfin.egg-info/SOURCES.txt
+syncfin.egg-info/dependency_links.txt
+syncfin.egg-info/top_level.txt

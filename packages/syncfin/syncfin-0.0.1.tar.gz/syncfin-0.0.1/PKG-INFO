@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: syncfin
+Version: 0.0.1
+Summary: Synchronized Finance.
+Home-page: https://github.com/gitvipin/syncfin
+Author: Vipin Sharma
+Author-email: sh.vipin@gmail.com
+License: UNKNOWN
+Description: # syncfin
+        Synchronized Finance
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
