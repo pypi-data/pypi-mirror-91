@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: pytect
+Version: 0.0.1
+Summary: A package for microwave measurement with superconducting circuits
+Home-page: https://github.com/SandboChang/pytect
+Author: Sandbo Chang
+Author-email: sandbochang@outlook.com
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: numpy
+Requires-Dist: pyvisa
+
+UNKNOWN
+
+
