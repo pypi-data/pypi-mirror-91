@@ -1,0 +1,58 @@
+import setuptools
+
+with open("heqms_pkg/README.md", "r") as fh:
+    long_description = fh.read()
+
+setuptools.setup(
+    name="heqmsPkg",
+    version="0.0.15",
+    install_requires=[
+        "bleach==3.2.1",
+        "certifi==2020.12.5",
+        "cffi==1.14.4",
+        "chardet==4.0.0",
+        "click==7.1.2",
+        "colorama==0.4.4",
+        "cryptography==3.3.1",
+        "Cython==0.29.14",
+        "docutils==0.16",
+        "gensim==3.8.3",
+        "idna==2.10",
+        "joblib==1.0.0",
+        "keyring==21.8.0",
+        "mysqlclient==2.0.3",
+        "nltk==3.5",
+        "numpy==1.19.2",
+        "packaging==20.8",
+        "pandas==1.2.0",
+        "pkginfo==1.6.1",
+        "pycparser==2.20",
+        "Pygments==2.7.3",
+        "PyMySQL==1.0.1",
+        "pyparsing==2.4.7",
+        "pytz==2020.5",
+        "regex==2020.11.13",
+        "requests==2.25.1",
+        "rfc3986==1.4.0",
+        "scipy==1.6.0",
+        "six==1.15.0",
+        "SQLAlchemy==1.3.21",
+        "tqdm==4.55.1",
+        "urllib3==1.26.2",
+        "webencodings==0.5.1",
+        "wincertstore==0.2"
+    ],
+    author="WAF",
+    author_email="iyyeo@repia.com",
+    description="test package",
+    long_description=long_description,
+    long_description_content_type="text/markdown",
+    url="https://github.com/yiy829/Project1",
+    packages=setuptools.find_packages(),
+    classifiers=[
+        "Programming Language :: Python :: 3",
+        "License :: OSI Approved :: MIT License",
+        "Operating System :: OS Independent",
+    ],
+    python_requires='>=3.8',
+)

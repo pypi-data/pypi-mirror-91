@@ -1,0 +1,3 @@
+include heqms_pkg\README.md
+
+include heqms_pkg\requirements.txt
