@@ -1,0 +1,10 @@
+{
+    "driver": {
+        "headless": false,
+        "browser": "chrome",
+        "type": "selenium"
+    },
+    "recording": {
+        "switch": true
+    }
+}
