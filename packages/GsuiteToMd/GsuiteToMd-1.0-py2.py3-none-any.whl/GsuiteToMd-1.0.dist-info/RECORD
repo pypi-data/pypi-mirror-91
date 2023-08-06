@@ -1,0 +1,11 @@
+gstomd/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gstomd/__main__.py,sha256=sA0r3OeqbPFsyEwZ-PWdCwE2OWVVHR9CKXu87KQxf5s,1748
+gstomd/corpus.py,sha256=LcnmHE3Ce_Yj1UsRWCk5oJ-ogP2j-4m16GHNLzNyT-U,10530
+gstomd/settings.py,sha256=QBrn4b9CS4nH7WgbAWI3VW1R-DmyCxwcifVRD5OLumg,1643
+gstomd/test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gstomd/test/test_corpus.py,sha256=7EjSnE3JHW4EC6Si9KAQUKjLjigxB6lz-uvwg3Z-hQ0,822
+GsuiteToMd-1.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+GsuiteToMd-1.0.dist-info/METADATA,sha256=836EhwqJFa8r-B_1jnHKcVnEfuYMfzzUNqymZHhz5pQ,851
+GsuiteToMd-1.0.dist-info/WHEEL,sha256=Z-nyYpwrcSqxfdux5Mbn_DQ525iP7J2DG3JgGvOYyTQ,110
+GsuiteToMd-1.0.dist-info/top_level.txt,sha256=JlBAkKeoYurvdA2ZgWL1qrrz1fJ-7fzxPhaFow61Ayo,7
+GsuiteToMd-1.0.dist-info/RECORD,,
