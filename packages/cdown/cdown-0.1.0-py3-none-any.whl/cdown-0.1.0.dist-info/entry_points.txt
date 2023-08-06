@@ -1,0 +1,3 @@
+[console_scripts]
+cdown=cdown.cli:code_owners_cli
+
