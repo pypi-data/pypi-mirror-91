@@ -1,0 +1,9 @@
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_parsing.py,sha256=12Gi-131fd1COaGFTIQYOxmm4RjAEWeBIkGAtVB_XGA,988
+typarse/__init__.py,sha256=7tlBuByuC8RtivxeVu8XblyQ_OW63eWDO8rDMk3FxHY,39
+typarse/parsing.py,sha256=yHarNugDZDfRpnpE8ofzOKzw0gTpv5pCrMwT4ODpH6A,1831
+typarse-1.0.dist-info/LICENSE.txt,sha256=ixuiBLtpoK3iv89l7ylKkg9rs2GzF9ukPH7ynZYzK5s,35148
+typarse-1.0.dist-info/METADATA,sha256=e6bmD7Bs_U3q1-_eu0xqLO1YIiMbOsfC06Vs9uTNgic,1226
+typarse-1.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+typarse-1.0.dist-info/top_level.txt,sha256=nlNUm0tENpw4uvs848vkK2t0qvG6YNMbXtVPASwLISo,14
+typarse-1.0.dist-info/RECORD,,
