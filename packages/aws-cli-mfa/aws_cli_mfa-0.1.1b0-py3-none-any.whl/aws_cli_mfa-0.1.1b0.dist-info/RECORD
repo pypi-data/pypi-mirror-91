@@ -1,0 +1,11 @@
+awsclimfa/__init__.py,sha256=UZXvQzupSFAhUerSQm3A77LE3kesshpdp1IxbswdV6g,52
+awsclimfa/main.py,sha256=xV63ZvGQ7Icw-vWQkFMfpH_OC1G3tjcVp3LttBxv5nw,2654
+awsclimfa/log/__init__.py,sha256=0QhvgFh3Bv6ligstAvEDtG-0IZm-9b0n22cuJ6ipU88,74
+awsclimfa/log/config.yaml,sha256=CG9rc0H6o60M8mD4wg6p6wPPGEqwzU0LwyhV00COC-U,584
+awsclimfa/log/logger.py,sha256=Tj6eP5xg8hXemzthYDiOHUfMjFyy48U92qgeJGKz83c,470
+aws_cli_mfa-0.1.1b0.dist-info/LICENSE,sha256=VfagrOxcbhjtOZdaIpBswvU9X2KaSPd1_mZAbWvm0Lg,1055
+aws_cli_mfa-0.1.1b0.dist-info/METADATA,sha256=I9ku9p9ElZtmgha6S34hNAuApHsF7TvYv650cl45ix8,1796
+aws_cli_mfa-0.1.1b0.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+aws_cli_mfa-0.1.1b0.dist-info/entry_points.txt,sha256=TUw4Cm2NTpCoBZr3F7EyO77g5A9869RHaM6_KYiLCSg,52
+aws_cli_mfa-0.1.1b0.dist-info/top_level.txt,sha256=QzEv6VlkbuIe9UjtIYSk3r439PCSXaXizKGN9Meq8R8,10
+aws_cli_mfa-0.1.1b0.dist-info/RECORD,,
