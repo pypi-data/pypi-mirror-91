@@ -1,0 +1,15 @@
+Doric/MultiBlock.py,sha256=gCs57WrMlAulrDiPSmWOQsuKP555guiFdoJ4ShhVEK8,1807
+Doric/MultiBlockReducers.py,sha256=2BB040Bgc0Ok5zBJ0bkJA4OsE18qF4BwVlvbr0s4BTM,2640
+Doric/ProgBlocks.py,sha256=QfqT17yTC5cjqBMfv6QIf4kiUtiTiSMI5ypgR4J9KRw,9204
+Doric/ProgNet.py,sha256=IvYfmAmoNtJU6nnXS7gRhvHT9Kz1RxrDTTdVQpywk-8,8873
+Doric/UtilityBlocks.py,sha256=J2bLGB-s7HFLAunBJek_7xOAq4e_Xrq8GCZ3CWzsByw,1995
+Doric/UtilityFunctions.py,sha256=PZQBMieL0RncV-LsW4hFwTg7W8ux8vOLPAxLEn-Hek8,1354
+Doric/__init__.py,sha256=DwJG7MOBvzWV4ZiC3XQ9mp9KUJ4Pfyi6G6-XAocCX10,1084
+Doric/extra_blocks/ConvBlocks.py,sha256=GFNbC0Tlrs8tHpksSjFtsPL8DTWk40CE73HRTGrL9ks,8738
+Doric/extra_blocks/__init__.py,sha256=boCgMN6EIdDstuQfBeOEwAxW5VzHc0j6SH3ClOHvX5k,322
+Doric/extra_blocks/deform_conv2d.py,sha256=RHGxzL4ASHf0QADTxyKrdORD1bZRhdOhGVttjz7oqEU,5781
+Doric-1.1.0.dist-info/LICENSE.txt,sha256=a27sibZSatrXCCZXm7UAlJZSNyrhERaejr0a_1nfOdA,1101
+Doric-1.1.0.dist-info/METADATA,sha256=G6SvfWIPFEKvSXOjTGWiE0p50of_olvpXSQVpMWLuic,1313
+Doric-1.1.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+Doric-1.1.0.dist-info/top_level.txt,sha256=T9RkyfSzK2mUHRLpuUYcjYOhEA40B-1x2eLtHJlcuDo,6
+Doric-1.1.0.dist-info/RECORD,,
