@@ -1,0 +1,7 @@
+README.md
+setup.py
+dyvideo.egg-info/PKG-INFO
+dyvideo.egg-info/SOURCES.txt
+dyvideo.egg-info/dependency_links.txt
+dyvideo.egg-info/requires.txt
+dyvideo.egg-info/top_level.txt
