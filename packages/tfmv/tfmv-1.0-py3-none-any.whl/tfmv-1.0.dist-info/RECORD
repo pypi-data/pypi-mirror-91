@@ -1,0 +1,14 @@
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_main.py,sha256=k75EvcL2nzYcjJJuizs1YdYw74eU1nTruJ2xMJe_pQM,3331
+tests/test_state.py,sha256=A5ivArKyf28ZB8NwSNjZFrDJYpmU3ENpHFOWHaSXEgI,5809
+tfmv/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tfmv/client.py,sha256=qtUg7RY2ZwinGU6i8H5isd8-tUk4N9NjBwlfB6P8xZc,1560
+tfmv/error.py,sha256=LgiQx3z7NV6sT7tmG3G3hSSEFVCEUKiQ5-SKnPrJak8,118
+tfmv/main.py,sha256=4OqREnmIbQmTaybXCUJjTv876wM-d20U8cdyQanBnIs,4059
+tfmv/state.py,sha256=0-HEPB2IZCFLSIbWjaGP8Qgotja1EO5fHFyR-nHHm8U,3002
+tfmv-1.0.dist-info/LICENCE,sha256=ACwmltkrXIz5VsEQcrqljq-fat6ZXAMepjXGoe40KtE,1069
+tfmv-1.0.dist-info/METADATA,sha256=W9XKPQkn1DnSwC6bJvPUmVPJPxTv3kzkerMOmcl2utQ,1586
+tfmv-1.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+tfmv-1.0.dist-info/entry_points.txt,sha256=8eYoYCMH_YJlUAKnHRIRQ4cYfO8jl__NtjwBC-G06ok,58
+tfmv-1.0.dist-info/top_level.txt,sha256=GGgaTBgVmkGU6cQQEryv8EhB_e_Sx3aGumkieVn7NPM,5
+tfmv-1.0.dist-info/RECORD,,
