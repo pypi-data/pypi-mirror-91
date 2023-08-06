@@ -1,0 +1,10 @@
+README.md
+setup.py
+XperiBot.egg-info/PKG-INFO
+XperiBot.egg-info/SOURCES.txt
+XperiBot.egg-info/dependency_links.txt
+XperiBot.egg-info/requires.txt
+XperiBot.egg-info/top_level.txt
+xperibot/__init__.py
+xperibot/utils.py
+xperibot/xperibot.py
