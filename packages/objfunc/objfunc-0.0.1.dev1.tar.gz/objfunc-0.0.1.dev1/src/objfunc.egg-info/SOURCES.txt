@@ -1,0 +1,11 @@
+README.md
+setup.cfg
+setup.py
+src/objfunc/__init__.py
+src/objfunc/cli.py
+src/objfunc.egg-info/PKG-INFO
+src/objfunc.egg-info/SOURCES.txt
+src/objfunc.egg-info/dependency_links.txt
+src/objfunc.egg-info/entry_points.txt
+src/objfunc.egg-info/requires.txt
+src/objfunc.egg-info/top_level.txt
