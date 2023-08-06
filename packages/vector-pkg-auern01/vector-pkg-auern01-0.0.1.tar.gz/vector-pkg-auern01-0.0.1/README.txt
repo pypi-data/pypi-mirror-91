@@ -1,0 +1,1 @@
+Es berechnet das Skalar- und Kreuzprodukt aus.
