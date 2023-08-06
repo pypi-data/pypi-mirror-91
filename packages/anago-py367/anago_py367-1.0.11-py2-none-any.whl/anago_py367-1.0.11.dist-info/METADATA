@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: anago-py367
+Version: 1.0.11
+Summary: Sequence labeling library using Keras. It is noted that this version has light modification by sonvx to run on Python3.7
+Home-page: https://github.com/sonvx/anago
+Author: Hironsan
+Author-email: hiroki.nakayama.py@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Dist: Keras (>=2.2.0)
+Requires-Dist: h5py (>=2.7.1)
+Requires-Dist: scikit-learn (>=0.19.1)
+Requires-Dist: numpy (>=1.14.3)
+Requires-Dist: tensorflow (>=1.8.0)
+Requires-Dist: requests (>=2.18.4)
+Requires-Dist: seqeval (>=0.0.3)
+
+anago python3.7 by Hironsan at https://github.com/Hironsan/anago
+
+

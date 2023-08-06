@@ -1,0 +1,14 @@
+anago/__init__.py,sha256=RP4yBvrPq1uTdfyEboKlxzdZWn-lmuqBUSfHWbUrWII,101
+anago/callbacks.py,sha256=nvmZjAEDcH7xMXYYSyQyIASV5jJ8idKiU79uiFA91Yw,1246
+anago/layers.py,sha256=M7JWix_1vkC-xxmueu1Phhy2I5Yka959QNcn9x4wrUY,25597
+anago/models.py,sha256=h-Wm0Ki_a95Y-D4Mg6e-Wt9uD6BLEh8VB5f1QNolLRA,8451
+anago/preprocessing.py,sha256=ktfswFf_l2ZCnihqAa0JBSPlci5gCvc6r5otECkDGbM,7930
+anago/tagger.py,sha256=qKFlVW6c4ijaqO_RXQumEvlzCn7KCAU8y8E-RXDAHyM,3735
+anago/trainer.py,sha256=uL4txxXMqWOQ017CwzTWTG9OLs3f8q0G8pO_jM4cQE4,2113
+anago/utils.py,sha256=QbpB8kvSc3YV5x1jSz0--63UX1slly0vAdG4VPTeLS4,7473
+anago/wrapper.py,sha256=tq-SNph5Jgbx40SHCQw-4L6SAxYH8eInha8gXnc4Rd0,6104
+anago_py367-1.0.11.dist-info/LICENSE,sha256=800gwaJFwZI5pZx7y8AkCelxu5xAEONfeLeOX5IKGHA,1071
+anago_py367-1.0.11.dist-info/METADATA,sha256=6k14--t2-FLKxnbHW4PCmDo_DhZNElxyEEO7bqY98bs,958
+anago_py367-1.0.11.dist-info/WHEEL,sha256=g3LQva5oS9Ma-DPFwX8R7Ke-NO25KWW489RoZdNxJXc,92
+anago_py367-1.0.11.dist-info/top_level.txt,sha256=OcIPgUfklpGW7YSwbtBylGqEM8eU18v1nVJJSvCRmp4,6
+anago_py367-1.0.11.dist-info/RECORD,,
