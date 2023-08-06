@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: nojazz
+Version: 0.0.1
+Summary: A collection of one-off functions I use for various tasks as a Data Scientist-- if it ain't broke, don't fix it.
+Home-page: https://github.com/NapsterInBlue/nojazz
+Author: NapsterInBlue
+Author-email: napsterinblue@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: pandas
+
+## nojazz
+
+A collection of one-off functions I use for various tasks as a Data Scientist-- if it ain't broke, don't fix it.
+
+Name inspired by my favorite Pearls Before Swine comic
+
+![img](docs/comic.jpg)
+
+Disclaimer: I also like jazz
+
