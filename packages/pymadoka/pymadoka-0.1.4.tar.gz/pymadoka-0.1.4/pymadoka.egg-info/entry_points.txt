@@ -1,0 +1,4 @@
+
+        [console_scripts]
+        pymadoka=pymadoka.cli:cli
+    
