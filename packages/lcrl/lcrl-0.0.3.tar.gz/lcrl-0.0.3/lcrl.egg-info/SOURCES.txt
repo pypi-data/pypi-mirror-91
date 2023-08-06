@@ -1,0 +1,13 @@
+README.md
+setup.py
+automata/__init__.py
+automata/ldba.py
+environments/__init__.py
+environments/slippery_grid.py
+lcrl.egg-info/PKG-INFO
+lcrl.egg-info/SOURCES.txt
+lcrl.egg-info/dependency_links.txt
+lcrl.egg-info/requires.txt
+lcrl.egg-info/top_level.txt
+scripts/__init__.py
+scripts/lcrl.py
