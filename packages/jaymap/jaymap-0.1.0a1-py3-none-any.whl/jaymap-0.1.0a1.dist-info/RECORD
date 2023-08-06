@@ -1,0 +1,16 @@
+jaymap/__init__.py,sha256=k_K81YKVjf97MZv0s1ylukc8otGG5Wsoqn2OGupBAZM,158
+jaymap/__version__.py,sha256=lmvUfjeqbjbsnD2PLlUjZbqEGZrq6yUD6t2LZsM61ak,24
+jaymap/api.py,sha256=wpxL01la2MSjSscwC2c7P6rojbs4OwSJuNj71aMkXkI,389
+jaymap/client.py,sha256=jb7UV5DTIPuUoONFce-aeBy3R9ArnxHckpOvbqSTybg,2908
+jaymap/tests/__init__.py,sha256=eemoAYzcGbmURypR5ciIjIbw2LlKcNHN2sH9Ot3-jDo,130
+jaymap/tests/__main__.py,sha256=Uxybu9aiggC7YJQaC2gJ1HSUipTEJoSt-YQj2uFzLaI,180
+jaymap/tests/smoke.py,sha256=Mf93LyJrQ89zjcQwre8tMRjWl4lIiZY15m0z2ciraxo,2495
+jaymap/tests/types/base.py,sha256=FX4xRr-lSlvChEnpkyxy9WPEXxVK484gKNJfdao10rs,9907
+jaymap/tests/types/core.py,sha256=tw7_To-6JBQg6fHT_mASNwse9P_7Vyh5_CqLEua9-Oo,6838
+jaymap/types/base.py,sha256=jvuo7W3OVC2GedGW1I__sQxf_k8odgvAedtDB7faj1g,6230
+jaymap/types/core.py,sha256=D0-WFfQ-zXNFXIvEdLnqBkQEIbzcSL--lK3OCIbUyGM,3839
+jaymap/types/mail.py,sha256=Z6XV2jd1VuTS7kPw_R_gLyClaWfj7OEfnKXUDQh9b9Q,2498
+jaymap-0.1.0a1.dist-info/LICENSE,sha256=myuwMfErbKRPnlZItrKqzujUQDoa-vTPyNtxDZFkmgE,1067
+jaymap-0.1.0a1.dist-info/WHEEL,sha256=CqyTrkghQBNsEzLD3HbCSEIJ_fY58-XpoU29dUzwHSk,81
+jaymap-0.1.0a1.dist-info/METADATA,sha256=9DGFIS-RlhaucrZN-NeoCnKhCGcF7sLu1cCXtxkx_Lc,1066
+jaymap-0.1.0a1.dist-info/RECORD,,
