@@ -1,0 +1,8 @@
+README.md
+dirtools2.py
+setup.py
+dirtools2.egg-info/PKG-INFO
+dirtools2.egg-info/SOURCES.txt
+dirtools2.egg-info/dependency_links.txt
+dirtools2.egg-info/requires.txt
+dirtools2.egg-info/top_level.txt
