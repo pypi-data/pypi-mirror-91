@@ -1,0 +1,5 @@
+astropy
+deepdish
+goes-solar-retriever
+numpy
+scikit-learn
