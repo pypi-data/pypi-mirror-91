@@ -1,0 +1,8 @@
+multianndata
+numpy
+pandas
+scipy
+warnings
+argparse
+matplotlib
+scanpy
