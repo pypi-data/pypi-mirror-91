@@ -1,0 +1,7 @@
+pywordfreq-0.2.1.dist-info/METADATA,sha256=4vUNgQELMZXnEWbtpkZ-nFU1rVmZ7vHkoSTAkacbTSc,3010
+pywordfreq-0.2.1.dist-info/WHEEL,sha256=vr9wqagpg9d96jTxnYaMujkLeU_dX5TVDe-DvbaQJFs,103
+pywordfreq/pywordfreq.pyi,sha256=qcQoNQ1SHWQRUwqcrE9sveH6O6m2tgDTIzY3V9RqqFQ,244
+pywordfreq/__init__.py,sha256=GqjrgahuBQGlR7zM_u4tROC7lMkVtLpq8Fo5MvaYZu4,2136
+pywordfreq/word_frequencies.gz,sha256=ZcUfJfWGaxr5MQ90DsTddc4tJCdgVpgXRFFuaZnoeqQ,6445187
+pywordfreq/pywordfreq.cpython-39-darwin.so,sha256=Pzdl78fLrcnLFm9By-Ij39OCslUGCNtCud0cXhongGY,319440
+pywordfreq-0.2.1.dist-info/RECORD,,
