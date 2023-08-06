@@ -1,0 +1,3 @@
+[console_scripts]
+ungoliant=ungoliant.cli:main
+
