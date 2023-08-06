@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.cfg
+setup.py
+mail2gg/__init__.py
+mail2gg.egg-info/PKG-INFO
+mail2gg.egg-info/SOURCES.txt
+mail2gg.egg-info/dependency_links.txt
+mail2gg.egg-info/entry_points.txt
+mail2gg.egg-info/requires.txt
+mail2gg.egg-info/top_level.txt
+mail2gg/cli/__init__.py
+mail2gg/cli/loaders.py

@@ -1,0 +1,4 @@
+[console_scripts]
+imap2gg = mail2gg.cli:execute_imap_importer
+mbox2gg = mail2gg.cli:execute_mbox_importer
+
