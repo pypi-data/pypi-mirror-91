@@ -1,0 +1,11 @@
+backgammon/__init__.py,sha256=IjlVk2hBbtF7GOzwN_DAxXrxYzSAhM-jo_W9s9yMVhE,638
+backgammon/__main__.py,sha256=x0q3wHjqgfBJ6tGVa1TY_FZ32q1kyohzrH9LNS2a62k,3508
+backgammon/backgammon.py,sha256=ZbBUKTNqgiCZLLUSx8uxRa8XT2VIKufhQSTW3dNXTng,12763
+backgammon/board.py,sha256=NBqaGbEMiOyq7ukpU1_NjSpjKRFcM8bF2dQ_nIW3MDM,2756
+backgammon/match.py,sha256=N7QCbVNJjXnUkvs45NJ5Knv3-DiojC9pAV41BYBdVQE,4668
+backgammon/position.py,sha256=L-aeL7RLreKqCh7XpaMisAC4xs7RWjbRVv1xWti2VHo,6465
+backgammon-0.1.2.dist-info/LICENSE,sha256=HrhfyXIkWY2tGFK11kg7vPCqhgh5DcxleloqdhrpyMY,11558
+backgammon-0.1.2.dist-info/METADATA,sha256=eZPd2Ll1FH00LFPJ0nT2dB-XB-xUU-MsTkSlCWdmW6M,4438
+backgammon-0.1.2.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+backgammon-0.1.2.dist-info/top_level.txt,sha256=1nFmlHWC19jSJ0oqmE3AL5qwhnZ_k3OGvIWh_au-4W8,11
+backgammon-0.1.2.dist-info/RECORD,,
