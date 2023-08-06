@@ -1,0 +1,10 @@
+qdownloader/__init__.py,sha256=XyAjWxqc0k-neBwWile92ElCv4aGxLUS7IDw2_2jVNg,25
+qdownloader/__version__.py,sha256=v4bvIwOvli_WkpxUKXWpoD9E3hInv17iiG6yOhn8EhQ,16
+qdownloader/guc.py,sha256=510QwPMl9cyP5PmK8jt_l8Ipl3t9RJIqC6nBYqjQiaI,6797
+qdownloader/idm.py,sha256=lSI1FuhSpv_p737mBGDJTT0QbYcj8s4eBRQjQtHgL1o,2940
+qdownloader/qdownloader.py,sha256=_wGrwXwPT_M05_4CZbXEGhws8zfRgsKQ-Rpu1MNH7Pw,44649
+qdownloader-1.49.dist-info/METADATA,sha256=5Doy1EA72asrUSiJw-21bvcL5JF-4cKmbTkMOKhQRA0,1373
+qdownloader-1.49.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+qdownloader-1.49.dist-info/entry_points.txt,sha256=SrnJGJnISsWs7oXyelS4p5UfkjaZ9v5BdnfV6wan3os,63
+qdownloader-1.49.dist-info/top_level.txt,sha256=ImHAzGA-FDRvOOUz00WL0_WkdJiBFd6E2sJyql6_p6c,12
+qdownloader-1.49.dist-info/RECORD,,
