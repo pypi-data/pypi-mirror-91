@@ -1,0 +1,16 @@
+napatrackmater/Trackmate.py,sha256=N2lYQDXqAyuDeDqbjHrs4Y3jJgc7PhQzzCYuAaLE87M,48996
+napatrackmater/__init__ .py,sha256=m7k63NBpuhfx39PYc8nLwC-8G73zbg_p5iS7Am44mgw,93
+napatrackmater/version.py,sha256=RsZjRjMprNcDm97wqRRSk6rTLgTX8N0GyicZyZ8OsBQ,22
+napatrackmater/napari_animation/__init__.py,sha256=MMR3BNGEN32V9BwLsVxn7it6Q7AWcfYEEL5hKsgI3lY,131
+napatrackmater/napari_animation/animation.py,sha256=_87EMh-MoQTYBRCtmM2_6o0tFHa14zXI71o-PfqA-34,6022
+napatrackmater/napari_animation/easing.py,sha256=Z_lnQ6XfsxJ48FPu29VPtJYh8yLm4ol_4EDMUB18c_8,8185
+napatrackmater/napari_animation/utils.py,sha256=5uk5n4nH-Oplq0e-FreIMYIln-6l7H1y9YLH-VnmZm8,1913
+napatrackmater/napari_animation/_qt/__init__.py,sha256=0yHSuyjCTs5NwlrlmgYtPDyXj8-teob1qNruI6u0hXQ,47
+napatrackmater/napari_animation/_qt/animation_widget.py,sha256=mu2B33TfnJ6rpMcmN8ScKN6MLFXW_wRueXF6xLUxwJ4,4467
+napatrackmater/napari_animation/_qt/frame_widget.py,sha256=L9vc817efklH3QR2_8xfEXhtrfe4Dsg7XK6G8kLGYOM,942
+napatrackmater/napari_animation/_qt/keyframeslist_widget.py,sha256=UBz15rvLdVTqLK4rLeqTCI2JdZRG46JrpfiInE6tOtc,274
+napatrackmater-1.2.1.dist-info/LICENSE,sha256=EyR_ikpQYTDN96J7EVkGmy6biXSBu9Nv45wKDpcraqQ,1514
+napatrackmater-1.2.1.dist-info/METADATA,sha256=68kX9rmP11tCgfRHU5WsZmlXdDxgs2B76_7Rynfr2lk,1803
+napatrackmater-1.2.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+napatrackmater-1.2.1.dist-info/top_level.txt,sha256=ADBSAztqa43xgNfr9fGIwYWfwf3qcTzXWFwWqflc3BY,83
+napatrackmater-1.2.1.dist-info/RECORD,,
