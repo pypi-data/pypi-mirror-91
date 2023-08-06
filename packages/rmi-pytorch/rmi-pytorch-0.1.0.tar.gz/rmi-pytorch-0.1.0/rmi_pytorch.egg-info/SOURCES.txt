@@ -1,0 +1,12 @@
+LICENSE
+README.rst
+pyproject.toml
+setup.cfg
+setup.py
+rmi/__init__.py
+rmi/rmi.py
+rmi_pytorch.egg-info/PKG-INFO
+rmi_pytorch.egg-info/SOURCES.txt
+rmi_pytorch.egg-info/dependency_links.txt
+rmi_pytorch.egg-info/requires.txt
+rmi_pytorch.egg-info/top_level.txt
