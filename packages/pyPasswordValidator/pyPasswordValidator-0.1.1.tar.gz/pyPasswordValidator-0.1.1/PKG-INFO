@@ -1,0 +1,18 @@
+Metadata-Version: 1.1
+Name: pyPasswordValidator
+Version: 0.1.1
+Summary: Attempts to detect if a password(s) passed meets requirements according to the The National Institute of Standards and Technology
+Home-page: https://github.com/jonjpbm/pyPasswordValidator
+Author: Jon Duarte
+Author-email: jonjpbm@gmail.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
