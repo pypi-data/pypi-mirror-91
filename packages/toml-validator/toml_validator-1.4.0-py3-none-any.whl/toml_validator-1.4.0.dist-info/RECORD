@@ -1,0 +1,9 @@
+toml_validator/__init__.py,sha256=odmbNbk_AASRLPuSLmuF5y5OWoCjx61hjy10i2PGinI,26
+toml_validator/__main__.py,sha256=Y6pBdejyXHkE6Z43ZtNK22fSIG19sUKUguDeh10Kckg,860
+toml_validator/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+toml_validator/validation.py,sha256=BcDYyQOUDKGKRgrrVi2j2w4VW_GeXXGE4FSHkcr61TM,943
+toml_validator-1.4.0.dist-info/entry_points.txt,sha256=FPxTdqXs4tBrBT_Ug3uxTKlf5PdU9oZYDMQekWLUIf0,63
+toml_validator-1.4.0.dist-info/LICENSE.rst,sha256=rZJYkcEbDTZMd2nufO9EbSXQfj7SgEmqFb6hmT4XTIY,1096
+toml_validator-1.4.0.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+toml_validator-1.4.0.dist-info/METADATA,sha256=JwGPws6OMlhHKWv3mm2XKU48efV0aACXnTKLeGXeDe8,3648
+toml_validator-1.4.0.dist-info/RECORD,,
