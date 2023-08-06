@@ -1,0 +1,15 @@
+bidsonym/__init__.py,sha256=t3ykHe-cF-HtW_CJhTGPKrCkGQ7XiT8qv4EJAmU2Cqk,702
+bidsonym/_version.py,sha256=CDTePR0ktYOszrwTAoa4QcuSsnp_aAV7KHTlAAbzJNs,497
+bidsonym/defacing_algorithms.py,sha256=Oiz34bLm-gQtq9JpoBofQZN4xZdLmxFn6HDzV7P-Fqs,5927
+bidsonym/reports.py,sha256=9opMEUu30jmGsWb_Ct7kOKe3QXctNN8qf64nQ1wdP9Q,6226
+bidsonym/run_deeid.py,sha256=-Wr46D2R4W5mexYoCNRfBglcgvL4UaDu0dbRvaIlQPQ,9803
+bidsonym/utils.py,sha256=eAequamth1g5qluw8tfxMceIuLoKvbhzFUK2loE-eZM,16466
+bidsonym/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bidsonym/tests/test_example.py,sha256=CbV6-eucgqGXlVKLmW33nwpjr-iuHHWwrDj8m4U6pq0,54
+bidsonym-0.0.4.dist-info/AUTHORS.rst,sha256=q9B84FYRgJvg848mp1c_iRmesmo3DAw9kdyA_4ItVMc,180
+bidsonym-0.0.4.dist-info/LICENSE,sha256=ZH2vMPPU9c_0ERXFhr5Pzafm4C-nEaIDhb_L4N9DYGw,1520
+bidsonym-0.0.4.dist-info/METADATA,sha256=Q3YC9I6UiN3P1BnCvz7dt-sZf14y7mZkikKiL-YYzUU,9081
+bidsonym-0.0.4.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+bidsonym-0.0.4.dist-info/entry_points.txt,sha256=VCGkU411M3V2Y0OeLsu78HnXxq4sZFvIPxuZ8ilGdmY,59
+bidsonym-0.0.4.dist-info/top_level.txt,sha256=FJbVss6pUydQgPqPYyHIU3pPM-A37fncyqpXcxq18bU,9
+bidsonym-0.0.4.dist-info/RECORD,,
