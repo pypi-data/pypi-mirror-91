@@ -1,0 +1,8 @@
+README.md
+setup.py
+pilyso_io_omero/__init__.py
+pilyso_io_omero/omero_imagestack.py
+pilyso_io_omero.egg-info/PKG-INFO
+pilyso_io_omero.egg-info/SOURCES.txt
+pilyso_io_omero.egg-info/dependency_links.txt
+pilyso_io_omero.egg-info/top_level.txt

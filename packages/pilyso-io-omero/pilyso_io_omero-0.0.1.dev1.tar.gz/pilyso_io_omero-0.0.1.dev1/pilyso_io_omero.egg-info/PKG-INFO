@@ -1,0 +1,21 @@
+Metadata-Version: 1.1
+Name: pilyso-io-omero
+Version: 0.0.1.dev1
+Summary: pilyso - image reading library - omero reader
+Home-page: https://github.com/modsim/pilyso-io-omero
+Author: Christian Sachs
+Author-email: c.sachs@fz-juelich.de
+License: GPL
+Description: Python Image anaLYsis SOftware library
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: GNU General Public License v2 or later (GPLv2+)
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Requires: numpy
