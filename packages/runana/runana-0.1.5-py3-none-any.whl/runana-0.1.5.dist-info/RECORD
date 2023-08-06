@@ -1,0 +1,12 @@
+runana/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+runana/analyse.py,sha256=WeRwM8l8F4Z5MvBwgV5uFdKVdeZz4WvWTpzySCXxl2k,12624
+runana/analyse_pandas.py,sha256=WAKEX1TfxQsGPEy6AWSDyTgQTvm05kGurvJQ-xBFnO0,11819
+runana/input_file_handling.py,sha256=Spz2xnLnQkcjgKDtE8lvWhQeZY0QXYiBUye2BlsGOgk,10045
+runana/matplotlib_managers.py,sha256=vpUOUDkuOg5RLPRlSVFKPuyrTdwd_BULq3YzAvVRINo,8158
+runana/read_numbers.py,sha256=K9yj8iQBHDXVaUUK2QfDXtOqDtL8iatzDLHpSBQdqvI,6031
+runana/run.py,sha256=Ew5YxYsAeLtHE5TMh5JwUryphvJT0YUdMiSoZTiWLMA,31854
+runana-0.1.5.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+runana-0.1.5.dist-info/METADATA,sha256=jcxkym7fiVtODesMTtwvO1JMsT-JJISFv-g5Ta34_hQ,1006
+runana-0.1.5.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+runana-0.1.5.dist-info/top_level.txt,sha256=5B2rmsyaiJBzrhUY1V6T3ebtiyNKOXOGD770uYs3w84,7
+runana-0.1.5.dist-info/RECORD,,
