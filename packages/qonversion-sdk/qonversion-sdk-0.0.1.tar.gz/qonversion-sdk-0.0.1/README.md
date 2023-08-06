@@ -1,0 +1,75 @@
+# Qonversion Python SDK
+
+The Qonversion Python SDK provides convenient access to the Qonversion API from
+applications written in the Python language.
+
+## Installation
+
+You don't need this source code unless you want to modify the package. If you just
+want to use the package, just run:
+
+```sh
+pip install --upgrade qonversion-sdk
+```
+
+Install from source with:
+
+```sh
+python setup.py install
+```
+
+### Requirements
+
+- Python 3.6+
+
+## Development
+
+Run the following command to set up the development virtualenv:
+
+```sh
+make
+```
+
+Run all tests on all supported Python versions:
+
+```sh
+make test
+```
+
+Run all tests for a specific Python version (modify `-e` according to your Python target):
+
+```sh
+TOX_ARGS="-e py37" make test
+```
+
+Run all tests in a single file:
+
+```sh
+TOX_ARGS="-e py37 -- tests/path/to/test.py" make test
+```
+
+Run a single test suite:
+
+```sh
+TOX_ARGS="-e py37 -- tests/path/to/test.py::TestName" make test
+```
+
+Run a single test:
+
+```sh
+TOX_ARGS="-e py37 -- tests/path/to/test.py::TestName::test_method" make test
+```
+
+Run the linter with:
+
+```sh
+make lint
+```
+
+The library uses [Black][black] for code formatting. Code must be formatted
+with Black before PRs are submitted, otherwise CI will fail. Run the formatter
+with:
+
+```sh
+make format
+```
