@@ -1,0 +1,10 @@
+xarray
+pint
+pint_xarray
+numpy
+pandas
+openscm_units
+loguru
+scipy
+h5netcdf
+h5py<3
