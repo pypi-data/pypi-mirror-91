@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: spotify-uri
+Version: 1.0.0
+Summary: This is a project that ported @TooTallNate/spotify-uri to Python.
+Home-page: https://github.com/zeroday0619/pyspotify-uri
+Author: zeroday0619
+Author-email: zeroday0619@kakao.com
+License: UNKNOWN
+Keywords: spotify,spotify-uri
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3
+
+UNKNOWN
+
+

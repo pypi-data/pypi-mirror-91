@@ -1,0 +1,17 @@
+spotify_uri/__init__.py,sha256=Z04MJdyIC_F2Vd3QU7xmOxUV_YItaMqH6Ye1Xhkx4FE,848
+spotify_uri/album.py,sha256=QhBy_UD6-sVsAwMSV3ua3TuHdHRo2KgPg--_BfxRzzM,412
+spotify_uri/artist.py,sha256=srBLKQL_sqSNc2_c8FOCWvsgxBGrewm6-BlQwYii-oQ,416
+spotify_uri/episode.py,sha256=wrYmadpM4Wsb6vNDuQ5lcycaAbjacpXJKYRRALnBHaE,418
+spotify_uri/local.py,sha256=rvIWmMRTHVBWWWn1jFA8YI3mrgzmaReV0p7jSVyPeV4,627
+spotify_uri/parse.py,sha256=SAOlqSfHaW7oLjDhKqjTa9CrfoC9KTOQCAAJy-Xy-6c,2228
+spotify_uri/playlist.py,sha256=uXA7Q2B0WdqzTRakOAS4MGTyu_OzpLQl6iRIMSuoaGk,848
+spotify_uri/search.py,sha256=TXgb7jAWY32_ja49Bo1Zw3zDGfY1d3OINGNhQ0xQyAA,418
+spotify_uri/spotify.py,sha256=weiiMKRrQmoBI5OGVcsVZBSnfHppwt-ejJA17sDHUc0,605
+spotify_uri/track.py,sha256=MwMZUyWf1JiylrBBCbrgoIqpRJtCIdPvoe61gTdfb5M,412
+spotify_uri/user.py,sha256=XycZZ6-fM3rd9wXx1NYbnZ0wPIP3V9W1vMv0LDLf1rs,417
+spotify_uri/util.py,sha256=SU32RHNnZElRZJmBSmco166979h0yNW9batV75rE7Qc,550
+spotify_uri-1.0.0.dist-info/LICENSE,sha256=oGmgZFomoQszBROt0LcLiFH2VsNGGFS80BFqw6PYqpo,1068
+spotify_uri-1.0.0.dist-info/METADATA,sha256=RlaOoNSPfe9zdkZ7F48As4THr2fKbknYYM5lE7mERYA,489
+spotify_uri-1.0.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+spotify_uri-1.0.0.dist-info/top_level.txt,sha256=FOxqfu1kd3tLrVNyjDQy0VEZ3iCGGtg2PAEPNuBMbOU,12
+spotify_uri-1.0.0.dist-info/RECORD,,
