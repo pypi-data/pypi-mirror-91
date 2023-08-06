@@ -1,0 +1,8 @@
+pandas
+torch
+torchvision
+sklearn
+tensorflow
+tensorflow==1.15captum
+adversarial-robustness-toolbox
+plotly
