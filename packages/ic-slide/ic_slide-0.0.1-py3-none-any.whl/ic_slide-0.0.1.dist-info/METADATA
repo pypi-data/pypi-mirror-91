@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: ic-slide
+Version: 0.0.1
+Summary: api of conriander slides, communicate with private cloud slides. 
+Home-page: https://github.com/pypa/sampleproject
+Author: rwecho
+Author-email: rwecho@live.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: requests (==2.22.0)
+Requires-Dist: Pillow (==6.2.0)
+Requires-Dist: numpy (==1.16.5)
+
+UNKNOWN
+
+
