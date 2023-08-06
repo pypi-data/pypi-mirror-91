@@ -1,0 +1,12 @@
+README.md
+setup.cfg
+setup.py
+k_ege/Binomialdistribution.py
+k_ege/Gaussiandistribution.py
+k_ege/Generaldistribution.py
+k_ege/__init__.py
+k_ege.egg-info/PKG-INFO
+k_ege.egg-info/SOURCES.txt
+k_ege.egg-info/dependency_links.txt
+k_ege.egg-info/not-zip-safe
+k_ege.egg-info/top_level.txt
