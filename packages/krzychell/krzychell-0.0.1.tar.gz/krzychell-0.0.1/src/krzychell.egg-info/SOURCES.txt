@@ -1,0 +1,7 @@
+README.md
+setup.py
+src/krzychell.py
+src/krzychell.egg-info/PKG-INFO
+src/krzychell.egg-info/SOURCES.txt
+src/krzychell.egg-info/dependency_links.txt
+src/krzychell.egg-info/top_level.txt
