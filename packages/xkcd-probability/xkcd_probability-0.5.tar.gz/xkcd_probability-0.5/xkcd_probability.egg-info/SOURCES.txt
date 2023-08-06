@@ -1,0 +1,10 @@
+setup.py
+xkcd_probability/Binomialdistribution.py
+xkcd_probability/Gaussiandistribution.py
+xkcd_probability/Generaldistribution.py
+xkcd_probability/__init__.py
+xkcd_probability.egg-info/PKG-INFO
+xkcd_probability.egg-info/SOURCES.txt
+xkcd_probability.egg-info/dependency_links.txt
+xkcd_probability.egg-info/not-zip-safe
+xkcd_probability.egg-info/top_level.txt
