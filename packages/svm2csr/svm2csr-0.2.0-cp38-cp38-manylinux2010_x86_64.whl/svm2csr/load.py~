@@ -1,0 +1,13 @@
+"""
+SVMlight loading API.
+"""
+
+import py_svm2csr_rs
+
+def load_svmlight_file(fname):
+    """
+    Loads an SVMlight file into a CSR matrix.
+
+    fname (str): the file name of the file to load.
+    """
+    py_svm2cs4_rs
