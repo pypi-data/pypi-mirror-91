@@ -1,0 +1,9 @@
+pyyaml
+colorama
+psutil
+dill
+jinja2
+weasyprint
+importlib_resources
+multiqc
+seaborn

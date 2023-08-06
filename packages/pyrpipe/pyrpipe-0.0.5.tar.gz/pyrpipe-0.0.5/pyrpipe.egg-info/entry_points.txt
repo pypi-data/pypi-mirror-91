@@ -1,0 +1,4 @@
+[console_scripts]
+pyrpipe = pyrpipe.__main__:main
+pyrpipe_diagnostic = pyrpipe.__diagnostic__:main
+
