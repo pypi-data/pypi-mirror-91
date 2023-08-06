@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: modbus_server
+Version: 0.1.0
+Summary: Easy-to-use ModbusTCP Server in pure Python 
+Home-page: UNKNOWN
+License: UNKNOWN
+Author: Christoph Kattmann
+Author-email: christoph.kattmann@bss-hs.de
+Description-Content-Type: text/markdown
+Classifier: License :: OSI Approved :: MIT License
+
+# SimpleModbusServer
+A Modbus server implementation in pure Python.
+##Todo:
+- Client tests with pyModbusTCP
+- Test 32bit values
+- Test performance
+
