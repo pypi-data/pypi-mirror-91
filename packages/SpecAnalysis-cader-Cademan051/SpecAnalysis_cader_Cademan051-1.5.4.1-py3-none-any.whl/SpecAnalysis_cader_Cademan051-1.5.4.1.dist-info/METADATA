@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: SpecAnalysis-cader-Cademan051
+Version: 1.5.4.1
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: UNKNOWN
+Author-email: UNKNOWN
+License: Creative Commons Attribution-Noncommercial-Share Alike license
+Platform: UNKNOWN
+Requires-Dist: numpy
+Requires-Dist: PyQt5
+Requires-Dist: pyqtgraph
+Requires-Dist: matplotlib
+Requires-Dist: scipy
+Requires-Dist: rpy2
+
+UNKNOWN
+
+
