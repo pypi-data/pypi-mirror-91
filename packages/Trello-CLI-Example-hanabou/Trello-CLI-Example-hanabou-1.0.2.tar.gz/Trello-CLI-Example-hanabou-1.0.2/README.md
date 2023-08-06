@@ -1,0 +1,47 @@
+# Trello-CLI-Example
+This is a sample CLI interface to generate cards on my private Trello board.
+## Installation
+You can install this example using the tarfile:
+
+    pip install Trello-CLI-Example-hanabou-1.0.1.tar.gz
+    
+You can also install it through pypi:
+
+    pip install Trello-CLI-Example-hanabou==1.0.1
+    
+## Usage
+The CLI can be used with the following options:
+
+    TRELLO CLI
+
+    Usage:
+        trello_cli.py add_card <NAME> --list=<LIST> [(--label_name=<LABEL_NAME> --label_color=<LABEL_COLOR>)...] [--comment=<COMMENT_TEXT>]
+        trello_cli.py -h|--help
+        trello_cli.py -v|--version
+
+    Arguments:
+        NAME                              Name of the new Trello card
+        --list=LIST                       Name of the list that will contain the new Trello card (todo, doing, done)
+        --label_name=<LABEL_NAME>         Label name for the new Trello card
+        --label_color=<LABEL_COLOR>       Label color for the new Trello card (yellow, purple, blue, red, green, orange, black, sky, pink, lime)
+        --comment=<COMMENT_TEXT>          Text contents for a comment on the new Trello card
+
+    Options:
+        -h --help  Show this screen
+        -v --version  Show version
+
+### Sample usage
+Here is an example that will add a card (with labels and a comment) to my private Trello board, under the "To Do" list:
+
+    python trello_cli.py add_card "Slice of Chocolate Cake" --list=todo --label_name=DESSERT --label_color=pink --label_name="FOOD" --label_color=red --comment="With a side of ice cream"
+
+This creates a card with the following structure:
+    
+    | Trello Board "Orders"
+    ----| Trello List "To Do"
+         ----| Trello Card "Slice of Chocolate Cake"
+              ----| Label "DESSERT"
+                   ----| Color Pink
+              ----| Label "FOOD"
+                   ----| Color Red
+              ----| Comment "With a side of ice cream"
