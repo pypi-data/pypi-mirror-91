@@ -1,0 +1,11 @@
+README.md
+setup.cfg
+setup.py
+bitbitbot/__init__.py
+bitbitbot/bot.py
+bitbitbot/models.py
+bitbitbot.egg-info/PKG-INFO
+bitbitbot.egg-info/SOURCES.txt
+bitbitbot.egg-info/dependency_links.txt
+bitbitbot.egg-info/requires.txt
+bitbitbot.egg-info/top_level.txt
