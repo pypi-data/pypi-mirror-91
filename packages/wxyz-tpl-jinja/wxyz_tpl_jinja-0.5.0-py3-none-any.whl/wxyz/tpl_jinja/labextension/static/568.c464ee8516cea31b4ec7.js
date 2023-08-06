@@ -1,0 +1,1 @@
+(self.webpackChunk_deathbeds_wxyz_tpl_nunjucks=self.webpackChunk_deathbeds_wxyz_tpl_nunjucks||[]).push([[568],{139:(s,e,u)=>{"use strict";u.d(e,{A:()=>n,q:()=>c});const t=JSON.parse('{"u2":"@deathbeds/wxyz-tpl-nunjucks","i8":"0.5.0"}'),n=t.u2,c=t.i8},568:(s,e,u)=>{"use strict";u.r(e),u.d(e,{NAME:()=>t.A,VERSION:()=>t.q});var t=u(139)}}]);
