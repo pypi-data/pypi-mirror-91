@@ -1,0 +1,16 @@
+autoact/__init__.py,sha256=wgfqR2rS7-R7vV6KiPS1qj6nVELQE0_tSZZN5Ysj03w,23
+autoact/autoact.py,sha256=FmQeC0X4NR0zb9G0CFuLJ9G7OIkqFcY4utYL6ot_o6c,691
+autoact/setup.py,sha256=O8gMORCTNqfRvCVSsVNIOWaIFIwlV4VGf-sjnzNpgE0,278
+autoact/utils.py,sha256=4ICa0gft3BCJ02H45D6E5VTMjEPWTYV2ucdE7CB7WU0,337
+autoact/core/__init__.py,sha256=1VnF2MgIfDpLeKzJ4DRB1vvZ1scp565MZSNPu-uXHys,42
+autoact/core/action_manager.py,sha256=Q6Pu3RMDLbRRZIhXyoyb97eyQWky-DyCOajCH86_Krg,683
+autoact/core/action_resolver/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+autoact/core/action_resolver/common_resolver.py,sha256=h5DwF-tgmGkRi1-yb8njcDu4WTOWnJEwnTWOJ2XA7rA,2018
+autoact/examples/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+autoact/examples/dummy_module.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+auto_action-0.0.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+auto_action-0.0.1.dist-info/METADATA,sha256=4yWF_lx6k3bxoLyXxWcLrxbsiaVya0mZMGc7sQqD73Y,219
+auto_action-0.0.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+auto_action-0.0.1.dist-info/entry_points.txt,sha256=sLFrdmwLLwbB7NGQN1it2AkzGr_8QZjEF3tylaIA6QQ,50
+auto_action-0.0.1.dist-info/top_level.txt,sha256=hMcf2947lzKL8xjeqyH2tg61xXEEivjTNxztjNhJG5U,8
+auto_action-0.0.1.dist-info/RECORD,,
