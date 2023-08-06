@@ -1,0 +1,4 @@
+snowland-authsdk>=0.0.4
+astartool>=0.0.5
+configparser
+requests
