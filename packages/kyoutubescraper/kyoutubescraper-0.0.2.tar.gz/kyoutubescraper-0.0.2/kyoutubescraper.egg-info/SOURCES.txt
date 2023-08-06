@@ -1,0 +1,11 @@
+README.md
+setup.py
+kyoutubescraper/__init__.py
+kyoutubescraper/_utils.py
+kyoutubescraper/channel_about_data.py
+kyoutubescraper/youtube_scraper.py
+kyoutubescraper.egg-info/PKG-INFO
+kyoutubescraper.egg-info/SOURCES.txt
+kyoutubescraper.egg-info/dependency_links.txt
+kyoutubescraper.egg-info/requires.txt
+kyoutubescraper.egg-info/top_level.txt
