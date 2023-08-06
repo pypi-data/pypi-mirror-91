@@ -1,0 +1,10 @@
+README.rst
+setup.cfg
+setup.py
+kolaKraken.egg-info/PKG-INFO
+kolaKraken.egg-info/SOURCES.txt
+kolaKraken.egg-info/dependency_links.txt
+kolaKraken.egg-info/entry_points.txt
+kolaKraken.egg-info/not-zip-safe
+kolaKraken.egg-info/requires.txt
+kolaKraken.egg-info/top_level.txt
