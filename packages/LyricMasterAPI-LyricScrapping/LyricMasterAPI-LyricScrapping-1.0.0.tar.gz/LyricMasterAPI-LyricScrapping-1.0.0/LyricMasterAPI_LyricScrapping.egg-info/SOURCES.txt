@@ -1,0 +1,10 @@
+README.md
+setup.py
+LyricMaster/__init__.py
+LyricMaster/error.py
+LyricMaster/lyric.py
+LyricMasterAPI_LyricScrapping.egg-info/PKG-INFO
+LyricMasterAPI_LyricScrapping.egg-info/SOURCES.txt
+LyricMasterAPI_LyricScrapping.egg-info/dependency_links.txt
+LyricMasterAPI_LyricScrapping.egg-info/requires.txt
+LyricMasterAPI_LyricScrapping.egg-info/top_level.txt

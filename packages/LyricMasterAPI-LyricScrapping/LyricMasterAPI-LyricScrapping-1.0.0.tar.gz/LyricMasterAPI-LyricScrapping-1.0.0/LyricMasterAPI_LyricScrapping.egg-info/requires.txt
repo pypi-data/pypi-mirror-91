@@ -1,0 +1,4 @@
+aiohttp
+requests
+lyrics-extractor
+asyncio
