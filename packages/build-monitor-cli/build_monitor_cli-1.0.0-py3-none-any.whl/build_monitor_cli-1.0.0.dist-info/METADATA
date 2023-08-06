@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: build-monitor-cli
+Version: 1.0.0
+Summary: Azure devops builds commandline monitor
+Home-page: https://github.com/dawncold/build_monitor_cli
+Author: Zhen Tian
+Author-email: zhen.tian@thoughtworks.com
+License: BSD
+Keywords: azure devops
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Topic :: Utilities
+Classifier: License :: OSI Approved :: BSD License
+Requires-Python: >=3.5
+Requires-Dist: azure-devops
+Requires-Dist: rich
+Requires-Dist: PyGithub
+Requires-Dist: click
+
+Azure devops builds commandline monitor
+
+
