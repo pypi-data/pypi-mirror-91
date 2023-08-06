@@ -1,0 +1,7 @@
+pyproject.toml
+discordpython/__init__.py
+discordpython/setup.py
+discordpython.egg-info/PKG-INFO
+discordpython.egg-info/SOURCES.txt
+discordpython.egg-info/dependency_links.txt
+discordpython.egg-info/top_level.txt
