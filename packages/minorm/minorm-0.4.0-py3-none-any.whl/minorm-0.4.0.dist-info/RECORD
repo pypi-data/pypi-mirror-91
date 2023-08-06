@@ -1,0 +1,14 @@
+minorm/__init__.py,sha256=4CuQIB2gyBmWi9hWSEouUkJdIay8n4aTdbfBAavB6nI,23
+minorm/connectors.py,sha256=VfbKgCd3cnNvM2h847NujtZbluZBy565z8FqkYD8PX4,964
+minorm/db_specs.py,sha256=NvwOi6dMEJR4aBnY4Y1BVqBBkEpfKxCSXT6m9RoEklM,1689
+minorm/exceptions.py,sha256=skYx-4EuHj3o1HPeWPWnf_TzBds37hNA0sFSiWrMZ30,92
+minorm/expressions.py,sha256=9KsxVzPPjCYyLfTx58RtmKCj8ZqpRnOK07OVlOzau1w,3764
+minorm/fields.py,sha256=z3z5BkjX8qRdHu3kAkthCNSjo_0rP_eHxUKQgQXzeRU,6206
+minorm/managers.py,sha256=fUAS7vrba_xjg3bcqHuFwP9VM1o4_YVX_BfvOv6FyAs,10989
+minorm/models.py,sha256=W7lYJjS-BM44ZT-Qx-FBL2CPak74GkeQ_UPn3NZWkNw,7358
+minorm/queries.py,sha256=EYNbWf-hsJOdsWeFIYUsP7LGXSughC0eZy6TzNzcdgc,3613
+minorm-0.4.0.dist-info/LICENSE.txt,sha256=bIzIuYTGBcwfE9VOMUQXeXxjwMSZAv1aVU-HVf1Qj10,1054
+minorm-0.4.0.dist-info/METADATA,sha256=fs1iik5OGWDwwL_UFbNQGa40v1Od8mmDYy-6sHOOTFE,7588
+minorm-0.4.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+minorm-0.4.0.dist-info/top_level.txt,sha256=zBfz-LgO6LKvjUzpT6ltiVh_gb7CKt3D7CGbCkjcCSI,7
+minorm-0.4.0.dist-info/RECORD,,
