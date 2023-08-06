@@ -1,0 +1,3 @@
+[console_scripts]
+iview = iview.__main__:main
+

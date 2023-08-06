@@ -1,0 +1,91 @@
+Metadata-Version: 2.1
+Name: image-viewer
+Version: 0.0.2
+Summary: iview is a command line app for viewing images using open_cv.
+Home-page: https://github.com/John-Lee-Cooper/image-viewer/
+Author: John Lee Cooper
+Author-email: john.lee.cooper@gatech.edu
+License: GPL
+Download-URL: https://github.com/John-Lee-Cooper/image-viewer/archive/1.0.0.tar.gz
+Keywords: open cv,click
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: click (==7.1.2)
+Requires-Dist: freetype-py (==2.2.0)
+Requires-Dist: gif2numpy (==1.3)
+Requires-Dist: kaitaistruct (==0.9)
+Requires-Dist: mss (==6.1.0)
+Requires-Dist: numpy2gif (==1.0)
+Requires-Dist: numpy (==1.19.4)
+Requires-Dist: opencv-python (==4.4.0.46)
+Requires-Dist: pilasopencv (==2.7)
+Requires-Dist: pyobjc-core (==7.1)
+Requires-Dist: pyobjc-framework-cocoa (==7.1)
+Requires-Dist: pyobjc-framework-quartz (==7.1)
+Requires-Dist: pyuserinput (==0.1.11)
+Requires-Dist: typer (==0.3.2)
+
+# Image Viewer
+
+**iview** is a command line app for viewing images using open_cv.
+
+## Installation
+
+### Using Pip
+
+```bash
+  $ pip install image_viewer
+```
+
+### Manual
+
+```bash
+  $ git clone https://github.com/John-Lee-Cooper/image-viewer
+  $ cd image-viewer
+  $ python setup.py install
+```
+
+## Usage
+
+```bash
+$ iview --version
+$ iview --help
+$ iview -r ~/Pictures
+```
+
+![iview](https://github.com/John-Lee-Cooper/image-viewer/raw/master/image/iview1.png)
+
+### User Interface
+
+ Key        | Result
+ :--------: | :------------------------  
+ SPACE      | Go to the next image
+ BACKSPACE  | Go to the previous image
+ DELETE     | Delete the current image
+ ENTER      | Toggle full screen
+ ESCAPE     | Exit
+ other      | Help screen
+
+Holding the left mouse button down and moving the mouse will pan the image.  
+Rolling the mouse wheel up and down will zoom out and in where the mouse is.
+
+## Todo
+
+* UI error
+* Pan/zoom via keypad
+* Config dynamic singleton
+* Requirements linux vs mac
+* Display image name, size, location, date taken
+* Crop
+* Transition
+
+
+## Written by
+
+John Lee Cooper  
+john.lee.cooper@gatech.edu
+
