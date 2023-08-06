@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/celery_client_stubs/__init__.py
+src/celery_client_stubs.egg-info/PKG-INFO
+src/celery_client_stubs.egg-info/SOURCES.txt
+src/celery_client_stubs.egg-info/dependency_links.txt
+src/celery_client_stubs.egg-info/top_level.txt
