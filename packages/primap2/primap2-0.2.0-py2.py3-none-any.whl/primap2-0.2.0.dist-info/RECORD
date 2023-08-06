@@ -1,0 +1,13 @@
+primap2/__init__.py,sha256=vYVJLSq6AL5GS4_aBbItHValPKeVu2w3pQA184zV06k,328
+primap2/_accessors.py,sha256=uzswXvovONEEJIJpbbn7v1hZfhLXwvijzUZcUnlQWms,430
+primap2/_data_format.py,sha256=w-kiM-vJPTDCfZZHxoZke_8rHVuYluF7prAfsaCG_e8,13822
+primap2/_units.py,sha256=3lv2MHrpZ3VSy700zR-MOZcB2vQ9EC1UFg5KwX4YWZo,3282
+primap2/tests/__init__.py,sha256=yklursGlRkZF-Dx6xGSFlGKUKe_lkQeXc4XAlPbm-p8,30
+primap2/tests/conftest.py,sha256=M7EyXtF7kHTjam3qmiRb56iQ84qnzK2Cl-FvMoABuD8,521
+primap2/tests/test_data_format.py,sha256=rSMDr3nRVv6_LBKOjkrKNk6V_NMvZpbqpuaN2t2ZM4g,14144
+primap2-0.2.0.dist-info/AUTHORS.rst,sha256=NY94HlsyjkIs_WPNRNWpksqlY3Y0pCti1UWg0aOFy7Q,175
+primap2-0.2.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+primap2-0.2.0.dist-info/METADATA,sha256=AmPl5NQoP1MOpSH12RFui5q3vHbe9HublStvm8cg-dk,3225
+primap2-0.2.0.dist-info/WHEEL,sha256=Z-nyYpwrcSqxfdux5Mbn_DQ525iP7J2DG3JgGvOYyTQ,110
+primap2-0.2.0.dist-info/top_level.txt,sha256=eeDhFxw5ONh4ynUTI0sWxkfl_cToW5lgc5p7xcyi06I,8
+primap2-0.2.0.dist-info/RECORD,,
