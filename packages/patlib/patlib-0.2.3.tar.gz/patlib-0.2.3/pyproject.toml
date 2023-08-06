@@ -1,0 +1,30 @@
+[tool.poetry]
+name = "patlib"
+version = "0.2.3"
+description = "A collection of tools developed in conjunction with DAPPER."
+license = "MIT"
+authors = ["patricknraanes <patrick.n.raanes@gmail.com>"]
+
+readme = "README.md"
+
+#repository = "github..."
+#repository = "github..."
+#keywords = ["dict", "list"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+
+line_profiler = "*"
+ipdb = "*"
+pdbpp = "*"
+pudb = "*"
+ipython = "*"
+jedi = "<0.18" # ipython/issues/12740
+
+[tool.poetry.dev-dependencies]
+
+#pre-commit = "*"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
