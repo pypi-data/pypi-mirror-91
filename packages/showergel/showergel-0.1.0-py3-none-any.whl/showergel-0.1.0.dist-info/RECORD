@@ -1,0 +1,14 @@
+showergel/__init__.py,sha256=rvm9k01lTgLLeugU1DzfkZCbNdLPY4_e97UfUeJrAeE,2452
+showergel/__main__.py,sha256=ff0xHR7OVm2vrVGfMk6opSiRPS-y9_8g-O1fIVnHrAw,407
+showergel/install.py,sha256=FP6Gf7XlCPdtxzBlm_sX06frv0HBXdSmm606ZNrriUg,13888
+showergel/metadata.py,sha256=bDNQnm2QO9xFsZ2RW2lyiFHpD7vpQpLUVPP90BpywJQ,6448
+showergel/rest/__init__.py,sha256=Lx29oFM_cOKt_UtouAjL2np1abzAU-D7A2lrOQlPpKc,511
+showergel/rest/metadata_log.py,sha256=f0qXwM0_SCExpimG7W16pLuFSjEEjQWkeJ7_Vu_7878,1820
+showergel/rest/users.py,sha256=z19BQKDGQc3eUd68evtYe1lGdWuvX5ZtlUhPBHezGTk,2390
+showergel/users.py,sha256=Z73jK0_ze1DL1SL8KK79JdNKRy9r36ZrMcw9ZpZ1zgc,2008
+showergel/www/index.html,sha256=8mgfjwWWaLy37wMVvJ6WJbnsPUwvStaIx2sBHoWPnx0,150
+showergel-0.1.0.dist-info/entry_points.txt,sha256=uFxbv7lLHtkj6CQAjmnzdCWlWtSBrUQPRug_6UExo74,85
+showergel-0.1.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+showergel-0.1.0.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+showergel-0.1.0.dist-info/METADATA,sha256=pihJ0DusTPmhM3k9XEfpqaXMWcdDhx0rM8i0MYl2e8M,5852
+showergel-0.1.0.dist-info/RECORD,,
