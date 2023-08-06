@@ -1,0 +1,3 @@
+[console_scripts]
+ingot-aws = ingot_aws.scripts.ingot_aws:main
+
