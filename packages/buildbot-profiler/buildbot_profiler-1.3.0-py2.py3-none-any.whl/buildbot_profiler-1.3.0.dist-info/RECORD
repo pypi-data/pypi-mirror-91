@@ -1,0 +1,14 @@
+buildbot_profiler/VERSION,sha256=WSltI9YjzgrfdnXSIVboOxJIyFCBNaZd2KnjjEl-lKg,5
+buildbot_profiler/__init__.py,sha256=-mA6mt8lMx2WuxsxGFHSQYz2BAiIzkiOz8-b24iwSsM,273
+buildbot_profiler/api.py,sha256=mpht4RAKcCmSgb1Z5eDBoPeAFxPuBtoHmCmoyGZSZcc,8377
+buildbot_profiler/app.py,sha256=yf6HJ3d07ITHTXQ5ubKh4lAvpwcSpb1q0-xumKz3VJg,482
+buildbot_profiler/static/scripts.js,sha256=MPOzas8bl9LU6YpsOyRyjZZWNYq9qCTsy1HlWKD4HpE,420665
+buildbot_profiler/static/scripts.js.map,sha256=KV2SZAtA1yIszHcqfNaRQvA0nGR1636VyACf8kpZ1rs,1697337
+buildbot_profiler/static/styles.css,sha256=9pdYZ8hBgm4nM0dLqGlZEhpiekeMdz7da8oowvdxaco,13451
+buildbot_profiler/static/styles.css.map,sha256=xOejTNWnhDSVSOFvjixo9UKOuVTlNV45acSCugKbXzo,18188
+buildbot_profiler-1.3.0.dist-info/LICENSE,sha256=34QkYgTjxUzSSuu8I3FCNfX8QddU1TtlREoq-_BwEw8,15122
+buildbot_profiler-1.3.0.dist-info/METADATA,sha256=7mW2qaFyoOo-iX6B_32Gp403axGCYnjdDaw3sVvNp0M,2759
+buildbot_profiler-1.3.0.dist-info/WHEEL,sha256=ADKeyaGyKF5DwBNE0sRE5pvW-bSkFMJfBuhzZ3rceP4,110
+buildbot_profiler-1.3.0.dist-info/entry_points.txt,sha256=kTyktUp-U6EnDuyxB2dckOCSXTImF8n4MwXv17drLyY,226
+buildbot_profiler-1.3.0.dist-info/top_level.txt,sha256=6FghsI4e8iAOZyeDi-L01syhGrkc-nRLWmZ_S5fQbcY,18
+buildbot_profiler-1.3.0.dist-info/RECORD,,
