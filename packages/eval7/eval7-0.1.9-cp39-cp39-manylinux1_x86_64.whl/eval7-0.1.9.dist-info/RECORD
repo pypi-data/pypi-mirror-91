@@ -1,0 +1,12 @@
+eval7-0.1.9.dist-info/WHEEL,sha256=ieuC8Vv7a4Lxq8jfQJ-x1beMvjYNP_LKilYokdMTB0U,108
+eval7-0.1.9.dist-info/top_level.txt,sha256=_mtptJ6ymqbmLwNw_9hKywqoVbgKsmaG-88RT5a1rNw,6
+eval7-0.1.9.dist-info/RECORD,,
+eval7-0.1.9.dist-info/LICENSE,sha256=0xI-6J7d3cn-4QPlSOhPj5EcZscRH_4I5XH0DTQ65xs,1105
+eval7-0.1.9.dist-info/METADATA,sha256=NVkYsrRF2zllszadsm833wrcspwfIhhVZg-pXu5_oXc,4310
+eval7/rangestring.py,sha256=q74-336uR4kRps89y_niwwZu_3fCEjnHgdLgJbamlSI,10883
+eval7/equity.cpython-39-x86_64-linux-gnu.so,sha256=BIS4XBBQxNEgvdUl3ZCtTmIgMVs8E084HKAr37IGyxs,232514
+eval7/handrange.py,sha256=nyWlVsU8mnvt9gKQjA8LkQ9_RokiJtrkyKFBWaZcJiI,551
+eval7/cards.cpython-39-x86_64-linux-gnu.so,sha256=PnUX9mVUUGk0KIcGOJvePfct__8XEVjRa9TBglKxLLs,415350
+eval7/__init__.py,sha256=7cHEtPCcpSAHlU3Wu5PPRMMDmuTZ2MWhs5jiZBtMx4Q,434
+eval7/evaluate.cpython-39-x86_64-linux-gnu.so,sha256=D9MrDfBaGrUrZqykr-ytEGsGp0Gc7L3Uaf48wDq-AXA,187672
+eval7/xorshift_rand.cpython-39-x86_64-linux-gnu.so,sha256=gK3kn4eHXBRDIMfty8amfqIMrnj96YAEL_25I2aAHC4,179058
