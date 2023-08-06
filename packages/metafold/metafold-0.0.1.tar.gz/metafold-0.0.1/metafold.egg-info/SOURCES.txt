@@ -1,0 +1,8 @@
+README.md
+setup.cfg
+setup.py
+metafold/__init__.py
+metafold.egg-info/PKG-INFO
+metafold.egg-info/SOURCES.txt
+metafold.egg-info/dependency_links.txt
+metafold.egg-info/top_level.txt
