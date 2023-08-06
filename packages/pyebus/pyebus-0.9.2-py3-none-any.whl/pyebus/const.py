@@ -1,0 +1,2 @@
+"""Constants."""
+OK = "ok"
