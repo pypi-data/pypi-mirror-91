@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "sql-generator"
+version = "0.2.0"
+description = "A sql generator"
+authors = ["Nils T. <nilsntth@gmail.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+psycopg2 = "^2.8.6"
+
+[tool.poetry.dev-dependencies]
+sphinx = "^3.4.1"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
