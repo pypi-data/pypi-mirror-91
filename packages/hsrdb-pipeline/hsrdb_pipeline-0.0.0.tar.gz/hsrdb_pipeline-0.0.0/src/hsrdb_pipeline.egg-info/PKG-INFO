@@ -1,0 +1,11 @@
+Metadata-Version: 1.2
+Name: hsrdb-pipeline
+Version: 0.0.0
+Summary: UNKNOWN
+Home-page: https://github.com/dtriand/hsrdb_pipeline
+Author: Dimitris Triandafillidis
+Author-email: dimitristriandafillidis@gmail.com
+License: GPLv3
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.8.5

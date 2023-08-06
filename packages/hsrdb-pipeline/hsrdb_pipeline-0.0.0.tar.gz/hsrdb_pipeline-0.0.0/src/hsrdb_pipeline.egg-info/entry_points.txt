@@ -1,0 +1,3 @@
+[console_scripts]
+hsrdb = hsrdb_pipeline.hi:say_hi
+
