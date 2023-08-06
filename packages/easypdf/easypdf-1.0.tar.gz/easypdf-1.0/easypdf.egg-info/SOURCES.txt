@@ -1,0 +1,9 @@
+README.md
+setup.py
+easypdf.egg-info/PKG-INFO
+easypdf.egg-info/SOURCES.txt
+easypdf.egg-info/dependency_links.txt
+easypdf.egg-info/top_level.txt
+pdf_to_text/__init__.py
+pdf_to_text/pdf_to_image.py
+pdf_to_text/pdf_to_text.py
