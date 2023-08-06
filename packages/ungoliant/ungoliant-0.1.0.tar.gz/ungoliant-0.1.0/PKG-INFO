@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: ungoliant
+Version: 0.1.0
+Summary: Unofficial CLI tool to display power outages in Perth
+License: GPL3
+Author: Grahame Bowland
+Author-email: grahame@oreamnos.com.au
+Requires-Python: >=3.9,<4.0
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: requests (>=2.25.1,<3.0.0)
