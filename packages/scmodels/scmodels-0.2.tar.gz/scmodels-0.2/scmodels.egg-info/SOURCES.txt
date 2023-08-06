@@ -1,0 +1,13 @@
+README.md
+setup.py
+scmodels/__init__.py
+scmodels/parser.py
+scmodels/scm.py
+scmodels/version.py
+scmodels.egg-info/PKG-INFO
+scmodels.egg-info/SOURCES.txt
+scmodels.egg-info/dependency_links.txt
+scmodels.egg-info/not-zip-safe
+scmodels.egg-info/requires.txt
+scmodels.egg-info/top_level.txt
+test/test_scm.py
