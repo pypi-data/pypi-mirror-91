@@ -1,0 +1,11 @@
+django_css_inline/__init__.py,sha256=20WXmP-8uRKLC6tCBOjd6SVNH9YsURFUuBiRy0Lkpws,68
+django_css_inline/apps.py,sha256=yh7LGs7au6zKFUKgSfXTaYFOrl33Fq9cev6RWjRqXFc,146
+django_css_inline/exceptions.py,sha256=Voo5oWaMoFMkFF5ieb9eL4-JmQS1QytFSbg23QgC6xw,468
+django_css_inline/templatetags/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_css_inline/templatetags/css_inline.py,sha256=K4QSklmRAFy3eaRg5dL5WGC_KLRctQ7N4n6oxVVmzFU,2451
+django_css_inline/tests/__init__.py,sha256=403VUmohUsEPppTc6zAqTIS2UzFgqICNu1HcsqZv6J0,1088
+django_css_inline-0.0.2.dist-info/LICENSE,sha256=4cCtcomD2KVzNeUs8QZPGv_R1FQXPYzr0-2LSnK0hwQ,35121
+django_css_inline-0.0.2.dist-info/METADATA,sha256=cJOhqmoYttl4NbMVv7l17EHf7uFTaejgwaXjyJopMnc,2182
+django_css_inline-0.0.2.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+django_css_inline-0.0.2.dist-info/top_level.txt,sha256=3zjaHFYq0H_TL8g0D0Ecsh4bEz5E2fHlCXLEyc3ElNg,18
+django_css_inline-0.0.2.dist-info/RECORD,,
