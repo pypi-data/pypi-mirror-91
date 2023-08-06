@@ -1,0 +1,13 @@
+README.md
+setup.cfg
+setup.py
+weaklabels/WLanalyzer.py
+weaklabels/WLbinclassifier.py
+weaklabels/WLclassifier.py
+weaklabels/WLweakener.py
+weaklabels/__init__.py
+weaklabels.egg-info/PKG-INFO
+weaklabels.egg-info/SOURCES.txt
+weaklabels.egg-info/dependency_links.txt
+weaklabels.egg-info/requires.txt
+weaklabels.egg-info/top_level.txt
