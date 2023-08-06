@@ -1,0 +1,11 @@
+tfmv/__init__.py,sha256=SXFu8BLLE2sL2U5v44mv8OyXRaEKmQNl5a_1d9zVVm4,33
+tfmv/client.py,sha256=spTKlGw8p2JoBahJu55I0IAlGXf4Ug6OJisaRvwjKgg,1741
+tfmv/error.py,sha256=cbMvWOwqozVCQ41j8ATHxleEOSiMIu777xscEUGU3a8,261
+tfmv/main.py,sha256=Y0ODPmJH6t1QY8fWenslr_F2uy5SqKm6zjgvyQOTMYE,4193
+tfmv/state.py,sha256=KEkUNqAccEGQNAEFmkKImJIYsCSA_AUhh3eVS39rzyo,3618
+tfmv-1.1.dist-info/LICENCE,sha256=ACwmltkrXIz5VsEQcrqljq-fat6ZXAMepjXGoe40KtE,1069
+tfmv-1.1.dist-info/METADATA,sha256=9Ep7NpTRLdEw5J3EKvOMMuWTdhM7wKbddWnRoWNvZj4,1640
+tfmv-1.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+tfmv-1.1.dist-info/entry_points.txt,sha256=gSUKYJOhAohd_QXqCkr4JEnhvhyFsceosH-nPvIe9Dc,57
+tfmv-1.1.dist-info/top_level.txt,sha256=GGgaTBgVmkGU6cQQEryv8EhB_e_Sx3aGumkieVn7NPM,5
+tfmv-1.1.dist-info/RECORD,,
