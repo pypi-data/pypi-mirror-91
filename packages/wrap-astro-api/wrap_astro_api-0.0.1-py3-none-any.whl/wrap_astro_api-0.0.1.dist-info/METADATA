@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: wrap-astro-api
+Version: 0.0.1
+Summary: Python wrapper for Astro Archive web API
+Home-page: https://github.com/pypa/sampleproject
+Author: S. Pothier
+Author-email: pothier@noao.edu
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# wrap-api
+Wrap the NOIRLab Astro Data Archive web-service API to make it simple
+to use within python.
+
+**This code is provide AS IS.**  Some of the code is provided by users
+(possibly modified by NOIRLab staff).
+
+
+
+
