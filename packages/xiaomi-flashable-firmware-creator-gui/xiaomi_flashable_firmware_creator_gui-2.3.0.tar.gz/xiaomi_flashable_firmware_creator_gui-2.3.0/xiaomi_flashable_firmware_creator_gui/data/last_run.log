@@ -1,0 +1,8 @@
+(13-Jan-21 20:57:01) - root - INFO - Language en_US loaded
+(13-Jan-21 20:57:07) - root - INFO - File mocked_miui_HMNote5_V11.0.2.0.PEICNXM_918af93cae_9.0.zip is selected
+(13-Jan-21 20:57:09) - root - INFO - Selected process (Firmware)
+(13-Jan-21 20:57:09) - root - INFO - Starting extract job
+(13-Jan-21 20:57:09) - root - INFO - Unzipping mocked_miui_HMNote5_V11.0.2.0.PEICNXM_918af93cae_9.0.zip
+(13-Jan-21 20:57:09) - root - INFO - Creating updater-script
+(13-Jan-21 20:57:09) - root - INFO - Creating output zip
+(13-Jan-21 20:57:10) - root - INFO - Done
