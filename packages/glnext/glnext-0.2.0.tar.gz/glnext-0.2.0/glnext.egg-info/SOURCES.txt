@@ -1,0 +1,10 @@
+LICENSE
+MANIFEST.in
+README.md
+glnext.cpp
+setup.py
+./glnext.cpp
+glnext.egg-info/PKG-INFO
+glnext.egg-info/SOURCES.txt
+glnext.egg-info/dependency_links.txt
+glnext.egg-info/top_level.txt
