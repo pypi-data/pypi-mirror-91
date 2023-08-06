@@ -1,0 +1,7 @@
+Metadata-Version: 1.1
+Name: ipfspod
+Version: 0.1.0
+Summary: Publish audio, video, or text podcasts on IPFS without centralized hosting 
+Home-page: https://github.com/SeanTater/ipfspod
+Author: Sean Gallagher
+Author-email: stgallag@gmail.com
