@@ -1,0 +1,12 @@
+Metadata-Version: 1.1
+Name: transformers-domain-adaptation
+Version: 0.3.0a2
+Summary: Adapt Transformer-based language models to new text domains
+Home-page: https://github.com/georgianpartners/NLP-Domain-Adaptation
+Author: Christopher Tee
+Author-email: chris@georgian.io
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
