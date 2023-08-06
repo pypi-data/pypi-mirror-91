@@ -1,0 +1,12 @@
+pymed/__init__.py,sha256=BstwQUQEB5M5zjywDQDCJziA7Zw3tikHlScFgnDxupc,94
+pymed/api.py,sha256=RZ8VKQJoOUtTUgLO97R6w9vPh3C-olaKRl8JcVXnqFA,8702
+pymed/article.py,sha256=yu1x7YW9lkYRgNPe0NQiAzBip58bz-4IUzHXY2ketoE,6293
+pymed/book.py,sha256=Sm50_UJPffnLrU4iCsjt-a3Wl81cVLtUa0_jDdXxJB4,5598
+pymed/helpers.py,sha256=suiIikY6q4ORyoI-306QrQsLxX_7srB1a1fLAx_GZ-M,1458
+pymed/version.py,sha256=ruRHBBSJYzhVUkxKgu4vXQuIBCXnY2HI_-ABT3KHk8I,23
+pymed_iplweb-0.8.10.dist-info/AUTHORS.txt,sha256=ZJMAZG7YCs-PnV52grxFQJKpPODO1uhvyo3gVieC4sU,114
+pymed_iplweb-0.8.10.dist-info/LICENCE,sha256=0urCr9FnbXuQQm5Rz_OnTs87aREzZpHOlwJ3rEJIIdI,1127
+pymed_iplweb-0.8.10.dist-info/METADATA,sha256=xL6kb5hPdid41YUmjqA8ohwVfUR6MqT4s0KUPrL9K5w,2951
+pymed_iplweb-0.8.10.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+pymed_iplweb-0.8.10.dist-info/top_level.txt,sha256=KF8yE1-BDbUrDlO1bj8hDYkpQQZBtYxMdWXxa6e2TnQ,6
+pymed_iplweb-0.8.10.dist-info/RECORD,,
