@@ -1,0 +1,14 @@
+LupSeat-1.0.0.data/scripts/lupseat,sha256=sb6dAlaC8u_fVR6i9W6qXUm0Uy-CTnpwr47jYPN9DRo,699
+models/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+models/assign.py,sha256=U9ldhsXIdKXQfQeRpGBtRKJZHN3rNWiOTH1DU-2DoVM,11150
+models/eval.py,sha256=RiAn6I12rvsYgQOTu3n29TuS8lXBuUHgz2PDwE0dJts,587
+models/fsave.py,sha256=_b8pJO_9C5E9FuMIHtimvp4508S_KdxuS-uVn0qiReo,3101
+models/parser.py,sha256=2F3HGmmLQWyindd7GxnjL4QPddwL0VTkNoYlEL-cFWw,1832
+models/room.py,sha256=uGu4n2_NKqKj3Rg_PRJc9HLkFd_w85yDPm20MN1zCUA,9921
+models/seat.py,sha256=I3O8EbGXv_ZKiroZvcKXJ3grxmIYt-WVs-q4hZALkRQ,1537
+models/student.py,sha256=i1DtwhHZwkRT_ZBz8h0j2o8T10gd0cjwmrXyuZiNViM,3199
+LupSeat-1.0.0.dist-info/LICENSE,sha256=R8f2PJm0aQrq3JtnXDK7hZdg9mIWwgCdnTU-Vtjassc,1086
+LupSeat-1.0.0.dist-info/METADATA,sha256=1_fXL-gL40TGf5XmL7LrelSuqL1FOezniVrs763NSiI,1994
+LupSeat-1.0.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+LupSeat-1.0.0.dist-info/top_level.txt,sha256=vH5ByFtkqB2bXlXOuK5zaaM_1GFEE9six0KgGIdPaU0,7
+LupSeat-1.0.0.dist-info/RECORD,,
