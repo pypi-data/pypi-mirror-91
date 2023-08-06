@@ -1,0 +1,22 @@
+Metadata-Version: 1.1
+Name: pymongo_cursor_json_encoder
+Version: 0.4.0
+Summary: Convert pymongo Cursor objects to JSON
+Home-page: https://github.com/rogervila/pymongo_cursor_json_encoder
+Author: Roger Vilà
+Author-email: rogervila@me.com
+License: MIT
+Download-URL: https://github.com/rogervila/pymongo_cursor_json_encoder/archive/0.4.0.tar.gz
+Description: # PyMongo Cursor JSON Encoder
+        
+        Convert pymongo Cursor objects to JSON
+        
+        Original code: https://stackoverflow.com/a/51773611/3333549
+        
+Keywords: pymongo,cursor,json,encoder
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.9
