@@ -1,0 +1,1 @@
+This package provides earthquakes in Iran and adjacent areas' data from Iranian Seismological Center.

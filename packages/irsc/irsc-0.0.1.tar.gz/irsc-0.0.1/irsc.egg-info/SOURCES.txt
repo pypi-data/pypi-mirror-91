@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENSE.txt
+MANIFEST.in
+README.txt
+setup.py
+irsc/__init__.py
+irsc.egg-info/PKG-INFO
+irsc.egg-info/SOURCES.txt
+irsc.egg-info/dependency_links.txt
+irsc.egg-info/top_level.txt
