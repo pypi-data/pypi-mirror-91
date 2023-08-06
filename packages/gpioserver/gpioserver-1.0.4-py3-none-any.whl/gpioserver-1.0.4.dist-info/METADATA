@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: gpioserver
+Version: 1.0.4
+Summary: A Python library to start a gpio server for your raspberry pi.
+Home-page: UNKNOWN
+Author: Riccardo Di Virgilio
+License: UNKNOWN
+Keywords: Raspberry PI,GPIO,aiohttp,api
+Platform: UNKNOWN
+Requires-Python: >=3.5.3
+Requires-Dist: aiohttp (>=3.5.4)
+
+UNKNOWN
+
+
