@@ -1,0 +1,8 @@
+README.md
+setup.py
+fastapi_pypi_proxy/__init__.py
+fastapi_pypi_proxy.egg-info/PKG-INFO
+fastapi_pypi_proxy.egg-info/SOURCES.txt
+fastapi_pypi_proxy.egg-info/dependency_links.txt
+fastapi_pypi_proxy.egg-info/requires.txt
+fastapi_pypi_proxy.egg-info/top_level.txt
