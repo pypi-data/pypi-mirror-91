@@ -1,0 +1,11 @@
+README.md
+setup.py
+tameris/__init__.py
+tameris/client.py
+tameris/event_handler.py
+tameris/extensions.py
+tameris/request_handler.py
+tameris.egg-info/PKG-INFO
+tameris.egg-info/SOURCES.txt
+tameris.egg-info/dependency_links.txt
+tameris.egg-info/top_level.txt
