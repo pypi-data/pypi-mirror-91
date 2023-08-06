@@ -1,0 +1,11 @@
+README.md
+setup.py
+UltimateChemCalc/UChemCalc.py
+UltimateChemCalc/__init__.py
+UltimateChemCalc/balance.py
+UltimateChemCalc/conversionM.py
+UltimateChemCalc.egg-info/PKG-INFO
+UltimateChemCalc.egg-info/SOURCES.txt
+UltimateChemCalc.egg-info/dependency_links.txt
+UltimateChemCalc.egg-info/requires.txt
+UltimateChemCalc.egg-info/top_level.txt
