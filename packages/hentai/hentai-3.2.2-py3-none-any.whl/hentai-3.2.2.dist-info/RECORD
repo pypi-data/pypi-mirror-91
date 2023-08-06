@@ -1,0 +1,14 @@
+hentai/__init__.py,sha256=q4rmkaGsgsLE42DUeeTzCc9YKt9lbnsFOVABmEIX9Fc,48
+hentai/hentai.py,sha256=N6HdwHrasOi58oz4zZ8x3nMQ2IEwpulDSueVjSMbKgE,30670
+hentai/data/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+hentai/data/tags.db,sha256=tqPujv_AfiDqUQHr60R4LjJo4KLRPlVFO8qdcIp1YSk,4214784
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_hentai.py,sha256=6_gcT__q8u1Jj-pMjrteblAHbwz5gaPaJSVdPAAUxZA,5754
+tests/test_requesthandler.py,sha256=LBJRi6KPnm3sWTR1CZz4ZDPYk-lrfys6dt3dZNZ8PMc,371
+tests/test_tag.py,sha256=9cjTHpll9mpDwHaLCJMmX14V1mp6ecrY1mgeUDPYJGk,2151
+tests/test_utils.py,sha256=mgspeUhJ7rWEGgcBILJqRWeNuEgG9pvDgEobEfIpEy8,6460
+hentai-3.2.2.dist-info/LICENSE,sha256=IwGE9guuL-ryRPEKi6wFPI_zOhg7zDZbTYuHbSt_SAk,35823
+hentai-3.2.2.dist-info/METADATA,sha256=56guUDjjLiTQMfNx_i6a1ElM3x-WmRq-nZ0Nn8VwNC8,6921
+hentai-3.2.2.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+hentai-3.2.2.dist-info/top_level.txt,sha256=BggSlxcdYthm5ztu2TvTcrv_4l12PktkXvYjLidBdJI,13
+hentai-3.2.2.dist-info/RECORD,,
