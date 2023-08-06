@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: untitled-job-runner
+Version: 0.0.1
+Summary: Untitled Job Runner
+Home-page: https://gitlab.com/digital-observatory/untitled-job-runner
+Author: QUT Digital Observatory
+Author-email: digitalobservatory@qut.edu.au
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: Pebble (>=4.5.3)
+Provides-Extra: development
+Requires-Dist: nox ; extra == 'development'
+
+# untitled job runner
+
+It runs things!
+
