@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: PyFuzzyBool
+Version: 0.1.0
+Summary: Additional boolean values: KindaTrue, KindaFalse, VeryTrue, and VeryFalse. (This is a joke project.)
+Home-page: https://github.com/asweigart/pyfuzzybool
+Author: Al Sweigart
+Author-email: al@inventwithpython.com
+License: MIT
+Description: PyFuzzyBool
+        ======
+        
+        Additional boolean values: KindaTrue, KindaFalse, VeryTrue, and VeryFalse. (This is a joke project.)
+        
+        Installation
+        ------------
+        
+        To install with pip, run:
+        
+            pip install pyfuzzybool
+        
+        Quickstart Guide
+        ----------------
+        
+        TODO - fill this in later
+        
+        Contribute
+        ----------
+        
+        If you'd like to contribute to PyFuzzyBool, check out https://github.com/asweigart/pyfuzzybool
+        
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown

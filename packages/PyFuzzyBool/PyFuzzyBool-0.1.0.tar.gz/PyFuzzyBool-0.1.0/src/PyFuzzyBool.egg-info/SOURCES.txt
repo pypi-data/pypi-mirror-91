@@ -1,0 +1,9 @@
+README.md
+pyproject.toml
+setup.py
+src/PyFuzzyBool.egg-info/PKG-INFO
+src/PyFuzzyBool.egg-info/SOURCES.txt
+src/PyFuzzyBool.egg-info/dependency_links.txt
+src/PyFuzzyBool.egg-info/top_level.txt
+src/pyfuzzybool/__init__.py
+src/pyfuzzybool/__main__.py
