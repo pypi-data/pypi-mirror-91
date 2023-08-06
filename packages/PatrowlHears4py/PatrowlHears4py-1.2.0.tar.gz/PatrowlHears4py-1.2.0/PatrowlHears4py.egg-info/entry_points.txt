@@ -1,0 +1,4 @@
+
+        [console_scripts]
+        hears=patrowlhears4py.cli:main
+    
