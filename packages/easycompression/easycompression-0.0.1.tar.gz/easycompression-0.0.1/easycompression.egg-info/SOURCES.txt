@@ -1,0 +1,7 @@
+README.md
+setup.py
+easycompression/__init__.py
+easycompression.egg-info/PKG-INFO
+easycompression.egg-info/SOURCES.txt
+easycompression.egg-info/dependency_links.txt
+easycompression.egg-info/top_level.txt
