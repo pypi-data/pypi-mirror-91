@@ -1,0 +1,9 @@
+setup.py
+matrix_package_krp/Matrix.py
+matrix_package_krp/__init__.py
+matrix_package_krp/python_code.py
+matrix_package_krp.egg-info/PKG-INFO
+matrix_package_krp.egg-info/SOURCES.txt
+matrix_package_krp.egg-info/dependency_links.txt
+matrix_package_krp.egg-info/not-zip-safe
+matrix_package_krp.egg-info/top_level.txt
