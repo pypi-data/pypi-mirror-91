@@ -1,0 +1,14 @@
+dbfpy3/__init__.py,sha256=1TVtgch5tXRUnNJY73jT2ve6F8ZnLEfCWDqjXXoBPtE,200
+dbfpy3/code_page.py,sha256=xCkdMKYx3v6wQLM5Fs25m4YCNSV3pQYqMJRvhSlyCyw,3907
+dbfpy3/dbf.py,sha256=ryiJ6g2IWmq9Q73QkRD60ddWPWQD4wWpO8E7QA-VuAo,7842
+dbfpy3/dbfpy3.py,sha256=h0hwdogXGFqerm-5ZPeT-irPn91pCcQRjiHThXsRzEk,19
+dbfpy3/fields.py,sha256=d5dSGWWgiZ_lS0JVg6XEJR7G0GbVB18huowTVm3Usmg,15383
+dbfpy3/header.py,sha256=qy_f4YtzEAsDUSufVQTSxf93svV56FfvCUP9qg4ubAI,12528
+dbfpy3/memo.py,sha256=corm31qIOarj7wiRCtrO0V34Np_JelkCsRMzxs9oDyM,5462
+dbfpy3/record.py,sha256=1kmUxtCqnIiqtAGuhphGlzupLEOLV7fJnzJ2DYSqDvc,5722
+dbfpy3/utils.py,sha256=K1VeVmbZ0tZiFrlIyRQRusFWj-2ZSDIudPSDhEcVlEI,4766
+dbfpy3-4.1.3.dist-info/LICENSE,sha256=37BZr4rbHXDOoHoJrCRVn-ElrYS6OmhOK1gPsH6I2Gs,1067
+dbfpy3-4.1.3.dist-info/METADATA,sha256=q4RoTnxqbgME7PVLAt8Cg71n_OAzlusSldvZAC86cbs,1584
+dbfpy3-4.1.3.dist-info/WHEEL,sha256=Z-nyYpwrcSqxfdux5Mbn_DQ525iP7J2DG3JgGvOYyTQ,110
+dbfpy3-4.1.3.dist-info/top_level.txt,sha256=iBl0acCS77QX8Pe04i5XZL94Dp7AsohMnlL2xxBjSMg,7
+dbfpy3-4.1.3.dist-info/RECORD,,
