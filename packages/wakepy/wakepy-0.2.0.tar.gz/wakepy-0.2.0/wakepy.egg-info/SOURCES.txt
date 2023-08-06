@@ -1,0 +1,6 @@
+README.md
+setup.py
+wakepy.egg-info/PKG-INFO
+wakepy.egg-info/SOURCES.txt
+wakepy.egg-info/dependency_links.txt
+wakepy.egg-info/top_level.txt
