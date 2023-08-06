@@ -1,0 +1,14 @@
+Metadata-Version: 1.1
+Name: broadbean
+Version: 0.10.0
+Summary: Package for easily generating and manipulating signal pulses. Developed for use with qubits in the quantum computing labs of Copenhagen, Delft, and Sydney, but should be generally useable.
+Home-page: https://github.com/QCoDeS/broadbean
+Author: William H.P. Nielsen
+Author-email: William.Nielsen@microsoft.com
+License: MIT
+Description: UNKNOWN
+Keywords: Pulsebuilding signal processing arbitrary waveforms
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python :: 3.6
