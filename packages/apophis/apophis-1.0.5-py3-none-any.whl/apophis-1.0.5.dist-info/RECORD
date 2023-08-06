@@ -1,0 +1,10 @@
+apophis/__init__.py,sha256=x1M8pGDudbcjP9AWoHYNIcFfsPH6aNXBwAoW2S2SnEE,72
+apophis/apophis.py,sha256=pptij6MaAjFgxeZQzcZgx_bYM8l64CSkJFUTCnW1kVM,7794
+apophis/configuration.py,sha256=_i4mUB78g4KSks10GK7DKMS4FhDk78463MUqOcqdjs8,197
+apophis/console.py,sha256=QdPeEgJ7izP8lXRWkVvJ6Em1GiwFmge0FvMsuud3QmA,2140
+apophis/exchange.py,sha256=ISiTJihCHxy1zIOzWNHKhjZik_McPBsQlNcMQ26ZYFg,14814
+apophis-1.0.5.dist-info/entry_points.txt,sha256=wYGaJg70Yg_T-teghJVpP3tcz3WV_YVIPhw5tcEfkYE,47
+apophis-1.0.5.dist-info/LICENSE,sha256=1Pd3qHwQXEFAYddw-X5v0nth-Wl_3YtVuq3Fu6xDv4c,1069
+apophis-1.0.5.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+apophis-1.0.5.dist-info/METADATA,sha256=rqTHufMixBDXgOTaCJQKlFHQMDq_MccescjyDLroTtk,4049
+apophis-1.0.5.dist-info/RECORD,,
