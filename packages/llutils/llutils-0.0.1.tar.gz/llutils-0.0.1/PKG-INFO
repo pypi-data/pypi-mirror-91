@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: llutils
+Version: 0.0.1
+Summary: A collection of functions for various purposes
+Home-page: https://github.com/LukasLeindals/llutils
+Author-email: luke.leindance@gmail.com
+License: UNKNOWN
+Description: # llutils
+        A collection of functions for various purposes
+        
+Keywords: utils
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3 :: Only
+Description-Content-Type: text/markdown
