@@ -1,0 +1,49 @@
+Metadata-Version: 2.1
+Name: Layback
+Version: 0.0.7
+Summary: Creates an animated GIF of a given URLs history.
+Home-page: http://github.com/scottmey/layback
+Author: Scott Meyers
+Author-email: scottmey@gmail.com
+License: MIT
+Keywords: wayback machine archive mementos
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+Requires-Dist: imageio
+Requires-Dist: numpy
+Requires-Dist: selenium
+
+# Layback Machine
+
+Creates an animated GIF from a given URLs history via the Wayback Machine. Depending on the age of your site, it may take some considerable time to process.
+
+```sh
+layback -url example.com -d /Downloads/
+```
+
+## Dependencies
+
+[PhantomJS](http://phantomjs.org/), [Selenium](https://pypi.python.org/pypi/selenium), [imageio](https://pypi.python.org/pypi/imageio)
+
+## Installation
+
+Use [pip](https://pypi.python.org/pypi/pip):
+```
+pip install layback
+```
+
+## Usage
+
+```
+layback [-h] -url URL -d D
+
+optional arguments:
+  -h, --help  show this help message and exit
+  -url URL    the URL of the resource you want to download.
+  -d D        directory to save the files.
+```
+
