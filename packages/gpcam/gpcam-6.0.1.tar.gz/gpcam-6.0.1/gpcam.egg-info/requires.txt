@@ -1,0 +1,13 @@
+wheel
+numpy
+scipy
+matplotlib
+numba
+torch
+pandas
+ophyd
+dask
+distributed
+zmq
+fvgp
+hgdl
