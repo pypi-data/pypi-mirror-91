@@ -1,0 +1,9 @@
+beautifulsoup4
+numpy
+graphviz
+matplotlib
+mosestokenizer
+requests
+nltk
+torch
+cached_property
