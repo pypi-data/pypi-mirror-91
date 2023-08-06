@@ -1,0 +1,10 @@
+README.md
+setup.py
+pegasus_installer/__init__.py
+pegasus_installer/__main__.py
+pegasus_installer.egg-info/PKG-INFO
+pegasus_installer.egg-info/SOURCES.txt
+pegasus_installer.egg-info/dependency_links.txt
+pegasus_installer.egg-info/entry_points.txt
+pegasus_installer.egg-info/requires.txt
+pegasus_installer.egg-info/top_level.txt
