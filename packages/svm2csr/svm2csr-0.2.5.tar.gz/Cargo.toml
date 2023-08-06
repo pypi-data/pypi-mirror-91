@@ -1,0 +1,24 @@
+[package]
+name = "svm2csr"
+version = "0.2.5"
+authors = ["Vladimir Feinberg <vladimir.feinberg@gmail.com>"]
+edition = "2018"
+
+[lib]
+name = "svm2csr"
+crate-type = ["cdylib"]
+
+[dependencies]
+byte-slice-cast = "1.0"
+memchr = "2.3"
+rayon = "1.5"
+
+[dependencies.pyo3]
+version = "0.13"
+features = ["extension-module"]
+
+[package.metadata.maturin]
+maintainer = "Vladimir Feinberg"
+maintainer-email = "vladimir.feinberg@gmail.com"
+project-url = { github = "https://github.com/vlad17/svm2csr" }
+
