@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+setup.py
+seleniumHelper/__init__.py
+seleniumHelper.egg-info/PKG-INFO
+seleniumHelper.egg-info/SOURCES.txt
+seleniumHelper.egg-info/dependency_links.txt
+seleniumHelper.egg-info/top_level.txt
