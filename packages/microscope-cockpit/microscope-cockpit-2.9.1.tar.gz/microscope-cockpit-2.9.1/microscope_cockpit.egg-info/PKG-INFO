@@ -1,0 +1,32 @@
+Metadata-Version: 1.2
+Name: microscope-cockpit
+Version: 2.9.1
+Summary: Hardware agnostic microscope user interface
+Home-page: https://github.com/MicronOxford/cockpit
+Author: See source for a complete list of contributors
+Author-email:  
+License: GPL-3.0+
+Description: Cockpit is a microscope graphical user interface.  It is a flexible
+        and easy to extend platform aimed at life scientists using bespoke
+        microscopes.  Its main features are:
+        
+        - Easy to use and extend by life scientists.  Cockpit is completely
+          written in Python and meant to be extended by the user.
+        
+        - Independent of the actual devices being used.  Cockpit uses Python's
+          `Microscope package <https://www.python-microscope.org>`__ to
+          control the devices.  The graphical interface and experiments
+          automatically adjust to the existing devices.
+        
+        - Very fast device control and time precision.  During experiments,
+          devices are controlled via hardware signals.
+        
+        - Cross Platform.  Cockpit can run on GNU/Linux, Mac, and Windows.
+        
+        - Cockpit is free and open source software, released under the GPL.
+        
+Platform: UNKNOWN
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Requires-Python: >=3.5
