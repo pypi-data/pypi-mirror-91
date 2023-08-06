@@ -1,0 +1,10 @@
+README.md
+setup.py
+app/__init__.py
+app/hello.py
+devops_challenge_vchslav.egg-info/PKG-INFO
+devops_challenge_vchslav.egg-info/SOURCES.txt
+devops_challenge_vchslav.egg-info/dependency_links.txt
+devops_challenge_vchslav.egg-info/top_level.txt
+tests/__init__.py
+tests/test_hello_world.py
