@@ -1,0 +1,22 @@
+{% load cms_tags i18n extra_tags %}
+
+{% spaceless %}
+{% if course_runs %}
+<ul class="course-detail__run-list">
+    {% for run in course_runs %}
+        {% render_model_block run %}
+            <li>
+                {% if course != run.direct_course %}
+                    <a href="{{ run.direct_course.extended_object.get_absolute_url }}">
+                {% endif %}
+                {% blocktrans with title=run.title|default:"" start=run.start|date:'DATE_FORMAT'|default:'...' end=run.end|date:'DATE_FORMAT'|default:'...' asvar run_title %}{{ title }} from {{ start }} to {{ end }}{% endblocktrans %}
+                {{ run_title.strip|capfirst }}
+                {% if course != run.direct_course %}
+                    </a>
+                {% endif %}
+            </li>
+        {% endrender_model_block %}
+    {% endfor %}
+</ul>
+{% endif %}
+{% endspaceless %}
