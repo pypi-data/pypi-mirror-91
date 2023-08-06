@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: celery-tools
+Version: 0.0.1
+Summary: celery tools
+Home-page: https://github.com/ztj1993/py-celery-tools
+Author: ZhangTianJie
+Author-email: ztj1993@gmail.com
+License: MIT License
+Keywords: fastapi celery
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: fastapi
+Requires-Dist: celery
+
+# Celery 工具包
+
+## 说明
+这是一个 Celery 工具包，主要用于快速开发 Celery 项目。
+
+## 安装
+```
+pip install celery-tools
+```
+
+
