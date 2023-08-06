@@ -1,0 +1,10 @@
+open_close_mixin/__about__.py,sha256=9BAdXCNc8ebONkWCN8K-SeBS3QZX34kIzH1o1qfhQv8,645
+open_close_mixin/__init__.py,sha256=FTuinjT7AoVVRIdVj_U1hwrX1euyLe8y5apFgKwuvS8,78
+open_close_mixin/constants.py,sha256=vGuRHPlyhye8Os-HbB676pev0OveuPkv2XhqQ8WTLQ8,50
+open_close_mixin/decorators.py,sha256=25N-YFnfW9xk2hhVFfsBEzL9U0l23nshDJqKDxCllx0,2169
+open_close_mixin/open_close_mixin.py,sha256=lyIKfQPC6Okm1QUESWXSqcQt0qb0sOxqhDXaNKnDpXM,2662
+open_close_mixin-1.0.0.dist-info/LICENSE,sha256=vfbC_ncnMN_gywRYnEPls0V-kXdDxvq6nCNb6K6dAOo,1066
+open_close_mixin-1.0.0.dist-info/METADATA,sha256=Yt3mR_4h7oTL6oAAiLiJnsjdeQEonWc7upj_Hb__uTY,2120
+open_close_mixin-1.0.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+open_close_mixin-1.0.0.dist-info/top_level.txt,sha256=kGxb0FpKvXMoqsBE2oVHQQ1WaYhA4602QX6uF8dnNLk,17
+open_close_mixin-1.0.0.dist-info/RECORD,,
