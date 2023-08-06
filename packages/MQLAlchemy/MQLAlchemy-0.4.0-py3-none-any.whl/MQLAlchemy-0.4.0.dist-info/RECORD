@@ -1,0 +1,8 @@
+mqlalchemy/__init__.py,sha256=xky1hM_2pyE3LAjdMWVDzd5cgQgiKU9fCnYbHQELZiU,51508
+mqlalchemy/utils.py,sha256=xIo3kxKrILeW-h55JH42nLyCaDltdrf9-YEnf001W1k,613
+tests/__init__.py,sha256=t1NKpSxM5Wqq8bIMXnhD4Y9aZr41XRQkDPPw8oX0GQg,28528
+tests/models.py,sha256=lH5BjvK1dCu8z0KQZv8B1WmuP10ZweY5Ty9GlaTebv4,6766
+MQLAlchemy-0.4.0.dist-info/METADATA,sha256=I5c6LjBTfolNVmOrlftWx1Ru_Zv-m0mEUDQYZgs6rro,1050
+MQLAlchemy-0.4.0.dist-info/WHEEL,sha256=D1Wh14kWDxPnrM-5t_6UCB-UuQNrEODtRa3vF4OsvQY,97
+MQLAlchemy-0.4.0.dist-info/top_level.txt,sha256=3WwTQ8udUjdoSsMBLgBCourH00EV9KU00v4U40SkGdc,17
+MQLAlchemy-0.4.0.dist-info/RECORD,,
