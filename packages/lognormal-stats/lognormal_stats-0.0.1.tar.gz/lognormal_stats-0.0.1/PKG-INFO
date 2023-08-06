@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: lognormal_stats
+Version: 0.0.1
+Summary: lognormal distribution statistics
+Home-page: https://github.com/contribu/lognormal_stats
+Author: Shin Fukuse
+License: MIT
+Description: ## lognormal_stats
+        
+        lognormal_stats is a library for lognormal distribution statistics.
+        
+        ## Example
+        
+        todo
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Programming Language :: Python
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: POSIX
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
