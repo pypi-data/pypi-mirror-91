@@ -1,0 +1,5 @@
+transformers
+TextBlob
+tensorflow>=2.0
+importlib_resources
+pandas
