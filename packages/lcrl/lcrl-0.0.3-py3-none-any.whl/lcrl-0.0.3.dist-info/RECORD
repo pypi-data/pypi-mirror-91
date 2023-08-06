@@ -1,0 +1,11 @@
+automata/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+automata/ldba.py,sha256=fOsO3vq0XafJDzMoLoYUL7JBPAdoMbYoKnrCsx8IIPo,5821
+environments/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+environments/slippery_grid.py,sha256=2zg5KSAGcSgTg-oiXHH1C34W-4vfbdMS2stU1vYeet0,3856
+scripts/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+scripts/lcrl.py,sha256=ZIlnYypnMqfN5JNldLKCyEqycAoH6MEctu8TBypzAOw,8246
+lcrl-0.0.3.dist-info/LICENSE,sha256=AIDkidT0zJ8yCstMKuNoijkT_x5iE7KUcnZ_xt6roq8,1130
+lcrl-0.0.3.dist-info/METADATA,sha256=I5dR6KFFhI5kaMRxtu1zMpCwvR6HMDzsT49Aa-Ze13g,5982
+lcrl-0.0.3.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+lcrl-0.0.3.dist-info/top_level.txt,sha256=pjLkDWtapvBSbkK-D1oJ8cJ4MF1jVHLU8HG-aAypBck,30
+lcrl-0.0.3.dist-info/RECORD,,
