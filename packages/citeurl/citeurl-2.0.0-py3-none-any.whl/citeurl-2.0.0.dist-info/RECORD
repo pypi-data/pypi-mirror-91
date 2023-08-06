@@ -1,0 +1,10 @@
+citeurl/__init__.py,sha256=Z-NEL4sVH_mjwYbdXE8EEjCX631K_HBKD1nSuOy1Cy0,8886
+citeurl/__main__.py,sha256=8nZFzc-my6c9gggyQ3pNROj3ISrB4f6LDM918JTh5vQ,2825
+citeurl/default-schemas.yaml,sha256=1tII7IOI0fy4mbLKOa_Lhi0zq2JCYeVcTp4YoJVBRSg,25516
+citeurl/mdx.py,sha256=0ZjO8zeELhzluDNyn6ozRznf0kX6ZEnjuTi1sNnclnQ,2426
+citeurl-2.0.0.dist-info/LICENSE.md,sha256=T6b3vscLORAeVZWYfYDSVFuKq1X-gA6wOQsuYJfXtiU,1065
+citeurl-2.0.0.dist-info/METADATA,sha256=n6TlanY8AQhCdRF0TMrtFmgA5IElgS8K7dCEYk_Zt84,13705
+citeurl-2.0.0.dist-info/WHEEL,sha256=gm79cMopkncyn0iSnI0vQNiDJ8t9on0H4_iz-CrpXMk,92
+citeurl-2.0.0.dist-info/entry_points.txt,sha256=KOK-5CFtqpXMOALnLsh9QdqrZSJOpBPvlMxuUjMSlE0,113
+citeurl-2.0.0.dist-info/top_level.txt,sha256=WgpwPvgcGWJgfkw4r3EKesIT33CQEKoU50D4InqJams,8
+citeurl-2.0.0.dist-info/RECORD,,
