@@ -1,0 +1,3 @@
+[console_scripts]
+irrgenerator = irrgenerator.irrgenerator:main
+
