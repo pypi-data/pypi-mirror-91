@@ -1,0 +1,34 @@
+#!/usr/bin/env python3
+
+from funtoo.merge.tree import GitTree
+from funtoo.merge.steps import SyncFromTree
+from merge_utils.hub import Hub
+
+# This function updates the gentoo-staging tree with all the latest gentoo updates:
+
+
+async def gentoo_staging_update():
+	gentoo_staging_w = GitTree(
+		"gentoo-staging", "master", url=hub.MERGE_CONFIG.gentoo_staging, root=hub.MERGE_CONFIG.dest_trees + "/gentoo-staging"
+	)
+	gentoo_staging_w.initialize()
+
+	gentoo_src = GitTree("gentoo-x86", "master", "https://github.com/gentoo/gentoo.git", pull=True)
+	gentoo_src.initialize()
+
+	all_steps = [
+		SyncFromTree(
+			gentoo_src,
+			exclude=[".gitignore", "eclass/.gitignore", "metadata/.gitignore", "/metadata/cache/**", "dev-util/metro"],
+		),
+	]
+
+	await gentoo_staging_w.run(all_steps)
+	gentoo_staging_w.gitCommit(message="gentoo updates")
+
+
+if __name__ == "__main__":
+	hub = Hub()
+	hub.LOOP.run_until_complete(gentoo_staging_update())
+
+# vim: ts=4 sw=4 noet

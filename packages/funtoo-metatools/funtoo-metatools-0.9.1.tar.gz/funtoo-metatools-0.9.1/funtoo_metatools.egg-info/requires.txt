@@ -1,0 +1,11 @@
+sphinx_funtoo_theme
+Jinja2
+xmltodict
+aiodns
+aiofiles
+aiohttp
+pymongo
+tornado
+toml
+beautifulsoup4
+dict_toolbox
