@@ -1,0 +1,9 @@
+mopidy_ytmusic/__init__.py,sha256=RL9ZvCaWXF7G2RWhxWTcC5DlnXBswvABvQOW7gMC9XA,795
+mopidy_ytmusic/backend.py,sha256=6gq6cOcrDpevYF3uX7cyy_f-q_HS3-am7tBSJlQI4w4,34785
+mopidy_ytmusic/command.py,sha256=d22_nC6l9_7a769VWuvcgpBg3PqiH4JeCgRq0e404eU,1059
+mopidy_ytmusic/ext.conf,sha256=-fm_69QhPZaRYh6P2Sb0WRRbOFCNpR3c4f3SUkwbnMc,37
+mopidy_ytmusic-0.1.6.dist-info/entry_points.txt,sha256=gIXZ0cPJtlwD7zVjJO0dan0274chzRNz3ZDlNxG-My0,47
+mopidy_ytmusic-0.1.6.dist-info/LICENSE,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+mopidy_ytmusic-0.1.6.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+mopidy_ytmusic-0.1.6.dist-info/METADATA,sha256=ruaOJOz1GbDMQ5n0aD-sieGEQkGDG6Dt5J-p8tEp5Q4,652
+mopidy_ytmusic-0.1.6.dist-info/RECORD,,
