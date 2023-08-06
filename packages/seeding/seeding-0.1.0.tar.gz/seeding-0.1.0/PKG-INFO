@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: seeding
+Version: 0.1.0
+Summary: Lightweight python library for achieving deterministic random seeds
+Home-page: https://github.com/camall3n/seeding/
+Author: Cameron Allen
+Author-email: csal@brown.edu
+License: UNKNOWN
+Description: # seeding
+        Lightweight python library for achieving deterministic random seeds
+        
+        # Installation
+        
+        Currently requires Python 3
+        
+        ```
+        pip install seeding
+        ```
+        
+        # Usage
+        
+        ```
+        import random
+        import seeding
+        
+        seeding.seed(0, random)
+        ```
+        
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
