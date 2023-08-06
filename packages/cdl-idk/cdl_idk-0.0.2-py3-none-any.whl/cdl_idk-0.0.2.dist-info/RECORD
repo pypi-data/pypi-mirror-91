@@ -1,0 +1,12 @@
+idk/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+idk/_cli.py,sha256=lA_FbrjaUsNGMRrz1fPrXAbsK2RbdNRQE2MqaaxDsKE,7900
+idk/_service.py,sha256=Wgq8phvb1ubvWLPVWFLcxK3S6Q4Q7816GFoTWm4Sb_U,17
+idk/_utils.py,sha256=gWCCl8iIWuNtnqupu-JPfLNmcppKyJyvQf5OhPcxfL0,521
+idk/_version.py,sha256=QvlVh4JTl3JL7jQAja76yKtT-IvF4631ASjWY1wS6AQ,22
+idk/insight.py,sha256=ku0x57Fw57t3pRobvOlPl45a42LK8kkVduGnGZuPYEY,1344
+idk/io.py,sha256=3hK46UHFnO75e0dKni7Ya0DYJoUSS_fYrJyUlBZdKB4,470
+cdl_idk-0.0.2.dist-info/METADATA,sha256=iGJNSoh6_qShBK-uIO0oV2uw2a0nB32jfw4Y7lCwdpI,669
+cdl_idk-0.0.2.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+cdl_idk-0.0.2.dist-info/entry_points.txt,sha256=qpUEcaV6XDo0mlnnSBbIZ_RePdtwvh3LSdLMzfKHam0,39
+cdl_idk-0.0.2.dist-info/top_level.txt,sha256=KTd1F_vt-3n6m_ct4Ay4rKz8Zd0T7VqxLAqARx_CtTo,4
+cdl_idk-0.0.2.dist-info/RECORD,,
