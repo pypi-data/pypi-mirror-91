@@ -1,0 +1,10 @@
+streamlit_webrtc/SessionState.py,sha256=gfIcErDaExElV7fjS5K33Ma9idyZfx7KIXJwEIskrn8,3289
+streamlit_webrtc/__init__.py,sha256=L0ShY0TxgxW2h8JeafLFnGN-ksCe28yn5V5qccqTwnk,4105
+streamlit_webrtc/config.py,sha256=DnP0M5App61YWOmn0WhGvSa-fm54_8Zyt0CJ33n-5ZI,559
+streamlit_webrtc/receive.py,sha256=KHC44F9a5ZDmLLnSDlsY2q0X3U5IQ8z-xmbPk4I1Rsg,1544
+streamlit_webrtc/transform.py,sha256=NirGBk-0kFlZCSv2pN3SRUTGeYgIMGCus3_Ywv0Ni70,3833
+streamlit_webrtc/webrtc.py,sha256=GSerq4z23hNOEZ2kBnWZo8IJk0I-LnY9NWOk5RR4kBE,9898
+streamlit_webrtc-0.4.0.dist-info/LICENSE,sha256=pwccNHVA7r4rYofGlMU10aKEU90GLUlQr8uY80PR0NQ,1081
+streamlit_webrtc-0.4.0.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+streamlit_webrtc-0.4.0.dist-info/METADATA,sha256=Xeic73d7KoMfvd0R9YzIk5wiVmoWwPVl1wC0ijvJAHE,670
+streamlit_webrtc-0.4.0.dist-info/RECORD,,
