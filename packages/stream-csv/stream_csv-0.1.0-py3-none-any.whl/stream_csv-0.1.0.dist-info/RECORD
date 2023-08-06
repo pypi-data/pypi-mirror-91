@@ -1,0 +1,7 @@
+stream_csv/__init__.py,sha256=nYnBdt0B3A63Bh0eOFkYjQ0s_T4-cWRSltu6pOA3Fk8,92
+stream_csv/sqlalchemy.py,sha256=HccAuezv4wNPBLxWXoBLFltdTVrdCRskkbqjJHWmzHE,1335
+stream_csv/stream.py,sha256=kd1YGoDSmxeasJKPIi2DZzKox1qSYImnglqWzSigKxo,571
+stream_csv-0.1.0.dist-info/LICENSE,sha256=_2N4sMUZiaIPfRx1HDP0kDE112CKjRyKipsmj08dwvU,1076
+stream_csv-0.1.0.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+stream_csv-0.1.0.dist-info/METADATA,sha256=-Zsw09My-F1E0T3HA2hvTBbUh0NoTAItVInntOoBLcg,1923
+stream_csv-0.1.0.dist-info/RECORD,,
