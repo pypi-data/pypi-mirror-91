@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: mpl-playback
+Version: 0.0.2
+Summary: UNKNOWN
+Home-page: https://github.com/ianhi/mpl-interactions
+Author: Ian Hunt-Isaak
+Author-email: ianhuntisaak@gmail.com
+License: BSD 3-Clause
+Keywords: Matplotlib
+Platform: Linux
+Platform: Mac OS X
+Platform: Windows
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Framework :: Jupyter
+Classifier: Framework :: Matplotlib
+Description-Content-Type: text/markdown
+Requires-Dist: matplotlib (>=3.3)
+Provides-Extra: doc
+Requires-Dist: sphinx (>=1.5) ; extra == 'doc'
+Requires-Dist: sphinx-copybutton ; extra == 'doc'
+Requires-Dist: sphinx-gallery ; extra == 'doc'
+Provides-Extra: test
+Requires-Dist: black ; extra == 'test'
+
+Generate and playback recordings of user interactions with matplotlib figures.
+Also integrates with sphinx gallery to automatically embed interactions in the docs without
+needing to manually generate gifs. See https://mpl-playback.readthedocs.io/en/latest/gallery/index.html
+for an example of this in action.
+
+Example of a rendered gif:
+
+![example of rendered gif](played-back.gif)
+
+
