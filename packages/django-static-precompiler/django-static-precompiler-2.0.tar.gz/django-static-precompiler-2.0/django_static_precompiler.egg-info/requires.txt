@@ -1,0 +1,7 @@
+Django>=1.9
+
+[libsass]
+libsass
+
+[watch]
+watchdog
