@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: SNSNotifications
+Version: 0.0.1
+Summary: This module use for abstract work to send notification a cross sns provider
+Home-page: https://gitlab.com/aimesoft/libraries/snsnotifications.git
+Author: TrinhQuan
+Author-email: quantv@aimesoft.com
+License: UNKNOWN
+Download-URL: https://gitlab.com/aimesoft/libraries/snsnotifications/-/archive/master/snsnotifications-master.zip
+Description: This module use for abstract work to send notification a cross sns provider
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: License :: OSI Approved :: MIT License
+Description-Content-Type: text/plain
