@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: splitem
+Version: 0.1.0
+Summary: Tool for splitting Kubernetes Manifests into individual files
+Home-page: https://github.com/voidrot/splitem
+License: MIT
+Keywords: kubernetes,cli,yaml
+Author: Buck Brady
+Author-email: buck@voidrot.dev
+Maintainer: Buck Brady
+Maintainer-email: buck@voidrot.dev
+Requires-Python: >=3.9,<4.0
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Utilities
+Requires-Dist: PyYAML (>=5.3.1,<6.0.0)
+Requires-Dist: click (>=7.1.2,<8.0.0)
+Project-URL: Documentation, https://voidrot.github.io/splitem
+Project-URL: Issues, https://github.com/voidrot/splitem/issues
+Project-URL: Repository, https://github.com/voidrot/splitem
+Description-Content-Type: text/markdown
+
+
