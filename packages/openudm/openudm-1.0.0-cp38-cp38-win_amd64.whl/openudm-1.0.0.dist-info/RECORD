@@ -1,0 +1,15 @@
+openudm/CellularModel.py,sha256=CxKOl9v0Sbneu6rZrKTwmaNKHzGgWI6j2iBTTaFMTsA,6133
+openudm/DevZones.py,sha256=14BCMYNpdt2EIcTD1NTEFSGEVpXifdwO2A0Mrh9nqnE,6529
+openudm/MultiCriteriaEval.py,sha256=gmP8gX3xhEk2w4YkZ0ubBZ8RXaneIuPbfEjLtd93zT4,3460
+openudm/RasterToolkit.py,sha256=ILHKMyOWnwBIrvUMISE68j3BgZQZ6O8dcqtoClFYaHw,10162
+openudm/_CellularModel.cp38-win_amd64.pyd,sha256=-boVsVWpUK77tIfWQsg6iZ2-C0tXFw8gn_ctbf70070,128512
+openudm/_DevZones.cp38-win_amd64.pyd,sha256=ECjPewrg95oggOgDWvR20hLy8BtgCxksDulTJ6vpmkQ,123904
+openudm/_MultiCriteriaEval.cp38-win_amd64.pyd,sha256=wNQmgOf3HpSD6HDP1R11bf71EPFUEPnHbzX28NcbUPQ,93696
+openudm/_RasterToolkit.cp38-win_amd64.pyd,sha256=6JfyXAGZ575UaYcurqeLp-YGsq55yPKOiBZ9R3TnKDE,160256
+openudm/__init__.py,sha256=jFriWwLSuDPwSYDna8paOkGm-0Qf5N9D4iaGJNys2SA,104
+openudm/__main__.py,sha256=_V0cVwIpqZpx4liebTrozSSzhd3AnDfde8yssB1yBms,13367
+openudm-1.0.0.dist-info/LICENSE,sha256=IwGE9guuL-ryRPEKi6wFPI_zOhg7zDZbTYuHbSt_SAk,35823
+openudm-1.0.0.dist-info/METADATA,sha256=07nLSNhb4azlPt3Yv3l3yhXr3-gwR0oSoI4CgP2I9qU,191
+openudm-1.0.0.dist-info/WHEEL,sha256=9MdUI0OzwjYaHl3jWlKFDIJ5MFBPjwppNgWNtexntqg,105
+openudm-1.0.0.dist-info/top_level.txt,sha256=H3Y6Eht2y-pd7CppeYxKvvc0bxGE5lIcUuoo_GA__8U,8
+openudm-1.0.0.dist-info/RECORD,,
