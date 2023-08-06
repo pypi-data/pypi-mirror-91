@@ -1,0 +1,15 @@
+numpy>=1.16.5
+pandas
+pathlib
+contexttimer
+requests
+getjson
+microconventions>=0.5.0
+pycoingecko
+apscheduler
+tdigest
+genson
+hyperopt
+sklearn
+statsmodels
+copulas
