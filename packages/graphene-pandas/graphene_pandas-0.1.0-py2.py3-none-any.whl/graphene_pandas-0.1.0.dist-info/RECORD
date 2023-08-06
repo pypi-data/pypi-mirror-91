@@ -1,0 +1,10 @@
+graphene_pandas/__init__.py,sha256=gpEFiO3o_gp7KjUi0GhRwWkqRNaZELnwDBB3bql2c1U,132
+graphene_pandas/dataframe_types.py,sha256=zymL3tIu2-yb04bZQzfecioZE8-CjbRzVTdBvn3DbAs,3046
+graphene_pandas/utils.py,sha256=ou852MWqincSnv2bEu9T4v2woagBmVPwYiG5oWWV-Lo,185
+graphene_pandas/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+graphene_pandas/tests/test_graphene_pandas.py,sha256=gpeCoNNurMo3UtNnHIsDk1SOzevLLuBUtRO-oAp4KCQ,4452
+graphene_pandas-0.1.0.dist-info/LICENSE.md,sha256=8jk9dNuDtZhk-t-P5sPOe-2hxzuy38SXL9XMqPqkhCk,1071
+graphene_pandas-0.1.0.dist-info/METADATA,sha256=G8B-wSEXaqwqBA30ei3XFKOsjPiODJCEokhfY2Il7Sw,2616
+graphene_pandas-0.1.0.dist-info/WHEEL,sha256=Z-nyYpwrcSqxfdux5Mbn_DQ525iP7J2DG3JgGvOYyTQ,110
+graphene_pandas-0.1.0.dist-info/top_level.txt,sha256=QN4xdWWqyu66DqqYrzcXLmU4BZn3F9qLnRUPLzqm9-A,16
+graphene_pandas-0.1.0.dist-info/RECORD,,
