@@ -1,0 +1,15 @@
+Metadata-Version: 1.1
+Name: ephesus
+Version: 1.0
+Summary: Library of useful routines in exoplanet science
+Home-page: https://github.com/tdaylan/ephesus
+Author: Tansu Daylan
+Author-email: tansu.daylan@gmail.com
+License: MIT
+Download-URL: https://github.com/tdaylan/ephesus
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
