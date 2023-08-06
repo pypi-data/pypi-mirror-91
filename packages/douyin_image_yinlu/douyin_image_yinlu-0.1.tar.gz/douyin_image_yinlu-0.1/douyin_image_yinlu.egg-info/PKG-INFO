@@ -1,0 +1,13 @@
+Metadata-Version: 1.1
+Name: douyin-image-yinlu
+Version: 0.1
+Summary: add douyin effect to text or image
+Home-page: https://github.com/pythonml/douyin
+Author: Zhongqiang Shen
+Author-email: shenzhongqiang@msn.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
