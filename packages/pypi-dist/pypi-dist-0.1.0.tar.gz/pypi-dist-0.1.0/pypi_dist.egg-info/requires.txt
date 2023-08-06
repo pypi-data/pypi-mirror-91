@@ -1,0 +1,6 @@
+gitpython
+twine
+semver
+click
+wheel
+setuptools
