@@ -1,0 +1,16 @@
+aio_request/__init__.py,sha256=wwc7UJYnUIxSqVWR0CEXuFjwfYAK7UM8EzD7CCZ5vvQ,574
+aio_request/aiohttp.py,sha256=jaSHDrecR_Sc54epkivCXxSp_iizix2RHWedpcYRCWA,3527
+aio_request/base.py,sha256=Iyuo6dbA3lIXxUQmrEqHeYmGqKYiVeEuDjqNDOiI3Z8,2303
+aio_request/deadline.py,sha256=x2eCudB1k5ulyOy2duu0vpYS4sbOw3OR_t4LkLhKsuU,812
+aio_request/delays_provider.py,sha256=DutWJQ0VqEqnrXe0lHCMPr35elmkHOVjpdett4R-EF4,595
+aio_request/py.typed,sha256=E84IaZyFwfLqvXjOVW4LS6WH7QOaKEFpNh9TFyzHNQc,6
+aio_request/request_sender.py,sha256=t6xpIl_efTk7VtfWLkdEOml_3nW2hmAzt-WAWaTWK8M,276
+aio_request/requests.py,sha256=PqQdXJLuD481SMYCBqSHBojYeEhMUBpAbZuzGfXmM-0,2127
+aio_request/response_classifier.py,sha256=TGrxA68bCP2U0Si94cA3hEcegoTo0IbSv7serG-ZH9M,864
+aio_request/strategy.py,sha256=Xlgw0jn0GkhT4R-x5f4nlCVcO978lzpC7S7QXMzueNE,7542
+aio_request/utils.py,sha256=wLO32LbxNBZc5ojZOSzfmHi97IJ6gwAPpA7vlIsiRbg,316
+aio_request-0.0.5.dist-info/LICENSE,sha256=K1Vw4Tu3yEAULcCsjyr253iJG6yHcD7z8TJFBQnc_zg,1068
+aio_request-0.0.5.dist-info/METADATA,sha256=N0LwtYYqk9lfLJ8Ipd-w6D3an9daEAG9e7z7sNXfnoY,380
+aio_request-0.0.5.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+aio_request-0.0.5.dist-info/top_level.txt,sha256=S4zNf-4pYeqqJN_EFYjYqa2lOJqHaIqmyjQ0FLhq4mM,12
+aio_request-0.0.5.dist-info/RECORD,,
