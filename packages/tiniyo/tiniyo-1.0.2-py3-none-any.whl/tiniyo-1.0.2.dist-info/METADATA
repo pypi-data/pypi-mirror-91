@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: tiniyo
+Version: 1.0.2
+Summary: sdk for tiniyo api
+Home-page: https://github.com/tiniyo/tiniyo-python.git
+Author: Support
+Author-email: support@tiniyo.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: twilio (==6.20.0)
+
+# tiniyo-python
+python-sdk
+
+
