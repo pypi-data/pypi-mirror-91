@@ -1,0 +1,55 @@
+Metadata-Version: 2.1
+Name: json-csv-combiner
+Version: 0.1.2
+Summary: Combine multiple JSON/CSV/EXCEL into single file
+Home-page: https://github.com/falcon-head/json-csv-combiner
+Author: Shrikrishna Joisa
+Author-email: shrikrishnajois@gmail.com
+License: MIT
+Description: # json-csv-combiner
+        
+        Merges multiple JSON/EXCEL/CSV file into a single file.
+        
+        ## ⚙️ Installation
+        
+        You can install it from [PyPI](https://pypi.org/project/json-csv-combiner/)
+        
+        ## 💻 How to Use
+        
+        You can run it as a module in the commandline with a single line. It can combine multiple json/csv/excel file in a folder to single output file.
+        
+            $ python jce -t [Type of file] -o [output file name]
+        
+        
+        ### Example
+        
+            $ python jce -t json -o combined.json
+        
+        ### Options
+        
+            -t    [json][csv][excel]
+        
+            -o    filename.[json][csv][xlsx]
+        ## 📑 Release History
+        
+        * 0.1.2
+        
+            * Initial release
+        
+        ## 🚧🚀 Contributing
+        
+        Feel free to contribute with anything.
+        
+        ## ⚖️ License
+        
+        Copyright (c) 2021 Shikrishna Joisa. <br />
+        <br />
+        Distributed under the MIT license. <br />
+        See [`LICENSE`](https://github.com/Diegoslourenco/skoopy/blob/main/LICENSE) for more information.
+        
+Platform: Any
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Description-Content-Type: text/markdown
