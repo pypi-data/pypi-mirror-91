@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: anova
+Version: 0.0.2
+Summary: uniform access to multiple ANOVA functions
+Home-page: https://github.com/thorwhalen/tcw/tree/main/anova
+Author: Thor Whalen
+License: apache-2.0
+Keywords: Anova,,Statistics
+Platform: any
+Description-Content-Type: text/markdown
+Requires-Dist: gpfanova
+Requires-Dist: hyanova
+Requires-Dist: tegstats
+
+
+# anova
+uniform access to multiple ANOVA functions
+
+
+To install:	```pip install anova```
+
+
