@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: ecell4
+Version: 1.2.1
+Summary: A software platform for modeling, simulation and analysis of complex, heterogeneous and multi-scale systems like the cell. E-Cell has multi-algorithm, multi-timescale and multi-spatial-representation as its central feature.
+Home-page: https://github.com/ecell/ecell4
+Author: Kazunari Kaizu
+Author-email: kaizu@riken.jp
+License: the GNU General Public License v3
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: ecell4-base (>=2.1.0)
+Requires-Dist: matplotlib
+Provides-Extra: all
+Requires-Dist: plotly ; extra == 'all'
+Requires-Dist: pint (>=0.11) ; extra == 'all'
+Requires-Dist: numpy-stl ; extra == 'all'
+Requires-Dist: pyyaml ; extra == 'all'
+
+# ecell4
+
+This provides pure Python libraries (Miscellaneous utility functions) for [E-Cell System version 4](https://github.com/ecell/ecell4-base).
+
+See https://ecell4.e-cell.org/
+
+
