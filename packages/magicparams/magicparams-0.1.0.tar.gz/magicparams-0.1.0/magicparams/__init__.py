@@ -1,0 +1,1 @@
+from magicparams.magic_params_class import MagicParams

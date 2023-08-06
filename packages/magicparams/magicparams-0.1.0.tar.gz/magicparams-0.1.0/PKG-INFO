@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: magicparams
+Version: 0.1.0
+Summary: Seamless and easy to use parameters manager for Machine Learning pipelines
+Home-page: https://github.com/shudima/magicparams
+License: UNKNOWN
+Description: # magicparams
+        Seamless and easy to use parameters manager for Machine Learning pipelines
+        
+Keywords: Machine Learning
+Platform: UNKNOWN
+Description-Content-Type: text/markdown

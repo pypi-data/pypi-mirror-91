@@ -1,0 +1,8 @@
+README.md
+setup.py
+magicparams/__init__.py
+magicparams/magic_params_class.py
+magicparams.egg-info/PKG-INFO
+magicparams.egg-info/SOURCES.txt
+magicparams.egg-info/dependency_links.txt
+magicparams.egg-info/top_level.txt
