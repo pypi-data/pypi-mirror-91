@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "pangpuriye"
+version = "0.1.8"
+description = "Let's make AI easy."
+readme = "pangpuriye/README.md"
+authors = ["Pathara Norasethasopon <patharanor@gmail.com>"]
+license = "MIT"
+repository = "https://github.com/patharanordev/pangpuriye/blob/main/python/pangpuriye/pangpuriye"
+homepage = "https://github.com/patharanordev/pangpuriye/blob/main/python/pangpuriye/pangpuriye"
+
+[tool.poetry.dependencies]
+python = "^3.6"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
