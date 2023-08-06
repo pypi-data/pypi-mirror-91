@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements-dev.txt
+requirements.txt
+setup.cfg
+setup.py
+zoter/__init__.py
+zoter.egg-info/PKG-INFO
+zoter.egg-info/SOURCES.txt
+zoter.egg-info/dependency_links.txt
+zoter.egg-info/entry_points.txt
+zoter.egg-info/requires.txt
+zoter.egg-info/top_level.txt
+zoter/cli/__init__.py
+zoter/cli/zot2nsf.py

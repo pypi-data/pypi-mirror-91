@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: zoter
+Version: 2021.1.17
+Summary: Zoter is an interface to the Zotero API.
+Home-page: UNKNOWN
+Author: Shyue Ping Ong
+Author-email: shyuep@gmail.com
+Maintainer: Shyue Ping Ong
+Maintainer-email: shyuep@gmail.com
+License: BSD
+Description: Zoter is an interface to the Zotero API.
+Keywords: zotero,api
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
