@@ -1,0 +1,5 @@
+elasticsearch5
+scipy
+torch
+transformers
+flask
