@@ -1,0 +1,12 @@
+southwark/__init__.py,sha256=NGgY9LB8KnqXaABJvuYUur0CpVzpy4WrCnDFkyPZ2Kw,13349
+southwark/click.py,sha256=Mxd_NoAhcSIuYdiW5Dc5fAsRhE3YXkaFdDwOIKjZH0E,2431
+southwark/config.py,sha256=rX5R9FYfJgNsSx7dmIJZGQMMVUlIOv8B9_e4FxvT-4U,3318
+southwark/log.py,sha256=B-7yohx3YneFq2vCMCMHl_8Pogl3UWgWR1yOp7WopGU,6219
+southwark/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+southwark/repo.py,sha256=ZZOC3EpEJ2Dv93vLmPBQoTZYwYTDq0qgFszoIP_IefU,9175
+southwark/targit.py,sha256=smz2Srtg4ngmu0ki6gsFfD6kJTs0BpYdqIAN9Bm70Q0,11003
+Southwark-0.8.0.dist-info/LICENSE,sha256=BigaIaJbg4wCjk6MjLC_5kuevxdEotWApzfvN8Y9LMM,1064
+Southwark-0.8.0.dist-info/METADATA,sha256=GnDtX83V6qfQZcsWBbN1r7nOYFgn56rI1gWDTt0TejI,7260
+Southwark-0.8.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+Southwark-0.8.0.dist-info/top_level.txt,sha256=jV1QFDl4QLJ_96C4d8Qb9RCcndjohg9Y6wWztzFOq4M,10
+Southwark-0.8.0.dist-info/RECORD,,
