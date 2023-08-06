@@ -1,0 +1,7 @@
+libsedml/__init__.py,sha256=QA7grJW4uySaI97v3mCElP0ZCr_87Ivmq3d-HpIfFtQ,735444
+libsedml/_libsedml.pyd,sha256=ps_bESZ_TLMzwVlTTtrO133fxywtCugfz9Axplu0JT4,6333440
+python_libsedml-2.0.14.dist-info/LICENSE.txt,sha256=8u1nAryX0Ie5Dzml_ljuR87jr8o5fyvDRARw4Hjmu5U,1379
+python_libsedml-2.0.14.dist-info/METADATA,sha256=21QUv6WaKqQ0W8FB1DkNfRuABxxeA2vX6nyvNUmNZh8,507
+python_libsedml-2.0.14.dist-info/WHEEL,sha256=VgnquN2wmS-dr_fBLVW6BVf1-4JY9hxIFDEVNCtWYcA,102
+python_libsedml-2.0.14.dist-info/top_level.txt,sha256=UmLpm-AmG-1D4W7btbuJmbsFCzvQs9mdYJzH3fQVVeA,19
+python_libsedml-2.0.14.dist-info/RECORD,,
