@@ -1,0 +1,17 @@
+pybook/__init__.py,sha256=qGo2KEb8K0snd2GiNWI8sWfjZBEaoBlyk5H1zmd0qQo,68
+pybook/cli.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pybook/main.py,sha256=oIa-Axs_-1w8rJB3x3gkbZFTWNxDn1zKdtHRALWgCw4,2650
+pybooklib/__init__.py,sha256=4N7KNR7QMuBWJGStqYacKgcddwjJnKNMz_edW77B4Lo,133
+pybooklib/cli.py,sha256=LOCAGCV0HB246-YxsAHB_v4_rVEtr_MahKVaBBzkkfI,355
+pybooklib/data/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pylib/__init__.py,sha256=Z3ZJg9lMyb9KIEyu6rJmDxGyX15ol5kRGonbbvNgMCw,104
+pylib/cli.py,sha256=OUcCGKa-qr4fFqCbtctmS7JbqXIcpbTBDdr3_Y687V0,165
+pylib/main.py,sha256=PlZACZmENfji9JSZfYq1zUTpAHRCOIzH36SUx6f_o-Q,388
+pylib/site.py,sha256=E2TCzKHbWLzXOWQKBJOolXWmPM24K-KB3iHqCTiZgbI,1682
+pylib/data/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pybooklib-1.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+pybooklib-1.0.dist-info/METADATA,sha256=bJtgTSZcJRINz-uNImU-K3TvQMt4A6dUyI53D1Y9JCM,1206
+pybooklib-1.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+pybooklib-1.0.dist-info/entry_points.txt,sha256=4crBAoWytsgcsf1DgyZPFWha2iyG7JLySJzAAK9BpoI,97
+pybooklib-1.0.dist-info/top_level.txt,sha256=tO5z_dU_1BZRnDCRq1iGmJpgSnGxB8i_4t520GWYwzQ,23
+pybooklib-1.0.dist-info/RECORD,,

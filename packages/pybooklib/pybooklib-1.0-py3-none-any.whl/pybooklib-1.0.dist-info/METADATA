@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: pybooklib
+Version: 1.0
+Summary: Create, upload, and use Python project templates.
+Home-page: https://github.com/BD103/PyBookLib
+Author: BD103
+Author-email: dont@stalk.me
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Flask
+Classifier: Framework :: Flake8
+Classifier: Framework :: Pytest
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Communications :: File Sharing
+Classifier: Topic :: Internet
+Classifier: Topic :: Internet :: WWW/HTTP :: HTTP Servers
+Classifier: Topic :: Software Development
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: click
+Requires-Dist: requests
+Requires-Dist: flask
+Requires-Dist: rich
+Requires-Dist: importlib-resources ; python_version < "3.7"
+
+# PyBook
+Create and download Python template projects.
+
+
