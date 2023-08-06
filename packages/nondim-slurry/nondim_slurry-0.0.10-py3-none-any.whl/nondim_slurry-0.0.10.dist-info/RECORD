@@ -1,0 +1,16 @@
+nondim_slurry-0.0.10.data/scripts/parameter_search.py,sha256=clb34ZDiMbVgg2GYDEczpyKDI4EM4AKBubAaJajY2zY,2851
+nondim_slurry-0.0.10.data/scripts/seismic.py,sha256=kvA1gFLnWEi4Ng83kSujSDaclNRS_27EPezbsB22IPQ,1798
+nondim_slurry-0.0.10.data/scripts/sensitivity.py,sha256=W12cYUKzJbXxXD2vFgdASsKWg-WMA9biK_soJhqPwWU,5093
+slurpy/LICENSE.md,sha256=OkklLF8R-tYiFXdoUnDu4M7hXtFckdh2k8KQp9h2wIo,1054
+slurpy/__init__.py,sha256=VjyWYxlcX36Q6i8sS1MA2F4Eot-WArGcI0T1gvoCrDo,688
+slurpy/coreproperties.py,sha256=BcBeUSnr_7tGWcIvkFR-DDB_h1V8H1QKkSOmqB7Y_8Y,1859
+slurpy/data_utils.py,sha256=yhU9QcXzNEjhG_AgXterJElgtQt2vClA5NIyasNPBLo,4291
+slurpy/getparameters.py,sha256=bXaD773GlQAT19of4fztAz6APoebWLeqSiIRwarYFL0,11926
+slurpy/lookup.py,sha256=4Rn0C9D5SIyZbsZXuvcbPvtHCM6qXiTgUmMSRE3bnZ4,4163
+slurpy/plot_utils.py,sha256=n7D2bKMNBA6p-kzSMSeghK38QgieoOZ6E-jbwykJ8uk,25711
+slurpy/slurry.py,sha256=c2dhilUfBQE97rR26xJF7rNA17YByBAGVJv3tEWgxMA,12614
+nondim_slurry-0.0.10.dist-info/LICENSE.md,sha256=OkklLF8R-tYiFXdoUnDu4M7hXtFckdh2k8KQp9h2wIo,1054
+nondim_slurry-0.0.10.dist-info/METADATA,sha256=31fJm6hMCL7yXJPr_3WscqFUtv3E1o5oOoNBE4_tvvE,2830
+nondim_slurry-0.0.10.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+nondim_slurry-0.0.10.dist-info/top_level.txt,sha256=mkfWoabbsiJ9DYvjrWw1iHbtU0KLCO1LuuwW5iroYxQ,7
+nondim_slurry-0.0.10.dist-info/RECORD,,
