@@ -1,0 +1,17 @@
+hotair/__init__.py,sha256=5P08o35Yzgy37RPN5OHNsc1zbye-sMKeHVZR9wzdvHQ,49
+hotair/html.py,sha256=HaMnIbWX07b9_I2b6WA6tIxLHGhh--SqCiV4HD_Qyiw,220
+hotair/template/__init__.py,sha256=zruicVerr1NO8BKSc8SYCEi8Yd-fYYJogXVmD7CKSY8,74
+hotair/template/custom.py,sha256=9gjly7IN4qDz8sKEiZDp_CQQva8L-XJ1WBXXWUkp8HE,305
+hotair/template/dom.py,sha256=knQS_MmToo6aAvVTymuUGQyRFwS1s2br_jVcRQa5zJg,1759
+hotair/template/element.py,sha256=SSJKjW1QIheYHujQWmRe4TrF94XoyHmYIXHbbKh0R-c,2707
+hotair/template/handler.py,sha256=dCrIsYy0YlvFgliXdwCkfJJ88bTt7i8-9vmnHIjrOnc,218
+hotair/template/internal.py,sha256=jOSjmm5i9_iVDynjUx3wt8zeIPWcoKTRUARuMpZDSLY,261
+hotair/template/node.py,sha256=9eN4ozm3zw1uWKaVOBg9nxdyxnjAQW8x6W19mLcaPDg,192
+hotair/template/text.py,sha256=NGg5qpV8Q7dD17rGCCdEnbVX3K1ZuwwVKPPKcz5fdyw,392
+hotair/template/utils.py,sha256=TEAotajXVJVcORP-cCrCQHrfF8RTL8uZhLkz0aXFdDk,88
+hotair/websocket.py,sha256=BqTxfyLpezIRL3v5mtZ6dhPj5fWTVrq_xaRE1qkuNBM,1350
+LICENSE,sha256=XjVXtRhHf6Qo176XpEbIQ40f1hH-FpKsWDV0-LKsDaI,12707
+hotair-0.1.0.dist-info/LICENSE,sha256=XjVXtRhHf6Qo176XpEbIQ40f1hH-FpKsWDV0-LKsDaI,12707
+hotair-0.1.0.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+hotair-0.1.0.dist-info/METADATA,sha256=lbMpH4IE3lbjYf6IbYPsfoPy16BZv9eEhSrrM2046Zw,1122
+hotair-0.1.0.dist-info/RECORD,,
