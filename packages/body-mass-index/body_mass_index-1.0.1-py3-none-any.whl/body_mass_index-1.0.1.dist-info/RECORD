@@ -1,0 +1,11 @@
+bmi/__init__.py,sha256=7YPI2woGF3iI3EmqPdrDWLU6ztZxS4XAol66ZWd1vnM,24
+bmi/__main__.py,sha256=Fb843vu89o7VlY30z5MdJRohvvd0Lfnu0eB6x2aVqFo,4930
+bmi/bmi.py,sha256=Kec80lldTbEAgGBeEkMhwosGbZsRYlXBm4WSdmAFPG0,5157
+bmi/logging_config.ini,sha256=P0LmWwfdxSzICVMbDRpZ8sHFgcK2lDdl7QGvKpcRdk4,386
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_bmi.py,sha256=h_7bGn6-DdQNT7IpA4hFbBuG6gUW8kT8yckWhbqr-fA,4178
+body_mass_index-1.0.1.dist-info/LICENSE,sha256=f3IlI81-RDTBFr6ZYDWXhFZCTvObVMYSKUFtF4IbS7w,1077
+body_mass_index-1.0.1.dist-info/METADATA,sha256=6JZ47zFSzvkO8ro5RdP9z4ffGGJpMjXQvNtxpD-iGyE,5565
+body_mass_index-1.0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+body_mass_index-1.0.1.dist-info/top_level.txt,sha256=udb3im0YpwPUFnX1984MgdjjnSDhn41cSfYjv5ubUsQ,10
+body_mass_index-1.0.1.dist-info/RECORD,,
