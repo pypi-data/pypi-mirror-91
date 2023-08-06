@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: NMTF
+Version: 1.0.71
+Summary: UNKNOWN
+Home-page: https://github.com/paulfogel/NMTF
+Author: Paul Fogel
+Author-email: paul_fogel@hotmail.com
+License: UNKNOWN
+Description: ---
+        permalink: /docs/index.html
+        ---
+        
+        # Docs
+        https://paulfogel.github.io/NMTF/
+        
+        # NMTF
+        
+        Non-Negative Matrix and Tensor Factorizations
+        
+        ## Medium article
+        **Using Non-negative matrix factorization to classify companies** : 
+        https://medium.com/@chtill.g/using-nmf-to-classify-companies-a77e176f276f
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 5 - Production/Stable
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Provides-Extra: apt
+Provides-Extra: all
