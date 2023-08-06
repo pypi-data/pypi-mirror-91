@@ -1,0 +1,16 @@
+pyChemometrics/ChemometricsPCA.py,sha256=nfWjAjn2Pe2g5ikEVHj-XmgBPMipl5VenNVddfbZmsk,33402
+pyChemometrics/ChemometricsPLS.py,sha256=XnkoO7ILwsBUUvcXCS6UBo5ZwF7zVJ7DXy13y-lvZ-Y,55429
+pyChemometrics/ChemometricsPLSDA.py,sha256=47nmR7RKURvT-Om2_-XceHerO7C8HrT6MLEnLjyQnOA,60263
+pyChemometrics/ChemometricsPLS_LDA.py,sha256=9UM_QwaP18J5h8eMK8xWT7GvEEhsxOhvtvjeI23naTE,48369
+pyChemometrics/ChemometricsPLS_Logistic.py,sha256=H_CF56c5On2MRwX4kTrMvi4LgE1S50uvnfdkmD4Nwcg,61617
+pyChemometrics/ChemometricsScaler.py,sha256=pDvaDdgzKqQulVNydvgro9bjy22a3DAD1VkgxFKgzcc,8552
+pyChemometrics/PCAPlotMixin.py,sha256=4ALBrTjXqhjQicMX4OJahz4TYCkdklzMrwEnOhguN_E,8950
+pyChemometrics/PLSDAPlotMixin.py,sha256=Qn70Kpaaw5OM03LXN5z_6PbolB-LcPhb1_WAyaY_VJ8,2085
+pyChemometrics/PLSPlotMixin.py,sha256=cRmI3dAe7ywx9Z01N6hDq4-3bJx2N6Mu-bhIVlbJN_Y,8557
+pyChemometrics/PlotMixin.py,sha256=kRi8kB-cSynhvWlWJVh7mpn_-vtPGmkZBLxtHVjfIsw,934
+pyChemometrics/__init__.py,sha256=K0g5VMGIjFH7uI0E2-i8mvJ1WkzydiEIyBjcSNpddpY,1815
+pyChemometrics-0.13.4.dist-info/LICENSE,sha256=m7g0AVdS7VQJ0XpBO7QUwkZwGDYbTZIlI9IGZytLGJs,1527
+pyChemometrics-0.13.4.dist-info/METADATA,sha256=K8WVwlB-RCcjiLkxufvXtexgznmDtTKK0Ue1nGqWO-g,429
+pyChemometrics-0.13.4.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+pyChemometrics-0.13.4.dist-info/top_level.txt,sha256=ZUruZ-LuASIWtYvH3iyN1QDpFRZ50uRIzJqN1akw8d8,15
+pyChemometrics-0.13.4.dist-info/RECORD,,
