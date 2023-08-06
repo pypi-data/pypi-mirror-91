@@ -1,0 +1,14 @@
+Metadata-Version: 1.2
+Name: GDriveCLI
+Version: 0.0.1
+Summary: This is a simple CLI for uploading file to Google Drive
+Home-page: https://github.com/boyuan12/LHD-Build-2021
+Author: Boyuan Liu
+Author-email: boyuanliu6@yahoo.com
+License: MIT
+Description: UNKNOWN
+Keywords: google,drive,upload,cli
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Utilities
+Requires-Python: >= 3.6
