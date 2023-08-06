@@ -1,0 +1,6 @@
+README.md
+setup.py
+leepdf.egg-info/PKG-INFO
+leepdf.egg-info/SOURCES.txt
+leepdf.egg-info/dependency_links.txt
+leepdf.egg-info/top_level.txt
