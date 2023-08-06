@@ -1,0 +1,30 @@
+[tool.poetry]
+name = "greg-test"
+version = "0.1"
+description = ""
+authors = ["Greg Henry <mail.greg.henry@gmail.com>"]
+maintainers = ["Greg Henry <mail.greg.henry@gmail.com>"]
+readme = "README.md"
+homepage = "https://github.com/GregoireHENRY/greg-test"
+
+[tool.poetry.dependencies]
+python ="^3.6"
+pudb = "*"
+click = "*"
+pytest = "*"
+pytest-sugar = "*"
+
+[tool.poetry.dev-dependencies]
+black = "*"
+pylint = "*"
+isort = "*"
+mypy = "*"
+pre-commit = "*"
+pytest-cov = "*"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+greg-test = "greg_test.cli:main"
