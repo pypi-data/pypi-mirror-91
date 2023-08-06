@@ -1,0 +1,15 @@
+socid_extractor/__init__.py,sha256=Uw13iIGcERrQAJ5kIv9T8_pVO7NqQZvuwAs98M6qNNg,70
+socid_extractor/activation.py,sha256=_BwNF3yWrYG2uqSMYNITCVzTi3UhVbOsKeAAcF3AMgc,681
+socid_extractor/cli.py,sha256=YBOJchQ4rEATZcGwamL-D9HGQgiIqi_HD1noU2H-UbA,3386
+socid_extractor/main.py,sha256=zph9wgYyaTqFYONulf3ceU1INVodH4bs9eQRxoZ5Jgs,3156
+socid_extractor/matching.py,sha256=VzsQAfmYjMnC2HSTbgIGzy2j47oI0MJW6RDnoFTNvOk,1692
+socid_extractor/schemes.py,sha256=acfpoyRxfuEGoJkMoOR97JuBURjmA_FMhFq7j6EM-kQ,31933
+socid_extractor/utils.py,sha256=DUKp6mjm2LPRnxhEBLJQo-LXyGMIEseir59uh8hmmcc,756
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_e2e.py,sha256=-5ShOdxk6N9EcP93RPiWXcIe7Hd15pbQEDuVc2VI6PY,20050
+socid_extractor-0.0.3.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+socid_extractor-0.0.3.dist-info/METADATA,sha256=NC3l6tCG3LcrTkpkQeAORHKNWe6iQPtq_Dz2h834nWk,3131
+socid_extractor-0.0.3.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+socid_extractor-0.0.3.dist-info/entry_points.txt,sha256=Oh8O26ZU0UySbu8iMdO6DuM2WBwhgg9-C4vDwFjAnvM,61
+socid_extractor-0.0.3.dist-info/top_level.txt,sha256=83j_m6h-8CxdespXpIQQIZFjrSRw0fpedUE_UGhUvQo,22
+socid_extractor-0.0.3.dist-info/RECORD,,
