@@ -1,0 +1,3 @@
+[napari.plugin]
+imc = napari_imc
+
