@@ -1,0 +1,11 @@
+NewsAgent/__init__.py,sha256=GohI9HvBu17e2iOD7-_AFPGiU0FkXEiDm2DODq5oD0g,57
+NewsAgent/__main__.py,sha256=ESYr-9lzLsKHgjA1cduKfwqITUHzvvjan3pKTL5FWhk,1314
+NewsAgent/agent.py,sha256=uiEVHZocRzCEZXzdj-ts6sTAnvGIcFEjpDXJZPHciug,841
+NewsAgent/destinations.py,sha256=AqfTPB-yGBSW0V1K7dMnLUQdv3OQ17wKCra11rBaC3c,3144
+NewsAgent/newsitems.py,sha256=FRh282GYFnelFUIjqWm61EG_mXh5DnC-2twC7zet-m8,246
+NewsAgent/sources.py,sha256=RpQG4iq9VsyDk5uqr7pN6mR5NdHzA1iHaKbzdS2gZvE,1856
+NewsAgent-1.2.dist-info/LICENSE,sha256=yb_3VziSIZPmf6cm-iJVNYcNKqEFn5FFLEEXNihK1WY,1338
+NewsAgent-1.2.dist-info/METADATA,sha256=6ylifmBqjWtHlhpSEOVEs3sgsWjSjRg2rq_1aLVKqEE,538
+NewsAgent-1.2.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+NewsAgent-1.2.dist-info/top_level.txt,sha256=iQcYZ1XYwTWf2rJThyPvPerRGZV-mEtHKuqPzjQpREA,10
+NewsAgent-1.2.dist-info/RECORD,,
