@@ -1,0 +1,5 @@
+httpx
+pytz
+
+[tests]
+pytest
