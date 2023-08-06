@@ -1,0 +1,83 @@
+{
+  "name": "@deathbeds/jupyterlab-starters",
+  "version": "1.0.1a0",
+  "description": "Parameterized files and folders for JupyterLab",
+  "keywords": [
+    "jupyter",
+    "jupyterlab",
+    "jupyterlab-extension"
+  ],
+  "homepage": "https://github.com/deathbeds/jupyterlab-starters",
+  "bugs": {
+    "url": "https://github.com/deathbeds/jupyterlab-starters/issues"
+  },
+  "license": "BSD-3-Clause",
+  "author": "dead pixels collective",
+  "files": [
+    "{lib,style,src}/**/*.{d.ts,eot,gif,html,jpg,js,js.map,json,png,svg,woff2,ttf,css,ts,tsx}",
+    "LICENSE"
+  ],
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/deathbeds/jupyterlab-starters.git"
+  },
+  "scripts": {
+    "build:pre": "jlpm build:json2ts && jlpm build:copyschema",
+    "build:json2ts": "json2ts ../../src/jupyter_starters/schema/v2.json --unreachableDefinitions | prettier --stdin-filepath _schema.d.ts > src/_schema.d.ts",
+    "build:copyschema": "python -c \"from pathlib import Path as P; s = P('../../src/jupyter_starters/schema/v2.json').read_text(); P('lib').mkdir(exist_ok=True); P('lib/_schema.json').write_text(s); P('src/_schema.json').write_text(s)\"",
+    "build:ext": "jupyter labextension build .",
+    "build:ext:dev": "jupyter labextension build --development True .",
+    "watch": "jupyter labextension watch .",
+    "bundle": "npm pack .",
+    "clean": "rimraf lib ../../src/jupyter_starters/labextension",
+    "upload": "jlpm publish ."
+  },
+  "dependencies": {
+    "@deathbeds/jupyterlab-rjsf": "~1.0.1a0",
+    "@jupyterlab/application": "3"
+  },
+  "peerDependencies": {
+    "@rjsf/core": "~2.4.0",
+    "@jupyterlab/launcher": "3",
+    "@jupyterlab/notebook": "3",
+    "@jupyterlab/running": "3"
+  },
+  "devDependencies": {
+    "@types/codemirror": "^0.0.97",
+    "@types/react": "^17.0.0",
+    "@deathbeds/jupyterlab-rjsf": "~1.0.1a0",
+    "@jupyterlab/builder": "^3.0.1",
+    "@jupyterlab/running": "3",
+    "@jupyterlab/launcher": "3",
+    "@jupyterlab/notebook": "3",
+    "json-schema-to-typescript": "^8.0.0",
+    "react": "^17.0.1",
+    "rimraf": "~3.0.0",
+    "typescript": "~4.1.3"
+  },
+  "jupyterlab": {
+    "discovery": {
+      "server": {
+        "base": {
+          "name": "jupyter_starters"
+        },
+        "managers": [
+          "pip"
+        ]
+      }
+    },
+    "extension": "lib/plugin.js",
+    "outputDir": "../../src/jupyter_starters/labextension",
+    "sharedPackages": {
+      "@rjsf/core": {
+        "bundled": true
+      }
+    },
+    "_build": {
+      "load": "static/remoteEntry.76b408baa675d4c01548.js",
+      "extension": "./extension"
+    }
+  }
+}
