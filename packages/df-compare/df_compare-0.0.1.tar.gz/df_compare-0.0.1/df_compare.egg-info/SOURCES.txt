@@ -1,0 +1,14 @@
+README.md
+setup.py
+df_compare/__init__.py
+df_compare/compare_files.py
+df_compare/core.py
+df_compare/pytest_kit.py
+df_compare/version.py
+df_compare.egg-info/PKG-INFO
+df_compare.egg-info/SOURCES.txt
+df_compare.egg-info/dependency_links.txt
+df_compare.egg-info/entry_points.txt
+df_compare.egg-info/requires.txt
+df_compare.egg-info/top_level.txt
+test/test_core.py
