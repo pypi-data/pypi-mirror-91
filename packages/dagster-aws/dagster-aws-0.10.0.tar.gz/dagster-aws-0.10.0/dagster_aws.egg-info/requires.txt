@@ -1,0 +1,8 @@
+boto3
+dagster
+packaging
+psycopg2-binary
+requests
+
+[pyspark]
+dagster-pyspark
