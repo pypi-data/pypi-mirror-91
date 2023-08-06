@@ -1,0 +1,7 @@
+biopython
+ete3
+matplotlib
+ncbi-genome-download
+numpy
+pandas
+scipy
