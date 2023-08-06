@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: octopus-ml
+Version: 0.1.0
+Summary: A collection of handy ML and data validation tools
+Home-page: https://github.com/gershonc/octopus-ml
+Author: Gershon Celniker
+Author-email: gershonc@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: Scientific/Engineering
+Classifier: Development Status :: 4 - Beta
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: tqdm
+Requires-Dist: lightgbm
+Requires-Dist: seaborn
+
+# octopus-ml
+
+Set of handy ML and data tools - from data exploration, visualization, pre-processing, hyper parameter tuning, modeling and all the way to final Ml model evaluation 
+![Image](/images/octopus_know_your_data.png)
+
+
