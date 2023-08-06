@@ -1,0 +1,3 @@
+[console_scripts]
+crnverifier = crnverifier.verifier:main
+

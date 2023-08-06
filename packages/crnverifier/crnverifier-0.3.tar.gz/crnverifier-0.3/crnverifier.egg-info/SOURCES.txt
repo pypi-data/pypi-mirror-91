@@ -1,0 +1,17 @@
+README.md
+setup.py
+crnverifier/__init__.py
+crnverifier/crn_bisimulation.py
+crnverifier/crn_parser.py
+crnverifier/deprecated.py
+crnverifier/generate_crn.py
+crnverifier/hybrid_notions.py
+crnverifier/pathway_decomposition.py
+crnverifier/utils.py
+crnverifier/verifier.py
+crnverifier.egg-info/PKG-INFO
+crnverifier.egg-info/SOURCES.txt
+crnverifier.egg-info/dependency_links.txt
+crnverifier.egg-info/entry_points.txt
+crnverifier.egg-info/requires.txt
+crnverifier.egg-info/top_level.txt
