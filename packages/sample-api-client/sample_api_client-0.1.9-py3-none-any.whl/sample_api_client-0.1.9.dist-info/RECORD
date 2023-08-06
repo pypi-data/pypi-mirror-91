@@ -1,0 +1,11 @@
+sample_api_client/__init__.py,sha256=8ZYt6_SUd_WhjeNSf35kIWDk9R0UKC-nk5pz0wRb8tM,97
+sample_api_client/api/__init__.py,sha256=eXatWDq7Ch82ld7yH8NAZYYvbmNJqD4mx0a_pLeImTk,46
+sample_api_client/api/default/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sample_api_client/api/default/get_users.py,sha256=K0wQCM6er68YPiTjTdb0w2zLZ18_pRt7sHD28T2FATw,1966
+sample_api_client/client.py,sha256=W7uH_Ig-FWJ69cSHkQUXBCmz1jdKfYi9eFNsB75dIPM,1574
+sample_api_client/models/__init__.py,sha256=JRttxQ8BtaLjedj5txHOmL5VAhu9K-D54zkCvxAAe90,61
+sample_api_client/py.typed,sha256=8ZJUsxZiuOy1oJeVhsTWQhTG_6pTVHVXk5hJL79ebTk,25
+sample_api_client/types.py,sha256=pbvVSAZ2G0OJQ6JjPhc9OUHRwqKuF5sCbWVwYdnhUAc,944
+sample_api_client-0.1.9.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+sample_api_client-0.1.9.dist-info/METADATA,sha256=pzVeNxght1TCpI3gM12LfDbYWVkSespPXqhieWZhq5Q,3481
+sample_api_client-0.1.9.dist-info/RECORD,,
