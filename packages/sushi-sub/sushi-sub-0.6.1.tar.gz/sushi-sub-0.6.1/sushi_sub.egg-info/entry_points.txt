@@ -1,0 +1,3 @@
+[console_scripts]
+sushi = sushi.__main__:main
+

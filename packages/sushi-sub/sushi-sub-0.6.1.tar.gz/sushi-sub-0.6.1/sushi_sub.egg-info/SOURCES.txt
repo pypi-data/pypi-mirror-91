@@ -1,0 +1,17 @@
+README.md
+setup.py
+sushi/__init__.py
+sushi/__main__.py
+sushi/chapters.py
+sushi/common.py
+sushi/demux.py
+sushi/keyframes.py
+sushi/regression-tests.py
+sushi/subs.py
+sushi/wav.py
+sushi_sub.egg-info/PKG-INFO
+sushi_sub.egg-info/SOURCES.txt
+sushi_sub.egg-info/dependency_links.txt
+sushi_sub.egg-info/entry_points.txt
+sushi_sub.egg-info/requires.txt
+sushi_sub.egg-info/top_level.txt
