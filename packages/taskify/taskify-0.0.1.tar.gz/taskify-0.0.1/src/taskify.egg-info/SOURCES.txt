@@ -1,0 +1,14 @@
+CHANGELOG.md
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+src/taskify.egg-info/PKG-INFO
+src/taskify.egg-info/SOURCES.txt
+src/taskify.egg-info/dependency_links.txt
+src/taskify.egg-info/entry_points.txt
+src/taskify.egg-info/not-zip-safe
+src/taskify.egg-info/top_level.txt
+src/taskify/cli-providers/dotnet.py
+tests/test_taskify.py

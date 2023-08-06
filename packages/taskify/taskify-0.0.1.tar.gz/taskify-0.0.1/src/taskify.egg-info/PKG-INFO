@@ -1,0 +1,21 @@
+Metadata-Version: 1.2
+Name: taskify
+Version: 0.0.1
+Summary: Task runner done right
+Home-page: https://github.com/ionelmc/python-taskify
+Author: Benjamin Darbonne
+Author-email: dev.darbonne.ben@gmail.com
+License: MIT
+Description: A Task runner done right
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Unix
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Utilities
+Requires-Python: >=3.9
