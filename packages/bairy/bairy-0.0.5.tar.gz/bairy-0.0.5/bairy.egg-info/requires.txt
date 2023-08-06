@@ -1,0 +1,9 @@
+uvicorn
+fastapi
+pydantic
+dash
+plotly
+pandas
+aiohttp
+smbus2
+gpiozero
