@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+requirements.txt
+setup.cfg
+setup.py
+ToushinReader/__init__.py
+ToushinReader/core.py
+ToushinReader/locator.py
+ToushinReader/page.py
+ToushinReader.egg-info/PKG-INFO
+ToushinReader.egg-info/SOURCES.txt
+ToushinReader.egg-info/dependency_links.txt
+ToushinReader.egg-info/not-zip-safe
+ToushinReader.egg-info/top_level.txt
