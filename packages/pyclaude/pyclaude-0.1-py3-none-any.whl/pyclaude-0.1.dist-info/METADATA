@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: pyclaude
+Version: 0.1
+Summary: Exponential Random Graph models as null models for network analysis
+Home-page: https://github.com/reemagit/claude
+Author: Enrico Maiorino
+Author-email: enrico.maiorino@gmail.com
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: tqdm
+
+UNKNOWN
+
+
