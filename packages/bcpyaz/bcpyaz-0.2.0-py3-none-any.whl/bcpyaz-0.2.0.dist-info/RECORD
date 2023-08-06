@@ -1,0 +1,14 @@
+bcpyaz/__init__.py,sha256=1eDE_fIYgElfJyHY8leHx2DItNrFbYz6XzSuKAgeNZ4,105
+bcpyaz/binary_callers.py,sha256=NgGvXIQKB-R-8Zsln82kJpzvgpkHQnEMO_iWCT1SEoI,6884
+bcpyaz/data_objects.py,sha256=Mn6xqqw9b7uQOdKmX2xNTJMkzOYra82BUz0grOZpK44,12626
+bcpyaz/format_file_builder.py,sha256=B0ICx4fm4tNveCw0j_4A-vRZ5v40swJKZi41DP39-fM,2534
+bcpyaz/tmp_file.py,sha256=nqWNPWCx1HeqFWp6kapkQZhG2uteKAGZgkkdADDg4Ao,1301
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_basic.py,sha256=9ZVzuZZZyzX2fiUb-5_0xn-sqrJWi5v7_ORT8WI5yNk,63
+tests/test_flat_file.py,sha256=Ln5NPwdjPIKqQVgExPBQTmsXq4EQ1A1f6AQu5_nB1H0,887
+tests/test_pandas.py,sha256=AL4aUpkiYC5Pkr2Q4m-g5CyDjq2caJdCMz9ryY135dg,728
+bcpyaz-0.2.0.dist-info/LICENSE,sha256=C4xxpiyK2m0vSMQ0fs8OxWKuzeZVHmCkTaNxf5n1JNw,1068
+bcpyaz-0.2.0.dist-info/METADATA,sha256=UFE3HIz59_MvJCg410d4yyZQuairYtDP0h6kTzZNyls,3959
+bcpyaz-0.2.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+bcpyaz-0.2.0.dist-info/top_level.txt,sha256=84LjF-8l1WFW_i8zEVth_QNQUssV_WIao6YtCehOdWk,13
+bcpyaz-0.2.0.dist-info/RECORD,,
