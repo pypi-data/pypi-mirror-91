@@ -1,0 +1,8 @@
+README.md
+setup.py
+idecomp/__init__.py
+idecomp.egg-info/PKG-INFO
+idecomp.egg-info/SOURCES.txt
+idecomp.egg-info/dependency_links.txt
+idecomp.egg-info/requires.txt
+idecomp.egg-info/top_level.txt
