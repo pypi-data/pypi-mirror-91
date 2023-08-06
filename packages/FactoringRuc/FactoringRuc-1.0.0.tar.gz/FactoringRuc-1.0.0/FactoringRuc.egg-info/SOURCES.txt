@@ -1,0 +1,9 @@
+README.md
+setup.py
+FactoringRuc.egg-info/PKG-INFO
+FactoringRuc.egg-info/SOURCES.txt
+FactoringRuc.egg-info/dependency_links.txt
+FactoringRuc.egg-info/requires.txt
+FactoringRuc.egg-info/top_level.txt
+factoring_ruc/__init__.py
+factoring_ruc/consulta_ruc.py
