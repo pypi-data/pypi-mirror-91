@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: pypi-dist
+Version: 0.1.0
+Summary: Convenience script for distributing projects to PyPi
+Home-page: https://github.com/patrickayoup/pypi-dist
+Author: Patrick Ayoup
+Author-email: patrick.ayoup@gmail.com
+License: MIT
+Keywords: pypi
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: gitpython
+Requires-Dist: twine
+Requires-Dist: semver
+Requires-Dist: click
+Requires-Dist: wheel
+Requires-Dist: setuptools
+
+# pypi-dist
+
+Convenience script for distributing projects to PyPi
+
+
