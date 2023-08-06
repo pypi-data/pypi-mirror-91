@@ -1,0 +1,12 @@
+pysmashgg/__init__.py,sha256=NS16cAmvvTFHETysp2p9LHwEbIrHpI6V0S3qayA4avs,37
+pysmashgg/brackets.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pysmashgg/exceptions.py,sha256=irOeQvCMS9c4MhpKugoSuDYQOPVAzeoVp5D0Miwj33o,485
+pysmashgg/filters.py,sha256=ChsM7R2AvudCDqCFbG7DEJdFC48MKjFGxYzJS98YpZA,13187
+pysmashgg/queries.py,sha256=W5misT-ksLNG7biu_O1D95TWq5ouj5cZuSvaCVBBDnk,5794
+pysmashgg/smashgg.py,sha256=pOUJm8KJMcNJQPxgzMdERiLIeZ04NygSlBxeuVy8E3Q,2294
+pysmashgg/tournaments.py,sha256=klhl5r7ou11Vy3PRIcWhurkeFY0YOvTi9m5qHBeMcUk,6688
+pysmashgg-0.1.0.dist-info/LICENSE.md,sha256=Qv2ilebwoUtMJnRsZwRy729xS5JZQzLauJ0tQzkAkTA,1088
+pysmashgg-0.1.0.dist-info/METADATA,sha256=rBm5Jb5yyTc9PV2Rl63NuMXoB7TsVkR8iHLv2LVTabA,4977
+pysmashgg-0.1.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+pysmashgg-0.1.0.dist-info/top_level.txt,sha256=Tv1wXHliSPc5llZjBnheakxaM5jOCar9b5wAuBKKMpE,10
+pysmashgg-0.1.0.dist-info/RECORD,,
