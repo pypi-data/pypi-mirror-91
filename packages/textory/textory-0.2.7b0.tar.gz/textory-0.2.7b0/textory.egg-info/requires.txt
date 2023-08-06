@@ -1,0 +1,6 @@
+numpy>=1.16.5
+xarray
+scipy
+scikit-image
+dask
+distributed
