@@ -1,0 +1,12 @@
+lungs_segmentation/__init__.py,sha256=q8_5C0f-8mHWNb6mMw02zlYPnEGXBqvOmP3z0CEwZKM,22
+lungs_segmentation/densenet.py,sha256=IjNRHKG5YOXsbBaMnOeapeB88mKHgRpRldFmBaDIhYs,11597
+lungs_segmentation/inference.py,sha256=ysy_INdeRjpX3WWbFRgdH40rDGS7QqU4IjKEIXtxJn8,1837
+lungs_segmentation/pre_trained_models.py,sha256=JKQ4TjszvxbUdwWL87r_eYkx0wbmHVT0eOcy2r-DWMo,875
+lungs_segmentation/resnet.py,sha256=lFU2szVLVjuL5LcyoqpESF_ZFtcTwemX4fNsUGDifT4,6090
+lungs_segmentation/resunets.py,sha256=YWyT5CY3n1JGvHz_cBRHtPmKwXtK5khAJJQFBBKpxoQ,7772
+lungs_segmentation/senet.py,sha256=A9t3bOd6J1QYYKpTaagf9AGLSgiWwgPcZCJR2B3o4SI,21744
+lungs_segmentation/unet.py,sha256=ibdkFr_ef3sdiK4b4d-j1BjRACQGCi95q57Fnx58bU0,14443
+lungs_segmentation-1.1.1.dist-info/METADATA,sha256=deHmk_5Q8YQppuDAbj5JCrANFjkDInKMDNYKcx2bBMQ,2957
+lungs_segmentation-1.1.1.dist-info/WHEEL,sha256=CihQvCnsGZQBGAHLEUMf0IdA4fRduS_NBUTMgCTtvPM,110
+lungs_segmentation-1.1.1.dist-info/top_level.txt,sha256=2ww6ncI2OMvXZQpV6c68H8f2aa6yyv6WnZiBatmHQTI,19
+lungs_segmentation-1.1.1.dist-info/RECORD,,
