@@ -1,0 +1,13 @@
+Metadata-Version: 1.1
+Name: WPDevEnvCreator
+Version: 1
+Summary: Create dev-environments of your Wordpress-Site with ease!
+Home-page: https://github.com/dersaschahuber/WPDevEnvCreator
+Author: Sascha Huber
+Author-email: kontakt@sascha-huber.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.6
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
