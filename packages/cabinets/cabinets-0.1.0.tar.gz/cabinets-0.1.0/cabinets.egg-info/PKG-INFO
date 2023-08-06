@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: cabinets
+Version: 0.1.0
+Summary: Place to store many things.
+Home-page: UNKNOWN
+Author: Lucas Lofaro, Sam Hollenbach
+Author-email: lucasmlofaro@gmail.com, samhollenbach@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Provides-Extra: test
