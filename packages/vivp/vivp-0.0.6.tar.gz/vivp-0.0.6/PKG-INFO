@@ -1,0 +1,68 @@
+Metadata-Version: 2.1
+Name: vivp
+Version: 0.0.6
+Summary: A package manager for Verilog Projects
+Home-page: https://github.com/AdityaNG/VIVP
+Author: Aditya NG
+Author-email: adityang5@gmail.com
+License: LICENSE.txt
+Description: # VIVP
+        
+        <img src="https://github.com/AdityaNG/VIVP/blob/main/docs/img/demo1.png?raw=true" width="600">
+        
+        VIVP Installs Verilog Packages
+        Verilog Package Manager. A simple package manager for all your verilog projects
+        
+        ## Installing
+        
+        Install with pip (python>=3.6):
+        
+        ```bash
+        $ python3 -m pip install vivp
+        ```
+        
+        To install the very latest version [may be buggy]
+        ```bash
+        $ pip install git+https://github.com/AdityaNG/VIVP.git
+        ```
+        
+        ## Creating a Verilog Package
+        
+        cd into the desired directory run the following; you will be prompted to enter your package Name, list of Authors and an optional remote URL
+        
+        ```bash
+        $ vivp -s .   # setup
+        ```
+        To install dependencies : 
+        ```bash
+        $ vivp -i https://github.com/...
+        ```
+        To remove dependencies : 
+        ```bash
+        $ vivp -i https://github.com/...
+        ```
+        All dependencies are stored at `project_directory/.vpackage/repos/`
+        
+        ## Contributing
+        If you see something that you know you can help fix or implement, do contact me at :
+        1. Mail : adityang5@gmail.com
+        2. Discord : to be added
+        
+        Please read [Contributing](https://github.com/AdityaNG/VIVP/blob/main/CONTRIBUTING.md).
+        
+        ### TODO List
+        1. (DONE) Add a run command
+        2. Add support fom non vpackage projects
+        3. Add .vpackage/* to .gitignore
+        4. Install / Remove command triggers a FULL cache clear and re-download. This needs to be optimized
+        5. Recursive imports need to be implemented with a dependency tree check
+        6. Make use of version control to download a specific version of a package
+        7. Unit tests to see if package is functional
+        8. Make website on git to give introduction, show list of modules on git, look pretty, SEO : https://adityang.github.io/VIVP/
+        
+        ## License
+        
+        This software is released under the [MIT License](https://github.com/AdityaNG/VIVP/blob/main/LICENSE.txt).
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown

@@ -1,0 +1,10 @@
+README.txt
+setup.py
+bin/vivp
+libvivp/__init__.py
+libvivp/utils.py
+libvivp/vPackage.py
+vivp.egg-info/PKG-INFO
+vivp.egg-info/SOURCES.txt
+vivp.egg-info/dependency_links.txt
+vivp.egg-info/top_level.txt
