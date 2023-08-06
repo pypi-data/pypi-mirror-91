@@ -1,0 +1,12 @@
+pathmod/__init__.py,sha256=FCTxOt0T1KpRvm3dm_Bp-iE9Ud9J14P5SM5z2Ps7nZ4,1380
+pathmod/__main__.py,sha256=ctVrICsVf0xapRwyaaUkNWwU9836ucPs_ZJVFZNMoJ8,1295
+pathmod/pathutils.py,sha256=xvd1tfxMzUh7mppDlGaSLKDqCKSwPN3UqIOm4CPtxmw,7327
+pathmod/refresh.py,sha256=EAytUNVUmKU2mcTkywaE4houhc2b4rLczdu3RkR8cew,3022
+pathmod/cli/__init__.py,sha256=xBlrW9TXbuQ0DHx2KZHFOjd1D2D3yiwsqEOozDrI7L8,1376
+pathmod/cli/commands.py,sha256=39fopvFxONthwlIb-llIwyctC1yEuJr0WpnispM1zrw,3959
+pathmod-0.1.0.dist-info/LICENSE,sha256=HBGnJvGfBGvsHnQWg9ELL9OEtMG-f_oZ85sUdVTKNv8,1097
+pathmod-0.1.0.dist-info/METADATA,sha256=VBOMHlGZ3eS5MnUwnclX3THAWcNRPH19iHujLkAxn3k,4020
+pathmod-0.1.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+pathmod-0.1.0.dist-info/entry_points.txt,sha256=GQ4fMeyiIMat5t0xiqndBxzplrfowzX0xkwWafjVhFU,41
+pathmod-0.1.0.dist-info/top_level.txt,sha256=_0cO8_6eOmwojkfGohvElBesR7ZctjqkPNkvfUIQn3A,8
+pathmod-0.1.0.dist-info/RECORD,,

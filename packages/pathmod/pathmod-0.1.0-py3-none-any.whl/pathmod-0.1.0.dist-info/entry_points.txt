@@ -1,0 +1,3 @@
+[console_scripts]
+pathmod = pathmod:cli
+
