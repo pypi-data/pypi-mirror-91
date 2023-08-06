@@ -1,0 +1,12 @@
+cloudpickle
+matplotlib
+numpy
+optuna
+pandas
+psutil
+PyYAML
+tensorboard
+tensorboard-plugin-wit
+torch>=1.5.0
+torchvision
+tqdm
