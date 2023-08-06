@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+setup.py
+amplitude/__init__.py
+amplitude/logger.py
+amplitude_logger.egg-info/PKG-INFO
+amplitude_logger.egg-info/SOURCES.txt
+amplitude_logger.egg-info/dependency_links.txt
+amplitude_logger.egg-info/requires.txt
+amplitude_logger.egg-info/top_level.txt
