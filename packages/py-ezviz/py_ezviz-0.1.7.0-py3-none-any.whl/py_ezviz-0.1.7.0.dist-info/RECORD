@@ -1,0 +1,11 @@
+pyezviz/DeviceSwitchType.py,sha256=RE9rXdZYRVLXAZF4Q_O_4xSg55spl-0kJfNWrVBrvPM,794
+pyezviz/__init__.py,sha256=kAw6-NOtw7CKttrPwW5T0EtmK3aqG9-4PFQ0dVLVS30,145
+pyezviz/__main__.py,sha256=geuspU3HiYqfmzy0Z0ty8Xm8ISNWzV1mxpEzT0ckrl8,9373
+pyezviz/camera.py,sha256=zmMai0Wk6Bh_HCE2Gg19vd4M_WS_x4J3et7y-9eyRcs,6208
+pyezviz/client.py,sha256=1WJmnmFar09eUjnLATpXtI8Ve6_cN3OFkoWhl5ani10,23614
+py_ezviz-0.1.7.0.dist-info/LICENSE,sha256=IwGE9guuL-ryRPEKi6wFPI_zOhg7zDZbTYuHbSt_SAk,35823
+py_ezviz-0.1.7.0.dist-info/METADATA,sha256=p1IqjnlYJmZAdO0AuPjVCCUub1K8r52pQSgl16aDbl8,441
+py_ezviz-0.1.7.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+py_ezviz-0.1.7.0.dist-info/entry_points.txt,sha256=TzA2sXtSVHOulT3sE16_RX9DR89wvswDHeYXNGWOsaY,51
+py_ezviz-0.1.7.0.dist-info/top_level.txt,sha256=BVvKEqHYRVR8UGmX0mgBoS0WIhKCIBdOf8SE2e4S_SA,8
+py_ezviz-0.1.7.0.dist-info/RECORD,,
