@@ -1,0 +1,7 @@
+
+[dev]
+pyre-check
+flake8
+pytest
+pytest-cov
+mypy
