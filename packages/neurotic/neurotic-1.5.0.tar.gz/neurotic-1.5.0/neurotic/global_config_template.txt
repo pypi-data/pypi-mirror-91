@@ -1,0 +1,48 @@
+# --- neurotic global config --------------------------------------------------
+# Use this file to configure the way neurotic behaves. This file uses the TOML
+# format.
+
+
+[defaults]
+# When the app is launched, the following customizable defaults are used unless
+# overridden by command line arguments. Example uses include:
+#   - Uncomment the "file" parameter and insert the path to your favorite
+#     metadata file so that it always opens automatically
+#   - Uncomment the "lazy" parameter and set it to false to always disable fast
+#     loading, ensuring that expensive procedures like spike detection and
+#     filtering are performed by default
+# To open the example metadata file by default, either leave the "file"
+# parameter unset, set it to false, or set it to "example". To initially select
+# the first dataset in the file, either leave the "dataset" parameter unset,
+# set it to false, or set it to "first".
+
+# file = false
+# dataset = false
+# debug = false
+# lazy = true
+# thick_traces = false
+# show_datetime = false
+# ui_scale = "medium"
+# theme = "light"
+
+
+[gdrive]
+# The "save_tokens" parameter controls how often you need to authorize neurotic
+# to access your Google Drive account for downloads:
+#   - Set "save_tokens" to true to remember Google Drive access tokens after
+#     authorization, so that permissions only need to be granted once. This is
+#     not recommended if others you do not trust have access to this computer,
+#     as it could let them download files from your Google Drive account.
+#   - Set "save_tokens" to false or leave it unset to forget access
+#     authorization after neurotic closes. Each time you restart neurotic, you
+#     will be required to re-grant permissions when you download a Google Drive
+#     file.
+
+# save_tokens = false
+
+
+[app]
+# When the app is launched, neurotic automatically checks for updates unless
+# the "auto_check_for_updates" parameter is set to false.
+
+# auto_check_for_updates = true
