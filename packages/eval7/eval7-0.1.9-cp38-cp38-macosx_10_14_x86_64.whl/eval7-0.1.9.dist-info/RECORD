@@ -1,0 +1,12 @@
+eval7/__init__.py,sha256=7cHEtPCcpSAHlU3Wu5PPRMMDmuTZ2MWhs5jiZBtMx4Q,434
+eval7/cards.cpython-38-darwin.so,sha256=CuTrgkGfGWcle-mjSZXbSEpoHslCgkOou-LJYYNOtSc,101288
+eval7/equity.cpython-38-darwin.so,sha256=sAo9qr08khMvH1lA63SwnaG1SAe1T5c6mUFReBSLx-I,66216
+eval7/evaluate.cpython-38-darwin.so,sha256=bl5aa1GOCF-PjJX7GQvsadzSNTUGESw4vwZF0Re64jY,127800
+eval7/handrange.py,sha256=nyWlVsU8mnvt9gKQjA8LkQ9_RokiJtrkyKFBWaZcJiI,551
+eval7/rangestring.py,sha256=q74-336uR4kRps89y_niwwZu_3fCEjnHgdLgJbamlSI,10883
+eval7/xorshift_rand.cpython-38-darwin.so,sha256=4wv6uUaFhTtFFF3UCXeNCEmYfjYK3ql9sxS5pArn9vM,63808
+eval7-0.1.9.dist-info/LICENSE,sha256=0xI-6J7d3cn-4QPlSOhPj5EcZscRH_4I5XH0DTQ65xs,1105
+eval7-0.1.9.dist-info/METADATA,sha256=NVkYsrRF2zllszadsm833wrcspwfIhhVZg-pXu5_oXc,4310
+eval7-0.1.9.dist-info/WHEEL,sha256=V3dP579bkkoFyEn0eRX4OUiUM3w2HVock1BmzwB7n_c,110
+eval7-0.1.9.dist-info/top_level.txt,sha256=_mtptJ6ymqbmLwNw_9hKywqoVbgKsmaG-88RT5a1rNw,6
+eval7-0.1.9.dist-info/RECORD,,
