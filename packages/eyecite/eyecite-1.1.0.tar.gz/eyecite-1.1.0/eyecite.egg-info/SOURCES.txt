@@ -1,0 +1,16 @@
+README.rst
+pyproject.toml
+setup.cfg
+setup.py
+eyecite/__init__.py
+eyecite/cleaners.py
+eyecite/find_citations.py
+eyecite/helpers.py
+eyecite/models.py
+eyecite/reporter_tokenizer.py
+eyecite/utils.py
+eyecite.egg-info/PKG-INFO
+eyecite.egg-info/SOURCES.txt
+eyecite.egg-info/dependency_links.txt
+eyecite.egg-info/requires.txt
+eyecite.egg-info/top_level.txt
