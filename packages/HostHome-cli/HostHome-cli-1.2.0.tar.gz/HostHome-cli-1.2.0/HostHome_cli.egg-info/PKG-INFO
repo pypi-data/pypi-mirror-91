@@ -1,0 +1,18 @@
+Metadata-Version: 1.1
+Name: HostHome-cli
+Version: 1.2.0
+Summary: HostHome-cli para empezar con el host
+Home-page: https://github.com/HostHome-of/python-CLI
+Author: Maubg
+Author-email: UNKNOWN
+License: GNU
+Description: # python-CLI
+        Este es el CLI de python para HostHome
+        
+Keywords: host,hosthome,maubg,python,py,hosty,hoster,home
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
