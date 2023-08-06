@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: mo-cache
+Version: 0.0.1
+Summary: a simple cache lib support memory、file、redis
+Home-page: https://github.com/mouday/Mo-Cache
+Author: Peng Shiyu
+Author-email: pengshiyuyx@gmail.com
+License: MIT
+Keywords: cache
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
+Requires-Dist: redis
+
+# Mo-Cache
+
+a simple cache lib support memory、file、redis
+
+
+## install
+
+```bash
+pip install Mo-Cache
+```
+
+## demo
+```python
+from mo_cache import cache_decorator
+
+cache = cache_decorator('memory')
+
+@cache
+def foo(a, b):
+    return a + b
+
+if __name__ == '__main__':
+    foo()
+```
+
+
+
