@@ -1,0 +1,4 @@
+2021-01-17 20:34:34 wsclient.__init__:36 INFO  Creating Mopidy Websocket connection...
+2021-01-17 20:34:34 wsclient.packethandler:56 WARNING  Mopidy connection error (reconnecting): [Errno 111] Connect call failed ('127.0.0.1', 6680)
+2021-01-17 20:34:35 wsclient.packethandler:56 WARNING  Mopidy connection error (reconnecting): [Errno 111] Connect call failed ('127.0.0.1', 6680)
+2021-01-17 20:34:35 wsclient.packethandler:56 WARNING  Mopidy connection error (reconnecting): [Errno 111] Connect call failed ('127.0.0.1', 6680)
