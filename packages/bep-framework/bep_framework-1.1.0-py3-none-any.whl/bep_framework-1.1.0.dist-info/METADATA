@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: bep-framework
+Version: 1.1.0
+Summary: Library for BEP
+Home-page: UNKNOWN
+Author: BEP
+Author-email: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: psycopg2
+Requires-Dist: flask
+Requires-Dist: python-dateutil
+
+UNKNOWN
+
+
