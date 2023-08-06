@@ -1,0 +1,15 @@
+ninjarmmpy/__init__.py,sha256=8ZfeY6oNdLoFjeH9_l0a4ftPl1RHaBzA4d3FaMJgBVw,36
+ninjarmmpy/auth.py,sha256=uZZyG0ppicVyBZ2X1KeF5mjCcC50sTdemYTTInA9Ovs,1588
+ninjarmmpy/client.py,sha256=LI0dkFLpkDHj9RSnpm2MMe6do_pLFEnTyqqw96QGlIM,852
+ninjarmmpy/device.py,sha256=QozZz2OBC3FQFBC0OTEBZnFZsblYx_54MWdp5gTCetg,10419
+ninjarmmpy/groups.py,sha256=fsThfsv6Cg8tP-vtLrS-5gOBBJzj2mYSkUgWBZl2ZIM,786
+ninjarmmpy/management.py,sha256=e4ZkkhGIggKWv7gwZ9-SWxJgwSOUtd_65cpd9Uzh2gg,1572
+ninjarmmpy/organization.py,sha256=Wp9J-CjCMU7Rw1JCXf__ew7nAvPehVq1dzpRzXaogSE,2245
+ninjarmmpy/queries.py,sha256=jyHALD3rdB0nxn09lZ8Z2G3KDapHuCW9HlZTTFUBers,16004
+ninjarmmpy/system.py,sha256=wW-Ws3A6-Ilgg3tOifhDKO2mzEUOw53T_BgcVDdcyVw,8853
+ninjarmmpy/utils.py,sha256=0H6z3LNTBsM3Vlgxa71Sm11s1U-7IbZp-mdt-cZBK9Q,1428
+ninjarmmpy-0.2.1.dist-info/LICENSE,sha256=MZNEmRdu6UsesyYr94SxeogmmON58Row6E4VNZwArSU,1074
+ninjarmmpy-0.2.1.dist-info/METADATA,sha256=RTldSCC3y7WrM9M5MIFG6erVSg2Law-qhYwjrKq0bBU,1326
+ninjarmmpy-0.2.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+ninjarmmpy-0.2.1.dist-info/top_level.txt,sha256=oi3ByQ_IVtnLEuMreksoDcjgJYT2DDWRSg9QK8JQ6dw,11
+ninjarmmpy-0.2.1.dist-info/RECORD,,
