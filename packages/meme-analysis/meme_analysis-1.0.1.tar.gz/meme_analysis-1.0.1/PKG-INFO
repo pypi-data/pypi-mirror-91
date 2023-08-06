@@ -1,0 +1,81 @@
+Metadata-Version: 2.1
+Name: meme_analysis
+Version: 1.0.1
+Summary: Sememe Analysis by SIST NLP Lab XiaoranLi
+Home-page: http://www.sauron.online
+Author: Xiaoran Li
+Author-email: lixira@outlook.com
+License: UNKNOWN
+Description: # meme_analysis
+        
+        By SIST NLP Lab XiaoranLi
+        * Blog URL : www.sauron.online
+        
+        ## Installation
+        ```
+        pip install meme_analysis
+        ```
+        
+        ## parameter
+        * --pertrain_data_dir', type=str, default="./data", help='cache_dir : per-train data save（cache_dir = "./data"）
+        * --dimension', type=int, default=50, help='per-train data word embedding dimension (dimension = 50 or 100 or 200 or 300)
+        * --corpus_data_dir', type=str, required=True, help='Corpus for training morphemes (corpus_data = path of wikipedia_english)
+        * --word', type=str,default="apple", help='embedding size')
+        * --num_clusters', type=int,default=2, help='number of sememe')
+        * --dimensionality_reduction', type=bool,default=False, help='Whether to perform dimensionality reduction analysis
+            
+        - cache_dir : per-train data save（cache_dir = "./data"）
+        - dimension : per-train data word embedding dimension (dimension = 50 or 100 or 200 or 300)
+        - corpus_data_dir : Corpus for training morphemes (corpus_data = path of wikipedia_english)
+        - word_to_index : word to index (word_to_index = glove.stoi)
+        - index_to_vec : index to vector (index_to_vec = glove.vectors)
+        - sentence_embedding_matrix : from _, _, * = text_preprocessing()
+        - sentence_matrix : from _, * _, = text_preprocessing()
+        
+        ## output
+        ```
+        ---sememe analysis start---
+        number of vocabularies :  400000
+        corpus data preprocessing...
+        making sentence matrix...
+        saved : model,sentence matrix and sentence embedding matrix
+        ------------------------
+        Calculating morpheme matrix...
+        ------------------------
+        The morpheme matrix is completed!
+        ------------------------
+        Trying to cluster the morpheme matrix...
+        ------------------------
+        Text classification on morphemes <Top10>...
+        Label: 1  |  the structure of the additive model allows solution for the additive coefficients by simple algebra rather than by matrix calculations
+        Label: 1  |  connective tissues are fibrous and made up of cells scattered among inorganic material called the extracellular matrix
+        Label: 1  |  the extracellular matrix contains proteins
+        Label: 0  |  the matrix can be modified to form a skeleton to support or protect the body
+        Label: 1  |  the lower layer is the reticular lamina lying next to the connective tissue in the extracellular matrix secreted by the epithelial cells
+        Label: 1  |  the epithelial cells on the external surface of the body typically secrete an extracellular matrix in the form of a cuticle
+        Label: 1  |  the outer surface of the epidermis is normally formed of epithelial cells and secretes an extracellular matrix which provides support to the organism
+        Label: 1  |  in 1925 werner heisenberg published the first consistent mathematical formulation of quantum mechanics matrix mechanics
+        Label: 0  |  undergoes a change in the arrangement of the atoms of its crystal matrix at a certain temperature usually between and
+        Label: 0  |  the smaller atoms become trapped in the spaces between the atoms of the crystal matrix
+        ------------------------
+        The cluster distribution scatter plot is being produced...
+        ------------------------
+        The classifier is being used to evaluate the clustering results...
+        Train score: 1.0
+        Test score: 0.9733333333333334
+        ------------------------
+        Find the word that is closest to the sum of phonemes...
+        ['example', 'same', 'this', 'is', 'particular', 'form', 'instance', 'which', 'similar', 'of']
+        ------------------------
+        The closest word of the phoneme of the matrix :
+         ['same', 'the', 'which', 'this', 'of', 'it', 'one', 'is', 'as', 'example']
+        ------------------------
+        The closest word of the phoneme of the matrix :
+         ['function', 'i.e.', 'defined', 'hence', 'element', 'example', 'integral', 'corresponding', 'linear', 'formula_1']
+        ------------------------End------------------------
+        ```
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
