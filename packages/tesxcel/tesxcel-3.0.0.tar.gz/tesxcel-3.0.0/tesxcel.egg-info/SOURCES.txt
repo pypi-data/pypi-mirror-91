@@ -1,0 +1,10 @@
+README.md
+setup.py
+tesxcel/__init__.py
+tesxcel/_excel.py
+tesxcel/version.py
+tesxcel.egg-info/PKG-INFO
+tesxcel.egg-info/SOURCES.txt
+tesxcel.egg-info/dependency_links.txt
+tesxcel.egg-info/requires.txt
+tesxcel.egg-info/top_level.txt

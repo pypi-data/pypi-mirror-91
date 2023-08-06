@@ -1,0 +1,4 @@
+openpyxl==3.*
+
+[testing]
+pytest-cov==2.*
