@@ -1,0 +1,6 @@
+recursive-include pretix_limit_phone_country/static *
+recursive-include pretix_limit_phone_country/templates *
+recursive-include pretix_limit_phone_country/locale *
+include LICENSE
+include Makefile
+include pytest.ini
