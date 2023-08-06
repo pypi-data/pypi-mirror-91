@@ -1,0 +1,19 @@
+Metadata-Version: 1.2
+Name: pyHDX
+Version: 0.3.0.0rc2
+Summary: Derive ΔG for single residues from HDX-MS data
+Home-page: https://github.com/Jhsmit/pyhdx
+Author: Jochem H. Smit
+Author-email: jhsmit@gmail.com
+Maintainer: Jochem H. Smit
+Maintainer-email: jhsmit@gmail.com
+License: MIT
+Description: DESCRIPTION.rst
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9

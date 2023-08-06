@@ -1,0 +1,14 @@
+pbr; python_version < '3.8'
+symfit
+numpy
+tqdm
+scikit-image
+scipy
+panel>=0.10.1
+matplotlib
+bokeh
+dask[distributed]
+torch
+param
+pandas
+hdxrate>=0.2.0
