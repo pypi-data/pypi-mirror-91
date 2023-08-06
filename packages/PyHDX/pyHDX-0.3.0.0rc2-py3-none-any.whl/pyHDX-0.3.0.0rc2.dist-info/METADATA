@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: pyHDX
+Version: 0.3.0.0rc2
+Summary: Derive ΔG for single residues from HDX-MS data
+Home-page: https://github.com/Jhsmit/pyhdx
+Author: Jochem H. Smit
+Author-email: jhsmit@gmail.com
+Maintainer: Jochem H. Smit
+Maintainer-email: jhsmit@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: symfit
+Requires-Dist: numpy
+Requires-Dist: tqdm
+Requires-Dist: scikit-image
+Requires-Dist: scipy
+Requires-Dist: panel (>=0.10.1)
+Requires-Dist: matplotlib
+Requires-Dist: bokeh
+Requires-Dist: dask[distributed]
+Requires-Dist: torch
+Requires-Dist: param
+Requires-Dist: pandas
+Requires-Dist: hdxrate (>=0.2.0)
+Requires-Dist: pbr ; (python_version < '3.8')
+
+DESCRIPTION.rst
+
+
