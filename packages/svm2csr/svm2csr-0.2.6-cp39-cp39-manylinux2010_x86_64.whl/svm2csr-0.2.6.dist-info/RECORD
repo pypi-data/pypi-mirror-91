@@ -1,0 +1,6 @@
+svm2csr-0.2.6.dist-info/METADATA,sha256=T9LTDlRWI7yR85daLUxrr4zRoGDB4KdOMohW24VErCI,4686
+svm2csr-0.2.6.dist-info/WHEEL,sha256=AZ_iGIESYpygRJozu-f8Twworv4cH696bgpJImvN850,105
+svm2csr/load.py,sha256=ibK6IfTq_4j0hc8GcCnea094sIrgaoqHo23E3AQWVkQ,1367
+svm2csr/__init__.py,sha256=I3lyD9gS0gkO6PPsnDhu4h0jMUmwVaZCyYr_LLB18QE,66
+svm2csr/svm2csr.cpython-39-x86_64-linux-gnu.so,sha256=3YXVpOWs2SPCrdCR22_06TZv9O4r4Yzyj8EhXLnAXKY,530776
+svm2csr-0.2.6.dist-info/RECORD,,
