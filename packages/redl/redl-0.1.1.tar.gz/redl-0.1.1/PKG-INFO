@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: redl
+Version: 0.1.1
+Summary: A cli to download reddit video along with audio
+Home-page: https://github.com/amalshaji/redl
+Author: Amal Shaji
+Author-email: amalshajid@gmail.com
+Requires-Python: >=3.6,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: requests (>=2.25.1,<3.0.0)
+Requires-Dist: tqdm (>=4.56.0,<5.0.0)
+Project-URL: Repository, https://github.com/amalshaji/redl
+Description-Content-Type: text/markdown
+
+# redl - A Reddit video downloader(with audio)
+
+
+### ⚠️ Requires `ffmpeg` installed
+
+
+Redl scrapes the reddit post json and retrives both audio and video URLs. Once these files are downloaded, it uses `ffmpeg` to join them. 
+
+### Installation
+
+```bash
+pip install redl --user
+```
+
+### Usage
+
+```bash
+redl https://www.reddit.com/r/Damnthatsinteresting/comments/kwrbde/making_a_grapefruit_dessert/
+```
+
+
