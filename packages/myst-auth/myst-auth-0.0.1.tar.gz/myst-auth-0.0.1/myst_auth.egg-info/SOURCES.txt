@@ -1,0 +1,9 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+myst/__init__.py
+myst_auth.egg-info/PKG-INFO
+myst_auth.egg-info/SOURCES.txt
+myst_auth.egg-info/dependency_links.txt
+myst_auth.egg-info/top_level.txt
