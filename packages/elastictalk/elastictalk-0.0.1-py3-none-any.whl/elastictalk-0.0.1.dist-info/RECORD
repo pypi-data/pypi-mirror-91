@@ -1,0 +1,10 @@
+elastictalk/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+elastictalk/pipe/__init__.py,sha256=m6vRyxry3b2RKbkIyI9DMRWO0fqumRk8tEZqAFYrAFc,1406
+elastictalk/scripts/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+elastictalk/scripts/elastictalk.py,sha256=7xdHfG-2tHmKo0BriRW7GHC3X6gkpMDXuYHDIryEXeY,16427
+elastictalk/utils/__init__.py,sha256=OWjtoRQZxkq7x2QNtgRUYvQrW5UZkY36xLx6-bEgRvw,4701
+elastictalk-0.0.1.dist-info/METADATA,sha256=LviOlWSLV2wxl1RhN7IUD1BIMTsiRa-j63DbdA0J_6A,727
+elastictalk-0.0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+elastictalk-0.0.1.dist-info/entry_points.txt,sha256=XV1G7I6qjf5q-1B6g09NGRY6NEuRVN3NmUVieLCtKTg,61
+elastictalk-0.0.1.dist-info/top_level.txt,sha256=cUDwHGKpImiHeAXVU46hdc_7UHjtVdnth3fX4Fe6Nj0,12
+elastictalk-0.0.1.dist-info/RECORD,,

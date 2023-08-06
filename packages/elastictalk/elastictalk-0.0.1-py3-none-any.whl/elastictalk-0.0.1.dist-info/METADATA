@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: elastictalk
+Version: 0.0.1
+Summary: Extend elastic beanstalk cli tool
+Home-page: UNKNOWN
+Author: lambdaTW
+Author-email: lambda@lambda.tw
+License: MIT
+Keywords: AWS Elastic Beanstalk
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.8
+Description-Content-Type: text/markdown
+Requires-Dist: awsebcli
+Requires-Dist: boto3
+Requires-Dist: fire
+
+# Elastictalk
+Elastictalk is a AWS ebcli extend library
+
+## Usage
+```shell-script
+# Show commands
+et
+
+# Show global argument setting
+et --help
+
+# Show commands' argument setting
+# et <command> --help
+# Ex:
+et save_env_var --help
+
+# Use command with arguments
+elastictalk.py take_rds_snapshot rds_id --rds_snapshot_id=new_rds_snapshot_id
+```
+
+

@@ -1,0 +1,3 @@
+[console_scripts]
+et = elastictalk.scripts.elastictalk:main
+
