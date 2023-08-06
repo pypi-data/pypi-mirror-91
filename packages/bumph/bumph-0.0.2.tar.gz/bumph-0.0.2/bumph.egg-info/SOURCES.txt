@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+bumph/__init__.py
+bumph.egg-info/PKG-INFO
+bumph.egg-info/SOURCES.txt
+bumph.egg-info/dependency_links.txt
+bumph.egg-info/not-zip-safe
+bumph.egg-info/requires.txt
+bumph.egg-info/top_level.txt
