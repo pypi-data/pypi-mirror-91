@@ -1,0 +1,8 @@
+setup.py
+RandoWordo/__init__.py
+RandoWordo/random_word.py
+RandoWordo/setup.py
+RandoWordo.egg-info/PKG-INFO
+RandoWordo.egg-info/SOURCES.txt
+RandoWordo.egg-info/dependency_links.txt
+RandoWordo.egg-info/top_level.txt
