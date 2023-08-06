@@ -1,0 +1,50 @@
+Metadata-Version: 2.1
+Name: ulia
+Version: 0.3.0
+Summary: Algorithm to emulate a lock-in amplifier
+Home-page: https://gitlab.com/UhlDaniel/ulia
+Author: Daniel Uhl
+Author-email: daniel_uhl@hotmail.de
+Maintainer: Daniel Uhl
+Maintainer-email: daniel_uhl@hotmail.de
+License: MIT
+Keywords: lia lock-in amplifier
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: numpy (>=1.14)
+Requires-Dist: scipy (>=1.14)
+
+# Universal Software Lock-In Amplifier (ULIA)
+An effective algorithm to emulate a Lock-In Amplifier.
+
+## Installation
+To install `ulia` you can use `pip` or `setuptools`.
+
+### Using `pip`
+`ulia` package can be installed directly from PyPI using `pip` (`pip3`).
+
+```bash
+$ pip3 install ulia
+```
+
+### Using `setuptools`
+It can also be installed directly from this repository.
+
+```bash
+$ git clone https://gitlab.com/UhlDaniel/ulia.git
+$ cd ulia
+$ python3 setup.py install
+```
+
+### Dependencies
+This package depends on scipy and numpy. In some cases the installation of
+`ulia` fails due to build-time dependencies of numpy or scipy. This can be
+solved by manually installing the two dependencies.
+
+## Usage
+
+
