@@ -1,0 +1,11 @@
+CWGP-1.2.1.dist-info/DESCRIPTION.rst,sha256=3N8ypzEpPAkLU4q09ycFUIrbUXJa_1FqPUDm4kejP1M,629
+CWGP-1.2.1.dist-info/METADATA,sha256=yUY4-hVDPBxCwvN7ur37nfZpnRNFA7wti_XvT2CYqfI,1100
+CWGP-1.2.1.dist-info/RECORD,,
+CWGP-1.2.1.dist-info/WHEEL,sha256=8Lm45v9gcYRm70DrgFGVe4WsUtUMi1_0Tso1hqPGMjA,92
+CWGP-1.2.1.dist-info/metadata.json,sha256=CGDMcwC4m8h4y0_gwZKvF-CESz1ZJyQZlnk867IVMsI,659
+CWGP-1.2.1.dist-info/top_level.txt,sha256=pkd-rcUDRAo1OuuAIBshUpcxaX3-R_rB-L-PTP-8daM,5
+cwgp/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cwgp/cwgp.py,sha256=rIPcQ_mwadTYNWjtx-2nxLCQ1bUj4vOnsyc4lNTPQ9I,200
+cwgp/kernel.py,sha256=2-OVoZWlNhuIAgtiEUD0E8iGs4lANvyf7P5LbezLWfE,220
+cwgp/phi.py,sha256=gLHER39aPocgEDLXWf7v_jJ10pl6jGL43TseDw3LScA,2714
+cwgp/transformations.py,sha256=qrnerxTnqRbgzpExnvSt3awNjLtMhi5gwuOPVhQPpVM,714
