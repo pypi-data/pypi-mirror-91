@@ -1,0 +1,3 @@
+[console_scripts]
+mol2scad = molscad:main
+
