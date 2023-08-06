@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: get_names_malinowa2
+Version: 0.2.0
+Summary: Package with functions printing random names, surnames, or both
+Home-page: UNKNOWN
+Author: malinowa
+Author-email: amt-mal@wp.pl
+License: UNKNOWN
+Description: Package with functions printing random names, surnames, or both
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
