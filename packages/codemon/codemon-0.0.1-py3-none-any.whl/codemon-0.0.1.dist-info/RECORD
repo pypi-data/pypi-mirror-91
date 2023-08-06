@@ -1,0 +1,15 @@
+codemon/CodemonFetch.py,sha256=zDyDppc_bcETO5bqKlQjqzN5Idq7_0fSQuMVrGo9EOI,2811
+codemon/CodemonHelp.py,sha256=m4SXQGCrBKGrmNOIBWAN2HsV6Vv42rB9DLDchqxrUo4,1992
+codemon/CodemonInit.py,sha256=N756qnHUpZABnOXGnUm6reKAzBjATcgPG1z9VDU89Aw,2295
+codemon/CodemonListen.py,sha256=b7dcTg0seVhrwUpwQJOxS-CoxeUuch3S26dF3Mnk50I,8637
+codemon/CodemonMeta.py,sha256=OsGh3_BujClXQe7qhamg2htsh8gm71Gj3ClpIAYBOcc,4198
+codemon/CodemonParse.py,sha256=Bdx6kBiXzrxXQC6r4v5m7-UWinuJEXp_uel4yYMhnjM,2206
+codemon/CodemonReg.py,sha256=SGBL-HLpuYzh2rsB4IOzNUKQX_gok1OHOhj9NWzPTN0,2601
+codemon/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+codemon/codemon.py,sha256=4uucSodIjQbqop8mPg9hcg5PBwOaoeGDOx0BmbuC9gg,1235
+codemon-0.0.1.dist-info/LICENSE,sha256=2mrndHLK4rHIalRIPZvk6qynFrPOoEyk6W4Wx4l56u4,1077
+codemon-0.0.1.dist-info/METADATA,sha256=wAb2jmf_zQbedBZQeyiYHvv-3R1gRN_FsG-HqCq6HxQ,4892
+codemon-0.0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+codemon-0.0.1.dist-info/entry_points.txt,sha256=p1jNitQRSHczSdnxRPvM3ooRO2LQVJlPsOI9FRCXZvA,50
+codemon-0.0.1.dist-info/top_level.txt,sha256=1HmzYP1XXKHrFg8GwTeXXSOdlYWrlvuu20OEQBrBHuQ,8
+codemon-0.0.1.dist-info/RECORD,,
