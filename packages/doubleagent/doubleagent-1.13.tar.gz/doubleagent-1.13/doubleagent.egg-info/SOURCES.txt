@@ -1,0 +1,10 @@
+README.md
+setup.py
+doubleagent/__init__.py
+doubleagent/ll2l.py
+doubleagent/report.py
+doubleagent/s2l.py
+doubleagent.egg-info/PKG-INFO
+doubleagent.egg-info/SOURCES.txt
+doubleagent.egg-info/dependency_links.txt
+doubleagent.egg-info/top_level.txt
