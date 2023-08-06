@@ -1,0 +1,29 @@
+numpy
+astropy
+matplotlib
+scipy>=1.0
+plotly>=4.0
+sympy>=1.1
+
+[:implementation_name == "cpython"]
+numba!=0.49.0,>=0.46
+
+[dev]
+coverage
+isort
+pytest
+pytest-xdist
+pytest-cov<2.6.0
+pycodestyle
+sphinx
+alabaster
+nbsphinx
+ipython>=5.0
+jupyter-client
+ipykernel
+ipywidgets
+tox
+jupyter_sphinx
+
+[dev:python_version >= "3.6"]
+black
