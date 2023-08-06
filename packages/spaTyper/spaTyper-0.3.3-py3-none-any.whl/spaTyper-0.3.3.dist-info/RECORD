@@ -1,0 +1,12 @@
+spaTyper/__init__.py,sha256=Yip0f4OW280M5PvJBrO_gL9CumKGROfuON_zJs82FiE,92
+spaTyper/enricher.py,sha256=6QZnYEAJuSb2WaImjIPg5AQhMzh3QlqFW6a9Q0s_c2E,3484
+spaTyper/spa_typing.py,sha256=qtT9se4-BbeK2DYHYz4zYS3wBEgQftAyLybRsk6BW_g,7057
+spaTyper/utils.py,sha256=vhn69GRbG6SKo9PFPViLLPzEHmtNI16u_4qVT7IgRXg,7097
+spaTyper-0.3.3.data/scripts/spaTyper,sha256=yw9Wd06hFLNsgqPhpDRJWuTw2ptWtmgA2I3dhqy16wk,6868
+spaTyper-0.3.3.data/scripts/sparepeats.fasta,sha256=skJLPX9yy8oaGl4_VgqK3ozPcO8DAcdhEL0VwMrUp0s,28348
+spaTyper-0.3.3.data/scripts/spatypes.txt,sha256=5M5BDGqYl0tkF7zUrruK2is1VGJJSj94zIQXzvUbbwQ,711574
+spaTyper-0.3.3.dist-info/LICENSE,sha256=fTqV5eBpeAZO0_jit8j4Ref9ikBSlHJ8xwj5TLg7gFk,7817
+spaTyper-0.3.3.dist-info/METADATA,sha256=Pn7tBNxjK8_dnjMyMX8kIC8ZLV3m9gR2Q7zFBIpnCco,4239
+spaTyper-0.3.3.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+spaTyper-0.3.3.dist-info/top_level.txt,sha256=wjGCJvq5YeoMoCBwld_PeEkQSVDwXUV_A47W33y-h7E,9
+spaTyper-0.3.3.dist-info/RECORD,,
