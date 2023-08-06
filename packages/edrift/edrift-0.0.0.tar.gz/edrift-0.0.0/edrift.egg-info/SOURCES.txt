@@ -1,0 +1,7 @@
+README.md
+setup.py
+edrift/__init__.py
+edrift.egg-info/PKG-INFO
+edrift.egg-info/SOURCES.txt
+edrift.egg-info/dependency_links.txt
+edrift.egg-info/top_level.txt
