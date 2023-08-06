@@ -1,0 +1,1 @@
+Tool that simulates Teradata-BTEQ behaviours and facilitates connections to Snowflake service.

@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: snowconvert-helpers
+Version: 1.9.7
+Summary: Tool that emulates Teradata-BTEQ behavours and facilitates connections to Snowflake.
+Home-page: https://docs.mobilize.net/snowconvert/
+Author: Mobilize.Net
+Author-email: info@mobilize.com
+License: SEE LICENSE IN LICENSE
+Description: Tool that simulates Teradata-BTEQ behaviours and facilitates connections to Snowflake service.
+Keywords: MOBILIZE,SNOWFLAKE,TERADATA,BTEQ
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Software Development :: Build Tools
+Requires-Python: >=3.4
+Description-Content-Type: text/markdown
