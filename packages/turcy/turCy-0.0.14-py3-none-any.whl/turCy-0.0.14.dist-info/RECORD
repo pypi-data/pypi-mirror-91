@@ -1,0 +1,10 @@
+turcy/__init__.py,sha256=zVmG-DdRdh739cKJVrLVIZnpQGB2xNREvi3bBcQ4Bgc,21
+turcy/pattern.py,sha256=KX_L-eM-LAFnS9fyXE5ykP7ucyw_3o_Uhn0sXaYuj1I,1347
+turcy/tree_dep_pattern.py,sha256=LTXnMWfXN177RG9mAXZvBEl3H7G5OT7WrPJQ53Rt46s,8435
+turcy/turcy.py,sha256=nFScsyVk2jFlkQidn9W-mVrK2I9x9oAQZS2s04ddDoM,774
+turcy/util.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+turCy-0.0.14.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+turCy-0.0.14.dist-info/METADATA,sha256=0TvtDv4br8I9Pog7fz_vwZFL0y8HiLQyRJN5NYtjoaA,661
+turCy-0.0.14.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+turCy-0.0.14.dist-info/top_level.txt,sha256=_Y__5n7ZLzXb5AFKC68O7bjy3B2cLn1vxDzgQbY81cE,6
+turCy-0.0.14.dist-info/RECORD,,
