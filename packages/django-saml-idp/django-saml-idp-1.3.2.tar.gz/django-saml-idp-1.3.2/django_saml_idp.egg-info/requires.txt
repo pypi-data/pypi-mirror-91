@@ -1,0 +1,4 @@
+Django>=1.9.*
+M2Crypto==0.37.1
+beautifulsoup4>=4.7.1
+structlog
