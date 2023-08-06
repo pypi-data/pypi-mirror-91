@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: keto
+Version: 0.0.0
+Summary: RPA Framework
+Home-page: https://github.com/dwightdc/keto.git
+Author: Dwight D. Cummings
+Author-email: dwight.cummings@yahoo.com
+License: mit
+Description: # keto
+        A framework for builing process automation bots
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
