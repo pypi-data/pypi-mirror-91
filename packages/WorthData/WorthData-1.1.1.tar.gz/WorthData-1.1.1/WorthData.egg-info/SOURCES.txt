@@ -1,0 +1,7 @@
+README.md
+WorthData.py
+setup.py
+WorthData.egg-info/PKG-INFO
+WorthData.egg-info/SOURCES.txt
+WorthData.egg-info/dependency_links.txt
+WorthData.egg-info/top_level.txt
