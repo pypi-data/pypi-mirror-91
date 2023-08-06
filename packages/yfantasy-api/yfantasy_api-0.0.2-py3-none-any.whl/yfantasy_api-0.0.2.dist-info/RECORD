@@ -1,0 +1,11 @@
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_api_authentication.py,sha256=YYhHaeZJtMki2K6mewuEQwr2Y82E74T1LzWrlROwtKQ,2149
+tests/test_api_requests.py,sha256=rvcR1ihOrpr0PR1oJc0bTtsyRtf-KowFgX6bdgsIQfo,5156
+tests/test_auth_service.py,sha256=YMbR5mrMOUJTRQLdwsKtQD37ao3fD3J9-rd9tel04KU,1814
+yfantasy_api/__init__.py,sha256=QvlVh4JTl3JL7jQAja76yKtT-IvF4631ASjWY1wS6AQ,22
+yfantasy_api/api.py,sha256=QmUHN9iVPjExdmHkM2sff1U53zMYWr2FiN7PEVEdMHk,5640
+yfantasy_api/auth.py,sha256=9gtJTtIxSOuKFAbj75OBelEyb8h4Y8tnqRoOlVexv34,3490
+yfantasy_api-0.0.2.dist-info/METADATA,sha256=rDpBm6PaqeTKOWbHZJkdNHlZnXur_BHL0_QZonSZ60U,397
+yfantasy_api-0.0.2.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+yfantasy_api-0.0.2.dist-info/top_level.txt,sha256=H4M8zgn5o3-gUKiF_mZFe5U4lZ65BSsJfT_4WH9ZO6s,19
+yfantasy_api-0.0.2.dist-info/RECORD,,
