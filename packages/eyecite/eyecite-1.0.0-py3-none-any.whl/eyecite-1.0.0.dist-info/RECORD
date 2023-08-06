@@ -1,0 +1,12 @@
+eyecite/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+eyecite/cleaners.py,sha256=N31pDT9YDwP16pANXyC8KEuYahsR9g-bu0maj3u8tfc,1056
+eyecite/find_citations.py,sha256=9MNouuob3RVKVcEyV-4AVOWNTAHWWJ6rii0llwetJY8,9822
+eyecite/helpers.py,sha256=SHylLjrx4n1B14W1PiHU5zTXUfJcnvuX27vypwlr5bM,16371
+eyecite/models.py,sha256=0MoC5A-kE7TXTPH-Jejsj45Qt-eejJxWuSiUeEby0lA,8895
+eyecite/reporter_tokenizer.py,sha256=weflvyCImP7LIXvsfAbY7wFaKwzcvFnCSqZBaEyFL2M,1495
+eyecite/utils.py,sha256=auO9G9iON0-15o7pQN54b0rBTcBZwbTD2ecLaD6oiEc,1992
+eyecite-1.0.0.dist-info/LICENSE,sha256=2yw8l0ppvZFBJXoQ2u4TgRbNBOw1TNUjnQr1K8UCV3I,1326
+eyecite-1.0.0.dist-info/METADATA,sha256=ugPmNlqvEnsf5hRVVKUjjHBGxZ-DxCyBnfLAIJOwOx4,6090
+eyecite-1.0.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+eyecite-1.0.0.dist-info/top_level.txt,sha256=nCcPLPut-SsgF436LgasnKq9OVFdzxqYJGm2HBZhU2k,8
+eyecite-1.0.0.dist-info/RECORD,,
