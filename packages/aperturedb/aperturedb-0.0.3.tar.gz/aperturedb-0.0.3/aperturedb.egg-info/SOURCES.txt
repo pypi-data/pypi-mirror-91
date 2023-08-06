@@ -1,0 +1,11 @@
+README.md
+setup.py
+aperturedb/Connector.py
+aperturedb/Images.py
+aperturedb/PyTorchDataset.py
+aperturedb/__init__.py
+aperturedb.egg-info/PKG-INFO
+aperturedb.egg-info/SOURCES.txt
+aperturedb.egg-info/dependency_links.txt
+aperturedb.egg-info/requires.txt
+aperturedb.egg-info/top_level.txt
