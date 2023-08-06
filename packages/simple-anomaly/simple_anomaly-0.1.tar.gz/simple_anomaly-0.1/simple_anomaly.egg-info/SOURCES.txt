@@ -1,0 +1,9 @@
+setup.py
+simple_anomaly/__init__.py
+simple_anomaly/anomaly.py
+simple_anomaly/test.py
+simple_anomaly.egg-info/PKG-INFO
+simple_anomaly.egg-info/SOURCES.txt
+simple_anomaly.egg-info/dependency_links.txt
+simple_anomaly.egg-info/not-zip-safe
+simple_anomaly.egg-info/top_level.txt
