@@ -1,0 +1,11 @@
+df_compare/__init__.py,sha256=-BGbRaDFo_XEuZJioThfYW8aY_L2vENXpoKW0mMaa7A,28
+df_compare/compare_files.py,sha256=I6Fw62EAJkaJSMagFUObKT65s_k_4z1w1urTA_m0FnU,2354
+df_compare/core.py,sha256=evFo_wZr4UnQc0oCQgOxIjolXLokhscMLhC1zbfAjBg,8241
+df_compare/pytest_kit.py,sha256=X-RLYJ6oSBB3xATByCgOZEbsKXgfsjTfoXit46sz1GI,1610
+df_compare/version.py,sha256=vTGhdEGyGSsoBN2Vo20X3UAx0ctenTGWVFul2arqQjc,166
+df_compare-0.0.1.dist-info/LICENSE.txt,sha256=yc68GfBEDrJquDNyCeG3ROrGp2MdJQ5-QFtbDcCDa98,1536
+df_compare-0.0.1.dist-info/METADATA,sha256=kVsavU9kFLhqFzrW0blwY9OY3iFNQvtFKloONby8KGE,1944
+df_compare-0.0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+df_compare-0.0.1.dist-info/entry_points.txt,sha256=GUNL8DT1Ru_YKzQ4OoFJXfj3EwtCMywfELF-LvJZ3hs,62
+df_compare-0.0.1.dist-info/top_level.txt,sha256=SEPvxMlvF_3lgB9MCJbhK-3-OfwuhEs7KGTq5b3sDsQ,11
+df_compare-0.0.1.dist-info/RECORD,,

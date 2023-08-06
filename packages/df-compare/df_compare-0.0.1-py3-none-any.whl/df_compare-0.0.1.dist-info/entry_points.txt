@@ -1,0 +1,3 @@
+[console_scripts]
+df_compare = df_compare.compare_files:main
+
