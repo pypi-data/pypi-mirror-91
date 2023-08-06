@@ -1,0 +1,6 @@
+pandas
+numpy
+hashlib
+base64
+threading
+copy
