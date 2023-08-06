@@ -1,0 +1,8 @@
+README.md
+setup.py
+addstartup/__init__.py
+addstartup.egg-info/PKG-INFO
+addstartup.egg-info/SOURCES.txt
+addstartup.egg-info/dependency_links.txt
+addstartup.egg-info/not-zip-safe
+addstartup.egg-info/top_level.txt
