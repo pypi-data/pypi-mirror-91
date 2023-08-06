@@ -1,0 +1,7 @@
+easyquant
+easyquant/exchange
+easyquant/exchange/binance
+easyquant/exchange/huobi
+easyquant/exchange/okex
+easyquant/exchange/util
+easyquant/trade
