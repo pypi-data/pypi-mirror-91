@@ -1,0 +1,12 @@
+README
+setup.py
+confultimate/__init__.py
+confultimate/conf_ultimate.py
+confultimate.egg-info/PKG-INFO
+confultimate.egg-info/SOURCES.txt
+confultimate.egg-info/dependency_links.txt
+confultimate.egg-info/requires.txt
+confultimate.egg-info/top_level.txt
+tests/__init__.py
+tests/conf_ultimate/__init__.py
+tests/conf_ultimate/test_conf_ultimate.py
