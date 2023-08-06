@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: ambientco2
+Version: 0.0.2
+Summary: Python module for CozIR Ambient CO2 sensors
+Home-page: https://github.com/mjackdk/PythonCO2
+Author: Michael Jack
+Author-email: 50518949+mjackdk@users.noreply.github.com
+License: UNKNOWN
+Description: # PythonCO2
+        Python module for CozIR Ambient CO2 sensors 
+        
+Keywords: sensor,CO2,Ambient,CozIR
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Education
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
