@@ -1,0 +1,9 @@
+README.md
+setup.py
+tf_osqp/__init__.py
+tf_osqp/tf_osqp.py
+tf_osqp.egg-info/PKG-INFO
+tf_osqp.egg-info/SOURCES.txt
+tf_osqp.egg-info/dependency_links.txt
+tf_osqp.egg-info/requires.txt
+tf_osqp.egg-info/top_level.txt
