@@ -1,0 +1,1 @@
+"""Ingot Protobuf entry-points."""
