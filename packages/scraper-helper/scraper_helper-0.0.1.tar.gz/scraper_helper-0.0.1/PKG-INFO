@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: scraper_helper
+Version: 0.0.1
+Summary: Helper functions for scraping
+Home-page: https://github.com/eupendra/scraper-helper
+Author: Upendra
+Author-email: upendra@coderecode.com
+License: UNKNOWN
+Description: # Building and Deploying this as a package
+        
+        1. Clone the repo
+        2. run ```python setup.py sdist bdist_wheel``` from this directory (Optional)
+        3. run ```pip install -e <path to the package>``` to install this package
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown

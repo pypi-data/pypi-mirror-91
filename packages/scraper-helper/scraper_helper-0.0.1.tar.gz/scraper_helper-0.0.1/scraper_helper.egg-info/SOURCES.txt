@@ -1,0 +1,11 @@
+README.md
+setup.py
+scraper_helper/__init__.py
+scraper_helper/address.py
+scraper_helper/html.py
+scraper_helper/text.py
+scraper_helper/url.py
+scraper_helper.egg-info/PKG-INFO
+scraper_helper.egg-info/SOURCES.txt
+scraper_helper.egg-info/dependency_links.txt
+scraper_helper.egg-info/top_level.txt
