@@ -1,0 +1,3 @@
+[console_scripts]
+py-plesk-domains = py_plesk_domains:main
+
