@@ -1,0 +1,13 @@
+formulatex/__init__.py,sha256=vbCanDKjcYbMSwU6HOyjMlB0F7KzpGbFTNTb2wYHbNw,19
+formulatex/math2latex.py,sha256=DfnUhIkUix_h5Gg-U1o2SxGbE_dBOTs-GKHtovJ67MQ,5369
+formulatex/statics/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+formulatex/templates/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+formulatex-1.1.0.data/data/formulatex_src/statics/Calculation-64.ico,sha256=PYDF5a3rWdnpAJhBIG91oHtggCunqg7fbXNeYKDql9w,32038
+formulatex-1.1.0.data/data/formulatex_src/templates/base.html,sha256=uNKM0OTYZidFihx--aqY58DR_JV-VVbKCRnZq-eCeEQ,3944
+formulatex-1.1.0.data/data/formulatex_src/templates/hand_input.html,sha256=p2kEcxzPPR_mwzZiixqtf51iZQcZ-kJ_96y7XgnDt5s,1167
+formulatex-1.1.0.data/data/formulatex_src/templates/history.html,sha256=gtd1ep4Nl5waU0FQkNTBpa01b4bugjCwtyP7hSpG5uc,1282
+formulatex-1.1.0.data/data/formulatex_src/templates/paste.html,sha256=GtjZbgvjlJcquhe5pC9IWYici6HoqdqQXgX09XHEjao,1612
+formulatex-1.1.0.dist-info/METADATA,sha256=YoHXgT4LZ0DCcvlhFcx-_S9a7g5Wz7ZvSzxs57Bxpwc,3145
+formulatex-1.1.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+formulatex-1.1.0.dist-info/top_level.txt,sha256=z9vbzPIy9iB-apACYPlFfVYzFWYJHA8YzNffmnKhkr4,11
+formulatex-1.1.0.dist-info/RECORD,,
