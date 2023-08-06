@@ -1,0 +1,3 @@
+
+[pretix.plugin]
+pretix_limit_phone_country=pretix_limit_phone_country:PretixPluginMeta
