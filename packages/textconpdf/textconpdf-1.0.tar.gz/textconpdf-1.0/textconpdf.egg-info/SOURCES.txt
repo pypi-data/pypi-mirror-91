@@ -1,0 +1,9 @@
+README.md
+setup.py
+textconpdf.egg-info/PKG-INFO
+textconpdf.egg-info/SOURCES.txt
+textconpdf.egg-info/dependency_links.txt
+textconpdf.egg-info/top_level.txt
+uploading/__init__.py
+uploading/to_image.py
+uploading/to_text.py
