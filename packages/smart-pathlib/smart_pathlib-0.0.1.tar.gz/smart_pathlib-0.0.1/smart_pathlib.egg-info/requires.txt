@@ -1,0 +1,10 @@
+
+[all]
+google-cloud-storage
+
+[gcp]
+google-cloud-storage
+
+[test]
+google-cloud-storage
+pytest

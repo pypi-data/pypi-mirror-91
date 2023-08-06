@@ -1,0 +1,72 @@
+Metadata-Version: 2.1
+Name: smart_pathlib
+Version: 0.0.1
+Summary: Utils for making os standard path operationsinteroperable with Cloud blob storages
+Home-page: https://github.com/gfournier/smart_pathlib
+Author: Guillaume Fournier
+Author-email: fournierg@gmail.com
+Maintainer: Guillaume Fournier
+Maintainer-email: fournierg@gmail.com
+License: MIT
+Download-URL: http://pypi.python.org/pypi/smart_pathlib
+Description: # smart_pathlib - utils for making common path operations interoperable with Cloud object storages
+        
+        ## What ?
+        
+        `smart_pathlib` is highly inspired by `smart_open` and provide drop-in
+        replacement for Python part of `os`, `os.path`, `glob` modules functions such as
+        `exists`, `stat`, `listdir`, `glob`.
+        
+        ## Why ?
+        
+        The goal is to provide a clean and Pythonic API for common file manipulations.
+        It simplifies rapid application development, making your code that manipulates
+        files interoperable with local file system and Cloud blob storage solutions
+        such as S3, GCS, Azure Blob Storage.
+        
+        ## Example
+        
+        A drop-in replacement `os.path.exists` that operates on different storage types:
+        
+        ```python
+        # Test if a local file exists
+        from smart_pathlib import exists
+        assert exists('/Users/me/Downloads/test_file.txt')
+        ```
+        
+        ```python
+        # Test if a file exists on GCS
+        from smart_pathlib import exists
+        assert exists('gs://my_bucket/test_file.txt')
+        ```
+        
+        ## Installation
+        
+        You can select the "flavor" of `smart_pathlib` to install, depending on your
+        storage provider:
+        
+        ```
+        pip install smart_pathlib[gcp]    # Install GCP deps
+        ```
+        
+        Or install all packages using:
+        ```
+        pip install smart_pathlib[all]
+        ```
+        
+Keywords: s3,hdfs,gcs,azure blob storage
+Platform: any
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: System :: Distributed Computing
+Classifier: Topic :: Database :: Front-Ends
+Requires-Python: >=3.6.*
+Provides-Extra: test
+Provides-Extra: gcp
+Provides-Extra: all
