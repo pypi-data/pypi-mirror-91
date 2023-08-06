@@ -1,0 +1,10 @@
+sqloxide-0.1.1.dist-info/WHEEL,sha256=8mIGyWWDQye9YoLHY0HK4kOAUuaJRnDvaLJVSXp-uIE,111
+sqloxide-0.1.1.dist-info/top_level.txt,sha256=Leb9wM_DJt4zHo7Z9O2E5VnyOT9ElIC4mE3jtMH5KQs,9
+sqloxide-0.1.1.dist-info/RECORD,,
+sqloxide-0.1.1.dist-info/LICENSE,sha256=SIftBQVFfTh-f37_2iAr4jdDefT-z0keVMpn9Zp3ZAs,1067
+sqloxide-0.1.1.dist-info/METADATA,sha256=AVNUJor0TsT8XHQoRpj4jpzzNdDerc1zBWsf6co_xVQ,265
+sqloxide/sqloxide.cpython-38-x86_64-linux-gnu.so,sha256=weY3UIaYKfyT0sk5jQpfgHyCNU2F9ZnaAKom4ZgrDwc,4025496
+sqloxide/sqloxide.cpython-39-x86_64-linux-gnu.so,sha256=weY3UIaYKfyT0sk5jQpfgHyCNU2F9ZnaAKom4ZgrDwc,4025496
+sqloxide/sqloxide.cpython-36m-x86_64-linux-gnu.so,sha256=awbG3YdyVW0uD-VbhmdcJVaFY_s5Z23R2QawrGqykqU,4025680
+sqloxide/__init__.py,sha256=YWWJ4Oxst8aHv4I65-AyfUWQqNkSLUltGNfyAiiDjdU,56
+sqloxide/sqloxide.cpython-37m-x86_64-linux-gnu.so,sha256=Ggg-EcMPl_nevynVewFjzagC4ddLJz0MfpsC-CwwxiM,4025504
