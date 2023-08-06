@@ -1,0 +1,13 @@
+Backup2Cloud/Backup2Cloud.ini,sha256=4_hJRjFPT8sK7jYRak0QWUKxK_r2Mpu0-qRDGa0M1iA,951
+Backup2Cloud/__init__.py,sha256=gFOxaA0U_AO7pQQwC5o_8qx_T46J-wAPbQh164P4nvM,21
+Backup2Cloud/__main__.py,sha256=QSOd433-BHFMET0-gCcg7zky-mVZHZNDqlyYpy1YxrY,9583
+Backup2Cloud/gdrive.py,sha256=VjzBhfHkgbBTdR9jOCluwnSu4cMJTRnFmpovwOtnsxQ,5830
+Backup2Cloud/providers/__init__.py,sha256=7PTUbNWMtwoAKCMooYyx1kOtWHhdn_61o85c5UVeIFI,110
+Backup2Cloud/providers/folder.py,sha256=cCVkMAibqf-ry4EB6McKY1i3UjITlY9yGL7XQsAkTpA,2524
+Backup2Cloud/providers/gdrive.py,sha256=ZqNC1_IpX1cGVP64y1o7HhIXXSBTzO5OTfweI81IySg,5850
+Backup2Cloud/providers/providersinterface.py,sha256=DLmfeIa7r2olbLF-DzamNKw5FyHOLd5vqSfImJrd2aY,988
+Backup2Cloud-1.0.2.dist-info/LICENSE,sha256=HrhfyXIkWY2tGFK11kg7vPCqhgh5DcxleloqdhrpyMY,11558
+Backup2Cloud-1.0.2.dist-info/METADATA,sha256=ncXcikGMYcD__2RcSih5CzYcNE25hg6-0txe_hSmWuM,3194
+Backup2Cloud-1.0.2.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+Backup2Cloud-1.0.2.dist-info/top_level.txt,sha256=oBQZZlEZKt1K3QnChXbFHBXmV8Sshdqv37Wuz8Qr3tk,13
+Backup2Cloud-1.0.2.dist-info/RECORD,,
