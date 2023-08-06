@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+py4svd_regressor/__init__.py
+py4svd_regressor/regression.py
+py4svd_regressor.egg-info/PKG-INFO
+py4svd_regressor.egg-info/SOURCES.txt
+py4svd_regressor.egg-info/dependency_links.txt
+py4svd_regressor.egg-info/top_level.txt
+test/test.py
