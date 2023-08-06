@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: hackertype
+Version: 0.1
+Summary: Type like a holywood movie hacker
+Home-page: https://github.com/ddaletski/hackertype
+Author: Denis Daletski
+Author-email: daletskidenis@gmail.com
+License: UNKNOWN
+Description: #HackerType
+        Type fast like a true holywood movie hacker
+        
+        Usage: hackertype.py [OPTIONS] INPUT_FILE
+        
+        Options:
+          -s, --speed INTEGER RANGE  Typing speed (characters per keypress)
+          --skip INTEGER RANGE       Skip first N lines
+          --loop / --no-loop         Loop over the input file infinitely
+          --help                     Show this message and exit.
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
