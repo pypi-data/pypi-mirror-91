@@ -1,0 +1,12 @@
+pyreminder/__init__.py,sha256=HydhC4X62n88HB2goQf_5AZy5mfrGIjQL6gkL0VrmHg,58
+pyreminder/constants.py,sha256=amVxEjHWMmpz1Wt5GXX9jrH6-RqV-jCL5FLhlb0hUm8,660
+pyreminder/create_remind.py,sha256=ZLvZg1tfxb1p330-FFPUOfQNQPxxgLl49JKRmFk1ZhA,637
+pyreminder/pr.py,sha256=_NX2G30Y5r7LT_gXCFN5CvCgAFUwngpOAbTmYvafqok,2511
+pyreminder/reminders_io.py,sha256=seBJO7isTByY-yGv8ytceG88akpH8DJOXADmzEl39-4,132
+pyreminder/utils.py,sha256=ExQAmyiWoEESHyw5fR0NPTIIke9-kfDd85rtoBZ_7W4,1858
+pyreminder-0.1.2.data/scripts/pyreminder,sha256=wiBhVii7YzRcgRruMecJKMAhIkSHzxSnRsH3PuToFDE,45
+pyreminder-0.1.2.dist-info/LICENSE,sha256=yj7ymdWlkIyskn_kkshjFpAQrUiwGfPvZ9jRYdTqmrc,1080
+pyreminder-0.1.2.dist-info/METADATA,sha256=nzIIb2tSVANVKx-he9Q2kLnSEyr3D3tE2Wz9ZjipXmo,269
+pyreminder-0.1.2.dist-info/WHEEL,sha256=S6zePDbUAjzMmpYOg2cHDxuYFWw7WiOXt6ogM6hIB5Q,92
+pyreminder-0.1.2.dist-info/top_level.txt,sha256=u4gzCxqbNbTvnxS2kVWDrEM67zOusOh23s9P5WVqWu8,11
+pyreminder-0.1.2.dist-info/RECORD,,
