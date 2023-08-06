@@ -1,0 +1,14 @@
+Metadata-Version: 1.1
+Name: iimmpact
+Version: 1.0.0
+Summary: IIMMPACT API
+Home-page: https://github.com/iimmpact/iimmpact
+Author: Alex Tan
+Author-email: alex@iimmpact.com
+License: MIT
+Description:     
+Keywords: Swagger,IIMMPACT API
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
