@@ -1,0 +1,49 @@
+Metadata-Version: 2.1
+Name: Hacenada
+Version: 0.1.2
+Summary: Write do-nothing scripts
+Home-page: https://github.com/corydodt/Hacenada
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Description-Content-Type: text/markdown
+Requires-Dist: attrs
+Requires-Dist: click
+Requires-Dist: codado
+Requires-Dist: tinydb-serialization
+Requires-Dist: pyinquirer
+Requires-Dist: tinydb
+Requires-Dist: toml
+Requires-Dist: typing-extensions ; python_version < "3.8"
+Provides-Extra: dev
+Requires-Dist: isort ; extra == 'dev'
+Requires-Dist: mypy ; extra == 'dev'
+Requires-Dist: pytest ; extra == 'dev'
+Requires-Dist: pytest-coverage ; extra == 'dev'
+Requires-Dist: pytest-flake8 ; extra == 'dev'
+Requires-Dist: tox ; extra == 'dev'
+Requires-Dist: black ; extra == 'dev'
+
+# Hacenada
+
+Write do-nothing scripts in a declarative (ini) syntax
+
+
+
+## Change Log
+
+### [0.1.2] - 2021.01.14
+  - First numbered release.
+  - Current features:
+    - Parse a toml script (only type=description and type=message for now)
+    - Display questions and save answers in a tinydb
+    - Recover state between runs, or start over
+    - After the last step, write a log with what happened
+    - Markdown, TOML and JSON print output of the script+answers
+    - Python 3.7, 3.8, 3.9 support
+
+[0.1.2]: https://github.com/corydodt/Codado/tree/v0.1.2
+
+
