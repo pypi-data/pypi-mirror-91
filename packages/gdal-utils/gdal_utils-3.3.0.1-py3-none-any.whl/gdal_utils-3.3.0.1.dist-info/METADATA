@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: gdal-utils
+Version: 3.3.0.1
+Summary: gdal-utils: An extension library for GDAL - Geospatial Data Abstraction Library
+Home-page: http://www.gdal.org
+Author: Idan Miara
+Author-email: idan@miara.com
+Maintainer: Idan Miara
+Maintainer-email: idan@miara.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Scientific/Engineering :: GIS
+Classifier: Topic :: Scientific/Engineering :: Information Analysis
+Requires-Python: >=3.6.0
+Description-Content-Type: text/x-rst
+Requires-Dist: gdal
+Provides-Extra: numpy
+Requires-Dist: numpy (>1.0.0) ; extra == 'numpy'
+
+b"gdal-utils\r\n=============\r\n\r\nThis gdal-utils Python package includes modules and functions that use and extend the\r\nGDAL_ Geospatial Data Abstraction Library.\r\n\r\nThe GDAL project (primarily Even Rouault) maintains SWIG generated Python\r\nbindings for GDAL and OGR, which are included in the gdal package.\r\n\r\nPlease also refer to the osgeo documentation and to the GDAL API Tutorial.\r\n\r\nCurrently, The the gdal package also includes the utils package,\r\nbut in the future they might be available only in this gdal-utils package.\r\n\r\nBecause we don't test the utils against a different versions of gdal -\r\nIf you want to get the latest version of the utils, we do recommend you to upgrade\r\nto the latest version of gdal and get the latest version of both.\r\n\r\nBut if you are unable to upgrade the gdal package for whatever reason,\r\nYou may still be able to upgrade the utils by installing this package.\r\n\r\nDependencies\r\n------------\r\n\r\n * gdal (the osgeo package)\r\n * numpy (1.0.0 or greater) and header files (numpy-devel) (not explicitly\r\n   required, but many examples and utilities will not work without it)\r\n\r\nInstallation\r\n------------\r\n\r\ngdal-utils can be installed from pypi.org::\r\n\r\n  $ pip install gdal-utils\r\n\r\n.. _GDAL API Tutorial: https://gdal.org/tutorials/\r\n.. _GDAL: http://www.gdal.org\r\n"
+
+
