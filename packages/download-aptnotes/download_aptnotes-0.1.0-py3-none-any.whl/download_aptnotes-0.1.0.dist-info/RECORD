@@ -1,0 +1,13 @@
+download_aptnotes/__init__.py,sha256=tjf3vt03bhIa-k1DJt6wqfzchm9h0WQwXk66f6nRwm4,35
+download_aptnotes/__main__.py,sha256=O9Pvxc7d-YmAYZ-1NM-8Gb-0r_GWPn6By7BIMGH4Znc,57
+download_aptnotes/cli.py,sha256=NBBJly8e4HED_v_Nle-nl2eFOm3rdJzCvS0FrRh1YkE,1710
+download_aptnotes/downloading.py,sha256=ey6fJhho7ONJw_7cvw9lcSsHJu_nwwQa7LxCzVBGAls,7068
+download_aptnotes/main.py,sha256=QtAQjAV7f0z04ELetUOyPfkaeC1RhK5iT6kkTn1A0Mk,3070
+download_aptnotes/parsing.py,sha256=2kfmBF2lWxVK7GQ5ZVIr_HUMltnAd2ZIZ_FBEBC5X_g,1849
+download_aptnotes/saving.py,sha256=mEJ0FiXBDHDnt6yAoPDp846X3aXxdYrnDUNd0iFtPUg,5491
+download_aptnotes/utils.py,sha256=6rfjI0vMoD2wQJsbz28SockJOtuST-4L8AEenWImtig,616
+download_aptnotes-0.1.0.dist-info/entry_points.txt,sha256=4XTr2eeUiIzY0fmYFGIzq6lXRasHAsYYMV9Kd6GTLlA,63
+download_aptnotes-0.1.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+download_aptnotes-0.1.0.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+download_aptnotes-0.1.0.dist-info/METADATA,sha256=shQB9Tac4xuvSn2g-12nU39EdJuT8QCy8l8OKJj1t6k,2930
+download_aptnotes-0.1.0.dist-info/RECORD,,
