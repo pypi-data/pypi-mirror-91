@@ -1,0 +1,3 @@
+[console_scripts]
+etch_a_tv=etch_a_tv:__main__.main
+
