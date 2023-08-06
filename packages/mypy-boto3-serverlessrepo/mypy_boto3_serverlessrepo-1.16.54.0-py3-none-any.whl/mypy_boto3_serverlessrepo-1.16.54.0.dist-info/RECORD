@@ -1,0 +1,15 @@
+mypy_boto3_serverlessrepo/__init__.py,sha256=MsSQ-tHnP7Em8AEMCxzRPp_xBOxDHvr6V-XHQEP7qEU,1398
+mypy_boto3_serverlessrepo/__init__.pyi,sha256=C2JBHNqzexouV6CleP-zMiMJ8kXP3M2KFsUVpIetmHU,1397
+mypy_boto3_serverlessrepo/__main__.py,sha256=_1VKWrX4D0MEqXKrD-YL1y4vHnZWD__9bOwSGfYTAGc,425
+mypy_boto3_serverlessrepo/client.py,sha256=keJKj19AjqgTRlYsocmG7bwgU3aT1tmzH9ZmD2rsIrQ,10667
+mypy_boto3_serverlessrepo/client.pyi,sha256=Vt40LTUg_Rux_yTWvRFmAu-EGGKAvEJCFhubpTRfIqI,10643
+mypy_boto3_serverlessrepo/paginator.py,sha256=nUY809GBGCSvZhrkwg_zzgtmB3er6QrYk76DgHmuqkg,3391
+mypy_boto3_serverlessrepo/paginator.pyi,sha256=c0CN2WjzMqJ8iJHonr0sW4RJmTBhiXPvRxhotYMVpF8,3388
+mypy_boto3_serverlessrepo/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mypy_boto3_serverlessrepo/type_defs.py,sha256=kymQ6LEELmV-IgCFWYX5Pyk7c1YRAkkeGOoGPurT8to,8991
+mypy_boto3_serverlessrepo/type_defs.pyi,sha256=Sk2weKuts4JTd9ZTJl3jmoWrT7_anOVvMHwb3aEu2HQ,8980
+mypy_boto3_serverlessrepo/version.py,sha256=xodMjvTPAjiEKIeaUPvG1GFBUQQad-vpHmB2-l9fVts,57
+mypy_boto3_serverlessrepo-1.16.54.0.dist-info/METADATA,sha256=Yqn78oF6bhgfpzqVZT2di4uvrKuGDiK49R5p3k6qNWc,8211
+mypy_boto3_serverlessrepo-1.16.54.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+mypy_boto3_serverlessrepo-1.16.54.0.dist-info/top_level.txt,sha256=sS6lIjbk9IHqswTw3c_Ns6tzcitryRxWbqgwk6z8QJc,26
+mypy_boto3_serverlessrepo-1.16.54.0.dist-info/RECORD,,
