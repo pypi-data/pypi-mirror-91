@@ -1,0 +1,13 @@
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_examples.py,sha256=pgmtIJA371eQCzaFuUHLhQmFvVDMvCyjZBbWcR5792Y,1484
+tests/test_keepinframe_tag.py,sha256=GZwt2xE3ucYyslDGN6GlaCtj3DFpzy-JwgZiE_Jh5yc,1096
+trml2pdf/__init__.py,sha256=2CsDgDDPZN0NhxbnAbKFrnTlhZweJzjHSaQOnU1-FiM,846
+trml2pdf/color.py,sha256=fBUggckNpUISWrAD3uJc04Ocr1VvOSGmwnTwIJjt9SQ,1439
+trml2pdf/trml2pdf.py,sha256=wwFYO5RyiBkEpD45cNijQLvTP8USimJ14GhcWVUK178,38058
+trml2pdf/utils.py,sha256=K3BqwUkkFpzc7Dgur7fLc0_Ys5fse84SKCPQsPDBs0c,2292
+trml2pdf-0.6rc1.dist-info/LICENSE.txt,sha256=oZDcnIBDdV2Q-LCnX6ZrnkLUr0yYC_XdxjPwEk2zzuc,26430
+trml2pdf-0.6rc1.dist-info/METADATA,sha256=8_L18YRMM7UqpsK_Zpq4hfqXaS0mxspWTT81v3XCjPY,912
+trml2pdf-0.6rc1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+trml2pdf-0.6rc1.dist-info/entry_points.txt,sha256=G-Z3xJ8iqWBEFLpXwauwBP9eNke1YgGzqMsV7Cjf5YQ,53
+trml2pdf-0.6rc1.dist-info/top_level.txt,sha256=wr8H97QVzMqRLnIQ9ImFT4juNIgxL-RyEAniyF2bDmA,15
+trml2pdf-0.6rc1.dist-info/RECORD,,
