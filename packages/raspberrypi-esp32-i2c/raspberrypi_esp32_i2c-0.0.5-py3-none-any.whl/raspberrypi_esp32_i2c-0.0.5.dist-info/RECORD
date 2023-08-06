@@ -1,0 +1,12 @@
+Raspberry_Pi_Master_for_ESP32_I2C_SLAVE/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+Raspberry_Pi_Master_for_ESP32_I2C_SLAVE/crc8.py,sha256=mlUg4N97MBludetB4NWNezbOfQxHfo8_uR2PEwPsV9Y,1021
+Raspberry_Pi_Master_for_ESP32_I2C_SLAVE/packer.py,sha256=DUnGrVTrdUInBQSctho06BcbtG32pdlqfrD-wqyoOa4,3412
+Raspberry_Pi_Master_for_ESP32_I2C_SLAVE/unpacker.py,sha256=RMy8zTZtJl1-_B9S-FOPmwQdabG4mTBW60q5VRZ4394,3257
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_Crc8.py,sha256=ptTgi9q2GAPl4sX4LnEh5QpnnWn_w5FaLo31ieaA8m4,667
+tests/test_Packer.py,sha256=yEEn_CWZbEIh3CUQfeOXScrn7HMqHUpsEVHAltuAKq4,720
+tests/test_Unpacker.py,sha256=RCMlMwBfEOudhsr2hnUX4ThNR6kmEhjAPJBDg7njZDI,745
+raspberrypi_esp32_i2c-0.0.5.dist-info/METADATA,sha256=T1JOnLHRmKmIBCF5xWDVkp6qh0GUnyA0AV-sAX1MpUY,1702
+raspberrypi_esp32_i2c-0.0.5.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+raspberrypi_esp32_i2c-0.0.5.dist-info/top_level.txt,sha256=yHVjn5H33CPCsjBBXqxv7UFE1ocFwPmKHA7SZhFXxFU,46
+raspberrypi_esp32_i2c-0.0.5.dist-info/RECORD,,
