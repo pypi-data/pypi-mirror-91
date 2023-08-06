@@ -1,0 +1,18 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:browser="http://namespaces.zope.org/browser">
+
+    <browser:resourceDirectory
+             name="visaplan.plone.groups"
+             directory="resource" />
+
+    <include package=".groupboard" />
+
+    <include package=".groupdesktop" />
+
+    <include package=".groupsharing" />
+
+    <include package=".unitraccgroups" />
+
+    <include package=".views" />
+</configure>
