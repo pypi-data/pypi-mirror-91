@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: micooc
+Version: 0.1.0
+Summary: Micoo client for python
+Home-page: https://github.com/Mikuu/Micoo
+Author: ariman
+Author-email: biaofu@thoughtworks.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+Miccoc
+---
+The Python client library for Micoo. This library provide below functions:
+
+- new_build
+- build_stats
+- latest_build_stats
+
