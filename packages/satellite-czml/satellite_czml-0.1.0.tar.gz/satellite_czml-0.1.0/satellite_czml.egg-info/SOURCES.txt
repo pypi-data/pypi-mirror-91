@@ -1,0 +1,11 @@
+MANIFEST.in
+README.md
+setup.py
+satellite_czml/__init__.py
+satellite_czml/czml.py
+satellite_czml/satellite_czml.py
+satellite_czml.egg-info/PKG-INFO
+satellite_czml.egg-info/SOURCES.txt
+satellite_czml.egg-info/dependency_links.txt
+satellite_czml.egg-info/requires.txt
+satellite_czml.egg-info/top_level.txt

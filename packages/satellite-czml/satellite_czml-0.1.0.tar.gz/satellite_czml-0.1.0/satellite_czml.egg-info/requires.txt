@@ -1,0 +1,5 @@
+pygeoif
+itertools
+simplejson
+pytz
+sgp4>=2.15
