@@ -1,0 +1,8 @@
+tahini/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tahini/base.py,sha256=lwXmtVUpiUeTagh9dn5geo8hiEIYsPLO1KcgH65yqCk,3870
+tahini/core.py,sha256=57J5GRM08QE26P95q02kuKSos36MRrKl_rXJYgeavtc,5097
+tahini-2021.1.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+tahini-2021.1.1.dist-info/METADATA,sha256=CswPAsfrYZjYqBDB_1ons4ZupOIClgC-qkRefg5BZYU,1029
+tahini-2021.1.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+tahini-2021.1.1.dist-info/top_level.txt,sha256=215we3-jeVf0H8cXGQB3-5cYXJMBb6k1pABBvvfHMbM,7
+tahini-2021.1.1.dist-info/RECORD,,
