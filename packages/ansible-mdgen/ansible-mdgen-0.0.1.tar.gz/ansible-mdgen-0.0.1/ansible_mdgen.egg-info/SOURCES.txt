@@ -1,0 +1,7 @@
+README.md
+setup.py
+ansible_mdgen.egg-info/PKG-INFO
+ansible_mdgen.egg-info/SOURCES.txt
+ansible_mdgen.egg-info/dependency_links.txt
+ansible_mdgen.egg-info/requires.txt
+ansible_mdgen.egg-info/top_level.txt
