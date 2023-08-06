@@ -1,0 +1,14 @@
+aiohttp
+aiohttp-cors
+aiojobs
+aiomysql
+asyncpg
+bcrypt
+cryptography
+pyjwt>=2.0.0
+jsonpatch
+sentry-sdk>=0.13.2
+aiocontextvars
+shortuuid
+werkzeug
+toml
