@@ -1,0 +1,8 @@
+README.md
+setup.py
+src/chartal/__init__.py
+src/chartal/main.py
+src/chartal.egg-info/PKG-INFO
+src/chartal.egg-info/SOURCES.txt
+src/chartal.egg-info/dependency_links.txt
+src/chartal.egg-info/top_level.txt
