@@ -1,0 +1,110 @@
+version: 2
+
+workflows:
+  version: 2
+  rest-auth-toolkit:
+    jobs:
+      - test-py39
+      - test-py38
+      - check
+
+jobs:
+
+  test-py39:
+    docker:
+      - image: cimg/python:3.9
+      - image: circleci/postgres:10.5
+        environment:
+          POSTGRES_DB: circle_test
+          POSTGRES_USER: testapp
+          POSTGRES_PASSWORD: "wordpass"
+    working_directory: ~/rest-auth-toolkit
+    environment:
+      DATABASE_URL: postgres://testapp:wordpass@localhost/circle_test
+    steps:
+      - checkout
+      - restore_cache:
+          keys:
+            - py39-v1-{{ arch }}-{{ checksum "requirements-test.txt" }}-{{ checksum "demo/requirements.txt" }}
+            - py39-v1-{{ arch }}-{{ checksum "requirements-test.txt" }}
+            - py39-v1-{{ arch }}-
+      - run:
+          name: Install CI tools
+          command: |
+            python3 -m venv venv
+            venv/bin/pip install tox
+      - run:
+          name: Test with Python 3.9 and Django 2.2
+          command: venv/bin/tox -e py39-dj22 -- --junitxml=~/reports/tox/coverage.xml
+      - run:
+          name: Test with Python 3.9 and Django 3.1
+          command: venv/bin/tox -e py39-dj31
+      - run:
+          name: Check coverage with Python 3.9
+          command: venv/bin/tox -e coverage
+      - save_cache:
+          key: py39-v1-{{ arch }}-{{ checksum "requirements-test.txt" }}-{{ checksum "demo/requirements.txt" }}
+          paths:
+            - venv
+            - .tox
+      - store_test_results:
+          path: ~/reports
+
+  test-py38:
+    docker:
+      - image: cimg/python:3.8
+      - image: circleci/postgres:11.7
+        environment:
+          POSTGRES_DB: circle_test
+          POSTGRES_USER: testapp
+          POSTGRES_PASSWORD: "wordpass"
+    working_directory: ~/rest-auth-toolkit
+    environment:
+      DATABASE_URL: postgres://testapp:wordpass@localhost/circle_test
+    steps:
+      - checkout
+      - restore_cache:
+          keys:
+            - py38-v2-{{ arch }}-{{ checksum "requirements-test.txt" }}-{{ checksum "demo/requirements.txt" }}
+            - py38-v2-{{ arch }}-{{ checksum "requirements-test.txt" }}
+            - py38-v2-{{ arch }}-
+      - run:
+          name: Install CI tools
+          command: |
+            python3 -m venv venv
+            venv/bin/pip install tox
+      - run:
+          name: Test with Python 3.8 and Django 2.2
+          command: venv/bin/tox -e py38-dj22 -- --junitxml=~/reports/tox/coverage.xml
+      - run:
+          name: Test with Python 3.8 and Django 3.1
+          command: venv/bin/tox -e py38-dj31
+      - save_cache:
+          key: py38-v2-{{ arch }}-{{ checksum "requirements-test.txt" }}-{{ checksum "demo/requirements.txt" }}
+          paths:
+            - venv
+            - .tox
+      - store_test_results:
+          path: ~/reports
+
+  check:
+    docker:
+      - image: cimg/python:3.9
+    working_directory: ~/rest-auth-toolkit
+    steps:
+      - checkout
+      - restore_cache:
+          key: check-v1
+      - run:
+          name: Install CI tools
+          command: |
+            python3 -m venv venv
+            venv/bin/pip install tox
+      - run:
+          name: Check packaging and dependencies
+          command: venv/bin/tox -e pkg
+      - save_cache:
+          key: check-v1
+          paths:
+            - venv
+            - .tox

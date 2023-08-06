@@ -1,0 +1,23 @@
+flit
+pip-tools ~= 5.4.0
+
+django == 3.1.*
+djangorestframework
+django-debug-toolbar
+dj-database-url
+psycopg2
+
+django-model-utils
+django-shortuuidfield
+
+# TODO add editable install for rest-framework-auth-toolkit
+# (when supported by pip and pip-compile); see README for how to install rest-auth-toolkit
+#-e ..[facebook]
+# In the meantime we include facepy here to make sure requirements.txt
+# contains all transitive dependencies
+facepy
+
+# API docs
+coreapi
+markdown
+pygments
