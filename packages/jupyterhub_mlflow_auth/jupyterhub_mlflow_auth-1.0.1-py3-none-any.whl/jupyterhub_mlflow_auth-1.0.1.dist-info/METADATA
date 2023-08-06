@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: jupyterhub_mlflow_auth
+Version: 1.0.1
+Summary: Tornado-based proxy server for MLFlow and JupyterHub.
+Home-page: UNKNOWN
+License: UNKNOWN
+Author: Tom Augspurger
+Author-email: tom.w.augspurger@gmail.com
+Requires-Python: >=3.5
+Classifier: License :: OSI Approved :: MIT License
+Requires-Dist: tornado>=5.0.0
+Requires-Dist: jupyterhub>=1.0.0

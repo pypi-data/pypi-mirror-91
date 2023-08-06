@@ -1,0 +1,3 @@
+[console_scripts]
+jupyterhub-mlflow-auth=jupyterhub_mlflow_auth:main
+
