@@ -1,0 +1,9 @@
+triko/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+triko/config.py,sha256=DqCMi32eE0zC8ppoFW2MLM2zxsA1vo6Q_0U1Bq42z0s,770
+triko/encoders.py,sha256=WDgyQ1CWuK6ROUNM8au9zGTR0zsintxiOfz1IHcO4r4,440
+triko/triko.py,sha256=s8UNWK7yKcj1ap79hxGsu4iBRvu2kAT8K-zxHgdkmYQ,7464
+triko/types.py,sha256=spEnWyuIK2Qd061e1c6psS5dwr2PuXIBi-JY2Po_zus,167
+triko-0.0.1.dist-info/METADATA,sha256=y1AljstYcEjluTQH9HNrZAKYBsVpd5cf8LjZLgkgQ2U,4305
+triko-0.0.1.dist-info/WHEEL,sha256=U88EhGIw8Sj2_phqajeu_EAi3RAo8-C6zV3REsWbWbs,92
+triko-0.0.1.dist-info/top_level.txt,sha256=EsQa6qeSh8tNBMZ8nTEu8RXMmey0EbnCfy8KIIMve5A,6
+triko-0.0.1.dist-info/RECORD,,
