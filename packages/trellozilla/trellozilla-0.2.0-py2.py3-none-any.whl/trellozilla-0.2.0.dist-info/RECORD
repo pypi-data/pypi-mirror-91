@@ -1,0 +1,16 @@
+trellozilla/__init__.py,sha256=Yk4RctalSJCzxpqk_nMtSUJrc4E5Bbn_7ka08Np_LkM,1952
+trellozilla/__main__.py,sha256=gW5sHZsziwZFH_tCDzlWGmtAD_GhYsINSMXIBorAN1o,77
+trellozilla/core/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+trellozilla/core/bugzilla.py,sha256=t34F2V3LRd50n-V4WdTY2tk7Fs_lgiCGlZZ609QVy8I,254
+trellozilla/core/config.py,sha256=WvYTZ-qt_PdTQALIwgcQ5O_1I4y28XALu9zJSONvO8Q,2487
+trellozilla/core/trello.py,sha256=f03OsAIsWkaW_G6Uggr9eyXCpZ3K6zpFabqo1j2JL9Q,369
+trellozilla/jobs/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+trellozilla/jobs/generate_trello_oauth_token.py,sha256=EvG7kp34ZJnwpjgudzpRooCZB7WqlHzEwNMBS7OobMY,702
+trellozilla-0.2.0.dist-info/AUTHORS,sha256=0Kjswsd0S5nteEWcNQjWVBsv8m5kVzxJE6Awjgoby-w,53
+trellozilla-0.2.0.dist-info/LICENSE,sha256=mEgSk-ZGhm23wuitvPK6cIz1kSWlNrZBXbUmALke_Vo,602
+trellozilla-0.2.0.dist-info/METADATA,sha256=ufVicN9TI9-4zP1PNRzzEtyz-K5_wI1Hw4S0bFaGBoQ,1990
+trellozilla-0.2.0.dist-info/WHEEL,sha256=oh0NKYrTcu1i1-wgrI1cnhkjYIi8WJ-8qd9Jrr5_y4E,110
+trellozilla-0.2.0.dist-info/entry_points.txt,sha256=qZXxY50WymOXoU-Qdv-TlC3-z0iKMY4eKDCHfOHW42Y,198
+trellozilla-0.2.0.dist-info/pbr.json,sha256=mwivmXxb_532Rrq-l28YWjB-MWJpAdtNEx09CLYvBHQ,47
+trellozilla-0.2.0.dist-info/top_level.txt,sha256=DVdNt8PjnHZNN3d_tluOegMZWQJfklxbONArf4l-2y0,12
+trellozilla-0.2.0.dist-info/RECORD,,

@@ -1,0 +1,7 @@
+[console_scripts]
+generate_trello_oauth_token = trellozilla.jobs.generate_trello_oauth_token:main
+trellozilla = trellozilla:main
+
+[oslo.config.opts]
+trellozilla = trellozilla.core.config:list_opts
+
