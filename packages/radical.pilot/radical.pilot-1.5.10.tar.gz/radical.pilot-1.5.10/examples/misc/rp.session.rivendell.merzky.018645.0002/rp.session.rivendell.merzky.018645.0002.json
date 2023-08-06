@@ -1,0 +1,1021 @@
+{
+    "pilot": [
+        {
+            "_id": "pilot.0000",
+            "cfg": {
+                "agent_launch_method": "FORK",
+                "app_comm": [],
+                "bridges": {
+                    "agent_executing_queue": {
+                        "bulk_size": 0,
+                        "kind": "queue",
+                        "log_level": "error",
+                        "stall_hwm": 0
+                    },
+                    "agent_schedule_pubsub": {
+                        "kind": "pubsub",
+                        "log_level": "error"
+                    },
+                    "agent_scheduling_queue": {
+                        "bulk_size": 0,
+                        "kind": "queue",
+                        "log_level": "error",
+                        "stall_hwm": 0
+                    },
+                    "agent_staging_input_queue": {
+                        "bulk_size": 0,
+                        "kind": "queue",
+                        "log_level": "error",
+                        "stall_hwm": 0
+                    },
+                    "agent_staging_output_queue": {
+                        "bulk_size": 0,
+                        "kind": "queue",
+                        "log_level": "error",
+                        "stall_hwm": 0
+                    },
+                    "agent_unschedule_pubsub": {
+                        "kind": "pubsub",
+                        "log_level": "error"
+                    },
+                    "control_pubsub": {
+                        "kind": "pubsub",
+                        "log_level": "error"
+                    },
+                    "funcs_req_queue": {
+                        "bulk_size": 1,
+                        "kind": "queue",
+                        "log_level": "error",
+                        "stall_hwm": 0
+                    },
+                    "funcs_res_queue": {
+                        "bulk_size": 1,
+                        "kind": "queue",
+                        "log_level": "error",
+                        "stall_hwm": 0
+                    },
+                    "state_pubsub": {
+                        "kind": "pubsub",
+                        "log_level": "error"
+                    }
+                },
+                "bulk_collection_size": 1024,
+                "bulk_collection_time": 1.0,
+                "bulk_size": 1024,
+                "bulk_time": 1.0,
+                "components": {
+                    "agent_executing": {
+                        "count": 1
+                    },
+                    "agent_scheduling": {
+                        "count": 1
+                    },
+                    "agent_staging_input": {
+                        "count": 1
+                    },
+                    "agent_staging_output": {
+                        "count": 1
+                    },
+                    "update": {
+                        "count": 1
+                    }
+                },
+                "cores": 272,
+                "cores_per_node": 16,
+                "cu_post_exec": null,
+                "cu_pre_exec": null,
+                "cu_tmp": null,
+                "db_poll_sleeptime": 2.0,
+                "dburl": "mongodb://localhost/am",
+                "debug": 10,
+                "export_to_cu": null,
+                "gpus": 68,
+                "gpus_per_node": 2,
+                "heartbeat": {
+                    "interval": 1.0,
+                    "timeout": 60.0
+                },
+                "lfs_path_per_node": "/tmp",
+                "lfs_size_per_node": 1024,
+                "logdir": ".",
+                "mode": "shared",
+                "mpi_launch_method": "MPIEXEC",
+                "owner": "agent.0",
+                "pid": "pilot.0000",
+                "pilot_sandbox": "/home/merzky/radical.pilot.sandbox/rp.session.rivendell.merzky.018645.0002/pilot.0000/",
+                "pmgr": "pmgr.0000",
+                "resource": "local.localhost",
+                "resource_cfg": {
+                    "agent_config": "default",
+                    "agent_launch_method": "FORK",
+                    "agent_scheduler": "CONTINUOUS",
+                    "agent_spawner": "POPEN",
+                    "cores_per_node": 16,
+                    "default_remote_workdir": "$HOME",
+                    "description": "Your local machine.",
+                    "fake_resources": true,
+                    "filesystem_endpoint": "file://localhost/",
+                    "gpus_per_node": 2,
+                    "job_manager_endpoint": "fork://localhost/",
+                    "lfs_path_per_node": "/tmp",
+                    "lfs_size_per_node": 1024,
+                    "local": {
+                        "filesystem_endpoint": "file://localhost/",
+                        "job_manager_endpoint": "fork://localhost/"
+                    },
+                    "memory_per_node": 4096,
+                    "mpi_launch_method": "MPIEXEC",
+                    "notes": "To use the ssh schema, make sure that ssh access to localhost is enabled.",
+                    "pre_bootstrap_1": [
+                        "export RP_APP_TUNNEL_ADDR=144.76.72.175:27017",
+                        "echo  $RP_APP_TUNNEL_ADDR"
+                    ],
+                    "python_dist": "default",
+                    "resource_manager": "FORK",
+                    "rp_version": "installed",
+                    "schemas": [
+                        "local",
+                        "ssh"
+                    ],
+                    "ssh": {
+                        "filesystem_endpoint": "sftp://localhost/",
+                        "job_manager_endpoint": "ssh://localhost/"
+                    },
+                    "task_launch_method": "FORK",
+                    "virtenv_mode": "local"
+                },
+                "resource_manager": "FORK",
+                "resource_sandbox": "/home/merzky/radical.pilot.sandbox",
+                "runtime": 120,
+                "scheduler": "CONTINUOUS",
+                "session_sandbox": "/home/merzky/radical.pilot.sandbox/rp.session.rivendell.merzky.018645.0002",
+                "sid": "rp.session.rivendell.merzky.018645.0002",
+                "spawner": "POPEN",
+                "target": "local",
+                "task_launch_method": "FORK"
+            },
+            "client_sandbox": "None",
+            "cmds": [
+                {
+                    "arg": {
+                        "pmgr": "pmgr.0000"
+                    },
+                    "cmd": "heartbeat"
+                },
+                {
+                    "arg": {
+                        "pmgr": "pmgr.0000"
+                    },
+                    "cmd": "heartbeat"
+                }
+            ],
+            "control": "pmgr",
+            "description": {
+                "access_schema": null,
+                "app_comm": [],
+                "candidate_hosts": [],
+                "cleanup": false,
+                "cores": 272,
+                "exit_on_error": true,
+                "gpus": 68,
+                "input_staging": [],
+                "job_name": null,
+                "layout": "default",
+                "memory": 0,
+                "output_staging": [],
+                "prepare_env": {},
+                "project": null,
+                "queue": null,
+                "resource": "local.localhost",
+                "runtime": 120,
+                "sandbox": null,
+                "uid": null
+            },
+            "finished": 1610930212.92337,
+            "js_hop": "fork://localhost/",
+            "js_url": "fork://localhost/",
+            "log": null,
+            "logfile": "1610930198.114 : agent.0              : 4272  : 140457111041856 : INFO     : connect sub to control_pubsub: tcp://10.0.0.3:36317\n1610930198.116 : agent.0              : 4272  : 140457111041856 : DEBUG    : ~~ control_pubsub: control_pubsub\n1610930198.116 : agent.0              : 4272  : 140457111041856 : DEBUG    : start heartbeat\n1610930198.116 : agent.0              : 4272  : 140456100886272 : DEBUG    : hb check\n1610930198.117 : agent.0              : 4272  : 140457111041856 : INFO     : hb init for pmgr.0000\n1610930198.117 : agent.0              : 4272  : 140457111041856 : DEBUG    : hb pilot.0000 beat [pmgr.0000]\n1610930198.118 : agent.0              : 4272  : 140456092493568 : INFO     : connect pub to state_pubsub: tcp://10.0.0.3:44743\n1610930198.119 : agent.0              : 4272  : 140456092493568 : DEBUG    : registered publisher for state_pubsub\n1610930198.120 : agent.0              : 4272  : 140456092493568 : INFO     : connect pub to control_pubsub: tcp://10.0.0.3:40499\n1610930198.121 : agent.0   ",
+            "pilot_sandbox": "file://localhost/home/merzky/radical.pilot.sandbox/rp.session.rivendell.merzky.018645.0002/pilot.0000/",
+            "pmgr": "pmgr.0000",
+            "resource": "local.localhost",
+            "resource_details": {
+                "lm_detail": null,
+                "lm_info": {
+                    "FORK": {
+                        "version": "0.42",
+                        "version_detail": "There is no spoon"
+                    }
+                },
+                "rm_info": {
+                    "agent_nodes": {},
+                    "cores_per_node": 16,
+                    "gpus_per_node": 2,
+                    "lfs_per_node": {
+                        "path": "/tmp",
+                        "size": 1024
+                    },
+                    "lm_info": {
+                        "version_info": {
+                            "FORK": {
+                                "version": "0.42",
+                                "version_detail": "There is no spoon"
+                            }
+                        }
+                    },
+                    "mem_per_node": 0,
+                    "name": "Fork",
+                    "node_list": [
+                        [
+                            "localhost",
+                            "localhost_0"
+                        ],
+                        [
+                            "localhost",
+                            "localhost_1"
+                        ],
+                        [
+                            "localhost",
+                            "localhost_2"
+                        ],
+                        [
+                            "localhost",
+                            "localhost_3"
+                        ],
+                        [
+                            "localhost",
+                            "localhost_4"
+                        ],
+                        [
+                            "localhost",
+                            "localhost_5"
+                        ],
+                        [
+                            "localhost",
+                            "localhost_6"
+                        ],
+                        [
+                            "localhost",
+                            "localhost_7"
+                        ],
+                        [
+                            "localhost",
+                            "localhost_8"
+                        ],
+                        [
+                            "localhost",
+                            "localhost_9"
+                        ],
+                        [
+                            "localhost",
+                            "localhost_10"
+                        ],
+                        [
+                            "localhost",
+                            "localhost_11"
+                        ],
+                        [
+                            "localhost",
+                            "localhost_12"
+                        ],
+                        [
+                            "localhost",
+                            "localhost_13"
+                        ],
+                        [
+                            "localhost",
+                            "localhost_14"
+                        ],
+                        [
+                            "localhost",
+                            "localhost_15"
+                        ],
+                        [
+                            "localhost",
+                            "localhost_16"
+                        ],
+                        [
+                            "localhost",
+                            "localhost_17"
+                        ],
+                        [
+                            "localhost",
+                            "localhost_18"
+                        ],
+                        [
+                            "localhost",
+                            "localhost_19"
+                        ],
+                        [
+                            "localhost",
+                            "localhost_20"
+                        ],
+                        [
+                            "localhost",
+                            "localhost_21"
+                        ],
+                        [
+                            "localhost",
+                            "localhost_22"
+                        ],
+                        [
+                            "localhost",
+                            "localhost_23"
+                        ],
+                        [
+                            "localhost",
+                            "localhost_24"
+                        ],
+                        [
+                            "localhost",
+                            "localhost_25"
+                        ],
+                        [
+                            "localhost",
+                            "localhost_26"
+                        ],
+                        [
+                            "localhost",
+                            "localhost_27"
+                        ],
+                        [
+                            "localhost",
+                            "localhost_28"
+                        ],
+                        [
+                            "localhost",
+                            "localhost_29"
+                        ],
+                        [
+                            "localhost",
+                            "localhost_30"
+                        ],
+                        [
+                            "localhost",
+                            "localhost_31"
+                        ],
+                        [
+                            "localhost",
+                            "localhost_32"
+                        ],
+                        [
+                            "localhost",
+                            "localhost_33"
+                        ]
+                    ]
+                }
+            },
+            "resource_sandbox": "file://localhost/home/merzky/radical.pilot.sandbox",
+            "rpc_req": null,
+            "session": "rp.session.rivendell.merzky.018645.0002",
+            "session_sandbox": "file://localhost/home/merzky/radical.pilot.sandbox/rp.session.rivendell.merzky.018645.0002",
+            "state": "CANCELED",
+            "states": [
+                "NEW",
+                "PMGR_LAUNCHING_PENDING",
+                "PMGR_LAUNCHING",
+                "PMGR_ACTIVE_PENDING",
+                "PMGR_ACTIVE",
+                "PMGR_ACTIVE",
+                "CANCELED",
+                "CANCELED",
+                "CANCELED"
+            ],
+            "stderr": "",
+            "stdout": "",
+            "type": "pilot",
+            "uid": "pilot.0000",
+            "unit_ids": [
+                "unit.000000",
+                "unit.000001"
+            ]
+        }
+    ],
+    "pmgr": [
+        {
+            "_id": "pmgr.0000",
+            "cfg": {
+                "base": "/mnt/home/merzky/radical/radical.pilot.test/examples/misc",
+                "bridges": {
+                    "pmgr_launching_queue": {
+                        "bulk_size": 0,
+                        "channel": "pmgr_launching_queue",
+                        "cmgr": "cmgr.0001",
+                        "heartbeat": {
+                            "addr_pub": "tcp://10.0.0.3:40849",
+                            "addr_sub": "tcp://10.0.0.3:46879",
+                            "interval": 1.0,
+                            "timeout": 60.0
+                        },
+                        "kind": "queue",
+                        "log_level": "error",
+                        "path": "/mnt/home/merzky/radical/radical.pilot.test/examples/misc/rp.session.rivendell.merzky.018645.0002",
+                        "sid": "rp.session.rivendell.merzky.018645.0002",
+                        "stall_hwm": 0,
+                        "uid": "pmgr_launching_queue"
+                    }
+                },
+                "components": {
+                    "pmgr_launching": {
+                        "base": "/mnt/home/merzky/radical/radical.pilot.test/examples/misc",
+                        "cmgr": "cmgr.0001",
+                        "count": 1,
+                        "db_poll_sleeptime": 10.0,
+                        "dburl": "mongodb://localhost/am",
+                        "heartbeat": {
+                            "addr_pub": "tcp://10.0.0.3:40849",
+                            "addr_sub": "tcp://10.0.0.3:46879",
+                            "interval": 1.0,
+                            "timeout": 60.0
+                        },
+                        "kind": "pmgr_launching",
+                        "owner": "pmgr.0000",
+                        "path": "/mnt/home/merzky/radical/radical.pilot.test/examples/misc/rp.session.rivendell.merzky.018645.0002",
+                        "sid": "rp.session.rivendell.merzky.018645.0002",
+                        "uid": "pmgr_launching.0000"
+                    }
+                },
+                "db_poll_sleeptime": 10.0,
+                "dburl": "mongodb://localhost/am",
+                "heartbeat": {
+                    "addr_pub": "tcp://10.0.0.3:40849",
+                    "addr_sub": "tcp://10.0.0.3:46879",
+                    "interval": 1.0,
+                    "timeout": 60.0
+                },
+                "owner": "pmgr.0000",
+                "path": "/mnt/home/merzky/radical/radical.pilot.test/examples/misc/rp.session.rivendell.merzky.018645.0002",
+                "sid": "rp.session.rivendell.merzky.018645.0002",
+                "uid": "pmgr.0000"
+            },
+            "type": "pmgr",
+            "uid": "pmgr.0000"
+        }
+    ],
+    "session": {
+        "_id": "rp.session.rivendell.merzky.018645.0002",
+        "cfg": {
+            "base": "/mnt/home/merzky/radical/radical.pilot.test/examples/misc",
+            "bridges": {
+                "control_pubsub": {
+                    "bulk_size": 0,
+                    "kind": "pubsub",
+                    "log_level": "error",
+                    "stall_hwm": 1
+                },
+                "log_pubsub": {
+                    "bulk_size": 0,
+                    "kind": "pubsub",
+                    "log_level": "error",
+                    "stall_hwm": 1
+                },
+                "stager_request_queue": {
+                    "bulk_size": 0,
+                    "kind": "queue",
+                    "log_level": "error",
+                    "stall_hwm": 1
+                },
+                "stager_response_pubsub": {
+                    "bulk_size": 0,
+                    "kind": "pubsub",
+                    "log_level": "debug",
+                    "stall_hwm": 1
+                },
+                "state_pubsub": {
+                    "bulk_size": 0,
+                    "kind": "pubsub",
+                    "log_level": "error",
+                    "stall_hwm": 1
+                }
+            },
+            "bulk_size": 1024,
+            "bulk_time": 1.0,
+            "client_sandbox": "/mnt/home/merzky/radical/radical.pilot.test/examples/misc",
+            "components": {
+                "stager": {
+                    "count": 1
+                },
+                "update": {
+                    "count": 1
+                }
+            },
+            "dburl": "mongodb://localhost/am",
+            "default_dburl": "mongodb://rct:rct_test@two.radical-project.org/rct_test",
+            "heartbeat": {
+                "interval": 1.0,
+                "timeout": 60.0
+            },
+            "path": "/mnt/home/merzky/radical/radical.pilot.test/examples/misc/rp.session.rivendell.merzky.018645.0002",
+            "record": null,
+            "session_base": "/mnt/home/merzky/radical/radical.pilot.test/examples/misc",
+            "sid": "rp.session.rivendell.merzky.018645.0002"
+        },
+        "connected": 1610930166.04308,
+        "created": 1610930166.0409608,
+        "metadata": [
+            {
+                "radical_stack": {
+                    "py": "3.8.0 (default, Oct 28 2019, 16:14:01)  [GCC 8.3.0]",
+                    "rp": "1.5.8-v1.5.8-197-g46ed60528@feature-resource_plots",
+                    "rs": "1.5.7",
+                    "ru": "1.5.8-v1.5.8@master"
+                }
+            }
+        ],
+        "type": "session",
+        "uid": "rp.session.rivendell.merzky.018645.0002"
+    },
+    "umgr": [
+        {
+            "_id": "umgr.0000",
+            "cfg": {
+                "base": "/mnt/home/merzky/radical/radical.pilot.test/examples/misc",
+                "bridges": {
+                    "umgr_reschedule_pubsub": {
+                        "bulk_size": 0,
+                        "channel": "umgr_reschedule_pubsub",
+                        "cmgr": "cmgr.0002",
+                        "heartbeat": {
+                            "addr_pub": "tcp://10.0.0.3:44463",
+                            "addr_sub": "tcp://10.0.0.3:42205",
+                            "interval": 1.0,
+                            "timeout": 60.0
+                        },
+                        "kind": "pubsub",
+                        "log_level": "error",
+                        "path": "/mnt/home/merzky/radical/radical.pilot.test/examples/misc/rp.session.rivendell.merzky.018645.0002",
+                        "sid": "rp.session.rivendell.merzky.018645.0002",
+                        "stall_hwm": 0,
+                        "uid": "umgr_reschedule_pubsub"
+                    },
+                    "umgr_scheduling_queue": {
+                        "bulk_size": 0,
+                        "channel": "umgr_scheduling_queue",
+                        "cmgr": "cmgr.0002",
+                        "heartbeat": {
+                            "addr_pub": "tcp://10.0.0.3:44463",
+                            "addr_sub": "tcp://10.0.0.3:42205",
+                            "interval": 1.0,
+                            "timeout": 60.0
+                        },
+                        "kind": "queue",
+                        "log_level": "error",
+                        "path": "/mnt/home/merzky/radical/radical.pilot.test/examples/misc/rp.session.rivendell.merzky.018645.0002",
+                        "sid": "rp.session.rivendell.merzky.018645.0002",
+                        "stall_hwm": 0,
+                        "uid": "umgr_scheduling_queue"
+                    },
+                    "umgr_staging_input_queue": {
+                        "bulk_size": 0,
+                        "channel": "umgr_staging_input_queue",
+                        "cmgr": "cmgr.0002",
+                        "heartbeat": {
+                            "addr_pub": "tcp://10.0.0.3:44463",
+                            "addr_sub": "tcp://10.0.0.3:42205",
+                            "interval": 1.0,
+                            "timeout": 60.0
+                        },
+                        "kind": "queue",
+                        "log_level": "error",
+                        "path": "/mnt/home/merzky/radical/radical.pilot.test/examples/misc/rp.session.rivendell.merzky.018645.0002",
+                        "sid": "rp.session.rivendell.merzky.018645.0002",
+                        "stall_hwm": 0,
+                        "uid": "umgr_staging_input_queue"
+                    },
+                    "umgr_staging_output_queue": {
+                        "bulk_size": 0,
+                        "channel": "umgr_staging_output_queue",
+                        "cmgr": "cmgr.0002",
+                        "heartbeat": {
+                            "addr_pub": "tcp://10.0.0.3:44463",
+                            "addr_sub": "tcp://10.0.0.3:42205",
+                            "interval": 1.0,
+                            "timeout": 60.0
+                        },
+                        "kind": "queue",
+                        "log_level": "error",
+                        "path": "/mnt/home/merzky/radical/radical.pilot.test/examples/misc/rp.session.rivendell.merzky.018645.0002",
+                        "sid": "rp.session.rivendell.merzky.018645.0002",
+                        "stall_hwm": 0,
+                        "uid": "umgr_staging_output_queue"
+                    },
+                    "umgr_unschedule_pubsub": {
+                        "bulk_size": 0,
+                        "channel": "umgr_unschedule_pubsub",
+                        "cmgr": "cmgr.0002",
+                        "heartbeat": {
+                            "addr_pub": "tcp://10.0.0.3:44463",
+                            "addr_sub": "tcp://10.0.0.3:42205",
+                            "interval": 1.0,
+                            "timeout": 60.0
+                        },
+                        "kind": "pubsub",
+                        "log_level": "error",
+                        "path": "/mnt/home/merzky/radical/radical.pilot.test/examples/misc/rp.session.rivendell.merzky.018645.0002",
+                        "sid": "rp.session.rivendell.merzky.018645.0002",
+                        "stall_hwm": 0,
+                        "uid": "umgr_unschedule_pubsub"
+                    }
+                },
+                "bulk_collection_size": 100,
+                "bulk_collection_time": 1.0,
+                "components": {
+                    "umgr_scheduling": {
+                        "base": "/mnt/home/merzky/radical/radical.pilot.test/examples/misc",
+                        "bulk_collection_size": 100,
+                        "bulk_collection_time": 1.0,
+                        "cmgr": "cmgr.0002",
+                        "count": 1,
+                        "db_poll_sleeptime": 1.0,
+                        "dburl": "mongodb://localhost/am",
+                        "heartbeat": {
+                            "addr_pub": "tcp://10.0.0.3:44463",
+                            "addr_sub": "tcp://10.0.0.3:42205",
+                            "interval": 1.0,
+                            "timeout": 60.0
+                        },
+                        "kind": "umgr_scheduling",
+                        "owner": "umgr.0000",
+                        "path": "/mnt/home/merzky/radical/radical.pilot.test/examples/misc/rp.session.rivendell.merzky.018645.0002",
+                        "scheduler": "round_robin",
+                        "sid": "rp.session.rivendell.merzky.018645.0002",
+                        "uid": "umgr_scheduling.0000"
+                    },
+                    "umgr_staging_input": {
+                        "base": "/mnt/home/merzky/radical/radical.pilot.test/examples/misc",
+                        "bulk_collection_size": 100,
+                        "bulk_collection_time": 1.0,
+                        "cmgr": "cmgr.0002",
+                        "count": 1,
+                        "db_poll_sleeptime": 1.0,
+                        "dburl": "mongodb://localhost/am",
+                        "heartbeat": {
+                            "addr_pub": "tcp://10.0.0.3:44463",
+                            "addr_sub": "tcp://10.0.0.3:42205",
+                            "interval": 1.0,
+                            "timeout": 60.0
+                        },
+                        "kind": "umgr_staging_input",
+                        "owner": "umgr.0000",
+                        "path": "/mnt/home/merzky/radical/radical.pilot.test/examples/misc/rp.session.rivendell.merzky.018645.0002",
+                        "scheduler": "round_robin",
+                        "sid": "rp.session.rivendell.merzky.018645.0002",
+                        "uid": "umgr_staging_input.0000"
+                    },
+                    "umgr_staging_output": {
+                        "base": "/mnt/home/merzky/radical/radical.pilot.test/examples/misc",
+                        "bulk_collection_size": 100,
+                        "bulk_collection_time": 1.0,
+                        "cmgr": "cmgr.0002",
+                        "count": 1,
+                        "db_poll_sleeptime": 1.0,
+                        "dburl": "mongodb://localhost/am",
+                        "heartbeat": {
+                            "addr_pub": "tcp://10.0.0.3:44463",
+                            "addr_sub": "tcp://10.0.0.3:42205",
+                            "interval": 1.0,
+                            "timeout": 60.0
+                        },
+                        "kind": "umgr_staging_output",
+                        "owner": "umgr.0000",
+                        "path": "/mnt/home/merzky/radical/radical.pilot.test/examples/misc/rp.session.rivendell.merzky.018645.0002",
+                        "scheduler": "round_robin",
+                        "sid": "rp.session.rivendell.merzky.018645.0002",
+                        "uid": "umgr_staging_output.0000"
+                    }
+                },
+                "db_poll_sleeptime": 1.0,
+                "dburl": "mongodb://localhost/am",
+                "heartbeat": {
+                    "addr_pub": "tcp://10.0.0.3:44463",
+                    "addr_sub": "tcp://10.0.0.3:42205",
+                    "interval": 1.0,
+                    "timeout": 60.0
+                },
+                "owner": "umgr.0000",
+                "path": "/mnt/home/merzky/radical/radical.pilot.test/examples/misc/rp.session.rivendell.merzky.018645.0002",
+                "scheduler": "round_robin",
+                "sid": "rp.session.rivendell.merzky.018645.0002",
+                "uid": "umgr.0000"
+            },
+            "type": "umgr",
+            "uid": "umgr.0000"
+        }
+    ],
+    "unit": [
+        {
+            "_id": "unit.000000",
+            "client_sandbox": "None",
+            "cmd": [],
+            "control": "umgr",
+            "description": {
+                "arguments": [
+                    "raptor_master.py",
+                    "raptor.cfg",
+                    "0"
+                ],
+                "cleanup": false,
+                "cpu_process_type": "",
+                "cpu_processes": 1,
+                "cpu_thread_type": "",
+                "cpu_threads": 8,
+                "environment": {
+                    "CUDA_VISIBLE_DEVICES": "0,1",
+                    "NODE_LFS_PATH": "/tmp"
+                },
+                "executable": "python3",
+                "gpu_process_type": "",
+                "gpu_processes": 2,
+                "gpu_thread_type": "",
+                "gpu_threads": 1,
+                "input_staging": [
+                    {
+                        "action": "Transfer",
+                        "flags": 64,
+                        "priority": 0,
+                        "source": "/mnt/home/merzky/radical/radical.pilot.test/examples/misc/raptor_master.py",
+                        "target": "raptor_master.py",
+                        "uid": "sd.0000"
+                    },
+                    {
+                        "action": "Transfer",
+                        "flags": 64,
+                        "priority": 0,
+                        "source": "/mnt/home/merzky/radical/radical.pilot.test/examples/misc/raptor_worker.py",
+                        "target": "raptor_worker.py",
+                        "uid": "sd.0001"
+                    },
+                    {
+                        "action": "Transfer",
+                        "flags": 64,
+                        "priority": 0,
+                        "source": "raptor.cfg",
+                        "target": "raptor.cfg",
+                        "uid": "sd.0002"
+                    }
+                ],
+                "kernel": "",
+                "lfs_per_process": 0,
+                "mem_per_process": 0,
+                "metadata": null,
+                "name": "",
+                "named_env": "",
+                "output_staging": [],
+                "pilot": "",
+                "post_exec": [],
+                "pre_exec": [],
+                "restartable": false,
+                "sandbox": "",
+                "stderr": "",
+                "stdout": "",
+                "tag": null,
+                "tags": {},
+                "uid": ""
+            },
+            "exit_code": 0,
+            "name": "",
+            "pilot": "pilot.0000",
+            "pilot_sandbox": "file://localhost/home/merzky/radical.pilot.sandbox/rp.session.rivendell.merzky.018645.0002/pilot.0000/",
+            "resource_sandbox": "file://localhost/home/merzky/radical.pilot.sandbox",
+            "slots": {
+                "cores_per_node": 16,
+                "gpus_per_node": 2,
+                "lfs_per_node": {
+                    "path": "/tmp",
+                    "size": 1024
+                },
+                "lm_info": {
+                    "version_info": {
+                        "FORK": {
+                            "version": "0.42",
+                            "version_detail": "There is no spoon"
+                        }
+                    }
+                },
+                "mem_per_node": 0,
+                "nodes": [
+                    {
+                        "core_map": [
+                            [
+                                0,
+                                1,
+                                2,
+                                3,
+                                4,
+                                5,
+                                6,
+                                7
+                            ]
+                        ],
+                        "gpu_map": [
+                            [
+                                0
+                            ],
+                            [
+                                1
+                            ]
+                        ],
+                        "lfs": {
+                            "path": "/tmp",
+                            "size": 0
+                        },
+                        "mem": 0,
+                        "name": "localhost",
+                        "uid": "localhost_0"
+                    }
+                ]
+            },
+            "state": "DONE",
+            "states": [
+                "NEW",
+                "UMGR_SCHEDULING_PENDING",
+                "UMGR_SCHEDULING",
+                "UMGR_STAGING_INPUT_PENDING",
+                "UMGR_STAGING_INPUT",
+                "AGENT_STAGING_INPUT_PENDING",
+                "AGENT_STAGING_INPUT",
+                "AGENT_SCHEDULING_PENDING",
+                "AGENT_SCHEDULING",
+                "AGENT_EXECUTING",
+                "AGENT_STAGING_OUTPUT_PENDING",
+                "AGENT_STAGING_OUTPUT",
+                "UMGR_STAGING_OUTPUT_PENDING",
+                "UMGR_STAGING_OUTPUT",
+                "DONE"
+            ],
+            "stderr": "",
+            "stderr_file": "/home/merzky/radical.pilot.sandbox/rp.session.rivendell.merzky.018645.0002/pilot.0000/unit.000000/unit.000000.err",
+            "stdout": "workers: 16\n",
+            "stdout_file": "/home/merzky/radical.pilot.sandbox/rp.session.rivendell.merzky.018645.0002/pilot.0000/unit.000000/unit.000000.out",
+            "target_state": "DONE",
+            "tuple_size": [
+                1,
+                8,
+                2,
+                ""
+            ],
+            "type": "unit",
+            "uid": "unit.000000",
+            "umgr": "umgr.0000",
+            "unit_sandbox": "file://localhost/home/merzky/radical.pilot.sandbox/rp.session.rivendell.merzky.018645.0002/pilot.0000/unit.000000/",
+            "unit_sandbox_path": "/home/merzky/radical.pilot.sandbox/rp.session.rivendell.merzky.018645.0002/pilot.0000/unit.000000/"
+        },
+        {
+            "_id": "unit.000001",
+            "client_sandbox": "None",
+            "cmd": [],
+            "control": "umgr",
+            "description": {
+                "arguments": [
+                    "raptor_master.py",
+                    "raptor.cfg",
+                    "1"
+                ],
+                "cleanup": false,
+                "cpu_process_type": "",
+                "cpu_processes": 1,
+                "cpu_thread_type": "",
+                "cpu_threads": 8,
+                "environment": {
+                    "CUDA_VISIBLE_DEVICES": "0,1",
+                    "NODE_LFS_PATH": "/tmp"
+                },
+                "executable": "python3",
+                "gpu_process_type": "",
+                "gpu_processes": 2,
+                "gpu_thread_type": "",
+                "gpu_threads": 1,
+                "input_staging": [
+                    {
+                        "action": "Transfer",
+                        "flags": 64,
+                        "priority": 0,
+                        "source": "/mnt/home/merzky/radical/radical.pilot.test/examples/misc/raptor_master.py",
+                        "target": "raptor_master.py",
+                        "uid": "sd.0003"
+                    },
+                    {
+                        "action": "Transfer",
+                        "flags": 64,
+                        "priority": 0,
+                        "source": "/mnt/home/merzky/radical/radical.pilot.test/examples/misc/raptor_worker.py",
+                        "target": "raptor_worker.py",
+                        "uid": "sd.0004"
+                    },
+                    {
+                        "action": "Transfer",
+                        "flags": 64,
+                        "priority": 0,
+                        "source": "raptor.cfg",
+                        "target": "raptor.cfg",
+                        "uid": "sd.0005"
+                    }
+                ],
+                "kernel": "",
+                "lfs_per_process": 0,
+                "mem_per_process": 0,
+                "metadata": null,
+                "name": "",
+                "named_env": "",
+                "output_staging": [],
+                "pilot": "",
+                "post_exec": [],
+                "pre_exec": [],
+                "restartable": false,
+                "sandbox": "",
+                "stderr": "",
+                "stdout": "",
+                "tag": null,
+                "tags": {},
+                "uid": ""
+            },
+            "exit_code": 0,
+            "name": "",
+            "pilot": "pilot.0000",
+            "pilot_sandbox": "file://localhost/home/merzky/radical.pilot.sandbox/rp.session.rivendell.merzky.018645.0002/pilot.0000/",
+            "resource_sandbox": "file://localhost/home/merzky/radical.pilot.sandbox",
+            "slots": {
+                "cores_per_node": 16,
+                "gpus_per_node": 2,
+                "lfs_per_node": {
+                    "path": "/tmp",
+                    "size": 1024
+                },
+                "lm_info": {
+                    "version_info": {
+                        "FORK": {
+                            "version": "0.42",
+                            "version_detail": "There is no spoon"
+                        }
+                    }
+                },
+                "mem_per_node": 0,
+                "nodes": [
+                    {
+                        "core_map": [
+                            [
+                                0,
+                                1,
+                                2,
+                                3,
+                                4,
+                                5,
+                                6,
+                                7
+                            ]
+                        ],
+                        "gpu_map": [
+                            [
+                                0
+                            ],
+                            [
+                                1
+                            ]
+                        ],
+                        "lfs": {
+                            "path": "/tmp",
+                            "size": 0
+                        },
+                        "mem": 0,
+                        "name": "localhost",
+                        "uid": "localhost_1"
+                    }
+                ]
+            },
+            "state": "DONE",
+            "states": [
+                "NEW",
+                "UMGR_SCHEDULING_PENDING",
+                "UMGR_SCHEDULING",
+                "UMGR_STAGING_INPUT_PENDING",
+                "UMGR_STAGING_INPUT",
+                "AGENT_STAGING_INPUT_PENDING",
+                "AGENT_STAGING_INPUT",
+                "AGENT_SCHEDULING_PENDING",
+                "AGENT_SCHEDULING",
+                "AGENT_EXECUTING",
+                "AGENT_STAGING_OUTPUT_PENDING",
+                "AGENT_STAGING_OUTPUT",
+                "UMGR_STAGING_OUTPUT_PENDING",
+                "UMGR_STAGING_OUTPUT",
+                "DONE"
+            ],
+            "stderr": "",
+            "stderr_file": "/home/merzky/radical.pilot.sandbox/rp.session.rivendell.merzky.018645.0002/pilot.0000/unit.000001/unit.000001.err",
+            "stdout": "workers: 16\n",
+            "stdout_file": "/home/merzky/radical.pilot.sandbox/rp.session.rivendell.merzky.018645.0002/pilot.0000/unit.000001/unit.000001.out",
+            "target_state": "DONE",
+            "tuple_size": [
+                1,
+                8,
+                2,
+                ""
+            ],
+            "type": "unit",
+            "uid": "unit.000001",
+            "umgr": "umgr.0000",
+            "unit_sandbox": "file://localhost/home/merzky/radical.pilot.sandbox/rp.session.rivendell.merzky.018645.0002/pilot.0000/unit.000001/",
+            "unit_sandbox_path": "/home/merzky/radical.pilot.sandbox/rp.session.rivendell.merzky.018645.0002/pilot.0000/unit.000001/"
+        }
+    ]
+}
