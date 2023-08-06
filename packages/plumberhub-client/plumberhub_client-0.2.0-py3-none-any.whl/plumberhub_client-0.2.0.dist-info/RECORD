@@ -1,0 +1,10 @@
+plumberhub/Client.py,sha256=THCuRzyP0T0kN3qiLZErV_amCETV6NaFvn0b5LsYLcA,3718
+plumberhub/__init__.py,sha256=couFqWAAWM4WhH1d6P2cVrHQwWrVLJeVJZAKAAhB_yE,23
+plumberhub/plumberhub_pb2.py,sha256=fKtUMdDMJrwwOHTmTo0aJzIhu5tFeEr-q1MNAXSLOoU,3353
+plumberhub-client/__init__.py,sha256=ggXJ9tWmHiuwUzWKvB9flR085QiNK_ywjA4tdb-qBcI,2077
+plumberhub-client/plumberhub_pb2.py,sha256=ApcLPjxeLyIVgal3WLhPws5u5rops1MuB4CGCFJPsjw,3044
+plumberhub_client-0.2.0.dist-info/LICENSE,sha256=u1AV_a12NABYFReCZR8ZbNa7qhb9JzrUBJMAoysYdG4,1087
+plumberhub_client-0.2.0.dist-info/METADATA,sha256=OwvFxBoz_iLM_mk2McW3NzcbQGpXQgu-_rOWY5AP1vE,2039
+plumberhub_client-0.2.0.dist-info/WHEEL,sha256=S6zePDbUAjzMmpYOg2cHDxuYFWw7WiOXt6ogM6hIB5Q,92
+plumberhub_client-0.2.0.dist-info/top_level.txt,sha256=BeR-PViLJ6qqjHz0J7qOqWWb481mjwuV31daRg9w2l8,11
+plumberhub_client-0.2.0.dist-info/RECORD,,
