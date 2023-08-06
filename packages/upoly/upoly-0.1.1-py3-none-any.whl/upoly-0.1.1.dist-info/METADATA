@@ -1,0 +1,89 @@
+Metadata-Version: 2.1
+Name: upoly
+Version: 0.1.1
+Summary: High performance asyncio REST client for polygon.io
+License: AGPL
+Keywords: asyncio,polygon,polygonio,python,client-python,http2
+Author: Riley
+Author-email: rileymshea@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: Other/Proprietary License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Office/Business :: Financial :: Investment
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Dist: httpx[http2,brotli] (>=0.16.1,<0.17.0)
+Requires-Dist: joblib (>=1.0.0,<2.0.0)
+Requires-Dist: nest-asyncio (>=1.4.3,<2.0.0)
+Requires-Dist: numpy (>=1.19.5,<2.0.0)
+Requires-Dist: orjson (>=3.4.6,<4.0.0)
+Requires-Dist: pandas (>=1.2.0,<2.0.0)
+Requires-Dist: pandas-market-calendars (>=1.6.1,<2.0.0)
+Requires-Dist: python-dotenv (>=0.15.0,<0.16.0)
+Requires-Dist: uvloop (>=0.14.0,<0.15.0)
+Description-Content-Type: text/markdown
+
+# upoly
+
+An Asyncio based, high performance, REST client libary for interacting
+with the polygon REST api.
+
+Requires Python >=3.8,<=3.9
+
+## Installation
+
+This library makes use of some high performance packages written in `C`/`Rust`
+(uvloop, orjson) so it may require `python-dev` on ubuntu or similar on
+other OS's.
+
+## Usage
+
+Reccomend to create a copy of `./env.sample` as `./env`. Make sure `.env` is listed
+in `.gitignore`.
+
+```env
+POLYGON_KEY_ID=REPACEWITHPOLYGONORALPACAKEYHERE
+```
+
+Many alternatives to `.env` exist. One such alternative is exporting
+like so:
+
+```bash
+#!/bin/env bash
+export POLYGON_KEY_ID=REPACEWITHPOLYGONORALPACAKEYHERE
+```
+
+```python
+# yourscript.py
+import pytz
+from dotenv import load_dotenv
+import pandas as pd
+
+# load Polygon key from .env file
+load_dotenv()
+# alternatively run from cli with:
+# POLYGON_KEY_ID=@#*$sdfasd python yourscript.py
+
+# Not recommend but can be set with os.environ["POLYGON_KEY_ID"] as well
+
+from upoly import async_polygon_aggs
+
+
+NY = pytz.timezone("America/New_York")
+
+# Must be a NY, pandas Timestamp
+start = pd.Timestamp("2015-01-01", tz=NY)
+end = pd.Timestamp("2020-01-01", tz=NY)
+
+df = async_polygon_aggs("AAPL", "minute", 1, start, end)
+```
+
+## TODO
+
+- [ ] unit tests
+- [ ] regression tests
+- [ ] integration tests
+- [ ] `/trade` endpoint functionality for tick data
+
