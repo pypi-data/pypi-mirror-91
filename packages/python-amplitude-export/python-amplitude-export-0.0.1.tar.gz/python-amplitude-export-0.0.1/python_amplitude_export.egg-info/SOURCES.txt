@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+amplitude/__init__.py
+amplitude/client.py
+python_amplitude_export.egg-info/PKG-INFO
+python_amplitude_export.egg-info/SOURCES.txt
+python_amplitude_export.egg-info/dependency_links.txt
+python_amplitude_export.egg-info/requires.txt
+python_amplitude_export.egg-info/top_level.txt
