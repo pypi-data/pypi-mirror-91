@@ -1,0 +1,14 @@
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+pyfree/FreeAPI.py
+pyfree/__init__.py
+pyfree/__main__.py
+pyfree/config.txt
+pyfree.egg-info/PKG-INFO
+pyfree.egg-info/SOURCES.txt
+pyfree.egg-info/dependency_links.txt
+pyfree.egg-info/entry_points.txt
+pyfree.egg-info/requires.txt
+pyfree.egg-info/top_level.txt

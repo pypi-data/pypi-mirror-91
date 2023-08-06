@@ -1,0 +1,3 @@
+[console_script]
+pyfree = pyfree.__main__:main
+
