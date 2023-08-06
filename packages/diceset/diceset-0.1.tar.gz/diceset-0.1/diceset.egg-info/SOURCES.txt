@@ -1,0 +1,9 @@
+setup.py
+diceset/DiceSet.py
+diceset/Die.py
+diceset/__init__.py
+diceset.egg-info/PKG-INFO
+diceset.egg-info/SOURCES.txt
+diceset.egg-info/dependency_links.txt
+diceset.egg-info/not-zip-safe
+diceset.egg-info/top_level.txt
