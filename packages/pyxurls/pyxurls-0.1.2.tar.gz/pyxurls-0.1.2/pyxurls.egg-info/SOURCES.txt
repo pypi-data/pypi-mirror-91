@@ -1,0 +1,15 @@
+README.md
+setup.cfg
+setup.py
+pyxurls.egg-info/PKG-INFO
+pyxurls.egg-info/SOURCES.txt
+pyxurls.egg-info/dependency_links.txt
+pyxurls.egg-info/top_level.txt
+xurls/__init__.py
+xurls/_regex.py
+xurls/express.py
+xurls/schemes.py
+xurls/tlds.py
+xurls/tlds_pseudo.py
+xurls/unicode.py
+xurls/xurls.py
