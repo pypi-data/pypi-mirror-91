@@ -1,0 +1,15 @@
+trashguy/__init__.py,sha256=No103yXT3Ay26Ua7WS6PwKNVu8RExhxvxnWY4-EF8sE,1507
+trashguy/__main__.py,sha256=4ZT-_csJTwoBoRQ_n0VxlDho_aIotAiRsZKJ5TWT2VA,1717
+trashguy/_frame_engine.py,sha256=6J7-m5G4nWq9G8aA6VTac_aAKUG4frqevIlUutjEh64,7260
+trashguy/_tgpy_engine.py,sha256=bbucS2N1VyrZXrbHBwIfJo1196XnGEpCFkTjVgUwmvc,8751
+trashguy/_types.py,sha256=yPhhbUPFztKiKFcTj4QJn49kz7Ehu272iHWdXItJZwY,2177
+trashguy/generate_lut.py,sha256=Tbt8W_Z1iKyFkdUyW-M7O8dM91FWsOKV-v1drE0cTzE,2694
+trashguy/lut.py,sha256=cHYZZ9-MEJZFZl4T1S0e-zQhc8um5hoyvld8guF9X_4,13813
+trashguy/trashguy.py,sha256=8daT48WYwtSsHXFc0pZIrzjedipF9SRSQb_P0I6QmOM,3346
+trashguy/version.py,sha256=XY1ozsJQwHcrfitIzPNoUqIKzTJ9DzU1ityzSWqmT34,1445
+trashguy-4.1.0.20210114.dist-info/LICENSE,sha256=u2P9ePDxlf7fMlWsWIwyVslIQMAwOHHlJMAsw2FuLVE,33006
+trashguy-4.1.0.20210114.dist-info/METADATA,sha256=nYX3AlA2RlYW4T1qMcGmw1qpLyHKbn1YBhKkkmh7azc,1067
+trashguy-4.1.0.20210114.dist-info/WHEEL,sha256=D1Wh14kWDxPnrM-5t_6UCB-UuQNrEODtRa3vF4OsvQY,97
+trashguy-4.1.0.20210114.dist-info/top_level.txt,sha256=QYrkROJFNey3760IUV7847aPwyH0jFceNyd-xkwAgHE,9
+trashguy-4.1.0.20210114.dist-info/zip-safe,sha256=frcCV1k9oG9oKj3dpUqdJg1PxRT2RSN_XKdLCPjaYaY,2
+trashguy-4.1.0.20210114.dist-info/RECORD,,
