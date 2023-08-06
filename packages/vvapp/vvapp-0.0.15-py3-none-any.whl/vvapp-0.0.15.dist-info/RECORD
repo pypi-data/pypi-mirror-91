@@ -1,0 +1,11 @@
+vvapp/__init__.py,sha256=go20U3RCVaJ2N55RnX4tO5rinfUCRV0puFyrHCto8yw,23
+vvapp/_nbdev.py,sha256=FEHvdgxiG2OnxxK-wCB1z8BMknWXtWdS3mRvnL5FA5k,1412
+vvapp/app_templates.py,sha256=LCiubJNSm58B4E4k7bY_Oqq4ZIzOkC654ivI6GDsHCs,3562
+vvapp/inputs.py,sha256=NAR0C_ekXl9mCKM8eReCvfMX90bf-6mQSZpRWRkvDIk,39652
+vvapp/outputs.py,sha256=qkZhh4Kzq_q9VDwB8dNydaD2sLORkWzhEnqPnNpVLBg,12257
+vvapp-0.0.15.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+vvapp-0.0.15.dist-info/METADATA,sha256=NXjCMSSRUzhm894HvaEu34rnzfa6O12OmhwUpBMJaBk,39918
+vvapp-0.0.15.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+vvapp-0.0.15.dist-info/entry_points.txt,sha256=eqGnTHtEVMYwfXVk1Z9MhC8O2N8wuqAbr0lisLmrkxs,20
+vvapp-0.0.15.dist-info/top_level.txt,sha256=BH9tUlnYCYrB_o657bSgHpDwfMnvZCXaciOizUECpIk,6
+vvapp-0.0.15.dist-info/RECORD,,
