@@ -1,0 +1,11 @@
+Metadata-Version: 1.2
+Name: metainer
+Version: 0.2
+Summary: A metadata-based mixin for building interpolatable python classes
+Home-page: https://github.com/hallmarksrc/metainer
+Author: Chi-kwan Chan
+Author-email: ckchan@cfa.harvard.edu
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.5

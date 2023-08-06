@@ -1,0 +1,10 @@
+README.md
+setup.py
+mod/metainer/__init__.py
+mod/metainer/core.py
+mod/metainer/mixin.py
+mod/metainer.egg-info/PKG-INFO
+mod/metainer.egg-info/SOURCES.txt
+mod/metainer.egg-info/dependency_links.txt
+mod/metainer.egg-info/requires.txt
+mod/metainer.egg-info/top_level.txt
