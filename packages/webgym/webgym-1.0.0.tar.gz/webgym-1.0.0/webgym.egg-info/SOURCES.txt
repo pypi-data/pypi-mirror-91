@@ -1,0 +1,15 @@
+README.md
+setup.py
+./miniwob/__init__.py
+./miniwob/action.py
+./miniwob/environment.py
+./miniwob/fields.py
+./miniwob/instance.py
+./miniwob/reward.py
+./miniwob/screenshot.py
+./miniwob/state.py
+./miniwob/utils.py
+webgym.egg-info/PKG-INFO
+webgym.egg-info/SOURCES.txt
+webgym.egg-info/dependency_links.txt
+webgym.egg-info/top_level.txt
