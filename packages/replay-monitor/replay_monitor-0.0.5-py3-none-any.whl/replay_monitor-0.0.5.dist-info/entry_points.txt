@@ -1,0 +1,3 @@
+[console_scripts]
+replay-monitor = replay_monitor.server:start_server
+
