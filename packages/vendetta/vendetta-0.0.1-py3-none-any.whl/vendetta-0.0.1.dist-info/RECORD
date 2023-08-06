@@ -1,0 +1,10 @@
+vendetta/__init__.py,sha256=euVdLsghQ3u6B-lxKskugBAGjAK17UAqGXlYBKsSPGA,87
+vendetta/cli.py,sha256=Km27zXcTDp5ZP00KtpMc5wU3Bslb-fV8gnYEE2PwyMI,797
+vendetta/models.py,sha256=CqXnU3032gXY2VF6X5IRgfGnakqn9QNW70udsDc-qoM,613
+vendetta/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+vendetta/vendetta.py,sha256=Ae0cEYrb5AIVqmI2CN1IhLOvlxm964rOVWn5bIg9veQ,1835
+vendetta-0.0.1.dist-info/entry_points.txt,sha256=BOGftLpVJR1ITPmV6NP4ZQ_8b5baqqysw2clzhzxzcM,46
+vendetta-0.0.1.dist-info/LICENSE,sha256=X3nrSQe1t-kFUL7D_QxfCPmBGEvK-SEbiBGraAvq5bQ,1106
+vendetta-0.0.1.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+vendetta-0.0.1.dist-info/METADATA,sha256=msfNc5xNWi273m1BT0xzz_Zh7Xu1f6R5z-zpP4NyJBU,3113
+vendetta-0.0.1.dist-info/RECORD,,
