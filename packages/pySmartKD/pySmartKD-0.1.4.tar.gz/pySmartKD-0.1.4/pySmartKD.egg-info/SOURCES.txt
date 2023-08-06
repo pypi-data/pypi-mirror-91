@@ -1,0 +1,9 @@
+README.md
+setup.py
+pySmartKD/__init__.py
+pySmartKD/pySmartKD.py
+pySmartKD.egg-info/PKG-INFO
+pySmartKD.egg-info/SOURCES.txt
+pySmartKD.egg-info/dependency_links.txt
+pySmartKD.egg-info/requires.txt
+pySmartKD.egg-info/top_level.txt
