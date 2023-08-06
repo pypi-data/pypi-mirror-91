@@ -1,0 +1,8 @@
+README.md
+setup.py
+odoogap_mtd/__init__.py
+odoogap_mtd/mtd_headers.py
+odoogap_mtd.egg-info/PKG-INFO
+odoogap_mtd.egg-info/SOURCES.txt
+odoogap_mtd.egg-info/dependency_links.txt
+odoogap_mtd.egg-info/top_level.txt
