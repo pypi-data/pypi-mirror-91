@@ -1,0 +1,10 @@
+Changelog
+=========
+
+1.0.1
+-----
+ - updated "required" attribute of file input widgets
+
+1.0.0
+-----
+ - initial release
