@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: agralogics
+Version: 1.0.9
+Summary: An Open Source Collection of Agronomic Models
+Home-page: https://github.com/agralogics/weather-models
+Author: Agralogics
+Author-email: sumer.johal@agralogics.com
+License: UNKNOWN
+Description: # Weather Models
+        
+        This is a simple example package. You can use
+        [Github-flavored Markdown](https://guides.github.com/features/mastering-markdown/)
+        to write your content.
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
