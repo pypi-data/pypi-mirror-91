@@ -1,0 +1,3 @@
+[mlflow.deployments]
+ray-serve=mlflow_ray_serve
+
