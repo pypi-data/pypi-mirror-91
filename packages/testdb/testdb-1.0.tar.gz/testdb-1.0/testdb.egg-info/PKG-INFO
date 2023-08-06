@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: testdb
+Version: 1.0
+Summary: db sdk
+Home-page: http://test.com
+Author: chaizc
+Author-email: chaizc@gmail.com
+License: MIT Licence
+Description: db sdk for python
+Keywords: test,xxx
+Platform: any
