@@ -1,0 +1,13 @@
+sentiment_analysis/__init__.py,sha256=qJF24szidmqtxzfW9WZSERCpOlMyv8xbsTdagF1q824,70
+sentiment_analysis/sentiment.py,sha256=4e1GxIbLd4yGKWpmjaatb_1QjKqs3Oj1jDEn6D8Ft74,2779
+sentiment_analysis/lexicon/expressive-type.csv,sha256=cKhksMS3BA45Vk38GdZ8F2ARtX-vqajUpFQk9C1m3Yg,794490
+sentiment_analysis/lexicon/intensity.csv,sha256=UOf2BcPPZhZQiqj97nKgXxvSVHKWwIxNURatEE56Nx4,678203
+sentiment_analysis/lexicon/nested-order.csv,sha256=tMzTCuNHVrN2DWlPd2yEmmMGcm0cfBU7ptSaaodnpAo,604384
+sentiment_analysis/lexicon/polarity.csv,sha256=PgchvvUlPO5Jk8DL_I6zTFogGDJX9ylxeOWZjOjGLeo,676241
+sentiment_analysis/lexicon/subjectivity-polarity.csv,sha256=PVSUhLkh7jPZdZkX-u6wCNgd4WyxbCgCSA0oFAQ4a0o,631271
+sentiment_analysis/lexicon/subjectivity-type.csv,sha256=lscUj-Jlm2Zlo9FuMzpN-yhd1SV4jIHroRy4hymgHpM,822919
+sentiment_analysis_ko-0.0.1a0.dist-info/LICENSE,sha256=cx6H75vP-PBGyAqX8mELunkfJlESjshLB-Lx7hhBZL0,1082
+sentiment_analysis_ko-0.0.1a0.dist-info/METADATA,sha256=iTpJYqWFR4VHtNoxdyBkM8rGCLHJBtw8y3a97Afv6-Y,880
+sentiment_analysis_ko-0.0.1a0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+sentiment_analysis_ko-0.0.1a0.dist-info/top_level.txt,sha256=qiDizpOIvNMYV5-WpjQee43Heswma-YnThUYXOrAFLY,19
+sentiment_analysis_ko-0.0.1a0.dist-info/RECORD,,

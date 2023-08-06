@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: sentiment-analysis-ko
+Version: 0.0.1a0
+Summary: Korean sentiment analyzation
+Home-page: https://github.com/kijk2869/sentiment-analysis-ko
+Author: kijk2869
+License: MIT
+Project-URL: Source, https://github.com/kijk2869/sentiment-analysis-ko
+Project-URL: Tracker, https://github.com/kijk2869/sentiment-analysis-ko/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: Implementation
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: pandas (==1.2.0)
+Requires-Dist: konlpy (==0.5.2)
+
+# sentiment-analysis-ko
+Korean sentiment analyzation
+
+
