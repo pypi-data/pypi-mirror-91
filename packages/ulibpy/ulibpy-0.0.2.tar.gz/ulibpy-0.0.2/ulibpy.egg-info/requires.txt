@@ -1,0 +1,2 @@
+toml>=0.10.2
+prometheus_client>=0.7.1
