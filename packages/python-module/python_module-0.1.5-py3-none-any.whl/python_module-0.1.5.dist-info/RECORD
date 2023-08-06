@@ -1,0 +1,10 @@
+python_module/__init__.py,sha256=zVET38YOEiSrKprOy4JyszQ3_S9q6u3Ja8ok82YWqa0,51
+python_module/add.py,sha256=Tqp9MqFJq3CXI8CLN6GmH9EIJsCjXebmQpjEvmTgUVY,28
+python_module/subtract.py,sha256=f4HGw9pMimujAgiUQdGMWvxsa7HIqqZZHcPi0kXhbGY,33
+python_module/extras/__init__.py,sha256=881tWUu7p3l2VBoVgO-vwGVQCjNp-uuJFxWRs7Nqi6w,57
+python_module/extras/divide.py,sha256=g4tZrd-lr9Eif4GuxO7CLEmHtTBE1LkGjPuw-hfRmKs,31
+python_module/extras/multiply.py,sha256=-HDz7uBUg2F7ehXU8nQWEYu8VIXAO2WdrQSYkTmOwJE,33
+python_module-0.1.5.dist-info/METADATA,sha256=vO6d9lrv_SDFem_PhhXv1-sKzO6xkjlmi3JVhORj3Ng,579
+python_module-0.1.5.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+python_module-0.1.5.dist-info/top_level.txt,sha256=zTEbnH_mKF4ZetZDiI5SJcOAEQHsiBP5CDFSCYQ5lMM,14
+python_module-0.1.5.dist-info/RECORD,,
