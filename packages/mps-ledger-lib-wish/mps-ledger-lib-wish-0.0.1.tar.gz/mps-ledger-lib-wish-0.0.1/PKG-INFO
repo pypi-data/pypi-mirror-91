@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: mps-ledger-lib-wish
+Version: 0.0.1
+Summary: A library for Ledger system in Wish
+Home-page: https://github.com/ContextLogic/mps-ledger-lib
+Author-email: merchant_payments_eng@contextlogic.com
+License: UNKNOWN
+Description: # ledger_lib
+        This repo contains reusable codes for ledger service
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=2.7
+Description-Content-Type: text/markdown
