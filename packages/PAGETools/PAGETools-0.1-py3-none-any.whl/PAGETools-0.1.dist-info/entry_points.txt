@@ -1,0 +1,3 @@
+[console_scripts]
+pagetools-extract-lines = pagetools.cli.transformations.extract_lines:main
+
