@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: pip_services3_expressions
+Version: 3.0.0
+Summary: Basic portable abstractions for Pip.Services in Python
+Home-page: http://github.com/pip-services3-python/pip-services3-expressions-python
+Author: Conceptual Vision Consulting LLC
+Author-email: seroukhov@gmail.com
+License: MIT
+Description: 
+        Pip.Services Expressions
+        --------------------
+        
+        Pip.Services is an open-source library of basic microservices.
+        pip_services3_expressions package provides syntax and lexical analyzers and expression calculator optimized for repeated calculations.
+        
+        Links
+        `````
+        
+        * `website <http://github.com/pip-services/pip-services>`
+        * `development version <http://github.com/pip-services-python/pip-services-expressions-python>`
+        
+        
+Platform: any
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Description-Content-Type: text/markdown
