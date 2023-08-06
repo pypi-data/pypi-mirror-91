@@ -1,0 +1,3 @@
+[console_scripts]
+makefile-help=makefile_help.__main__:main
+
