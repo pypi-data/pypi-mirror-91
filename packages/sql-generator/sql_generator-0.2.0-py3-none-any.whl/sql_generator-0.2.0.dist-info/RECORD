@@ -1,0 +1,12 @@
+sql_generator/__init__.py,sha256=x99fO4jN0k-0Oi5BeItjqTnR-LtO9rXBRW4tvFbnChI,126
+sql_generator/analyser.py,sha256=t-1deFOhJNTfyiVk7OHyVnUMfpeXvB7HNMa6uV2JoXM,8809
+sql_generator/data_type_generators.py,sha256=FuC7oBVvzPHngyEhDf-wrFsWUK-pIhDsy3yybubPmC8,5917
+sql_generator/extra_generators.py,sha256=0pQH_LxTLwWDKIGhtPs3d-_TaWYdPyx6Yy9ERKRXnp8,2506
+sql_generator/formatters.py,sha256=h0lyYCO5Nq1oWXfBtJ9bA3nd0tA308GvA1RVMEkLVcs,6741
+sql_generator/generator.py,sha256=yzo6LAnpdKkSqwKdMtqO3G8k01PIr5BRP7BNuI-_M-g,6501
+sql_generator/resources/first.txt,sha256=DN_xvCTdHLXn_RMW7NHw6dRB02c55qa8qRziowkxzOY,35147
+sql_generator/resources/last.txt,sha256=AytaIMdhMz2axTZO429hP4otYEosWAnLan-SzMhihOw,4796
+sql_generator/utils.py,sha256=E29Heud7yqShIZGUMh0bR7hj0zIBR8R4xKFLZWuJ-RU,2131
+sql_generator-0.2.0.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+sql_generator-0.2.0.dist-info/METADATA,sha256=voaHZCsI3UPWKW34oZNaKH-5ea8NEXxwF7QDnJWC3x8,312
+sql_generator-0.2.0.dist-info/RECORD,,

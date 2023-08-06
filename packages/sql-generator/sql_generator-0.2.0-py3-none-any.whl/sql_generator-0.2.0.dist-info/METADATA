@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: sql-generator
+Version: 0.2.0
+Summary: A sql generator
+License: MIT
+Author: Nils T.
+Author-email: nilsntth@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Requires-Dist: psycopg2 (>=2.8.6,<3.0.0)
