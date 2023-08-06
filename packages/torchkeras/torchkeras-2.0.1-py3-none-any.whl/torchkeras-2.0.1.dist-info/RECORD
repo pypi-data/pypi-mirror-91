@@ -1,0 +1,9 @@
+torchkeras/__init__.py,sha256=yl5FhzFfieWIKAplkWWaltKGc-YR04it2avaZMi79qs,170
+torchkeras/lightkeras.py,sha256=wXkmTmwYmPiVEmFqinPk41eckP1vigN08vD_tKRKGqg,2689
+torchkeras/summary.py,sha256=5M4cTHCiZQD-iPcBhuiZcA8IJ2_bkl6dFNdQLN-Z2uY,4682
+torchkeras/torchkeras.py,sha256=3JJA6HA0uwV30CthXP8qh3mx7iJcVHrX8_6BgMERXD8,5631
+torchkeras-2.0.1.dist-info/LICENSE,sha256=7MkKRe9r4abPhUiou5NGqme0KPdrBoBzw51OYV_Vans,11325
+torchkeras-2.0.1.dist-info/METADATA,sha256=10m80o4Tv4ntKOxh3tyKDtF19MxV5JPqrTB4R0K9xXI,12043
+torchkeras-2.0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+torchkeras-2.0.1.dist-info/top_level.txt,sha256=zTEfhDE8jGjnJedOcpdAK6TCAV95SRDqNg280kQmlyg,11
+torchkeras-2.0.1.dist-info/RECORD,,
