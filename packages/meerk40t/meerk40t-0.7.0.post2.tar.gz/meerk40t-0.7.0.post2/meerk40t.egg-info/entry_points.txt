@@ -1,0 +1,15 @@
+[console_scripts]
+meerk40t = meerk40t.main:run
+
+[meerk40t.plugins]
+BindAlias = meerk40t.bindalias:plugin
+DefaultModules = meerk40t.defaultmodules:plugin
+Elemental = meerk40t.elements:plugin
+GrblDevice = meerk40t.grbldevice:plugin
+ImageTools = meerk40t.imagetools:plugin
+LhystudiosDevice = meerk40t.lhystudiosdevice:plugin
+MoshiboardDevice = meerk40t.moshiboarddevice:plugin
+Planner = meerk40t.cutplanner:plugin
+RuidaDevice = meerk40t.ruidadevice:plugin
+Spooler = meerk40t.basedevice:plugin
+
