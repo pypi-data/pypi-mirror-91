@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: chipmunkdb-python-client
+Version: 1.0.1
+Summary: Read and Write Dataframes and Data to a chipmunkdb
+Home-page: https://gitlab.com/coindeck/chipmunkdb-python-client
+Author: coindeck
+Author-email: donnercody86@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+Requires-Dist: pandas
+Requires-Dist: influxdb
+Requires-Dist: importlib-resources
+Requires-Dist: typing
+
+
+# chipmunkdb :chipmunk: python-client
+
+Modify and save dataframes with timeseries or without to an ultra-fast ipc chipmunk database with olap features. (Powered by duckdb)
+
+## Installation
+
+
+## Usage
+
+## Info
+
+
