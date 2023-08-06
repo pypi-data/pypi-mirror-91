@@ -1,0 +1,11 @@
+README.md
+setup.py
+sentry_bigquery/__init__.py
+sentry_bigquery/client.py
+sentry_bigquery/plugin.py
+sentry_bigquery.egg-info/PKG-INFO
+sentry_bigquery.egg-info/SOURCES.txt
+sentry_bigquery.egg-info/dependency_links.txt
+sentry_bigquery.egg-info/entry_points.txt
+sentry_bigquery.egg-info/requires.txt
+sentry_bigquery.egg-info/top_level.txt
