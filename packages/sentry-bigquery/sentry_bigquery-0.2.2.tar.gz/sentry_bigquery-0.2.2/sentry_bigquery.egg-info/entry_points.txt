@@ -1,0 +1,3 @@
+[sentry.plugins]
+sentry_bigquery = sentry_bigquery.plugin:BigQueryPlugin
+
