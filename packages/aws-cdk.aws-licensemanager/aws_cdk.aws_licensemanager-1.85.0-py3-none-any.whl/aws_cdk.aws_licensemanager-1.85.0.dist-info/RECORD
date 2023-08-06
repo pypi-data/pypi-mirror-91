@@ -1,0 +1,8 @@
+aws_cdk/aws_licensemanager/__init__.py,sha256=L-cyjn4NxZ8XD2NTiH-qNcbWdapCctvxsYCwo36WUPA,95780
+aws_cdk/aws_licensemanager/py.typed,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+aws_cdk/aws_licensemanager/_jsii/__init__.py,sha256=PvFIOgIaUf7dYch4zXUjYM1tRyNI98X0fd9c4XIEQhI,374
+aws_cdk/aws_licensemanager/_jsii/aws-licensemanager@1.85.0.jsii.tgz,sha256=-8XmFYOKXXY2-iVA4Ykm6J4BaqmS5pTRa2tlFsTI7Y0,41040
+aws_cdk.aws_licensemanager-1.85.0.dist-info/METADATA,sha256=8AmtvAnFZUqyGvivplEzxWDc99RckuNq50skzircE7E,1688
+aws_cdk.aws_licensemanager-1.85.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+aws_cdk.aws_licensemanager-1.85.0.dist-info/top_level.txt,sha256=1TALAKbuUGsMSrfKWEf268lySCmcqSEO6cDYe_XlLHM,8
+aws_cdk.aws_licensemanager-1.85.0.dist-info/RECORD,,
