@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: bleuio-lib
+Version: 1.0.1
+Summary: Library for using the bleuio dongle.
+Home-page: https://smart-sensor-devices-ab.github.io/ssd005-manual/
+Author: Emil Lindblom
+Author-email: emil@smartsensordevices.com
+License: MIT
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Requires-Dist: pyserial
+
+UNKNOWN
+
+
