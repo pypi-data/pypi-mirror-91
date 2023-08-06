@@ -1,0 +1,12 @@
+setup.cfg
+setup.py
+sandboxed/__init__.py
+sandboxed/file_system.py
+sandboxed/internet_access.py
+sandboxed/sandbox.py
+sandboxed/specs.py
+sandboxed.egg-info/PKG-INFO
+sandboxed.egg-info/SOURCES.txt
+sandboxed.egg-info/dependency_links.txt
+sandboxed.egg-info/requires.txt
+sandboxed.egg-info/top_level.txt
