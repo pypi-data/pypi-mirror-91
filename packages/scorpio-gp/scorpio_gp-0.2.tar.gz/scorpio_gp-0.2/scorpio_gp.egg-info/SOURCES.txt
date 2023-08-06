@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+ez_setup.py
+scorpio.py
+setup.py
+scorpio_gp.egg-info/PKG-INFO
+scorpio_gp.egg-info/SOURCES.txt
+scorpio_gp.egg-info/dependency_links.txt
+scorpio_gp.egg-info/requires.txt
+scorpio_gp.egg-info/top_level.txt

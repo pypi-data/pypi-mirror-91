@@ -1,0 +1,8 @@
+numpy
+astropy
+astroquery
+matplotlib
+attrs
+seaborn
+retrying
+scipy
