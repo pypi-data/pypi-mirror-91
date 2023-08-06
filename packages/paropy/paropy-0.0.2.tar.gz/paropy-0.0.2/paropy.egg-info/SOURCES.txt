@@ -1,0 +1,16 @@
+LICENSE.md
+MANIFEST.in
+README.md
+setup.py
+paropy/__init__.py
+paropy/data_utils.py
+paropy/plot_utils.py
+paropy/routines.py
+paropy.egg-info/PKG-INFO
+paropy.egg-info/SOURCES.txt
+paropy.egg-info/dependency_links.txt
+paropy.egg-info/requires.txt
+paropy.egg-info/top_level.txt
+paropy/scripts/diagnostics.py
+paropy/scripts/merdional_snapshot.py
+paropy/scripts/surface_snapshot.py
