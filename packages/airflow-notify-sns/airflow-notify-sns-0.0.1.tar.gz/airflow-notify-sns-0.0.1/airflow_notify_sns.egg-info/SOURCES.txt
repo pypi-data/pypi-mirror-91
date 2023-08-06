@@ -1,0 +1,9 @@
+README.md
+setup.py
+airflow_notify_sns/__init__.py
+airflow_notify_sns/notify.py
+airflow_notify_sns.egg-info/PKG-INFO
+airflow_notify_sns.egg-info/SOURCES.txt
+airflow_notify_sns.egg-info/dependency_links.txt
+airflow_notify_sns.egg-info/not-zip-safe
+airflow_notify_sns.egg-info/top_level.txt
