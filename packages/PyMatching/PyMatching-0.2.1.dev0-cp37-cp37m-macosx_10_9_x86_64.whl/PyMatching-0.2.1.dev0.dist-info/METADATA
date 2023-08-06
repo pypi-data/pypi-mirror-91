@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: PyMatching
+Version: 0.2.1.dev0
+Summary: A C++ implementation of the Minimum Weight Perfect Matching decoder, with Python bindings.
+Home-page: UNKNOWN
+Author: Oscar Higgott
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Requires-Dist: scipy
+Requires-Dist: numpy
+Requires-Dist: networkx
+
+UNKNOWN
+
+
