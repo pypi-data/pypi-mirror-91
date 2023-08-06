@@ -1,0 +1,13 @@
+powergate/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+powergate/admin/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+powergate/admin/v1/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+powergate/admin/v1/admin_pb2.py,sha256=wK6kcjDfPAfAp0YYp8yFgiwaE-djAWs6jzWU69SfTJo,47193
+powergate/admin/v1/admin_pb2_grpc.py,sha256=z1fNzwfbLvf2Ue9t7g-mq2RknFgL6pqhw-bz1lzbNVk,19832
+powergate/user/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+powergate/user/v1/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+powergate/user/v1/user_pb2.py,sha256=jgF4lTueLwkdyVwFJW0LoobhZ7COdIixQ1nYrjdx1ZA,185833
+powergate/user/v1/user_pb2_grpc.py,sha256=mWE-WDerSsWn3fKKjbkkAxPf8dySrciaGQfUau2YoOY,50969
+grpc_powergate_client-2.0.0rc1.dist-info/METADATA,sha256=cIfHTdnZVvFGw_N3aJOR9TDH-nk6rYjMOx-EQWoBUS0,276
+grpc_powergate_client-2.0.0rc1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+grpc_powergate_client-2.0.0rc1.dist-info/top_level.txt,sha256=_IEHzXYBDGvbqncAiluBqREzccu47LPeWxzRNG79NAM,10
+grpc_powergate_client-2.0.0rc1.dist-info/RECORD,,
