@@ -1,0 +1,5 @@
+app_configs
+bodega_bot
+db
+discord_analytics
+libdisc
