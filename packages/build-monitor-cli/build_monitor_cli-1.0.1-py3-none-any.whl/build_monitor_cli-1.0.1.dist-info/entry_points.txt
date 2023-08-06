@@ -1,0 +1,3 @@
+[console_scripts]
+bmonitor = build_monitor_cli:entry
+

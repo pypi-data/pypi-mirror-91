@@ -1,0 +1,10 @@
+build_monitor_cli/__init__.py,sha256=PUc_YJEY4aR11xEcjEVW8y13ixtU3D6KpYdssIE-qOY,22
+build_monitor_cli/build.py,sha256=NZhYISGXppxdSmr3z7fh3Jb0OFeYDFuc-vFNxo4AkLQ,2628
+build_monitor_cli/cli.py,sha256=D2g7ydEQb74KVDpc_OJedYycFGb4iie39pvllxfn6nQ,321
+build_monitor_cli/config.py,sha256=GPvCUIX6OXNg6DIdIWmBbvkfqCgwj1pAi4j8i2A9K5k,1222
+build_monitor_cli/main.py,sha256=eFQgOK5WQD2sWG_hpls9zbdspk5DGJf_JRn7AHEjHSg,4019
+build_monitor_cli-1.0.1.dist-info/METADATA,sha256=PoH-NmpCNIFevUms5yzFATUESgPX8iTA7ZAtoydqG-g,599
+build_monitor_cli-1.0.1.dist-info/WHEEL,sha256=S6zePDbUAjzMmpYOg2cHDxuYFWw7WiOXt6ogM6hIB5Q,92
+build_monitor_cli-1.0.1.dist-info/entry_points.txt,sha256=yUse--3aeNiL3TtL50IQdiYdM2O1TKCGbFEAL-8GZ-g,54
+build_monitor_cli-1.0.1.dist-info/top_level.txt,sha256=Tu532zbF3QLMQHkEldJAITznuuxsz8XT0j9N2WsGguU,18
+build_monitor_cli-1.0.1.dist-info/RECORD,,
