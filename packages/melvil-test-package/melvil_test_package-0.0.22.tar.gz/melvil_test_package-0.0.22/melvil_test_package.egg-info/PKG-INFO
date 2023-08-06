@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: melvil-test-package
+Version: 0.0.22
+Summary: Plays alarm when long script finishes
+Home-page: https://github.com/Tina-Bu/dingpy/
+Author: Melvil James
+Author-email: madapoor@gmailc.com
+License: UNKNOWN
+Description: testing
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
