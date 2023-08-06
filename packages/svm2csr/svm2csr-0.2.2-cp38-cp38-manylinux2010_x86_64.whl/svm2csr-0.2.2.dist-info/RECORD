@@ -1,0 +1,8 @@
+svm2csr-0.2.2.dist-info/METADATA,sha256=Sv2jT8ClswU1jWqoBu98xZfrv2jNpl55FX7yOJQwTjo,389
+svm2csr-0.2.2.dist-info/WHEEL,sha256=UACMo9AvZP7cCeR4BYJNXwkFSfVyZA7evWH7ECWyo-Q,105
+svm2csr/__pycache__/__init__.cpython-37.pyc,sha256=46KlrAlmGRy8PY1MXuOGt1gFsfu7TSb5odVrd-JETyY,226
+svm2csr/__pycache__/load.cpython-37.pyc,sha256=8nvj8pDYE1SBcRl7J_9cdbykxsAlJTjt-_IJ6QtfQVs,1396
+svm2csr/load.py,sha256=ibK6IfTq_4j0hc8GcCnea094sIrgaoqHo23E3AQWVkQ,1367
+svm2csr/__init__.py,sha256=I3lyD9gS0gkO6PPsnDhu4h0jMUmwVaZCyYr_LLB18QE,66
+svm2csr/svm2csr.cpython-38-x86_64-linux-gnu.so,sha256=0IXz8Tq1nPByDY8o3hUkoRYv6RMI0CunMk8N94NmiGw,530776
+svm2csr-0.2.2.dist-info/RECORD,,
