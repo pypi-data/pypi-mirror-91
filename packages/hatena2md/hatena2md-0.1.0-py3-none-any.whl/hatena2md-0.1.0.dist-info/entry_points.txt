@@ -1,0 +1,3 @@
+[console_scripts]
+hatena2md = hatena2md.__main__:main
+
