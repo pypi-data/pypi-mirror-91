@@ -1,0 +1,24 @@
+
+.status {
+    @badge-size: 18px;
+    margin: 4px;
+    display: inline-block;
+    height: @badge-size;
+    vertical-align:  top;
+
+    .connected-icon {
+        width:  @badge-size;
+        height: @badge-size;
+    }
+    .popup {
+        background-color: #555;
+        border: 1px solid #889;
+        font-size: @badge-size - 4px;
+        color: white;
+        padding: 4px;
+        border-radius: 2px;
+        position: absolute;
+        margin: 4px 0px;
+        z-index: 100;
+    }
+}
