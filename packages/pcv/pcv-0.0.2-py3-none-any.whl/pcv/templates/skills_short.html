@@ -1,0 +1,9 @@
+{% extends 'sections/section.html' %}
+{% block content %}
+    {{ super() }}
+
+    <div>
+        {{ data.list|sort_and_join_labels }}
+    </div>
+
+{% endblock %}

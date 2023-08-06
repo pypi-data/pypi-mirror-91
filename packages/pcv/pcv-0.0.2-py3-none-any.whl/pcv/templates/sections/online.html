@@ -1,0 +1,21 @@
+{% extends 'sections/section.html' %}
+{% block content %}
+    {{ super() }}
+
+    <table>
+        {% for item in data.list %}
+            <tr>
+                <td>
+                    {{ item.label }}:
+                </td>
+                <td>
+                    <a href="{{ item.url }}" class="link">{{ item.id }}</a>
+                    {% if item.reputation %}
+                        ({{ item.reputation|kilo }})
+                    {% endif %}
+                </td>
+            </tr>
+        {% endfor %}
+    </table>
+
+{% endblock %}

@@ -1,0 +1,27 @@
+<div class="page page-padding">
+    <div class="title">
+        <h1>Skills and Technologies</h1>
+        <h2>{{ person.name }} ({{ contact.email }})</h2>
+    </div>
+    <div class="flex-columns">
+        {% for label, items in technologies.list|group_by_category %}
+            <div class="flex-half">
+                <div class="label">
+                    {{ label }}
+                </div>
+                <table class="technology">
+                    {% for item in items|sort_by_level_and_priority %}
+                        <tr>
+                            <td class="technology">
+                                {{ item.label }}
+                            </td>
+                            <td class="technology circles">
+                                {{ item.level|as_circles }}
+                            </td>
+                        </tr>
+                    {% endfor %}
+                </table>
+            </div>
+        {% endfor %}
+    </div>
+</div>

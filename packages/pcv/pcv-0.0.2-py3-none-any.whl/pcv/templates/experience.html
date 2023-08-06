@@ -1,0 +1,50 @@
+{% extends 'sections/section.html' %}
+{% block content %}
+    {{ super() }}
+
+    <table>
+        {% for item in data.list|sort_and_group(date_field='end', group_field='organization') %}
+            <tr class="table-row">
+                <td colspan="2" class="organization">
+                    {{ item.organization }}
+                </td>
+            </tr>
+            <tr class="table-row">
+                <td class="period">
+                    {{ item.start|reformat('%Y') }} - {{ item.end|reformat('%Y') }}:
+                </td>
+                <td class="position">
+                    {{ item.position }}
+                </td>
+            </tr>
+            <tr>
+                <td class="column-header">
+
+                </td>
+                <td class="column-data">
+                    Tasks:
+                    <ul>
+                        {% for task in item.tasks %}
+                            <li class="list-item">{{ task }}</li>
+                        {% endfor %}
+                    </ul>
+                </td>
+            </tr>
+            <tr>
+                <td class="column-header">
+
+                </td>
+                <td class="column-data">
+                    Highlights:
+                    <ul>
+                        {% for highlight in item.highlights %}
+                            <li class="list-item">{{ highlight }}</li>
+                        {% endfor %}
+                    </ul>
+                </td>
+            </tr>
+
+        {% endfor %}
+    </table>
+
+{% endblock %}

@@ -1,0 +1,21 @@
+<div class="page page-padding">
+    <div class="title">
+        <h1>{{ publications.label|capitalize }}</h1>
+        <h2>{{ person.name }} ({{ contact.email }})</h2>
+    </div>
+    <ol>
+        {% for item in publications.list %}
+            <li class="publication">
+                <div class="publication-authors">
+                    {{ item.authors }}, {{ item.date|reformat('%Y') }}.
+                </div>
+                <div class="publication-title">
+                    {{ item.title }}.
+                </div>
+                <div class="publication-info">
+                    {{ item.publication }}.
+                </div>
+            </li>
+        {% endfor %}
+    </ol>
+</div>

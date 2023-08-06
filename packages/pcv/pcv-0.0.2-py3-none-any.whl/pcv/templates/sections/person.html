@@ -1,0 +1,34 @@
+{% extends 'sections/section.html' %}
+{% block content %}
+    {{ super() }}
+
+    {% if data.photo %}
+        <div class="image-container">
+            <img class="polaroid" src="static/{{ data.photo }}" alt="photograph of {{ data.name }}">
+        </div>
+
+    {% endif %}
+
+    <table>
+        <tr>
+            <td>
+                <span class="fa fa-user"></span>
+            </td>
+            <td>
+                {{ data.name }}
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <span class="fa fa-birthday-cake"></span>
+            </td>
+            <td>
+                {{ data.birth }}
+            </td>
+        </tr>
+    </table>
+
+
+
+
+{% endblock %}

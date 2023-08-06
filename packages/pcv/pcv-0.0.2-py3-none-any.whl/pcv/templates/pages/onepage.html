@@ -1,0 +1,35 @@
+<div class="page">
+    <div class="flex-container">
+        <div class="left">
+            {% with section_id='person', data=person %}
+                {% include 'sections/person.html' %}
+            {% endwith %}
+            {% with section_id='contact', data=contact %}
+                {% include 'sections/contact.html' %}
+            {% endwith %}
+            {% with section_id='online', data=online %}
+                {% include 'sections/online.html' %}
+            {% endwith %}
+            {% with section_id='languages', data=languages %}
+                {% include 'sections/languages.html' %}
+            {% endwith %}
+            {% with section_id='education', data=education %}
+                {% include 'sections/education.html' %}
+            {% endwith %}
+            {% with section_id='references', data=references %}
+                {% include 'sections/references.html' %}
+            {% endwith %}
+            {% with section_id='skills', data=skills %}
+                {% include 'sections/skills_short.html' %}
+            {% endwith %}
+        </div>
+        <div class="right">
+            {% with section_id='motto', data=person %}
+                {% include 'sections/motto.html' %}
+            {% endwith %}
+            {% with section_id='experience', data=experience %}
+                {% include 'sections/experience.html' %}
+            {% endwith %}
+        </div>
+    </div>
+</div>

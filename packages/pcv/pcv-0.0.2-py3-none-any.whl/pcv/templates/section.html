@@ -1,0 +1,10 @@
+<div class="section" id="{{ section_id }}">
+    {% block content %}
+        {% if data.label %}
+            <div class="label">
+                {{ data.label|capitalize }}
+            </div>
+        {% endif %}
+    {% endblock %}
+</div>
+

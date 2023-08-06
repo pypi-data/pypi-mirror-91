@@ -1,0 +1,119 @@
+{
+  "person": {
+    "name": "",
+    "birth": "",
+    "photo": "",
+    "motto": ""
+  },
+  "contact": {
+    "label": "contact",
+    "telephone": "",
+    "email": "",
+    "street": "",
+    "postal": "",
+    "city": "",
+    "country": ""
+  },
+  "online": {
+    "label": "online",
+    "list": [
+      {
+        "priority": 1,
+        "label": "Stack Overflow",
+        "id": "0000000",
+        "url": "https://stackoverflow.com/users/0000000/yourusername",
+        "image":"https://stackoverflow.com/users/flair/0000000.png"
+      }
+    ]
+  },
+  "languages": {
+    "label": "languages",
+    "scale": 5,
+    "list":[
+      {
+        "priority": 1,
+        "label": "english",
+        "level": 5,
+        "description": "native"
+      }
+    ]
+  },
+  "education": {
+    "label": "education",
+    "list": [
+      {
+        "priority": 1,
+        "date": "1990-12-31",
+        "degree": "",
+        "description": "",
+        "organization": ""
+      }
+    ]
+  },
+  "references": {
+    "label": "references",
+    "list": [
+      {
+        "priority": 1,
+        "name": "",
+        "email": "",
+        "organization": ""
+      }
+    ]
+  },
+  "experience": {
+    "label": "experience",
+    "list": [
+      {
+        "priority": 1,
+        "start": "1996-12-24",
+        "end": "present",
+        "organization": "",
+        "division": "",
+        "position": "",
+        "tasks": [""],
+        "highlights": [""]
+      }
+    ]
+  },
+  "technologies": {
+    "label": "technologies",
+    "scale": 5,
+    "list": [
+      {
+        "priority": 1,
+        "category": "",
+        "label": "",
+        "level": 4
+      }
+    ]
+  },
+  "certification": {
+    "label": "certificates",
+    "list": []
+  },
+  "awards": {
+    "label": "awards",
+    "list": []
+  },
+  "hobbies": {
+    "label": "other interests",
+    "list": []
+  },
+  "bookshelf": {
+    "label": "bookshelf",
+    "list": []
+  },
+  "publications": {
+    "label": "publications",
+    "list": [
+      {
+        "priority": 1,
+        "authors": "",
+        "date": "",
+        "title": "",
+        "publication": ""
+      }
+    ]
+  }
+}

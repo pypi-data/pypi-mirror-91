@@ -1,0 +1,20 @@
+{% extends 'sections/section.html' %}
+{% block content %}
+    {{ super() }}
+
+    <table>
+        {% for item in data.list %}
+            <tr>
+                <td>
+                    {{ item.name }} ({{ item.organization }})
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    {{ item.email }}
+                </td>
+            </tr>
+        {% endfor %}
+    </table>
+
+{% endblock %}

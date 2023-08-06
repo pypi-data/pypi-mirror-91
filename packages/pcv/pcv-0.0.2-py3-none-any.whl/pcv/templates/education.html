@@ -1,0 +1,25 @@
+{% extends 'sections/section.html' %}
+{% block content %}
+    {{ super() }}
+
+    <table>
+        {% for item in data.list|sort_and_group(date_field='date', group_field='organization') %}
+            {% if item.organization %}
+                <tr class="table-row">
+                    <td colspan="2" class="organization">
+                        {{ item.organization }}
+                    </td>
+                </tr>
+            {% endif %}
+            <tr class="table-row">
+                <td>
+                    {{ item.date|reformat('%b %Y') }}
+                </td>
+                <td>
+                    {{ item.degree }} {{ item.description }}
+                </td>
+            </tr>
+        {% endfor %}
+    </table>
+
+{% endblock %}
