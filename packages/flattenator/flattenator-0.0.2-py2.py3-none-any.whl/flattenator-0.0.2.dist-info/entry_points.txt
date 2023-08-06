@@ -1,0 +1,3 @@
+[console_scripts]
+flattenator = flattenator.flattenator:standalone
+

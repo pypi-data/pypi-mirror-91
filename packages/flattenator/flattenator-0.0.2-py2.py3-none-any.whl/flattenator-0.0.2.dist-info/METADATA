@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: flattenator
+Version: 0.0.2
+Summary: Flatten Docker images while preserving metadata
+Home-page: https://github.com/lsst-sqre/flattenator
+Author: Adam Thornton
+Author-email: athornton@lsst.org
+License: MIT
+Keywords: lsst
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: License :: OSI Approved :: MIT License
+Requires-Dist: click
+Provides-Extra: dev
+Requires-Dist: black ; extra == 'dev'
+Requires-Dist: mypy ; extra == 'dev'
+Requires-Dist: pytest ; extra == 'dev'
+
+# Flattenator
+
+Flattenator takes a layered Docker image as input, and replaces it with a
+flattened single-layer image as output, preserving metadata in so far as
+possible.
+
+## Operation
+
+Flattenator must be invoked from a machine with Python 3 (and click)
+installed, and docker must be in the `PATH`.  Further, `docker login`
+must have already been run to allow the running user to push an image.
+
+Flattenator will download the image requested, push that image with the
+tag `exp_{tag}_layered` (so as not to destroy the initial image),
+flatten the image, and then push the flattened image under both the
+original tag and `exp_{tag}_flattened`.
+
+
