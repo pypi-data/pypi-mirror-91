@@ -1,0 +1,12 @@
+README.md
+setup.py
+steam_reviews/__init__.py
+steam_reviews/review_loader.py
+steam_reviews/reviews.py
+steam_reviews.egg-info/PKG-INFO
+steam_reviews.egg-info/SOURCES.txt
+steam_reviews.egg-info/dependency_links.txt
+steam_reviews.egg-info/requires.txt
+steam_reviews.egg-info/top_level.txt
+test/__init__.py
+test/test_reviews.py
