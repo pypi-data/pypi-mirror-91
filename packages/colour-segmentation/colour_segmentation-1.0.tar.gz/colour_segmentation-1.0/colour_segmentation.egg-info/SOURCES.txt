@@ -1,0 +1,10 @@
+MANIFEST.in
+README.md
+setup.py
+colour_segmentation/__init__.py
+colour_segmentation/segmentator.py
+colour_segmentation.egg-info/PKG-INFO
+colour_segmentation.egg-info/SOURCES.txt
+colour_segmentation.egg-info/dependency_links.txt
+colour_segmentation.egg-info/requires.txt
+colour_segmentation.egg-info/top_level.txt
