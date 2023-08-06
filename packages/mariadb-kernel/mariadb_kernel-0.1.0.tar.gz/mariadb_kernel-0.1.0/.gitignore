@@ -1,0 +1,14 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Vim
+*.swp
+*.swo
+
+# Ignore auto-updated version file
+mariadb_kernel/_version.py
