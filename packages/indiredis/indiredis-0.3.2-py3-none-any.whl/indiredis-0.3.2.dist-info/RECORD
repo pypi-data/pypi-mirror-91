@@ -1,0 +1,11 @@
+indiredis/__init__.py,sha256=Ngph_EFgF9EJ2vvGdrn-zsMKRBrVul4Ip2TmK1QPLfw,5293
+indiredis/__main__.py,sha256=A45ljqXqcLdeGG3JC0pJ6ZaBn-8fV8zUP6uGmTI50DQ,3992
+indiredis/webcode/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+indiredis/webcode/blobs.py,sha256=2xQUYJcrrXxeVSzp5NRkmFo4t3nLHCi5P3DVtyi9AL0,1904
+indiredis/webcode/devices.py,sha256=2dX92bCsuBgTf7Vtrt9VVh8aS8VKyWaVH9WoPWTOXLI,51309
+indiredis/webcode/setvalues.py,sha256=Hr7gvDXek28wMIzZKROcZ1Jx2KORA-PijMmhxfNK9Fs,20618
+indiredis-0.3.2.dist-info/LICENSE,sha256=ik0B8iaj_vQmYt2LZtQsy_UKFkepEkfUw-2yYzYg0_8,1056
+indiredis-0.3.2.dist-info/METADATA,sha256=RtG7X1bKfA9pqeYGmtLF63KRbYmJheXmt0W8mbNQWJA,3440
+indiredis-0.3.2.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+indiredis-0.3.2.dist-info/top_level.txt,sha256=2eIprJRlFRAvqy4W2zvf1qfkEpdScyuJs1ZueHRkBQ0,10
+indiredis-0.3.2.dist-info/RECORD,,
