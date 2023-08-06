@@ -1,0 +1,10 @@
+pyfletchgen/lib.cpython-37m-x86_64-linux-gnu.so,sha256=TXFxVX0AdNs0j9fU5EapITVa8uTeRXFuO2BS7sadev4,203424
+pyfletchgen/__init__.py,sha256=3A-Mn_7dHseogdRuTqZ7_IZwc6cB-l3rNQtS08q9npY,715
+pyfletchgen.libs/libfletchgen_lib-5dca68b3.so,sha256=4GHc1ZoDGgusFzvyuzhSu2lvk_Mjh707Yr4VY5NvDxk,5631872
+pyfletchgen.libs/libarrow_python-2b940ba8.so.100,sha256=nY1iF22E--ifw8pZZUz7ha03rg5rtZr38Qv1f9fbJ9s,2898056
+pyfletchgen.libs/libarrow-d927e829.so.100,sha256=NmA3EyMvvpYaL1Aul1wgYyOJtN1KM4eR406RMgZ-F_w,27492792
+pyfletchgen-0.0.18.dist-info/entry_points.txt,sha256=mZLsUPEEzeHjz1_Jya_2MKQJISaf9yFdueBY0e_1uVs,48
+pyfletchgen-0.0.18.dist-info/WHEEL,sha256=cCcIocQWsRcjbZ8DFZU6x3YDrwDcwVuuUbwJVUWc_xU,112
+pyfletchgen-0.0.18.dist-info/top_level.txt,sha256=Wd9YqLaVdtwMLpVhVsrOmooF52Pw0t9cOi7ZlWTAV9I,12
+pyfletchgen-0.0.18.dist-info/RECORD,,
+pyfletchgen-0.0.18.dist-info/METADATA,sha256=BYQsJLo6D6Azjgt6x_Y-KC37OaUjHPjt1xTXuREJNmg,797
