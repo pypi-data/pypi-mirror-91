@@ -1,0 +1,1 @@
+This is Python package for balinese information extraction including NER and POS Tagging. balinese_library requires NLTK and Python 3.x
