@@ -1,0 +1,23 @@
+Metadata-Version: 1.1
+Name: balinese-library
+Version: 0.0.3
+Summary: A very basic balinese library about information extraction in balinese language
+Home-page: UNKNOWN
+Author: Ngurah Agus Sanjaya ER
+Author-email: agus_sanjaya@unud.ac.id
+License: MIT
+Description: This is Python package for balinese information extraction including NER and POS Tagging. balinese_library requires NLTK and Python 3.x
+        
+        Change Log
+        ==========
+        
+        0.0.1 (21/12/2020)
+        -------------------
+        - First Release
+Keywords: Information Extraction,Balinese
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
