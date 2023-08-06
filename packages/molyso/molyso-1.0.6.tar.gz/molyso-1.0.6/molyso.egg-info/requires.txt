@@ -1,0 +1,6 @@
+numpy
+scipy
+matplotlib
+pilyso-io
+tqdm
+jsonpickle
