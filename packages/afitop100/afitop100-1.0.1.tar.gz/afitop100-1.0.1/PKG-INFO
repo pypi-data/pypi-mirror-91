@@ -1,0 +1,22 @@
+Metadata-Version: 1.1
+Name: afitop100
+Version: 1.0.1
+Summary: Get the AFI Top 100 movies of all time in json or csv
+Home-page: https://github.com/aaronhackney/afitop100
+Author: Aaron K. Hackney
+Author-email: aaron_309@yahoo.com
+License: GPL 3.0 https://www.gnu.org/licenses/gpl-3.0.txt
+Download-URL: https://github.com/aaronhackney/afitop100/archive/v1.0.1.tar.gz
+Description: UNKNOWN
+Keywords: afi,top 100,films,movies,all time,american,film,institute
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Topic :: Utilities
+Classifier: License :: OSI Approved :: GNU General Public License (GPL)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
