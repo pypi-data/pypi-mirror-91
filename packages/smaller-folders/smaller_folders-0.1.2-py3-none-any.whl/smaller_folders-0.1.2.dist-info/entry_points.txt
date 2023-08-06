@@ -1,0 +1,3 @@
+[console_scripts]
+smaller_folders=smaller_folders.cli:main
+
