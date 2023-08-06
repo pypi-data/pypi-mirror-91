@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: torch-addons
+Version: 0.0.0
+Summary: Blade is a general automatic inference optimization system.
+Home-page: https://help.aliyun.com/document_detail/145713.html
+Author: Alibaba PAI Team
+Author-email: xiafei.qiuxf@alibaba-inc.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.6
+
+# PAI Blade
+
+Blade is a general automatic inference optimization system.
+
+
+
