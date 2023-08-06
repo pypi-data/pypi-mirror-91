@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: dorado-sensitivity
+Version: 0.1.0
+Summary: Dorado sensitivity and exposure time calculator
+Home-page: https://github.com/dorado-science/dorado-sensitivity
+License: NOSA
+Author: Brad Cenko
+Author-email: brad.cenko@nasa.gov
+Requires-Python: >=3.7,<4.0
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: pyyaml
+Requires-Dist: synphot
+Project-URL: Bug Tracker, https://github.com/dorado-science/dorado-sensitivity/issues
+Project-URL: Change Log, https://github.com/dorado-science/dorado-sensitivity/blob/master/CHANGES.md
+Project-URL: Repository, https://github.com/dorado-science/dorado-sensitivity
