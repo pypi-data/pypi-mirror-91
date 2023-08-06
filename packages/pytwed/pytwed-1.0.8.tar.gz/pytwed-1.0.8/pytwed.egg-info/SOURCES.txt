@@ -1,0 +1,13 @@
+MANIFEST.in
+README.md
+setup.py
+pytwed/__init__.py
+pytwed/fast_twed.c
+pytwed/slow_twed.py
+pytwed/twed.c
+pytwed/twed.h
+pytwed.egg-info/PKG-INFO
+pytwed.egg-info/SOURCES.txt
+pytwed.egg-info/dependency_links.txt
+pytwed.egg-info/top_level.txt
+test/test_pytwed.py
