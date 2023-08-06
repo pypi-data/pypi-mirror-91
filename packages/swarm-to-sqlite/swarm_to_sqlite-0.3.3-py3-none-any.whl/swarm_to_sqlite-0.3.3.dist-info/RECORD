@@ -1,0 +1,9 @@
+swarm_to_sqlite/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+swarm_to_sqlite/cli.py,sha256=n0Y2hOsYF62-RbwZjWnzSnJxEIkjZmrsapT9JcB_w34,2420
+swarm_to_sqlite/utils.py,sha256=q1ERS7BbjI2q38seuUYeqhQAvyA0WiFVN885qBEEgH4,7526
+swarm_to_sqlite-0.3.3.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+swarm_to_sqlite-0.3.3.dist-info/METADATA,sha256=ZxIPgQy2GMZkkdGqCKW1N92PAXjy2JBI4YTvTDrhAWE,3098
+swarm_to_sqlite-0.3.3.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+swarm_to_sqlite-0.3.3.dist-info/entry_points.txt,sha256=auJsNvLHoURzYs2l3mVvyF4VthcuUf6Tvx5XwcKrkoY,79
+swarm_to_sqlite-0.3.3.dist-info/top_level.txt,sha256=hzsgP36gFOjypf7X_sJqDQBvq2ntVwyg0DfK5YWmf5A,16
+swarm_to_sqlite-0.3.3.dist-info/RECORD,,
