@@ -1,0 +1,13 @@
+AntiSpam/AntiSpamHandler.py,sha256=E-92gC0y44d2GpsNlYkkA-3G043Ci84oQ9k9OllMPFI,33615
+AntiSpam/Exceptions.py,sha256=RbYJ-2ZFu1aqnuIu9iQQh7epxwGoqkVrZ5LvDP3nelA,2015
+AntiSpam/Guild.py,sha256=ZBfRx1lNo-KWJAXIG0w8L-q04xGq15RZbIkVS8QZ12g,5501
+AntiSpam/Message.py,sha256=7nK--G659EZsbH59IlN3bJieZRxUD2jGYd0UxktI1YU,6436
+AntiSpam/User.py,sha256=NrslHjV4Q0VVVqQsbYitpZBG7q2frh8UmF11bQHix0o,21933
+AntiSpam/Util.py,sha256=oq6rOjF18XqzzCqmeZvrScJA-b229TgZWJvzILNvFk0,7111
+AntiSpam/__init__.py,sha256=ivfovk9hZRcXa_Y2J5D4tn67Lv_-nimk82yZ9E149dI,1134
+AntiSpam/static.py,sha256=Y-9v33E5Cq8mJYmwIYFbR5oyTDk9fcNxMOixvnn-H3A,2764
+Discord_Anti_Spam-0.5.2.dist-info/LICENSE,sha256=OLVluEim6BHzh63NrY5_iy65VMzPRbB3LYsUqGsIaMA,1085
+Discord_Anti_Spam-0.5.2.dist-info/METADATA,sha256=l7LUuYXvGYg6fSEbKVtZfIg9zOSid-5d7M7jsu4TQjE,3426
+Discord_Anti_Spam-0.5.2.dist-info/WHEEL,sha256=D1Wh14kWDxPnrM-5t_6UCB-UuQNrEODtRa3vF4OsvQY,97
+Discord_Anti_Spam-0.5.2.dist-info/top_level.txt,sha256=402hUv8ClpXUG4fFHJ1RAq2pnmDPFmOOds89T2XUWNw,9
+Discord_Anti_Spam-0.5.2.dist-info/RECORD,,
