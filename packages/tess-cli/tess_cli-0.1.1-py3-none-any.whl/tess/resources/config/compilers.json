@@ -1,0 +1,12 @@
+{
+  "cpp": {
+    "extensions": [".cpp", ".cc"],
+    "compiler": "g++",
+    "flags": ["-pipe", "-O2", "-std=c++14", "-lm"]
+  },
+  "java": {
+    "extensions": [".java"],
+    "compiler": "javac",
+    "flags": ["-encoding", "UTF-8"]
+  }
+}
