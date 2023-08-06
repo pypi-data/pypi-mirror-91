@@ -1,0 +1,4 @@
+
+        [console_scripts]
+        file_upload=commands:file_upload
+    
