@@ -1,0 +1,10 @@
+README.md
+setup.py
+lesting.http.egg-info/PKG-INFO
+lesting.http.egg-info/SOURCES.txt
+lesting.http.egg-info/dependency_links.txt
+lesting.http.egg-info/namespace_packages.txt
+lesting.http.egg-info/not-zip-safe
+lesting.http.egg-info/requires.txt
+lesting.http.egg-info/top_level.txt
+lesting/http/__init__.py
