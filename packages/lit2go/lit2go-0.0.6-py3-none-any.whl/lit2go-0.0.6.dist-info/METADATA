@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: lit2go
+Version: 0.0.6
+Summary: Literacy2 CLI
+Home-page: https://github.com/Literacy2/lit2go
+Author: Fiaz Sami
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: colored
+Requires-Dist: requests
+
+# lit2go
+
+
