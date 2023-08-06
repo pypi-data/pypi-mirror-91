@@ -1,0 +1,58 @@
+Metadata-Version: 2.1
+Name: movieposters
+Version: 0.0.5
+Summary: A simple Python package to get the link a movie's poster given its title.
+Home-page: https://github.com/thomasbreydo/movieposters
+License: GPL-3.0-only
+Author: Thomas Breydo
+Author-email: tbreydo@gmail.com
+Requires-Python: >=3.7,<4.0
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: beautifulsoup4 (>=4.9.0,<5.0.0)
+Requires-Dist: lxml (>=4.5.0,<5.0.0)
+Requires-Dist: urllib3 (>=1.25.9,<2.0.0)
+Project-URL: Repository, https://github.com/thomasbreydo/movieposters
+Description-Content-Type: text/markdown
+
+# movieposters
+
+A simple Python package to get the link a movie's poster given its title.
+
+# Installation
+
+Installation has been made easy with PyPI. Depending on your system, you should either run
+
+```pip install movieposters```
+
+or
+
+```pip3 install movieposters```
+
+to install **movieposters**.
+
+# How to use
+See the example below:
+```python
+>>> import movieposters as mp
+>>> link = mp.get_poster(title='breakfast club')
+>>> link == mp.get_poster(id='tt0088847')  # can also be found using movie's id
+True
+>>> link == mp.get_poster(id=88847)
+True
+```
+```python
+>>> print(link)
+'https://m.media-amazon.com/images/M/MV5BOTM5N2ZmZTMtNjlmOS00YzlkLTk3YjEtNTU1ZmQ5OTdhODZhXkEyXkFqcGdeQXVyMTQxNzMzNDI@._V1_UX182_CR0,0,182,268_AL_.jpg'
+```
+
+## Movies not on IMDb
+If **movieposters** is *unable* to find the title on IMDb a `mp.errors.MovieNotFound` exception will be raised.
+
+## Movies without posters
+If **movieposters** is *able* to find the title on IMDb but can't find its poster a `mp.errors.PosterNotFound` exception will be raised.
