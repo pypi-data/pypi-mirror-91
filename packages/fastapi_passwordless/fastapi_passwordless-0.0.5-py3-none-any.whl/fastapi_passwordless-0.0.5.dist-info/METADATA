@@ -1,0 +1,71 @@
+Metadata-Version: 2.1
+Name: fastapi_passwordless
+Version: 0.0.5
+Summary: Passwordless Auth for FastAPI!
+Home-page: UNKNOWN
+License: UNKNOWN
+Author: Amir Asaad
+Author-email: asaad.amir@icloud.com
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Topic :: Internet :: WWW/HTTP :: HTTP Servers
+Classifier: Intended Audience :: Developers
+Requires-Dist: fastapi >=0.54.0,<0.64.0
+Requires-Dist: mkdocs >=1.1.2,<2.0.0 ; extra == "doc"
+Requires-Dist: mkdocs-material >=6.1.4,<7.0.0 ; extra == "doc"
+Requires-Dist: markdown-include >=0.5.1,<0.6.0 ; extra == "doc"
+Requires-Dist: mkdocs-markdownextradata-plugin >=0.1.7,<0.2.0 ; extra == "doc"
+Requires-Dist: typer-cli >=0.0.9,<0.0.10 ; extra == "doc"
+Requires-Dist: pyyaml >=5.3.1,<6.0.0 ; extra == "doc"
+Requires-Dist: pytest >=5.4.3 ; extra == "test"
+Requires-Dist: pytest-cov >=2.10.0 ; extra == "test"
+Requires-Dist: mypy >=0.790 ; extra == "test"
+Requires-Dist: flake8 >=3.8.3,<4.0.0 ; extra == "test"
+Requires-Dist: black >=20.8b1 ; extra == "test"
+Requires-Dist: isort >=5.0.6,<6.0.0 ; extra == "test"
+Requires-Dist: requests >=2.24.0,<3.0.0 ; extra == "test"
+Requires-Dist: httpx >=0.14.0,<0.15.0 ; extra == "test"
+Provides-Extra: doc
+Provides-Extra: test
+
+# Passwordless Auth for FastAPI
+<p align="center">
+  <img src="https://raw.githubusercontent.com/amirasaad/fastapi-passwordless/main/logo.png?sanitize=true" alt="FastAPI Passwordless">
+</p>
+
+<p align="center">
+    <em>Ready-to-use passwordless auth for FastAPI </em>
+</p>
+
+[![MIT licensed](https://img.shields.io/badge/License-MIT-yellow.svg)](https://raw.githubusercontent.com/amirasaad/fastapi-passwordless/main/LICENSE)
+![Github Status](https://github.com/amirasaad/fastapi-passwordless/workflows/.github/workflows/build.yml/badge.svg)
+[![GitHub stars](https://img.shields.io/github/stars/amirasaad/fastapi-passwordless.svg)](https://github.com/amirasaad/fastapi-passwordless/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/amirasaad/fastapi-passwordless.svg)](https://github.com/amirasaad/fastapi-passwordless/network)
+[![PyPi version](https://pypip.in/v/fastapi_passwordless/badge.png)](https://crate.io/packages/fastapi_passwordless/)
+[![PyPi downloads](https://pypip.in/d/fastapi_passwordless/badge.png)](https://crate.io/packages/fastapi_passwordless/)
+[![codecov](https://codecov.io/gh/amirasaad/fastapi-passwordless/branch/main/graph/badge.svg?token=9OVS4DCUID)](https://codecov.io/gh/amirasaad/fastapi-passwordless)
+
+---
+
+**Documentation**: <a href="https://amirasaad.github.io/fastapi-passwordless/" target="_blank">https://amirasaad.github.io/fastapi-passwordless/</a>
+
+**Source Code**: <a href="https://github.com/amirasaad/fastapi-passwordless" target="_blank">https://github.com/amirasaad/fastapi-passwordless</a>
+
+---
+
+Add quickly a passwordless authentication system to your [FastAPI](https://fastapi.tiangolo.com/) project.
+
+## Features
+* [ ] Authenticate users by email.
+* [ ] Authenticate users by phone.
+* [ ] API key option for developer's API.
+
+## License
+
+This project is licensed under the terms of the MIT license.
