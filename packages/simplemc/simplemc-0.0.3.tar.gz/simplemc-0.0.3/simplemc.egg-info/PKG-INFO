@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: simplemc
+Version: 0.0.3
+Summary: A simple API for the game Minecraft.
+Home-page: https://github.com/elflanded/simplemc
+Author: Elflanded
+Author-email: Elflanded@gmail.com
+License: UNKNOWN
+Description: # SimpleMC
+        A python API for the game Minecraft.
+        
+        
+        
+        **Docs**
+          
+          Coming soon.
+        
+        **Example**
+        ```python
+        import simplemc
+        from simplemc import Users
+        
+        
+        user = Users.check("74a202a4eb21470fb5a63a0c985b0ddc") # Add any UUID.
+        print(user)
+        
+        # Check if a user exists by uuid.
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
