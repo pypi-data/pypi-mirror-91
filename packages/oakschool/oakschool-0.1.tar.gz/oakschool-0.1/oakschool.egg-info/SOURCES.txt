@@ -1,0 +1,9 @@
+README.md
+setup.cfg
+setup.py
+oakschool/__init__.py
+oakschool/studentclass.py
+oakschool.egg-info/PKG-INFO
+oakschool.egg-info/SOURCES.txt
+oakschool.egg-info/dependency_links.txt
+oakschool.egg-info/top_level.txt
