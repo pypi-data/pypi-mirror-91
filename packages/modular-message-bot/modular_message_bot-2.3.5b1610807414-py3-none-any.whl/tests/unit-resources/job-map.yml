@@ -1,0 +1,38 @@
+id: 444d3161-2b8f-40a7-aaf1-6d49e8003075
+schedule:
+  - "0 17 * * *"
+  - "0 9 * * MON-FRI"
+vars:
+  msg_date: A test at {date}
+  msg_weather: Weather is {weather_edi} {weather_license}
+pres:
+  - code: chance
+    parameters:
+      percentage: 90
+inputs:
+  - code: datetime
+    parameters:
+      var: date
+      "format": "Week %W (day %j) - %A %B %x"
+  - code: open_weather_city
+    parameters:
+      query:
+        q: edinburgh,uk
+        appid: a1b2c3
+      jq-vars:
+        weather_edi: ".weather[0].description + \" \" + .weather_by"
+processors:
+  - code: regex
+    parameters:
+      is-match-abort: False
+      match:
+        msg_date: ^A test at
+        msg_weather_slack: weather
+        msg_weather_stdout: weather
+outputs:
+  - code: stdout
+    parameters:
+      message: "{msg_date}"
+  - code: slack
+    parameters:
+      "message": "{msg_weather}"

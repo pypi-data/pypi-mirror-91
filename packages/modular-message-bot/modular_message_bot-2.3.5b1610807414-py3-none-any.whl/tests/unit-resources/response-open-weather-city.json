@@ -1,0 +1,46 @@
+{
+  "coord": {
+    "lon": -3.2,
+    "lat": 55.95
+  },
+  "weather": [
+    {
+      "id": 803,
+      "main": "Clouds",
+      "description": "broken clouds",
+      "icon": "04d"
+    }
+  ],
+  "base": "stations",
+  "main": {
+    "temp": 279.59,
+    "feels_like": 276.37,
+    "temp_min": 278.71,
+    "temp_max": 280.15,
+    "pressure": 996,
+    "humidity": 93
+  },
+  "visibility": 10000,
+  "wind": {
+    "speed": 3.1,
+    "deg": 250
+  },
+  "clouds": {
+    "all": 75
+  },
+  "dt": 1607438406,
+  "sys": {
+    "type": 1,
+    "id": 1442,
+    "country": "GB",
+    "sunrise": 1607416227,
+    "sunset": 1607441974
+  },
+  "timezone": 0,
+  "id": 2650225,
+  "name": "Edinburgh",
+  "cod": 200,
+  "slack_icon": ":cloud:",
+  "weather_by": "Weather by Openweathermap",
+  "weather_by_with_link": "Weather by Openweathermap (openweathermap.org)"
+}

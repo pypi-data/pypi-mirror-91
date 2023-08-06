@@ -1,0 +1,23 @@
+jobs:
+  - id: c313d822-c20f-432e-83f9-4d086d2c329b
+    schedule: '* * * * *' # Every minute
+    vars:
+      msg: "Hello World!!! It's currently {date}\nHope you are having a good day"
+    inputs:
+      - code: datetime
+        parameters:
+          var: date
+          format: '%c'
+    outputs:
+      - code: pushover
+        parameters:
+          token: "$[PUSHOVER_APP_ID]"
+          user: "$[PUSHOVER_GROUP_TEST]"
+          message: "{msg}"
+          device: droid2
+          title: "Direct message from @someuser"
+          url: "twitter://direct_message?screen_name=someuser"
+          url_title: "Reply to @someuser"
+          priority: "1"
+          sound: incoming
+          timestamp: "1331249662"

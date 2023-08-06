@@ -1,0 +1,22 @@
+jobs:
+  # Simple job with datetime inputs that is shifted
+  # - Write the date using multiple schedules
+  - id: c20b1590-0be8-4cc6-845b-72eef3019c1c
+    schedule: '* * * * *'
+    vars:
+      msg: "Hello. It's {date}"
+    inputs:
+      - code: datetime
+        parameters:
+          var: date
+          format: '%c'
+          add:
+            hours: 1
+            minutes: 10
+          sub:
+            days: 2
+            seconds: 50
+    outputs:
+      - code: stdout
+        parameters:
+          message: "{msg}"

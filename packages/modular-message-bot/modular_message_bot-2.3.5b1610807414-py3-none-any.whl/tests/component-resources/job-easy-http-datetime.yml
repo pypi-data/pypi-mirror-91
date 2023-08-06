@@ -1,0 +1,24 @@
+jobs:
+  # Easy http job example
+  # - Send a message to an http(s) address every 5 minutes
+  - id: e1cf1105-defc-4b76-865a-805975dc42e2
+    schedule: '5 * * * *' # Every 5 minutes
+    vars:
+      msg: "Date: {date}"
+    inputs:
+      - code: datetime
+        parameters:
+          var: date
+          format: '%c'
+    outputs:
+      - code: easy_http
+        parameters:
+          url: "https://something.example.com/path/here"
+          method: put
+          ignore-failure: True
+          args:
+            headers:
+              Auth-Token: "${TEST_AUTH_CODE}"
+            json:
+              message: "{msg}"
+              duration: "30000"

@@ -1,0 +1,39 @@
+jobs:
+  # Every 5 minutes check for open MRs on Gitlab and if we have any, report them to Slack, else abort
+  - id: bb215ff9-6f43-445c-839b-1e1034324d1d
+    schedule: '5 * * * *'
+    vars:
+      message: "{date} - you have {pr_count} open Merge Requests(s).\n{pr_details}"
+      number_of_prs: "{pr_count}"
+    inputs:
+      - code: datetime
+        parameters:
+          var: date
+          format: '%c'
+      - code: gitlab_merge_requests
+        parameters:
+          url: https://gitlab.com/api
+          project-ids:
+            - 23648646 # public - 0 pr(s) - https://gitlab.com/mage-sauce/tests/test-merge-requests-0
+            - 23648520 # public - 1 pr(s) - https://gitlab.com/mage-sauce/tests/test-merge-requests-1
+            - 23648575 # public - 2 pr(s) - https://gitlab.com/mage-sauce/tests/test-merge-requests-2
+          request-args:
+            headers:
+              PRIVATE-TOKEN: "$[GITLAB_TOKEN]"
+          jq-vars:
+            pr_count: "length"
+            pr_details: ". | map([.references.full, \" - \", .title, \" - by \", .author.name, \" - \", .web_url] | join(\"\")) | join(\"\n\")"
+    processors:
+      - code: regex_match_one_abort
+        parameters:
+          match:
+            number_of_prs: "0"
+    outputs:
+      - code: slack
+        parameters:
+          url: "$[SLACK_URL]"
+          payload:
+            text: "{message}"
+            channel: "#test"
+            username: "$[SLACK_NAME]"
+            icon_emoji: ":robot_face:"

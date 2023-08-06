@@ -1,0 +1,8 @@
+jobs:
+  # Simple Job
+  - id: ad7e2bc2-6626-4526-b89b-312cef2ea079
+    schedule: '* * * * *' # Every minute
+    outputs:
+      - code: stdout
+        parameters:
+          message: "${FIRST} ${SECOND}!"

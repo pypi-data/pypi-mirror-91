@@ -1,0 +1,9 @@
+config:
+  z: 5
+jobs:
+  - id: ed0af377-078d-4618-81ac-47e9774b4549
+    schedule: '* * * * *'
+    outputs:
+      - code: stdout
+        parameters:
+          message: "Hello World!!!!!"

@@ -1,0 +1,10 @@
+jobs:
+  # Simple Job with a message
+  - id: 2c981856-81b8-4f62-b355-29ca60aa1756
+    schedule: '5 * * * *' # Every 5 minutes
+    vars:
+      msg: "${FIRST} ${SECOND} ${THIRD}"
+    outputs:
+      - code: stdout
+        parameters:
+          message: "{msg}"

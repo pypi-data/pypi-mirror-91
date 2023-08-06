@@ -1,0 +1,21 @@
+jobs:
+  # Slack job example
+  # - Write the datetime in a channel every 5 minutes
+  - id: 843a1372-d4b7-4744-bb28-535ad356e6ee
+    schedule: '5 * * * *' # Every 5 minutes
+    vars:
+      msg: "It's currently {date}\nHope you are having a good day"
+    inputs:
+      - code: datetime
+        parameters:
+          var: date
+          format: '%c'
+    outputs:
+      - code: slack
+        parameters:
+          url: "$[SLACK_URL]"
+          payload:
+            text: "{msg}"
+            channel: "#test"
+            post-as: "$[SLACK_NAME]"
+            icon_emoji: ":information_source:"
