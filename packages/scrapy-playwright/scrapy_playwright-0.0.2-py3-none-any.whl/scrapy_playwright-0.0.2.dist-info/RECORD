@@ -1,0 +1,8 @@
+scrapy_playwright/__init__.py,sha256=QvlVh4JTl3JL7jQAja76yKtT-IvF4631ASjWY1wS6AQ,22
+scrapy_playwright/handler.py,sha256=hY43o24V453ur6rJlzNrksc6Nxvwgtog83Fz4Haw2jo,7728
+scrapy_playwright/page.py,sha256=_kxIuvWHETOt6t5sKTtaSJ0VC-OqtLikdJ8zGBUkaW0,448
+scrapy_playwright-0.0.2.dist-info/LICENSE,sha256=irgaybyKbgi_FWAP_B5YejcPBH0Amj-mtT0O6bmr0A0,1461
+scrapy_playwright-0.0.2.dist-info/METADATA,sha256=Q9XD4q3FLBbWmAdQ85pwuHAiqzPa5AP34IwrAHoLAQc,9511
+scrapy_playwright-0.0.2.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+scrapy_playwright-0.0.2.dist-info/top_level.txt,sha256=fqJFEe3cmLk5KUhETnjsNoEZl72tM_BEOWWjNHPJNRA,18
+scrapy_playwright-0.0.2.dist-info/RECORD,,
