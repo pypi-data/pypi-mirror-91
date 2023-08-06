@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: preusx-django-admin-extensions
+Version: 0.1.0
+Summary: Utilities and extensions for django administration panel.
+Home-page: UNKNOWN
+Author: Alex Tkachenko
+Author-email: preusx@gmail.com
+License: MIT License
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Programming Language :: Python :: 3
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Utilities
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Provides-Extra: contrib
+Requires-Dist: django-admin-rangefilter (==0.6.3) ; extra == 'contrib'
+Requires-Dist: django-admin-numeric-filter (==0.1.6) ; extra == 'contrib'
+Requires-Dist: django-admin-easy (==0.6) ; extra == 'contrib'
+Requires-Dist: django-better-admin-arrayfield (==1.4.2) ; extra == 'contrib'
+Provides-Extra: dev
+Requires-Dist: django (==3.1.5) ; extra == 'dev'
+Provides-Extra: docs
+Requires-Dist: mkdocs (==1.1.2) ; extra == 'docs'
+Requires-Dist: mkdocstrings (==0.14.0) ; extra == 'docs'
+Requires-Dist: mkdocs-material (==6.2.4) ; extra == 'docs'
+
+# Django admin extensions
+
+Utilities and extensions for django administration panel
+
+Docs here: [https://preusx.gitlab.io/django-admin-extensions](https://preusx.gitlab.io/django-admin-extensions)
+
+
