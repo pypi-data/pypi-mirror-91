@@ -1,0 +1,1 @@
+(self.webpackChunk_deathbeds_wxyz_svg=self.webpackChunk_deathbeds_wxyz_svg||[]).push([[568],{139:(s,e,d)=>{"use strict";d.d(e,{A:()=>a,q:()=>u});const t=JSON.parse('{"u2":"@deathbeds/wxyz-svg","i8":"0.5.0"}'),a=t.u2,u=t.i8},568:(s,e,d)=>{"use strict";d.r(e),d.d(e,{NAME:()=>t.A,VERSION:()=>t.q});var t=d(139)}}]);
