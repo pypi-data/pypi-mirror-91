@@ -1,0 +1,8 @@
+README.md
+setup.py
+idessem/__init__.py
+idessem.egg-info/PKG-INFO
+idessem.egg-info/SOURCES.txt
+idessem.egg-info/dependency_links.txt
+idessem.egg-info/requires.txt
+idessem.egg-info/top_level.txt
