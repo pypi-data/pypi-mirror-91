@@ -1,0 +1,11 @@
+README.md
+setup.cfg
+setup.py
+ofk_gaussian/Gaussiandistribution.py
+ofk_gaussian/Generaldistribution.py
+ofk_gaussian/__init__.py
+ofk_gaussian.egg-info/PKG-INFO
+ofk_gaussian.egg-info/SOURCES.txt
+ofk_gaussian.egg-info/dependency_links.txt
+ofk_gaussian.egg-info/not-zip-safe
+ofk_gaussian.egg-info/top_level.txt
