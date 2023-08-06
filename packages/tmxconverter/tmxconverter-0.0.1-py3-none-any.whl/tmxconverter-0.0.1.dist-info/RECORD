@@ -1,0 +1,10 @@
+tmxconverter/__init__.py,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+tmxconverter/convert.py,sha256=y60jn7HMnynPDA4wMMReaNGoXmbuZqquMykE3r4765Y,3228
+tmxconverter/save2files.py,sha256=7v_5rLgHw3yS3uTVsQUL-3CInlF6aHnLxNlnUWoF3ik,328
+tmxconverter/save2hdb.py,sha256=KGlwgRe2Hh8cAKRlK6dny3GVAIzCa8Q8shHS022VehY,763
+tmxconverter-0.0.1.dist-info/LICENSE,sha256=7BvX5JvsI8MCvX0lw63FnIyY7Ie6XmG-oLyAS0Io2PY,1064
+tmxconverter-0.0.1.dist-info/METADATA,sha256=cIFgAIXninJcvGvUNMiBbPK9wma-3d1jp2o4pglilhA,2976
+tmxconverter-0.0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+tmxconverter-0.0.1.dist-info/entry_points.txt,sha256=4RXFUGucN0p2xbKiYW1wnYtw2mYau1x4tTwo4BGbkFE,65
+tmxconverter-0.0.1.dist-info/top_level.txt,sha256=dEjIKEXVhgfSIJk6lQj0M9srgjGBdArJeahyfPn-rUI,13
+tmxconverter-0.0.1.dist-info/RECORD,,
