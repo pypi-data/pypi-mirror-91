@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.cfg
+setup.py
+DBSKR.egg-info/PKG-INFO
+DBSKR.egg-info/SOURCES.txt
+DBSKR.egg-info/dependency_links.txt
+DBSKR.egg-info/requires.txt
+DBSKR.egg-info/top_level.txt
+DBSkr/__init__.py
+DBSkr/client.py
+DBSkr/errors.py
+DBSkr/http.py
+DBSkr/model.py
