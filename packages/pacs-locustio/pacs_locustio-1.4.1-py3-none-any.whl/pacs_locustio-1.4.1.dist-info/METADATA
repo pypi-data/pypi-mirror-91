@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: pacs-locustio
+Version: 1.4.1
+Summary: Website load testing framework
+Home-page: https://github.com/pacslab/pacs_locust
+Author: Jonatan Heyman, Carl Bystrom, Joakim Hamrén, Hugo Heyman
+Author-email: 
+License: MIT
+Project-URL: Documentation, https://docs.locust.io/
+Project-URL: Code, https://github.com/locustio/locust
+Project-URL: Help/Questions, https://stackoverflow.com/questions/tagged/locust
+Project-URL: Issue tracker, https://github.com/locustio/locust/issues
+Platform: UNKNOWN
+Classifier: Topic :: Software Development :: Testing :: Traffic Generation
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: gevent (>=20.9.0)
+Requires-Dist: flask (>=1.1.2)
+Requires-Dist: Werkzeug (>=1.0.1)
+Requires-Dist: requests (>=2.9.1)
+Requires-Dist: msgpack (>=0.6.2)
+Requires-Dist: pyzmq (>=16.0.2)
+Requires-Dist: geventhttpclient (>=1.4.4)
+Requires-Dist: ConfigArgParse (>=1.0)
+Requires-Dist: psutil (>=5.6.7)
+Requires-Dist: Flask-BasicAuth (>=0.2.0)
+Requires-Dist: pywin32 ; sys_platform == 'win32'
+
+pacs Locust is a python utility for doing easy, distributed load testing of a web site
+
+
