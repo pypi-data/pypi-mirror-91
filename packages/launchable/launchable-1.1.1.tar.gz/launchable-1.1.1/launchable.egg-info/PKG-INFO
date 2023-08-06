@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: launchable
+Version: 1.1.1
+Summary: Launchable CLI
+Home-page: https://launchableinc.com/
+Author: Launchable, Inc.
+Author-email: info@launchableinc.com
+License: Apache Software License v2
+Description: # Usage
+        
+        See https://docs.launchableinc.com/cli-reference and https://docs.launchableinc.com/getting-started.
+        
+        # How to release
+        
+        Create new release on Github, then Github Actions automatically uploads the module to PyPI.
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.4
+Description-Content-Type: text/markdown
