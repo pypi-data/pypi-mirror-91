@@ -1,0 +1,10 @@
+jsonpath_ng
+ply
+python-dateutil
+python-io-wrapper>=0.2
+requests>=2.11
+requests_cache
+setuptools
+unidecode
+wheel
+xlrd3
