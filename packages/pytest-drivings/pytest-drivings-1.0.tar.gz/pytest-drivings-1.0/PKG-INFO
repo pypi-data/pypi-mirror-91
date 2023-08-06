@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: pytest-drivings
+Version: 1.0
+Summary: Tool to allow webdriver automation to be ran locally or remotely
+Author: Jonah Caruso
+Author-email: jayc035@yahoo.com
+Requires-Python: >=3.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Dist: black (>=19.3b0,<20.0)
+Requires-Dist: deprecation (>=2.0.7,<3.0.0)
+Requires-Dist: mypy (>=0.720,<0.721)
+Requires-Dist: paramiko (>=2.7.1,<3.0.0)
+Requires-Dist: psutil (>=5.6.7,<6.0.0)
+Requires-Dist: pytest-xdist (>=1.31.0,<2.0.0)
+Requires-Dist: selenium (>=3.141.0,<4.0.0)
+Requires-Dist: selenium-requests (>=1.3,<2.0)
