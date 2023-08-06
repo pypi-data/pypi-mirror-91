@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+djangocms_headings/__init__.py
+djangocms_headings/cms_plugins.py
+djangocms_headings/models.py
+djangocms_headings.egg-info/PKG-INFO
+djangocms_headings.egg-info/SOURCES.txt
+djangocms_headings.egg-info/dependency_links.txt
+djangocms_headings.egg-info/requires.txt
+djangocms_headings.egg-info/top_level.txt
+djangocms_headings/migrations/0001_initial.py
+djangocms_headings/migrations/__init__.py
+djangocms_headings/templates/djangocms_headings/heading.html
