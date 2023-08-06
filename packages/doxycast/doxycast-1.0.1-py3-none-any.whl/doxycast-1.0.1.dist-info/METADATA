@@ -1,0 +1,70 @@
+Metadata-Version: 2.1
+Name: doxycast
+Version: 1.0.1
+Summary: Generate reStructuredText documentations from your C++ sources
+Home-page: https://gitlab.com/pypp/doxycast
+Author: Akib Azmain
+Author-email: akib8492@gmail.com
+License: GNU Lesser General Public License v3 or later (LGPLv3+)
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 or later (LGPLv3+)
+Classifier: Framework :: Sphinx
+Classifier: Framework :: Sphinx :: Extension
+Classifier: Intended Audience :: Developers
+Classifier: Development Status :: 4 - Beta
+Classifier: Operating System :: Unix
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Topic :: Documentation
+Classifier: Topic :: Documentation :: Sphinx
+Classifier: Topic :: Software Development :: Documentation
+Description-Content-Type: text/x-rst
+Requires-Dist: sphinx
+Provides-Extra: default_writer
+Requires-Dist: breathe ; extra == 'default_writer'
+
+DoxyCast
+========
+
+.. image:: https://img.shields.io/badge/license-GPLv3-informational
+    :alt: License GPLv3
+
+DoxyCast is a documentation generator that helps you to generate beautiful
+documentations from the comments you have written in your source code.
+
+DoxyCast reads the XML output from Doxygen and generates reStructuredText
+sources, which are parsed by Sphinx to generate the documentations.
+
+
+Installation
+------------
+
+To install DoxyCast, execute the following command::
+
+    pip install doxycast
+
+
+Getting Started
+---------------
+
+Before getting started, make sure you have Doxygen and Sphinx installed. Then
+add the following to your ``conf.py``::
+
+    doxycast_config = {
+        "projects": {
+            "xml_dir": "path/to/xml",
+            "output_dir": "path/to/output",
+            "execute_doxygen": True,
+            "doxycast_config":
+                "INPUT = path/to/sources\n"
+                # Other Doxygen options
+
+            # "writer": your_custom_writer # Optional, default ``doxycast.writers.default``
+        }
+    }
+
+Note: if you are using the default writer (not using any custom writer), you
+also need to install Breathe.
+
+
