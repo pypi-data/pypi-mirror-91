@@ -1,0 +1,12 @@
+django_email_verification/__init__.py,sha256=KJSbmIGkJOoNqaWlqAfG3TOWeMAA_0vZ30iGaO0_qwA,45
+django_email_verification/apps.py,sha256=UITOGlnKafie9yMxrLKougeu4qXBPAqC6zS2CmuDz-U,117
+django_email_verification/confirm.py,sha256=8nlX8OafdKM66JYufXBBagcWi9O0sY0pF6cQK0BDg4k,4649
+django_email_verification/errors.py,sha256=MhPZP2pA8Aiy29_a3YfBXn58KkRlOi1csiF4msESU2I,276
+django_email_verification/token.py,sha256=_i9D9072SpfF1Nqug61JnK-HPYUiMlOQMztRdUYqo0Y,3933
+django_email_verification/urls.py,sha256=Wh3VI1Q24xJhUWEf45ysg_dXrCuoa1ZdncXtcrueqSo,124
+django_email_verification/views.py,sha256=OgmtrQf6zUA1xm00EblVDyOO3tEGOaRyOyivmwwaFeQ,431
+django_email_verification-0.0.9.post1.dist-info/LICENSE,sha256=vKYiYjlydxIM3pfj9Yjo2UptwyH6ixfYuedVsV140Ic,1067
+django_email_verification-0.0.9.post1.dist-info/METADATA,sha256=Lr5wGFjsOe2vBefoPRf8YsTyICLGI_5JG_eJ5alNsik,5740
+django_email_verification-0.0.9.post1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+django_email_verification-0.0.9.post1.dist-info/top_level.txt,sha256=_QN_gEAPVa5Hq1BuIwYqhyjuVTh3hSHrWPWg4Ip9qds,26
+django_email_verification-0.0.9.post1.dist-info/RECORD,,
