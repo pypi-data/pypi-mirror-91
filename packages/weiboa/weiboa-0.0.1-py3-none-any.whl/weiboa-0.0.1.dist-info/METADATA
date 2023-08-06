@@ -1,0 +1,132 @@
+Metadata-Version: 2.1
+Name: weiboa
+Version: 0.0.1
+Summary: 采集微博某话题所有微博，某条微博所有评论 https://github.com/thunderhit/weiboa
+Home-page: https://github.com/thunderhit/weiboa
+Author: 大邓
+Author-email: thunderhit@qq.com
+License: MIT
+Keywords: data collect,数据采集,微博,weibo
+Platform: UNKNOWN
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+
+## 一、简介
+
+```
+采集微博数据
+```
+
+- github地址https://github.com/thunderhit/weiboa
+-  pypi地址 https://pypi.org/project/weiboa
+
+
+
+weiboa功能(打钩的为目前实现的功能)：
+
+- [x] 采集微博某话题对应的所有微博信息
+- [x] 数据保存输出为csv文件
+- [ ] 采集某条微博对应的所有评论信息
+- [x] 
+
+
+
+**使用演示视频**
+
+- 待更新B站视频
+
+## 二、安装
+
+```
+pip install weiboa
+```
+
+## 三、功能说明
+
+## get_topics函数
+
+获取微博某topic的所有相关微博内容信息
+
+```
+get_topics(topic, maxpage, cookies, csvf, startpage=1, encoding='utf-8')
+- topic: 微博话题。比如#华为#，那么topic='华为'
+- maxpage: 某微博话题最大页码数
+- cookies: 自己微博的cookies，需要自己在浏览器先登录微博。之后F12开发者工具打开开发者工具network面板查找对应的cookies
+- csvf:  csv文件路径；保存数据到csv中
+- startpage: 抓微博话题时默认从第一页开始抓。一般不设置该参数，除非爬虫爬了一部分遇到问题后， 再次启动爬虫时设置startpage参数，避免重复采集
+- encoding: csv文件编码方式，默认用utf-8 (推荐); 也可以更改为gbk
+```
+
+
+
+## 四、快速入门
+
+> 一定要先获得cookies后才能使用下面的所有代码，这里先直接看代码使用情况，cookies获取可见文档    
+
+
+
+以**拼多多回应解约发帖员工**为例, 获取该话题相关微博信息
+
+
+
+```
+https://s.weibo.com/hot?q=拼多多回应解约发帖员工&page=1
+
+根据页面获得相关参数
+topic='拼多多回应解约发帖员工'
+maxpage=46
+csvf='拼多多回应解约发帖员工.csv'
+```
+
+topic
+
+```python
+from weiboa import get_topics
+#换成自己的微博cookies啊
+cookies = {'Cookie': '换成自己的微博cookies'}
+#设置相关参数
+get_topics(topic='拼多多回应解约发帖员工', maxpage=46, cookies=cookies, csvf='data.csv')
+```
+
+
+
+## 五、获取cookies
+
+一定要先获得cookies后才能使用所有的代码，获取方法
+
+1. 浏览器访问http://www.sse.com.cn/disclosure/overview/
+2. 按F12（mac按option+command+I)打开开发者工具的Network
+3. 刷新网页，耐心寻找与www.sse.com.cn有关的任意网址，找到cookies
+
+![](img/cookies.gif)
+
+## 如果
+
+如果您是经管人文社科专业背景，编程小白，面临海量文本数据采集和处理分析艰巨任务，个人建议学习[《python网络爬虫与文本数据分析》](https://ke.qq.com/course/482241?tuin=163164df)视频课。作为文科生，一样也是从两眼一抹黑开始，这门课程是用五年时间凝缩出来的。自认为讲的很通俗易懂o(*￣︶￣*)o，
+
+- python入门
+- 网络爬虫
+- 数据读取
+- 文本分析入门
+- 机器学习与文本分析
+- 文本分析在经管研究中的应用
+
+感兴趣的童鞋不妨 戳一下[《python网络爬虫与文本数据分析》](https://ke.qq.com/course/482241?tuin=163164df)进来看看~
+
+
+
+## 更多
+
+- [B站:大邓和他的python](https://space.bilibili.com/122592901/channel/detail?cid=66008)
+
+- 公众号：大邓和他的python
+
+- [知乎专栏：数据科学家](https://zhuanlan.zhihu.com/dadeng)
+
+  ​    
+
+## 支持一下
+
+![](img/my_zanshang_qrcode.jpg)
+
