@@ -1,0 +1,8 @@
+custom_colormaps/__init__.py,sha256=fA0mLwwIltm04JpRXXucRSbH748WX6g0IOt8nFqbk6c,137
+custom_colormaps/colordata/cmapdata.toml,sha256=qkbIzUzbbSSlGZChEIbeNnSDfB6667GSScHQELAQjCQ,34985
+custom_colormaps/main.py,sha256=JkG6Tew5VkygREVhSDn3dP0vuOm9F_7h4iOWm_yCNn4,843
+custom_colormaps/return_colormap.py,sha256=f1MmJawEgbDrZZ9HO22t_t2qSj5ZO_aIiFyLm5mgLpU,1291
+custom_colormaps-0.3.4.dist-info/LICENSE,sha256=eQWvS3Vul_4JNkCXO2AN8gwluerlZ_eDETOoZzRsvaI,1067
+custom_colormaps-0.3.4.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+custom_colormaps-0.3.4.dist-info/METADATA,sha256=szIXIP1mOHGvEG3HL4XEq6Ezox0di2qJ4cI9qKNTNCM,1639
+custom_colormaps-0.3.4.dist-info/RECORD,,
