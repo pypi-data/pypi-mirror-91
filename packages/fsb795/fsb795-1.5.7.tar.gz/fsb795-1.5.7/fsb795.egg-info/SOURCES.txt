@@ -1,0 +1,8 @@
+README.txt
+fsb795.py
+setup.py
+fsb795.egg-info/PKG-INFO
+fsb795.egg-info/SOURCES.txt
+fsb795.egg-info/dependency_links.txt
+fsb795.egg-info/requires.txt
+fsb795.egg-info/top_level.txt
