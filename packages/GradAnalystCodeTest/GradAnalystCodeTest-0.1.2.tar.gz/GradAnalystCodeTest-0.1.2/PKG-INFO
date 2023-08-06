@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: GradAnalystCodeTest
+Version: 0.1.2
+Summary: GradAnalystCodeTest is a python cli application that take a CSV file as a command argument with various options and manipulates data in various forms
+Home-page: UNKNOWN
+Author: Omar Jarkas
+Author-email: omarbjarkas@gmail.com
+License: MIT
+Description: The is a simple python cli application that enables the manipulation of cvs file depending on the choice of the user
+        
+        python .\setup.py sdist
+        twine upload --repository-url https://upload.pypi.org/legacy/ .\dist\GradAnalystCodeTest-0.0.1.tar.gz
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
