@@ -1,0 +1,15 @@
+README.md
+setup.py
+bcpyaz/__init__.py
+bcpyaz/binary_callers.py
+bcpyaz/data_objects.py
+bcpyaz/format_file_builder.py
+bcpyaz/tmp_file.py
+bcpyaz.egg-info/PKG-INFO
+bcpyaz.egg-info/SOURCES.txt
+bcpyaz.egg-info/dependency_links.txt
+bcpyaz.egg-info/top_level.txt
+tests/__init__.py
+tests/test_basic.py
+tests/test_flat_file.py
+tests/test_pandas.py
