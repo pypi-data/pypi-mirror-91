@@ -1,0 +1,17 @@
+anon/__init__.py,sha256=0256TjEIddwfp7iOxbvFI2A1A_GNJcehiSyM7aFEx64,426
+anon/comp.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+anon/conf.py,sha256=d2xpaTO0AStp5cVN0SX_3HRGHt33mYYu-kikBbflCM8,220
+anon/misc.py,sha256=uFM5XSaVoOex8D-KXaxJLSsHZjMgcoQXuCAn1ls5uXE,13023
+anon/poly.py,sha256=GPucnJWMEqBR4r39aKls7smi1e94MgGhRT-u67Yu6Fs,1701
+anon/quad.py,sha256=DRQDP_QTidNwlYjZm3eGRKm0xKNp06HEM3pcdK45nV8,19742
+anon/atom/__init__.py,sha256=GFr2Av0tpNCynwGAC060lvIKEXWGYbC6Ndu0U1pL5Oc,195
+anon/core/__init__.py,sha256=B5Wzr5sUNHHUqrR6V_G0RiCzUJMlUNzwFcYppy0UG1A,2730
+anon/core/interfaces.py,sha256=0O2Cy9hN1VIDajBqzhl67asULZyCmi5z8crBL91FnHc,51862
+anon/diff/__init__.py,sha256=FZix98Zu4ZKsOzLQeIxbh7yfuPssa16hV6pXPuwmKQY,70
+anon/diff/autograd.py,sha256=rqUtJyMLicobcyhmr74TepjmUQAEmlazKT3vjV_n3aA,6
+anon/diff/jaxapi.py,sha256=kd7cZjDQ63CkbZM-86thdH7UesA2V7tehK2B6D6j6ig,1505
+anon/dual/__init__.py,sha256=YvNWCStta5uSadxBsu4h41qqRvFESLRyS7MqeVQQUfY,3535
+anon-0.0.0.dist-info/METADATA,sha256=sQUI6I1WWSlu2Au6umL1BYa15yMCsw1rrWkPPBAgXhU,3276
+anon-0.0.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+anon-0.0.0.dist-info/top_level.txt,sha256=Fgky3_9lInxz_f2q0cQgsS0oeItP63dpv0cvFEs1r7A,5
+anon-0.0.0.dist-info/RECORD,,
