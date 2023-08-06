@@ -1,0 +1,11 @@
+MANIFEST.in
+setup.cfg
+setup.py
+versioneer.py
+FunctionLimiter/_version.py
+Function_Limiter.egg-info/PKG-INFO
+Function_Limiter.egg-info/SOURCES.txt
+Function_Limiter.egg-info/dependency_links.txt
+Function_Limiter.egg-info/not-zip-safe
+Function_Limiter.egg-info/requires.txt
+Function_Limiter.egg-info/top_level.txt
