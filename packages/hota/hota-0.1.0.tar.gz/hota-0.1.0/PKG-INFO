@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: hota
+Version: 0.1.0
+Summary: HTML Over The Air. Transporting HTML through WebSocket. Inspired by Hotwire.
+Home-page: https://github.com/serviper/hota
+License: Apache Software License
+Author: NCPlayz
+Author-email: chowdhurynadir0@outlook.com
+Requires-Python: >=3.7
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Framework :: AsyncIO
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: License :: Other/Proprietary License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: aiofiles (>=0.6.0,<0.7.0)
+Requires-Dist: lxml (>=4.6.2,<5.0.0)
+Requires-Dist: starlette (>=0.14.1,<0.15.0)
+Requires-Dist: uvicorn[standard] (>=0.13.3,<0.14.0)
+Project-URL: Repository, https://github.com/serviper/hota
+Description-Content-Type: text/markdown
+
+# HTML Over The Air
+
