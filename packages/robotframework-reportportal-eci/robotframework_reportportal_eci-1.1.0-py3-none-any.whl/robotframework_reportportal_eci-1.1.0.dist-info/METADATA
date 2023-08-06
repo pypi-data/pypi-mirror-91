@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: robotframework-reportportal-eci
+Version: 1.1.0
+Summary: Listener for RobotFramework reporting to ReportPortal
+Home-page: https://github.com/reportportal/agent-Python-RobotFramework
+Author: Artsiom Tkachou
+Author-email: SupportEPMC-TSTReportPortal@epam.com
+License: UNKNOWN
+Download-URL: https://github.com/reportportal/agent-Python-RobotFramework/tarball/1.1.0
+Keywords: testing,reporting,robot framework,reportportal
+Platform: UNKNOWN
+Requires-Dist: reportportal-client-eci (==1.2.3)
+Requires-Dist: six
+
+UNKNOWN
+
+
