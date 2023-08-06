@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: tileputty
+Version: 0.2.5
+Summary: Tool to upload a tile cache to AWS S3
+Home-page: https://github.com/wri/tileputty
+Author: Thomas Maschler
+Author-email: thomas.maschler@wri.org
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Dist: boto3 (~=1.14.55)
+Requires-Dist: click (~=7.1.2)
+Requires-Dist: parallelpipe (~=0.2.6)
+
+UNKNOWN
+
+
