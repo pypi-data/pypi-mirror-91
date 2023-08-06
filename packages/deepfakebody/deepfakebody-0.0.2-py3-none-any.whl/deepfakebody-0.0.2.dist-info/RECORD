@@ -1,0 +1,12 @@
+deepfakebody/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+deepfakebody/cardiovascular/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+deepfakebody/cardiovascular/deepfakeecg/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+deepfakebody/cardiovascular/deepfakeecg/deepfakeecg.py,sha256=KCZ_LWVLm_ageuWiV6fvOZge82evHoTV7nQmQXnuNMs,1056
+deepfakebody/cardiovascular/deepfakeecg/checkpoints/g_stat.pt,sha256=Z2YZyzuB7WN-Xvk_q9WRIg0Ee8T14Zn_zpMKOv-wXLo,42371528
+deepfakebody/cardiovascular/deepfakeecg/models/__init__.py,sha256=Wbk5oOIloGN6A5MZ_zSflTVjxsvnvClxIWae40thKAI,125
+deepfakebody/cardiovascular/deepfakeecg/models/pulse2pulse.py,sha256=qIf2ItjHY37PZCkUu_-7zy3EC09q8snF3MWtfIQB6hw,10383
+deepfakebody-0.0.2.dist-info/LICENSE,sha256=SHWsukGUKVeyAMEJn7_P_nhgOCHPRYvcr9ckjXEOM_A,1074
+deepfakebody-0.0.2.dist-info/METADATA,sha256=7XYJAfbpE_xg7ptZTP4qe42ilStrUTaeEmGuhC6zGi0,784
+deepfakebody-0.0.2.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+deepfakebody-0.0.2.dist-info/top_level.txt,sha256=a1u0I3tgA_FJA2SWD-7ejWBCkfV5M_qrOe3tCi9T1oE,13
+deepfakebody-0.0.2.dist-info/RECORD,,
