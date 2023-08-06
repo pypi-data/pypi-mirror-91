@@ -1,0 +1,79 @@
+Metadata-Version: 2.1
+Name: fastidious2
+Version: 0.1.1
+Summary: The best PEG parser generator I write (so far)
+Home-page: https://gitlab.com/lisael/fastidious2
+Author: Bruno Dupuis
+Author-email: bdupuis@lisael.org
+License: GNU General Public License v3
+Keywords: fastidious2
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.5
+
+===========
+fastidious2
+===========
+
+
+.. image:: https://img.shields.io/pypi/v/fastidious2.svg
+        :target: https://pypi.python.org/pypi/fastidious2
+
+.. image:: https://gitlab.com/lisael/fastidious2/badges/master/pipeline.svg
+        :target: https://gitlab.com/lisael/fastidious2/-/pipelines
+
+.. image:: https://gitlab.com/lisael/fastidious2/badges/master/coverage.svg
+        :target: https://gitlab.com/lisael/fastidious2/-/pipelines
+
+.. image:: https://readthedocs.org/projects/fastidious2/badge/?version=latest
+        :target: https://fastidious2.readthedocs.io/en/latest/?badge=latest
+        :alt: Documentation Status
+
+
+
+
+The best PEG parser generator I write (so far)
+
+
+* Free software: GNU General Public License v3
+* Documentation: https://fastidious2.readthedocs.io.
+
+
+Features
+--------
+
+* TODO
+
+Credits
+-------
+
+This package was created with Cookiecutter_ and the `audreyr/cookiecutter-pypackage`_ project template.
+
+.. _Cookiecutter: https://github.com/audreyr/cookiecutter
+.. _`audreyr/cookiecutter-pypackage`: https://github.com/audreyr/cookiecutter-pypackage
+
+
+=======
+History
+=======
+
+0.1.1 (2021-01-16)
+------------------
+
+* Package metadata fixes
+* [Doc] github -> gitlab
+
+0.1.0 (2021-01-14)
+------------------
+
+* First release on PyPI.
+
+
