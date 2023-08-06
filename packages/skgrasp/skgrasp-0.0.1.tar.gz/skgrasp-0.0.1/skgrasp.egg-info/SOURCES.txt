@@ -1,0 +1,11 @@
+MANIFEST.in
+README.md
+requirements.txt
+setup.cfg
+setup.py
+skgrasp/__init__.py
+skgrasp.egg-info/PKG-INFO
+skgrasp.egg-info/SOURCES.txt
+skgrasp.egg-info/dependency_links.txt
+skgrasp.egg-info/not-zip-safe
+skgrasp.egg-info/top_level.txt
