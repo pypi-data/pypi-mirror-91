@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: streamlit-jina
+Version: 0.1.2
+Summary: Streamlit component for Jina neural search
+Home-page: https://github.com/jina-ai/streamlit-jina
+Author: Alex Cureton-Griffiths
+Author-email: alex.cg@jina.ai
+License: UNKNOWN
+Download-URL: https://github.com/jina-ai/streamlit-jina/tags
+Description: Streamlit component for Jina neural search
+Keywords: jina cloud-native neural-search query search index elastic neural-network encoding embedding serving docker container image video audio deep-learning streamlit frontend
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Unix Shell
+Classifier: Environment :: Console
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Database :: Database Engines/Servers
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Internet :: WWW/HTTP :: Indexing/Search
+Classifier: Topic :: Scientific/Engineering :: Image Recognition
+Classifier: Topic :: Multimedia :: Video
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >3.6
+Description-Content-Type: text/plain
