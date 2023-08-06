@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: sentry_bigquery
+Version: 0.2.0
+Summary: Plugin for Sentry which allows data forward to BigQuery
+Home-page: https://gitlab.murka.com/sentry/sentry-bigquery
+Author: Vitalii Sukach
+Author-email: vitalij.sukach@murka.com
+License: MIT
+Description: # Sentry BigQuery plugin
+        
+        Plugin for Sentry which forward data to [BigQuery](https://cloud.google.com/bigquery).
+        
+        
+        ## Installation
+        
+        
+        1. Install this package
+        
+        ```bash
+        pip install sentry-bigquery
+        ```
+        2. Restart your Sentry instance.
+        3. Go to your Sentry web interface. Open ``Settings`` page of one of your projects.
+        4. On ``Integrations`` (or ``Legacy Integrations``) page, find ``BigQuery`` plugin and enable it.
+        5. Configure plugin on ``Configure plugin`` page.
+        6. Done!
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
