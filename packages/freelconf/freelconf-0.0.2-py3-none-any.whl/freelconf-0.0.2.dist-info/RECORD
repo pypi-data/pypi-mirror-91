@@ -1,0 +1,11 @@
+examples/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+examples/main.py,sha256=f5ZEqJxt3Yack7rKCD-kIbdZoa3cnT2LpFk4Jci2cqI,142
+freelconf/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+freelconf/parser.py,sha256=nEYPuSZl4p7qCU7VhBfliqPt2ZzdZ5sU4iTUn__GKD4,5325
+freelconf/utils.py,sha256=Ogy0FsfEnTxwDQde-nk86f1n1pffgLfZZl-m9GoyyVQ,1333
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+freelconf-0.0.2.dist-info/LICENCE,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+freelconf-0.0.2.dist-info/METADATA,sha256=EzKxsVvEHtjmS6-GYT6OxeUgwqy1adIjNGnmhq0LVoQ,474
+freelconf-0.0.2.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+freelconf-0.0.2.dist-info/top_level.txt,sha256=7JC3be77ZxxTCpSRp3rOtpbEferuV27RSGm8lkByUcU,25
+freelconf-0.0.2.dist-info/RECORD,,
