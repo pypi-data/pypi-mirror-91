@@ -1,0 +1,9 @@
+ghost_wordpack-0.1.1.dist-info/DESCRIPTION.rst,sha256=kPB2RSnDMjGgxR23s4h02KN9jwCNXAb3ftW5GteCH0I,33
+ghost_wordpack-0.1.1.dist-info/METADATA,sha256=dBkDMJ2rwBzL--dkYTUheQ05Wq2rLToZuB3gyovUh5w,474
+ghost_wordpack-0.1.1.dist-info/RECORD,,
+ghost_wordpack-0.1.1.dist-info/WHEEL,sha256=8Lm45v9gcYRm70DrgFGVe4WsUtUMi1_0Tso1hqPGMjA,92
+ghost_wordpack-0.1.1.dist-info/metadata.json,sha256=K_nundgQ-1qPt5sX54KKRCGqXlLSOmV_oYtM_NiYKao,605
+ghost_wordpack-0.1.1.dist-info/top_level.txt,sha256=4zx9F93SI2PzQOHS3Eb3ybhpmBubhZVZYKXrnudVzjU,3
+wp/__init__.py,sha256=hxwyTtWa8boiMqoWBHSo_3DKhQEi9RtWoDVYS-nhHto,27
+wp/get_words.py,sha256=NGqIzaQWGFxqludKseBZcOErMV-4c_dREikUUbBojrU,165
+wp/words.py,sha256=0hSS4Y-H_DvWFCGqxnVFMSB1uzi74OzJXHMGNHHl9n4,784
