@@ -1,0 +1,11 @@
+tincan
+jsonfield2
+event-tracking
+django-fernet-fields
+python-dateutil
+requests
+isodate
+pytz
+Django>=1.11
+edx-toggles
+django-config-models
