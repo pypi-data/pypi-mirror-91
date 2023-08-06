@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: mythos
+Version: 2021.1.15.0
+Summary: Placeholder for all mythos packages.
+Home-page: UNKNOWN
+Author: Jaroslaw Wojtas
+License: MIT
+Project-URL: homepage, https://github.com/theyarek/mythos
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: Software Development
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: click (<8.0.0,>=7.0.0)
+
+Mythos
+======
+
+Description
+-----------
+
+Placeholder for all mythos packages.
+
+
