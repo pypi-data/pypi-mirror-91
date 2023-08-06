@@ -1,0 +1,16 @@
+numpsy/__init__.py,sha256=SvNmdq3p9uBYEtnMrVyZQeW4JgCbOn3jd3ZXzzUjql8,141
+numpsy/configuration.py,sha256=rxYfK6_RtM-tOKewBklAF1C_Uxme_M44lfUoRwnpjok,63
+numpsy/constants.py,sha256=z7j603aojMBjY7khMJR2CJ-Ri57qQY9JF9QBTQt4bP8,896
+numpsy/core.py,sha256=P6NNkP7DcWk8R1_esYqgzcG9XRchPv5Nkz6_17D-Ysc,13679
+numpsy/functions.py,sha256=vdSj-EFtVpQCBZSuM8kNoUy456EZAwwRSjHMWHJw4Co,1543
+numpsy/helpers.py,sha256=hGphK0WeRIGugP-mLyMS9BDfS09FAGnkRu9xU2LthFQ,5035
+numpsy/units.py,sha256=hOD2GeCWNd61AHXTNnIXPENk7EeZiZowC3K5vRyXOGY,698
+numpsy/core/__init__.py,sha256=siKsa5JmLBXpjYwnTh74T2EgC-LL87ucq7bICml0LiE,64
+numpsy/core/core.py,sha256=wu5jTA4WXk5W97XdsAwVUsKNzgF190PBpidbaTmoeKA,15519
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_full.py,sha256=Nk8hR62Bwv_0Th7mmk3EI8-JQbslccUVvkXH9uZRn1Y,32
+numpsy-0.0.3.dist-info/LICENSE,sha256=NHML7i6_h9OyuKD6KQ_JcxnSGIekuQP7WC7zO8wAkWE,1087
+numpsy-0.0.3.dist-info/METADATA,sha256=feIB5A44IUj6WSsTls7ZB4XgnURU2M2NaI4Axh1xqPs,3367
+numpsy-0.0.3.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+numpsy-0.0.3.dist-info/top_level.txt,sha256=zX9gy4pIKkFXkg4ZwjMlSJ6vh8QosTrU6u7O4QV59oQ,7
+numpsy-0.0.3.dist-info/RECORD,,
