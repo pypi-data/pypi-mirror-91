@@ -1,0 +1,8 @@
+setup.py
+cgtools/AdobePhotoshop.py
+cgtools/Autodesk3dsmax.py
+cgtools/Finder.py
+cgtools.egg-info/PKG-INFO
+cgtools.egg-info/SOURCES.txt
+cgtools.egg-info/dependency_links.txt
+cgtools.egg-info/top_level.txt
