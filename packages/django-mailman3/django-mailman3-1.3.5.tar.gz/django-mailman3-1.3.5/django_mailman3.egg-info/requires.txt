@@ -1,0 +1,5 @@
+Django<3.2,>=2.0
+django-allauth
+django-gravatar2>=1.0.6
+mailmanclient>=3.3.2
+pytz

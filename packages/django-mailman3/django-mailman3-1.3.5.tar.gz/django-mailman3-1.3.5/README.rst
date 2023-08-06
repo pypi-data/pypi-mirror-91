@@ -1,0 +1,47 @@
+==============================
+Django library for Mailman UIs
+==============================
+
+This package contains libraries and templates for Django-based interfaces
+interacting with Mailman.
+
+To use this application, add ``django_mailman3`` to the ``INSTALLED_APPS`` list
+in your Django server's settings file.
+
+
+NEWS
+====
+
+1.3.5 (2021-01-15)
+------------------
+* Add a new method get_django_user to return Django User model. (See !99)
+* Add ``delete_archives`` field to ``mailinglist_deleted`` Signal.
+* Replaced deprecated ``ugettexy_lazy`` with ``gettext_lazy``. (Closes #37)
+
+
+1.3.4 (2020-06-05)
+------------------
+* Fix a bug caused by bumping to Mailman API 3.1 in version 1.3.3 which
+  resulted in 404 errors for some users. (Closes #35)
+
+
+1.3.3 (2020-06-01)
+------------------
+
+- Hide "Account Connections" tab in accounts if no social account providers are
+  installed. (See !54)
+- Use bold font for form labels (See !82)
+- Update a user's preferred_address in Mailman Core when a user updates their
+  primary address in Profile. (Closes #32)
+- Use Mailman's API version 3.1 to get Hex UUIDs instead of integer.
+- Caught a LookupError when scrubbing an attachment with an unknown charset.
+  (Closes #12)
+- Properly scrub the content of message/rfc822 parts.  (Closes #34)
+
+License
+=======
+
+Django-mailman is licensed under the
+`GPL v3.0 <http://www.gnu.org/licenses/gpl-3.0.html>`_
+
+Copyright (C) 2017-2020 by the Free Software Foundation, Inc.
