@@ -1,0 +1,36 @@
+Metadata-Version: 1.1
+Name: vdevapi
+Version: 0.0.3
+Summary: An API, that can do a lots of cool things.
+Home-page: UNKNOWN
+Author: Michael Ďalog
+Author-email: michaelvertexxdalog@gmail.com
+License: MIT
+Description: This is an API, that can do a lots of cool things.
+        
+        If you want API Key, contact me on:
+        
+        - Email: michaelvertexxdalog@gmail.com
+        - Discord: VERTEXX#5068
+        
+        Change Log
+        ==========
+        
+        0.0.3 (12/1/2020)
+        -----------------
+        - Fixed the API error handler (Please, use POST not GET exceptions were happening)
+        
+        0.0.2 (11/1/2020)
+        -----------------
+        - Added handling for API errors (like invalid API key)
+        
+        0.0.1 (10/01/2020)
+        ------------------
+        - First release
+Keywords: api
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3

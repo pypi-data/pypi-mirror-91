@@ -1,0 +1,14 @@
+Change Log
+==========
+
+0.0.3 (12/1/2020)
+-----------------
+- Fixed the API error handler (Please, use POST not GET exceptions were happening)
+
+0.0.2 (11/1/2020)
+-----------------
+- Added handling for API errors (like invalid API key)
+
+0.0.1 (10/01/2020)
+------------------
+- First release
