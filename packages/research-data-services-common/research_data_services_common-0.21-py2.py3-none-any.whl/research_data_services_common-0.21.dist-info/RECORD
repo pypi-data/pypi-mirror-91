@@ -1,0 +1,12 @@
+RDS/Informations.py,sha256=6jhUCw1FddKz4rmlI57AqX1dvZkZ3XcgfPeUbQ6QSe4,141
+RDS/Service.py,sha256=_GxIMqWty7XbSktbqMbTa3czd3TrGmZGtUAA68mAKaE,10707
+RDS/ServiceException.py,sha256=Wc3twjmbeX_b5Qj4cy4zvKZr6MOgS85zQnhjDItoFzQ,3594
+RDS/Token.py,sha256=bsANhQr-mRFkba2nYiOWNqCqFusVXC3Ti3HtgPZY4SI,6066
+RDS/User.py,sha256=s_xY-XikdsLXwb9sv4_TjXxGpULxXThZlJnMtzkHHmg,2109
+RDS/Util.py,sha256=tAEzLN1ZyaV1IMNOraShofIknKlxLt5YNDTLYSY-eIg,5451
+RDS/__init__.py,sha256=GXLu2A3iDMgjme898kJbYp_cJzuCQC8Ebl7WVtxyt_c,502
+research_data_services_common-0.21.dist-info/LICENSE,sha256=HxOm90UWGUjD7vZ75F627vkcy2ypMWaBluYpaAzpllM,1067
+research_data_services_common-0.21.dist-info/METADATA,sha256=SNiza3gDT5hGTbjLort-NkfSXgQq0kVLC8T9gAkjlaE,4443
+research_data_services_common-0.21.dist-info/WHEEL,sha256=Z-nyYpwrcSqxfdux5Mbn_DQ525iP7J2DG3JgGvOYyTQ,110
+research_data_services_common-0.21.dist-info/top_level.txt,sha256=Qjk565tbVJd5J2152zij52hIWQmu-qRS6hz5GZ8Y47U,4
+research_data_services_common-0.21.dist-info/RECORD,,
