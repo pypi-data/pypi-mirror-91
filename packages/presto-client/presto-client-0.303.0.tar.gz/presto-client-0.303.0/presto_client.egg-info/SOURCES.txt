@@ -1,0 +1,9 @@
+README.md
+setup.cfg
+setup.py
+presto/__init__.py
+presto_client.egg-info/PKG-INFO
+presto_client.egg-info/SOURCES.txt
+presto_client.egg-info/dependency_links.txt
+presto_client.egg-info/requires.txt
+presto_client.egg-info/top_level.txt
