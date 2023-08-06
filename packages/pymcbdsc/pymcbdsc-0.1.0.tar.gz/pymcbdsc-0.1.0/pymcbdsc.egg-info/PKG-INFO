@@ -1,0 +1,69 @@
+Metadata-Version: 2.1
+Name: pymcbdsc
+Version: 0.1.0
+Summary: This project provides very easier setup and management for Minecraft Bedrock Dedicated Server.
+Home-page: https://github.com/ktooi/pymcbdsc
+Author: Kodai Tooi
+Author-email: your-email@example.com
+License: UNKNOWN
+Description: # pymcbdsc
+        
+        Pymcbdsc(Python Minecraft Bedrock Dedicated Server Container Manager (長い...)) は、 [Bedrock Dedicated Server](https://www.minecraft.net/en-us/download/server/bedrock) (以下、 BDS)を手間をかけずに構築・運用する為のスクリプト及び Python モジュールです。
+        
+        Minecraft Bedrock Edition は不定期に新バージョンがリリースされ、多くの場合は Minecraft (クライアント) が自動的にバージョンアップされます。
+        Minecraft Bedrock Edition の新バージョンリリースに伴い、 BDS の新バージョンもリリースされますが、残念なことにこちらを自動バージョンアップする手段は用意されていません。
+        
+        Pymcbdsc では、この不便を解消するために BDS を自動バージョンアップする手段を提供します。
+        
+        Pymcbdsc には次の特徴があります。
+        
+        *   BDS を自動バージョンアップできる。
+        *   コンテナ技術を用いることで、環境を汚さずに BDS を構築できる。
+        *   複数の BDS を管理でき、必要に応じてそれぞれのバージョンを固定できる。
+        
+        ## Getting Started
+        
+        ### Prerequisites
+        
+        Docker (Windows の場合は [Docker Desktop for Windows](https://hub.docker.com/editions/community/docker-ce-desktop-windows)) がインストールされ、動作している必要があります。
+        
+        ### Installing
+        
+        1.  Pymcbdsc をインストールします。
+        
+            ```
+            pip install pymcbdsc
+            ```
+        1.  ディレクトリ(フォルダ)やファイルを配置します。
+        
+            ```
+            python -m pymcbdsc install
+            ```
+            または
+        
+            ```
+            mcbdsc install
+            ```
+        
+        ## Authors
+        
+        *   **Kodai Tooi** [GitHub](https://github.com/ktooi), [Qiita](https://qiita.com/ktooi)
+        
+        ## License
+        
+        This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
+        
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Development Status :: 1 - Planning
+Classifier: Programming Language :: Python
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: POSIX
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3 :: Only
+Description-Content-Type: text/markdown
