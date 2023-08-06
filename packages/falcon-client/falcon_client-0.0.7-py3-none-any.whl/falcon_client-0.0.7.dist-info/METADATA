@@ -1,0 +1,134 @@
+Metadata-Version: 2.1
+Name: falcon-client
+Version: 0.0.7
+Summary: A python client to interact with CrowdStrike Falcon API.
+Home-page: https://github.com/vavarachen/CSFalcon-Client.git
+Author: vavarachen
+Author-email: vavarachen@gmail.com
+License: MIT License
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: Microsoft
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Software Development :: User Interfaces
+Description-Content-Type: text/markdown
+Requires-Dist: requests (<3.0.0,>=2.6.0)
+Requires-Dist: requests
+
+# CSFalcon-Client
+Python API client wrapper for CrowdStrike Falcon Query API.
+
+# Features
+- Retrieve prevention policy details
+- Search for falcon agents
+- Retrieve falcon agent details
+- Contain host (RTR)
+
+# References
+- [CrowdStrike Falcon Swagger UI](https://assets.falcon.crowdstrike.com/support/api/swagger.html#/oauth2/oauth2AccessToken)
+- [Falcon oAuth2 Token API](https://falcon.crowdstrike.com/support/documentation/93/oauth2-auth-token-apis)
+- [CrowdStrike OAuth2-Based APIs](https://falcon.crowdstrike.com/support/documentation/46/crowdstrike-oauth2-based-apis)
+- [Host and host group management APIs](https://falcon.crowdstrike.com/support/documentation/84/host-and-host-group-management-apis)
+- [Detection and Prevention Policy APIs](https://falcon.crowdstrike.com/support/documentation/85/detection-and-prevention-policies-apis)
+- [Real Time Response APIs](https://falcon.crowdstrike.com/support/documentation/90/real-time-response-apis)
+
+# Install
+```shell script
+pip install falcon-client
+```
+
+# Configuration file
+```ini
+[falcon]
+client_id = 4uxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+client_key = bAt1xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
+# HTTP Interception Proxy
+;proxy_host = localhost
+;proxy_port = 8080
+```
+
+# Examples
+## Initialize client
+```python
+try:
+    # default config ~/.crowdstrike/csfalcon.ini
+    fc = falcon_client.FalconClient()
+    # fc = falcon_client.FalconClient(config_file_path='~/csfalcon.ini')
+    # fc = FalconClient.basic(client_id='',
+    #                         client_key='',
+    #                         proxy_host='localhost', proxy_port=8080)
+except Exception as err:
+    sys.exit(err)
+else:
+    fc.login()
+    print(fc)
+```
+
+## Retrieve prevention policy details
+```python
+# POLICY DETAILS
+print("Prevention Policies")
+for result in fc.prevention_policies_details(ids=None):
+    print(json.dumps(result, indent=2))
+```
+
+## Device Scroll
+Search for hosts in your environment by platform, hostname, IP, and other criteria with continuous pagination capability (based on offset pointer which expires after 2 minutes with no maximum limit)
+```python
+print("DEVICE SCROLL")
+hosts_resp = fc.device_scroll(limit=10, fql_filter='platform_name: "Linux" +first_seen: >= "2020-12-11T00:00:00Z"')
+for host in hosts_resp:
+    print(json.dumps(host, indent=2))
+```
+
+## Device Search
+Search for hosts in your environment by platform, hostname, IP, and other criteria.
+
+Device Search supports the same options as Device Scroll. The only difference between Device Search and Device Scroll is their pagination and response limit:
+- Device Search: Standard pagination (page number, page size) up to 150,000 devices
+- Device Scroll: Continuous pagination (based on an offset pointer) with no maximum limit
+```python
+print("DEVICE SEARCH")
+hosts_resp = fc.device_search(limit=10, fql_filter='platform_name: "Windows"',  q="dubai")
+# hosts_resp = fc.device_search(limit=10, q="rooster")
+for host in hosts_resp:
+    print(json.dumps(host, indent=2))
+```
+
+## Device Details
+Get details on one or more hosts by providing agent IDs (AID).
+```python
+# find host AIDs
+hosts_resp = fc.device_search(limit=10, q="rooster")
+aids = set()
+for host in hosts_resp:
+    aids.update(host)
+
+# Get details for each AID
+host_details = fc.device_details(aids)
+for host in host_details:
+    print(json.dumps(host, indent=2))
+```
+
+## Device Containment
+Contain or lift containment on a specified host. When contained, a host can only communicate with the CrowdStrike cloud and any IPs specified in your containment policy.
+```python
+# DEVICE CONTAINMENT
+aids = set(['7983795a198d40xxxxxxxxxx418aa385', 'fb8456dfe15xxxxxxxxxxxc9893e1a06'])
+print("DEVICE CONTAINMENT")
+for hosts in fc.device_details(list(aids)):
+    for host in hosts:
+        print(json.dumps(host['hostname'], indent=2))
+success, fail, err = fc.lift_containment(list(aids))
+print(f"Success: {success}")
+print(f"Failure: {fail}")
+print(f"Errors: {err}")
+```
+
