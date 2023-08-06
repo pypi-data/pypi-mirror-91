@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: parcode
+Version: 1.0.0
+Summary: Python Barcode Generator
+Home-page: https://github.com/hiel/parcode
+Author: hiel
+Author-email: yangjunghooon@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Multimedia :: Graphics
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Provides-Extra: images
+Requires-Dist: pillow ; extra == 'images'
+
+UNKNOWN
+
+
