@@ -1,0 +1,50 @@
+Metadata-Version: 2.1
+Name: pandas-to-sql
+Version: 0.0.546
+Summary: Convert pandas dataframe manipulations to sql query string
+Home-page: https://github.com/AmirPupko/pandas-to-sql
+Author: Amir
+Author-email: amirpupko@gmail.com
+License: UNKNOWN
+Description: # pandas-to-sql
+        
+        ## intro
+        Convert [pandas DataFrame](https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.DataFrame.html) manipulations to sql query string.
+        
+        
+        ![Tests](https://github.com/AmirPupko/pandas-to-sql/workflows/Tests/badge.svg)
+        
+        ![Publish to PyPI](https://github.com/AmirPupko/pandas-to-sql/workflows/Publish%20to%20PyPI/badge.svg)
+        
+        ###
+        Here is an [Example Notebook](https://colab.research.google.com/drive/1A9_JWUVLYuIAVY3naynutMLqjxLKA03L?usp=sharing) 
+          
+         
+        ## Installation
+        `pip install pandas-to=sql`
+        
+        
+        ## Development
+        
+        ### run example
+        `python example_runner.py`
+        
+        ### tests
+        `pytest ./pandas_to_sql`
+        
+        ### environment
+        `conda env create -f environment.yml --prefix ./env`
+        `conda activate ./env`
+        `conda env update --prefix ./env -f environment.yml`
+        `conda remove --prefix ./env --all`
+        
+        ### new release
+        `python setup.py sdist bdist_wheel`
+        `python -m twine upload --repository pypi --skip-existing dist/*`
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
