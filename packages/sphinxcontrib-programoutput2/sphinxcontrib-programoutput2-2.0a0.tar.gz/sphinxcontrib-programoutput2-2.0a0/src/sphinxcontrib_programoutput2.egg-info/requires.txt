@@ -1,0 +1,5 @@
+Sphinx>=1.7.0
+
+[test]
+mock
+pytest
