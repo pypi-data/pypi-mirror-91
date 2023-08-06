@@ -1,0 +1,12 @@
+README.md
+setup.py
+brightidcli/__init__.py
+brightidcli/main.py
+brightidcli.egg-info/PKG-INFO
+brightidcli.egg-info/SOURCES.txt
+brightidcli.egg-info/dependency_links.txt
+brightidcli.egg-info/entry_points.txt
+brightidcli.egg-info/requires.txt
+brightidcli.egg-info/top_level.txt
+brightidcli/commands/__init__.py
+brightidcli/commands/admin.py
