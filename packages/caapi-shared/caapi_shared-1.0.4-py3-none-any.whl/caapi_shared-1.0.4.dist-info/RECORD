@@ -1,0 +1,5 @@
+caapi_shared/schemas.py,sha256=wR7ceplFNk4uSbVkR3VEJ13H2pRLhmbaaL7yfT6KYzw,2998
+caapi_shared/utils.py,sha256=H6hcmfocwF4Pb2lH7cyP7qrxt6Dh9gJJhoFBa2qVVVc,1354
+caapi_shared-1.0.4.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+caapi_shared-1.0.4.dist-info/METADATA,sha256=xWK0RVFCIHfKajuRuOxaxRjaGy5P1AzL6imM8aZODqU,432
+caapi_shared-1.0.4.dist-info/RECORD,,
