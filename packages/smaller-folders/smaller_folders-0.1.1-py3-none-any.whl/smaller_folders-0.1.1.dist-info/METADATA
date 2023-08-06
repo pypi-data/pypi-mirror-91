@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: smaller-folders
+Version: 0.1.1
+Summary: Split an arbitrary number of files into sub-folders containing a specified number of files each.
+License: MIT
+Author: Aatif Syed
+Author-email: aatif@aatifsyed.uk
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: more-itertools (>=8.6.0,<9.0.0)
+Requires-Dist: natsort (>=7.1.0,<8.0.0)
+Description-Content-Type: text/markdown
+
+# Smaller Folders
+Split an arbitrary number of files into sub-folders containing a specified number of files each.
+
+Turning
+```
+folder
+├── file001
+│   ...
+└── file100
+```
+into
+```
+folder
+├── sub_folder001
+│   ├── file001
+│   │   ...
+│   └── file010
+├── sub_folder002
+│   ...
+```
+
