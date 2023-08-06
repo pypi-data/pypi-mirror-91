@@ -1,0 +1,2 @@
+wxyz_core<0.6,>=0.5
+pyld
