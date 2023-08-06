@@ -1,0 +1,8 @@
+README.md
+setup.py
+micro1/__init__.py
+micro1/service1.py
+micro1.egg-info/PKG-INFO
+micro1.egg-info/SOURCES.txt
+micro1.egg-info/dependency_links.txt
+micro1.egg-info/top_level.txt
