@@ -1,0 +1,14 @@
+pymusicxml/__init__.py,sha256=TEZ8-kAZ2Nx9nnoS75dbzutdJyzWJUjskdlfMcuj3J4,2974
+pymusicxml/_utilities.py,sha256=WWxybqb2GOhLBtuvcdoUfcXSC75FQoQZrDX7rKfJBTk,3767
+pymusicxml/directions.py,sha256=mrWEg72dKFcqgQmaCCVy3OhsmCpZ1_lPB7aZIH3OgwU,4700
+pymusicxml/enums.py,sha256=71EgfUYntW_LPJ_GhSH1dBJrmC6tWjEVt2u5ynnLq48,1881
+pymusicxml/music_xml_objects.py,sha256=xxy6ALqJbsQRLpoB2VGXWP7r-oc76k_ciwGVOJBGNA8,92611
+pymusicxml/notations.py,sha256=ypPIT0d-uyARAYZdNM3G7JrkEN0Vq_yfBzRfCYotFQQ,9788
+pymusicxml/score_components.py,sha256=iaQZ02-QKxzZCG7waPOskkPKc-iJC-sijbshgsbgBIE,90122
+pymusicxml/spanners.py,sha256=I6Q3xI6ejyArCRNSjatgu8fB5hIGxOkCf5OK7RVeIn0,20048
+pymusicxml/utilities.py,sha256=NABQaf6ztErKNBLLDJSr7-Y2qGjcmdNLfhQ8vpgnwqQ,1275
+pymusicxml-0.5.dist-info/LICENSE,sha256=jOtLnuWt7d5Hsx6XXB2QxzrSe2sWWh3NgMfFRetluQM,35147
+pymusicxml-0.5.dist-info/METADATA,sha256=SMzzTeO1cpyhcyGhUs0Ki3cV3gSeIlpeMsuIsZkm79g,839
+pymusicxml-0.5.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+pymusicxml-0.5.dist-info/top_level.txt,sha256=Ykt-p0mZHHwVqyG4txe4wfb7hsqZFkQdCsNaQ3VCLYU,11
+pymusicxml-0.5.dist-info/RECORD,,
