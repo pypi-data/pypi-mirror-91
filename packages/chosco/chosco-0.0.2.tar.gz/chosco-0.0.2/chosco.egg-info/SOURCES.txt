@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+chosco/VERSION
+chosco/__init__.py
+chosco.egg-info/PKG-INFO
+chosco.egg-info/SOURCES.txt
+chosco.egg-info/dependency_links.txt
+chosco.egg-info/not-zip-safe
+chosco.egg-info/requires.txt
+chosco.egg-info/top_level.txt
+requirements/requirements.txt
