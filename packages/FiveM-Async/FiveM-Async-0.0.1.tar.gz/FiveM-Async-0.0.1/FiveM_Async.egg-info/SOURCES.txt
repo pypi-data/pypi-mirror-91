@@ -1,0 +1,6 @@
+README.md
+setup.py
+FiveM_Async.egg-info/PKG-INFO
+FiveM_Async.egg-info/SOURCES.txt
+FiveM_Async.egg-info/dependency_links.txt
+FiveM_Async.egg-info/top_level.txt
