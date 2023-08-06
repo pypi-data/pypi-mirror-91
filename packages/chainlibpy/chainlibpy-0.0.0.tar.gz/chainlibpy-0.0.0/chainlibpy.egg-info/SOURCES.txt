@@ -1,0 +1,9 @@
+LICENSE
+MANIFEST.in
+NOTICE
+setup.cfg
+setup.py
+chainlibpy.egg-info/PKG-INFO
+chainlibpy.egg-info/SOURCES.txt
+chainlibpy.egg-info/dependency_links.txt
+chainlibpy.egg-info/top_level.txt

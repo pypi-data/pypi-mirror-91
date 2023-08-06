@@ -1,0 +1,25 @@
+Metadata-Version: 1.2
+Name: chainlibpy
+Version: 0.0.0
+Summary: Tools for Crypto.com wallet management and offline transaction signing
+Home-page: https://github.com/crypto-com/chainlibpy
+Author: Linfeng.Yuan
+Author-email: linfeng@crypto.com
+License: UNKNOWN
+Project-URL: Bug Reports, https://github.com/crypto-com/chainlibpy/issues
+Project-URL: Funding, https://donate.pypi.org
+Project-URL: Say Thanks!, https://github.com/hukkinj1/cosmospy
+Project-URL: Source, https://github.com/crypto-com/chainlibpy
+Description: UNKNOWN
+Keywords: CRO,blockchain,signature,crypto.com
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3 :: Only
+Requires-Python: >=3.6, <4
