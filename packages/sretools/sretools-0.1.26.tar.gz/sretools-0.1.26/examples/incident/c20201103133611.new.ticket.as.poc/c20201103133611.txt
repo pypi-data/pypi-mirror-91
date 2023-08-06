@@ -1,0 +1,84 @@
+# (c20201103133611) new ticket as poc
+
+Create_time :
+    2020-11-03 13:36:11
+OncallOps : 
+    Yonghang
+Status : 
+    Resolved
+Impact : 
+    xx server
+RootCause : 
+    storage
+DurationOfProblem : 
+    5H
+ServiceImpacted : 
+    database
+%Impacted : 
+    100%
+UserImpact : 
+    all user
+RevenueImpact : 
+    unknown
+HowToRepeat : 
+    xx xx xxx
+Resolution : 
+    a,bc,xyz
+References : 
+    n/a
+LessonLearned : 
+    blabla
+ActionItem : 
+    blabla
+KeywordsForSearch : 
+    storage,blktrace
+
+
+# timeline   : 
+
+  update_time    brief                       detail
+ -------------- --------------------------- ------------------------------------------------------------------------------------------------------
+  2020-11-03     attach from vi              [yonghang@x200 sretools]$ ls -l
+  13:37                                      total 16
+                                             drwxrwxr-x. 2 yonghang yonghang   36 Nov  3 13:29 dist
+                                             drwxrwxr-x. 2 yonghang yonghang   29 Nov  3 13:18 examples
+                                             -rw-rw-r--. 1 yonghang yonghang 1087 Nov  3 11:51 LICENSE
+                                             -rw-rw-r--. 1 yonghang yonghang   37 Nov  3 11:51 README.md
+                                             -rw-rw-r--. 1 yonghang yonghang 1160 Nov  3 13:29 setup.py
+                                             drwxrwxr-x. 2 yonghang yonghang  114 Nov  3 13:28 sretools
+                                             drwxrwxr-x. 2 yonghang yonghang  134 Nov  3 13:03 sretools.egg-info
+                                             -rwxrwxr-x. 1 yonghang yonghang  252 Nov  3 11:51 upload2pypi
+
+
+  2020-11-03     attach a file               root:x:0:0:root:/root:/bin/bash
+  13:37                                      bin:x:1:1:bin:/bin:/sbin/nologin
+                                             daemon:x:2:2:daemon:/sbin:/sbin/nologin
+                                             adm:x:3:4:adm:/var/adm:/sbin/nologin
+                                             lp:x:4:7:lp:/var/spool/lpd:/sbin/nologin
+                                             sync:x:5:0:sync:/sbin:/bin/sync
+                                             shutdown:x:6:0:shutdown:/sbin:/sbin/shutdown
+                                             halt:x:7:0:halt:/sbin:/sbin/halt
+                                             mail:x:8:12:mail:/var/spool/mail:/sbin/nologin
+                                             operator:x:11:0:operator:/root:/sbin/nologin
+                                             games:x:12:100:games:/usr/games:/sbin/nologin
+                                             ftp:x:14:50:FTP User:/var/ftp:/sbin/nologin
+                                             nobody:x:65534:65534:Kernel Overflow User:/:/sbin/nologin
+                                             dbus:x:81:81:System message bus:/:/sbin/nologin
+                                             systemd-coredump:x:999:997:systemd Core Dumper:/:/sbin/nologin
+                                             systemd-resolve:x:193:193:systemd Resolver:/:/sbin/nologin
+                                             tss:x:59:59:Account used by the trousers package to sandbox the tcsd daemon:/dev/null:/sbin/nologin
+                                             polkitd:x:998:996:User for polkitd:/:/sbin/nologin
+                                             sssd:x:997:993:User for sssd:/:/sbin/nologin
+                                             sshd:x:74:74:Privilege-separated SSH:/var/empty/sshd:/sbin/nologin
+                                             chrony:x:996:992::/var/lib/chrony:/sbin/nologin
+                                             rngd:x:995:991:Random Number Generator Daemon:/var/lib/rngd:/sbin/nologin
+                                             yonghang:x:6666:6666:yonghang:/home/yonghang:/bin/bash
+                                             unbound:x:994:990:Unbound DNS resolver:/etc/unbound:/sbin/nologin
+                                             pcp:x:993:989:Performance Co-Pilot:/var/lib/pcp:/sbin/nologin
+                                             tcpdump:x:72:72::/:/sbin/nologin
+
+
+  2020-11-03     another update              update from command
+  13:36           2nd line                    2nd line
+                                              3rd line
+
