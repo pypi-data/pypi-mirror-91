@@ -1,0 +1,78 @@
+#!python
+
+# TODO : Add CLI functionality 
+
+import argparse
+import os
+import sys
+
+import libvivp
+"""
+vivp --setup
+vivp -s
+
+vivp --install <package>
+vivp -i <package>
+
+vivp --update <package>
+vivp -u <package>
+
+vivp --remove <package>
+vivp -r <package>
+
+vivp --list
+vivp -l
+"""
+
+argparser = argparse.ArgumentParser(description="Verilog Package Manager")
+argparser.add_argument('-s', '--setup', help='Setup current directory as Verilog Package')
+argparser.add_argument('-i', '--install', help='Install a package', nargs='+')
+argparser.add_argument('-u', '--update', help='Update a package [vivp -u * to update all]', nargs='+')
+argparser.add_argument('-r', '--remove', help='Remove a package [vivp -r * to remove all]', nargs='+')
+argparser.add_argument('-l', '--list', help='List all packages')
+args = argparser.parse_args()
+
+if True:
+#try:
+    if args.setup:
+        
+        setup_dir = os.path.join(os.getcwd(), args.setup)
+        #print(setup_dir)
+        if libvivp.utils.is_vivp_dir(setup_dir):
+            print("Already VIVP directory")
+            exit(0)
+        """
+        if libvivp.is_vivp_dir(setup_dir):
+            print("Already a VIVP directory")
+            exit(0)
+        """
+        # Setup "vpackage.json"
+        packageName = input("Enter Package Name : ")
+        packageAuthors = input("Enter Authors [space seperated] : ").split(' ')
+        packageURL = input("Enter package remote URL [optional] : ")
+
+        libvivp.setup(setup_dir, packageName=packageName, packageAuthors=packageAuthors, packageURL=packageURL)
+    else:
+        """
+        if not libvivp.is_vivp_dir(os.getcwd()):
+            print("Not a VIVP directory")
+            exit(0)
+        """
+        # Check for remaining options
+        if args.install:
+            #print(os.path.join(os.getcwd(), '.'))
+            #libvivp.install(os.path.join(os.getcwd(), '.'), args.install)
+            libvivp.install(os.getcwd(), args.install)
+        elif args.update:
+            libvivp.update(os.getcwd(), args.update)
+        elif args.remove:
+            libvivp.remove(os.getcwd(), args.remove)
+        elif args.list:
+            libvivp.list_vivp(os.getcwd())
+        else:
+            argparser.print_help()
+
+#except Exception as e: print(e)
+
+#print(args)
+#print(os.getcwd())

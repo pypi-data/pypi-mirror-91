@@ -1,0 +1,9 @@
+libvivp/__init__.py,sha256=47ptKw46m192yRMfZBeB0s1aF8cqg9Kli04kSvh__D4,2933
+libvivp/utils.py,sha256=rsfBgDKXWyBEO2froBfEVhGAy3SXiAkKHZjol0MbaHc,953
+libvivp/vPackage.py,sha256=4LrHoGR1MGH6kOdimO5D3q9KLoaFF6J99JzD7RzPEBk,2236
+vivp-0.0.5.data/scripts/vivp,sha256=psDFl_LYAEh89mNUJVM_ScEwe4jYWYVoHvfcpKjVByQ,2274
+vivp-0.0.5.dist-info/LICENSE.txt,sha256=7EI8xVBu6h_7_JlVw-yPhhOZlpY9hP8wal7kHtqKT_E,1074
+vivp-0.0.5.dist-info/METADATA,sha256=XMWMZsLpQmVnHZiLFwnKdkMr8nPEf6_L5rECVLank2Q,1876
+vivp-0.0.5.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+vivp-0.0.5.dist-info/top_level.txt,sha256=s9G8Rcz87rmxOhdQnlMmwYpG11iT6agCYpFX17QlcbE,8
+vivp-0.0.5.dist-info/RECORD,,
