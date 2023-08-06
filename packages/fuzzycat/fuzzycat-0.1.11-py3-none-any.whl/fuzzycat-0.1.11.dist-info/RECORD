@@ -1,0 +1,15 @@
+fuzzycat/__init__.py,sha256=nllDrH0jyChMuuYrK0CC55iTBKUNTUjejtcwxyUF2EQ,23
+fuzzycat/__main__.py,sha256=zundi7sOAmj3iSuBHEEp6O9zH7bEd5plLANvjtDhmRI,9616
+fuzzycat/cluster.py,sha256=Duz_MMI09siJqnKTOPNIGguyCJtEOjkJgkk2BHLayTg,14835
+fuzzycat/common.py,sha256=zLx_smPgC_8f9YbmZFmQqkzP7ZfZZ6v59aBf1k9lFwU,2460
+fuzzycat/data.py,sha256=aBVBj1WicE0B_rURF1h1itt97QxCxSxDYby4apWs1rw,121503
+fuzzycat/entities.py,sha256=W9BWHi5AVUDvomFHcDD6HvHDuLGS67qnZamqpUUAVPM,1897
+fuzzycat/matching.py,sha256=PobDSDcNHDPCagjcrzOEgu4ZUvY4ZDtySOyyeul22QQ,7550
+fuzzycat/utils.py,sha256=pReQepLitBniXQTSh0iyJinEeNaEsn07b_rkmxRtoNU,4827
+fuzzycat/verify.py,sha256=YGDU8vCpXitXCZDXZyEANQK3HCl8O_hhzm3GhQhPtfU,26853
+fuzzycat-0.1.11.dist-info/LICENSE,sha256=kU0TKDKDvhgM4KQjQ0k_9X4DDjuFF22_s-s6_CszSRo,1070
+fuzzycat-0.1.11.dist-info/METADATA,sha256=53JIhHLWn526XXeJ4I7h0hU1gZAuiRHHz6sdeSVjLmc,7457
+fuzzycat-0.1.11.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+fuzzycat-0.1.11.dist-info/entry_points.txt,sha256=_KdoWOL4PyoZ8UUZ9iVdP6Kw_99f5d0lwOPENURdX6M,49
+fuzzycat-0.1.11.dist-info/top_level.txt,sha256=FyRnqCedniGulIAyljDmcVj-MsuYwup5_OgQLNfvK9k,9
+fuzzycat-0.1.11.dist-info/RECORD,,
