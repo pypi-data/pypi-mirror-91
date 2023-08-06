@@ -1,0 +1,9 @@
+woptics/__init__.py,sha256=G2yk6WZHfw-j_H_iak76ygwvOP0Zw2EcyS-fi_REGNU,68
+woptics/fibre.py,sha256=r3aUspNwNKClBH0pGRAeTLOG1lL2xximQd9_YikRdtk,1750
+woptics/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+woptics/tests/test_fibre.py,sha256=c7rDB6IaBgnteJcdwJp3ILm0mEujXuC_0xFy94k_UKg,180
+woptics-0.0.1.dist-info/LICENSE.md,sha256=UNjAK69vTkzWz772T_wxOuFW1IyjbHhOFr2-y3yp07w,1072
+woptics-0.0.1.dist-info/METADATA,sha256=kkpHXqKvvtJrAZz-gB63h-Zd3YhFE8VBNqH6IxCZ4Hc,1431
+woptics-0.0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+woptics-0.0.1.dist-info/top_level.txt,sha256=FD-8WBmqLGXZp2MTjxbUKNACpEoL2ztb4P2Xwelf1Nc,8
+woptics-0.0.1.dist-info/RECORD,,
