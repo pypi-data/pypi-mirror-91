@@ -1,0 +1,7 @@
+README.md
+setup.py
+DBJSONS.egg-info/PKG-INFO
+DBJSONS.egg-info/SOURCES.txt
+DBJSONS.egg-info/dependency_links.txt
+DBJSONS.egg-info/top_level.txt
+dbjson/__init__.py
