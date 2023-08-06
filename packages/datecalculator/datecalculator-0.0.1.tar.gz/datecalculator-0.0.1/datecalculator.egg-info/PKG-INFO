@@ -1,0 +1,26 @@
+Metadata-Version: 1.1
+Name: datecalculator
+Version: 0.0.1
+Summary: calculate how many years,month and days between time you entered and now 
+Home-page: UNKNOWN
+Author: mohammed yasser
+Author-email: muhammedyasser85@gmail.com
+License: MIT
+Description: this is my test library
+        
+        Change Log 
+        
+        ===========
+        
+        0.0.0(1/1/2020)
+        
+        -------------
+        
+        -First release
+Keywords: date calculator
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3

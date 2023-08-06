@@ -1,0 +1,11 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+setup.py
+datecalculator/__init__.py
+datecalculator.egg-info/PKG-INFO
+datecalculator.egg-info/SOURCES.txt
+datecalculator.egg-info/dependency_links.txt
+datecalculator.egg-info/requires.txt
+datecalculator.egg-info/top_level.txt
