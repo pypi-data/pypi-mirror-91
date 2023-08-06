@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: hubcap
+Version: 0.0.2
+Summary: A py2store (i.e. dict-like) interface to github
+Home-page: https://github.com/thorwhalen/hubcap
+Author: Thor Whalen
+License: apache-2.0
+Keywords: github
+Platform: any
+Description-Content-Type: text/markdown
+Requires-Dist: py2store
+Requires-Dist: PyGithub
+
+
+# hubcap
+A py2store (i.e. dict-like) interface to github
+
+
+To install:	```pip install hubcap```
+
+
