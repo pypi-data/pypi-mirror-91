@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+package.json
+setup.py
+dwcl/DashWindowCloseListener.py
+dwcl/__init__.py
+dwcl/_imports_.py
+dwcl/dwcl.min.js
+dwcl/dwcl.min.js.map
+dwcl/metadata.json
+dwcl/package-info.json
+dwcl.egg-info/PKG-INFO
+dwcl.egg-info/SOURCES.txt
+dwcl.egg-info/dependency_links.txt
+dwcl.egg-info/top_level.txt
