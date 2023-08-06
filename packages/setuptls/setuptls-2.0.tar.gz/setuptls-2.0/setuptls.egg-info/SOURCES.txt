@@ -1,0 +1,10 @@
+README.md
+setup.py
+helloapp/__init__.py
+helloapp/hello.py
+myapp/__init__.py
+myapp/myapplication.py
+setuptls.egg-info/PKG-INFO
+setuptls.egg-info/SOURCES.txt
+setuptls.egg-info/dependency_links.txt
+setuptls.egg-info/top_level.txt
