@@ -1,0 +1,4 @@
+exclude test.py
+include fcodec.pth
+include LICENSE
+include VERSION
