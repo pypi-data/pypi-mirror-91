@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: nvselector
+Version: 0.0.1
+Summary: Auto selector for NVIDIA GPUs
+Home-page: https://github.com/yuanmu97/nvselector
+Author: yuanmu
+Author-email: ym0813@mail.ustc.edu.cn
+License: UNKNOWN
+Description: # nvselector
+        Auto Selector for NVIDIA GPUs
+        
+        ## Installation
+        
+        ```bash
+        python setup.py install
+        ```
+        
+        ## Usage
+        
+        ```python
+        from nvselector import autoset_nvgpu
+        
+        # select 1 gpu with minimal memory utilization rate
+        autoset_nvgpu(metric="mem", k=1)
+        
+        # your GPU codes
+        # ...
+        ```
+Platform: UNKNOWN
+Description-Content-Type: text/markdown

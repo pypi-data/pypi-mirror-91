@@ -1,0 +1,9 @@
+README.md
+setup.py
+nvselector/__init__.py
+nvselector/selector.py
+nvselector.egg-info/PKG-INFO
+nvselector.egg-info/SOURCES.txt
+nvselector.egg-info/dependency_links.txt
+nvselector.egg-info/requires.txt
+nvselector.egg-info/top_level.txt
