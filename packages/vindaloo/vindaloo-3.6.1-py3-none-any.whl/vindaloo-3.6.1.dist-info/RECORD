@@ -1,0 +1,10 @@
+vindaloo/__init__.py,sha256=qSCk-w4DkAw6ws3aSZv9kl_KI1KSupaLHFbwGSvQukc,53
+vindaloo/examples.py,sha256=ILKycMY-GoK7cC55g6QDmRTREXJ7yc2ttlwgfWK783Y,2851
+vindaloo/objects.py,sha256=TB4t2RCgKkrbq5q2qaaadl2g3Hihh1TleM44yiwIUXI,11106
+vindaloo/utils.py,sha256=_FVZj_4ekoiAC9exb1dwRLLZ4CjndOGbMaBkNddfj4g,426
+vindaloo/vindaloo.py,sha256=gQ53Db2c9qE5yzVdAf8ukhgJiw2AOJwMDu4Lx-PctMU,43173
+vindaloo-3.6.1.dist-info/METADATA,sha256=annGCOFMwjNO8Laykg5gqoIvm7P-hnzjAg7sQRklsQ4,9448
+vindaloo-3.6.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+vindaloo-3.6.1.dist-info/entry_points.txt,sha256=NTiUwc5v4ebysKZ5udsyZBeMC0_9-CXfPhPVkDYvgFQ,52
+vindaloo-3.6.1.dist-info/top_level.txt,sha256=7T_ogma3ETk9JoxGpsIVzYFqV_JiR7VHr5GC_1Obkls,9
+vindaloo-3.6.1.dist-info/RECORD,,
