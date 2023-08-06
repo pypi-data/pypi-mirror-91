@@ -1,0 +1,4 @@
+
+        [console_scripts]
+        smx10fanctl = smx10fanctl.main:main
+    
