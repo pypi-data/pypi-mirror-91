@@ -1,0 +1,10 @@
+MANIFEST.in
+eq.h
+module_binstore.c
+setup.py
+binstore/__init__.py
+binstore.egg-info/PKG-INFO
+binstore.egg-info/SOURCES.txt
+binstore.egg-info/dependency_links.txt
+binstore.egg-info/top_level.txt
+headers/eq.h
