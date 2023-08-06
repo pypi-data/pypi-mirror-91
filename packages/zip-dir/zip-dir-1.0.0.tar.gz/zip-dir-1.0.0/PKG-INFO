@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: zip-dir
+Version: 1.0.0
+Summary: zip entire directories recursively
+Home-page: https://github.com/wangyx01/zip-dir
+Author: Yunxiang Wang
+License: UNKNOWN
+Description: zip entire directories recursively
+Keywords: zip
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Provides-Extra: testing
