@@ -1,0 +1,13 @@
+pymcbdsc/__init__.py,sha256=noGd-mb_8eR7GwOEpY8f3qpoJD_N84YgQODjJLV-h1Q,20908
+pymcbdsc/__main__.py,sha256=pdbNvkYXhhrdqNS4eL-4D2MItBOjXYEsWnvYHRGvp1M,6409
+pymcbdsc-0.1.0.data/data/share/mcbdsc/docker/Dockerfile,sha256=FjkeXs8ugTFpbwwOcn7NrmZj5ruDB96_FaBpDRWuVnQ,662
+pymcbdsc-0.1.0.data/data/share/mcbdsc/docker/entrypoint.sh,sha256=QJNgheGrJf_HHpNAEuX-Nm2X8xxIp0KRdS3xoaKtp9Q,2518
+pymcbdsc-0.1.0.data/data/share/mcbdsc/docker/env_files/example.env,sha256=obMSF8Cpv7UGsCE6bq5puCZ_IIXEY0iQaKZipp34o5I,1774
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/pymcbdsc/__init__.py,sha256=dMvcAAT3KEuJYHOBgUNbo_QNGw6UGQaA0CC_tzSxd0U,13775
+pymcbdsc-0.1.0.dist-info/LICENSE,sha256=NPbfO_B075OFXEhnsx1aUcNmN4hsWegIv3USrrmCrjA,1067
+pymcbdsc-0.1.0.dist-info/METADATA,sha256=THTBW9ciV_jqptn4f77KLA81FMWLI-Ur7VgAiqlxiJE,2828
+pymcbdsc-0.1.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+pymcbdsc-0.1.0.dist-info/entry_points.txt,sha256=bh3LMlbfYud-Geim-e7Jr5vMbGdQhHw_6rjYcO063rc,49
+pymcbdsc-0.1.0.dist-info/top_level.txt,sha256=ykUJ5IWvr0Mm68S5l28Q9aqPzSHNfktajzuW-j_jg4o,15
+pymcbdsc-0.1.0.dist-info/RECORD,,
