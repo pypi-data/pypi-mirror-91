@@ -1,0 +1,58 @@
+[tool.poetry]
+name = "tensorx"
+version = "2.1.0"
+repository = "https://github.com/davidenunes/tensorx"
+homepage = "https://tensorx.org"
+readme = 'README.md'
+description = "TensorX is an open source library to build deep neural network models"
+license = "Apache-2.0"
+authors = ["Davide Nunes <davidenunes@pm.me>"]
+keywords = [
+    "tensorx",
+    "tensorflow",
+    "tensor",
+    "machine learning",
+    "neural networks",
+    "artificial/intelligence"
+]
+classifiers = [
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "License :: OSI Approved :: Apache Software License",
+    "Intended Audience :: Science/Research",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Education",
+    "Topic :: Scientific/Engineering",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "Topic :: Scientific/Engineering :: Mathematics",
+    "Topic :: Software Development :: Libraries",
+    "Topic :: Software Development :: Libraries :: Python Modules"
+]
+
+[tool.poetry.dependencies]
+python = "^3.7 < 3.9"
+pygraphviz = { version = "*", optional = true }
+tensornetwork = { version = "^0.4.1", optional = true }
+tqdm = { version = "^4.48.1", optional = true }
+pyqtgraph = { version = "^0.11.0", optional = true }
+matplotlib = { version = "^3.3.0", optional = true }
+PyQt5 = { version = "^5.15.0", optional = true }
+numpy = "*"
+
+[tool.poetry.extras]
+pyqtgraph = ["pyqtgraph", "PyQt5"]
+matplotlib = ["matplotlib"]
+tqdm = ["tqdm"]
+tensornetwork = ["tensornetwork"]
+pygraphviz = ["pygraphviz"]
+
+[tool.poetry.dev-dependencies]
+mkdocs = "*"
+mkgendocs = "*"
+pytest = "*"
+pytest-cov = "*"
+mkdocs-material = "*"
+
+[tool.pytest.ini_options]
+filterwarnings = "ignore::DeprecationWarning:tensorflow"
