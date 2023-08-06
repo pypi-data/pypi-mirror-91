@@ -1,0 +1,50 @@
+[tool.poetry]
+name = "django-request-token"
+version = "0.12.1"
+description = "JWT-backed Django app for managing querystring tokens."
+license = "MIT"
+authors = ["YunoJuno <code@yunojuno.com>"]
+maintainers = ["YunoJuno <code@yunojuno.com>"]
+readme = "README.rst"
+homepage = "https://github.com/yunojuno/django-request-token"
+repository = "https://github.com/yunojuno/django-request-token"
+classifiers = [
+    "Environment :: Web Environment",
+    "Framework :: Django :: 2.2",
+    "Framework :: Django :: 3.0",
+    "Framework :: Django :: 3.1",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+]
+packages = [{ include = "request_token" }]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+django = "^2.2 || ^3.0"
+# pyjwt 2.0 changes encode/decode functions and a lot of other
+# dependencies require < 2, so this needs to be pinned for now.
+pyjwt = "^1.7"
+sqlparse = "*"
+
+[tool.poetry.dev-dependencies]
+tox = "*"
+pytest = "*"
+pytest-cov = "*"
+pytest-django = "*"
+coverage = "*"
+pylint = "*"
+pylint-django = "*"
+flake8 = "*"
+flake8-bandit = "*"
+flake8-docstrings = "*"
+isort = "*"
+mypy = "*"
+pre-commit = "*"
+black = "==19.10b0"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
