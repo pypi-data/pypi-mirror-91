@@ -1,0 +1,10 @@
+qprof_interfaces/NamedRoutine.py,sha256=2-OQpBP0I2JkocUXlsU8dDltHWnE1Tx21fjsP7RIHsw,2086
+qprof_interfaces/RoutineWrapper.py,sha256=CqO6MYZxpuFgyrBoR_Fi1pVYqBSVqmwzF5gfqZNRf9c,4989
+qprof_interfaces/__init__.py,sha256=UMZV0VY92_AtS5XmrneTWJ9Y4uM4StDpAj4iuIdiRpE,1908
+qprof_interfaces/name_routines.py,sha256=BkrA1hpDRxmh7fghls0XI1ufq-JBi1RPei0VwrJcCC8,1764
+qprof_interfaces/supports_routine_test.py,sha256=_hgynHUN4IIgBAw7m_-4G2umiPU7nqedXpEaGDUk_gs,2046
+qprof_interfaces-1.0.1.dist-info/LICENSE,sha256=rhNiLRP9Qy0uMe1MsgVmfZjiA7DLVLHyRL2Ng1TO_Ug,21393
+qprof_interfaces-1.0.1.dist-info/METADATA,sha256=UP59Q9D5uL-0gW9KL29SwuJvLbPoZ0olGJGwcph5ZDw,1878
+qprof_interfaces-1.0.1.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+qprof_interfaces-1.0.1.dist-info/top_level.txt,sha256=mrHfKbfiQrUGNO7dCdaxqMSezYoMZasEN1bqPghHLM8,17
+qprof_interfaces-1.0.1.dist-info/RECORD,,
