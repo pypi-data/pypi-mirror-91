@@ -1,0 +1,3 @@
+[console_scripts]
+imagine_big = big_sleep.cli:main
+
