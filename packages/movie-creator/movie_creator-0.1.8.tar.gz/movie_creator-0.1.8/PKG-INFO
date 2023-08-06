@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: movie_creator
+Version: 0.1.8
+Summary: Creates a movie from a list of image files.
+Home-page: https://github.com/rhuygen/movie_creator
+Author: Rik Huygen
+Author-email: rik.huygen@kuleuven.be
+License: MIT
+Description: # movie_creator
+        Create a movie from a list of images
+        
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Environment :: Console
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.8.0
+Description-Content-Type: text/markdown
