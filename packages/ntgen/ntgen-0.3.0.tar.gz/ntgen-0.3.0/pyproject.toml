@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "ntgen"
+version = "0.3.0"
+description = "named tuple generator"
+authors = ["Maciej Rapacz <mmrapacz@protonmail.ch>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.6"
+pyannotate = "^1.2.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2.1"
+ipython = "^7.19.0"
+pre-commit = "^2.9.3"
+pytest-lazy-fixture = "^0.6.3"
+coverage = "^5.3.1"
+mypy = "^0.790"
+coveralls = "^2.2.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+ntgen = "ntgen.__main__:console_entry"
