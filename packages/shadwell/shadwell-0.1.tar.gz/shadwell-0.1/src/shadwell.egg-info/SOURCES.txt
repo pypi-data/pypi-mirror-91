@@ -1,0 +1,14 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+src/shadwell/__init__.py
+src/shadwell/candidate.py
+src/shadwell/finder.py
+src/shadwell.egg-info/PKG-INFO
+src/shadwell.egg-info/SOURCES.txt
+src/shadwell.egg-info/dependency_links.txt
+src/shadwell.egg-info/requires.txt
+src/shadwell.egg-info/top_level.txt
+src/shadwell/sources/__init__.py
+src/shadwell/sources/json_api.py
