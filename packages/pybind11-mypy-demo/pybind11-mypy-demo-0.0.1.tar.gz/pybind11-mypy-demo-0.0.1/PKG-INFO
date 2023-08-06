@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: pybind11-mypy-demo
+Version: 0.0.1
+Summary: A demo project using pybind11 to test mypy stubgen
+Home-page: https://github.com/sizmailov/pybind11-mypy-demo
+Author: Sergei Izmailov
+Author-email: sergei.a.izmailov@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Provides-Extra: test

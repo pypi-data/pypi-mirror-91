@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+setup.py
+pybind11_mypy_demo.egg-info/PKG-INFO
+pybind11_mypy_demo.egg-info/SOURCES.txt
+pybind11_mypy_demo.egg-info/dependency_links.txt
+pybind11_mypy_demo.egg-info/not-zip-safe
+pybind11_mypy_demo.egg-info/requires.txt
+pybind11_mypy_demo.egg-info/top_level.txt
+src/main.cpp
