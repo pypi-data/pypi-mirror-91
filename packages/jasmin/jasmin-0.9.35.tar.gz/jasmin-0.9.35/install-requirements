@@ -1,0 +1,16 @@
+pyasn1==0.4.3
+txAMQP==0.8.2
+pyOpenSSL==18.0.0
+twisted==15.5.0
+pyparsing==2.3.0
+python-dateutil==2.5.3
+service_identity==18.1.0
+lockfile==0.12.2
+
+# Added in 0.9rc16:
+celery==4.1.1
+redis==3.0.0
+requests==2.19.1
+
+# For REST API
+mimeparse==0.1.3
