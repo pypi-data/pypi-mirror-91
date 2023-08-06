@@ -1,0 +1,10 @@
+Change Log
+==========
+
+0.0.2 (11/1/2020)
+-----------------
+- Added handling for API errors (like invalid API key)
+
+0.0.1 (10/01/2020)
+------------------
+- First release
