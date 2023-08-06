@@ -1,0 +1,4 @@
+pymongo>=2.9.5
+
+[async]
+motor==2.0.0
