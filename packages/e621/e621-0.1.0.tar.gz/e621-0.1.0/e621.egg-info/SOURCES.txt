@@ -1,0 +1,8 @@
+README.md
+setup.py
+e621/__init__.py
+e621/e621.py
+e621.egg-info/PKG-INFO
+e621.egg-info/SOURCES.txt
+e621.egg-info/dependency_links.txt
+e621.egg-info/top_level.txt
