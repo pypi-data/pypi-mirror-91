@@ -1,0 +1,15 @@
+README.rst
+setup.cfg
+setup.py
+opencensus/__init__.py
+opencensus/ext/__init__.py
+opencensus/ext/pyramid/__init__.py
+opencensus/ext/pyramid/config.py
+opencensus/ext/pyramid/pyramid_middleware.py
+opencensus_ext_pyramid.egg-info/PKG-INFO
+opencensus_ext_pyramid.egg-info/SOURCES.txt
+opencensus_ext_pyramid.egg-info/dependency_links.txt
+opencensus_ext_pyramid.egg-info/namespace_packages.txt
+opencensus_ext_pyramid.egg-info/not-zip-safe
+opencensus_ext_pyramid.egg-info/requires.txt
+opencensus_ext_pyramid.egg-info/top_level.txt
