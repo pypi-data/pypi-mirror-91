@@ -1,0 +1,3 @@
+[console_scripts]
+eodag_cube = eodag_cube.eodag_cube:main
+
