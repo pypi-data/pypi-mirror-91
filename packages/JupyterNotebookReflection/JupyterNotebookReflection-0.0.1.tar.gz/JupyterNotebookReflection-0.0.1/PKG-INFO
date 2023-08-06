@@ -1,0 +1,13 @@
+Metadata-Version: 1.0
+Name: JupyterNotebookReflection
+Version: 0.0.1
+Summary: A module to perform reflection coding in Jupyter notebooks.
+Home-page: UNKNOWN
+Author: Charles Varley
+Author-email: UNKNOWN
+License: MIT
+Description: this is a readme
+        
+        this is a changelog
+Keywords: jupyter,notebook,reflection,introspection
+Platform: UNKNOWN
