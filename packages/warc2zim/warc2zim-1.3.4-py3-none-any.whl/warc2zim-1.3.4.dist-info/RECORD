@@ -1,0 +1,16 @@
+warc2zim/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+warc2zim/main.py,sha256=Ego7iUqDzNDu9LFOoiTpFu6Yl99sm4QxHeNYzpBOlHo,25325
+warc2zim/templates/404.html,sha256=wl9keTDkGmzlirR5POerVfRP7DHMpjJBIhCD7kn2cuE,1160
+warc2zim/templates/index.html,sha256=5_9PH0RXoxoFPlZCuS6m8EnI17KDP7Iqi89ECZ-ioTI,874
+warc2zim/templates/load.js,sha256=jMBsDUABII5ty0JqvR72nvVuCd_mwFtqAWjPuXwIsT4,2305
+warc2zim/templates/sw.js,sha256=rvY4cvQh83g70fgQCTA7NCukpowTRjGZ8ILWnKGnenE,1004071
+warc2zim/templates/sw_check.html,sha256=oGsE35oGQ8hQ_1GQVwwXTDP0rwf9Ejux19GpYPsXX0Q,811
+warc2zim/templates/topFrame.html,sha256=yYGc00AaoT6JCZmohp9igfxY3scv6lZfRjF3OKHbh1Q,2419
+warc2zim-1.3.4.data/data/VERSION,sha256=4KcpQbpy5HHDewvOXowpJlm-_FHb8cfO6jVLJmQsOcM,6
+warc2zim-1.3.4.data/data/requirements.txt,sha256=WWxPksF3CEWbBTMMCdVfeXy5zPsmc1gdMJvCyxEENnI,209
+warc2zim-1.3.4.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+warc2zim-1.3.4.dist-info/METADATA,sha256=QI3CWiN7rRS4V731GPmC8aRlkz9p0tlm0U985eEg7do,4786
+warc2zim-1.3.4.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+warc2zim-1.3.4.dist-info/entry_points.txt,sha256=P49eQPqB9k2nMM-GpKUVOg8Phq4T23L2177cHPRdoKc,73
+warc2zim-1.3.4.dist-info/top_level.txt,sha256=mcjwpq-kqpo5WQwmAovW16TZmL4JXe7d20TMMJRaf9I,9
+warc2zim-1.3.4.dist-info/RECORD,,
