@@ -1,0 +1,3 @@
+[console_scripts]
+grades-report = grades_report.cli:cli
+
