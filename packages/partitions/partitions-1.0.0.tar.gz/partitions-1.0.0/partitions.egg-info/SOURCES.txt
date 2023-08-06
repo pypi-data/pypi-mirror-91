@@ -1,0 +1,10 @@
+README.md
+setup.py
+partitions/__init__.py
+partitions/main.py
+partitions/partitions.py
+partitions.egg-info/PKG-INFO
+partitions.egg-info/SOURCES.txt
+partitions.egg-info/dependency_links.txt
+partitions.egg-info/entry_points.txt
+partitions.egg-info/top_level.txt
