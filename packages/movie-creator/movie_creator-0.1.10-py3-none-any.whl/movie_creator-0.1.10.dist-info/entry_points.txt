@@ -1,0 +1,3 @@
+[console_scripts]
+create_movie = moviecreator.create_movie:main
+
