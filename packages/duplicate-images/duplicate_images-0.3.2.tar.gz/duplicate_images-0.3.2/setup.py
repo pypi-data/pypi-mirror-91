@@ -1,0 +1,37 @@
+# -*- coding: utf-8 -*-
+from setuptools import setup
+
+packages = \
+['duplicate_images']
+
+package_data = \
+{'': ['*']}
+
+install_requires = \
+['Wand>=0.6.5,<0.7.0',
+ 'coloredlogs>=15.0,<16.0',
+ 'imagehash>=4.2.0,<5.0.0',
+ 'pillow>=8.1.0,<9.0.0']
+
+entry_points = \
+{'console_scripts': ['find-dups = duplicate_images.duplicate:main']}
+
+setup_kwargs = {
+    'name': 'duplicate-images',
+    'version': '0.3.2',
+    'description': '',
+    'long_description': "# Finding Duplicate Images\n\nFinds equal or similar images in a directory containing (many) image files.\n\n## Usage\n```shell\n$ pip install duplicate_images\n$ find-dups -h\n```\nto print the help screen. Or just\n```shell\n$ find-dups $IMAGE_ROOT \n```\nfor a test run.\n\n### Image comparison algorithms\n\nUse the `--algorithm` option to select how equal images are found.\n- `exact`: marks only binary exactly equal files as equal. This is by far the fastest, but most \n  restricted algorithm.\n- `histogram`: checks the images' color histograms for equality. Faster than the image hashing \n  algorithms, but tends to give a lot of false positives for images that are similar, but not equal.\n  Use the `--fuzziness` and `--aspect-fuzziness` options to fine-tune its behavior.\n- `ahash`, `colorhash`, `dhash`, `phash`, `whash`: five different image hashing algorithms. See \n  https://pypi.org/project/ImageHash for an introduction on image hashing and \n  https://tech.okcupid.com/evaluating-perceptual-image-hashes-okcupid for some gory details which\n  image hashing algorithm performs best in which situation. For a start I recommend using `ahash`, \n  and only evaluating the other algorithms if `ahash` does not perform satisfactorily in your use \n  case.\n\n### Actions for matching image pairs\n\nUse the `--on-equal` option to select what to do to pairs of equal images.\n- `delete-first`: deletes the first of the two files\n- `delete-second`: deletes the second of the two files\n- `delete-bigger`: deletes the file with the bigger size\n- `delete-smaller`: deletes the file with the smaller size\n- `eog`: launches the `eog` image viewer to compare the two files\n- `xv`: launches the `xv` image viewer to compare the two files\n- `print`: prints the two files\n- `none`: does nothing.\nThe default action is `print`.\n  \n### Parallel execution\n\nUse the `--parallel` option to utilize all free cores on your system. There is also the \n`--chunk-size` option to tune how many comparisons each thread should make in one go, but that \nshould hardly ever be advantageous to set explicitly. \n\n## Development notes\n\nNeeds Python3 and Pillow imaging library to run, additionally Wand for the test suite.\n\nUses Poetry for dependency management.\n\n### Installation\n\nFrom source:\n```shell\n$ git clone https://gitlab.com/lilacashes/DuplicateImages.git\n$ cd DuplicateImages\n$ pip3 install poetry\n$ poetry install\n```\n\n### Running\n\n```shell\n$ poetry run find-dups $PICTURE_DIR\n```\nor\n```shell\n$ poetry run find-dups -h\n```\nfor a list of all possible options.\n\n### Test suite\n\nRunning it all:\n```shell\n$ poetry run pytest\n$ poetry run mypy duplicate_images tests\n$ poetry run flake8\n$ poetry run pylint duplicate_images tests\n```\nor simply \n```shell\n$ .git_hooks/pre-push\n```\nSetting the test suite to be run before every push:\n```shell\n$ cd .git/hooks\n$ ln -s ../../.git_hooks/pre-push .\n```\n\n### Publishing\n\n```shell\n$ poetry config repositories.testpypi https://test.pypi.org/legacy/\n$ poetry build\n$ poetry publish --username $PYPI_USER --password $PYPI_PASSWORD --repository testpypi && \\\n  poetry publish --username $PYPI_USER --password $PYPI_PASSWORD\n```\n(obviously assuming that username and password are the same on PyPI and TestPyPI)\n### Profiling\n\n#### CPU time\nTo show the top functions by time spent, including called functions:\n```shell\n$ poetry run python -m cProfile -s tottime ./duplicate_images/duplicate.py \\ \n    --algorithm $ALGORITHM --action-equal none $IMAGE_DIR 2>&1 | head -n 15\n```\nor, to show the top functions by time spent in the function alone:\n```shell\n$ poetry run python -m cProfile -s cumtime ./duplicate_images/duplicate.py \\ \n    --algorithm $ALGORITHM --action-equal none $IMAGE_DIR 2>&1 | head -n 15\n```\n\n#### Memory usage\n```shell\n$ poetry run fil-profile run ./duplicate_images/duplicate.py \\\n    --algorithm $ALGORITHM --action-equal none $IMAGE_DIR 2>&1\n```\nThis will open a browser window showing the functions using the most memory (see \nhttps://pypi.org/project/filprofiler for more details).",
+    'author': 'Lene Preuss',
+    'author_email': 'lene.preuss@gmail.com',
+    'maintainer': None,
+    'maintainer_email': None,
+    'url': 'https://gitlab.com/lilacashes/DuplicateImages',
+    'packages': packages,
+    'package_data': package_data,
+    'install_requires': install_requires,
+    'entry_points': entry_points,
+    'python_requires': '>=3.8.5,<4.0.0',
+}
+
+
+setup(**setup_kwargs)
