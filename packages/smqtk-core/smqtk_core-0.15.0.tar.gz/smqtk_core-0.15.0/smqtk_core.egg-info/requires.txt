@@ -1,0 +1,12 @@
+
+[docs]
+Sphinx
+sphinx-rtd-theme
+sphinx-argparse
+sphinx-prompt
+livereload
+
+[test]
+coverage
+pytest
+pytest-cov
