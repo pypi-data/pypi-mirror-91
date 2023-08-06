@@ -1,0 +1,13 @@
+LICENSE.txt
+MANIFEST.in
+README.txt
+setup.py
+Spec/Data_Handler - Copy.py
+Spec/Modules - Copy.py
+Spec/Spec.py
+Spec/__init__.py
+SpecAnalysis_cader_Cademan051.egg-info/PKG-INFO
+SpecAnalysis_cader_Cademan051.egg-info/SOURCES.txt
+SpecAnalysis_cader_Cademan051.egg-info/dependency_links.txt
+SpecAnalysis_cader_Cademan051.egg-info/requires.txt
+SpecAnalysis_cader_Cademan051.egg-info/top_level.txt
