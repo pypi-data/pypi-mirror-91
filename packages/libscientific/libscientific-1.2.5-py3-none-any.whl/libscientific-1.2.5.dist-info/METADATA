@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: libscientific
+Version: 1.2.5
+Summary: Libscientific python foreign function interface
+Home-page: http://github.com/gmrandazzo/libscientific
+Author: Giuseppe Marco Randazzo
+Author-email: gmrandazzo@gmail.com
+License: GPLv3
+Platform: UNKNOWN
+Requires-Python: >=3.0
+
+UNKNOWN
+
+
