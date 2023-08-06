@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: petit-type-system
+Version: 0.1.4
+Summary: Backend to handle type conversion from python to another language
+Home-page: https://github.com/Plawn/petit_type_system
+Author: Plawn
+Author-email: plawn.yay@gmail.com
+License: apache-2.0
+Description: # Petit type system
+        
+        ## TODO:
+        - documentation
+Platform: UNKNOWN
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
