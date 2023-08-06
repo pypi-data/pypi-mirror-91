@@ -1,0 +1,6 @@
+README.md
+setup.py
+karnak.egg-info/PKG-INFO
+karnak.egg-info/SOURCES.txt
+karnak.egg-info/dependency_links.txt
+karnak.egg-info/top_level.txt
