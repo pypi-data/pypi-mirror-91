@@ -1,0 +1,8 @@
+ecell4-base>=2.1.0
+matplotlib
+
+[all]
+plotly
+pint>=0.11
+numpy-stl
+pyyaml
