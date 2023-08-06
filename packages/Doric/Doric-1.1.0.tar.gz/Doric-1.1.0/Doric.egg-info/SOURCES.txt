@@ -1,0 +1,17 @@
+README.md
+setup.py
+Doric/MultiBlock.py
+Doric/MultiBlockReducers.py
+Doric/ProgBlocks.py
+Doric/ProgNet.py
+Doric/UtilityBlocks.py
+Doric/UtilityFunctions.py
+Doric/__init__.py
+Doric.egg-info/PKG-INFO
+Doric.egg-info/SOURCES.txt
+Doric.egg-info/dependency_links.txt
+Doric.egg-info/requires.txt
+Doric.egg-info/top_level.txt
+Doric/extra_blocks/ConvBlocks.py
+Doric/extra_blocks/__init__.py
+Doric/extra_blocks/deform_conv2d.py
