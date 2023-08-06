@@ -1,0 +1,13 @@
+ourtransform/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ourtransform/framework.py,sha256=O82r-FNYwlJ9rXvW4-k7rRASd0dZaqYsfsYvRgcND4s,15424
+ourtransform/utils.py,sha256=JKGdoWs1H_FYFhdNmCtK0t8rZwHC8JrAo_0HZ3FtObc,570
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/fake_logger.py,sha256=TQ7Sb784ytHb99bCilQZtDboiCq1JI8h5SrGbmBJsvU,820
+tests/test_framework.py,sha256=YgxhpHFOZyjZSLGw12JsJ1gmovGzATTZJ-fTlkkniNg,18803
+tests/test_special_cases.py,sha256=LaR2jSjijSH7G2kUNDjmxpYngWm52gIBJ7Nvh8_eVO8,9185
+tests/test_transform_subclass.py,sha256=_Bj1i1TvxvSAMoxxACvX0Hal8pW8wWaqNXVaIB4Ntb4,11294
+ourtransform-0.0.3.dist-info/LICENSE,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+ourtransform-0.0.3.dist-info/METADATA,sha256=_cfOlV7po9lCSgpFCoOMzyOjcHa2xVaGHvae-GoRTvs,290
+ourtransform-0.0.3.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+ourtransform-0.0.3.dist-info/top_level.txt,sha256=zI2R-ZXeMhkTFHPgjIzpZ6-N3vI1QKZqCiUDUb0cprQ,19
+ourtransform-0.0.3.dist-info/RECORD,,
