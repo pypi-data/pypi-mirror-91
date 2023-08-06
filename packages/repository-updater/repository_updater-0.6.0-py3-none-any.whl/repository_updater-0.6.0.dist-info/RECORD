@@ -1,0 +1,14 @@
+repositoryupdater/__init__.py,sha256=m1-Lice-iTbsK9-28ACsZy8dFWnar2rMOj3rd0VQHJo,1962
+repositoryupdater/__main__.py,sha256=f_SbpJb09G-w6dhTVCmNdd3c-AlMOBiig5G5x6leb8o,1249
+repositoryupdater/addon.py,sha256=PBkgzY2cDd5SCDt5Z7e_HUMpoRVTD_oYwrxBp2Wov9E,13769
+repositoryupdater/cli.py,sha256=zyhD-6N2rP63UFLGIPG-9k_YhvPFzukNbBAuaVEsV_c,2940
+repositoryupdater/const.py,sha256=BhVS7aIk5Y442ONl-IhKu04HIDMgg9fr64idQIolk30,1299
+repositoryupdater/dockerhub.py,sha256=eqAMwLKFvfGdYqcy3S6Z44ADsO4A038i91cczZTt69A,1765
+repositoryupdater/github.py,sha256=35vPRc14USJxvl9SXfkxJ6IKOCJpoHbN0dxpockw1jE,2311
+repositoryupdater/repository.py,sha256=Y2B6MmKPNWADo8FoKppCQPD-3kTZYOPcXj68FlrEVlM,8416
+repository_updater-0.6.0.dist-info/LICENSE.md,sha256=lemRQVg7yD_vz8wYM5mfUY5KZexkJtbO8FxFrVo20P0,1077
+repository_updater-0.6.0.dist-info/METADATA,sha256=bpfNCNdvTsUfR32BUH6olOn0Jprak0u0-BjSFNeKBDs,1420
+repository_updater-0.6.0.dist-info/WHEEL,sha256=p46_5Uhzqz6AzeSosiOnxK-zmFja1i22CrQCjmYe8ec,92
+repository_updater-0.6.0.dist-info/entry_points.txt,sha256=9WStszAxVtLmS7fpLXAdZAVGu6kqnytU18rquAdGHHk,180
+repository_updater-0.6.0.dist-info/top_level.txt,sha256=7KYQoYkyDO7r_7DNoTB5kBp3z_Z8p5DMH9nY6owNLvU,18
+repository_updater-0.6.0.dist-info/RECORD,,
