@@ -1,0 +1,7 @@
+README.rst
+setup.py
+caonima.egg-info/PKG-INFO
+caonima.egg-info/SOURCES.txt
+caonima.egg-info/dependency_links.txt
+caonima.egg-info/top_level.txt
+caonima.egg-info/zip-safe
