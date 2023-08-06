@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+join_skew_data_p3/__init__.py
+join_skew_data_p3/bin_packing_utils.py
+join_skew_data_p3/join_skew_data.py
+join_skew_data_p3.egg-info/PKG-INFO
+join_skew_data_p3.egg-info/SOURCES.txt
+join_skew_data_p3.egg-info/dependency_links.txt
+join_skew_data_p3.egg-info/top_level.txt
