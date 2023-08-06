@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+pymechtest.egg-info/PKG-INFO
+pymechtest.egg-info/SOURCES.txt
+pymechtest.egg-info/dependency_links.txt
+pymechtest.egg-info/not-zip-safe
+pymechtest.egg-info/requires.txt
+pymechtest.egg-info/top_level.txt
