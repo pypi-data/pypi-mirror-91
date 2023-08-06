@@ -1,0 +1,5 @@
+babel>=2.8.0
+
+[tests]
+pytest>=2.3.0
+tox>=1.6.0
