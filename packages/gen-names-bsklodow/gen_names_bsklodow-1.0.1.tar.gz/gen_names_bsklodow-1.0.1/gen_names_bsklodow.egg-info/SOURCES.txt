@@ -1,0 +1,11 @@
+MANIFEST.in
+README.md
+setup.py
+bin/getnames.bat
+gen_names_bsklodow.egg-info/PKG-INFO
+gen_names_bsklodow.egg-info/SOURCES.txt
+gen_names_bsklodow.egg-info/dependency_links.txt
+gen_names_bsklodow.egg-info/requires.txt
+gen_names_bsklodow.egg-info/top_level.txt
+getnamesbsklodow/__init__.py
+getnamesbsklodow/getnames.py
