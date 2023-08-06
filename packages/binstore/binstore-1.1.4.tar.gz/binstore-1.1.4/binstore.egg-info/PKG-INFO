@@ -1,0 +1,16 @@
+Metadata-Version: 1.1
+Name: binstore
+Version: 1.1.4
+Summary: C extension to implement storage of objects based on value-based binning where binned value determines index into array where object is stored
+Home-page: UNKNOWN
+Author: John Herrema
+Author-email: jherrema@gmail.com
+License: MIT
+Description: C extension to implement storage of objects based on value-based vinning where binned value determines index into array where object is stored
+Keywords: binning
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.7
