@@ -1,0 +1,23 @@
+Metadata-Version: 1.1
+Name: Travalloni-EOS
+Version: 0.0.1
+Summary: Travalloni generalized Equation of State
+Home-page: UNKNOWN
+Author: Cosmos I Ikpoba
+Author-email: ikpobacosmos@gmail.com
+License: MIT
+Description: This is a function that solves the Travalloni generalized Van der Waals equation of state
+        
+        Change Log
+        ===========
+        
+        0.0.1 (17/01/2021)
+        --------------------
+        -First Release
+Keywords: Travalloni
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3

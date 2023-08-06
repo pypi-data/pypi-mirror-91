@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENSE.txt
+MANIFEST.in
+README.txt
+setup.py
+Travalloni_EOS.egg-info/PKG-INFO
+Travalloni_EOS.egg-info/SOURCES.txt
+Travalloni_EOS.egg-info/dependency_links.txt
+Travalloni_EOS.egg-info/top_level.txt
+TvWdcalculation/__init__.py

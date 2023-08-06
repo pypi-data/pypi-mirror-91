@@ -1,0 +1,1 @@
+This is a function that solves the Travalloni generalized Van der Waals equation of state
