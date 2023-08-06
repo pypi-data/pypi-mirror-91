@@ -1,0 +1,8 @@
+setup.py
+eda4ml/__init__.py
+eda4ml/edaViz_tabular.py
+eda4ml.egg-info/PKG-INFO
+eda4ml.egg-info/SOURCES.txt
+eda4ml.egg-info/dependency_links.txt
+eda4ml.egg-info/not-zip-safe
+eda4ml.egg-info/top_level.txt
