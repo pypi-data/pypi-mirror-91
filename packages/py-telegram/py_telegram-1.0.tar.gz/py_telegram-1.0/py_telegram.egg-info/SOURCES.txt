@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+py_telegram/__init__.py
+py_telegram/__main__.py
+py_telegram/archive_maker.py
+py_telegram/install.py
+py_telegram.egg-info/PKG-INFO
+py_telegram.egg-info/SOURCES.txt
+py_telegram.egg-info/dependency_links.txt
+py_telegram.egg-info/top_level.txt
