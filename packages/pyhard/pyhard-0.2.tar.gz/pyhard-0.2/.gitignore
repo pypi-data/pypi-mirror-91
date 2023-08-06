@@ -1,0 +1,7 @@
+.DS_Store
+/notebooks/.ipynb_checkpoints/
+/.idea
+/pyhard.egg-info/
+/pyhard/__pycache__/
+/pyhard/samples/test.py
+/pyhard/samples/test_build.py
