@@ -1,0 +1,1388 @@
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      
+        <link rel="canonical" href="https://preusx.gitlab.io/django-admin-extensions/contrib/stats/admin/">
+      
+      <link rel="shortcut icon" href="../../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-6.2.4">
+    
+    
+      
+        <title>Admin - Django admin extensions</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../../assets/stylesheets/main.15aa0b43.min.css">
+      
+        
+        <link rel="stylesheet" href="../../../assets/stylesheets/palette.75751829.min.css">
+        
+      
+    
+    
+    
+      
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7CRoboto+Mono&display=fallback">
+        <style>body,input{font-family:"Roboto",-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Roboto Mono",SFMono-Regular,Consolas,Menlo,monospace}</style>
+      
+    
+    
+    
+    
+      
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="" data-md-color-primary="none" data-md-color-accent="none">
+      
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#admin" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+      
+
+<header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid" aria-label="Header">
+    <a href="https://preusx.gitlab.io/django-admin-extensions" title="Django admin extensions" class="md-header-nav__button md-logo" aria-label="Django admin extensions">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 003-3 3 3 0 00-3-3 3 3 0 00-3 3 3 3 0 003 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
+
+    </a>
+    <label class="md-header-nav__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"/></svg>
+    </label>
+    <div class="md-header-nav__title" data-md-component="header-title">
+      <div class="md-header-nav__ellipsis">
+        <div class="md-header-nav__topic">
+          <span class="md-ellipsis">
+            Django admin extensions
+          </span>
+        </div>
+        <div class="md-header-nav__topic">
+          <span class="md-ellipsis">
+            
+              Admin
+            
+          </span>
+        </div>
+      </div>
+    </div>
+    
+      <label class="md-header-nav__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0116 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 019.5 16 6.5 6.5 0 013 9.5 6.5 6.5 0 019.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+      </label>
+      
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" data-md-state="active" required>
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0116 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 019.5 16 6.5 6.5 0 013 9.5 6.5 6.5 0 019.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </label>
+      <button type="reset" class="md-search__icon md-icon" aria-label="Clear" data-md-component="search-reset" tabindex="-1">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+      
+        
+          
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-tabs__inner md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../.." class="md-tabs__link">
+        Package
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+    
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../" class="md-tabs__link md-tabs__link--active">
+        Stats
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../../jet/" class="md-tabs__link">
+      Jet extensions
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../../rangefilter/" class="md-tabs__link">
+      Range filter
+    </a>
+  </li>
+
+      
+        
+  
+  
+
+
+  <li class="md-tabs__item">
+    <a href="../../all/" class="md-tabs__link">
+      All package
+    </a>
+  </li>
+
+      
+    </ul>
+  </div>
+</nav>
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+
+
+
+  
+
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="https://preusx.gitlab.io/django-admin-extensions" title="Django admin extensions" class="md-nav__button md-logo" aria-label="Django admin extensions">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 003-3 3 3 0 00-3-3 3 3 0 00-3 3 3 3 0 003 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
+
+    </a>
+    Django admin extensions
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+
+
+  
+  <li class="md-nav__item md-nav__item--nested">
+    
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-1" type="checkbox" id="nav-1" >
+    
+    <label class="md-nav__link" for="nav-1">
+      Package
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Package" data-md-level="1">
+      <label class="md-nav__title" for="nav-1">
+        <span class="md-nav__icon md-icon"></span>
+        Package
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+
+  <li class="md-nav__item">
+    <a href="../../.." class="md-nav__link">
+      Django admin extensions
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+
+  <li class="md-nav__item">
+    <a href="../../../annotations/" class="md-nav__link">
+      List annotation mixin
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+
+  <li class="md-nav__item">
+    <a href="../../../changelist_template/" class="md-nav__link">
+      Changelist template mixin
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+
+  <li class="md-nav__item">
+    <a href="../../../form_types/" class="md-nav__link">
+      Form type mixin
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+
+  <li class="md-nav__item">
+    <a href="../../../multidb/" class="md-nav__link">
+      Multiple database admin mixin
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+
+  
+  <li class="md-nav__item md-nav__item--nested">
+    
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-1-6" type="checkbox" id="nav-1-6" >
+    
+    <label class="md-nav__link" for="nav-1-6">
+      Filters
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Filters" data-md-level="2">
+      <label class="md-nav__title" for="nav-1-6">
+        <span class="md-nav__icon md-icon"></span>
+        Filters
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+
+  <li class="md-nav__item">
+    <a href="../../../filters/method/" class="md-nav__link">
+      Method filter
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+
+  <li class="md-nav__item">
+    <a href="../../../filters/text/" class="md-nav__link">
+      Text input filter
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  
+
+
+  
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2" checked>
+    
+    <label class="md-nav__link" for="nav-2">
+      Stats
+      <span class="md-nav__icon md-icon"></span>
+    </label>
+    <nav class="md-nav" aria-label="Stats" data-md-level="1">
+      <label class="md-nav__title" for="nav-2">
+        <span class="md-nav__icon md-icon"></span>
+        Stats
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+
+  <li class="md-nav__item">
+    <a href="../" class="md-nav__link">
+      Stats
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+      
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        Admin
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+    
+    <a href="./" class="md-nav__link md-nav__link--active">
+      Admin
+    </a>
+    
+      
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#pxd_admin_extensions.contrib.stats.utils" class="md-nav__link">
+    pxd_admin_extensions.contrib.stats.utils
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pxd_admin_extensions.contrib.stats.utils.stat" class="md-nav__link">
+    stat()
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pxd_admin_extensions.contrib.stats.utils.stat_legend" class="md-nav__link">
+    stat_legend()
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pxd_admin_extensions.contrib.stats.admin" class="md-nav__link">
+    pxd_admin_extensions.contrib.stats.admin
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pxd_admin_extensions.contrib.stats.admin.StatsAdmin" class="md-nav__link">
+    StatsAdmin
+  </a>
+  
+    <nav class="md-nav" aria-label="StatsAdmin">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#pxd_admin_extensions.contrib.stats.admin.StatsAdmin.changelist_view" class="md-nav__link">
+    changelist_view()
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pxd_admin_extensions.contrib.stats.admin.StatsAdmin.collect_stats" class="md-nav__link">
+    collect_stats()
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pxd_admin_extensions.contrib.stats.admin.StatsAdmin.get_stats_date_period" class="md-nav__link">
+    get_stats_date_period()
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pxd_admin_extensions.contrib.stats.factories" class="md-nav__link">
+    pxd_admin_extensions.contrib.stats.factories
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pxd_admin_extensions.contrib.stats.factories.create_simple_proxy_model" class="md-nav__link">
+    create_simple_proxy_model()
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pxd_admin_extensions.contrib.stats.factories.register_stats" class="md-nav__link">
+    register_stats()
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+    
+  </li>
+
+        
+          
+          
+          
+
+
+
+  <li class="md-nav__item">
+    <a href="../templatetags/" class="md-nav__link">
+      Template tags
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+
+  <li class="md-nav__item">
+    <a href="../../jet/" class="md-nav__link">
+      Jet extensions
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+
+  <li class="md-nav__item">
+    <a href="../../rangefilter/" class="md-nav__link">
+      Range filter
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+
+  <li class="md-nav__item">
+    <a href="../../all/" class="md-nav__link">
+      All package
+    </a>
+  </li>
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc" >
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#pxd_admin_extensions.contrib.stats.utils" class="md-nav__link">
+    pxd_admin_extensions.contrib.stats.utils
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pxd_admin_extensions.contrib.stats.utils.stat" class="md-nav__link">
+    stat()
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pxd_admin_extensions.contrib.stats.utils.stat_legend" class="md-nav__link">
+    stat_legend()
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pxd_admin_extensions.contrib.stats.admin" class="md-nav__link">
+    pxd_admin_extensions.contrib.stats.admin
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pxd_admin_extensions.contrib.stats.admin.StatsAdmin" class="md-nav__link">
+    StatsAdmin
+  </a>
+  
+    <nav class="md-nav" aria-label="StatsAdmin">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#pxd_admin_extensions.contrib.stats.admin.StatsAdmin.changelist_view" class="md-nav__link">
+    changelist_view()
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pxd_admin_extensions.contrib.stats.admin.StatsAdmin.collect_stats" class="md-nav__link">
+    collect_stats()
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#pxd_admin_extensions.contrib.stats.admin.StatsAdmin.get_stats_date_period" class="md-nav__link">
+    get_stats_date_period()
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pxd_admin_extensions.contrib.stats.factories" class="md-nav__link">
+    pxd_admin_extensions.contrib.stats.factories
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pxd_admin_extensions.contrib.stats.factories.create_simple_proxy_model" class="md-nav__link">
+    create_simple_proxy_model()
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#pxd_admin_extensions.contrib.stats.factories.register_stats" class="md-nav__link">
+    register_stats()
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                
+                <h1 id="admin">Admin</h1>
+<div class="doc doc-object doc-module">
+<h2 class="hidden-toc" id="pxd_admin_extensions.contrib.stats.utils" style="visibility: hidden; position: absolute;">
+        </h2>
+<div class="doc doc-contents first">
+<div class="doc doc-children">
+<div class="doc doc-object doc-function">
+<h2 class="doc doc-heading" id="pxd_admin_extensions.contrib.stats.utils.stat">
+
+<code class="highlight language-python"><span class="n">stat</span><span class="p">(</span><span class="n">title</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">legend</span><span class="o">=</span><span class="p">(),</span> <span class="n">key</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">y</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">x</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">template_name</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">config</span><span class="o">=</span><span class="p">{})</span></code>
+
+
+      </h2>
+<div class="doc doc-contents ">
+<p>Statistics resolver method wrapper.
+Registers a new statistics block to display and with what inside.</p>
+<p><strong>Parameters:</strong></p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Type</th>
+<th>Description</th>
+<th>Default</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>title</code></td>
+<td><code>str</code></td>
+<td>
+<p>Block title. Defaults to None.</p>
+</td>
+<td><code>None</code></td>
+</tr>
+<tr>
+<td><code>legend</code></td>
+<td><code>List[str]</code></td>
+<td>
+<p>List of field descriptors.
+Defaults to ().</p>
+</td>
+<td><code>()</code></td>
+</tr>
+<tr>
+<td><code>key</code></td>
+<td><code>str</code></td>
+<td>
+<p>Stat block unique key. Defaults to None.</p>
+</td>
+<td><code>None</code></td>
+</tr>
+<tr>
+<td><code>y</code></td>
+<td><code>str</code></td>
+<td>
+<p>Y axis key. Defaults to None.</p>
+</td>
+<td><code>None</code></td>
+</tr>
+<tr>
+<td><code>x</code></td>
+<td><code>str</code></td>
+<td>
+<p>X axis key. Defaults to None.</p>
+</td>
+<td><code>None</code></td>
+</tr>
+<tr>
+<td><code>template_name</code></td>
+<td><code>str</code></td>
+<td>
+<p>Django template name to use for block
+rendering.
+Defaults to None.</p>
+</td>
+<td><code>None</code></td>
+</tr>
+<tr>
+<td><code>config</code></td>
+<td><code>dict</code></td>
+<td>
+<p>Additional data to configure block.
+Defaults to {}.</p>
+</td>
+<td><code>{}</code></td>
+</tr>
+</tbody>
+</table>
+<p><strong>Examples:</strong></p>
+<div class="highlight">
+<pre><span></span><code><span class="nd">@register_stats</span><span class="p">(</span><span class="n">ExistingModelAdmin</span><span class="p">,</span> <span class="n">model</span><span class="o">=</span><span class="n">ExistingModel</span><span class="p">)</span>
+<span class="k">class</span> <span class="nc">ExistingModelStatsAdmin</span><span class="p">:</span>
+    <span class="nd">@stat</span><span class="p">(</span><span class="n">_</span><span class="p">(</span><span class="s1">'Participants per domain'</span><span class="p">),</span> <span class="p">(</span>
+        <span class="n">stat_legend</span><span class="p">(</span><span class="s1">'domain'</span><span class="p">,</span> <span class="n">_</span><span class="p">(</span><span class="s1">'Domain'</span><span class="p">)),</span>
+        <span class="n">stat_legend</span><span class="p">(</span><span class="s1">'participants_count'</span><span class="p">,</span> <span class="n">_</span><span class="p">(</span><span class="s1">'Participants count'</span><span class="p">)),</span>
+    <span class="p">),</span> <span class="n">config</span><span class="o">=</span><span class="p">{</span><span class="s1">'type'</span><span class="p">:</span> <span class="s1">'pie'</span><span class="p">,</span> <span class="s1">'labelType'</span><span class="p">:</span> <span class="s1">'percent'</span><span class="p">})</span>
+    <span class="k">def</span> <span class="nf">get_participants_per_domain</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">request</span><span class="p">,</span> <span class="n">qs</span><span class="p">):</span>
+        <span class="k">return</span> <span class="p">(</span>
+            <span class="n">qs</span>
+            <span class="o">.</span><span class="n">values</span><span class="p">(</span><span class="s1">'domain'</span><span class="p">)</span>
+            <span class="o">.</span><span class="n">annotate</span><span class="p">(</span><span class="n">participants_count</span><span class="o">=</span><span class="n">models</span><span class="o">.</span><span class="n">Count</span><span class="p">(</span>
+                <span class="s1">'participants__participant_id'</span><span class="p">,</span> <span class="n">distinct</span><span class="o">=</span><span class="kc">True</span>
+            <span class="p">))</span>
+            <span class="o">.</span><span class="n">order_by</span><span class="p">(</span><span class="s1">'domain'</span><span class="p">)</span>
+        <span class="p">)</span>
+</code></pre>
+</div>
+<p>By default every <code>stat</code> must return list of dicts with some valuable
+stats data. That will be then transformed using legend and config
+into a required chart.</p>
+<details class="quote">
+          <summary>Source code in <code>pxd_admin_extensions/contrib/stats/utils.py</code></summary>
+          <div class="highlight">
+<pre><span></span><code><span class="k">def</span> <span class="nf">stat</span><span class="p">(</span>
+    <span class="n">title</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">legend</span><span class="o">=</span><span class="p">(),</span> <span class="n">key</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">y</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">x</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">template_name</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span>
+    <span class="n">config</span><span class="o">=</span><span class="p">{}</span>
+<span class="p">):</span>
+    <span class="sd">"""Statistics resolver method wrapper.</span>
+<span class="sd">    Registers a new statistics block to display and with what inside.</span>
+
+<span class="sd">    Args:</span>
+<span class="sd">        title (str, optional): Block title. Defaults to None.</span>
+<span class="sd">        legend (List[str], optional): List of field descriptors.</span>
+<span class="sd">            Defaults to ().</span>
+<span class="sd">        key (str, optional): Stat block unique key. Defaults to None.</span>
+<span class="sd">        y (str, optional): Y axis key. Defaults to None.</span>
+<span class="sd">        x (str, optional): X axis key. Defaults to None.</span>
+<span class="sd">        template_name (str, optional): Django template name to use for block</span>
+<span class="sd">            rendering.</span>
+<span class="sd">            Defaults to None.</span>
+<span class="sd">        config (dict, optional): Additional data to configure block.</span>
+<span class="sd">            Defaults to {}.</span>
+
+<span class="sd">    Example:</span>
+<span class="sd">        ```python</span>
+<span class="sd">        @register_stats(ExistingModelAdmin, model=ExistingModel)</span>
+<span class="sd">        class ExistingModelStatsAdmin:</span>
+<span class="sd">            @stat(_('Participants per domain'), (</span>
+<span class="sd">                stat_legend('domain', _('Domain')),</span>
+<span class="sd">                stat_legend('participants_count', _('Participants count')),</span>
+<span class="sd">            ), config={'type': 'pie', 'labelType': 'percent'})</span>
+<span class="sd">            def get_participants_per_domain(self, request, qs):</span>
+<span class="sd">                return (</span>
+<span class="sd">                    qs</span>
+<span class="sd">                    .values('domain')</span>
+<span class="sd">                    .annotate(participants_count=models.Count(</span>
+<span class="sd">                        'participants__participant_id', distinct=True</span>
+<span class="sd">                    ))</span>
+<span class="sd">                    .order_by('domain')</span>
+<span class="sd">                )</span>
+<span class="sd">        ```</span>
+
+<span class="sd">        By default every `stat` must return list of dicts with some valuable</span>
+<span class="sd">        stats data. That will be then transformed using legend and config</span>
+<span class="sd">        into a required chart.</span>
+<span class="sd">    """</span>
+    <span class="k">assert</span> <span class="nb">len</span><span class="p">(</span><span class="n">legend</span><span class="p">)</span> <span class="o">&gt;</span> <span class="mi">1</span><span class="p">,</span> <span class="s1">'There must be at least 2 parameters to manage.'</span>
+    <span class="k">assert</span> <span class="nb">len</span><span class="p">(</span><span class="n">legend</span><span class="p">)</span> <span class="o">&lt;</span> <span class="mi">4</span><span class="p">,</span> <span class="s1">'We could match not more than 3 values at a time.'</span>
+
+    <span class="n">x</span> <span class="o">=</span> <span class="n">x</span> <span class="ow">or</span> <span class="n">legend</span><span class="p">[</span><span class="mi">0</span><span class="p">][</span><span class="s1">'key'</span><span class="p">]</span>
+    <span class="n">y</span> <span class="o">=</span> <span class="n">y</span> <span class="ow">or</span> <span class="n">legend</span><span class="p">[</span><span class="mi">1</span><span class="p">][</span><span class="s1">'key'</span><span class="p">]</span>
+
+    <span class="k">def</span> <span class="nf">wrapper</span><span class="p">(</span><span class="n">func</span><span class="p">):</span>
+        <span class="n">func</span><span class="o">.</span><span class="n">title</span> <span class="o">=</span> <span class="n">title</span>
+        <span class="n">func</span><span class="o">.</span><span class="n">template_name</span> <span class="o">=</span> <span class="n">template_name</span>
+        <span class="n">func</span><span class="o">.</span><span class="n">config</span> <span class="o">=</span> <span class="p">{</span><span class="s1">'legend'</span><span class="p">:</span> <span class="n">legend</span><span class="p">,</span> <span class="s1">'y'</span><span class="p">:</span> <span class="n">y</span><span class="p">,</span> <span class="s1">'x'</span><span class="p">:</span> <span class="n">x</span><span class="p">,</span> <span class="o">**</span><span class="n">config</span><span class="p">}</span>
+        <span class="n">func</span><span class="o">.</span><span class="n">key</span> <span class="o">=</span> <span class="n">key</span>
+        <span class="n">func</span><span class="o">.</span><span class="n">is_stat</span> <span class="o">=</span> <span class="kc">True</span>
+
+        <span class="k">return</span> <span class="n">func</span>
+    <span class="k">return</span> <span class="n">wrapper</span>
+</code></pre>
+</div>
+</details>
+</div>
+</div>
+<div class="doc doc-object doc-function">
+<h2 class="doc doc-heading" id="pxd_admin_extensions.contrib.stats.utils.stat_legend">
+
+<code class="highlight language-python"><span class="n">stat_legend</span><span class="p">(</span><span class="n">key</span><span class="p">,</span> <span class="n">title</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">)</span></code>
+
+
+      </h2>
+<div class="doc doc-contents ">
+<p>Simplifier for statistics legend definition.</p>
+<p><strong>Parameters:</strong></p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Type</th>
+<th>Description</th>
+<th>Default</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>key</code></td>
+<td><code>str</code></td>
+<td>
+<p>Legend key.</p>
+</td>
+<td><em>required</em></td>
+</tr>
+<tr>
+<td><code>title</code></td>
+<td><code>str</code></td>
+<td>
+<p>Legend's title. Defaults to None.</p>
+</td>
+<td><code>None</code></td>
+</tr>
+</tbody>
+</table>
+<details class="quote">
+          <summary>Source code in <code>pxd_admin_extensions/contrib/stats/utils.py</code></summary>
+          <div class="highlight">
+<pre><span></span><code><span class="k">def</span> <span class="nf">stat_legend</span><span class="p">(</span><span class="n">key</span><span class="p">,</span> <span class="n">title</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">):</span>
+    <span class="sd">"""Simplifier for statistics legend definition.</span>
+
+<span class="sd">    Args:</span>
+<span class="sd">        key (str): Legend key.</span>
+<span class="sd">        title (str, optional): Legend's title. Defaults to None.</span>
+<span class="sd">    """</span>
+    <span class="k">return</span> <span class="p">{</span><span class="s1">'key'</span><span class="p">:</span> <span class="n">key</span><span class="p">,</span> <span class="s1">'title'</span><span class="p">:</span> <span class="n">title</span> <span class="ow">or</span> <span class="n">key</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">}</span>
+</code></pre>
+</div>
+</details>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="doc doc-object doc-module">
+<h2 class="hidden-toc" id="pxd_admin_extensions.contrib.stats.admin" style="visibility: hidden; position: absolute;">
+        </h2>
+<div class="doc doc-contents first">
+<div class="doc doc-children">
+<div class="doc doc-object doc-class">
+<h2 class="doc doc-heading" id="pxd_admin_extensions.contrib.stats.admin.StatsAdmin">
+
+        <code>StatsAdmin</code>
+
+
+
+      </h2>
+<div class="doc doc-contents ">
+<p>Admin basement for stats interface.</p>
+<div class="doc doc-children">
+<div class="doc doc-object doc-method">
+<h3 class="doc doc-heading" id="pxd_admin_extensions.contrib.stats.admin.StatsAdmin.changelist_view">
+
+<code class="highlight language-python"><span class="n">changelist_view</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">request</span><span class="p">,</span> <span class="n">extra_context</span><span class="o">=</span><span class="kc">None</span><span class="p">)</span></code>
+
+
+      </h3>
+<div class="doc doc-contents ">
+<p>The 'change list' admin view for this model.</p>
+<details class="quote">
+          <summary>Source code in <code>pxd_admin_extensions/contrib/stats/admin.py</code></summary>
+          <div class="highlight">
+<pre><span></span><code><span class="k">def</span> <span class="nf">changelist_view</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">request</span><span class="p">,</span> <span class="n">extra_context</span><span class="o">=</span><span class="kc">None</span><span class="p">):</span>
+    <span class="n">response</span> <span class="o">=</span> <span class="nb">super</span><span class="p">()</span><span class="o">.</span><span class="n">changelist_view</span><span class="p">(</span>
+        <span class="n">request</span><span class="p">,</span> <span class="n">extra_context</span><span class="o">=</span><span class="n">extra_context</span><span class="p">,</span>
+    <span class="p">)</span>
+    <span class="k">try</span><span class="p">:</span>
+        <span class="n">qs</span> <span class="o">=</span> <span class="n">response</span><span class="o">.</span><span class="n">context_data</span><span class="p">[</span><span class="s1">'cl'</span><span class="p">]</span><span class="o">.</span><span class="n">queryset</span>
+    <span class="k">except</span> <span class="p">(</span><span class="ne">AttributeError</span><span class="p">,</span> <span class="ne">KeyError</span><span class="p">):</span>
+        <span class="k">return</span> <span class="n">response</span>
+
+    <span class="n">response</span><span class="o">.</span><span class="n">context_data</span><span class="p">[</span><span class="s1">'stats'</span><span class="p">]</span> <span class="o">=</span> <span class="bp">self</span><span class="o">.</span><span class="n">collect_stats</span><span class="p">(</span><span class="n">request</span><span class="p">,</span> <span class="n">qs</span><span class="p">)</span>
+    <span class="n">response</span><span class="o">.</span><span class="n">context_data</span><span class="p">[</span><span class="s1">'stats_columns'</span><span class="p">]</span> <span class="o">=</span> <span class="nb">list</span><span class="p">(</span><span class="nb">range</span><span class="p">(</span><span class="nb">min</span><span class="p">(</span>
+        <span class="bp">self</span><span class="o">.</span><span class="n">stat_columns_amount</span><span class="p">,</span> <span class="nb">len</span><span class="p">(</span><span class="n">response</span><span class="o">.</span><span class="n">context_data</span><span class="p">[</span><span class="s1">'stats'</span><span class="p">])</span>
+    <span class="p">)))</span>
+
+    <span class="k">return</span> <span class="n">response</span>
+</code></pre>
+</div>
+</details>
+</div>
+</div>
+<div class="doc doc-object doc-method">
+<h3 class="doc doc-heading" id="pxd_admin_extensions.contrib.stats.admin.StatsAdmin.collect_stats">
+
+<code class="highlight language-python"><span class="n">collect_stats</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">request</span><span class="p">,</span> <span class="n">qs</span><span class="p">)</span></code>
+
+
+      </h3>
+<div class="doc doc-contents ">
+<p>Collects all the defined stat callers and executes them.</p>
+<details class="quote">
+          <summary>Source code in <code>pxd_admin_extensions/contrib/stats/admin.py</code></summary>
+          <div class="highlight">
+<pre><span></span><code><span class="k">def</span> <span class="nf">collect_stats</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">request</span><span class="p">,</span> <span class="n">qs</span><span class="p">):</span>
+    <span class="sd">"""Collects all the defined stat callers and executes them.</span>
+<span class="sd">    """</span>
+    <span class="n">attributes</span> <span class="o">=</span> <span class="p">((</span><span class="n">key</span><span class="p">,</span> <span class="nb">getattr</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">key</span><span class="p">))</span> <span class="k">for</span> <span class="n">key</span> <span class="ow">in</span> <span class="nb">dir</span><span class="p">(</span><span class="bp">self</span><span class="p">))</span>
+    <span class="n">stat_callables</span> <span class="o">=</span> <span class="p">(</span>
+        <span class="p">(</span><span class="n">key</span><span class="p">,</span> <span class="n">attr</span><span class="p">)</span> <span class="k">for</span> <span class="n">key</span><span class="p">,</span> <span class="n">attr</span> <span class="ow">in</span> <span class="n">attributes</span>
+        <span class="k">if</span> <span class="n">callable</span><span class="p">(</span><span class="n">attr</span><span class="p">)</span> <span class="ow">and</span> <span class="nb">hasattr</span><span class="p">(</span><span class="n">attr</span><span class="p">,</span> <span class="s1">'is_stat'</span><span class="p">)</span> <span class="ow">and</span> <span class="n">attr</span><span class="o">.</span><span class="n">is_stat</span>
+    <span class="p">)</span>
+    <span class="n">key_normalized</span> <span class="o">=</span> <span class="p">(</span>
+        <span class="p">(</span>
+            <span class="n">attr</span><span class="o">.</span><span class="n">key</span> <span class="k">if</span> <span class="nb">hasattr</span><span class="p">(</span><span class="n">attr</span><span class="p">,</span> <span class="s1">'key'</span><span class="p">)</span> <span class="ow">and</span> <span class="n">attr</span><span class="o">.</span><span class="n">key</span> <span class="k">else</span>
+            <span class="n">key</span><span class="p">[</span><span class="n">key</span><span class="o">.</span><span class="n">startswith</span><span class="p">(</span><span class="s1">'get_'</span><span class="p">)</span> <span class="ow">and</span> <span class="mi">4</span> <span class="ow">or</span> <span class="mi">0</span><span class="p">:],</span>
+            <span class="n">attr</span>
+        <span class="p">)</span>
+        <span class="k">for</span> <span class="n">key</span><span class="p">,</span> <span class="n">attr</span> <span class="ow">in</span> <span class="n">stat_callables</span>
+    <span class="p">)</span>
+
+    <span class="k">return</span> <span class="p">[</span>
+        <span class="p">{</span>
+            <span class="s1">'key'</span><span class="p">:</span> <span class="n">k</span><span class="p">,</span>
+            <span class="s1">'result'</span><span class="p">:</span> <span class="nb">list</span><span class="p">(</span><span class="n">attr</span><span class="p">(</span><span class="n">request</span><span class="p">,</span> <span class="n">qs</span><span class="p">)),</span>
+            <span class="s1">'config'</span><span class="p">:</span> <span class="nb">getattr</span><span class="p">(</span><span class="n">attr</span><span class="p">,</span> <span class="s1">'config'</span><span class="p">,</span> <span class="kc">None</span><span class="p">)</span> <span class="ow">or</span> <span class="p">{},</span>
+            <span class="s1">'template_name'</span><span class="p">:</span> <span class="p">(</span>
+                <span class="nb">getattr</span><span class="p">(</span><span class="n">attr</span><span class="p">,</span> <span class="s1">'template_name'</span><span class="p">,</span> <span class="kc">None</span><span class="p">)</span> <span class="ow">or</span>
+                <span class="bp">self</span><span class="o">.</span><span class="n">stat_display_default_template_name</span>
+            <span class="p">),</span>
+            <span class="s1">'title'</span><span class="p">:</span> <span class="nb">getattr</span><span class="p">(</span><span class="n">attr</span><span class="p">,</span> <span class="s1">'title'</span><span class="p">,</span> <span class="kc">None</span><span class="p">)</span> <span class="ow">or</span> <span class="n">k</span><span class="p">,</span>
+        <span class="p">}</span>
+        <span class="k">for</span> <span class="n">k</span><span class="p">,</span> <span class="n">attr</span> <span class="ow">in</span> <span class="n">key_normalized</span>
+    <span class="p">]</span>
+</code></pre>
+</div>
+</details>
+</div>
+</div>
+<div class="doc doc-object doc-method">
+<h3 class="doc doc-heading" id="pxd_admin_extensions.contrib.stats.admin.StatsAdmin.get_stats_date_period">
+
+<code class="highlight language-python"><span class="n">get_stats_date_period</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">request</span><span class="p">,</span> <span class="n">date_hierarchy</span><span class="o">=</span><span class="kc">None</span><span class="p">)</span></code>
+
+
+      </h3>
+<div class="doc doc-contents ">
+<p>Simple method to resolve date truncation basedon the date
+hierarchy filter.</p>
+<details class="quote">
+          <summary>Source code in <code>pxd_admin_extensions/contrib/stats/admin.py</code></summary>
+          <div class="highlight">
+<pre><span></span><code><span class="k">def</span> <span class="nf">get_stats_date_period</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span> <span class="n">request</span><span class="p">,</span> <span class="n">date_hierarchy</span><span class="o">=</span><span class="kc">None</span><span class="p">):</span>
+    <span class="sd">"""Simple method to resolve date truncation basedon the date</span>
+<span class="sd">    hierarchy filter.</span>
+<span class="sd">    """</span>
+    <span class="n">date_hierarchy</span> <span class="o">=</span> <span class="n">date_hierarchy</span> <span class="ow">or</span> <span class="bp">self</span><span class="o">.</span><span class="n">date_hierarchy</span>
+
+    <span class="k">if</span> <span class="n">date_hierarchy</span> <span class="o">+</span> <span class="s1">'__day'</span> <span class="ow">in</span> <span class="n">request</span><span class="o">.</span><span class="n">GET</span><span class="p">:</span>
+        <span class="k">return</span> <span class="s1">'minute'</span>
+    <span class="k">if</span> <span class="n">date_hierarchy</span> <span class="o">+</span> <span class="s1">'__month'</span> <span class="ow">in</span> <span class="n">request</span><span class="o">.</span><span class="n">GET</span><span class="p">:</span>
+        <span class="k">return</span> <span class="s1">'day'</span>
+    <span class="k">if</span> <span class="n">date_hierarchy</span> <span class="o">+</span> <span class="s1">'__year'</span> <span class="ow">in</span> <span class="n">request</span><span class="o">.</span><span class="n">GET</span><span class="p">:</span>
+        <span class="k">return</span> <span class="s1">'month'</span>
+
+    <span class="k">return</span> <span class="s1">'year'</span>
+</code></pre>
+</div>
+</details>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="doc doc-object doc-module">
+<h2 class="hidden-toc" id="pxd_admin_extensions.contrib.stats.factories" style="visibility: hidden; position: absolute;">
+        </h2>
+<div class="doc doc-contents first">
+<div class="doc doc-children">
+<div class="doc doc-object doc-function">
+<h2 class="doc doc-heading" id="pxd_admin_extensions.contrib.stats.factories.create_simple_proxy_model">
+
+<code class="highlight language-python"><span class="n">create_simple_proxy_model</span><span class="p">(</span><span class="n">Model</span><span class="p">,</span> <span class="n">postfix</span><span class="o">=</span><span class="s1">'Proxy'</span><span class="p">,</span> <span class="n">verbose_name</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="n">verbose_name_plural</span><span class="o">=</span><span class="kc">None</span><span class="p">)</span></code>
+
+
+      </h2>
+<div class="doc doc-contents ">
+<p>Factory to create "empty" proxy model.</p>
+<p><strong>Parameters:</strong></p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Type</th>
+<th>Description</th>
+<th>Default</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>Model</code></td>
+<td><code>type</code></td>
+<td>
+<p>Base model to inherit from.</p>
+</td>
+<td><em>required</em></td>
+</tr>
+<tr>
+<td><code>postfix</code></td>
+<td><code>str</code></td>
+<td>
+<p>Postfix for model to have unique name.
+Defaults to 'Proxy'.</p>
+</td>
+<td><code>'Proxy'</code></td>
+</tr>
+<tr>
+<td><code>verbose_name</code></td>
+<td><code>str</code></td>
+<td>
+<p>Model's verbose name. Defaults to None.</p>
+</td>
+<td><code>None</code></td>
+</tr>
+<tr>
+<td><code>verbose_name_plural</code></td>
+<td><code>str</code></td>
+<td>
+<p>Model's plural verbose name.
+Defaults to None.</p>
+</td>
+<td><code>None</code></td>
+</tr>
+</tbody>
+</table>
+<details class="quote">
+          <summary>Source code in <code>pxd_admin_extensions/contrib/stats/factories.py</code></summary>
+          <div class="highlight">
+<pre><span></span><code><span class="k">def</span> <span class="nf">create_simple_proxy_model</span><span class="p">(</span>
+    <span class="n">Model</span><span class="p">,</span>
+    <span class="n">postfix</span><span class="p">:</span> <span class="nb">str</span><span class="o">=</span><span class="s1">'Proxy'</span><span class="p">,</span>
+    <span class="n">verbose_name</span><span class="p">:</span> <span class="nb">str</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span>
+    <span class="n">verbose_name_plural</span><span class="p">:</span> <span class="nb">str</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span>
+<span class="p">):</span>
+    <span class="sd">"""Factory to create "empty" proxy model.</span>
+
+<span class="sd">    Args:</span>
+<span class="sd">        Model (type): Base model to inherit from.</span>
+<span class="sd">        postfix (str, optional): Postfix for model to have unique name.</span>
+<span class="sd">            Defaults to 'Proxy'.</span>
+<span class="sd">        verbose_name (str, optional): Model's verbose name. Defaults to None.</span>
+<span class="sd">        verbose_name_plural (str, optional): Model's plural verbose name.</span>
+<span class="sd">            Defaults to None.</span>
+<span class="sd">    """</span>
+    <span class="n">v</span> <span class="o">=</span> <span class="n">verbose_name</span> <span class="ow">or</span> <span class="n">Model</span><span class="o">.</span><span class="n">_meta</span><span class="o">.</span><span class="n">verbose_name_raw</span>
+    <span class="n">vp</span> <span class="o">=</span> <span class="n">verbose_name_plural</span> <span class="ow">or</span> <span class="n">Model</span><span class="o">.</span><span class="n">_meta</span><span class="o">.</span><span class="n">verbose_name_plural</span>
+
+    <span class="k">class</span> <span class="nc">Meta</span><span class="p">:</span>
+        <span class="n">proxy</span> <span class="o">=</span> <span class="kc">True</span>
+        <span class="n">verbose_name</span> <span class="o">=</span> <span class="n">v</span>
+        <span class="n">verbose_name_plural</span> <span class="o">=</span> <span class="n">vp</span>
+
+    <span class="k">return</span> <span class="nb">type</span><span class="p">(</span><span class="n">Model</span><span class="o">.</span><span class="vm">__name__</span> <span class="o">+</span> <span class="p">(</span><span class="n">postfix</span> <span class="ow">or</span> <span class="s1">'Proxy'</span><span class="p">),</span> <span class="p">(</span><span class="n">Model</span><span class="p">,</span> <span class="p">),</span> <span class="p">{</span>
+        <span class="s1">'__module__'</span><span class="p">:</span> <span class="n">Model</span><span class="o">.</span><span class="vm">__module__</span><span class="p">,</span>
+        <span class="s1">'Meta'</span><span class="p">:</span> <span class="n">Meta</span>
+    <span class="p">})</span>
+</code></pre>
+</div>
+</details>
+</div>
+</div>
+<div class="doc doc-object doc-function">
+<h2 class="doc doc-heading" id="pxd_admin_extensions.contrib.stats.factories.register_stats">
+
+<code class="highlight language-python"><span class="n">register_stats</span><span class="p">(</span><span class="n">underlying_admin</span><span class="p">,</span> <span class="n">registerer</span><span class="o">=&lt;</span><span class="n">function</span> <span class="n">register</span> <span class="n">at</span> <span class="mh">0x7f65361ed430</span><span class="o">&gt;</span><span class="p">,</span> <span class="n">stats_admin</span><span class="o">=&lt;</span><span class="k">class</span> <span class="err">'</span><span class="nc">pxd_admin_extensions</span><span class="o">.</span><span class="n">contrib</span><span class="o">.</span><span class="n">stats</span><span class="o">.</span><span class="n">admin</span><span class="o">.</span><span class="n">StatsAdmin</span><span class="s1">'&gt;, model=None, **</span><span class="n">kwargs</span><span class="p">)</span></code>
+
+
+      </h2>
+<div class="doc doc-contents ">
+<p>Factory to generate admin panel for statistics display.</p>
+<p><strong>Parameters:</strong></p>
+<table>
+<thead>
+<tr>
+<th>Name</th>
+<th>Type</th>
+<th>Description</th>
+<th>Default</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><code>underlying_admin</code></td>
+<td><code>ModelAdmin</code></td>
+<td>
+<p>Current admin class.</p>
+</td>
+<td><em>required</em></td>
+</tr>
+<tr>
+<td><code>registerer</code></td>
+<td><code>Callable</code></td>
+<td>
+<p>Admin registerer.
+Defaults to admin.register.</p>
+</td>
+<td><code>&lt;function register at 0x7f65361ed430&gt;</code></td>
+</tr>
+<tr>
+<td><code>stats_admin</code></td>
+<td><code>type</code></td>
+<td>
+<p>Base class with admin statistics
+imlementation.
+Defaults to StatsAdmin.</p>
+</td>
+<td><code>&lt;class 'pxd_admin_extensions.contrib.stats.admin.StatsAdmin'&gt;</code></td>
+</tr>
+<tr>
+<td><code>model</code></td>
+<td><code>Model</code></td>
+<td>
+<p>Model to add stats for. Defaults to None.</p>
+</td>
+<td><code>None</code></td>
+</tr>
+</tbody>
+</table>
+<details class="quote">
+          <summary>Source code in <code>pxd_admin_extensions/contrib/stats/factories.py</code></summary>
+          <div class="highlight">
+<pre><span></span><code><span class="k">def</span> <span class="nf">register_stats</span><span class="p">(</span>
+    <span class="n">underlying_admin</span><span class="p">,</span> <span class="n">registerer</span><span class="o">=</span><span class="n">admin</span><span class="o">.</span><span class="n">register</span><span class="p">,</span> <span class="n">stats_admin</span><span class="o">=</span><span class="n">StatsAdmin</span><span class="p">,</span>
+    <span class="n">model</span><span class="o">=</span><span class="kc">None</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span>
+<span class="p">):</span>
+    <span class="sd">"""Factory to generate admin panel for statistics display.</span>
+
+<span class="sd">    Args:</span>
+<span class="sd">        underlying_admin (ModelAdmin): Current admin class.</span>
+<span class="sd">        registerer (Callable, optional): Admin registerer.</span>
+<span class="sd">            Defaults to admin.register.</span>
+<span class="sd">        stats_admin (type, optional): Base class with admin statistics</span>
+<span class="sd">            imlementation.</span>
+<span class="sd">            Defaults to StatsAdmin.</span>
+<span class="sd">        model (Model, optional): Model to add stats for. Defaults to None.</span>
+<span class="sd">    """</span>
+    <span class="k">def</span> <span class="nf">wrapper</span><span class="p">(</span><span class="n">Class</span><span class="p">):</span>
+        <span class="n">postfix</span> <span class="o">=</span> <span class="n">STATS_POSTFIX</span>
+        <span class="n">Model</span> <span class="o">=</span> <span class="n">model</span> <span class="ow">or</span> <span class="n">underlying_admin</span><span class="o">.</span><span class="n">model</span>
+        <span class="n">ProxyModel</span> <span class="o">=</span> <span class="n">create_simple_proxy_model</span><span class="p">(</span><span class="n">Model</span><span class="p">,</span> <span class="n">postfix</span><span class="o">=</span><span class="n">postfix</span><span class="p">)</span>
+        <span class="n">Admin</span> <span class="o">=</span> <span class="nb">type</span><span class="p">(</span>
+            <span class="n">underlying_admin</span><span class="o">.</span><span class="vm">__name__</span><span class="p">,</span>
+            <span class="p">(</span><span class="n">stats_admin</span><span class="p">,</span> <span class="n">Class</span><span class="p">,</span> <span class="n">underlying_admin</span><span class="p">,),</span>
+            <span class="p">{</span>
+                <span class="s1">'underlying_admin'</span><span class="p">:</span> <span class="n">underlying_admin</span><span class="p">,</span>
+                <span class="s1">'underlying_admin'</span><span class="p">:</span> <span class="n">Model</span><span class="p">,</span>
+            <span class="p">}</span>
+        <span class="p">)</span>
+        <span class="n">underlying_admin</span><span class="o">.</span><span class="n">change_list_template</span> <span class="o">=</span> <span class="n">ADMIN_STAT_ALTERNATIVES</span><span class="o">.</span><span class="n">get</span><span class="p">(</span>
+            <span class="n">underlying_admin</span><span class="o">.</span><span class="n">change_list_template</span><span class="p">,</span>
+            <span class="n">underlying_admin</span><span class="o">.</span><span class="n">change_list_template</span>
+        <span class="p">)</span>
+
+        <span class="k">return</span> <span class="n">registerer</span><span class="p">(</span><span class="n">ProxyModel</span><span class="p">,</span> <span class="o">**</span><span class="n">kwargs</span><span class="p">)(</span><span class="n">Admin</span><span class="p">)</span>
+
+    <span class="k">return</span> <span class="n">wrapper</span>
+</code></pre>
+</div>
+</details>
+</div>
+</div>
+</div>
+</div>
+</div>
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid" aria-label="Footer">
+        
+          <a href="../" class="md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-footer-nav__button md-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+            </div>
+            <div class="md-footer-nav__title">
+              <div class="md-ellipsis">
+                <span class="md-footer-nav__direction">
+                  Previous
+                </span>
+                Stats
+              </div>
+            </div>
+          </a>
+        
+        
+          <a href="../templatetags/" class="md-footer-nav__link md-footer-nav__link--next" rel="next">
+            <div class="md-footer-nav__title">
+              <div class="md-ellipsis">
+                <span class="md-footer-nav__direction">
+                  Next
+                </span>
+                Template tags
+              </div>
+            </div>
+            <div class="md-footer-nav__button md-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    </div>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+        Made with
+        <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+          Material for MkDocs
+        </a>
+      </div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    
+      <script src="../../../assets/javascripts/vendor.93c04032.min.js"></script>
+      <script src="../../../assets/javascripts/bundle.83e5331e.min.js"></script><script id="__lang" type="application/json">{"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing"}</script>
+      
+      <script>
+        app = initialize({
+          base: "../../..",
+          features: ['navigation.tabs'],
+          search: Object.assign({
+            worker: "../../../assets/javascripts/worker/search.8c7e0a7e.min.js"
+          }, typeof search !== "undefined" && search)
+        })
+      </script>
+      
+    
+  </body>
+</html>

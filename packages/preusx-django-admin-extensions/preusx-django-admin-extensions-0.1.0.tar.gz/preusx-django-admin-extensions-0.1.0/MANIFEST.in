@@ -1,0 +1,5 @@
+recursive-include pxd_admin_extensions *.html
+recursive-include contrib *.html
+global-include *.html
+global-include *.css
+global-include *.js

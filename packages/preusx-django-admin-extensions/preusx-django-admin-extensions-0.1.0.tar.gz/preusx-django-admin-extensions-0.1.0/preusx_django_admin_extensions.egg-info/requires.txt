@@ -1,0 +1,14 @@
+
+[contrib]
+django-admin-rangefilter==0.6.3
+django-admin-numeric-filter==0.1.6
+django-admin-easy==0.6
+django-better-admin-arrayfield==1.4.2
+
+[dev]
+django==3.1.5
+
+[docs]
+mkdocs==1.1.2
+mkdocstrings==0.14.0
+mkdocs-material==6.2.4
