@@ -1,0 +1,4 @@
+requests>=2.24.0
+
+[development]
+wheel>=0.31.0
