@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: HiddenPoem
+Version: 2021.1.12.19.34.35
+Summary: description
+Home-page: https://github.com/Jie-Yuan/HiddenPoem
+Author: YuanJie
+Author-email: 313303303@qq.com
+Maintainer: JieYuan
+Maintainer-email: 313303303@qq.com
+License: Apache
+Description: ## Install
+        ```bash
+        pip install hiddenpoem
+        ```
+        
+        ##  Usage
+        ```bash
+        poem-run - gunicorn
+        ```
+        
+        
+        
+Keywords: tool wheel,yuanjie,utils
+Platform: all
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: Implementation
+Description-Content-Type: text/markdown
