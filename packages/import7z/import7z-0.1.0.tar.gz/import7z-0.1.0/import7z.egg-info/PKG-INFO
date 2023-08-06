@@ -1,0 +1,38 @@
+Metadata-Version: 2.1
+Name: import7z
+Version: 0.1.0
+Summary: Import Python modules from 7z archives.
+Home-page: https://github.com/leejeonghun/import7z
+Author: Jeonghun Lee
+License: UNKNOWN
+Description: [![License](https://img.shields.io/badge/license-Python%20Software%20Foundation-lightgray.svg)](https://opensource.org/licenses/Python-2.0)
+        [![Build Status](https://travis-ci.com/leejeonghun/import7z.svg?branch=master)](https://travis-ci.com/leejeonghun/import7z)
+        [![codecov](https://codecov.io/gh/leejeonghun/import7z/branch/master/graph/badge.svg?token=DBEP9B3EAJ)](https://codecov.io/gh/leejeonghun/import7z)
+        
+        # import7z
+        
+        This module is a modified version of zipimport to import Python modules and packages from 7z-format archives instead ZIP-format.
+        
+        ## Usage
+        
+        ```python
+        import import7z
+        
+        sys.path.insert(0, 'example.7z')
+        sys.path_hooks.insert(0, import7z.importer7z)
+        
+        import some_module_in_7z
+        ```
+        
+        ## License
+        
+        It's Python Software Foundation License cause it used zipimport.c from CPython 3.6.
+        LZMA SDK is public domain.
+        
+Platform: any
+Classifier: License :: OSI Approved :: Python Software Foundation License
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX
+Classifier: Programming Language :: Python
+Description-Content-Type: text/markdown
