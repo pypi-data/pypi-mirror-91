@@ -1,0 +1,11 @@
+README.md
+setup.py
+click_require_creds/__init__.py
+click_require_creds/_core.py
+click_require_creds/_decorators.py
+click_require_creds/_helpers.py
+click_require_creds.egg-info/PKG-INFO
+click_require_creds.egg-info/SOURCES.txt
+click_require_creds.egg-info/dependency_links.txt
+click_require_creds.egg-info/requires.txt
+click_require_creds.egg-info/top_level.txt

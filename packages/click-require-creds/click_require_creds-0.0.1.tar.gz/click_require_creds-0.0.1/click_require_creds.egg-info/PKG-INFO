@@ -1,0 +1,11 @@
+Metadata-Version: 1.2
+Name: click-require-creds
+Version: 0.0.1
+Summary: Click decorator to handle credentials
+Home-page: UNKNOWN
+Author: Carlos Garcia
+Author-email: cgarciaarano@yahoo.es
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.6
