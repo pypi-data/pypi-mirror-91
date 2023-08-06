@@ -1,0 +1,10 @@
+pyxivapi/__init__.py,sha256=7esZ1A6CmnSFc5Ag1DQJ1sMIHfzCFlhK2ANNWNJ4I6g,481
+pyxivapi/client.py,sha256=GmHeyo8VUWiXtO3wkhd9EEGH4lHFaoaesCgYrLFZKt0,16060
+pyxivapi/decorators.py,sha256=TbTYgz_Fu2PJSdj1w8R1yHNNb-WkZHWAbL9Ru671Rvg,459
+pyxivapi/exceptions.py,sha256=YhYf_D5MdEQWJ5tio9GWdKV6ChksRoPfgeHPThHUUxU,1136
+pyxivapi/models.py,sha256=lq4EtSeNJopvULVG70uUihR0xAVk42iahCGj_nCjwtk,672
+pyxivapi-0.5.0.dist-info/LICENSE,sha256=P00pM4ciysn1yaWxucTFDhbFukr8C6SYKBhA5EtaBXQ,1063
+pyxivapi-0.5.0.dist-info/METADATA,sha256=Kg22k3ffMoxzJFW7Hg2xH6dsw-zdJZzI9HVVTzEDF90,4727
+pyxivapi-0.5.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+pyxivapi-0.5.0.dist-info/top_level.txt,sha256=B1qTmyRIncQ7U5SJjl60EcgT7ZxF-tVFM8UC3wfTchk,9
+pyxivapi-0.5.0.dist-info/RECORD,,
