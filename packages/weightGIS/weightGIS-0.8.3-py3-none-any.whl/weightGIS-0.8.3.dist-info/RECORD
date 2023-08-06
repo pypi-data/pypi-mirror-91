@@ -1,0 +1,16 @@
+weightGIS/AdjacentRelations.py,sha256=bCVAkdUMJYsstH5Nr-kDDfCXo3jLNdgC5bkjwdi_baA,2779
+weightGIS/GeoLookup.py,sha256=GD3T8KWOfhyL9lM5lIJVjgJixpGjEchfn7LU8VZOxfI,4370
+weightGIS/__init__.py,sha256=ZazV0DiVmAQ4illSGFGuEy5yfK5Qgb8aWyEbbHMgAHQ,492
+weightGIS/weighting/AdjustWeights.py,sha256=g4EazHpCv-kHiTojv9NRrBMx6JrlVAiP8-7JSAt-GBA,4266
+weightGIS/weighting/AssignWeights.py,sha256=urcHlx403P7RJHzXTJ3ddEuF3ho0EwdeUymL06QhubU,11415
+weightGIS/weighting/ConstructWeights.py,sha256=EZyKepSYTPEkrfmlp76-QmZj4BmTgCcEB3AGizXk0Y0,22911
+weightGIS/weighting/WeightExternal.py,sha256=ypQyQyI35GrUGj7bIyvj_XrPmz91DYJHW0cRYJ0ZJhY,12512
+weightGIS/weighting/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+weightGIS/weighting/Access/SQLParser.py,sha256=_wKQWw2W0ylqoHXQVW7fvn50MDCH_Qa9ksi948_Ifv8,10488
+weightGIS/weighting/Access/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+weightGIS/weighting/Access/access_weighted.py,sha256=rOf9IpWUq1myIfeOYGx8INZbfpRirEUl9cu0vEJZVoE,1509
+weightGIS-0.8.3.dist-info/LICENSE,sha256=m6Hmim3NNA-_y97X6yarvaf6IUerwLQFF3hlCXsc0KI,1090
+weightGIS-0.8.3.dist-info/METADATA,sha256=OzkXdWe9Ol7eLfIzTxzR0p4QDOBm0COLPkVTFP8dckc,1038
+weightGIS-0.8.3.dist-info/WHEEL,sha256=D1Wh14kWDxPnrM-5t_6UCB-UuQNrEODtRa3vF4OsvQY,97
+weightGIS-0.8.3.dist-info/top_level.txt,sha256=QnofQIgp0VHzBoyUFbrAeVTIbQRrzdL0O9rdMH7C994,10
+weightGIS-0.8.3.dist-info/RECORD,,
