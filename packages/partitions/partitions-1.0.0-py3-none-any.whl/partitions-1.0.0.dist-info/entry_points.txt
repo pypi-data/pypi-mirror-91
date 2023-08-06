@@ -1,0 +1,3 @@
+[console_scripts]
+partitions = partitions.main:main
+

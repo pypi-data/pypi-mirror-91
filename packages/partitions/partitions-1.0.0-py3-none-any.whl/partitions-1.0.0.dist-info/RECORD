@@ -1,0 +1,9 @@
+partitions/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+partitions/main.py,sha256=vu-jVFNSmAtRYJrytzkxbKwJJuoncW6MP2JLzylmulM,360
+partitions/partitions.py,sha256=59CkW9dLkod4TFVyaYoS1STpOmVVln3KyYe3Bwfct58,1034
+partitions-1.0.0.dist-info/LICENSE,sha256=5x9ytii86WUdlv5BIE8d3rnbw6gAEz5NerqQz50o50I,1070
+partitions-1.0.0.dist-info/METADATA,sha256=Y642HhB8YNOAtSjUR7KftMrvrkr7bQeNYOh8zCLxtcw,1019
+partitions-1.0.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+partitions-1.0.0.dist-info/entry_points.txt,sha256=HJxbiszCNbLg0-k2xpEwSX__OtnGlnma4sG249ye3n0,53
+partitions-1.0.0.dist-info/top_level.txt,sha256=QPkXzee-CYzYKqCosiq4biXvrSP0k-tOgzgKFrUF5i4,11
+partitions-1.0.0.dist-info/RECORD,,
