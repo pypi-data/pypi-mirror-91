@@ -1,0 +1,11 @@
+README.md
+setup.py
+youtube_sdk_py.egg-info/PKG-INFO
+youtube_sdk_py.egg-info/SOURCES.txt
+youtube_sdk_py.egg-info/dependency_links.txt
+youtube_sdk_py.egg-info/requires.txt
+youtube_sdk_py.egg-info/top_level.txt
+youtubesdk/__init__.py
+youtubesdk/base.py
+youtubesdk/constants.py
+youtubesdk/exceptions.py
