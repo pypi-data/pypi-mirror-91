@@ -1,0 +1,15 @@
+CHANGELOG.txt
+LICENSE.txt
+MANIFEST.in
+README.txt
+__init__.py
+setup.py
+spotlight_api.egg-info/SOURCES.txt
+spotlight_api.egg-info/dependency_links.txt
+spotlight_api.egg-info/requires.txt
+spotlight_api.egg-info/top_level.txt
+spotlightapi.egg-info/PKG-INFO
+spotlightapi.egg-info/SOURCES.txt
+spotlightapi.egg-info/dependency_links.txt
+spotlightapi.egg-info/requires.txt
+spotlightapi.egg-info/top_level.txt
