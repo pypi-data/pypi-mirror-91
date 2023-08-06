@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: viaduc
+Version: 1.0.3
+Summary: probably the simplest way to create a nice-looking gui using python
+Home-page: https://github.com/dtmilano/viaduc
+Author: Diego Torres Milano
+Author-email: dtmilano@gmail.com
+License: Apache
+Keywords: gui,ui,webview,pywebview,tkinter
+Platform: UNKNOWN
+Requires-Dist: argparse
+Requires-Dist: pywebview
+Requires-Dist: forbiddenfruit
+
+viaduc uses pywebview and a bit of html/css/js to provide a gui for other tools and scripts.
+
+
