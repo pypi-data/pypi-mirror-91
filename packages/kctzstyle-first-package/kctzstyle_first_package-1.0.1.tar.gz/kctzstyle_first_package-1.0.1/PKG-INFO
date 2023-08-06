@@ -1,0 +1,22 @@
+Metadata-Version: 1.2
+Name: kctzstyle_first_package
+Version: 1.0.1
+Summary: kctzstyle's first package
+Home-page: https://github.com/kctzstyle/first-pypi-package/
+Author: kctzstyle
+Author-email: kctzstyle@gmail.com
+License: MIT LICENSE
+Description: kctzstyle's first package
+        
+        @Author: kctzstyle
+        @Twitter: @kctzstyle
+        @Reddit: u/kctzstyle
+        @GitHub: https://github.com/kctzstyle/
+        @GitHub Repository: https://github.com/kctzstyle/first-pypi-package/
+        
+        :: Description ::
+        This is kctzstyle's First Package Tutorial using GitHub Python Actions!
+        깃허브 파이썬 액션 튜토리얼입니다! 감사합니다!
+        
+Platform: UNKNOWN
+Requires-Python: >=3
