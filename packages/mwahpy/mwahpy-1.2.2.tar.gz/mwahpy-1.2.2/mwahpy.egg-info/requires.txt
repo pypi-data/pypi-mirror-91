@@ -1,0 +1,7 @@
+numpy
+galpy
+matplotlib
+random
+astropy
+scipy
+pathlib
