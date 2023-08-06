@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: btxAnalysis
+Version: 0.1.4
+Summary: Utility to analyse crypto price data
+Home-page: UNKNOWN
+Author: Malik Koné
+License: UNKNOWN
+Description: 
+        # Table of Contents
+        
+        1.  [Utilities for finance analysis](#org7e87f22)
+            1.  [Licence](#org23f22b1)
+        
+        
+        <a id="org7e87f22"></a>
+        
+        # Utilities for finance analysis
+        
+        
+        <a id="org23f22b1"></a>
+        
+        ## Licence
+        
+        GNU GENERAL PUBLIC LICENSE Version 3, 29 June 2007
+        
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Financial and Insurance Industry
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: GNU General Public License (GPL)
+Classifier: Natural Language :: French
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Office/Business :: Financial
+Classifier: Topic :: Utilities
+Requires-Python: >=3.8
+Description-Content-Type: text/x-rst
+Provides-Extra: dev
+Provides-Extra: packaging

@@ -1,0 +1,16 @@
+README.rst
+setup.cfg
+setup.py
+btxAnalysis/__init__.py
+btxAnalysis/get_pos.py
+btxAnalysis/statcons.py
+btxAnalysis/statistiques.py
+btxAnalysis/statplot.py
+btxAnalysis/stattimes.py
+btxAnalysis/statutils.py
+btxAnalysis.egg-info/PKG-INFO
+btxAnalysis.egg-info/SOURCES.txt
+btxAnalysis.egg-info/dependency_links.txt
+btxAnalysis.egg-info/not-zip-safe
+btxAnalysis.egg-info/requires.txt
+btxAnalysis.egg-info/top_level.txt

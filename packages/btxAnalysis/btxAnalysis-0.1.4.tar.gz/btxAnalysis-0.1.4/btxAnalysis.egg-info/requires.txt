@@ -1,0 +1,9 @@
+pandas
+
+[dev]
+mypy
+flake8
+black
+
+[packaging]
+twine
