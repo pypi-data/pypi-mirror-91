@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: dropbox-pi-cli
+Version: 0.0.3
+Summary: A command line tool for raspberry py
+Home-page: https://github.com/martinezger/dropbox-pi-cli
+Author: Germán Martinez
+Author-email: germand_m@hotmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: Click
+
+# dropbox-pi-cli
+A dropbox command line tool
+
+Before start you only need to setup the envar:
+```bash
+export DROPBOX_ACCESS_TOKEN='YOUR AUTH TOKEN HERE'
+```
+
+
