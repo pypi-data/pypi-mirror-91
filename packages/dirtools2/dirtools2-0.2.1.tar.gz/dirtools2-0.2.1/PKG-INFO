@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: dirtools2
+Version: 0.2.1
+Summary: Exclude/ignore files in a directory (using .gitignore like syntax), compute hash, search projects for an entire directory tree and gzip compression.
+Home-page: https://github.com/otapi/dirtools2
+Author: otapi
+License: MIT
+Description: ===========
+         Dirtools2
+        ===========
+        
+Keywords: exclude exclusion directory hash compression gzip
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Description-Content-Type: text/markdown
