@@ -1,0 +1,8 @@
+README.md
+setup.py
+tol_colors.py
+tol_colors.egg-info/PKG-INFO
+tol_colors.egg-info/SOURCES.txt
+tol_colors.egg-info/dependency_links.txt
+tol_colors.egg-info/requires.txt
+tol_colors.egg-info/top_level.txt
