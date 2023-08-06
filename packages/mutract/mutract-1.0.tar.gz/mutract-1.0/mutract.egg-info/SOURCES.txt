@@ -1,0 +1,12 @@
+README.md
+setup.py
+mutract/__init__.py
+mutract/mutract.py
+mutract/tests.py
+mutract/utils.py
+mutract.egg-info/PKG-INFO
+mutract.egg-info/SOURCES.txt
+mutract.egg-info/dependency_links.txt
+mutract.egg-info/entry_points.txt
+mutract.egg-info/requires.txt
+mutract.egg-info/top_level.txt
