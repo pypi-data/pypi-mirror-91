@@ -1,0 +1,4 @@
+
+        [console_scripts]
+        tess=tess.src.cli:main
+    
