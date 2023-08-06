@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: kuro2sudachi
+Version: 0.1.1
+Summary: 
+Author: po3rin
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Requires-Dist: jaconv (>=0.2.4,<0.3.0)
