@@ -1,0 +1,14 @@
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+python_project_skeleton.egg-info/PKG-INFO
+python_project_skeleton.egg-info/SOURCES.txt
+python_project_skeleton.egg-info/dependency_links.txt
+python_project_skeleton.egg-info/top_level.txt
+src/python_project_skeleton/__init__.py
+src/python_project_skeleton/main.ini
+src/python_project_skeleton/main.py
+src/python_project_skeleton/tests/__init__.py
+src/python_project_skeleton/tools/__init__.py
+src/python_project_skeleton/tools/config.py
