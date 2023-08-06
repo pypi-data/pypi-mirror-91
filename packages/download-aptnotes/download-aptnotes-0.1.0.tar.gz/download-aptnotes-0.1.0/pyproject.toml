@@ -1,0 +1,46 @@
+[tool.poetry]
+name = "download-aptnotes"
+version = "0.1.0"
+description = "Download and (optionally) parse APTNotes quickly and easily"
+authors = ["nikstur"]
+readme = "README.md"
+repository = "https://github.com/nikstur/download-aptnotes"
+license = "GPL-3.0-or-later"
+keywords = ["aptnotes", "apt", "infosec", "data"]
+
+[tool.poetry.scripts]
+download-aptnotes = "download_aptnotes.cli:app"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+aiofiles = "^0.6.0"
+aiohttp = {extras = ["speedups"], version = "^3.7.3"}
+beautifulsoup4 = {extras = ["lxml"], version = "^4.9.3"}
+typer = {extras = ["all"], version = "^0.3.2"}
+uvloop = "^0.14.0"
+janus = "^0.6.1"
+aiosqlite = "^0.16.0"
+
+tika = { version = "^1.24", optional = true }
+
+[tool.poetry.extras]
+tika = ["tika"]
+
+[tool.poetry.dev-dependencies]
+black = "^20.8b1"
+bandit = "^1.7.0"
+mypy = "^0.790"
+flake8 = "^3.8.4"
+isort = "^5.7.0"
+pytest = "^6.2.1"
+pre-commit = "^2.9.3"
+
+[tool.isort]
+line_length = 88
+multi_line_output = 3
+include_trailing_comma = true
+use_parentheses = true
+
+[build-system]
+requires = ["poetry_core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
