@@ -1,0 +1,16 @@
+caerus/__init__.py,sha256=IjyzBsZtD5U9J6Xjt4DBUOHu0SzTLU95BxBEkor-8wQ,1067
+caerus/caerus.py,sha256=dg6gop4lfgTBzMjaF35xUoi1jtbtZnT-w8uP57FmFpA,12452
+caerus/examples.py,sha256=Kai-tDAIYGzrXy1uoeMQMhJE9uApK_9xtKprWK4rMs4,1541
+caerus/data/BTCUSDT.zip,sha256=ZEnTHK4XJNbq4f2RUnvxeDjGrgkayKC1kpTJnebPdwI,8910
+caerus/data/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+caerus/data/facebook_stocks.zip,sha256=HFevR_SuF5ZkPP1lS-SNh3KQYWFuqQm9LEtIoMIJuJI,38517
+caerus/utils/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+caerus/utils/csplots.py,sha256=zKRMYJHFTmKMnD8Ol9eP9i_YWnpjXOGiZF2x7nWPsrA,3851
+caerus/utils/csutils.py,sha256=HPi6mfqe00wPtqKw4Y2s4AqUGztkXI-_JJYSk3ycowo,6634
+caerus/utils/ones2idx.py,sha256=n1v0NyRTnWPRHzpdYLgS-1oPfUkliN804OGRpF-1VL8,2726
+caerus/utils/risk_performance_metrics.py,sha256=h_TgVFb1lLUHQVpePHdvOYQnW9yh_3GsJEDiz1qA7uE,8510
+caerus-0.1.3.dist-info/LICENSE,sha256=Z6xHmIiRngz4olg6iBWWy-Ldsqj_rx8ufCNU98reo-c,1119
+caerus-0.1.3.dist-info/METADATA,sha256=fHz4Zsd1YI6iZJs5ebbQjpJm-TmXqC9kKOfodQ-JOLw,4949
+caerus-0.1.3.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+caerus-0.1.3.dist-info/top_level.txt,sha256=sVfDU5ITG08hdDzYLQwwCrD82c171pTOwdXAw4OyxTo,7
+caerus-0.1.3.dist-info/RECORD,,
