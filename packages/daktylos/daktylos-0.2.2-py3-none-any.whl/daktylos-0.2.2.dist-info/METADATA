@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: daktylos
+Version: 0.2.2
+Summary: low-startup-overhead, scalable, distributed-testing pytest plugin
+Home-page: https://github.com/nak/daktylos
+Author: John Rusnak
+Author-email: jrusnak@linkedin.com
+License: BSD 2-CLAUSE
+Download-URL: https://github.com/daktylos/dist/0.2.2
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: BSD License
+Requires-Dist: sqlalchemy
+Requires-Dist: pyyaml
+
+UNKNOWN
+
+

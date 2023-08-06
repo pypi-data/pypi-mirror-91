@@ -1,0 +1,10 @@
+daktylos/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+daktylos/data.py,sha256=JP5GhntWY3HYFaY8NmGS09ufEbgJPi3IOsF2ETAUbrQ,36424
+daktylos/test_data.py,sha256=_xaoiWUSKVCgK0ETtLF9-Mh-wa-B21yuQ1Tp9dkbOLc,7057
+daktylos/rules/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+daktylos/rules/engine.py,sha256=dZhaslV4JOkVby2x7_RwgylYWhMnXvg2_zmV34bsqV8,13216
+daktylos/rules/status.py,sha256=h9Cv8ssYEut40tdVqNwAsvlN91oam4Tb3OhE2tcE3io,2224
+daktylos-0.2.2.dist-info/METADATA,sha256=Ul94Yh0ewcD5Ymflac8u1F-rcSqDvQC1l2gOBG3ty5U,428
+daktylos-0.2.2.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+daktylos-0.2.2.dist-info/top_level.txt,sha256=bxYyYkx_1z6db66ppGxEiymtZwjHSVwBQSpQ-3QcFM8,9
+daktylos-0.2.2.dist-info/RECORD,,
