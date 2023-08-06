@@ -1,0 +1,11 @@
+README.md
+setup.cfg
+setup.py
+src/idfops.egg-info/PKG-INFO
+src/idfops.egg-info/SOURCES.txt
+src/idfops.egg-info/dependency_links.txt
+src/idfops.egg-info/requires.txt
+src/idfops.egg-info/top_level.txt
+src/pandas_operations/__init__.py
+src/pandas_operations/pandas_filtering.py
+src/pandas_operations/pandas_operations.py
