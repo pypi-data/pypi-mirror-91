@@ -1,0 +1,7 @@
+argparse
+pandas
+nibabel
+nipype
+nilearn
+duecredit
+pybids

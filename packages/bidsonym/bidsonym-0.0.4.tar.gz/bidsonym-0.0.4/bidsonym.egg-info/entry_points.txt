@@ -1,0 +1,3 @@
+[console_scripts]
+bidsonym = bidsonym.run_deeid:run_deeid
+
