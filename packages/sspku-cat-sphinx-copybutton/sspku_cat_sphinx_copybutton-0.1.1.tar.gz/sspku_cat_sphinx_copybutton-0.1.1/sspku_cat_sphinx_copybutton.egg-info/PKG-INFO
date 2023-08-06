@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: sspku-cat-sphinx-copybutton
+Version: 0.1.1
+Summary: sphinx codeblock copybutton extension
+Home-page: https://github.com/ZhangHaojie077/sspku_cat_sphinx_copybutton
+Author: ZhangHaojie
+Author-email: 372410616@qq.com
+License: MIT Licence
+Description: A sphinx codeblock copybutton extension
+Keywords: pip,sspku_cat_sphinx_copybutton,copybutton
+Platform: any

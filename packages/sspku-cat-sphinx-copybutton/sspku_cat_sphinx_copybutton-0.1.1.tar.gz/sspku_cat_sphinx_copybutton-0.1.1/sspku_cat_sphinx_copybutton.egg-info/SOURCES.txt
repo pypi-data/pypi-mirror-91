@@ -1,0 +1,7 @@
+setup.py
+sspku_cat_shpinx_copybutton/__init__.py
+sspku_cat_sphinx_copybutton.egg-info/PKG-INFO
+sspku_cat_sphinx_copybutton.egg-info/SOURCES.txt
+sspku_cat_sphinx_copybutton.egg-info/dependency_links.txt
+sspku_cat_sphinx_copybutton.egg-info/requires.txt
+sspku_cat_sphinx_copybutton.egg-info/top_level.txt
