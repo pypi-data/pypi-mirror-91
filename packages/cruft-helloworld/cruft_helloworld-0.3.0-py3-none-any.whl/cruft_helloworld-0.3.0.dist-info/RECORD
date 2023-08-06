@@ -1,0 +1,14 @@
+cruft_helloworld/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cruft_helloworld/app.py,sha256=y2L20bHe2_OjQrK9f7VKD8iIaRqUWW05J9EhnJ8mI1M,2304
+cruft_helloworld/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cruft_helloworld/services/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cruft_helloworld/services/globe_emoji_with_geoip.py,sha256=5hMxRC-HYIARSTFma1tTYyMsCE1LEddmByaL1YT3vGQ,1853
+cruft_helloworld/tools/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cruft_helloworld/tools/config_loggers.py,sha256=K4n_0mubYQ3Z-9is8XS2g1dRmBgwSriHyy2dxBbRj14,1795
+cruft_helloworld/tools/dict_nested_update.py,sha256=cvtZvffTebteMtH4KTE-kfhGS4AMSVRSXDVrpdXpOTg,730
+cruft_helloworld/tools/enums.py,sha256=4UXLeYZUWUlMiW0OqfUiQZxMOFIItmfpsjAewQqoAzE,861
+cruft_helloworld-0.3.0.dist-info/entry_points.txt,sha256=-FPufxwWWGFKMp7JGy7zqx0Q7jR4ou9yOsX_tsQaKrQ,55
+cruft_helloworld-0.3.0.dist-info/LICENSE,sha256=dItJKiqbp7_4d68w_gYsYvGPqGrIBk-AdzBuKUx0A60,1068
+cruft_helloworld-0.3.0.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+cruft_helloworld-0.3.0.dist-info/METADATA,sha256=j96I1vHP-O_Ugki2X-Cyv04d3neqYxif14exab7omJg,3412
+cruft_helloworld-0.3.0.dist-info/RECORD,,
