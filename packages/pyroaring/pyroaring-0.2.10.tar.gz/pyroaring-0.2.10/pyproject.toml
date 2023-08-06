@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "pyroaring"
+version = "0.2.8"
+description = "Fast and lightweight set for unsigned 32 bits integers"
+authors = ["Tom Cornebize <tom.cornebize@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.6"
+
+[tool.poetry.dev-dependencies]
+cython = ">=0.21"
+hypothesis = ">4"
+ipython = "^7.7"
+twine = "^1.13"
+wheel = "^0.33.6"
+pandas = ">=0.24.0"
+sphinx = "^3.4.3"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
