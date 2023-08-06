@@ -1,0 +1,14 @@
+Metadata-Version: 1.2
+Name: sipcp
+Version: 0.1.2
+Summary: An example program querying the Simple IT Product Catalog Ontology
+Home-page: https://github.com/federicotorrielli/modsem
+Author: Federico Torrielli
+Author-email: evilscript@protonmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
