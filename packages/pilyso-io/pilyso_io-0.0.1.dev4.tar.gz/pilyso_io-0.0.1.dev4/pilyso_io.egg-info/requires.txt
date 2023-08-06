@@ -1,0 +1,7 @@
+numpy
+nd2file
+tifffile
+czifile
+
+[ndip]
+opencv
