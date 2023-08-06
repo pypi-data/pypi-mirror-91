@@ -1,0 +1,6 @@
+fastai>=2.1.5
+sklearn
+kmeans_pytorch
+seaborn
+plotly
+fastai_category_encoders
