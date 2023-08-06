@@ -1,0 +1,10 @@
+Metadata-Version: 1.2
+Name: conn-replitdb
+Version: 0.0.post1
+Summary: Send data from computer to computer using repl.it database.
+Home-page: UNKNOWN
+Author: Yarik0urWorld
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.5
