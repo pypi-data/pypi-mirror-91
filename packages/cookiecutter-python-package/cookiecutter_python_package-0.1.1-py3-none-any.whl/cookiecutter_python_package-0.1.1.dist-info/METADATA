@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: cookiecutter-python-package
+Version: 0.1.1
+Summary: Cookiecutter for creating Python packages
+Home-page: https://github.com/Digimach/cookiecutter-python-package
+Author: Digimach
+Author-email: 
+License: BSD-3-Clause
+Project-URL: Code, https://github.com/Digimach/cookiecutter-python-package
+Project-URL: Documentation, https://github.com/Digimach/cookiecutter-python-package
+Platform: any
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Development Status :: 4 - Beta
+Classifier: Topic :: Software Development :: Code Generators
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3 :: Only
+Requires-Python: >=3.6
+Provides-Extra: dev
+Provides-Extra: docs
+Requires-Dist: safety ; extra == 'docs'
+Requires-Dist: sphinx ; extra == 'docs'
+Provides-Extra: test
+Requires-Dist: cookiecutter ; extra == 'test'
+Requires-Dist: coverage ; extra == 'test'
+Requires-Dist: flake8 ; extra == 'test'
+Requires-Dist: gitpython ; extra == 'test'
+Requires-Dist: pylint ; extra == 'test'
+Requires-Dist: pytest ; extra == 'test'
+Requires-Dist: pytest-cookies ; extra == 'test'
+Requires-Dist: pytest-cov ; extra == 'test'
+Requires-Dist: pytest-xdist ; extra == 'test'
+Requires-Dist: pyyaml ; extra == 'test'
+Requires-Dist: restructuredtext-lint ; extra == 'test'
+Requires-Dist: safety ; extra == 'test'
+Requires-Dist: tox ; extra == 'test'
+Requires-Dist: yapf ; extra == 'test'
+
+
+setup.py for Cookiecutter template project.
+
+

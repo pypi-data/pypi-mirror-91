@@ -1,0 +1,8 @@
+hooks/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+hooks/post_gen_project.py,sha256=n209dzZCdLc5rSTNM8bWHUlMu4WapQ3zGuuFrZ9JF-U,4279
+hooks/pre_gen_project.py,sha256=jVWL8wVFtKszUL3hCCpu7TM7ZwPziM6dtA05f_pmGmQ,2097
+cookiecutter_python_package-0.1.1.dist-info/LICENSE.rst,sha256=cJI_luDb7iLss2XRYD7IgIHEn05KciDXwm7-dov_PbU,1537
+cookiecutter_python_package-0.1.1.dist-info/METADATA,sha256=A_C692AGE5ZfxMycLc0WJXg48Fs4BP3QA6V9pAUuZyw,1755
+cookiecutter_python_package-0.1.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+cookiecutter_python_package-0.1.1.dist-info/top_level.txt,sha256=I0gcmmeA3xdjjkokY-bVx5WycqQcFVAk4RHQB-wl9h8,6
+cookiecutter_python_package-0.1.1.dist-info/RECORD,,
