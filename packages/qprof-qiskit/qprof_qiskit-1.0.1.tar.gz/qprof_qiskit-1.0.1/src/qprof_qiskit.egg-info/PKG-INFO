@@ -1,0 +1,120 @@
+Metadata-Version: 2.1
+Name: qprof-qiskit
+Version: 1.0.1
+Summary: qprof plugin for qiskit framework.
+Home-page: UNKNOWN
+Author: Adrien Suau
+Author-email: adrien.suau@cerfacs.fr
+License: UNKNOWN
+Project-URL: Collaborator, https://cerfacs.fr/en
+Description: **qprof_interfaces**
+        ====================
+        
+        **qprof_qiskit** is a plugin for ``qprof``.
+        This plugin adds the support for the `qiskit <https://qiskit.org/>`_
+        library to ``qprof``.
+        
+        Installation
+        ------------
+        
+        ``qprof_qiskit`` being a Python module, it is installable with ``pip``.
+        
+        From Gitlab
+        ~~~~~~~~~~~
+        
+        .. code:: shell
+        
+           git clone https://gitlab.com/qcomputing/qprof/qprof_qiskit.git
+           pip install qprof_qiskit/
+        
+        From PyPi
+        ~~~~~~~~~
+        
+        .. code::shell
+        
+            pip install qprof[qiskit]
+        
+        Usage
+        -----
+        
+        Profiling
+        ~~~~~~~~~
+        
+        Profiling is performed with the ``qprof.profile`` function.
+        
+        The ``qprof.profile`` function needs a quantum routine implemented with one of the
+        supported frameworks along with the "base" gate times provided as a dictionary.
+        
+        Example of profiling:
+        
+        .. code:: python
+        
+            # Import the qprof tools
+            from qprof import profile
+        
+            # Import the framework tools to generate a quantum routine
+            from qiskit.aqua.algorithms import Grover
+            from qiskit.aqua.components.oracles import LogicalExpressionOracle
+        
+        
+            # Generate the routine to benchmark.
+            input_3sat = """
+            c example DIMACS-CNF 3-SAT
+            p cnf 3 5
+            -1 -2 -3 0
+            1 -2 3 0
+            1 2 -3 0
+            1 -2 -3 0
+            -1 2 3 0
+            """
+        
+            oracle = LogicalExpressionOracle(input_3sat)
+            grover = Grover(oracle)
+            circuit = grover.construct_circuit()
+        
+            # Hard-coded gate times retrieved by hand
+            gate_times = {"U1": 0, "U2": 89, "U3": 178, "CX": 930, "BARRIER": 0}
+        
+            # Profile the resulting quantum circuit and use the "gprof" exporter
+            qprof_out = profile(circuit, gate_times, "gprof")
+        
+            # Print to stdout the analysis report
+            print(qprof_out)
+        
+        Full profiling example
+        ----------------------
+        
+        Requirements for the example
+        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+        
+        You should have the ``dot`` tool installed on your machine, along with the
+        `gprof2dot <https://github.com/jrfonseca/gprof2dot>`_ tool that can be installed
+        with ``pip install gprof2dot``.
+        
+        Profile the code
+        ~~~~~~~~~~~~~~~~
+        
+        Let save the code of the previous section in a file `profile.py`.
+        
+        You can generate the following graph with the command
+        
+        .. code:: bash
+        
+            python3 profile.py | gprof2dot | dot -Tpng -o profiling_result.png
+        
+        .. image:: docs/images/profile_result.png
+        
+Keywords: quantum,performance,gprof,profiling,qiskit,plugin
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Classifier: License :: CeCILL-B Free Software License Agreement (CECILL-B)
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3 :: Only
+Description-Content-Type: text/x-rst
+Provides-Extra: dev
