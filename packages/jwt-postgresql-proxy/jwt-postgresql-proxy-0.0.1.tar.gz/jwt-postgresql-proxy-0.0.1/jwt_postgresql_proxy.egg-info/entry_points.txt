@@ -1,0 +1,3 @@
+[console_scripts]
+jwt-postgresql-proxy = jwt_postgresql_proxy:main
+

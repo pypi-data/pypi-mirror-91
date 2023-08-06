@@ -1,0 +1,9 @@
+README.md
+jwt_postgresql_proxy.py
+setup.py
+jwt_postgresql_proxy.egg-info/PKG-INFO
+jwt_postgresql_proxy.egg-info/SOURCES.txt
+jwt_postgresql_proxy.egg-info/dependency_links.txt
+jwt_postgresql_proxy.egg-info/entry_points.txt
+jwt_postgresql_proxy.egg-info/requires.txt
+jwt_postgresql_proxy.egg-info/top_level.txt
