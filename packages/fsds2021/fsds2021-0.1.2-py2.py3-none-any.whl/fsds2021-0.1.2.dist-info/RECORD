@@ -1,0 +1,15 @@
+fsds2021/__init__.py,sha256=mZ14yKJYltSdtU95506AnkOZf-VfnFgpVBclS-xHooQ,242
+fsds2021/cli.py,sha256=ABnKs_1KWWdbCw6oPw_ciO_JW5IbH08-FcwASLgSUzA,402
+fsds2021/datasets.py,sha256=2YxCByr5iZ6oE1Bt3k7t7-ZuN6pwIbfEy0sqq9hpQMc,13262
+fsds2021/fsds2021.py,sha256=h0hwdogXGFqerm-5ZPeT-irPn91pCcQRjiHThXsRzEk,19
+fsds2021/imports.py,sha256=Dg2aSmIMZzmAosn-RPXsO7BUjPvnT3AXnG7U8jj1U9s,3910
+fsds2021/reference.py,sha256=BxTWAlfzGBL_mHcEMRtPww0q6Bn4Fol6CSwAD9pD2mE,20117
+fsds2021/stats.py,sha256=IL6VjnyqCC65qQMTrsyH88u9tIRGNJUwGVMdVtfhJHw,7743
+fsds2021/utils.py,sha256=ljbAXMGVqadnpYs7DKyFlrnHWSLyCf220evmNF9kGkQ,28359
+fsds2021-0.1.2.dist-info/AUTHORS.rst,sha256=1HgixR08_4u05G6NFAenvKBQ9fTwVvp39TiqJNQ4u_I,164
+fsds2021-0.1.2.dist-info/LICENSE,sha256=A9S6nvcw9rQQJS3BmhzIGs6r5CurC1q1w58MO0WT3Jk,1539
+fsds2021-0.1.2.dist-info/METADATA,sha256=fNUoH1XUNqWgEWMzS8sSr2Lib2oryII2o1O4fMW8wDI,1749
+fsds2021-0.1.2.dist-info/WHEEL,sha256=Z-nyYpwrcSqxfdux5Mbn_DQ525iP7J2DG3JgGvOYyTQ,110
+fsds2021-0.1.2.dist-info/entry_points.txt,sha256=b-d2DvYZbzwcJ5YXlsZSTNVEYzzL6AJ-Ix5WnSYpMKI,48
+fsds2021-0.1.2.dist-info/top_level.txt,sha256=HMHZKoDIgyV-G-O4gbnEYk3fc4mupGNSY8z_7vEQJhI,9
+fsds2021-0.1.2.dist-info/RECORD,,
