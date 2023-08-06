@@ -1,0 +1,11 @@
+README.md
+setup.py
+src/PyMatching.egg-info/PKG-INFO
+src/PyMatching.egg-info/SOURCES.txt
+src/PyMatching.egg-info/dependency_links.txt
+src/PyMatching.egg-info/not-zip-safe
+src/PyMatching.egg-info/requires.txt
+src/PyMatching.egg-info/top_level.txt
+src/pymatching/__init__.py
+src/pymatching/_version.py
+src/pymatching/matching.py
