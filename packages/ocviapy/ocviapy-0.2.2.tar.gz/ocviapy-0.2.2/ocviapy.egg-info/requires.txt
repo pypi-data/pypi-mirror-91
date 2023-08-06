@@ -1,0 +1,5 @@
+sh>=1.13.1
+pyyaml
+wait_for
+kubernetes
+anytree
