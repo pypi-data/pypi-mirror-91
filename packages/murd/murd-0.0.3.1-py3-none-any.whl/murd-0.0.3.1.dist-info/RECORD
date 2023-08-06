@@ -1,0 +1,17 @@
+murd/__init__.py,sha256=H-l8SoY1vNlC6Z6lMYOYaxeA1CribGHFHw-Q4mYS1zg,156
+murd/multi_murd.py,sha256=SWh8oLydQS1AdIZBSLRNy3SNgQYHxVqMYUC-ien8PiE,4835
+murd/murd.py,sha256=fYPwAlHmxlD7dfkueWVJ_4neu4WH6l2hNCk9wqxbGbI,2174
+murd/murd_ddb.py,sha256=KtB5bQtQXCzGF3FwI8veKyhteoe_OUX9uiDTrl454GU,5530
+murd/murd_ddb_api.py,sha256=vTKmak9WjtV1Sj_VL2ylnrQGiRVDoenOV7OfV-m7_Tc,2294
+murd/murd_ddb_ws_api.py,sha256=89okYAeGCThKmhUxsg1kMV5RxTNl6M3s9z4YfHZ79-s,4894
+murd/murd_https.py,sha256=gZlg_JceywtrTITq9xrxJ6adDmoONa4SFBzuG40XdtQ,1780
+murd/murd_memory.py,sha256=lfpov6cOR1a0yAtZRvkIhioJ-veA_FIColtAqvkRHQs,835
+murd/murd_s3.py,sha256=JdH_tS0wnqBCDctFrth89ph5ef8VukV8C2Tatjtp93k,3685
+murd/murd_wsapi_client.py,sha256=liv5NWZfI1FAqVL6-G-mh0g6heIROijFx1kfbHHBZjg,1695
+murd/run_async.py,sha256=36oifE90yIqtl6NIwJu1zlzdU1LfYwNGZth_5TRyKkw,1606
+murd/test_ws_api.py,sha256=QgtWjuRcb5nz-otO84fYh3XHOXaTB2j73GvIJw8fLXQ,495
+murd-0.0.3.1.dist-info/LICENSE,sha256=Y3ndec5B10B1dcz6ef0ZyrdJCQkQVOHV_27v-RiUSC0,1067
+murd-0.0.3.1.dist-info/METADATA,sha256=t1hUnPTp8MP-bTQA0pDeugt5VH98I_Il1SvTq4gEqto,552
+murd-0.0.3.1.dist-info/WHEEL,sha256=_NOXIqFgOaYmlm9RJLPQZ13BJuEIrp5jx5ptRD5uh3Y,92
+murd-0.0.3.1.dist-info/top_level.txt,sha256=2XEf48UhAHEmrBJCK0wiBWQe7Za3A1S1TAzbYlkX_fo,5
+murd-0.0.3.1.dist-info/RECORD,,
