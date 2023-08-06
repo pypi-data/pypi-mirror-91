@@ -1,0 +1,10 @@
+socketgame/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+socketgame/base.py,sha256=Yj7t0lWLuqAYqRzxgV9ryfzQ5uIjtPxDpLy-cL7GUWM,1530
+socketgame/client.py,sha256=tDpjQPnz8jAX29h6mrnW4yNqW00goQss3kXoGK3Z66Q,1605
+socketgame/connection.py,sha256=iu-sgwa-C6hqIr7ZBp4Wyfd_FCLMSqJ9QhbeJpK4FXQ,2297
+socketgame/server.py,sha256=-lWLMJSxe5uT2wtSUfjO6tb_bx9axJYo5tXgLODyoS4,2757
+socketgame-1.0.0.dist-info/LICENSE,sha256=rc8V9jKmhdZh2PDiz68ApQV4aEp2NdlD9cOc0UWzDLE,1069
+socketgame-1.0.0.dist-info/METADATA,sha256=SZL3l9A1DF3OxsuIHM1INmxB9FAvLP422qf79F1nNFo,489
+socketgame-1.0.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+socketgame-1.0.0.dist-info/top_level.txt,sha256=BTfBxpGPchvOD2hwnqSJQqgy-D1TVK97h7uT3uRrjt8,11
+socketgame-1.0.0.dist-info/RECORD,,
