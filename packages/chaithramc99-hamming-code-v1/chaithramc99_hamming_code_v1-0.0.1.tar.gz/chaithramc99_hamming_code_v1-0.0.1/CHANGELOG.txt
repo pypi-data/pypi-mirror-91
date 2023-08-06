@@ -1,0 +1,4 @@
+17 Jan 2021
+------------
+Author: Chaithra M C
+Initial check in of hamming code reusable module

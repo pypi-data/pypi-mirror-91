@@ -1,0 +1,24 @@
+Metadata-Version: 1.1
+Name: chaithramc99_hamming_code_v1
+Version: 0.0.1
+Summary: Hamming code generator and validator
+Home-page: UNKNOWN
+Author: Chaithra M C
+Author-email: chaithra.mc99@gmail.com
+License: MIT
+Description: Generate hamming code
+        Find error in hamming code
+        Check hamming code
+        
+        17 Jan 2021
+        ------------
+        Author: Chaithra M C
+        Initial check in of hamming code reusable module
+        
+Keywords: hamming
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3

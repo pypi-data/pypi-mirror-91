@@ -1,0 +1,2 @@
+class ErrorCantBeDetectedException(Exception):
+    pass
