@@ -1,0 +1,12 @@
+cmdstanpy>=0.9.67
+numpy
+numba
+xarray
+scipy
+pandas
+tqdm
+bokeh
+matplotlib
+arviz>=0.10.0
+colorcet
+holoviews
