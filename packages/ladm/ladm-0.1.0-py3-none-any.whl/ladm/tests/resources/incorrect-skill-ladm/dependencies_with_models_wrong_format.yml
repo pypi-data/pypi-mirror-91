@@ -1,0 +1,12 @@
+dependencies:
+  libraries:
+    - zupline: 1.0.0
+    - tensorblow
+  system:
+    - libffi-dev
+    - default-jre: 2:1.11-71
+  models:
+    - gaia://tenant/a.txt
+    - s3://tenant/test/a.txt
+    - gaia://tenant/test/b.txt
+    - gaia://tenant
