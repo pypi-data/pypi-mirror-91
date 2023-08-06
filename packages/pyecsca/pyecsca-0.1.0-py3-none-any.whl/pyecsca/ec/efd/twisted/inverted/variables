@@ -1,0 +1,9 @@
+name inverted coordinates
+variable X
+variable Y
+variable Z
+neutral X = 1
+neutral Y = 0
+neutral Z = 0
+satisfying x = Z/X
+satisfying y = Z/Y
