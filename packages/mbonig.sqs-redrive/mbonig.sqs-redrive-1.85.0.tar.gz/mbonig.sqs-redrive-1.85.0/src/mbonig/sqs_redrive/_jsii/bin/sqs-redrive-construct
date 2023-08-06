@@ -1,0 +1,15 @@
+#!/usr/bin/env python
+
+import jsii
+import sys
+
+__jsii_assembly__ = jsii.JSIIAssembly.load(
+    "@matthewbonig/sqs-redrive",
+    "1.85.0",
+    "mbonig.sqs_redrive",
+    "sqs-redrive@1.85.0.jsii.tgz",
+)
+
+__jsii_assembly__.invokeBinScript(
+    "@matthewbonig/sqs-redrive", "sqs-redrive-construct", sys.argv[1:]
+)
