@@ -1,0 +1,10 @@
+README.md
+setup.py
+SimpleDatabaseConnector/Caches.py
+SimpleDatabaseConnector/Connectors.py
+SimpleDatabaseConnector/__init__.py
+SimpleDatabaseConnector.egg-info/PKG-INFO
+SimpleDatabaseConnector.egg-info/SOURCES.txt
+SimpleDatabaseConnector.egg-info/dependency_links.txt
+SimpleDatabaseConnector.egg-info/requires.txt
+SimpleDatabaseConnector.egg-info/top_level.txt
