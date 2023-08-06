@@ -1,0 +1,7 @@
+README.md
+setup.py
+cvtencode/__init__.py
+cvtencode.egg-info/PKG-INFO
+cvtencode.egg-info/SOURCES.txt
+cvtencode.egg-info/dependency_links.txt
+cvtencode.egg-info/top_level.txt
