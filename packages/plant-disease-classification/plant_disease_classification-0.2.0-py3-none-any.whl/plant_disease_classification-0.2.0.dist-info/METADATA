@@ -1,0 +1,100 @@
+Metadata-Version: 2.1
+Name: plant-disease-classification
+Version: 0.2.0
+Summary: A Python module that classifies disease on plants
+Home-page: https://github.com/abdullahselek/plant-disease-classification
+Author: Abdullah Selek
+Author-email: abdullahselek@gmail.com
+Maintainer: Abdullah Selek
+Maintainer-email: abdullahselek@gmail.com
+License: MIT License
+Download-URL: https://pypi.org/project/plant-disease-classification/
+Keywords: plant disease classification,neural networks,pytorch,convolutional neural networks,plants,disease
+Platform: Any
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.5
+Description-Content-Type: text/x-rst
+Requires-Dist: plant-disease-classification-models (==0.1.0)
+Requires-Dist: torch (==1.7.1)
+Requires-Dist: torchvision (==0.8.2)
+Requires-Dist: numpy (==1.19.4)
+Requires-Dist: Pillow (==8.0.1)
+
+plant-disease-classification
+============================
+
+.. image:: https://img.shields.io/pypi/v/plant-disease-classification.svg
+    :target: https://pypi.org/pypi/plant-disease-classification/
+
+.. image:: https://img.shields.io/pypi/pyversions/plant-disease-classification.svg
+    :target: https://pypi.org/project/plant-disease-classification
+
+A Python module that classifies disease on plants. You can classify plant images from Python or
+from the command line with a simple classification library.
+
+Built using Deep Learning and Convolutional Networks models trained `here <https://github.com/abdullahselek/plant-disease-classification-pytorch/>`_.
+
+This also provides a simple plant disease classification command line tool that lets you do face recognition on a folder of images from the command line.
+
+Installation
+------------
+
+You can install plant-disease-classification using::
+
+    $ pip install plant-disease-classification
+
+Getting the code
+----------------
+
+The code is hosted at https://github.com/abdullahselek/plant-disease-classification
+
+Check out the latest development version anonymously with::
+
+    $ git clone git://github.com/abdullahselek/plant-disease-classification.git
+    $ cd plant-disease-classification
+
+To install dependencies, run either::
+
+    $ pip install -r requirements.txt
+
+To install the minimal dependencies for production use (i.e., what is installed
+with ``pip install plant-disease-classification``) run::
+
+    $ pip install -r requirements.txt
+
+Usage
+=====
+
+Classification using Python
+---------------------------
+
+.. code:: python
+
+    from plant_disease_classification import api
+
+    # Classification with image path
+    result = api.classify(image_path="YOUR_IMAGE_PATH")
+
+    # Classification with image data
+    result = api.classify(image_data=YOUR_IMAGE_DATA)
+
+Classification via CLI
+----------------------
+
+.. code:: bash
+
+    python -m plant_disease_classification -p testdata/4507d7a208e839e34466ba7d7bdb144e.jpg
+
+    python -m plant_disease_classification -d BASE64_ENCODED_IMAGE_DATA
+
+

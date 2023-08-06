@@ -1,0 +1,13 @@
+plant_disease_classification/__init__.py,sha256=lU-yVwbIqHJzqDBkcu01Wee9N1ZH0GEpdO4FNryFFy0,577
+plant_disease_classification/__main__.py,sha256=Oj_vBIaRJi1yPfCyi3d0gffmfTxVU7CnoWaH_awhxwA,1021
+plant_disease_classification/api.py,sha256=qJCQqhdp0YlNEFeGKtTLRc1rhG3hK-oF9JvcUhU1xn0,997
+plant_disease_classification/constant.py,sha256=MNyMFIs_SukrBiJOHJX0D1lgMDZYczF7idCkjJx6crs,516
+plant_disease_classification/network.py,sha256=bKgXZLkpW6sCtipwF627tvqb4f5pfXfxospZicdRosU,904
+plant_disease_classification/plant_disease_classifier.py,sha256=BnHiEolePcyUgRIU3Q4AbuVZQydPG9zkoje0c3xWv50,2694
+plant_disease_classification-0.2.0.dist-info/COPYING,sha256=dBjh1l2zvPNfoOrzh0Y31NDzYXduM1o7mX47GjP4PJM,1071
+plant_disease_classification-0.2.0.dist-info/LICENSE,sha256=dBjh1l2zvPNfoOrzh0Y31NDzYXduM1o7mX47GjP4PJM,1071
+plant_disease_classification-0.2.0.dist-info/METADATA,sha256=Bl_uSJYKM8HjxLJ7cIVcKyvb4zMVI6GZsuVnIcW2s3E,3407
+plant_disease_classification-0.2.0.dist-info/NOTICE,sha256=tUUqXRcIzaAzsnKDuB1hc7ekVU2F04fgu-1hCaFYdsM,91
+plant_disease_classification-0.2.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+plant_disease_classification-0.2.0.dist-info/top_level.txt,sha256=g-UVuo7o92s8IfbabvSW1W7K__4GncWqm7l_K_SEGR4,29
+plant_disease_classification-0.2.0.dist-info/RECORD,,
