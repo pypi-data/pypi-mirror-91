@@ -1,0 +1,8 @@
+README
+setup.py
+retroforth/__init__.py
+retroforth/retroforth.py
+retroforth.egg-info/PKG-INFO
+retroforth.egg-info/SOURCES.txt
+retroforth.egg-info/dependency_links.txt
+retroforth.egg-info/top_level.txt
