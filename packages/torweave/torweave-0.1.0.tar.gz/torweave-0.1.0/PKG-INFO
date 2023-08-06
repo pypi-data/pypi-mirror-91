@@ -1,0 +1,12 @@
+Metadata-Version: 1.1
+Name: torweave
+Version: 0.1.0
+Summary: privacy protocol built on the blockweave
+Home-page: https://github.com/permaleaks/torweave
+Author: permaleaksMan
+Author-email: UNKNOWN
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
