@@ -1,0 +1,10 @@
+README.md
+setup.py
+switchpy/__init__.py
+switchpy/array.py
+switchpy/map.py
+switchpy/switch.py
+switchpy.egg-info/PKG-INFO
+switchpy.egg-info/SOURCES.txt
+switchpy.egg-info/dependency_links.txt
+switchpy.egg-info/top_level.txt
