@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: pymapf
+Version: 0.1.0
+Summary: Pymapf is a library for decentralized and centralized multi-agent planning tools
+Home-page: https://github.com/apla-toolbox/pymapf
+Author: Erwin Lejeune
+Author-email: erwinlejeune.pro@gmail.com
+License: UNKNOWN
+Description: # pymapf
+        A Python toolbox for Multi-Agents Planning (Centralized and Decentralized)
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS
+Classifier: Framework :: Pytest
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
