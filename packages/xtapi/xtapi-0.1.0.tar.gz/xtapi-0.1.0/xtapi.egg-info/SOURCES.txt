@@ -1,0 +1,12 @@
+MANIFEST.in
+README.md
+setup.py
+tests/__init__.py
+xtapi/__init__.py
+xtapi/main.py
+xtapi.egg-info/PKG-INFO
+xtapi.egg-info/SOURCES.txt
+xtapi.egg-info/dependency_links.txt
+xtapi.egg-info/not-zip-safe
+xtapi.egg-info/requires.txt
+xtapi.egg-info/top_level.txt
