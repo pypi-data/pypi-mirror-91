@@ -1,0 +1,13 @@
+Metadata-Version: 1.2
+Name: kikapay-python-sdk
+Version: 0.1.1.post1
+Summary: Swagger Petstore
+Home-page: UNKNOWN
+Author: OpenAPI Generator community
+Author-email: apiteam@swagger.io
+License: Apache 2.0
+Description:     This is a sample server Petstore server.  You can find out more about Swagger at [http://swagger.io](http://swagger.io) or on [irc.freenode.net, #swagger](http://swagger.io/irc/).  For this sample, you can use the api key &#x60;special-key&#x60; to test the authorization filters.  # noqa: E501
+            
+Keywords: OpenAPI,OpenAPI-Generator,Swagger Petstore
+Platform: UNKNOWN
+Requires-Python: >=3.6
