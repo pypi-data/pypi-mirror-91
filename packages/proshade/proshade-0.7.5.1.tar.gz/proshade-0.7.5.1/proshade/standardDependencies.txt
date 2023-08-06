@@ -1,0 +1,162 @@
+Standard dependencies:
+======================
+
+  This is a list of dependencies which are assumed to be already installed on the machine.
+  
+  This list is not exhaustive, but with these ProSHADE did install and run on clean system
+  installations.
+
+======================
+MacOS Yosemite (10.10) 
+======================
+
+* Install Command Line Tools
+	* xcode-select --install
+* Install CMake
+	* Download from https://github.com/Kitware/CMake/releases/download/v3.19.2/cmake-3.19.2.tar.gz
+	* tar -zxvf ./cmake-3.19.2.tar.gz
+	* cd ./cmake-3.19.2
+	* ./bootstrap 
+	* make
+	* sudo make install
+* Install FFTW
+	* Download from http://www.fftw.org/fftw-3.3.9.tar.gz
+	* tar -zxvf ./fftw-3.3.9.tar 
+	* cd ./fftw-3.3.9
+	* ./configure --enable-shared
+	* make
+	* sudo make install
+* Install proshade
+	* git clone https://github.com/michaltykac/proshade
+	* mkdir build
+	* cd ./build
+	* cmake ../proshade
+	* make 
+	* make install
+
+===========
+Ubuntu 20.4
+===========
+
+* APT INSTALL:
+	* gcc
+	* g++
+	* make
+	* cmake
+	* git
+	* fftw3-dev
+	* liblapack-dev
+	* zlib1g-dev
+
+* Install proshade
+	* git clone https://github.com/michaltykac/proshade
+	* mkdir build
+	* cd ./build
+	* cmake ../proshade
+	* make 
+	* make install
+
+===============
+Centos 8.1.1911 
+===============
+
+* YUM SETUP:
+	* sudo yum install dnf-plugins-core
+	* sudo yum config-manager --set-enabled powertools
+
+* YUM INSTALL:
+	* gcc
+	* gcc-c++
+	* make
+	* cmake
+	* fftw3-devel
+	* lapack-devel
+	* zlib-devel
+* Install proshade
+	* git clone https://github.com/michaltykac/proshade
+	* mkdir build
+	* cd ./build
+	* cmake ../proshade
+	* make 
+	* make install
+	
+=============
+Debian 10.3.0 
+=============
+
+* APT INSTALL:
+	* gcc
+	* g++
+	* make
+	* cmake
+	* git
+	* fftw3-dev
+	* liblapack-dev
+	* zlib1g-dev
+* Install proshade
+	* git clone https://github.com/michaltykac/proshade
+	* mkdir build
+	* cd ./build
+	* cmake ../proshade
+	* make 
+	* make install	
+
+==================
+openSUSE-Leap 15.2 
+==================
+
+* ZYPPER (sudo zypper install):
+	* gcc
+	* gcc-c++
+	* git
+	* cmake
+	* fftw3-devel
+	* lapack-devel
+	* zlib-devel
+* Install proshade
+	* git clone https://github.com/michaltykac/proshade
+	* mkdir build
+	* cd ./build
+	* cmake ../proshade
+	* make 
+	* make install
+	
+==========
+Windows 10 
+==========
+
+Not fully supported yet.
+
+* Install cygwin
+	* https://www.cygwin.com
+* Install cygwin packages
+	* Command Prompt
+		* cd C:\cygwin64
+		* setup-x86_64.exe -q -P wget -P gcc-g++ -P gcc-fortran -P make -P cmake -P fftw3 -P libfftw3-devel -P liblapack-devel -P swig -P zlib-devel -P git
+* Install ProSHADE
+	* Cygwin64 Terminal
+		* git clone https://github.com/michaltykac/proshade
+		* mkdir ./proshade/build
+		* cd ./proshade/build
+		* cmake ..
+		* make install
+* Edit system paths
+	* Control Panel -> System and Security -> System -> Advanced System Settings -> Advanced -> Environment Variables
+	* Under System Variables (as opposed by User variables) find variable "Path" and click Edit...
+	* Click new and write "C:\cygwin64\bin"
+	* Click new and write "C:\cygwin64\lib\lapack"
+* Use ProSHADE from Command Prompt :-)
+	
+	
+=================
+Build PyPi Module
+=================
+
+* build tar module 
+	* python setup.py sdist
+* upload to the module to PyPiTest
+	* twine upload --repository-url https://test.pypi.org/legacy/ ./dist/*
+* upload to the module to PyPi
+	* twine upload ./dist/*
+
+	
