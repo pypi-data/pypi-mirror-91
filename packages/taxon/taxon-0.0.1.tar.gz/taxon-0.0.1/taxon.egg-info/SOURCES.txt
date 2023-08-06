@@ -1,0 +1,7 @@
+README.rst
+setup.py
+taxon/__init__.py
+taxon.egg-info/PKG-INFO
+taxon.egg-info/SOURCES.txt
+taxon.egg-info/dependency_links.txt
+taxon.egg-info/top_level.txt
