@@ -1,0 +1,26 @@
+Metadata-Version: 1.1
+Name: mohammedyasser
+Version: 0.0.1
+Summary: very simple calculator
+Home-page: UNKNOWN
+Author: mohammed yasser
+Author-email: muhammedyasser85@gmail.com
+License: MIT
+Description: this is my test library
+        
+        Change Log 
+        
+        ===========
+        
+        0.0.0(1/1/2020)
+        
+        -------------
+        
+        -First release
+Keywords: calculator library
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3

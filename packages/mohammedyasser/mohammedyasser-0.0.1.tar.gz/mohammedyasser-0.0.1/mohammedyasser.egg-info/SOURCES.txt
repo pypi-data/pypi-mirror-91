@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+setup.py
+mohammedyasser/__init__.py
+mohammedyasser.egg-info/PKG-INFO
+mohammedyasser.egg-info/SOURCES.txt
+mohammedyasser.egg-info/dependency_links.txt
+mohammedyasser.egg-info/top_level.txt
