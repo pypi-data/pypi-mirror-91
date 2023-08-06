@@ -1,0 +1,4 @@
+include requirements.txt
+include src/python_project_skeleton/*.py
+include src/python_project_skeleton/*.ini
+include *.sh
