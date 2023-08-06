@@ -1,0 +1,9 @@
+*.pyc
+venv/
+helpers/consul
+helpers/data
+dist/
+*.egg-info/
+build/
+.eggs/
+hemdev/
