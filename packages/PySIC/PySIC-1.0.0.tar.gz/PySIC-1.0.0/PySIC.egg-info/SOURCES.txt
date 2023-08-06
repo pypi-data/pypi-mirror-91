@@ -1,0 +1,14 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.md
+setup.py
+PySIC/Data.py
+PySIC/Data_Preparation.py
+PySIC/Training.py
+PySIC/__init__.py
+PySIC.egg-info/PKG-INFO
+PySIC.egg-info/SOURCES.txt
+PySIC.egg-info/dependency_links.txt
+PySIC.egg-info/requires.txt
+PySIC.egg-info/top_level.txt
