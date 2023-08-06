@@ -1,0 +1,14 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.py
+safexzutils/__init__.py
+safexzutils/add_number.py
+safexzutils/common.py
+safexzutils/config.py
+safexzutils/data_var.py
+safexzutils/template.py
+safexzutils.egg-info/PKG-INFO
+safexzutils.egg-info/SOURCES.txt
+safexzutils.egg-info/dependency_links.txt
+safexzutils.egg-info/top_level.txt
