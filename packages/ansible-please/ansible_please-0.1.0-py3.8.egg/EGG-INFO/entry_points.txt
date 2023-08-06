@@ -1,0 +1,3 @@
+[console_scripts]
+ansible_please = ansible_please.cli:main
+

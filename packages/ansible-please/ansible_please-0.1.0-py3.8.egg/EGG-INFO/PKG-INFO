@@ -1,0 +1,57 @@
+Metadata-Version: 1.2
+Name: ansible-please
+Version: 0.1.0
+Summary: Helper package to make running Ansible a bit smoother
+Home-page: https://github.com/shyamsn97/ansible_please
+Author: Shyam Sudhakaran
+Author-email: shyamsn97@gmail.com
+License: MIT license
+Description: ansible_please
+        ==============
+        
+        [![image](https://img.shields.io/pypi/v/ansible_please.svg)](https://pypi.python.org/pypi/ansible_please)
+        
+        [![image](https://img.shields.io/travis/shyamsn97/ansible_please.svg)](https://travis-ci.com/shyamsn97/ansible_please)
+        
+        [![Documentation Status](https://readthedocs.org/projects/ansible-please/badge/?version=latest)](https://ansible-please.readthedocs.io/en/latest/?badge=latest)
+        
+        Helper package to make running Ansible a bit smoother
+        
+        -   Free software: MIT license
+        -   Documentation: <https://ansible-please.readthedocs.io>.
+        
+        Features
+        --------
+        
+        -   TODO
+        
+        Credits
+        -------
+        
+        This package was created with
+        [Cookiecutter](https://github.com/audreyr/cookiecutter) and the
+        [audreyr/cookiecutter-pypackage](https://github.com/audreyr/cookiecutter-pypackage)
+        project template.
+        
+        
+        =======
+        History
+        =======
+        
+        0.1.0 (2020-12-22)
+        ------------------
+        
+        * First release on PyPI.
+        
+Keywords: ansible_please
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.5
