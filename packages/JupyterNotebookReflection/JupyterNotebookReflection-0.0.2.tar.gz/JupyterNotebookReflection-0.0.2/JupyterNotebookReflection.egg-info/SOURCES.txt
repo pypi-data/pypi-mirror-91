@@ -1,0 +1,12 @@
+MANIFEST.in
+README.txt
+setup.py
+JupyterNotebookReflection/CellManager.py
+JupyterNotebookReflection/Client.js
+JupyterNotebookReflection/CommManager.py
+JupyterNotebookReflection/DataManager.py
+JupyterNotebookReflection/JupyterNotebook.py
+JupyterNotebookReflection.egg-info/PKG-INFO
+JupyterNotebookReflection.egg-info/SOURCES.txt
+JupyterNotebookReflection.egg-info/dependency_links.txt
+JupyterNotebookReflection.egg-info/top_level.txt
