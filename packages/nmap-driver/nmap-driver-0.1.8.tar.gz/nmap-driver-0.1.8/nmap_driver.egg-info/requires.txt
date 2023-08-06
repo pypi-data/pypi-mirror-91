@@ -1,0 +1,8 @@
+exception==0.1.0
+grpcio==1.32.0
+ipdb==0.13.4
+pid==3.0.4
+python-daemon==2.2.4
+python-nmap==0.6.1
+configparser==5.0.1
+PyJWT==1.7.1
