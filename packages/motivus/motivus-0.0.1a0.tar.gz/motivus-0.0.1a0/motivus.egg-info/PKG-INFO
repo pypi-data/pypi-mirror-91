@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: motivus
+Version: 0.0.1a0
+Summary: Motivus library
+Home-page: https://motivus.cl
+Author: Motivus SpA
+Author-email: info@motivus.cl
+License: MIT
+Description: # Motivus Package
+        
+        https://motivus.cl para más información
+        
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
