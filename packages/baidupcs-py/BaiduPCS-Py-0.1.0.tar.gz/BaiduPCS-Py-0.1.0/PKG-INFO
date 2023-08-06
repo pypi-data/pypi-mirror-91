@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: baidupcs-py
+Version: 0.1.0
+Summary: Baidu Pcs App
+Home-page: https://github.com/PeterDing/BaiduPCS-Py
+License: MIT
+Author: PeterDing
+Author-email: dfhayst@gmail.com
+Requires-Python: >=3.6,<4.0
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: Pillow (>=8.1.0,<9.0.0)
+Requires-Dist: aget (>=0.1.17,<0.2.0)
+Requires-Dist: click (>=7.1.2,<8.0.0)
+Requires-Dist: requests (>=2.25.1,<3.0.0)
+Requires-Dist: requests-toolbelt (>=0.9.1,<0.10.0)
+Requires-Dist: rich (>=9.8.0,<10.0.0)
+Requires-Dist: typing-extensions (>=3.7.4,<4.0.0)
+Description-Content-Type: text/markdown
+
+# BaiduPCS-Py
+
+A BaiduPCS API and An App
+
