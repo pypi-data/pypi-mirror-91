@@ -1,0 +1,14 @@
+python_mmdt-0.1.1.data/purelib/python_mmdt/__init__.py,sha256=OkJTFUqKsfh2u3nk0hCpaS2nWmZPAEFuPXG0tvl-aHY,180
+python_mmdt-0.1.1.data/purelib/python_mmdt/mmdt/__init__.py,sha256=3Vfr9yeR_xNfIf1yyc9Vp5EiMpS34bgFhD0HvYFhCaE,204
+python_mmdt-0.1.1.data/purelib/python_mmdt/mmdt/feature.py,sha256=Y3nYWvRMXwHmN4HSuDjT64pich32JkzxBs09gRZDEw8,3352
+python_mmdt-0.1.1.data/purelib/python_mmdt/mmdt/libcore.dll,sha256=YmpOTMFGUbBjjdbpsOjImMDbsI1gjSJp1UTQJPkbVTg,72826
+python_mmdt-0.1.1.data/purelib/python_mmdt/mmdt/mmdt.py,sha256=mWaqZPSh28gKGIQ-upETDtY-clJA_HhkjKbjkc0xizU,5304
+python_mmdt-0.1.1.data/purelib/python_mmdt/mmdt/mmdt_feature.data,sha256=iy_u6YcX0pDErGIJEhgzn32j63kGjckTGjTzSFJI7No,450590
+python_mmdt-0.1.1.data/purelib/python_mmdt/mmdt/run.py,sha256=y1dqmK3XsP0Za9ir_6m9wer-zCwpklUd6z6XjG-AmsY,1407
+python_mmdt-0.1.1.data/purelib/python_mmdt/mmdt/serialized.py,sha256=7F6NtcvgalKpGFUJsilK7ir9zZlgFeiXrWU41iDoJQE,551
+python_mmdt-0.1.1.dist-info/LICENSE,sha256=RoBaVIwycTqEC8NJee-KHTQgq2tjJk7hM4KECxrzq9A,1080
+python_mmdt-0.1.1.dist-info/METADATA,sha256=xb28zywSKrMqmuBY9jIWNOfYryGSRmVgKK2_Eq_7DQI,2316
+python_mmdt-0.1.1.dist-info/WHEEL,sha256=-ODc2a2AO_YJ5T46NOquHfWjRM7bQvlt-f3zRaLBjL4,105
+python_mmdt-0.1.1.dist-info/entry_points.txt,sha256=KSvlspbsnWI15nkpxfwdn1EPODK2rIn5DQPWlauHWpc,326
+python_mmdt-0.1.1.dist-info/top_level.txt,sha256=quwOwqLdWFDW09xgN8uBujaSp23IRrRWEbD4Ce-AsSE,12
+python_mmdt-0.1.1.dist-info/RECORD,,
