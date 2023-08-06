@@ -1,0 +1,16 @@
+Metadata-Version: 1.1
+Name: crystal-0.0.1
+Version: 0.0.1
+Summary: Calculation of mismatch of FCC crystal systems
+Home-page: UNKNOWN
+Author: Arul Mozhi Varman
+Author-email: queenslandarul@gmail.com
+License: MIT
+Description: text/markdown
+Keywords: crystal
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3

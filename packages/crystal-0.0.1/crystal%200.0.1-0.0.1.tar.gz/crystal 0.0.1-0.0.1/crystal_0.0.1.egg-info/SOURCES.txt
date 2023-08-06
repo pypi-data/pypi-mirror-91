@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENSE.txt
+MANIFEST.in
+README.txt
+setup.py
+crystal/__init__.py
+crystal_0.0.1.egg-info/PKG-INFO
+crystal_0.0.1.egg-info/SOURCES.txt
+crystal_0.0.1.egg-info/dependency_links.txt
+crystal_0.0.1.egg-info/top_level.txt
