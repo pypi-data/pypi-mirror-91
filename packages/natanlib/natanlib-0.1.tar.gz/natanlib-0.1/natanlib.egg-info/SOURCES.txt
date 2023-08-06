@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+natanlib/__init__.py
+natanlib/natanlib.py
+natanlib.egg-info/PKG-INFO
+natanlib.egg-info/SOURCES.txt
+natanlib.egg-info/dependency_links.txt
+natanlib.egg-info/not-zip-safe
+natanlib.egg-info/top_level.txt
