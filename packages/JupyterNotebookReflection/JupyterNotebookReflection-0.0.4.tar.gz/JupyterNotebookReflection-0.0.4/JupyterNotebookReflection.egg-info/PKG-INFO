@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: JupyterNotebookReflection
+Version: 0.0.4
+Summary: A module to perform reflection coding in Jupyter notebooks.
+Home-page: UNKNOWN
+Author: Charles Varley
+License: MIT
+Description: This is a basic python module to enable reflective programming techniques within the Jupyter notebook context.
+        
+        Change Log
+        ==========
+        
+        0.0.1 (16/01/2021)
+        ------------------
+        - First Release.
+        
+        0.0.2 (16/01/2021)
+        ------------------
+        - Added README and CHANGELOG files.
+        
+        0.0.3 (16/01/2021)
+        ------------------
+        - Added *md to manifest file.
+        
+        0.0.4 (16/01/2021)
+        ------------------
+        - Fixed issue with README file reading.
+Keywords: jupyter,notebook,reflection,introspection
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
