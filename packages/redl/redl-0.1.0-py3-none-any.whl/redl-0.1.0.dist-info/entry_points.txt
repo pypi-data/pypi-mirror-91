@@ -1,0 +1,3 @@
+[console_scripts]
+redl=redl.main:main
+
