@@ -1,0 +1,4 @@
+configargparse
+git-timestamp>=1.0.4
+pygit2
+setuptools
