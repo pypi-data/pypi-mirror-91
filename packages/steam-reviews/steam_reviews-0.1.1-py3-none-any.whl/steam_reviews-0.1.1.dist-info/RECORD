@@ -1,0 +1,10 @@
+steam_reviews/__init__.py,sha256=jHBNN-yAmQKnJWRSVvrIt0qYLIozCrwGNx_PWwPyhd0,40
+steam_reviews/review_loader.py,sha256=dEZ2rgqxfUGd7mlCDKBq_hc0zfljDgMOSoZ3TgWKa68,14374
+steam_reviews/reviews.py,sha256=olv-hxIQXQivnvcPkLy020wSGWTcRrTW8eAii9AHZL8,1101
+test/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+test/test_reviews.py,sha256=-SqzdyRgxvbHVfdOYXm0x2vXjBVBY7ILi6doEtqGZU8,1875
+steam_reviews-0.1.1.dist-info/LICENSE,sha256=0VlAnsFBPPHc6cF34ki5Y7eoVYnwkdgHJKwN7BfYsTo,1053
+steam_reviews-0.1.1.dist-info/METADATA,sha256=6GOqu_FQFf7OTUkIvljJ1b44TnsXr285nnQDfRjz00g,2945
+steam_reviews-0.1.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+steam_reviews-0.1.1.dist-info/top_level.txt,sha256=JQxYLH-cdmV_STcL1411X0v2dXw35kIGNi4hQrwPAdY,19
+steam_reviews-0.1.1.dist-info/RECORD,,
