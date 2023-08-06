@@ -1,0 +1,10 @@
+mappr/__init__.py,sha256=oJKVahmyOiE2jbvbhgusGIT2cynYAeo37Ruop8NmztA,543
+mappr/conversion.py,sha256=YLfBbYt-9OcLkpUnNS_CVpgpPwFwkB_MqaG93Ngjdzs,2882
+mappr/exc.py,sha256=rpr4qlHxkzgXyovTPjCGrn8n6N2ZDvcHKlJl0tdVjk0,611
+mappr/iterators.py,sha256=B1h-agLqptWzXvK7NevwnxmZFenfJcrU3I1aImm5SUU,1042
+mappr/mappers.py,sha256=VgjGSsY6mEQzFcCyaMnAv9VHk01PjTfS2WBwX40VDw4,3404
+mappr/types.py,sha256=5c5mspMTsGOQpDrc-KAEFIql9ck9wjueKZloxPclGjc,762
+mappr-0.1.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+mappr-0.1.0.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+mappr-0.1.0.dist-info/METADATA,sha256=7-srWUII5XTi-S5iuyp1gfO9EVRQ7VtwQhGiONlyMRc,564
+mappr-0.1.0.dist-info/RECORD,,
