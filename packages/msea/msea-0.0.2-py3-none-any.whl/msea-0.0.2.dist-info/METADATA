@@ -1,0 +1,66 @@
+Metadata-Version: 2.1
+Name: msea
+Version: 0.0.2
+Summary: Implementation of Microbe-Set Enrichment Analysis (MSEA).
+Home-page: https://bitbucket.com/wangz10/msea
+Author: Zichen Wang
+Author-email: wangzc921@gmail.com
+License: BSD
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.5
+Description-Content-Type: text/markdown
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: scipy
+Requires-Dist: tqdm
+
+# msea: Microbe-Set Enrichment Analysis (MSEA) for functional interpretation of sets of microbial organisms
+
+## What is it?
+**msea** a Python package implementing the Microbe-Set Enrichment Analysis pipeline, helping microbiologists make sense of collections microbes via external annotations.
+
+## Installation
+```sh
+# from PyPI
+pip install msea
+```
+
+## Dependencies
+- [NumPy](https://www.numpy.org)
+- [SciPy](https://www.scipy.org/)
+- [pandas](https://pandas.pydata.org/)
+
+## Tutorials and Documentations
+
+Please refer to [examples](examples) or read the [full documentation](https://msea.readthedocs.io/en/latest/). 
+
+## Development
+
+For local development: 
+```sh
+python setup.py develop
+```
+
+To run tests:
+```sh
+python setup.py test
+```
+
+To build documentation with Sphinx:
+```sh
+cd docs && make html
+```
+
+To build distribution: 
+```sh
+python setup.py bdist bdist_wheel
+# then upload to PyPI
+python -m twine upload dist/*
+```
+## License
+[BSD 3](LICENSE)
+
+
