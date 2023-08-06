@@ -1,0 +1,9 @@
+pycipapi/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pycipapi/cipapi_client.py,sha256=VdML9-99XvwyBIdjYs2oijEENa5xN_gZhe96nEc0t5M,10196
+pycipapi/models.py,sha256=XLa53Li2cG5_2SKQg_mLkB6AGgNoR25F9ueo0vPoqHo,20110
+pycipapi/rest_client.py,sha256=8sYPaQp-TK0AcqWTVevdPEsQ1Ox36sspFzh2YqqxFw0,7382
+pycipapi-0.9.4.dist-info/LICENSE,sha256=qDwcfwm016CK_KLz-HfS2koBF63lFCmVc_LmucUXHa8,11354
+pycipapi-0.9.4.dist-info/METADATA,sha256=NREUM1D5l-bLwCDzeijlR_2EPSyuAcJYBvR2VpbDwsk,326
+pycipapi-0.9.4.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+pycipapi-0.9.4.dist-info/top_level.txt,sha256=DdR-3-JBNn8BDpN3uBe2VRUYrUNa-0ygZuXldO9LgOQ,9
+pycipapi-0.9.4.dist-info/RECORD,,

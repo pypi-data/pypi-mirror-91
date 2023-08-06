@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: pycipapi
+Version: 0.9.4
+Summary: UNKNOWN
+Home-page: https://github.com/genomicsengland/pycipapi
+Author: antonior,priesgo
+Author-email: antonio.rueda-martin@genomicsengland.co.uk
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: requests (==2.22)
+Requires-Dist: GelReportModels (==7.7.1)
+
+UNKNOWN
+
+
