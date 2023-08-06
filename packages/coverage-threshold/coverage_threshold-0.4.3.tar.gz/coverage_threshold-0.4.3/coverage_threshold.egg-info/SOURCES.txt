@@ -1,0 +1,11 @@
+README.md
+pyproject.toml
+setup.py
+coverage_threshold/__init__.py
+coverage_threshold/__main__.py
+coverage_threshold.egg-info/PKG-INFO
+coverage_threshold.egg-info/SOURCES.txt
+coverage_threshold.egg-info/dependency_links.txt
+coverage_threshold.egg-info/entry_points.txt
+coverage_threshold.egg-info/requires.txt
+coverage_threshold.egg-info/top_level.txt
