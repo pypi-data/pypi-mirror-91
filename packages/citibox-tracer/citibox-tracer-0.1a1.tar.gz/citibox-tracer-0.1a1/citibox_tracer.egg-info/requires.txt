@@ -1,0 +1,3 @@
+opencensus-ext-django<0.8,>=0.7
+opencensus
+opencensus-ext-stackdriver
