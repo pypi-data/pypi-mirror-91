@@ -1,0 +1,23 @@
+## General info
+This project is code extracted from the question ["{{ item["title"] }}"]({{ item["url"] }})
+
+- Original Post [in html](post.html), [in markdown](post.md), [in text](post.txt)
+
+## Setup
+To build and install this package:
+
+```
+# Read code to see if it all looks legit
+$ python setup.py build sdist
+# copy vendor_packages folder to your code base
+# Add vendor folder to PYTHONPATH
+$ pip install vendor_packages/*.* -t vendor
+```
+Don't push to pypi unless you put substantial effort into it, pypi is already full of junk.
+
+## Supporting Documents
+- [Contributing](CONTRIBUTING.md)
+- [Change Log](CHANGELOG.md)
+- [Authors](AUTHORS.md)
+- [Code of Conduct](CODE_OF_CONDUCT.txt)
+- [Licenses](LICENSE/)
