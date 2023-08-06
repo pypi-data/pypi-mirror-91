@@ -1,0 +1,8 @@
+app/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+app/hello.py,sha256=LZ5tMG1NaoLAIzTF6SgipXFmcvk1pBdgqzlGxXA9a90,263
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_hello_world.py,sha256=vnhT9MntGe99rJ7pvcWxvcE5kVJbvhxlaiUZNoovFpI,335
+devops_challenge_vchslav-0.1.1.dist-info/METADATA,sha256=O_KciBJdIgpjfPYt9BpzLodq6yT1t4vBtf4nHk9Uyp4,644
+devops_challenge_vchslav-0.1.1.dist-info/WHEEL,sha256=bK8TJl-oUKFDa18qkB68zwTZhIBCifqi4qjS_NS4aFQ,92
+devops_challenge_vchslav-0.1.1.dist-info/top_level.txt,sha256=MJXn5pCZl0XSEeWNKzshxzMMANr3AymeoMYBO1JNPyU,10
+devops_challenge_vchslav-0.1.1.dist-info/RECORD,,
