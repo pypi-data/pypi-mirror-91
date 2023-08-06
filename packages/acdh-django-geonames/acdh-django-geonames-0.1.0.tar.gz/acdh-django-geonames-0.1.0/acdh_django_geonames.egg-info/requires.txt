@@ -1,0 +1,2 @@
+acdh-django-vocabs>=0.1
+acdh_geonames_utils>=0.3.1
