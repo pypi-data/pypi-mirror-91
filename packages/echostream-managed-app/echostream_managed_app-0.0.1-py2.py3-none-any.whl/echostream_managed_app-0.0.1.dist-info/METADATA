@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: echostream-managed-app
+Version: 0.0.1
+Summary: Application that implements the managed app functionality
+Home-page: UNKNOWN
+License: Proprietary
+Keywords: one,two
+Platform: UNKNOWN
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: aiorun
+Requires-Dist: cognitoinator
+Requires-Dist: docker (>=4.4)
+Requires-Dist: docker-image-py
+Requires-Dist: gql[aiohttp,websockets] (==3.0.0a5)
+Requires-Dist: python-jose
+Requires-Dist: watchtower (>=1.0.4)
+
+UNKNOWN
+
+
