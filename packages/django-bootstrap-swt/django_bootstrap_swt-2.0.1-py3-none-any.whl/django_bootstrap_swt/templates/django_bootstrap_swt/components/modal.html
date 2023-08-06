@@ -1,0 +1,16 @@
+{{ rendered_button|safe }}
+<div id="{{modal_id}}" class="modal{% if fade %} fade{% endif %}" tabindex="-1" role="document"{% if fetch_url %} data-url="{{fetch_url}}"{% endif %}{% if not backdrop %} data-backdrop="static"{% endif %}{% if not clos_on_esc %} data-keyboard="false"{% endif %}>
+  <div class="modal-dialog{% if size %} {{size.value}}{% endif%}">
+    <div class="modal-content">
+      {% if fetch_url %}
+        {% include 'django_bootstrap_swt/includes/ajax_loading_spinner.html' %}
+        {% include 'django_bootstrap_swt/includes/ajax_error.html' %}
+        <div class="modal-fetched-content"></div>
+      {% else %}
+        {{ header|safe }}
+        {{ body|safe }}
+        {{ footer|safe }}
+      {% endif %}
+    </div>
+  </div>
+</div>
