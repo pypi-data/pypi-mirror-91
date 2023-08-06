@@ -1,0 +1,9 @@
+cfo/__init__.py,sha256=La34iq4ijlqRQFj9T4jEmnpLHoUh8yrzDvvOFmAzZUE,30
+cfo/__version__.py,sha256=VZJtYcO5HaxipeBjWD1iEeJmXzO-_LYBkAWeuxWQ8Xw,8
+cfo/utils.py,sha256=5vxV3ygSul9nPtqwbVKJgcwG71pvoilabTk5T8xxE5M,24454
+cfo/data/paths.json,sha256=VCrGQG7KKn90E61-eeccBWOC2feuUYRzHPdHUup3RvA,67110
+cfo-1.0.1.dist-info/LICENSE,sha256=xJVn_EcPXCNDrpR2m3X2vvKXJ3lHtKwLXr5boVhVMXY,1071
+cfo-1.0.1.dist-info/METADATA,sha256=GZF8EIdkdaYe5Nw-7tFYtMZD4EQo_iCrHlHmtKchvp4,14721
+cfo-1.0.1.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+cfo-1.0.1.dist-info/top_level.txt,sha256=7dOu64mx2RaBJp5zSye8xYgDVs7k0K65Jvxwa1T8pcU,4
+cfo-1.0.1.dist-info/RECORD,,
