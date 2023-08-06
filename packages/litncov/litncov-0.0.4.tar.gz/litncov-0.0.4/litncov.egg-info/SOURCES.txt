@@ -1,0 +1,10 @@
+setup.py
+litncov/__init__.py
+litncov/main.py
+litncov/user.py
+litncov/util.py
+litncov.egg-info/PKG-INFO
+litncov.egg-info/SOURCES.txt
+litncov.egg-info/dependency_links.txt
+litncov.egg-info/requires.txt
+litncov.egg-info/top_level.txt
