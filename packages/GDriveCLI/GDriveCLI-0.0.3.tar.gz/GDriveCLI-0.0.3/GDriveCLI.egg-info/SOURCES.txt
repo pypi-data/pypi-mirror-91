@@ -1,0 +1,11 @@
+MANIFEST.in
+README.md
+credentials.json
+setup.py
+GDriveCLI.egg-info/PKG-INFO
+GDriveCLI.egg-info/SOURCES.txt
+GDriveCLI.egg-info/dependency_links.txt
+GDriveCLI.egg-info/entry_points.txt
+GDriveCLI.egg-info/requires.txt
+GDriveCLI.egg-info/top_level.txt
+GoogleDriveCLI/cli.py
