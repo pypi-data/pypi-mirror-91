@@ -1,0 +1,6 @@
+numpy
+colored
+seaborn
+beartype
+humanize
+humanfriendly
