@@ -1,0 +1,7 @@
+Metadata-Version: 1.1
+Name: quo
+Version: 2021.1.dev4
+Summary: Quo is a Python  based module for writing Command-Line Interface(CLI) applications. It improves programmer's productivity because it's easy to use and supports auto completion which means less time will be spent debugging. 
+Home-page: https://github.com/viewerdiscretion/quo 
+Author: Gerrishon Sirere
+Author-email: gerryshon254@gmail.com
