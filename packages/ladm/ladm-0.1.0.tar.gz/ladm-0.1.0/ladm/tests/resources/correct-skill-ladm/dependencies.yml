@@ -1,0 +1,9 @@
+dependencies:
+  libraries:
+    - zupline: 1.0.0
+    - tensorblow
+  system:
+    - libffi-dev
+    - vim: 1.2.4
+    - emacs
+    - default-jre: 2:1.11-71
