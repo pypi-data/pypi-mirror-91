@@ -1,0 +1,11 @@
+README.md
+setup.py
+simsalapad/__init__.py
+simsalapad/__main__.py
+simsalapad/simsalapad.py
+simsalapad/utils.py
+simsalapad.egg-info/PKG-INFO
+simsalapad.egg-info/SOURCES.txt
+simsalapad.egg-info/dependency_links.txt
+simsalapad.egg-info/entry_points.txt
+simsalapad.egg-info/top_level.txt
