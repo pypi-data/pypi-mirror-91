@@ -1,0 +1,19 @@
+attrs
+click
+codado
+tinydb-serialization
+pyinquirer
+tinydb
+toml
+
+[:python_version < "3.8"]
+typing_extensions
+
+[dev]
+isort
+mypy
+pytest
+pytest-coverage
+pytest-flake8
+tox
+black
