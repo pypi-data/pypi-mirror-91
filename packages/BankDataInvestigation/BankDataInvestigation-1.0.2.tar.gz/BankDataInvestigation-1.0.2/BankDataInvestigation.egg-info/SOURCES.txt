@@ -1,0 +1,17 @@
+README.md
+setup.cfg
+setup.py
+BankDataInvestigation/__init__.py
+BankDataInvestigation.egg-info/PKG-INFO
+BankDataInvestigation.egg-info/SOURCES.txt
+BankDataInvestigation.egg-info/dependency_links.txt
+BankDataInvestigation.egg-info/top_level.txt
+BankDataInvestigation/Config_load/__init__.py
+BankDataInvestigation/Config_load/cfg_load.py
+BankDataInvestigation/Customer/__init__.py
+BankDataInvestigation/Customer/customer.py
+BankDataInvestigation/Customer/detect_recurrency.py
+BankDataInvestigation/pdf/__init__.py
+BankDataInvestigation/pdf/pdf.py
+BankDataInvestigation/spark_implementation/__init__.py
+BankDataInvestigation/spark_implementation/detect_recurrency.py

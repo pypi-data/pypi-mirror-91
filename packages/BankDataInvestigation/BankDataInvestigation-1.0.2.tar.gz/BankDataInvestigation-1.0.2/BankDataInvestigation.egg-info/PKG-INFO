@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: BankDataInvestigation
+Version: 1.0.2
+Summary: This is a python package to Investigate in Bank data using Pansdas and Pyspark, made while an MHPC thesis  in ICTP/SISSA and Prometeia
+Home-page: https://gitlab.com/yousfi.nesrine/prometeia_project.git
+Author: Nesrine Yousfi
+Author-email: yousfi.nesrine@gmail.com
+License: UNKNOWN
+Description: Bank Recurring Investigation
+        
+        This python package investigates Banking data using Pansdas and Pyspark. It is written as a part of an MHPC master project in a joint program of ICTP/SISSA and Prometeia company.
+        
+        
+        
+        	
+        	
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
