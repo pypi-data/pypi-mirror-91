@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.md
+setup.py
+pySMTP/__init__.py
+pySMTP.egg-info/PKG-INFO
+pySMTP.egg-info/SOURCES.txt
+pySMTP.egg-info/dependency_links.txt
+pySMTP.egg-info/top_level.txt

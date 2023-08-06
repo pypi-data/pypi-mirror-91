@@ -1,0 +1,7 @@
+Change Log
+==========
+
+1.0.0 (11/01/2021)
+------------------
+- First Release
+- Fully working
