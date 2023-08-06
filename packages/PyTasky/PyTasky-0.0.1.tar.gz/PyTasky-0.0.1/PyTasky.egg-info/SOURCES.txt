@@ -1,0 +1,7 @@
+README.md
+setup.py
+PyTasky/__init__.py
+PyTasky.egg-info/PKG-INFO
+PyTasky.egg-info/SOURCES.txt
+PyTasky.egg-info/dependency_links.txt
+PyTasky.egg-info/top_level.txt
