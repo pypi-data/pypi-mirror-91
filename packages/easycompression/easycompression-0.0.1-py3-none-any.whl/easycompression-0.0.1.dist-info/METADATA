@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: easycompression
+Version: 0.0.1
+Summary: Deep learning model compression toolkit
+Home-page: https://github.com/alibaba/EasyCompression
+Author: PAI EasyCompression Team
+Author-email: litan.ls@alibaba-inc.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=2.7,>=3.6
+Description-Content-Type: text/markdown
+
+# EasyCompression
+
+EasyCompression is a deep learning model compression toolkit.
+
