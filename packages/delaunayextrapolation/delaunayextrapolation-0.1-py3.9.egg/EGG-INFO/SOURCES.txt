@@ -1,0 +1,8 @@
+README.md
+delaunayextrapolation.py
+setup.py
+delaunayextrapolation.egg-info/PKG-INFO
+delaunayextrapolation.egg-info/SOURCES.txt
+delaunayextrapolation.egg-info/dependency_links.txt
+delaunayextrapolation.egg-info/requires.txt
+delaunayextrapolation.egg-info/top_level.txt
