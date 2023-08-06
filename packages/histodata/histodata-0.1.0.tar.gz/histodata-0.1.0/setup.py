@@ -1,0 +1,30 @@
+import setuptools
+import os
+
+with open("README.md", "r", encoding="utf-8") as fh:
+    long_description = fh.read()
+
+setuptools.setup(
+    name="histodata",
+    #version = os.environ['CI_COMMIT_TAG'],
+    version = "0.1.0",
+    author="Jonas Annuscheit",
+    author_email="Jonas.Annuscheit@htw-berlin.de",
+    description="A small example package",
+    long_description=long_description,
+    long_description_content_type="text/markdown",
+    url="https://git.tools.f4.htw-berlin.de/cbmi-charite/histodata",
+    packages=setuptools.find_packages(),
+    classifiers=[
+        "Programming Language :: Python :: 3",
+        "License :: OSI Approved :: MIT License",
+        "Operating System :: OS Independent",
+    ],
+    python_requires='>=3.6',
+    install_requires=[
+    	"matplotlib",  # TODO specify version
+    	"numpy",  # TODO specify version
+    	"torch>=1.5.1",
+    	"torchvision>=0.6.1"
+    ]
+)
