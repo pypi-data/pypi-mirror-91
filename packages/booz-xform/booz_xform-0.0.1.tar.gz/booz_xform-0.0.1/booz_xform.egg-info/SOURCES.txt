@@ -1,0 +1,8 @@
+README.md
+pyproject.toml
+setup.py
+booz_xform.egg-info/PKG-INFO
+booz_xform.egg-info/SOURCES.txt
+booz_xform.egg-info/dependency_links.txt
+booz_xform.egg-info/not-zip-safe
+booz_xform.egg-info/top_level.txt
