@@ -1,0 +1,8 @@
+README.md
+setup.py
+passwordtools/__init__.py
+passwordtools/passwordtools.py
+passwordtools.egg-info/PKG-INFO
+passwordtools.egg-info/SOURCES.txt
+passwordtools.egg-info/dependency_links.txt
+passwordtools.egg-info/top_level.txt

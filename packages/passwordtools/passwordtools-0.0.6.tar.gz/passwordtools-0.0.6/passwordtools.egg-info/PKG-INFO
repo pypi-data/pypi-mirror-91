@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: passwordtools
+Version: 0.0.6
+Summary: Fast password module using the "io" and "random" modules.
+Home-page: https://github.com/ConConDiscord/passwordtools
+Author: TriC
+Author-email: parantezdev@gmail.com
+License: UNKNOWN
+Description: # passwordtools
+        Fast password module using the "io" and "random" modules.
+        
+        # securestr
+        Makes a secure string password.
+        
+        Usage
+        ---
+        ```
+        passwordtools.securestr(length, [chars_in])
+        ```
+        
+        # pin
+        Makes a secure PIN.
+        
+        Usage
+        ---
+        ```
+        passwordtools.pin(length)
+        ```
+        
+        # check
+        Checks a password's security.
+        
+        Usage
+        ---
+        ```
+        passwordtools.check(password)
+        ```
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
