@@ -1,0 +1,5 @@
+setup.py
+hashtestmodule.egg-info/PKG-INFO
+hashtestmodule.egg-info/SOURCES.txt
+hashtestmodule.egg-info/dependency_links.txt
+hashtestmodule.egg-info/top_level.txt
