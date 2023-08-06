@@ -1,0 +1,58 @@
+Metadata-Version: 2.1
+Name: plusportals
+Version: 0.1.6
+Summary: A reverse engineered API PlusPortals
+Home-page: https://github.com/DhruvBisla/PlusPortalsAPI
+Author: Dhruv Bisla
+Author-email: bisladhruv@gmail.com
+License: MIT
+Keywords: api,reverse-engineered,plusportals,plusportalsapi
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires: requests
+Requires: lxml
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+Requires-Dist: lxml
+
+</p>
+<p align="left">
+<a href="https://github.com/DhruvBisla/PlusPortalsAPI/actions">
+    <img src="https://github.com/DhruvBisla/PlusportalsAPI/workflows/Tests/badge.svg" alt="Test Status">
+</a>
+<a href="https://pypi.org/project/plusportals/">
+    <img src="https://img.shields.io/pypi/v/plusportals?color=success&label=pypi%20package&logo=PyPi" alt="Package Version">
+</a>
+</p>
+
+# PlusPortalsAPI
+A reverse-engineered PlusPortals API that provides some basic functionality to access relevant information displayed in Plusportals e.g. grades
+
+# Requirements
+Python 3.6+
+
+# Installation
+```shell
+pip install plusportals
+```
+
+# Usage
+
+```python
+import plusportals as pp
+client = pp.Client(True, School, Email, ID, Password)
+client.printGrades(markingPeriod)
+```
+
+The following imports the plusportals module, instantiates a client with your login credentials, and prints your grades of the specified markingPeriod. 
+
+The first parameter passed is whether you would like your credentials to be cached so that they do not have to be passed again after the first time, in which case you may simply instantiate a client with `client = pp.Client()`. The following parameters are your PlusPortals login credentials, school name, email, ID, and password. Your ID is the multi-digit number found in the URL when you login to Plusportals.
+
+Finally, you can print the grades for each of your classes, as is done in the last line, where markingPeriod is the markingPeriod for which you would like to view your grades, e.g., 1 for Semester 1 and 2 for Semester 2.
+
+
+
