@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: coolstuff
+Version: 0.2.4
+Summary: ML-analysis
+Home-page: UNKNOWN
+Author: Raymond
+License: UNKNOWN
+Keywords: cool,stuff
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 3 - Alpha
+Description-Content-Type: text/markdown
+Requires-Dist: pandas
+Requires-Dist: torch
+Requires-Dist: torchvision
+Requires-Dist: sklearn
+Requires-Dist: tensorflow
+Requires-Dist: captum
+Requires-Dist: adversarial-robustness-toolbox
+Requires-Dist: plotly
+
+Simple package
+
+
