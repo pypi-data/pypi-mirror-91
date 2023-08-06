@@ -1,0 +1,20 @@
+Metadata-Version: 1.1
+Name: pyStaticAnalyzer
+Version: 1.1
+Summary: Simple Python Static Analyzer
+Home-page: https://github.com/noname19871/pyStaticAnalyzer
+Author: Andrew Marchenko
+Author-email: zeroday343@gmail.com
+License: MIT
+Download-URL: https://github.com/noname19871/pyStaticAnalyzer/archive/v1.1.tar.gz
+Description: Check full documentation in GitHub repository
+Keywords: Static Analysis,AST,Parser,Checker
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
