@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: hubeau-api-client
+Version: 0.0.3
+Summary: Hubeau Rest API Client
+Home-page: https://github.com/lrk/hubeau-api-client
+Author: Lrk
+Author-email: sfxelrick@gmail.com
+License: UNKNOWN
+Project-URL: Bug Reports, https://github.com/lrk/hubeau-api-client/issues
+Project-URL: Source, https://github.com/lrk/hubeau-api-client
+Description: # hubeau-api-client
+        
+        [WIP] Hubeau API Client for python
+        
+        [[https://img.shields.io/pypi/l/hubeau-api-client]]
+        
+        A simple python client for [Hub'Eau APIs](https://hubeau.eaufrance.fr).
+        
+        It's a very early stage, so everything is not perfect, but if you want to contribute you are welcome.
+        
+        If you want to contribute, please read the [guidelines](CONTRIBUTING)
+        
+        # compiling
+        
+        ```
+        python3 -m venv .venv
+        source .venv/bin/activate
+        pip3 install -r requirements.txt
+        
+        ```
+        
+Keywords: hubeau,api,rest
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Programming Language :: Python :: 3
+Classifier: Natural Language :: French
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+Provides-Extra: test
