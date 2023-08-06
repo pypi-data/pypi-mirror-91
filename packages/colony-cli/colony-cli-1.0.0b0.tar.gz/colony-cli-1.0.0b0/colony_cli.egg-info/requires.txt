@@ -1,0 +1,6 @@
+docopt
+gitpython
+pyyaml
+requests
+setuptools
+tabulate
