@@ -1,0 +1,19 @@
+Metadata-Version: 1.1
+Name: hagelslag
+Version: 0.4.0b1
+Summary: Object-based severe weather forecast system
+Home-page: https://github.com/djgagne/hagelslag
+Author: David John Gagne
+Author-email: dgagne@ucar.edu
+License: MIT
+Description: Hagelslag is a Python package for storm-based analysis, forecasting, and evaluation.
+Keywords: hail,verification,tracking,weather,meteorology,machine learning
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
