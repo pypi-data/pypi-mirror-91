@@ -1,0 +1,7 @@
+README.md
+setup.py
+src/hwork.py
+src/hwork.egg-info/PKG-INFO
+src/hwork.egg-info/SOURCES.txt
+src/hwork.egg-info/dependency_links.txt
+src/hwork.egg-info/top_level.txt
