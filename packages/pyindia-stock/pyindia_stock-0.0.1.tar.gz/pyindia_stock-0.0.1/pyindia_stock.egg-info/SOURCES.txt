@@ -1,0 +1,13 @@
+.gitignore
+LICENSE
+README.md
+requirements.txt
+setup.py
+pyindia_stock/__init__.py
+pyindia_stock/stock_analysis.py
+pyindia_stock.egg-info/PKG-INFO
+pyindia_stock.egg-info/SOURCES.txt
+pyindia_stock.egg-info/dependency_links.txt
+pyindia_stock.egg-info/requires.txt
+pyindia_stock.egg-info/top_level.txt
+scripts/pyindia_stock
