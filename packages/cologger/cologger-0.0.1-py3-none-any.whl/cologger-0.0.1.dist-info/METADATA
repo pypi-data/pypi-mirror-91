@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: cologger
+Version: 0.0.1
+Summary: Make your endless print statements with color, different formats, and more!
+Home-page: https://github.com/henryboisdequin/cologger
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Environment :: Console
+Classifier: License :: OSI Approved :: MIT License
+Description-Content-Type: text/markdown
+
+# cologger
+
+## Installation
+
+```
+pip install cologger
+```
+
+
