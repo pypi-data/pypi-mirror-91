@@ -1,0 +1,8 @@
+README.md
+pytextwrap.py
+setup.py
+pytextwrap.egg-info/PKG-INFO
+pytextwrap.egg-info/SOURCES.txt
+pytextwrap.egg-info/dependency_links.txt
+pytextwrap.egg-info/entry_points.txt
+pytextwrap.egg-info/top_level.txt
