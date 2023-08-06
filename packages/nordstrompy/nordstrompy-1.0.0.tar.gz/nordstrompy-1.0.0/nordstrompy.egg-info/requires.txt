@@ -1,0 +1,6 @@
+click
+pandas
+openpyxl
+xlrd
+numpy
+pyodbc

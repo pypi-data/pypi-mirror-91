@@ -1,0 +1,11 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+nordstrompy.egg-info/PKG-INFO
+nordstrompy.egg-info/SOURCES.txt
+nordstrompy.egg-info/dependency_links.txt
+nordstrompy.egg-info/entry_points.txt
+nordstrompy.egg-info/not-zip-safe
+nordstrompy.egg-info/requires.txt
+nordstrompy.egg-info/top_level.txt
