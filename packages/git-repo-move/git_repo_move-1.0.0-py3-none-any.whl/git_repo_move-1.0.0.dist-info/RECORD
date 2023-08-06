@@ -1,0 +1,10 @@
+git_repo_move/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+git_repo_move/cli.py,sha256=hk7Ff8IukE5VkhIIUcFi7VMSNSYYNeMQzMqLoscMPzk,3175
+git_repo_move/gitinfo.py,sha256=C9fe9DiEvB1Qicul-zl0qNu02w7yGFlGlgXznHfBaqc,671
+git_repo_move/keepfiles.py,sha256=lB3CGiDLs9QnvQDajIpBf5mEWsk6Fm7t2VtxB3eNjPk,3006
+git_repo_move/shellscript.py,sha256=KkidJIXcy9KyihS42IZ2Dkzv9MYPqrkICVfHCaW3pl4,2996
+git_repo_move-1.0.0.dist-info/entry_points.txt,sha256=dk-ivrKa26n6vj3u3KYQEGj4gWozSsdx75saH652lqQ,56
+git_repo_move-1.0.0.dist-info/LICENSE,sha256=6NF_zrw5gbknP3DrPsWg8l43YBt_IaknfTb54niytbI,1071
+git_repo_move-1.0.0.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+git_repo_move-1.0.0.dist-info/METADATA,sha256=PzsCLO7DmWEB95p0OT3BG_prCUjFQPZUwM7GGd9nesU,538
+git_repo_move-1.0.0.dist-info/RECORD,,
