@@ -1,0 +1,3 @@
+[console_scripts]
+fsds2021 = fsds2021.cli:main
+
