@@ -1,0 +1,12 @@
+pyinspect
+gensim
+nltk
+langdetect
+pandas
+loguru
+requests
+myterial
+rich
+bibtexparser
+cython
+typer
