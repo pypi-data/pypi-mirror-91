@@ -1,0 +1,4 @@
+[console_scripts]
+mdbridge2html = mdbridge.mdbridge2html:main
+mdbridge2latex = mdbridge.mdbridge2latex:main
+
