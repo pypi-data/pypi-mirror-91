@@ -1,0 +1,11 @@
+aalto_gpu/__init__.py,sha256=cAwH0gdi60ftQUwaHGab3oQ0ITKEZeXJGIEKRfvFBRU,529
+aalto_gpu/_version.py,sha256=wie7U0jiiRQh4KXsOSrk1rP-Kt1uikd0bgnfaehORC4,72
+aalto_gpu/handlers.py,sha256=pmu0gthIGv3qpEtaLDkh6fR831CpCIIF3euIuS7bFQI,2634
+aalto_gpu/labextension/aalto-gpu-0.1.0.tgz,sha256=rbrxZb4pllJA9bBW9VIh9TdpsRJ3nmvyy5K7wX59tcY,4134
+aalto_gpu-0.1.0.data/data/etc/jupyter/jupyter_notebook_config.d/aalto_gpu.json,sha256=Fnes6pdxRXpPiXn0Ed-QjKltuzUuGJhZNqTKUm4bVAM,86
+aalto_gpu-0.1.0.data/data/share/jupyter/lab/extensions/aalto-gpu-0.1.0.tgz,sha256=rbrxZb4pllJA9bBW9VIh9TdpsRJ3nmvyy5K7wX59tcY,4134
+aalto_gpu-0.1.0.dist-info/LICENSE,sha256=ENqA44m1fzgGsCKdfzxhbFUqxO76kRl09lME4RTOEgA,1511
+aalto_gpu-0.1.0.dist-info/METADATA,sha256=qjJxlHr-XIqWLOn5zyWnOK2q6M3PE2ozZ0f41HeGVc0,2984
+aalto_gpu-0.1.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+aalto_gpu-0.1.0.dist-info/top_level.txt,sha256=uFOqhlD5r6peXHxQ_jAhjT-IvbmGegVIuuddMMNmhm8,10
+aalto_gpu-0.1.0.dist-info/RECORD,,
