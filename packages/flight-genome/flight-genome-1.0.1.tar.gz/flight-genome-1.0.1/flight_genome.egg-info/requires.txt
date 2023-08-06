@@ -1,0 +1,12 @@
+numpy
+joblib==0.17.0
+hdbscan
+matplotlib
+seaborn
+scikit-learn
+scikit-bio
+numba
+biopython
+pynndescent
+threadpoolctl
+umap-learn>=0.5
