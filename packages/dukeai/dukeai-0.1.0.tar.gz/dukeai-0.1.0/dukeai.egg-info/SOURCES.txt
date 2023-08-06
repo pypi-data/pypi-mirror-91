@@ -1,0 +1,13 @@
+README.md
+setup.cfg
+setup.py
+dukeai/__init__.py
+dukeai/config.py
+dukeai/duke_api.py
+dukeai/duke_auto.py
+dukeai/duke_ocr.py
+dukeai.egg-info/PKG-INFO
+dukeai.egg-info/SOURCES.txt
+dukeai.egg-info/dependency_links.txt
+dukeai.egg-info/requires.txt
+dukeai.egg-info/top_level.txt
