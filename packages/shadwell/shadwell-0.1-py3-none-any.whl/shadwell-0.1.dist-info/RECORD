@@ -1,0 +1,10 @@
+shadwell/__init__.py,sha256=rqyZtt1djmoU2vxYGslRgV4TaBWrxK8uesP_Xai_8-U,19
+shadwell/candidate.py,sha256=BUVX2bFOh8UZSr_CWA_4hDLpwEi1-iV5ZQUY1QoDN9c,1315
+shadwell/finder.py,sha256=At3wtlksxglNI173z97nMugmvMO1qOEznV5AR05Osak,4544
+shadwell/sources/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+shadwell/sources/json_api.py,sha256=4uDiWe1UvB1MZbzWVNS2s_TmRnbVf-duqR4IgEl3g2M,1315
+shadwell-0.1.dist-info/LICENSE.txt,sha256=xz4IoE4VV_20lSX7elefc7yrhKJUkQuTUO5W2vFDky0,1072
+shadwell-0.1.dist-info/METADATA,sha256=A5bh4nMq7ZoxQVkiPAS7uo3lt9cdWqD9ps_mR6CuFME,5091
+shadwell-0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+shadwell-0.1.dist-info/top_level.txt,sha256=23xiaWSQnXuAISLYVQaU2ZaTvqF8xcK6QMjPS75FG2Q,9
+shadwell-0.1.dist-info/RECORD,,
