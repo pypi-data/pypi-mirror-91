@@ -1,0 +1,10 @@
+ipfspod/__init__.py,sha256=QnXj003flOw1eVScAEoMo8IPv1TqVkIPdakow8X9JWY,105
+ipfspod/__main__.py,sha256=8Xz86-3lHcCB2TM_s6TUQRXmkcL-7yJL6PTvFiLYh04,8665
+ipfspod/feed_template.xml.jinja,sha256=G01VYLZioV72cpR5rAoxMeAzgLuwQ-xAycA3QKYIn5M,5272
+ipfspod/icon.png,sha256=W8AjSEq88SYc902xptVnI6FhWbfC6E8iUoy9Jg_82RM,7519
+ipfspod/picnic.min.css.gz,sha256=LZ5sYdWuzfqbNu-_uNEPl5hEO9oewF2qeDP2EvQ1Wt8,7246
+ipfspod/test_main.py,sha256=k9mKbPoX2JEqFlHtA4oPkSt07Zi4fjzeiLHLZ8XeXRo,2348
+ipfspod-0.1.1.dist-info/LICENSE,sha256=eghA8KRssUSlFOccbRYhBC6QHgkhB_MrnnGhx751hB4,1071
+ipfspod-0.1.1.dist-info/WHEEL,sha256=NLqmsx-ZFZ6gDavYgh2oH0ZSN-KRmpcdEXIZDnYy9Pg,99
+ipfspod-0.1.1.dist-info/METADATA,sha256=BQsyesZ4OeJRq64hZMAUPATMvtftgUvfGC3ys3MnTQ8,348
+ipfspod-0.1.1.dist-info/RECORD,,
