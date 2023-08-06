@@ -1,0 +1,22 @@
+specfile_path: ansible-bender.spec
+actions:
+  create-archive:
+    - "python3 setup.py sdist --dist-dir ."
+    - "sh -c 'echo ansible-bender-$(python3 setup.py --version).tar.gz'"
+  get-current-version:
+    - "python3 setup.py --version"
+jobs:
+- job: copr_build
+  metadata:
+    targets:
+    - fedora-all
+  trigger: pull_request
+- job: tests
+  trigger: pull_request
+  metadata:
+    targets:
+    - fedora-all
+- job: propose_downstream
+  trigger: release
+  metadata:
+    dist-git-branch: master
