@@ -1,0 +1,15 @@
+README.md
+setup.cfg
+setup.py
+forge/__init__.py
+forge/cli.py
+forge/exceptions.py
+forge/forge.py
+forge/pipx_wrapper.py
+tele_forge.egg-info/PKG-INFO
+tele_forge.egg-info/SOURCES.txt
+tele_forge.egg-info/dependency_links.txt
+tele_forge.egg-info/entry_points.txt
+tele_forge.egg-info/requires.txt
+tele_forge.egg-info/top_level.txt
+tele_forge.egg-info/zip-safe
