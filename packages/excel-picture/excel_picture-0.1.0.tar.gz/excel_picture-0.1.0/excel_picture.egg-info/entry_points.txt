@@ -1,0 +1,3 @@
+[console_scripts]
+excel_picture = excel_picture.__init__:main
+
