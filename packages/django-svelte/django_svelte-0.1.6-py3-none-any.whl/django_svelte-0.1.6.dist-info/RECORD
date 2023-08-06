@@ -1,0 +1,9 @@
+django_svelte/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_svelte/templates/display_svelte.html,sha256=A_ZQ8zf_IgzRdQOFzEwE9wODl-GAhooxAwpeLSFcBG8,404
+django_svelte/templatetags/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_svelte/templatetags/django_svelte.py,sha256=vGAnQRuwPZGmshytnMGQbPen3AXLFz3GYgF542JCtKE,726
+django_svelte-0.1.6.dist-info/LICENSE,sha256=AosLoMkSJyvvxkqETWq1TVpdt8d2l3ty8VZbTW7Zv-o,1064
+django_svelte-0.1.6.dist-info/METADATA,sha256=qK1vCq9mxXRucUYm8F6uSO2pOMTC1vPSH7WDjxRYyoo,3674
+django_svelte-0.1.6.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+django_svelte-0.1.6.dist-info/top_level.txt,sha256=txe5MWEc4AoH-EHnHfAmzOW9vuGUiQM5Vt2PucATzhg,14
+django_svelte-0.1.6.dist-info/RECORD,,
