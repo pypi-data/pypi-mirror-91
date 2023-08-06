@@ -1,0 +1,14 @@
+MANIFEST.in
+README.md
+VERSION
+pyproject.toml
+setup.cfg
+setup.py
+api_client_jsonmarshal.egg-info/PKG-INFO
+api_client_jsonmarshal.egg-info/SOURCES.txt
+api_client_jsonmarshal.egg-info/dependency_links.txt
+api_client_jsonmarshal.egg-info/not-zip-safe
+api_client_jsonmarshal.egg-info/requires.txt
+api_client_jsonmarshal.egg-info/top_level.txt
+apiclient_jsonmarshal/__init__.py
+apiclient_jsonmarshal/marshallers.py
