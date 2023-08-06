@@ -1,0 +1,8 @@
+README.md
+setup.py
+regparse/__init__.py
+regparse/__main__.py
+regparse.egg-info/PKG-INFO
+regparse.egg-info/SOURCES.txt
+regparse.egg-info/dependency_links.txt
+regparse.egg-info/top_level.txt
