@@ -1,0 +1,12 @@
+Metadata-Version: 1.0
+Name: imgMS
+Version: 0.0.1
+Summary: Package for data reduction of LA-ICP-MS data.
+Home-page: UNKNOWN
+Author: nikadilli
+Author-email: nikadilli@gmail.com
+License: LICENSE.txt
+Description: # imgMS
+        Python package for data reduction of LA-ICP-MS measurements.
+        
+Platform: UNKNOWN
