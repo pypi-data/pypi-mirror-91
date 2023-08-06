@@ -1,0 +1,15 @@
+services:
+  databricksbundle.dbutils.DatabricksConnectDbUtilsFactory:
+
+  databricksbundle.notebook.pathResolver:
+    class: databricksbundle.notebook.path.LocalScriptPathResolver
+
+  databricksbundle.spark.ScriptSessionFactory:
+    arguments:
+      - []
+
+  pyspark.dbutils.DBUtils:
+    factory: ['@databricksbundle.dbutils.DatabricksConnectDbUtilsFactory', 'create']
+
+  pyspark.sql.session.SparkSession:
+    factory: ['@databricksbundle.spark.ScriptSessionFactory', 'create']
