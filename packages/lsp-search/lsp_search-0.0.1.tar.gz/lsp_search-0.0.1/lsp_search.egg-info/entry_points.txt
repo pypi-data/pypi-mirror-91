@@ -1,0 +1,3 @@
+[console_scripts]
+lsp_search = lsp_search:lsp_search
+

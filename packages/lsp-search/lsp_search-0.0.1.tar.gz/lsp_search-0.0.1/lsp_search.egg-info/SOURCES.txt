@@ -1,0 +1,8 @@
+setup.py
+lsp_search/__init__.py
+lsp_search.egg-info/PKG-INFO
+lsp_search.egg-info/SOURCES.txt
+lsp_search.egg-info/dependency_links.txt
+lsp_search.egg-info/entry_points.txt
+lsp_search.egg-info/requires.txt
+lsp_search.egg-info/top_level.txt
