@@ -1,0 +1,13 @@
+katsdpmodels/__init__.py,sha256=vz4rSkbjyqlToThwqMt1xdJuiUN39axA4LzKrnMPfCI,1164
+katsdpmodels/band_mask.py,sha256=DWB5Bq2HXLRU7PVOZV3Ay-BZD-tdPcaZiwzCg3ieFqQ,4165
+katsdpmodels/models.py,sha256=QAyNpxEtxmuRuXVxpxVFSMt4bIkg7R8srpjmlc7uc20,14968
+katsdpmodels/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+katsdpmodels/rfi_mask.py,sha256=BuVW-SXuhv70PmKc1qym0rR2j8ZeV_CoashOQGu8R_M,6822
+katsdpmodels/fetch/__init__.py,sha256=5kIBrAX3kBREe4XEKQhtQipN07BlcPc0cYrjvU4TdCY,13002
+katsdpmodels/fetch/aiohttp.py,sha256=4KRGzt3uCZ4ZkK6kgMLCBvu9ZGPkRXkU47uDXX7t6lI,9370
+katsdpmodels/fetch/requests.py,sha256=eSVZxSDcCOa9mwjo65eYZ3rOKGQI5NCdMF79X2h382c,14532
+katsdpmodels-0.1.dist-info/LICENSE,sha256=I9uns9tTzfmxYoDLy8yjofoX0KAgDThKEvY-TJ0Y3IQ,1522
+katsdpmodels-0.1.dist-info/METADATA,sha256=E6-jmFq5_9q0SDJt4wHLZH3sC2deNv8_Fnbnx1Yl_Go,1484
+katsdpmodels-0.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+katsdpmodels-0.1.dist-info/top_level.txt,sha256=sxMWU6sRTyUwi-WAmGkGk5JQlJxrkHB7yWeh_ZMTAys,13
+katsdpmodels-0.1.dist-info/RECORD,,
