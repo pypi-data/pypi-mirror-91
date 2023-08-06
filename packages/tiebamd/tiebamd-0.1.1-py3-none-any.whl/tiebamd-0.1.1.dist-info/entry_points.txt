@@ -1,0 +1,3 @@
+[console_scripts]
+tiebamd=tiebamd.cli:cli
+
