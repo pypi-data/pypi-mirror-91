@@ -1,0 +1,7 @@
+recursive-include frictionless/assets *
+recursive-include frictionless/legacy *
+include LICENSE.md
+include Makefile
+include pylama.ini
+include pytest.ini
+include README.md
