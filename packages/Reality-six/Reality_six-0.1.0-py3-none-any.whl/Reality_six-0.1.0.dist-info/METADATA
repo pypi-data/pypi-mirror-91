@@ -1,0 +1,44 @@
+Metadata-Version: 2.1
+Name: Reality-six
+Version: 0.1.0
+Summary: A simple package that tells you reality.
+Home-page: https://github.com/Hillo232/Reality/tree/main
+Author: pkg_uploaders
+Author-email: example@example.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: psutil (>=5.8.0)
+
+#Reality
+
+Get you platform:
+
+```py
+import Reality
+
+print(Reality.platform())
+```
+
+See if a proccess is running:
+
+```py
+import Reality as r
+
+if r.__running__("terminal"):
+  print("Terminal is running!")
+else:
+  print("Terminal is not running.")
+```
+
+Get timestamp:
+
+```py
+import Reality as r
+
+print(str(r.timestamp()))
+```
+
