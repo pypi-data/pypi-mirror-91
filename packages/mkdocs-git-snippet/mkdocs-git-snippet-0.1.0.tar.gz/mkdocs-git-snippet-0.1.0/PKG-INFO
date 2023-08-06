@@ -1,0 +1,11 @@
+Metadata-Version: 1.2
+Name: mkdocs-git-snippet
+Version: 0.1.0
+Summary: An MkDocs plugin that read snippet from Github Repository.
+Home-page: https://github.com/mercari/mkdocs-git-snippet
+Author: Mercari
+Author-email: 
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.5
