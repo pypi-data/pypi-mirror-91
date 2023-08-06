@@ -1,0 +1,14 @@
+printj
+pyjeasy
+torch
+torchvision
+pyyaml>=5.1
+pycocotools
+opencv-python
+numpy
+pandas
+shapely
+hypothesis
+pytest
+albumentations
+seaborn
