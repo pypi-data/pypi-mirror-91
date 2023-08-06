@@ -1,0 +1,7 @@
+README.md
+setup.py
+src/dominisia.py
+src/dominisia.egg-info/PKG-INFO
+src/dominisia.egg-info/SOURCES.txt
+src/dominisia.egg-info/dependency_links.txt
+src/dominisia.egg-info/top_level.txt
