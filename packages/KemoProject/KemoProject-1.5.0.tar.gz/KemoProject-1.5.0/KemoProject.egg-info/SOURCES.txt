@@ -1,0 +1,6 @@
+README.md
+setup.py
+KemoProject.egg-info/PKG-INFO
+KemoProject.egg-info/SOURCES.txt
+KemoProject.egg-info/dependency_links.txt
+KemoProject.egg-info/top_level.txt
