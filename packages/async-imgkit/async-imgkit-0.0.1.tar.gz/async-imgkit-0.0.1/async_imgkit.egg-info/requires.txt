@@ -1,0 +1,8 @@
+imgkit
+
+[tests]
+pytest
+aiounittest
+pypandoc
+coverage
+nose
