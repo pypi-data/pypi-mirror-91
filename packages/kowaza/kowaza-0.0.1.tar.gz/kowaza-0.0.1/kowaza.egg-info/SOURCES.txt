@@ -1,0 +1,16 @@
+CONTRIBUTING.md
+LICENSE
+MANIFEST.in
+README.md
+settings.ini
+setup.py
+kowaza/__init__.py
+kowaza/_nbdev.py
+kowaza/core.py
+kowaza/mli.py
+kowaza.egg-info/PKG-INFO
+kowaza.egg-info/SOURCES.txt
+kowaza.egg-info/dependency_links.txt
+kowaza.egg-info/entry_points.txt
+kowaza.egg-info/not-zip-safe
+kowaza.egg-info/top_level.txt
