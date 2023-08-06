@@ -1,0 +1,10 @@
+README.md
+setup.py
+gdrivewrapper/__init__.py
+gdrivewrapper/_gdrivewrapper.py
+gdrivewrapper/core.py
+gdrivewrapper.egg-info/PKG-INFO
+gdrivewrapper.egg-info/SOURCES.txt
+gdrivewrapper.egg-info/dependency_links.txt
+gdrivewrapper.egg-info/requires.txt
+gdrivewrapper.egg-info/top_level.txt
