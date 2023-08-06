@@ -1,0 +1,11 @@
+README.md
+setup.py
+JsonMatcher.egg-info/PKG-INFO
+JsonMatcher.egg-info/SOURCES.txt
+JsonMatcher.egg-info/dependency_links.txt
+JsonMatcher.egg-info/top_level.txt
+json_matcher/__init__.py
+json_matcher/matcher.py
+json_matcher/rule.py
+json_matcher/test.py
+json_matcher/util.py
