@@ -1,0 +1,7 @@
+setup.py
+datacoin/__init__.py
+datacoin/datacoin.py
+pydatacoin.egg-info/PKG-INFO
+pydatacoin.egg-info/SOURCES.txt
+pydatacoin.egg-info/dependency_links.txt
+pydatacoin.egg-info/top_level.txt
