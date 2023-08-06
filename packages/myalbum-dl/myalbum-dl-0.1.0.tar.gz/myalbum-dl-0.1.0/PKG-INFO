@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: myalbum-dl
+Version: 0.1.0
+Summary: A command line tool for downloading albums from MyAlbum
+Home-page: https://github.com/GBS3/myalbum-dl
+Author: Giovanni Salinas
+Author-email: gbs3@protonmail.com
+License: UNKNOWN
+Description: # myalbum-dl
+        A command-line tool written in Python for downloading albums from MyAlbum
+        
+        <img src="https://raw.githubusercontent.com/GBS3/myalbum-dl/main/media/terminal.gif">
+        
+        # Installation
+        In order to install the tool, run the following in your terminal:
+        
+        ```sh
+        $ pip install myalbum-dl
+        ```
+        
+        # Usage
+        Once `myalbum-dl` is installed, all you need to do is run the following in your terminal to use it:
+        
+        ```sh
+        $ myalbum-dl <URL>
+        ```
+        
+        For example:
+        
+        ```sh
+        $ myalbum-dl https://myalbum.com/album/uRCYu2bHECn7
+        ```
+Keywords: myalbum,scraper,download,photos,videos
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
