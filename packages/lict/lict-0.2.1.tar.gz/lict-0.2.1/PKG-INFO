@@ -1,0 +1,11 @@
+Metadata-Version: 1.2
+Name: lict
+Version: 0.2.1
+Summary: A hybrid list-dict container for building interpolatable python classes
+Home-page: https://github.com/hallmarksrc/lict
+Author: Chi-kwan Chan
+Author-email: ckchan@cfa.harvard.edu
+License: UNKNOWN
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.6

@@ -1,0 +1,8 @@
+README.md
+setup.py
+mod/lict/__init__.py
+mod/lict/core.py
+mod/lict.egg-info/PKG-INFO
+mod/lict.egg-info/SOURCES.txt
+mod/lict.egg-info/dependency_links.txt
+mod/lict.egg-info/top_level.txt
