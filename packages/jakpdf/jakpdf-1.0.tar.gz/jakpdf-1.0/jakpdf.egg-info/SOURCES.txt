@@ -1,0 +1,8 @@
+README.md
+setup.py
+jakpdf/__init__.py
+jakpdf/pdf2text.py
+jakpdf.egg-info/PKG-INFO
+jakpdf.egg-info/SOURCES.txt
+jakpdf.egg-info/dependency_links.txt
+jakpdf.egg-info/top_level.txt
