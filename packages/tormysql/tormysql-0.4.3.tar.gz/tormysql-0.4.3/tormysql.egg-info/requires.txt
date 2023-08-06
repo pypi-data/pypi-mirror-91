@@ -1,0 +1,5 @@
+PyMySQL>=0.7.10
+greenlet>=0.4.2
+
+[tornado]
+tornado>=5
