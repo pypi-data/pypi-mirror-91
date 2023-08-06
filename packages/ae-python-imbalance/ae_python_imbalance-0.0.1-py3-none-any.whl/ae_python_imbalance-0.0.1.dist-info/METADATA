@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: ae-python-imbalance
+Version: 0.0.1
+Summary: A helper package for the Imbalance project
+Home-page: UNKNOWN
+Author: Håkon Klausen
+Author-email: hakon.klausen@ae.no
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: azure.identity
+Requires-Dist: dotenv
+
+Contains methods to connect to the datalakes and handle files
+
+
