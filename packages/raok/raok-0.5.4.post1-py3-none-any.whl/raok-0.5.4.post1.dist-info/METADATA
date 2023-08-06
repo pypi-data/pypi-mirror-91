@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: raok
+Version: 0.5.4.post1
+Summary: verbose TESTING radius authentication and accounting server and client
+Home-page: https://github.com/astibal/raok
+Author: Ales Stibal
+Author-email: astib@mag0.net
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v2 or later (LGPLv2+)
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/x-rst
+Requires-Dist: py3mschap
+Requires-Dist: pyrad
+
+Raok
+~~~~
+is very simple RADIUS  **testing** server which accepts any authentication or accounting and
+prints it out. Unless you specify otherwise.
+It supports challenges, and PAP/CHAP/MS-CHAP/MS-CHAP2 and various other small things good for testing.
+
+NOTE: before start, run **raok-init.sh** to create default config files.
+
+You can configure it in:
+
+.. code-block::
+
+    /etc/raok/raok.cfg
+
+or from current directory, if the above is not found.
+
+.. code-block::
+
+   ./etc/raok.cfg
+
+Rasta
+~~~~~
+is very simple program sending RADIUS accounting  using the same config file.
+
+Support
+~~~~~~~
+
+For comments, feedback or new feature discussion feel free to
+drop a message to **pplay-users@googlegroups.com** mailing list.
+
+
