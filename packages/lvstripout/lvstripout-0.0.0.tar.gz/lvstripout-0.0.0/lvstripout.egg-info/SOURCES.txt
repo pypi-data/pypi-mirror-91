@@ -1,0 +1,8 @@
+README.md
+setup.py
+lvstripout/__init__.py
+lvstripout/stripout.py
+lvstripout.egg-info/PKG-INFO
+lvstripout.egg-info/SOURCES.txt
+lvstripout.egg-info/dependency_links.txt
+lvstripout.egg-info/top_level.txt
