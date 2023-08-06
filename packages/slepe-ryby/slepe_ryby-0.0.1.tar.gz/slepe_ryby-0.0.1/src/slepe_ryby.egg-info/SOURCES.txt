@@ -1,0 +1,7 @@
+README.md
+setup.py
+src/slepe_ryby.py
+src/slepe_ryby.egg-info/PKG-INFO
+src/slepe_ryby.egg-info/SOURCES.txt
+src/slepe_ryby.egg-info/dependency_links.txt
+src/slepe_ryby.egg-info/top_level.txt

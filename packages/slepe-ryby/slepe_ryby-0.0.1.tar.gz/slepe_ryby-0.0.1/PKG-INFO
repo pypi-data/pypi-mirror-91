@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: slepe_ryby
+Version: 0.0.1
+Summary: Say hello!
+Home-page: https://github.com/pawlaczyk/slepe_ryby
+Author: Dominika Pawlaczyk
+License: UNKNOWN
+Description: # slepe_ryby
+        Ĺšlepe Ryby
+        
+        
+        ## Installation
+        Run the following to install:
+        
+        ```python
+        pip install slepe_ryby
+        ```
+        
+        ## Usage
+        ```python
+        from slepe_ryby import say_hello
+        
+        # Generate "Hello World!"
+        say_hello()
+        
+        # Generate "Hello Everybody!"
+        say_hello("Everybody")
+        ```
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.7
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: Operating System :: POSIX :: Linux
+Description-Content-Type: text/markdown
