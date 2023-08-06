@@ -1,0 +1,11 @@
+test:
+  value1: release_value1
+  list_value:
+  - release_value_3
+testcommon:
+  value2: release_value2
+  testnested:
+    valuenested2: nestedrelease1
+extra_values:
+  env:
+    TEST_ENV: 123

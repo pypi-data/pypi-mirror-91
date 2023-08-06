@@ -1,0 +1,17 @@
+test:
+  value1: common_value1
+  value2: common_value2
+  list_value:
+  - common_value_1
+  - common_value_2
+  - common_value_3
+  - common_value_4
+  - common_value_5
+  - common_value_6
+
+testcommon:
+  value1: common_value1
+  value2: common_value2
+  testnested:
+    valuenested1: nestedcommon1
+    valuenested2: nestedcommon1
