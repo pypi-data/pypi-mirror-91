@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: pypi-test-test
+Version: 0.1.3
+Summary: This is an amazing description
+Author: amitkummer
+Author-email: amit.kummer@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
+
+# This is a pretty cool description!
