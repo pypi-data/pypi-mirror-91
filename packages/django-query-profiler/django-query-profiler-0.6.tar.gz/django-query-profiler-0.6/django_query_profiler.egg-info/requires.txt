@@ -1,0 +1,9 @@
+setuptools
+django
+moz-sql-parser==3.32.20026
+redis
+mmh3
+isort
+
+[:python_version < "3.7"]
+dataclasses
