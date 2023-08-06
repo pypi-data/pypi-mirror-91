@@ -1,0 +1,3 @@
+[console_scripts]
+afitop100 = afitop100.__main__:main
+
