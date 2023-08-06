@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.md
+setup.py
+onions/__init__.py
+onions.egg-info/PKG-INFO
+onions.egg-info/SOURCES.txt
+onions.egg-info/dependency_links.txt
+onions.egg-info/top_level.txt
