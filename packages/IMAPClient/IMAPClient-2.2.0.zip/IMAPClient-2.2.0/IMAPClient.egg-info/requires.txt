@@ -1,0 +1,9 @@
+six
+
+[doc]
+sphinx
+
+[test]
+
+[test:python_version < "3.4"]
+mock>=1.3.0
