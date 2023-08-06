@@ -1,0 +1,10 @@
+README.md
+setup.py
+regpyhdfe/__init__.py
+regpyhdfe/regpyhdfe.py
+regpyhdfe/utils.py
+regpyhdfe.egg-info/PKG-INFO
+regpyhdfe.egg-info/SOURCES.txt
+regpyhdfe.egg-info/dependency_links.txt
+regpyhdfe.egg-info/requires.txt
+regpyhdfe.egg-info/top_level.txt
