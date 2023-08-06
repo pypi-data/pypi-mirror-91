@@ -1,0 +1,8 @@
+package_passgen/__init__.py,sha256=hRqNbGy0KOiP9E4HRxt9oYg-LKYhZ4zlozu7ci0sKt4,225
+package_passgen/package_passgen.py,sha256=UTt21bMbd3-lzCq4Twbuz0gYrILIH-mJnnXWLR5XSmU,2919
+package_passgen/passgen.py,sha256=UTt21bMbd3-lzCq4Twbuz0gYrILIH-mJnnXWLR5XSmU,2919
+package_passgen-0.0.3.dist-info/LICENSE,sha256=eC1XHp99UVNL-PHPGrhGi-mtipm-Kz9Rz4Caq3U5UMo,1088
+package_passgen-0.0.3.dist-info/METADATA,sha256=RBnIzmqKF2BUQQSTQ0AcXqo8C07xbyzuG1DAfuKjp1M,1315
+package_passgen-0.0.3.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+package_passgen-0.0.3.dist-info/top_level.txt,sha256=en7mpoH4Fe-cFQew3mKNfTaL6BfPZoj62_mdoWD-UaE,16
+package_passgen-0.0.3.dist-info/RECORD,,
