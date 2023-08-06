@@ -1,0 +1,10 @@
+wg_meshconf/__init__.py,sha256=wU4HmAVPCY65Adix_pxYV5ziYeCyixVeuuBXpzMddfY,30
+wg_meshconf/database_manager.py,sha256=1-qj51CKa8mFr29b9L3XuBubr2klkW1Rlkf9m9vhpTQ,9481
+wg_meshconf/wg_meshconf.py,sha256=IUMOVa4nd03yWXd9aDFnqaHDhGtxWCHQ6ByE85CIdgM,6646
+wg_meshconf/wireguard.py,sha256=2qgxjTfno3hV4t5qdudveqHrHooN4DSf4wxgTcdWM3A,2238
+wg_meshconf-2.1.2.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+wg_meshconf-2.1.2.dist-info/METADATA,sha256=88pOMHkKW2KEh_seehA7gFqGgxRorGqpL1rPPs2NC3A,10525
+wg_meshconf-2.1.2.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+wg_meshconf-2.1.2.dist-info/entry_points.txt,sha256=gnwxQWkrBYzePIRBE0sSRzgij8qTbAL9z1DQ0OM6NKw,50
+wg_meshconf-2.1.2.dist-info/top_level.txt,sha256=gZk-Y3-YMToczPj3HduYCyZ9C4xdCa_xwLITU1sMQZc,12
+wg_meshconf-2.1.2.dist-info/RECORD,,
