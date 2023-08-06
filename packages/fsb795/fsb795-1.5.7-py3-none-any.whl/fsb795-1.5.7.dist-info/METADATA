@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: fsb795
+Version: 1.5.7
+Summary: Obtaining the attributes of a qualified certificate, defined by the Order of the FSB 795
+Home-page: https://pypi.org/project/fsb795/
+Author: Vladimir Orlov
+Author-email: vorlov@lissi.ru
+License: MIT License
+Platform: any
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Natural Language :: Russian
+Requires-Dist: pyasn1 (>=0.4.4)
+Requires-Dist: pyasn1-modules (>=0.2.2)
+Requires-Dist: six
+
+Obtaining the attributes of a qualified certificate, 
+defined by the Order of the Federal Security Service 
+of the Russian Federation of December 27, 2011 No. 795
+
