@@ -1,0 +1,11 @@
+appdirs
+argcomplete
+colorama
+dotty-dict
+flake8
+hjson
+jsonschema
+milc>=1.0.8
+nose2
+pygments
+yapf
