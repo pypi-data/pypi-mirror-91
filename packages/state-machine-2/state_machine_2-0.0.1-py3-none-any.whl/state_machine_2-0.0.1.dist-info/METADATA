@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: state-machine-2
+Version: 0.0.1
+Summary: a state machine that support multi process
+Home-page: https://github.com/ramwin/state-machine
+Author: Xiang Wang
+Author-email: ramwin@qq.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# state-machine
+a state machine that can change difference backends
+
+
