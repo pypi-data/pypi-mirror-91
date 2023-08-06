@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: bitbitbot
+Version: 0.0.1
+Summary: An unopionated, extensible Twitch Chat Bot
+Home-page: https://github.com/MetaBytez/bitbitbot
+Author: William Johns
+Author-email: will@wcj.dev
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+Requires-Dist: irc (==19.0.1)
+Requires-Dist: pydantic (==1.7.3)
+
+# BitBitBot
+An unopinionated, extensible Python ChatBot built for twitch on top of the [irc library](https://pypi.org/project/irc/). For more information, please refer to the documentation.
+
+## Example Usage
+```python
+from bitbitbot.bot
+
+bot = BitBitBot(
+    {bot_account_name},         # bitbitbot
+    {bot_oauth_token},          # oauth:123456890asdfgh
+    {streamer_channel_name},    # metabytez
+)
+
+bot.start()
+```
+
+
