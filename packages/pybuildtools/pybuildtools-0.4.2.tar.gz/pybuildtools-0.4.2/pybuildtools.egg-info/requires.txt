@@ -1,0 +1,14 @@
+colorama
+jinja2
+lxml
+psutil
+pygit2
+requests
+ruamel.yaml
+six
+toml
+tqdm
+twisted
+
+[development]
+mypy
