@@ -1,0 +1,13 @@
+aok/__init__.py,sha256=F9-Z9FmY246UTeeABog5PiRe_C6lm_dIHP_Fb1_OQVQ,593
+aok/_comparisons/__init__.py,sha256=b1ybtUDDl75n9jZr9x15PSNeFrSA4wfQiFe5jaq95HE,235
+aok/_comparisons/_basics.py,sha256=btCrhClQyWY9p8s1_xMUXQhtsY4Q2hUqM81fta33zIQ,5896
+aok/_comparisons/_dicts.py,sha256=Becx5Ifu6EwHbmY4ezU6vwE61iPKfw5vEyesxhpvJ10,2445
+aok/_comparisons/_lists.py,sha256=pCZq_iat_BpgAdDrBTzUGcoa7YeCSCx3O8LqqdzNKvA,2344
+aok/_comparisons/_nullish.py,sha256=Umc5U_3GIkayXcJGGXJXHFEhcNKcHBkGzIpRlaQBxus,952
+aok/_comparisons/_strings.py,sha256=gelw6N_KRxRGIuEgbNE0FpRNyfsWtmTq2bX9BLBMGdY,2123
+aok/_definitions.py,sha256=PNRsvWCB05QL9mHuvz-9fK6ibsVd9N21Bimk-Js2-pA,4277
+aok/_operations.py,sha256=N2Ut6qA0BQg_zyTIY0cOFksrXh4qGdXMpQE1guTk5as,1099
+aok/_utils.py,sha256=O3yqOWDDNmRZe0fpYfdAZLEoB04Skql8sUg42sBwbu8,797
+aok-0.1.5.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+aok-0.1.5.dist-info/METADATA,sha256=QYogXoULKTFicDFqEYYuThznfKRai1Wh63C0kQmTloQ,4781
+aok-0.1.5.dist-info/RECORD,,
