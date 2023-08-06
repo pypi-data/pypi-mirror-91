@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: pylint-testcode-plugin
+Version: 0.0.2
+Summary: This plugin assists in writing high-quality testcode
+Home-page: https://github.com/Ewald91/pylint-testcode-plugin
+Author: Ewald Verhoeven
+Author-email: ewald@testcoders.nl
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: License :: OSI Approved :: GNU General Public License (GPL)
+Classifier: Topic :: Software Development :: Testing
+Classifier: Topic :: Software Development :: Testing :: Unit
+Classifier: Topic :: Software Development :: Quality Assurance
+Description-Content-Type: text/markdown
+Requires-Dist: pylint (~=2.6.0)
+
+## About
+This plugin will assist in writing better testcode. It will push you to follow best practices.
+
+## Installation
+
+`pip install pylint-unittest`
+
+## Usage
+You can easily load the plugin with the `--load-plugins` flag like below.
+
+`pylint --load-plugins=pylint-unittest YOUR_MODULE.py`
+
+## Checkers
+Below an overview of the checkers that come with this plugin. 
+
+
+| Name | Message | Type | Description |
+| --- | --- | --- | --- |
+| AssertionsChecker | Missing assertion(s) in test - (missing-assertion) | Warning (W9999) | Checks if test method includes 'Assert' keyword or any type of assertion expression (from unittest.TestCase) |
+
