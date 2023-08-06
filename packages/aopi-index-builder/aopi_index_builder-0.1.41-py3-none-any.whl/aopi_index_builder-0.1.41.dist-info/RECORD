@@ -1,0 +1,10 @@
+aopi_index_builder/__init__.py,sha256=7vzDTzSBAVmo_UPs4S3jW9DEC039WXGzoZIBfnElEnc,755
+aopi_index_builder/context.py,sha256=AUKpMpN6iY2-pKy-kr23hWeRxZajBtiNeKVde3y8EXA,5217
+aopi_index_builder/exceptions.py,sha256=bwlQwYNcF4P3Ga7NzQo4YhYUFlB-CGWR0QWkAapi3j4,560
+aopi_index_builder/package_index.py,sha256=nqZBweIRlnONi0HGEjZtiHMiba4ii8CK9OI98wqRzgY,5867
+aopi_index_builder/plugin_manager.py,sha256=3znR7c6ajtGYppn0jp5qJ67sRJev5xGlSb4AG7XH4No,4364
+aopi_index_builder/schema.py,sha256=pfsqB3UsJ8yfUgNAUR5J3Ep_SpNSJvxxYNobC64cq6A,771
+aopi_index_builder/utils.py,sha256=a4SqK5_PF5O2phdnarYwcRrz88wS2jJq8kYCDfUfrus,391
+aopi_index_builder-0.1.41.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+aopi_index_builder-0.1.41.dist-info/METADATA,sha256=WMhRGB7_2zCmJMdB_zp7yUZBEFLec1ylZ1MvXB6purs,640
+aopi_index_builder-0.1.41.dist-info/RECORD,,
