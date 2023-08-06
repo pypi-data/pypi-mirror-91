@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: kowaza
+Version: 0.0.1
+Summary: Software development kowaza
+Home-page: https://github.com/vochicong/kowaza/tree/master/
+Author: Vo Chi Cong
+Author-email: chicong.v@gmail.com
+License: Apache Software License 2.0
+Keywords: coding documentation
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# kowaza 小技
+> Little tips & tricks for machine learning and AI development.
+
+
+kowazaに大したものは含まれていません。pipパッケージを公開してみたいのと、プロジェクト間でコピペの手間を減らすためにちょっとしたツールやヒントをより集めました。
+
+## インストール
+
+`pip install kowaza`
+
+

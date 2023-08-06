@@ -1,0 +1,10 @@
+kowaza/__init__.py,sha256=sXLh7g3KC4QCFxcZGBTpG2scR7hmmBsMjq6LqRptkRg,22
+kowaza/_nbdev.py,sha256=VDuY2nnrqxXRVltRXCMEJ89CqRL6HbgJGGi7w1MM0fY,412
+kowaza/core.py,sha256=Td1-_ownaKka3GDt1WV4-CBB8w8yaiU_yhOSs5Z9St0,394
+kowaza/mli.py,sha256=IH08NakBtdMBItABbnSTSfbYGzztwNlIA2xyx0pSL7c,790
+kowaza-0.0.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+kowaza-0.0.1.dist-info/METADATA,sha256=siJsdOE5HfHXJKZGw3qi20fZfInWQf9m1BWrmnTjLcQ,1056
+kowaza-0.0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+kowaza-0.0.1.dist-info/entry_points.txt,sha256=eqGnTHtEVMYwfXVk1Z9MhC8O2N8wuqAbr0lisLmrkxs,20
+kowaza-0.0.1.dist-info/top_level.txt,sha256=mJNTv1uasLz2PlbKWPwO-8Yy5l9IEE7WteVdjaPictM,7
+kowaza-0.0.1.dist-info/RECORD,,
