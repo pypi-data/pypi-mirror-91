@@ -1,0 +1,10 @@
+confultimate/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+confultimate/conf_ultimate.py,sha256=HL8HbhJvuzA89ooGJ5kZ1agOlrRfYRGePuYtu8kUBsc,1169
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/conf_ultimate/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/conf_ultimate/test_conf_ultimate.py,sha256=QejCxrNJITNYhdFbDeKzFSMbDCpIN13VqEz-EJW1y64,1035
+confultimate-0.1.1.dist-info/LICENCE,sha256=ACwmltkrXIz5VsEQcrqljq-fat6ZXAMepjXGoe40KtE,1069
+confultimate-0.1.1.dist-info/METADATA,sha256=qrTeYatyQUFUErWPPwwlw0s4Oq0IuWjE9Rg78x4B3W0,334
+confultimate-0.1.1.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+confultimate-0.1.1.dist-info/top_level.txt,sha256=YqDwKN24wtexGhLzBY0LNbflXh7lbHinVmE_MAerXto,19
+confultimate-0.1.1.dist-info/RECORD,,

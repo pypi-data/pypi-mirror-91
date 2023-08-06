@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: confultimate
+Version: 0.1.1
+Summary: confultimate
+Home-page: https://github.com/GuillaumeEscande/confultimate
+Author: Escande Guillaume
+Author-email: escande.guillaume@gmail.com
+License: UNKNOWN
+Keywords: conf
+Platform: UNKNOWN
+Requires-Dist: pyyaml (==5.3.1)
+Requires-Dist: jsonmerge (==1.7.0)
+
+UNKNOWN
+
+
