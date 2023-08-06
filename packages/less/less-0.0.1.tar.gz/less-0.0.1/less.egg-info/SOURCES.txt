@@ -1,0 +1,12 @@
+README.md
+setup.cfg
+setup.py
+less/__init__.py
+less.egg-info/PKG-INFO
+less.egg-info/SOURCES.txt
+less.egg-info/dependency_links.txt
+less.egg-info/requires.txt
+less.egg-info/top_level.txt
+less_version/__init__.py
+tests/__init__.py
+tests/test_dummy.py
