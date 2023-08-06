@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: pytar
+Version: 0.600
+Summary: pure python3.8 tar parsing (WIP)
+Home-page: https://github.com/Valmarelox/pytar
+Author: efi
+Author-email: valmarelox@gmail.com
+License: MIT
+Description: # pytar
+        Python tar using auto_struct
+        Check it out https://github.com/Valmarelox/auto_struct
+        
+Platform: UNKNOWN
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown

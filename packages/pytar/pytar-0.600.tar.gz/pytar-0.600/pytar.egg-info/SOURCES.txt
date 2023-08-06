@@ -1,0 +1,7 @@
+README.md
+setup.py
+pytar.egg-info/PKG-INFO
+pytar.egg-info/SOURCES.txt
+pytar.egg-info/dependency_links.txt
+pytar.egg-info/not-zip-safe
+pytar.egg-info/top_level.txt
