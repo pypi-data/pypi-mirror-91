@@ -1,0 +1,3 @@
+stpipeline/common/cdistance.cpython-36m-darwin.so
+stpipeline/common/filterInputReads.cpython-36m-darwin.so
+stpipeline/common/unique_events_parser.cpython-36m-darwin.so
