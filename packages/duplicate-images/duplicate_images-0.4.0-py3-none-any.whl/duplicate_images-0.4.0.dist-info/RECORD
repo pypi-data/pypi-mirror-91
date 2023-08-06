@@ -1,0 +1,12 @@
+duplicate_images/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+duplicate_images/duplicate.py,sha256=qNhw-KOVpXnmuml-ZA0pAFa8dBQqain4KDZl-BzcqBM,2518
+duplicate_images/function_types.py,sha256=YfuObCuSTz4XxIJ546eXSvUlLI_OKaEU6DLbVFsJJTE,276
+duplicate_images/image_pair_finder.py,sha256=QBrYoIDSkKtoLun95z1Es1fvEXIgTb0EZudGkO70_io,2826
+duplicate_images/logging.py,sha256=kgRM8c_OknzFqxRGRluNFGgw8hhFPb7xNlgW7cGg9nc,355
+duplicate_images/methods.py,sha256=qqCc8Z_VMfnyI7RW1F6Jda53kkKNbFn0651ztmCm79I,2387
+duplicate_images/parallel_options.py,sha256=03OTSEBQtesANR499us0a1h8O_ZIr4Qsz5HH8AVeJV8,173
+duplicate_images/parse_commandline.py,sha256=XZR5DJqQjv5WJ8E2PHbAAY7DXr-VfY2kcmh_iVGJXHE,1173
+duplicate_images-0.4.0.dist-info/entry_points.txt,sha256=-0HsS8M-iu6h0Nn35G6KINwycrhHvVrIzZmY_O78wJw,61
+duplicate_images-0.4.0.dist-info/WHEEL,sha256=HUejAL96bSDvQpUkCNKadL6Cm0IW6dzTOQCrETOEbeI,85
+duplicate_images-0.4.0.dist-info/METADATA,sha256=yjYgY_G9I9YioZRElzTtN8THzHnCaN4S3ka3Q2cPM9o,4420
+duplicate_images-0.4.0.dist-info/RECORD,,
