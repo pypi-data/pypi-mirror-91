@@ -1,0 +1,9 @@
+README.md
+setup.py
+RapidViz/__init__.py
+RapidViz/rapidviz.py
+rapidviz.egg-info/PKG-INFO
+rapidviz.egg-info/SOURCES.txt
+rapidviz.egg-info/dependency_links.txt
+rapidviz.egg-info/requires.txt
+rapidviz.egg-info/top_level.txt

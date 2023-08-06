@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: rapidviz
+Version: 0.0.1
+Summary: RapidViz is a Package containing random classes for fast Exploratory Data Analysis
+Home-page: https://github.com//prikmm//RapidViz
+Author: Priyam Mehta
+Author-email: priyam145@gmail.com
+License: MIT
+Description: A Package containing random classes for Rapid EDA
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Intended Audience :: Developers
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
