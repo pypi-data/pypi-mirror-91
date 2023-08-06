@@ -1,0 +1,9 @@
+README.md
+setup.py
+gafs/__init__.py
+gafs/gafs.py
+gafs.egg-info/PKG-INFO
+gafs.egg-info/SOURCES.txt
+gafs.egg-info/dependency_links.txt
+gafs.egg-info/not-zip-safe
+gafs.egg-info/top_level.txt
