@@ -1,0 +1,15 @@
+pilyso_io/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pilyso_io/imagestack/__init__.py,sha256=wjyldIry2YMjv5VjJoGQYiUEuC-3YTqNgWp9x5KvoZQ,276
+pilyso_io/imagestack/imagestack.py,sha256=Rbacy40lwMu87mV9Vn-V08qlSFTdvtczUDjBf8WHNC0,14939
+pilyso_io/imagestack/util.py,sha256=vvai_r2d5LLWJ8F_-VBg9VxbAyz0GnU-u3ozWx5nuk4,1697
+pilyso_io/imagestack/readers/__init__.py,sha256=D5ERsrCKDTu2X_nMf0bmoXame5TxJOU9IAWweM7oUEc,628
+pilyso_io/imagestack/readers/czi.py,sha256=KAlpYeMjU3e4G7uwQbh4V8So1hx_NED1eZDoi5el31U,4104
+pilyso_io/imagestack/readers/nd2.py,sha256=GMdTrSiTOZAr5O3kzdA5YbbR0tiTADO4-WSQKK7oMXY,1698
+pilyso_io/imagestack/readers/ndip.py,sha256=jMzRnsGfb1DZxrHpJseKAXYXKXTbJWOpSZajzpHkTTM,4146
+pilyso_io/imagestack/readers/ometiff.py,sha256=7GlHJpHwuQkRkIWWcGkKCXjCq4GvBiDKsTDlHtQG7ro,5959
+pilyso_io/imagestack/readers/tiff.py,sha256=pAk3p_ATztmBUYH9eq6Upgqu1GpX3OUotZzqWt2x7nA,3652
+pilyso_io-0.0.1.dev3.dist-info/LICENSE.rst,sha256=puT8mLTZEIaX5fSpONngS4Bii07Qkfcn91SqcTx2zkA,1340
+pilyso_io-0.0.1.dev3.dist-info/METADATA,sha256=yEFKbv2186HDH0EtJoOhR_fbDTljrLO2yiL1dQRk9eI,907
+pilyso_io-0.0.1.dev3.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+pilyso_io-0.0.1.dev3.dist-info/top_level.txt,sha256=QVUc4mxMIGvuOFDMG7x0Jb0kvJzGNOouKjlmY0e72mk,10
+pilyso_io-0.0.1.dev3.dist-info/RECORD,,
