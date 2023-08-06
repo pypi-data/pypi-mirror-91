@@ -1,0 +1,3 @@
+from rest_framework import viewsets
+from .serializers import {serializer_classes}
+from .models import {model_classes}
