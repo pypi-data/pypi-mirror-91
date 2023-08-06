@@ -1,0 +1,7 @@
+README.md
+setup.py
+lambda_wsgi/__init__.py
+lambda_wsgi.egg-info/PKG-INFO
+lambda_wsgi.egg-info/SOURCES.txt
+lambda_wsgi.egg-info/dependency_links.txt
+lambda_wsgi.egg-info/top_level.txt
