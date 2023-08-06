@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: FactoringTotal
+Version: 1.0.1
+Summary: Toma el tipo de cambio del dia en sunat y, tambien, el tipo de cambio contable de SBS
+Home-page: https://github.com/admelix/tipo-cambio-sunat
+Author: Jose Sakuda
+Author-email: sakudacastro@gmail.com
+License: GNU General Public License v3.0
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: pandas
+Requires-Dist: numpy
+Requires-Dist: lxml
+Requires-Dist: bs4
+Requires-Dist: requests
+
+UNKNOWN
+
+
