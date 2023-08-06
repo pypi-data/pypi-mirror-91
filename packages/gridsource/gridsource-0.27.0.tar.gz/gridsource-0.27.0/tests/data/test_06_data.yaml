@@ -1,0 +1,26 @@
+---
+asm: &asm
+  rail_tag:
+    types: string 
+    unique: false
+    uniqueness_id: toto
+    mandatory: true
+  x_loc:
+    <<: *length
+    mandatory: true
+    uniqueness_id: toto
+  block_label:
+    types: string
+    unique: false
+    mandatory: true
+    uniqueness_id: toto
+  block_ref_point_id:
+    mandatory: true
+  another:
+    unique: true
+
+asm_ok: 
+  <<: *asm
+
+asm_failing: 
+  <<: *asm
