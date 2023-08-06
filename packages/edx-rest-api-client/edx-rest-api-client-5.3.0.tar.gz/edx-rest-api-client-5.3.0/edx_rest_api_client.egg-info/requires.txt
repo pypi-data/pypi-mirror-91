@@ -1,0 +1,4 @@
+slumber
+edx-django-utils
+PyJWT
+requests
