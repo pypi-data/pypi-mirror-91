@@ -1,0 +1,36 @@
+jobs:
+  - id: 2a424411-7a0a-461f-8d88-313c938c7e24
+    schedule: '* * * * *'
+    vars:
+      msg: "Hi. It's {date}"
+    inputs:
+      - code: datetime
+        parameters:
+          var: date
+          format: 'Week %W'
+    outputs:
+      - code: stdout
+        parameters:
+          message: "{msg}"
+  - id: f9407521-3884-4dfd-939e-863364f82a44
+    schedule: '* * * * *'
+    vars:
+      message_1: "Hello!"
+      message_2: "{weather_msg}"
+    inputs:
+      - code: open_weather_city
+        parameters:
+          query:
+            q: edinburgh,uk
+            appid: "$[OPEN_WEATHER_KEY]"
+          jq-vars:
+            weather_msg: "\"The weather is \" + .weather[0].description + \". \" + .weather_by"
+    outputs:
+      - code: slack
+        parameters:
+          url: "$[SLACK_URL]"
+          payload:
+            channel: "${SLACK_CHANNEL}"
+            username: "WeatherBot"
+            text: "{message_1} {message_2}"
+            icon_emoji: ":robot_face:"

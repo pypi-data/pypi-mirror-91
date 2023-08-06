@@ -1,0 +1,169 @@
+services:
+  - docker:dind
+
+variables:
+  CI_TOOLS_PREFIX: ""
+
+stages:
+  - package-develop
+  - package-master
+  - test
+  - test-coverage
+  - docker-test
+  - docker-develop
+  - docker-master
+
+test:
+  stage: test
+  image: ${FROM_IMAGE_PREFIX_DOCKER_HUB}python:3.8
+  retry: 2
+  script:
+    - make install-packages-apt
+    - make install-dev
+    - make qa
+  except:
+    - tags
+
+test-coverage:
+  stage: test-coverage
+  image: ${FROM_IMAGE_PREFIX_DOCKER_HUB}python:3.8
+  retry: 2
+  script:
+    - make install-packages-apt
+    - make install-dev
+    - make coverage-report
+  artifacts:
+    paths:
+      - .coverage
+      - build/
+    expire_in: 30 days
+  only:
+    - master
+    - develop
+  except:
+    - tags
+
+docker-test:
+  stage: docker-test
+  image: ${CI_TOOLS_DOCKER_IMAGE_STABLE_V1}
+  retry: 2
+  variables:
+    DOCKER_TAG: "test"
+    VERSION_PREFIX: "test_"
+  before_script:
+    - docker login -u $CI_REGISTRY_USER -p $CI_REGISTRY_PASSWORD $CI_REGISTRY
+  script:
+    - docker pull ${CI_REGISTRY_IMAGE}:${DOCKER_TAG} || true
+    - export VERSION_TIMED="$(${CI_TOOLS_PREFIX}ci-version-timed)"
+    - docker build
+      --pull
+      --build-arg "FROM_IMAGE_PREFIX=${FROM_IMAGE_PREFIX_DOCKER_HUB}"
+      --build-arg "APP_BUILD_DATE=`${CI_TOOLS_PREFIX}ci-date-rfc-3339`"
+      --build-arg "APP_VERSION=${VERSION_PREFIX}`${CI_TOOLS_PREFIX}ci-version`"
+      --build-arg "APP_VERSION_TIMED=${VERSION_PREFIX}${VERSION_TIMED}"
+      --build-arg "APP_VERSION_HASH=${VERSION_PREFIX}`${CI_TOOLS_PREFIX}ci-version-hash`"
+      --build-arg "APP_VERSION_STRING=${VERSION_PREFIX}`${CI_TOOLS_PREFIX}ci-version-string`"
+      --build-arg "APP_VCS_URL=${CI_PROJECT_URL}"
+      --tag ${CI_REGISTRY_IMAGE}:${DOCKER_TAG}
+      .
+    - docker push ${CI_REGISTRY_IMAGE}:${DOCKER_TAG}
+  except:
+    - master
+    - develop
+    - tags
+
+docker-develop:
+  stage: docker-develop
+  image: ${CI_TOOLS_DOCKER_IMAGE_STABLE_V1}
+  retry: 2
+  before_script:
+    - docker login -u $CI_REGISTRY_USER -p $CI_REGISTRY_PASSWORD $CI_REGISTRY
+  script:
+    - docker pull ${CI_REGISTRY_IMAGE}:develop
+    - export VERSION_TIMED="$(${CI_TOOLS_PREFIX}ci-version-timed)"
+    - docker build
+      --pull
+      --build-arg "FROM_IMAGE_PREFIX=${FROM_IMAGE_PREFIX_DOCKER_HUB}"
+      --build-arg "APP_BUILD_DATE=`${CI_TOOLS_PREFIX}ci-date-rfc-3339`"
+      --build-arg "APP_VERSION=`${CI_TOOLS_PREFIX}ci-version`"
+      --build-arg "APP_VERSION_TIMED=${VERSION_TIMED}"
+      --build-arg "APP_VERSION_HASH=`${CI_TOOLS_PREFIX}ci-version-hash`"
+      --build-arg "APP_VERSION_STRING=`${CI_TOOLS_PREFIX}ci-version-string`"
+      --build-arg "APP_VCS_URL=${CI_PROJECT_URL}"
+      --tag ${CI_REGISTRY_IMAGE}:develop
+      .
+    - docker push ${CI_REGISTRY_IMAGE}:develop
+  only:
+    - develop
+  except:
+    - tags
+
+docker-master:
+  stage: docker-master
+  image: ${CI_TOOLS_DOCKER_IMAGE_STABLE_V1}
+  retry: 2
+  before_script:
+    - docker login -u $CI_REGISTRY_USER -p $CI_REGISTRY_PASSWORD $CI_REGISTRY
+  script:
+    - docker pull ${CI_REGISTRY_IMAGE}:master
+    - export VERSION_TIMED="$(${CI_TOOLS_PREFIX}ci-version-timed)"
+    - docker build
+      --pull
+      --build-arg "FROM_IMAGE_PREFIX=${FROM_IMAGE_PREFIX_DOCKER_HUB}"
+      --build-arg "APP_BUILD_DATE=`${CI_TOOLS_PREFIX}ci-date-rfc-3339`"
+      --build-arg "APP_VERSION=`${CI_TOOLS_PREFIX}ci-version`"
+      --build-arg "APP_VERSION_TIMED=${VERSION_TIMED}"
+      --build-arg "APP_VERSION_HASH=`${CI_TOOLS_PREFIX}ci-version-hash`"
+      --build-arg "APP_VERSION_STRING=`${CI_TOOLS_PREFIX}ci-version-string`"
+      --build-arg "APP_VCS_URL=${CI_PROJECT_URL}"
+      --tag ${CI_REGISTRY_IMAGE}:latest
+      --tag ${CI_REGISTRY_IMAGE}:stable
+      --tag ${CI_REGISTRY_IMAGE}:master
+      --tag ${CI_REGISTRY_IMAGE}:`${CI_TOOLS_PREFIX}ci-version-major`
+      --tag ${CI_REGISTRY_IMAGE}:`${CI_TOOLS_PREFIX}ci-version-major-minor`
+      --tag ${CI_REGISTRY_IMAGE}:`${CI_TOOLS_PREFIX}ci-version`
+      --tag ${CI_REGISTRY_IMAGE}:${VERSION_TIMED}
+      .
+    - docker push ${CI_REGISTRY_IMAGE}:latest
+    - docker push ${CI_REGISTRY_IMAGE}:stable
+    - docker push ${CI_REGISTRY_IMAGE}:master
+    - docker push ${CI_REGISTRY_IMAGE}:`${CI_TOOLS_PREFIX}ci-version-major`
+    - docker push ${CI_REGISTRY_IMAGE}:`${CI_TOOLS_PREFIX}ci-version-major-minor`
+    - docker push ${CI_REGISTRY_IMAGE}:`${CI_TOOLS_PREFIX}ci-version`
+    - docker push ${CI_REGISTRY_IMAGE}:${VERSION_TIMED}
+  only:
+    - master
+  except:
+    - tags
+
+package-develop:
+  stage: package-develop
+  image: ${CI_TOOLS_DOCKER_IMAGE_STABLE_V1}
+  retry: 2
+  script:
+    - make install-packages-apt
+    - make install-dev
+    - echo "`ci-version-pypi`" > VERSION_PYPI
+    - echo "Version=`cat VERSION_PYPI`"
+    - make package
+    - python -m twine upload --verbose --username="__token__" --password="${PYPI_TEST_TOKEN}" --repository testpypi dist/*
+  except:
+    - master
+    - tags
+
+package-master:
+  stage: package-master
+  image: ${CI_TOOLS_DOCKER_IMAGE_STABLE_V1}
+  retry: 2
+  script:
+    - make install-packages-apt
+    - make install-dev
+    - echo "`ci-version-pypi`" > VERSION_PYPI
+    - echo "Version=`cat VERSION_PYPI`"
+    - make package
+    - python -m twine upload --verbose --username="gitlab-ci-token" --password="${CI_JOB_TOKEN}" --repository-url ${CI_API_V4_URL}/projects/${CI_PROJECT_ID}/packages/pypi dist/*
+    - python -m twine upload --verbose --username="__token__" --password="${PYPI_TOKEN}" dist/*
+#  only:
+#    - master
+  except:
+    - tags

@@ -1,0 +1,8 @@
+jobs:
+  # Simple Job
+  - id: bae50216-ae35-45c6-b9e3-45c305ae770e
+    schedule: '* * * * *' # Every minute
+    outputs:
+      - code: stdout
+        parameters:
+          message: "Hello world! a123 45c"

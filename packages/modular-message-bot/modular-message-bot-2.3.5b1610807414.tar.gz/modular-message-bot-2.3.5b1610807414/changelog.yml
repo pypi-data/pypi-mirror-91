@@ -1,0 +1,75 @@
+unreleased:
+  - '[New] Gitlab Merge Requests Input Handler #3'
+  - '[New] Implement isort #27'
+  - '[New] Generating Python packages #16'
+releases:
+  2.3.5:
+    - '[Fixed] Job validation covering all handlers'
+    - '[Fixed] Incorrect test function call'
+  2.3.4:
+    - '[Fixed] Github PRs GET state fix'
+  2.3.3:
+    - '[Improved] Github PRs allow URL overwrite'
+    - '[Fixed] Added missing abstract method annotations'
+  2.3.2:
+    - '[Improved] Consolidating duplicate code'
+  2.3.1:
+    - '[Improved] Disabling formatting of default config'
+  2.3.0:
+    - '[New] Project Icon'
+    - '[New] Datetime input can be shifted with add and sub (time deltas)'
+    - '[Fixed] Locale. LOCALE_ALL specified as en_US (no breaking change). Next major this will be en_GB'
+    - '[New] Pushover output handler'
+    - '[Fixed] Output handlers validation message wrongly said input'
+    - '[New] Github PR Input handler'
+    - '[Improved] Naming of open_weather_city_input and random_message_input'
+    - '[New] Dynamic loading of handler modules. Change pre to pres for consistency. Input handler renaming fixes'
+    - '[Improved] Change pre folder to pres for consistency'
+    - '[Improved] Fixed spelling on abstract_input_handler.py and renamed test_date_time_input.py for dynamic loading'
+    - '[New] Elastic Search Input'
+    - '[Improved] README docs split per module'
+    - '[New] Config validation script'
+  2.2.1:
+    - '[Fixed] Dockerfile not uploading files into the correct folder'
+  2.2.0:
+    - '[New] Readiness and Liveness health checks'
+  2.1.0:
+    - '[New] Change the run initialisation with an extension file and function'
+  2.0.1:
+    - '[New] Test container build for all other branches'
+    - '[New] Ability to disable dependency_proxy'
+  2.0.0:
+    - '[New] Rewrite of most of the code including inputs, outputs and architecture'
+    - '[New] Config file format'
+    - '[New] Vars to go between inputs and outputs'
+    - '[Improved] Removed old CI infrastructure'
+    - '[New] Changed unit tests from Unittest to Pytest'
+    - '[New] Component tests'
+    - '[New] Modular Config'
+    - '[New] Config (i.e. ENV) substitution in the jobs config string'
+    - '[New] Dynamic config substitution of input and output parameters'
+    - '[New] Multiple job config files (now called run details. ENVs renamed as well)'
+    - '[New] Job Pres handlers'
+    - '[New] Job Processors handlers'
+    - '[New] Adding pygount'
+    - '[New] Regex Processors'
+    - '[New] Random message input'
+  1.2.0:
+    - '[Improved] Updated the build pipeline so it notifies Bugsnag and has independent build sections'
+  1.1.0:
+    - '[Improved] Updated to latest CI Tools'
+  1.0.0:
+    - '[New] Easy HTTP output for talking to my ESP8266'
+    - '[New] Start of project'
+    - '[New] Schedule jobs'
+    - '[New] Modular output types'
+    - '[New] Modular input types'
+    - '[New] OpenWeatherMap city input'
+    - '[New] Datetime input'
+    - '[New] Slack output'
+    - '[New] Standard out output'
+    - '[New] Script to run a specific job by id'
+    - '[New] Script to run all jobs'
+    - '[New] Load config from base64 encoded environment variable'
+  0.0.0:
+    - '[New] Initial Commit'

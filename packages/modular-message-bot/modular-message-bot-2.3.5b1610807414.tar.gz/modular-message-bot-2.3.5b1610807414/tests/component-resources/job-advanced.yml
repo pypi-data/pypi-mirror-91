@@ -1,0 +1,75 @@
+config:
+  weather_msg_prefix: "It's going to be"
+  msg_weather_prefix: "The weather is"
+jobs:
+  # Advanced job
+  # - Multiple inputs, multiple outputs, multiple schedules, multiple job strings
+  - id: 444d3161-2b8f-40a7-aaf1-6d49e8003075
+    schedule:
+      - '* * * * *'
+    vars:
+      msg_date: "A test at {date}"
+      weather_date: "{weather_date}"
+      msg_weather_stdout: "$[msg_weather_prefix] {weather_stdout}"
+      msg_weather_slack: "$[msg_weather_prefix] {weather_slack}"
+      message_1: "Good Morning! $[weather_msg_prefix] {weather_description}"
+      message_2: "Buongiorno! $[weather_msg_prefix] {weather_description}"
+      message_3: "Buenos días! $[weather_msg_prefix] {weather_description}"
+      random_msg: "{rnd_message} I hope you are having a good day"
+      for_future_perhaps: 42  # This is to make sure we only interpolate strings in the code
+    pres:
+      - code: chance
+        parameters:
+          percentage: 90
+    inputs:
+      - code: datetime
+        parameters:
+          var: date
+          timezone: "Pacific/Auckland"
+          format: 'Week %W (day %j) - %A %B %x'
+      - code: datetime
+        parameters:
+          var: weather_date
+          timezone: "utc"
+          format: 'day %j'
+      - code: open_weather_city
+        parameters:
+          query:
+            q: edinburgh,uk
+            appid: "$[OPEN_WEATHER_KEY]"
+          jq-vars:
+            weather_slack: ".slack_icon + \" on {weather_date} \" + .weather[0].description + \" \" + ((.main.temp - 273.15)|tostring) + \"c \" + .weather_by_with_link"
+            weather_stdout: ".weather[0].description + \" \" + ((.main.temp - 273.15)|tostring) + \"c \" + .weather_by"
+            weather_description: ".weather[0].description + \" (\" + .weather_by + \")\""
+      - code: random_message
+        parameters:
+          match:
+            rnd_message: "^message_"
+    processors:
+      - code: regex_match_all_continue
+        parameters:
+          match:
+            msg_date: ^A test at
+            msg_weather_slack: weather
+            msg_weather_stdout: weather
+      - code: regex_match_all_abort
+        parameters:
+          match:
+            msg_date: ^super
+            msg_weather_slack: I_do_not_exist
+            msg_weather_stdout: I_also_do_not_exist
+    outputs:
+      - code: slack
+        parameters:
+          url: "$[SLACK_URL]"
+          payload:
+            text: "{msg_date}\n{msg_weather_slack}"
+            channel: "${SLACK_CHANNEL_TEST}"
+            username: "modular-message-bot"
+            icon_emoji: ":robot_face:"
+      - code: stdout
+        parameters:
+          message: "{msg_date}\n{msg_weather_stdout}"
+      - code: stdout
+        parameters:
+          message: "Hi! {random_msg} :)"

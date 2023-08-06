@@ -1,0 +1,10 @@
+config:
+  a: 1
+  z: 1
+jobs:
+  - id: d946db37-683e-4402-a124-14f9ec70151c
+    schedule: '* * * * *'
+    outputs:
+      - code: stdout
+        parameters:
+          message: "Hello World!"

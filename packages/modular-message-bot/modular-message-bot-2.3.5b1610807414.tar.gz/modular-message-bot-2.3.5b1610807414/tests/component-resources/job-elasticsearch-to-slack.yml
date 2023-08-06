@@ -1,0 +1,27 @@
+jobs:
+  - id: 4ce8e56f-90b2-4e43-b2d0-2e4257a6cd34
+    schedule: '* * * * *'
+    vars:
+      message: "Messages:{number}\nDetails:\n{details}"
+    inputs:
+      - code: elasticsearch
+        parameters:
+          connection:
+            hosts:
+              - host: "testelk"
+                port: 9200
+            http_auth:
+              - "elastic"
+              - "changeme"
+          search:
+            index: "docker-logs-*"
+            q: "docker.message: error AND NOT docker.container_id: 81f0bb3014f1"
+          jq-vars:
+            number: ". | .hits.hits | length"
+            details: ". | .hits.hits | map([._source.\"@timestamp\", ._source.docker.message] | join(\" - \")) | join(\"\n\")"
+    outputs:
+      - code: slack
+        parameters:
+          url: "$[SLACK_URL]"
+          payload:
+            text: "{message}"

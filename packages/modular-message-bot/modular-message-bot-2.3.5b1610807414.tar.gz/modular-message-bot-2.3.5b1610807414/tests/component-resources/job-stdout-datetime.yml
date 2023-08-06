@@ -1,0 +1,18 @@
+jobs:
+  # Simple job with datetime inputs
+  # - Write the date using multiple schedules
+  - id: b1e5b926-242f-4f4a-a0d8-426141b0743d
+    schedule:
+      - '0 9 * * MON-FRI' # 9 AM every weekday
+      - '0 17 * * *' # 5 PM every day
+    vars:
+      msg: "Hello World!!! It's {date}"
+    inputs:
+      - code: datetime
+        parameters:
+          var: date
+          format: 'Week %W (day %j) - %A %B %x'
+    outputs:
+      - code: stdout
+        parameters:
+          message: "{msg}"

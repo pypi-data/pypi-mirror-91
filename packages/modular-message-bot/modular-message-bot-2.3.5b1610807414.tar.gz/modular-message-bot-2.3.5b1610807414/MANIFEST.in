@@ -1,0 +1,13 @@
+include *.md
+include *.txt
+include *.yml
+include .coveragerc
+include Makefile
+recursive-include bin *.sh
+recursive-include config *.gitkeep
+recursive-include documentation *.png
+recursive-include modular_message_bot *.py
+recursive-include tests *.json
+recursive-include tests *.py
+recursive-include tests *.txt
+recursive-include tests *.yml

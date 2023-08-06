@@ -1,0 +1,10 @@
+jobs:
+  # Simple Job with a message
+  - id: fdc762d2-eab6-4440-bf43-d12344d20246
+    schedule: '5 * * * *' # Every 5 minutes
+    vars:
+      msg: "Hello World!!"
+    outputs:
+      - code: stdout
+        parameters:
+          message: "{msg}"

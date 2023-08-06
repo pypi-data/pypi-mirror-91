@@ -1,0 +1,11 @@
+[report]
+exclude_lines =
+    raise NotImplementedError
+    if __name__ == .__main__.:
+omit =
+    modular_message_bot/utils/common_utils.py
+    modular_message_bot/utils/run_utils.py
+    modular_message_bot/run.py
+    modular_message_bot/run_by_id.py
+    modular_message_bot/run_all.py
+    tests/*

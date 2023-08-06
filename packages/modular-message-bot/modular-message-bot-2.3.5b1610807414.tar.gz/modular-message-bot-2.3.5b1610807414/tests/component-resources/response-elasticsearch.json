@@ -1,0 +1,255 @@
+{
+  "took": 5,
+  "timed_out": false,
+  "_shards": {
+    "total": 1,
+    "successful": 1,
+    "failed": 0
+  },
+  "hits": {
+    "total": 10,
+    "max_score": 9.803259,
+    "hits": [
+      {
+        "_index": "docker-logs-2021-01-01",
+        "_type": "doc",
+        "_id": "AXa__dUzT7ZrFhGDDplW",
+        "_score": 9.803259,
+        "_source": {
+          "@timestamp": "2021-01-01T22:07:25.115Z",
+          "offset": 63140,
+          "stream": "stdout",
+          "beat": {
+            "hostname": "filebeat",
+            "name": "filebeat",
+            "version": "5.5.1"
+          },
+          "input_type": "log",
+          "source": "/hostfs/var/lib/docker/containers/321a0f96cdc661fabe834c526067f38dcb4dba79b459437f7b3421a9b1e940a6/321a0f96cdc661fabe834c526067f38dcb4dba79b459437f7b3421a9b1e940a6-json.log",
+          "type": "docker",
+          "docker": {
+            "full_container_id": "321a0f96cdc661fabe834c526067f38dcb4dba79b459437f7b3421a9b1e940a6",
+            "message": "Import visualization /tmp/tmp239783790/beats-dashboards-5.5.1/packetbeat/visualization/HTTP-error-codes.json\\n",
+            "container_id": "321a0f96cdc6"
+          }
+        }
+      },
+      {
+        "_index": "docker-logs-2021-01-01",
+        "_type": "doc",
+        "_id": "AXa__dUzT7ZrFhGDDplX",
+        "_score": 9.803259,
+        "_source": {
+          "@timestamp": "2021-01-01T22:07:25.115Z",
+          "offset": 63329,
+          "stream": "stdout",
+          "beat": {
+            "hostname": "filebeat",
+            "name": "filebeat",
+            "version": "5.5.1"
+          },
+          "input_type": "log",
+          "source": "/hostfs/var/lib/docker/containers/321a0f96cdc661fabe834c526067f38dcb4dba79b459437f7b3421a9b1e940a6/321a0f96cdc661fabe834c526067f38dcb4dba79b459437f7b3421a9b1e940a6-json.log",
+          "type": "docker",
+          "docker": {
+            "full_container_id": "321a0f96cdc661fabe834c526067f38dcb4dba79b459437f7b3421a9b1e940a6",
+            "message": "Import visualization /tmp/tmp239783790/beats-dashboards-5.5.1/packetbeat/visualization/HTTP-error-codes-evolution.json\\n",
+            "container_id": "321a0f96cdc6"
+          }
+        }
+      },
+      {
+        "_index": "docker-logs-2021-01-01",
+        "_type": "doc",
+        "_id": "AXbAAvPKT7ZrFhGDD1tO",
+        "_score": 7.659862,
+        "_source": {
+          "@timestamp": "2021-01-01T22:13:07.318Z",
+          "offset": 11118,
+          "stream": "stderr",
+          "beat": {
+            "hostname": "filebeat",
+            "name": "filebeat",
+            "version": "5.5.1"
+          },
+          "input_type": "log",
+          "source": "/hostfs/var/lib/docker/containers/fdb70138ad3b41bdf1852546dcfec962bcc5f0fae8acdfdcfc45a09e1263ac59/fdb70138ad3b41bdf1852546dcfec962bcc5f0fae8acdfdcfc45a09e1263ac59-json.log",
+          "type": "docker",
+          "docker": {
+            "full_container_id": "fdb70138ad3b41bdf1852546dcfec962bcc5f0fae8acdfdcfc45a09e1263ac59",
+            "message": "2021/01/01 22:13:05.029480 log.go:144: ERR packet decoding failed. Recovering, but please report this: runtime error: slice bounds out of range.\\n",
+            "container_id": "fdb70138ad3b"
+          }
+        }
+      },
+      {
+        "_index": "docker-logs-2021-01-01",
+        "_type": "doc",
+        "_id": "AXbABxOlT7ZrFhGDD_oW",
+        "_score": 7.659862,
+        "_source": {
+          "@timestamp": "2021-01-01T22:17:35.459Z",
+          "offset": 19129,
+          "stream": "stderr",
+          "beat": {
+            "hostname": "filebeat",
+            "name": "filebeat",
+            "version": "5.5.1"
+          },
+          "input_type": "log",
+          "source": "/hostfs/var/lib/docker/containers/fdb70138ad3b41bdf1852546dcfec962bcc5f0fae8acdfdcfc45a09e1263ac59/fdb70138ad3b41bdf1852546dcfec962bcc5f0fae8acdfdcfc45a09e1263ac59-json.log",
+          "type": "docker",
+          "docker": {
+            "full_container_id": "fdb70138ad3b41bdf1852546dcfec962bcc5f0fae8acdfdcfc45a09e1263ac59",
+            "message": "2021/01/01 22:17:30.048206 log.go:144: ERR packet decoding failed. Recovering, but please report this: runtime error: slice bounds out of range.\\n",
+            "container_id": "fdb70138ad3b"
+          }
+        }
+      },
+      {
+        "_index": "docker-logs-2021-01-01",
+        "_type": "doc",
+        "_id": "AXbAC5UOT7ZrFhGDEKmQ",
+        "_score": 7.659862,
+        "_source": {
+          "@timestamp": "2021-01-01T22:22:32.705Z",
+          "offset": 27736,
+          "stream": "stderr",
+          "beat": {
+            "hostname": "filebeat",
+            "name": "filebeat",
+            "version": "5.5.1"
+          },
+          "input_type": "log",
+          "source": "/hostfs/var/lib/docker/containers/fdb70138ad3b41bdf1852546dcfec962bcc5f0fae8acdfdcfc45a09e1263ac59/fdb70138ad3b41bdf1852546dcfec962bcc5f0fae8acdfdcfc45a09e1263ac59-json.log",
+          "type": "docker",
+          "docker": {
+            "full_container_id": "fdb70138ad3b41bdf1852546dcfec962bcc5f0fae8acdfdcfc45a09e1263ac59",
+            "message": "2021/01/01 22:22:30.110873 log.go:144: ERR packet decoding failed. Recovering, but please report this: runtime error: slice bounds out of range.\\n",
+            "container_id": "fdb70138ad3b"
+          }
+        }
+      },
+      {
+        "_index": "docker-logs-2021-01-01",
+        "_type": "doc",
+        "_id": "AXbAD7SaT7ZrFhGDEUpA",
+        "_score": 7.659862,
+        "_source": {
+          "@timestamp": "2021-01-01T22:27:02.833Z",
+          "offset": 35778,
+          "stream": "stderr",
+          "beat": {
+            "hostname": "filebeat",
+            "name": "filebeat",
+            "version": "5.5.1"
+          },
+          "input_type": "log",
+          "source": "/hostfs/var/lib/docker/containers/fdb70138ad3b41bdf1852546dcfec962bcc5f0fae8acdfdcfc45a09e1263ac59/fdb70138ad3b41bdf1852546dcfec962bcc5f0fae8acdfdcfc45a09e1263ac59-json.log",
+          "type": "docker",
+          "docker": {
+            "full_container_id": "fdb70138ad3b41bdf1852546dcfec962bcc5f0fae8acdfdcfc45a09e1263ac59",
+            "message": "2021/01/01 22:26:55.013679 log.go:144: ERR packet decoding failed. Recovering, but please report this: runtime error: slice bounds out of range.\\n",
+            "container_id": "fdb70138ad3b"
+          }
+        }
+      },
+      {
+        "_index": "docker-logs-2021-01-01",
+        "_type": "doc",
+        "_id": "AXbAFxvbT7ZrFhGDEmO-",
+        "_score": 7.659862,
+        "_source": {
+          "@timestamp": "2021-01-01T22:35:08.138Z",
+          "offset": 48005,
+          "stream": "stderr",
+          "beat": {
+            "hostname": "filebeat",
+            "name": "filebeat",
+            "version": "5.5.1"
+          },
+          "input_type": "log",
+          "source": "/hostfs/var/lib/docker/containers/fdb70138ad3b41bdf1852546dcfec962bcc5f0fae8acdfdcfc45a09e1263ac59/fdb70138ad3b41bdf1852546dcfec962bcc5f0fae8acdfdcfc45a09e1263ac59-json.log",
+          "type": "docker",
+          "docker": {
+            "full_container_id": "fdb70138ad3b41bdf1852546dcfec962bcc5f0fae8acdfdcfc45a09e1263ac59",
+            "message": "2021/01/01 22:35:00.016015 log.go:144: ERR packet decoding failed. Recovering, but please report this: runtime error: slice bounds out of range.\\n",
+            "container_id": "fdb70138ad3b"
+          }
+        }
+      },
+      {
+        "_index": "docker-logs-2021-01-01",
+        "_type": "doc",
+        "_id": "AXbAI6LfT7ZrFhGDFESK",
+        "_score": 7.659862,
+        "_source": {
+          "@timestamp": "2021-01-01T22:48:46.066Z",
+          "offset": 19277,
+          "stream": "stdout",
+          "beat": {
+            "hostname": "filebeat",
+            "name": "filebeat",
+            "version": "5.5.1"
+          },
+          "input_type": "log",
+          "source": "/hostfs/var/lib/docker/containers/63cc773461a815ef16e632aae6b7bf5854a9b87c501af7d6b6dee88aba9cfda3/63cc773461a815ef16e632aae6b7bf5854a9b87c501af7d6b6dee88aba9cfda3-json.log",
+          "type": "docker",
+          "docker": {
+            "full_container_id": "63cc773461a815ef16e632aae6b7bf5854a9b87c501af7d6b6dee88aba9cfda3",
+            "message": "[2021-01-01T22:48:45,803][WARN ][o.e.x.s.a.AuthenticationService] [WMJFu_Q] An error occurred while attempting to authenticate [elastic] against realm [reserved] - ElasticsearchSecurityException[failed to authenticate user [elastic]]\\n",
+            "container_id": "63cc773461a8"
+          }
+        }
+      },
+      {
+        "_index": "docker-logs-2021-01-01",
+        "_type": "doc",
+        "_id": "AXbANzpET7ZrFhGDF0R5",
+        "_score": 7.659862,
+        "_source": {
+          "@timestamp": "2021-01-01T23:10:12.514Z",
+          "offset": 91986,
+          "stream": "stderr",
+          "beat": {
+            "hostname": "filebeat",
+            "name": "filebeat",
+            "version": "5.5.1"
+          },
+          "input_type": "log",
+          "source": "/hostfs/var/lib/docker/containers/fdb70138ad3b41bdf1852546dcfec962bcc5f0fae8acdfdcfc45a09e1263ac59/fdb70138ad3b41bdf1852546dcfec962bcc5f0fae8acdfdcfc45a09e1263ac59-json.log",
+          "type": "docker",
+          "docker": {
+            "full_container_id": "fdb70138ad3b41bdf1852546dcfec962bcc5f0fae8acdfdcfc45a09e1263ac59",
+            "message": "2021/01/01 23:10:05.026208 log.go:144: ERR packet decoding failed. Recovering, but please report this: runtime error: slice bounds out of range.\\n",
+            "container_id": "fdb70138ad3b"
+          }
+        }
+      },
+      {
+        "_index": "docker-logs-2021-01-01",
+        "_type": "doc",
+        "_id": "AXbCitVfT7ZrFhGDG1in",
+        "_score": 7.659862,
+        "_source": {
+          "@timestamp": "2021-01-02T10:00:30.830Z",
+          "offset": 129227,
+          "stream": "stderr",
+          "beat": {
+            "hostname": "filebeat",
+            "name": "filebeat",
+            "version": "5.5.1"
+          },
+          "input_type": "log",
+          "source": "/hostfs/var/lib/docker/containers/fdb70138ad3b41bdf1852546dcfec962bcc5f0fae8acdfdcfc45a09e1263ac59/fdb70138ad3b41bdf1852546dcfec962bcc5f0fae8acdfdcfc45a09e1263ac59-json.log",
+          "type": "docker",
+          "docker": {
+            "full_container_id": "fdb70138ad3b41bdf1852546dcfec962bcc5f0fae8acdfdcfc45a09e1263ac59",
+            "message": "2021/01/02 10:00:30.830185 log.go:144: ERR packet decoding failed. Recovering, but please report this: runtime error: slice bounds out of range.\\n",
+            "container_id": "fdb70138ad3b"
+          }
+        }
+      }
+    ]
+  }
+}

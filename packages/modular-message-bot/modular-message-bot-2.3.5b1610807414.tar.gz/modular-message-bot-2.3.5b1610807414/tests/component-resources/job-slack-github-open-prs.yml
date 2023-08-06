@@ -1,0 +1,39 @@
+jobs:
+  # Every 5 minutes check for open PRs on Github and if we have any, report them to Slack, else abort
+  - id: ce85dda5-5735-420e-a3ec-307e2433e9fb
+    schedule: '5 * * * *'
+    vars:
+      message: "{date} - you have {pr_count} open PR(s).\n{pr_details}"
+      number_of_prs: "{pr_count}"
+    inputs:
+      - code: datetime
+        parameters:
+          var: date
+          format: '%c'
+      - code: github_prs
+        parameters:
+          url: https://example-api.github.com
+          auth-user: $[GITHUB_COM_USERNAME]
+          auth-token: $[GITHUB_COM_TOKEN]
+          repos:
+            - jeremy-test-org-1/test-repo-1a # private - 1 pr(s)
+            - jeremy-test-org-1/test-repo-1b # private - 0 pr(s)
+            - jeremy-test-org-2/test-repo-2a # public - 2 pr(s)
+            - jeremy-test-org-2/test-repo-2b # public - 0 pr(s)
+          jq-vars:
+            pr_count: "length"
+            pr_details: ". | map([.head.repo.full_name, \" - \", .title, \" - by \", .user.login, \" - \", .html_url] | join(\"\")) | join(\"\n\")"
+    processors:
+      - code: regex_match_one_abort
+        parameters:
+          match:
+            number_of_prs: "0"
+    outputs:
+      - code: slack
+        parameters:
+          url: "$[SLACK_URL]"
+          payload:
+            text: "{message}"
+            channel: "#test"
+            username: "$[SLACK_NAME]"
+            icon_emoji: ":robot_face:"

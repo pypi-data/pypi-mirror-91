@@ -1,0 +1,19 @@
+jobs:
+  - id: d36d6785-0013-4e6c-90e9-9ebd49047a4b
+    schedule: '* * * * *'
+    vars:
+      msg1: "Edi weather is {weather_simple}"
+      msg2: "Edinburgh weather is {weather_complex}"
+    inputs:
+      - code: open_weather_city
+        parameters:
+          query:
+            q: edinburgh,uk
+            appid: "$[OPEN_WEATHER_KEY]"
+          jq-vars:
+            weather_simple: ".weather[0].description + \" \" + .weather_by"
+            weather_complex: ".slack_icon + \" \" + .weather[0].description + \" \" + .weather_by_with_link"
+    outputs:
+      - code: stdout
+        parameters:
+          message: "{msg1}\n{msg2}"
