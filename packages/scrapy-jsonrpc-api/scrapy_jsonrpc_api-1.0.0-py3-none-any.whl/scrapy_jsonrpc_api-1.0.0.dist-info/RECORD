@@ -1,0 +1,9 @@
+scrapy_jsonrpc/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+scrapy_jsonrpc/jsonrpc.py,sha256=38Jf9ugsq8NWd27dCzRO_F1d6YmvXPNLtCuAB71iIsw,3268
+scrapy_jsonrpc/serialize.py,sha256=K098J4m2auHrYd5jGJUNzXhLm8EqEUkd5cXt-oIJQWk,4437
+scrapy_jsonrpc/txweb.py,sha256=kfuon-Qd2LArh5zpdbTOHSMlCXZ0hPjrN5B92mKSzMc,1828
+scrapy_jsonrpc/webservice.py,sha256=5srpe9yWT4MLkjYKi1I9v1zTDnDYaFH7F-QAfprfnz8,3175
+scrapy_jsonrpc_api-1.0.0.dist-info/METADATA,sha256=XSY771B7itDfYa8ApwEyCw3mME_aj3DO9Bj_GpbeFwY,877
+scrapy_jsonrpc_api-1.0.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+scrapy_jsonrpc_api-1.0.0.dist-info/top_level.txt,sha256=NRyCsO0rT0P0N-AcKzC557j-I8uaTyxL1PQevgOVdOw,15
+scrapy_jsonrpc_api-1.0.0.dist-info/RECORD,,
