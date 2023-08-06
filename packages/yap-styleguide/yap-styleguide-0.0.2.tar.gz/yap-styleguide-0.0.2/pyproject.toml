@@ -1,0 +1,56 @@
+[tool.poetry]
+authors = ["Alex Vakhitov <alexius@hey.com>"]
+description = "Yet another python styleguide"
+documentation = "https://yap-styleguide.readthedocs.io"
+homepage = "https://github.com/vahaah/yap-styleguide"
+keywords = ["styleguide"]
+license = "MIT"
+name = "yap-styleguide"
+readme = "README.md"
+repository = "https://github.com/vahaah/yap-styleguide"
+version = "0.0.2"
+
+[tool.poetry.dependencies]
+bandit = "^1.7.0"
+black = "^20.8b1"
+darglint = "^1.5.8"
+flake8 = "^3.8.4"
+flake8-annotations = "^2.5.0"
+flake8-bandit = "^2.1.2"
+flake8-black = "^0.2.1"
+flake8-bugbear = "^20.11.1"
+flake8-docstrings = "^1.5.0"
+flake8-import-order = "^0.18.1"
+flake8-isort = "^4.0.0"
+importlib-metadata = {version = "^1.5.0", python = "<3.8"}
+python = "^3.7"
+
+[tool.poetry.dev-dependencies]
+codecov = "^2.0.22"
+coverage = {extras = ["toml"], version = "^5.0.1"}
+mypy = "^0.761"
+nox = "^2020.12.31"
+pytest = "^5.3.2"
+pytest-cov = "^2.8.1"
+pytest-mock = "^2.0.0"
+pytype = {version = "^2020.1.8", python = "3.7"}
+safety = "^1.8.5"
+sphinx = "^2.3.1"
+sphinx-autodoc-typehints = "^1.10.3"
+typeguard = "^2.7.1"
+xdoctest = "^0.11.0"
+
+[tool.coverage.paths]
+source = ["src", "*/site-packages"]
+
+[tool.coverage.run]
+branch = true
+source = ["yap_styleguide"]
+
+[tool.coverage.report]
+fail_under = 100
+show_missing = true
+
+[build-system]
+build-backend = "poetry.masonry.api"
+requires = ["poetry>=0.12"]
