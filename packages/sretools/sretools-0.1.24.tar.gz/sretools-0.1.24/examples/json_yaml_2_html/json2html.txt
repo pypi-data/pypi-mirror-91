@@ -1,0 +1,40 @@
+$ sretools-json2html -h
+usage: sretools-json2html [-h] [-f INFILE] [-a ATTRIBUTES] [-s] [-k KEYORDER] [-v] [-X]
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -f INFILE, --infile INFILE
+                        input file
+  -a ATTRIBUTES, --table_attributes ATTRIBUTES
+                        table attributes
+  -s, --sorted          try best to make sure output is sorted. default by key.
+  -k KEYORDER, --keywords_order KEYORDER
+                        use this ordered keywords to help sort dict.
+  -v, --dictsortbyvalue
+                        with -s, sort dict by value.
+  -X, --debug           debug mode
+
+# default option. no sorting.
+$ cat t1.json | sretools-json2html | tee t1_1.html
+<table border=1 style="border-collapse:collapse;">
+...
+</tr>
+</table>
+</td>
+</tr>
+</table>
+
+
+
+# sort by time,name and location
+$ cat t1.json | sretools-json2html -k "time,name,location" | tee t1_2.html
+<table border=1 style="border-collapse:collapse;">
+<tr>
+<td><b>imaging</b></td>
+....
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>

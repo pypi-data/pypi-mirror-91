@@ -1,0 +1,44 @@
+<html>
+<header>
+<tt>
+<title>c20201103133611 Postmortem</title>
+<h2>c20201103133611 - new ticket as poc</h2>
+</header>
+<table>
+<tr><td><b>CreateTime</b></td><td>2020-11-03 13:36:11</td></tr>
+<tr><td><b>OncallOps</b></td><td>Yonghang</td></tr>
+<tr><td><b>Status</b></td><td>Resolved</td></tr>
+<tr><td><b>Impact</b></td><td>xx server</td></tr>
+<tr><td><b>RootCause</b></td><td>storage</td></tr>
+<tr><td><b>DurationOfProblem</b></td><td>5H</td></tr>
+<tr><td><b>ServiceImpacted</b></td><td>database</td></tr>
+<tr><td><b>%Impacted</b></td><td>100%</td></tr>
+<tr><td><b>UserImpact</b></td><td>all user</td></tr>
+<tr><td><b>RevenueImpact</b></td><td>unknown</td></tr>
+<tr><td><b>HowToRepeat</b></td><td>xx xx xxx</td></tr>
+<tr><td><b>Resolution</b></td><td>a,bc,xyz</td></tr>
+<tr><td><b>References</b></td><td>n/a</td></tr>
+<tr><td><b>LessonLearned</b></td><td>blabla</td></tr>
+<tr><td><b>ActionItem</b></td><td>blabla</td></tr>
+<tr><td><b>KeywordsForSearch</b></td><td>storage,blktrace</td></tr>
+</table>
+<h2>Timeline    :</h2>
+<table border=1 style="border-collapse: collapse;">
+<tr style="background-color:#F3F3F3"><th>update_time</th><th>brief</th><th>detail</th></tr>
+<tr>
+<td>2020-11-03&nbsp;13:37</td>
+<td>attach&nbsp;from&nbsp;vi</td>
+<td>[yonghang@x200&nbsp;sretools]$&nbsp;ls&nbsp;-l</br>total&nbsp;16</br>drwxrwxr-x.&nbsp;2&nbsp;yonghang&nbsp;yonghang&nbsp;&nbsp;&nbsp;36&nbsp;Nov&nbsp;&nbsp;3&nbsp;13:29&nbsp;dist</br>drwxrwxr-x.&nbsp;2&nbsp;yonghang&nbsp;yonghang&nbsp;&nbsp;&nbsp;29&nbsp;Nov&nbsp;&nbsp;3&nbsp;13:18&nbsp;examples</br>-rw-rw-r--.&nbsp;1&nbsp;yonghang&nbsp;yonghang&nbsp;1087&nbsp;Nov&nbsp;&nbsp;3&nbsp;11:51&nbsp;LICENSE</br>-rw-rw-r--.&nbsp;1&nbsp;yonghang&nbsp;yonghang&nbsp;&nbsp;&nbsp;37&nbsp;Nov&nbsp;&nbsp;3&nbsp;11:51&nbsp;README.md</br>-rw-rw-r--.&nbsp;1&nbsp;yonghang&nbsp;yonghang&nbsp;1160&nbsp;Nov&nbsp;&nbsp;3&nbsp;13:29&nbsp;setup.py</br>drwxrwxr-x.&nbsp;2&nbsp;yonghang&nbsp;yonghang&nbsp;&nbsp;114&nbsp;Nov&nbsp;&nbsp;3&nbsp;13:28&nbsp;sretools</br>drwxrwxr-x.&nbsp;2&nbsp;yonghang&nbsp;yonghang&nbsp;&nbsp;134&nbsp;Nov&nbsp;&nbsp;3&nbsp;13:03&nbsp;sretools.egg-info</br>-rwxrwxr-x.&nbsp;1&nbsp;yonghang&nbsp;yonghang&nbsp;&nbsp;252&nbsp;Nov&nbsp;&nbsp;3&nbsp;11:51&nbsp;upload2pypi</br></td>
+</tr>
+<tr>
+<td>2020-11-03&nbsp;13:37</td>
+<td>attach&nbsp;a&nbsp;file</td>
+<td>root:x:0:0:root:/root:/bin/bash</br>bin:x:1:1:bin:/bin:/sbin/nologin</br>daemon:x:2:2:daemon:/sbin:/sbin/nologin</br>adm:x:3:4:adm:/var/adm:/sbin/nologin</br>lp:x:4:7:lp:/var/spool/lpd:/sbin/nologin</br>sync:x:5:0:sync:/sbin:/bin/sync</br>shutdown:x:6:0:shutdown:/sbin:/sbin/shutdown</br>halt:x:7:0:halt:/sbin:/sbin/halt</br>mail:x:8:12:mail:/var/spool/mail:/sbin/nologin</br>operator:x:11:0:operator:/root:/sbin/nologin</br>games:x:12:100:games:/usr/games:/sbin/nologin</br>ftp:x:14:50:FTP&nbsp;User:/var/ftp:/sbin/nologin</br>nobody:x:65534:65534:Kernel&nbsp;Overflow&nbsp;User:/:/sbin/nologin</br>dbus:x:81:81:System&nbsp;message&nbsp;bus:/:/sbin/nologin</br>systemd-coredump:x:999:997:systemd&nbsp;Core&nbsp;Dumper:/:/sbin/nologin</br>systemd-resolve:x:193:193:systemd&nbsp;Resolver:/:/sbin/nologin</br>tss:x:59:59:Account&nbsp;used&nbsp;by&nbsp;the&nbsp;trousers&nbsp;package&nbsp;to&nbsp;sandbox&nbsp;the&nbsp;tcsd&nbsp;daemon:/dev/null:/sbin/nologin</br>polkitd:x:998:996:User&nbsp;for&nbsp;polkitd:/:/sbin/nologin</br>sssd:x:997:993:User&nbsp;for&nbsp;sssd:/:/sbin/nologin</br>sshd:x:74:74:Privilege-separated&nbsp;SSH:/var/empty/sshd:/sbin/nologin</br>chrony:x:996:992::/var/lib/chrony:/sbin/nologin</br>rngd:x:995:991:Random&nbsp;Number&nbsp;Generator&nbsp;Daemon:/var/lib/rngd:/sbin/nologin</br>yonghang:x:6666:6666:yonghang:/home/yonghang:/bin/bash</br>unbound:x:994:990:Unbound&nbsp;DNS&nbsp;resolver:/etc/unbound:/sbin/nologin</br>pcp:x:993:989:Performance&nbsp;Co-Pilot:/var/lib/pcp:/sbin/nologin</br>tcpdump:x:72:72::/:/sbin/nologin</br></td>
+</tr>
+<tr>
+<td>2020-11-03&nbsp;13:36</td>
+<td>another&nbsp;update&nbsp;</br>&nbsp;2nd&nbsp;line</td>
+<td>update&nbsp;from&nbsp;command&nbsp;</br>&nbsp;2nd&nbsp;line</br>&nbsp;3rd&nbsp;line</td>
+</tr>
+</table>
+</html>

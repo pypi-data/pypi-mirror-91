@@ -1,0 +1,6 @@
+dist/
+sretools.egg-info/
+sretools/__pycache__/
+sretools/build/
+sretools/dist/
+sretools/dbx.spec
