@@ -1,0 +1,8 @@
+# django-project-version
+# MANIFEST.in
+
+
+prune .github*
+prune tests*
+recursive-include djversion *.po
+recursive-include djversion *.mo
