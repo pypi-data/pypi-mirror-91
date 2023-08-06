@@ -1,0 +1,10 @@
+py_postgresql_wrapper/__init__.py,sha256=ML02DLn1T9HlTMe_4jjzz6WcocOvU5a4XtJRDMxZmSI,24
+py_postgresql_wrapper/configuration.py,sha256=MTX3kum3q5QqDhUPRfOG00SzK-vZIai3r90_WC5R3Gc,2014
+py_postgresql_wrapper/database.py,sha256=t7JMJP2uRuYfuqEKcXRZ5hTQSyEQH7Lil_psQBBcvdE,12950
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test.py,sha256=xxmXDZZQM4uC39UP1Dv64wC0pgAcYazQXZ600S3eY7o,4175
+py_postgresql_wrapper-1.0.4.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+py_postgresql_wrapper-1.0.4.dist-info/METADATA,sha256=iUxP-_Xedeqr5IaRrhUD7Noz41N1z9LT_xGTsUphKiE,3704
+py_postgresql_wrapper-1.0.4.dist-info/WHEEL,sha256=Z-nyYpwrcSqxfdux5Mbn_DQ525iP7J2DG3JgGvOYyTQ,110
+py_postgresql_wrapper-1.0.4.dist-info/top_level.txt,sha256=0H9ZTlqQEZW2LTjLrdGupFWPMQktkUlYG2b2TWPRjos,28
+py_postgresql_wrapper-1.0.4.dist-info/RECORD,,
