@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: enricher
+Version: 0.1.0
+Summary: To enrich urls for all companies
+Home-page: https://github.com/pysaurav/url-enricher
+Author: Saurav
+Author-email: pysaurav@gmail.com
+License: Apache License 2.0
+Keywords: urlenricher,company enricher
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: bs4
+Requires-Dist: requests-html
+Requires-Dist: tldextract
+Requires-Dist: requests
+Requires-Dist: google
+
+This package will take your company name and enriches url for all the company names
+
+
