@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: tuxbuild
+Version: 0.12.0
+Summary: The fun Linux kernel builder
+Home-page: https://gitlab.com/Linaro/tuxbuild
+Author: Linaro Limited
+License: UNKNOWN
+Description: tuxbuild is deprecated in favor of
+        [tuxsuite](https://pypi.org/project/tuxsuite/). This package is provided as
+        shim for tuxsuite, and is intended for backwards compatibility. You should
+        migrate to tuxsuite and uninstall this package.
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Software Development :: Testing
+Classifier: Topic :: System :: Operating System Kernels :: Linux
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
