@@ -1,0 +1,13 @@
+phoenix_letter/__init__.py,sha256=Jzb_RfgvXCrm_SQ4AfeGVi1N36YybxnM5mpyxrnihgI,33
+phoenix_letter/main.py,sha256=VoTquTV6Lk734z3ntlBx8XVrnYAbXJAGb11XOXqDu9s,3386
+phoenix_letter/version.py,sha256=8KcCYTXH99C2-gCLuPILJvtT9YftRWJsartIx6TQ2ZY,22
+phoenix_letter/common/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+phoenix_letter/common/arguments.py,sha256=atM5ndv9Dj7C3YpphsStYUL_OQyZEAGJxJTGUlsEqyQ,1629
+phoenix_letter/common/credentials.py,sha256=zML1p4VozRjwOHVlOwHcuBkqbz4JSSKqlueU7UaZ9XM,176
+phoenix_letter/common/enums.py,sha256=b70gojUHlfAyOp7dcQ5fKahtL7nJv-jMYeQHgzukE6k,114
+phoenix_letter-0.3.3.dist-info/LICENSE,sha256=ipNkZtHytU6k6zFAmqr4g2VtfHNjPacUVxK-lc4MWco,1069
+phoenix_letter-0.3.3.dist-info/METADATA,sha256=mSaPT2GDbHd3zRgmLjtdpbzxqAV_mFY2k-iWnjJhuI4,4141
+phoenix_letter-0.3.3.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+phoenix_letter-0.3.3.dist-info/entry_points.txt,sha256=rB8Tz4MHLWZVZE-Ll_YWFTUpyixlvKiIvbErXfLrzX4,61
+phoenix_letter-0.3.3.dist-info/top_level.txt,sha256=Bg49fXGovoM09wRafDO_IgX4mRkxrjouWNrb81Xz2WA,15
+phoenix_letter-0.3.3.dist-info/RECORD,,
