@@ -1,0 +1,13 @@
+paradigmextract/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+paradigmextract/genregex.py,sha256=8oqhVcOhtkqJUavnPaqBFTPAadeIHjvIbrRJrxmgYjY,3979
+paradigmextract/morphparser.py,sha256=CcG6Ycug9T99UPhK6F01QAyO76xvu_926ou5But3-i8,8570
+paradigmextract/paradigm.py,sha256=gnv7Fd86s-9qoaQmpaBd5iPYZW-7XEFd4tPNrFR46JQ,9429
+paradigmextract/pextract.py,sha256=fC5ERvVCUapkMMNoMEi4oGa5iyQj7DaSMdjkhNldCyE,13422
+paradigmextract/regexmatcher.py,sha256=tDYXo9sy70sck4ushXSztUcz__oyry6u7m6xEv-2Glo,2114
+paradigmextract-0.1.0.dist-info/AUTHORS,sha256=pdLo6fNAjM7amuH-cICaWN78MBQw1MOMOgt7Y_oEY5E,637
+paradigmextract-0.1.0.dist-info/LICENSE,sha256=mmOf7UoIccMnxDwZCUPm5H6eN4pMp0QV-gQpAqT9sKs,1069
+paradigmextract-0.1.0.dist-info/METADATA,sha256=A3Q6pdol4V3kYSh9bP9TfEAWW66D-cUjIy8sy3vBSqg,3592
+paradigmextract-0.1.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+paradigmextract-0.1.0.dist-info/pbr.json,sha256=XLVStS9t9IVDSbj34BEKVluq3nfQW22ZILD_4oAnG6g,46
+paradigmextract-0.1.0.dist-info/top_level.txt,sha256=3wuzBgf9d_GRSE9tzGGWxA3PlFeJk4eepelJZZpurQA,16
+paradigmextract-0.1.0.dist-info/RECORD,,
