@@ -1,0 +1,7 @@
+README.md
+setup.py
+AriEngine/__init__.py
+AriEngine.egg-info/PKG-INFO
+AriEngine.egg-info/SOURCES.txt
+AriEngine.egg-info/dependency_links.txt
+AriEngine.egg-info/top_level.txt
