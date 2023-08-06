@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: pacs-locustio
+Version: 1.4.1
+Summary: Website load testing framework
+Home-page: https://github.com/pacslab/pacs_locust
+Author: Jonatan Heyman, Carl Bystrom, Joakim Hamrén, Hugo Heyman
+Author-email: 
+License: MIT
+Project-URL: Documentation, https://docs.locust.io/
+Project-URL: Code, https://github.com/locustio/locust
+Project-URL: Help/Questions, https://stackoverflow.com/questions/tagged/locust
+Project-URL: Issue tracker, https://github.com/locustio/locust/issues
+Description: pacs Locust is a python utility for doing easy, distributed load testing of a web site
+Platform: UNKNOWN
+Classifier: Topic :: Software Development :: Testing :: Traffic Generation
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
