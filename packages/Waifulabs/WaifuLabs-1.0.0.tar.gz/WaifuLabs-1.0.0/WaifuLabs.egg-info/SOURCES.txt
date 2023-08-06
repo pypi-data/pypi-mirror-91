@@ -1,0 +1,9 @@
+README.md
+setup.py
+WaifuLabs.egg-info/PKG-INFO
+WaifuLabs.egg-info/SOURCES.txt
+WaifuLabs.egg-info/dependency_links.txt
+WaifuLabs.egg-info/requires.txt
+WaifuLabs.egg-info/top_level.txt
+waifulabs/__init__.py
+waifulabs/exception.py
