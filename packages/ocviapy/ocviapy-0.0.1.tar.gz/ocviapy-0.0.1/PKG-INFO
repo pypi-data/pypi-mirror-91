@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: ocviapy
+Version: 0.0.1
+Summary: Wraps OpenShift shell utility (oc)
+Home-page: https://www.github.com/RedHatInsights/ocviapy
+Author: Brandon Squizzato
+Author-email: bsquizza@redhat.com
+License: MIT
+Description: # ocviapy
+        Python utilities that wrap 'oc' shell commands
+        
+Keywords: openshift,kubernetes
+Platform: UNKNOWN
+Classifier: Topic :: Utilities
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
