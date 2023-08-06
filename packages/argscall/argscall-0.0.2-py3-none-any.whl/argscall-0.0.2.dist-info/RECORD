@@ -1,0 +1,15 @@
+argscall/__init__.py,sha256=PuAtZcwP98tYCyjtjBEIqOAFDirp-e4guRtAanHwKCg,59
+argscall/argscaller.py,sha256=npqnboiRwpPG8B3xlJjzd1utsGyXSqtSURDnWD4-UgI,2779
+argscall/exceptions.py,sha256=1I-ao7uPwYUeO9YJwnHEw7_0ky1BPaD43rP7qxd_bi8,941
+argscall/version.py,sha256=xLbQKBBOC9bGEPY9Aiawn9-v1vurkPsddqQLibGw2OE,142
+tests/test_keyword_args.py,sha256=rPa7TlAeK6XVs_LjRK_3AtS7ObzSk5roykrcLb3EgdA,729
+tests/test_positional_args.py,sha256=P4jIbdS70ZqzyxX_POg44SXSNCUU0F3aHsEU13SeWAQ,690
+tests/test_some_arguments.py,sha256=3l2QrGkmIHaRSAVPEp-oCN8dPnZOEtwQv-eCeStZDC4,1071
+tests/test_some_kwargs.py,sha256=nx6firx7yV9akVhRAHuRGzzCn4_NAEjI3NLySWtBCRY,905
+tests/test_zero_arguments.py,sha256=C9btm8uOj5xVbeejEujuv5IgkjTSYXTs_0yz8SCEhPY,608
+argscall-0.0.2.dist-info/LICENSE,sha256=FEpBvIvyf76kCkXeFacXMQwU-tKl9qL3LhM6gBFdQnI,1056
+argscall-0.0.2.dist-info/METADATA,sha256=iaMh_RF5Y-tpKFACC0QxHCrXBmB813jKpV7hyJP2dYY,1417
+argscall-0.0.2.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+argscall-0.0.2.dist-info/entry_points.txt,sha256=TL0k3nWTCQyopUMpktf15vkaM5H6mdKCTfkrsWXsHIc,53
+argscall-0.0.2.dist-info/top_level.txt,sha256=6oeyryjzjgp-nIEyjLwh6CUw_rCDV1oahPYaH4Mhypk,15
+argscall-0.0.2.dist-info/RECORD,,
