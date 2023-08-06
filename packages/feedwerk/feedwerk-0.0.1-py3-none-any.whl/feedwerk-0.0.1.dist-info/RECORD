@@ -1,0 +1,8 @@
+feedwerk/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+feedwerk/_compat.py,sha256=pcDoTlfcDDbpJ5DJQm8vyIG1TssPnZ6_mmeKz1mOrXw,6401
+feedwerk/atom.py,sha256=nHSnrVnBKNgsIqG8elOy_h8qeccu7lqRsF9wW2_33Ic,15505
+feedwerk-0.0.1.dist-info/LICENSE.rst,sha256=O0nc7kEF6ze6wQ-vG-JgQI_oXSUrjp3y4JefweCUQ3s,1475
+feedwerk-0.0.1.dist-info/METADATA,sha256=sibY_3IH1gP8qAT6FjgRALP53tfAE8ee19q5GczLtsQ,2906
+feedwerk-0.0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+feedwerk-0.0.1.dist-info/top_level.txt,sha256=A_7Vk4PaN6KzP3G0pzjblvKFwUr1hdy-UBA7FQpx7Ow,9
+feedwerk-0.0.1.dist-info/RECORD,,
