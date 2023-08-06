@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<odoo>
+  <data>
+    <record id="view_form_contract_invoice_payment_wizard" model="ir.ui.view">
+      <field name="name">Contract Invoice Payment Wizard</field>
+      <field name="model">contract.invoice.payment.wizard</field>
+      <field name="arch" type="xml">
+        <form>
+          <group>
+            <field name="data" string="CSV file" />
+          </group>
+          <footer>
+            <button type="object" name="run_wizard" string="Import" />
+          </footer>
+        </form>
+      </field>
+    </record>
+    <act_window id="action_contract_payment_wizard"
+            name="Contract Invoice Payment Wizard"
+            res_model="contract.invoice.payment.wizard"
+            view_type="form"
+            view_mode="form"
+            target="new"
+    />
+  <menuitem id="contract_invoice_payement_menu"
+      parent="account.menu_finance_receivables"
+      action="action_contract_payment_wizard" sequence="15"/>
+  </data>
+</odoo>
