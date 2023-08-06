@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: universal_pathlib
+Version: 0.0.3
+Summary: pathlib with fsspec
+Home-page: https://github.com/Quansight/universal_pathlib
+License: UNKNOWN
+Keywords: 
+Author: Andrew Fulton
+Author-email: andrewfulton9@gmail.com
+Maintainer: Andrew Fulton
+Maintainer-email: andrewfulton9@gmail.com
+Requires-Python: >=3.7
+Requires-Dist: fsspec
+Requires-Dist: requests ; extra == "test"
+Requires-Dist: s3fs ; extra == "test"
+Requires-Dist: jupyter    ; extra == "test"
+Requires-Dist: ipython ; extra == "test"
+Requires-Dist: pytest ; extra == "test"
+Requires-Dist: pylint ; extra == "test"
+Requires-Dist: flake8 ; extra == "test"
+Requires-Dist: pyarrow ; extra == "test"
+Requires-Dist: moto ; extra == "test"
+Requires-Dist: hadoop-test-cluster ; extra == "test"
+Provides-Extra: dev
+Provides-Extra: doc
+Provides-Extra: test

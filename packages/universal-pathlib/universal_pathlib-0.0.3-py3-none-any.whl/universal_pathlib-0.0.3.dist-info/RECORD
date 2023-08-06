@@ -1,0 +1,10 @@
+upath/__init__.py,sha256=2WzBLCElD3Th6cZJGdjrw86ESonthawZA5yJYfk3YQ8,78
+upath/core.py,sha256=-w1cS4dRnBwfNSRXrVzXiIuVpM43xrDvWOiqezFZkeA,10413
+upath/errors.py,sha256=doe4zGfWr6q4hvAim7zDB3hyPFwyj_IytrDxVwchybM,45
+upath/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+upath/tests/conftest.py,sha256=52Pa_AslUYRxMaGbKkYCw3vddS4YS4eIkBTRBQ2uINI,4668
+upath/tests/test_core.py,sha256=5DIl_71Q20IeaKfeGkF6KudTFMsbKLC6xenXSYy0x4s,7409
+universal_pathlib-0.0.3.dist-info/LICENSE,sha256=B7ysA0eoQi24kiNTeGKYkv7e_P_V4yHVy0mIfT28epQ,1065
+universal_pathlib-0.0.3.dist-info/WHEEL,sha256=CqyTrkghQBNsEzLD3HbCSEIJ_fY58-XpoU29dUzwHSk,81
+universal_pathlib-0.0.3.dist-info/METADATA,sha256=wytV7Vk4ZdRhwImoXr7umLvzzltwYq8TioKO1_oXRug,827
+universal_pathlib-0.0.3.dist-info/RECORD,,
