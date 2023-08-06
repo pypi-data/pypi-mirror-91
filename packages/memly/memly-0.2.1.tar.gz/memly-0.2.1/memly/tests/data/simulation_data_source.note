@@ -1,0 +1,6 @@
+Simulation 2
+Location: /mnt/3a29b482-dac1-4563-be89-d63ad92354e9/sphingomyelin_to_ceramide/exp4/0
+Trajectory file: eq3_proc.xtc
+Topology file: eq3_proc_dump_bonds.pdb
+Note that these files don't contain any water molecules - a nonwater topology is available in the 
+source location ("topol_nonwater.top").
