@@ -1,0 +1,71 @@
+Metadata-Version: 2.1
+Name: verbosify
+Version: 0.0.1
+Summary: A cool python function decorator to print comments
+Home-page: https://github.com/rhuille/verbosify
+Author: Raphael Huille
+Author-email: raphael.huille@gmail.com
+License: MIT
+Description: # Verbosify
+        
+        A cool function decorator to print selected comments 🎤
+        
+        ## A Simple Example
+        
+        ```py
+        from verbosify import verbosify, verbosify_with
+        
+        @verbosify
+        def hello_word(uppercase=False):
+            # This is the hello_word function
+            if uppercase:
+                # verbose: return hello word in uppercase
+                return 'HELLO WORD'
+            else:
+                # verbose: return hello word in lowercase
+                return 'hello word'
+        
+        a = hello_word(verbose=True)
+        #> 'return hello word in lowercase'
+        print(a)
+        #> 'hello word'
+        
+        a = hello_word(uppercase=True, verbose=True)
+        #> 'return hello word in uppercase'
+        print(a)
+        #> 'HELLO WORD'
+        
+        a = hello_word()
+        print(a)
+        #> 'hello word'
+        
+        a = hello_word(uppercase=True)
+        print(a)
+        #> 'HELLO WORD'
+        ```
+        
+        
+        You can also choose which comments to print:
+        
+        ```py
+        @verbosify_with(' ')
+        def hello_word(uppercase=False):
+            # This is the hello_word function
+            if uppercase:
+                # verbose: return hello word in uppercase
+                return 'HELLO WORD'
+            else:
+                # verbose: return hello word in lowercase
+                return 'hello word'
+        
+        a = hello_word(verbose=True)
+        #> 'This is the hello_word function'
+        #> 'return hello word in lowercase'
+        print(a)
+        #> 'hello word'
+        ```
+        
+        
+Platform: UNKNOWN
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown

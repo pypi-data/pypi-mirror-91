@@ -1,0 +1,9 @@
+README.md
+setup.py
+verbosify/__init__.py
+verbosify/rewrite_source_code.py
+verbosify/verbosify.py
+verbosify.egg-info/PKG-INFO
+verbosify.egg-info/SOURCES.txt
+verbosify.egg-info/dependency_links.txt
+verbosify.egg-info/top_level.txt
