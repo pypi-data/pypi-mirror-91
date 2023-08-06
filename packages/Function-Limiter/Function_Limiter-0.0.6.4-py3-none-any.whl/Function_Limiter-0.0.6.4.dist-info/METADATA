@@ -1,0 +1,88 @@
+Metadata-Version: 2.1
+Name: Function-Limiter
+Version: 0.0.6.4
+Summary: Rate limiting for callable functions
+Home-page: https://github.com/mghorbani2357/Function-Limiter
+Author: Mohsen Ghorbani
+Author-email: m.ghorbani2357@gmail.com
+License: MIT
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: redis (~=3.5.3)
+
+.. |license| image:: https://img.shields.io/pypi/l/Function-Limiter.svg?style=flat
+    :target: https://pypi.python.org/pypi/Function-Limiter
+
+
+*************
+Function-Limiter
+*************
+|license|
+
+
+Function-Limiter provides rate limiting features to callable function.
+
+Quickstart
+===========
+
+Add the rate limiter to your function as decorator. The following example uses the default
+in memory implementation for storage.
+
+
+.. code-block:: python
+
+    from FunctionLimiter.limiter import Limiter
+    from FunctionLimiter.limiter import RateLimitExceeded
+    import time
+
+    limiter = Limiter()
+
+
+    @limiter.limit('3/second', 'key')
+    def function():
+        print('hello world!')
+
+
+    for i in range(5):
+        function()
+        time.sleep(1)
+
+    for i in range(5):
+        function()
+        time.sleep(0.9)
+
+.. :changelog:
+
+Changelog
+=========
+
+v0.0.6
+------
+Release Date: 2021-01-10
+    * Added redis as in memory storage.
+
+v0.0.5
+------
+Release Date: 2021-01-10
+    * Added garbage collector.
+
+v0.0.4
+------
+Release Date: 2021-01-10
+    * Added Validator to limiter.
+
+v0.0.3
+------
+Release Date: 2021-01-07
+    * Added callable function for limitation and key function.
+
+v0.0.2
+------
+Release Date: 2021-01-07
+    * Bug fixed.
+
+v0.0.1
+------
+Release Date: 2021-01-07
+    * Basic Function Limiter.
+
