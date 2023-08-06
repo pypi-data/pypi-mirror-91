@@ -1,0 +1,2 @@
+ruamel.yaml<=0.16.12
+yatiml>=0.7.0
