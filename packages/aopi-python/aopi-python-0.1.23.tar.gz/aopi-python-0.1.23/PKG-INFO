@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: aopi-python
+Version: 0.1.23
+Summary: 
+Author: Pavel Kirilin
+Author-email: win10@list.ru
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: aiofile (>=3.3.3,<4.0.0)
+Requires-Dist: aopi-index-builder (>=0.1.40,<0.2.0)
+Requires-Dist: loguru (>=0.5.3,<0.6.0)
+Requires-Dist: natsort (>=7.1.0,<8.0.0)
+Requires-Dist: orm (>=0.1.5,<0.2.0)
+Requires-Dist: ujson (>=4.0.1,<5.0.0)
+Description-Content-Type: text/x-rst
+
+Python package index module.
+============================
+
+This module adds python package index to your aopi server.
