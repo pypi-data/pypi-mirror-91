@@ -1,0 +1,11 @@
+LICENSE.txt
+MANIFEST.in
+README.md
+setup.py
+jk_cachefunccalls/__init__.py
+jk_cachefunccalls/cacheCalls.py
+jk_cachefunccalls.egg-info/PKG-INFO
+jk_cachefunccalls.egg-info/SOURCES.txt
+jk_cachefunccalls.egg-info/dependency_links.txt
+jk_cachefunccalls.egg-info/not-zip-safe
+jk_cachefunccalls.egg-info/top_level.txt
