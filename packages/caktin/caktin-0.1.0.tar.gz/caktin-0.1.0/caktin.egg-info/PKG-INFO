@@ -1,0 +1,16 @@
+Metadata-Version: 1.2
+Name: caktin
+Version: 0.1.0
+Summary: A tool for compiling cakti.
+Home-page: https://github.com/lgulich/caktin
+Author: Lionel Gulich
+Author-email: lgulich@ethz.ch
+License: Closed
+Download-URL: https://github.com/lgulich/caktin/archive/v0.1.0.tar.gz
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Natural Language :: English
+Requires-Python: >=3.6
