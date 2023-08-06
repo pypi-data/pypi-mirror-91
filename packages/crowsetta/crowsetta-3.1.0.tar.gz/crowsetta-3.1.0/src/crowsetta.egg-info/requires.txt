@@ -1,0 +1,14 @@
+attrs
+evfuncs
+koumura
+numpy
+scipy
+soundfile
+
+[dev]
+coverage
+jupyterlab
+
+[docs]
+sphinx
+ipython
