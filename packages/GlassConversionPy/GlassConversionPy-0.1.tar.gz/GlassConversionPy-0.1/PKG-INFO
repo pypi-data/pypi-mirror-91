@@ -1,0 +1,20 @@
+Metadata-Version: 1.1
+Name: GlassConversionPy
+Version: 0.1
+Summary: Library to do simple conversions in glass science.
+Home-page: https://github.com/ravinderbhattoo/GlassConversionPy
+Author: Ravinder Bhattoo
+Author-email: UNKNOWN
+License: MIT
+Download-URL: https://github.com/ravinderbhattoo/GlassConversionPy/archive/v_01.tar.gz
+Description: UNKNOWN
+Keywords: Conversion,Glass,Glass Science
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
