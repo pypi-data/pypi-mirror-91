@@ -1,0 +1,6 @@
+README.txt
+setup.py
+cstenv.egg-info/PKG-INFO
+cstenv.egg-info/SOURCES.txt
+cstenv.egg-info/dependency_links.txt
+cstenv.egg-info/top_level.txt

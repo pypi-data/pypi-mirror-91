@@ -1,0 +1,34 @@
+Metadata-Version: 1.1
+Name: cstenv
+Version: 0.0.1
+Summary: a simple env-based language
+Home-page: https://fxomt2-0.github.io/cst-env.github.io/
+Author: Abdulrahman Alhazmi
+Author-email: Abodialhazmi02@gmail.com
+License: MIT
+Description: cstenv.py
+        cstenv means: custom env lang.
+        
+        loading a file
+            cstenv.load_file(NAME)
+        
+        
+        defining variables
+            let $varname$ = "hello world!"
+            let $int$ = 1
+        
+        loading variables values
+            cstenv.var["YOURVARNAMEHERE *with no dollar signs.*"]
+        
+        
+        ===========CHANGELOG============
+        
+        0.0.1 [1/12/2021]
+            Official release of cstenv.
+Keywords: env,dotenv,dot,cstenv,cstcustomdotenv,customenv,custom,lang,language
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
