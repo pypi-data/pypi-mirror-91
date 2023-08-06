@@ -1,0 +1,9 @@
+invoke_release/__init__.py,sha256=ZqZFv3IOs_OjvFluXWGnp-TlLm2A2yIsT5hGk3Kkh-g,119
+invoke_release/plugins.py,sha256=9cfTed0fMLX8683Fi2_vl3Lt359lohz1iL6po0d09gU,7462
+invoke_release/tasks.py,sha256=GwUazwNVWnfJMKiuoRU5Gsm3IoecYGzX2G-QCXKFaD0,61021
+invoke_release/version.py,sha256=_TkHgfoTwCc0A6H9ZaS76aEJtt5If2HvSx-TqZpLoek,189
+invoke_release-4.6.0.dist-info/LICENSE,sha256=4MAecetnRTQw5DlHtiikDSzKWO1xVLwzM5_DsPMYlnE,10172
+invoke_release-4.6.0.dist-info/METADATA,sha256=7HS0pSrqmzlG-AthbQxqJ44zcAqs5Bikyurguc8kP2I,1528
+invoke_release-4.6.0.dist-info/WHEEL,sha256=Z-nyYpwrcSqxfdux5Mbn_DQ525iP7J2DG3JgGvOYyTQ,110
+invoke_release-4.6.0.dist-info/top_level.txt,sha256=ziVmOBQ4sTRz0PdZD-k-5pn5a44-H2MJPtiq6AN7mVI,15
+invoke_release-4.6.0.dist-info/RECORD,,
