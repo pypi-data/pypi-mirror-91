@@ -1,0 +1,7 @@
+clickhouse_repl/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+clickhouse_repl/main.py,sha256=YH400KW-_35ZJ6AeH_KIFh8n9t9Hovmoy4scIWgwjhQ,2048
+clickhouse_repl-1.0.0.dist-info/entry_points.txt,sha256=dtma1dQBRWPeFJJzsnKXzQMzV2JN46lmH3m7MsiZ9cU,60
+clickhouse_repl-1.0.0.dist-info/LICENSE,sha256=AOSFD7cEohCpn93HxSki2YBxt-ifT9tb9X2JJsRIU7s,1067
+clickhouse_repl-1.0.0.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+clickhouse_repl-1.0.0.dist-info/METADATA,sha256=P_MdRvjkUNW11chpCKO9fuhJDDkkF_bz0i0JDTmgdfM,4329
+clickhouse_repl-1.0.0.dist-info/RECORD,,

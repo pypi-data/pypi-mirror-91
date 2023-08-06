@@ -1,0 +1,3 @@
+[console_scripts]
+clickhouse-repl=clickhouse_repl.main:cli
+
