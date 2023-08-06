@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: bmctool
+Version: 0.1.0
+Summary: A python tool to perform Bloch-McConnell (BMC) simulations.
+Home-page: https://github.com/schuenke/BMCTool
+Author: Patrick Schuenke
+Author-email: patrick.schuenke@ptb.de
+License: UNKNOWN
+Description: # Bloch-McConnell (BMC) Simulation Tool
+        
+        
+Keywords: MRI,Bloch,CEST,simulations
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Natural Language :: English
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
