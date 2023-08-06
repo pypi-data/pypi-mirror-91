@@ -1,0 +1,14 @@
+ImgAnn/__init__.py,sha256=XfYBJMlQMHqAZQQXjxxw7aYW3nsdXMPjjfuWS-mgm7w,186
+ImgAnn/convert.py,sha256=wchScAyr9xQw50skl9xuPtxwLXS6Va-wnvsbWXwFdc0,5959
+ImgAnn/sample.py,sha256=_-ot3e6VPzGzKhhKnoNOizPI05tmxW1rMwzCb37zg48,1974
+ImgAnn/operators/ImgData.py,sha256=VNYc9_2oEecmdbYfMZ9lrhnWCE5McUS1RRYhF2veFbc,5467
+ImgAnn/operators/__init__.py,sha256=hA4Sy3kErDddxMoHSZ5MZ5FYn1aBOMXTghVaJ8pkCCE,274
+ImgAnn/operators/coco.py,sha256=STrpHOwMR0A0uSCbHTmChYJ0LV3buMjicXLly_OPa0o,7829
+ImgAnn/operators/csv.py,sha256=I5oopFtOmfmBlQ_5hXwWXJfobUuRqOlIUVOdyRS3EFA,6342
+ImgAnn/operators/operator.py,sha256=Kprre0UYSetwBL53qINTaNgoqpc7jdHWBRZUgeyL_oY,5099
+ImgAnn/operators/pascalvoc.py,sha256=HEJvbShJsC-uKi2k4-ZNF0Y2dLBkCe-ETAWTDYtS4Fg,8428
+ImgAnn-0.5.1.dist-info/LICENSE,sha256=t-onCTCeb5KRZoFS2Socvu4uH8FQgmQsey76vp_PdCI,1063
+ImgAnn-0.5.1.dist-info/METADATA,sha256=x-vCNT7Q3E15_5K7KRMN3pjO5ljJEFZvGb_aETQOGJo,4522
+ImgAnn-0.5.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+ImgAnn-0.5.1.dist-info/top_level.txt,sha256=jqUs1fHNao_toGhBagbToIt-0LDk9lLpTrChdOEeVHM,24
+ImgAnn-0.5.1.dist-info/RECORD,,
