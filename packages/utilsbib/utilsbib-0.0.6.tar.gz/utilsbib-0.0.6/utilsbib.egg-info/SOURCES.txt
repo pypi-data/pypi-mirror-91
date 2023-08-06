@@ -1,0 +1,6 @@
+README.md
+setup.py
+utilsbib.egg-info/PKG-INFO
+utilsbib.egg-info/SOURCES.txt
+utilsbib.egg-info/dependency_links.txt
+utilsbib.egg-info/top_level.txt
