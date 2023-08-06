@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: msword
+Version: 0.0.2
+Summary: Simple mapping view to docx (Word Doc) elements
+Home-page: https://github.com/thorwhalen/msword
+Author: Thor Whalen
+License: apache-2.0
+Keywords: docx,doc file,microsoft word,msword
+Platform: any
+Description-Content-Type: text/markdown
+Requires-Dist: py2store
+Requires-Dist: python-docx
+
+
+# msword
+Simple mapping view to docx (Word Doc) elements
+
+
+To install:	```pip install msword```
+
+
