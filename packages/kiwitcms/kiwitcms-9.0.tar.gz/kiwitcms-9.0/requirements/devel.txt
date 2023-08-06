@@ -1,0 +1,5 @@
+-r readthedocs.txt
+tcms-api
+doc8
+isort==5.7.0
+black
