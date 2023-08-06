@@ -1,0 +1,7 @@
+README.md
+setup.py
+flowmaps_data.egg-info/PKG-INFO
+flowmaps_data.egg-info/SOURCES.txt
+flowmaps_data.egg-info/dependency_links.txt
+flowmaps_data.egg-info/entry_points.txt
+flowmaps_data.egg-info/top_level.txt
