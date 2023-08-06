@@ -1,0 +1,8 @@
+setup.py
+func_af.egg-info/PKG-INFO
+func_af.egg-info/SOURCES.txt
+func_af.egg-info/dependency_links.txt
+func_af.egg-info/top_level.txt
+src/__init__.py
+src/main/__init__.py
+src/main/func.py
