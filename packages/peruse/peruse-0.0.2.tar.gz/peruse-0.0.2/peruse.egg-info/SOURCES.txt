@@ -1,0 +1,11 @@
+README.md
+setup.cfg
+setup.py
+peruse/__init__.py
+peruse/single_wf_snip_analysis.py
+peruse/slang_lite_ws.py
+peruse.egg-info/PKG-INFO
+peruse.egg-info/SOURCES.txt
+peruse.egg-info/dependency_links.txt
+peruse.egg-info/not-zip-safe
+peruse.egg-info/top_level.txt
