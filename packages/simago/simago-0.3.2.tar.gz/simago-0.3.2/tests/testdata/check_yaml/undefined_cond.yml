@@ -1,0 +1,5 @@
+# Sex
+property_name: "sex"
+data_type: "categorical"
+
+data_file: "sex.csv"

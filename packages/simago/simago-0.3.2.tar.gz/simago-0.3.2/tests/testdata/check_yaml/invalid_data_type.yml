@@ -1,0 +1,7 @@
+# Sex
+property_name: "sex"
+data_type: "incorrect"
+
+data_file: "sex.csv"
+
+conditions: null
