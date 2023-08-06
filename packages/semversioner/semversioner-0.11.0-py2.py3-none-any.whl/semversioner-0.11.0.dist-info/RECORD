@@ -1,0 +1,10 @@
+semversioner/__init__.py,sha256=vu-AIKFOb91JZQhc0qtxSGobELd2RVfXkaZZwglvInE,31
+semversioner/__version__.py,sha256=UHGsGhGjMtfvoaFMaJdv4diSXG2uXo8Y2yCo7kiUOdk,23
+semversioner/cli.py,sha256=Ksw-867UTaGy93C1s_rLogLA7Or3hg6w5Sbe05tv1Oo,3881
+semversioner/core.py,sha256=RWZPXroWt1KsnyceH3S_Lb883BzMTlmd_uUYMVz-5VE,7478
+semversioner-0.11.0.dist-info/LICENSE,sha256=Krn6cSIV1RLOo5Lrozo_IDfzs4SqvfFtvK8TDR0KlIY,1067
+semversioner-0.11.0.dist-info/METADATA,sha256=KtR93aebIaryb4G5o4YXW1VAgCdIxPegctYPnNBwD3o,5170
+semversioner-0.11.0.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+semversioner-0.11.0.dist-info/entry_points.txt,sha256=aGQg86x4vMsorptpLuvz4GpzioA0LPMQhfIv1NVKboc,52
+semversioner-0.11.0.dist-info/top_level.txt,sha256=cL85ZNjxcHLYEQV02DtdKwtxzy-L-blj3LZ2y5q8fFI,13
+semversioner-0.11.0.dist-info/RECORD,,
