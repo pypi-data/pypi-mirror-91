@@ -1,0 +1,72 @@
+# paths can be relative (to 'instance-hardness' folder) or absolute
+
+# inside this directory should be 'options.json'
+rootdir: data/iris/
+
+# directory with matilda source code (from InstanceSpace repo)
+matildadir: ../InstanceSpace/
+
+# path to the dataset file (csv)
+datafile: data/iris/data.csv
+
+# name of the class labels column in the dataset
+# leave this line commented out if using the last column as label column
+# labels_col: class
+
+# number of cross-validation folds to evaluate algorithm performance
+n_folds: 10
+# number of times the cross-validation is repeated. Instance metric is the mean over the iterations
+n_iter: 10
+
+# score metric used to evaluate instance performance
+# for now: logloss or brier
+metric: logloss
+
+
+# which measures to calculate
+measures_list:
+    - kDN
+    - DS
+    - DCP
+    - TD_P
+    - TD_U
+    - CL
+    - CLD
+    - MV
+    - CB
+    - N1
+    - N2
+    - LSC
+    - LSR
+    - Harmfulness
+    - Usefulness
+
+# which algorithms (classifiers) to use
+algo_list:
+    - linear_svm
+    - rbf_svm
+    - random_forest
+    - gradient_boosting
+    - bagging
+    - naive_bayes
+    - logistic_regression
+    # - mlp
+
+# parameters for the classifiers
+parameters:
+    linear_svm:
+        C: 1
+        kernel: linear
+        probability: True
+
+    rbf_svm:
+        C: 1
+        kernel: rbf
+        probability: True
+
+    mlp:
+        activation: logistic
+        learning_rate: adaptive
+        # "!!python/tuple" hack to pass a tuple (2,)
+        hidden_layer_sizes: !!python/tuple [2,]
+        max_iter: 1000

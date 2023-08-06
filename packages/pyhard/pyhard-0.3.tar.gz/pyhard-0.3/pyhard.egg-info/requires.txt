@@ -1,0 +1,14 @@
+pandas>=1.0.3
+scikit-learn>=0.22.1
+numpy>=1.18.4
+PyYAML
+scipy
+gower
+panel
+bokeh>=2.0.2
+ipywidgets
+holoviews>=1.13.2
+matplotlib>=3.2.1
+plotly
+plotting
+rankaggregation
