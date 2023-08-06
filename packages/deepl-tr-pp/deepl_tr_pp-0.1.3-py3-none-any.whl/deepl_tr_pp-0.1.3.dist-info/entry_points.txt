@@ -1,0 +1,3 @@
+[console_scripts]
+deepl-tr-pp=deepl_tr_pp.__main__:main
+
