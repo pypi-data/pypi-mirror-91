@@ -1,0 +1,11 @@
+djangocms_headings/__init__.py,sha256=3KXfAcA5rzzQXMtfwpHphgbJNZdA0XWaW96kdWVSZJw,22
+djangocms_headings/cms_plugins.py,sha256=Mwke2Sa1sjGqHxTrRNKHh1UbgxIXO64snUeuMet91FI,555
+djangocms_headings/models.py,sha256=nUnUKGgXzF_RlG1KA-3oR9h4dnEYPUhUVNr4gru33m0,879
+djangocms_headings/migrations/0001_initial.py,sha256=Tb5a5V8ZSwXSgEpRpkfZHO9rPAMX0n6Feht2w8C2q9w,1021
+djangocms_headings/migrations/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+djangocms_headings/templates/djangocms_headings/heading.html,sha256=F5wFv8F_XXcbpgEYNLfHcVzAbo_RiXDSKcCE48f2VSs,125
+djangocms_headings-1.0.1.dist-info/LICENSE,sha256=OFium7DaQUetYVByjrVEWgapK140yNJASTrTGB47d3M,1086
+djangocms_headings-1.0.1.dist-info/METADATA,sha256=WQ5jg0NDrNNdK7Knn-3DsgeP33xU5rN3RoWcfxytK1I,1196
+djangocms_headings-1.0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+djangocms_headings-1.0.1.dist-info/top_level.txt,sha256=H7DPvO0vHxlX7JaP8BT7AuhVG6ijF4zTPLw7pPkcp3U,19
+djangocms_headings-1.0.1.dist-info/RECORD,,
