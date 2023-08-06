@@ -1,0 +1,10 @@
+pyyaml
+atelParser
+fundamentals
+astrocalc
+HMpTy
+multiprocess
+requests
+pymysql==0.9.0
+pandas
+numpy
