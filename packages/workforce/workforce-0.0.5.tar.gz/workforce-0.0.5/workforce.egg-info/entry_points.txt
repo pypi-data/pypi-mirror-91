@@ -1,0 +1,3 @@
+[console_scripts]
+workforce = workforce.cli:main
+
