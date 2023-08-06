@@ -1,0 +1,3 @@
+[console_scripts]
+meidengtest = meidengtest.cli:main
+
