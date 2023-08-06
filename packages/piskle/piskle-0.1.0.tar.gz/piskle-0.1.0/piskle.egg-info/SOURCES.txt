@@ -1,0 +1,14 @@
+README.md
+setup.py
+piskle/__init__.py
+piskle/_piskle_initializer.py
+piskle/partial_object.py
+piskle/partializer.py
+piskle/piskle.py
+piskle/sklearn_piskle_partializer.py
+piskle/utils.py
+piskle.egg-info/PKG-INFO
+piskle.egg-info/SOURCES.txt
+piskle.egg-info/dependency_links.txt
+piskle.egg-info/requires.txt
+piskle.egg-info/top_level.txt
