@@ -1,0 +1,50 @@
+Metadata-Version: 2.1
+Name: django-sms
+Version: 0.1.0
+Summary: A Django app for sending SMS with interchangeable backends.
+Home-page: https://github.com/django-enterprise/django-sms
+Author: Roald Nefs
+Author-email: info@roaldnefs.com
+License: BSD-3-Clause
+Platform: any
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Framework :: Django :: 2.2
+Classifier: Framework :: Django :: 3.0
+Classifier: Framework :: Django :: 3.1
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
+Requires-Dist: Django (>=2.2)
+
+# Django SMS
+
+[![PyPI](https://img.shields.io/pypi/v/django-sms?color=ee5042&logo=python&logoColor=ffffff&style=for-the-badge)](https://pypi.org/project/django-sms/)
+[![GitHub Workflow Status](https://img.shields.io/github/workflow/status/roaldnefs/django-sms/tests?color=ee5042&label=CI&logo=github&style=for-the-badge)](https://github.com/roaldnefs/django-sms/actions)
+[![PyPI - Python Version](https://img.shields.io/pypi/pyversions/django-sms?color=ee5042&logo=python&logoColor=white&style=for-the-badge)](https://pypi.org/project/django-sms/)
+[![PyPI - Django Version](https://img.shields.io/pypi/djversions/django-sms?color=ee5042&logo=django&logoColor=ffffff&style=for-the-badge)](https://pypi.org/project/django-sms/)
+
+**django-sms** is a Django app for sending SMS with interchangeable backends.
+# Changelog
+
+All notable changes in **django-sms** are documented below.
+
+## [Unreleased]
+
+## [0.1.0] (2021-01-15)
+### Added
+- This `CHANGELOG.md` file to be able to list all notable changes for each version of **django-sms**.
+
+[Unreleased]: https://github.com/roaldnefs/django-sms/compare/v0.1.0...HEAD
+[0.1.0]: https://github.com/roaldnefs/django-sms/releases/tag/v0.1.0
+
+
