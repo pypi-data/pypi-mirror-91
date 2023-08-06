@@ -1,0 +1,9 @@
+polyomino/.gitignore,sha256=MtrjBS8zHuNNYo71NXCbMBJZpF33x1IsTTXc9Jhz8As,13
+polyomino/__init__.py,sha256=Ph-oP55XWu4oZiNYpJCtleyqJyQenW5pFMWE3K-2Zf4,1025
+polyomino/board.py,sha256=p5xjGxJC7QwzHvMgZ78kypEZTjlceN_IhMC-KObpDAA,2068
+polyomino/constant.py,sha256=pU686NVRjsWescnmUQ__iiZDTEEXp-eqd7xOhY0ltlg,981
+polyomino/transform.py,sha256=sqvNcd3HijJmiqdIwqczbM3pmursd_mEOJwBzmm29XU,517
+polyomino-0.2.0.dist-info/entry_points.txt,sha256=8yvYZ2uFI7e3xjl020yy0WqMUk0tcCkwZEshR3_5qH8,75
+polyomino-0.2.0.dist-info/WHEEL,sha256=SrtnPGVTMeYWttls9xnWA01eUhCZ3ufFdJUYb1J3r-U,83
+polyomino-0.2.0.dist-info/METADATA,sha256=vnsaFXomFHF5-8013_CBlH_z_vTpN3yubznvNoRUEsg,430
+polyomino-0.2.0.dist-info/RECORD,,
