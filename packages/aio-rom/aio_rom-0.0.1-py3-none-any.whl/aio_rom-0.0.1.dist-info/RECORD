@@ -1,0 +1,9 @@
+rom/__init__.py,sha256=0KSqLJ0moBpNKzp9rgryuQUeGKvH5owGppMJ1W7Od6M,157
+rom/exception.py,sha256=-WdLfFw8gBoCRPblgnMIgFuOvgJlsHVtHzlSJ1Uwj5s,151
+rom/fields.py,sha256=DALzTf5_yVIpVmRg-WJvAKUfaKJT7MrUMLi4nsAOBBo,9111
+rom/model.py,sha256=T3h-0yKG0JyRt2Pp7mucb1_13ekuYMZZOUJYwiY6iKI,5082
+aio_rom-0.0.1.dist-info/LICENSE,sha256=kBbhV27fTGn4Tl4JvVA-49mdl8Nfbt7-08ELcZbvpKQ,1070
+aio_rom-0.0.1.dist-info/METADATA,sha256=fHJv_y5bKxzhG-mmMIq0bYM8oL0Tdq-YjZOWQua_pEY,294
+aio_rom-0.0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+aio_rom-0.0.1.dist-info/top_level.txt,sha256=U2QgwhGBRyFfKgF1aeAtOmDZR5IZQW_jfkrjtqJhheg,4
+aio_rom-0.0.1.dist-info/RECORD,,

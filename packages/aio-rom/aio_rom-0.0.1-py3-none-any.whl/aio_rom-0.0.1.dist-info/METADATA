@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: aio-rom
+Version: 0.0.1
+Summary: asyncio based Redis object mapper
+Home-page: UNKNOWN
+Author: Federico Jaite
+Author-email: fede_654_87@hotmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Dist: aioredis (>=1.3.1)
+Requires-Dist: typing-inspect (>=0.6.0)
+
+UNKNOWN
+
+
