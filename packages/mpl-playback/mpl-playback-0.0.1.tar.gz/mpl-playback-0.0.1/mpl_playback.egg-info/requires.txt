@@ -1,0 +1,9 @@
+matplotlib>=3.3
+
+[doc]
+sphinx>=1.5
+sphinx-copybutton
+sphinx_gallery
+
+[test]
+black
