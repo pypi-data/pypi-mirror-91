@@ -1,0 +1,3 @@
+[gui_scripts]
+buffer_app = buffer_app:app_view
+
