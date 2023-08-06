@@ -1,0 +1,6 @@
+README.md
+setup.py
+pyaviation.egg-info/PKG-INFO
+pyaviation.egg-info/SOURCES.txt
+pyaviation.egg-info/dependency_links.txt
+pyaviation.egg-info/top_level.txt
