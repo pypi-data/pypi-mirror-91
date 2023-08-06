@@ -1,0 +1,3 @@
+[console_scripts]
+apache_airflow_providers_teradata = apache_airflow_providers_teradata.cli:main
+
