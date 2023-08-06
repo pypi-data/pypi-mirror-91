@@ -1,0 +1,293 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage[english,vietnamese]{babel}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage{csquotes}
+\usepackage{booktabs}
+\usepackage{hyperref}
+\usepackage{lmodern}
+
+\renewcommand{\thefootnote}{\fnsymbol{footnote}}
+\makeatletter
+\renewcommand*{\eqref}[1]{\hyperref[{#1}]{\textup{\tagform@{\ref*{#1}}}}}
+\makeatother
+\newcommand{\usth}{{\selectlanguage{vietnamese}University
+  of Science and Technology of Hà Nội}}
+
+\begin{document}
+\setcounter{page}{0}
+\thispagestyle{empty}
+\vspace*{\stretch{1}}
+\begin{flushright}
+  \setlength{\baselineskip}{1.4\baselineskip}
+  \textbf{\Large Automatic Dependency Removal}
+  \noindent\rule{\textwidth}{3pt}
+  \emph{\Large A Graph Theory Project}
+  \vspace{\stretch{1}}
+
+  \textbf{by Đoàn Bá Cường, Phí Đỗ Hải Long, Nguyễn Gia Phong,\\
+          Nguyễn Hồng Quang and Trần Minh Vương\\}
+  \selectlanguage{english}
+  \today
+\end{flushright}
+\vspace*{\stretch{2}}
+\pagebreak
+
+\selectlanguage{english}
+\pagebreak
+
+\section{Introduction}
+\subsection{Brief Description}
+Since the dawn Python packaging ecosystem, proper package management
+has been missing, partly due to the lack of package dependency resolution tools
+that are widely compatible.  Instead, it is often seen that
+developers preferring the use of dedicated virtual environments
+specific for each and every task.  In production, such boilerplate
+introduces additional complexity as well as latency,
+which negatively affect productivity.
+
+As a proper dependency resolver is now baked into \verb|pip| (since release
+20.3), the package installer for Python, it is no longer non-trivial to support
+common package management use cases such as autoremoval of orphan dependencies.
+This project aimed to provide a proof of concept for future carry-out
+of \href{https://github.com/pypa/pip/issues/5823}{such feature}.
+
+\subsection{Authors and Credits}
+The work has been undertaken by group number 4 in the course of Graph Theory
+at the \usth, whose members are listed in the following table.
+
+\begin{center}
+  \selectlanguage{vietnamese}
+  \begin{tabular}{c c}
+    \toprule
+    Full name & Student ID\\
+    \midrule
+    Đoàn Bá Cường & BI9-062\\
+    Phí Đỗ Hải Long & BI9-149\\
+    Nguyễn Gia Phong & BI9-184\\
+    Nguyễn Hồng Quang & BI9-194\\
+    Trần Minh Vương & BI9-239\\
+    \bottomrule
+  \end{tabular}
+  \selectlanguage{english}
+\end{center}
+
+We would like to express our special thanks to Dr.~Sebastian Basterrech,
+whose lectures brought us interests and inspirations in graph theory
+to work on this project in particular.
+
+This paper is licensed under
+a \href{https://creativecommons.org/licenses/by-sa/4.0/}{Creative Commons
+Attribution-ShareAlike 4.0 International License}.
+\pagebreak
+
+\section{Objective}
+In this project, we wanted to develop as package pinning
+and automatic dependency removal for Python packaging, which is commonly found
+in package managers for Unix-like operating systems.  The resulting software
+would be able to perform the following tasks:
+
+\begin{enumerate}
+  \item Mark manually installed packages
+  \item When a package is to be removed, automatically look for
+    its dependencies to uninstall at the same time, except for those
+    manually installed or installed as a dependency of other manually installed
+    packages that are not specified for removal
+\end{enumerate}
+
+\section{Theoretical Background}
+\subsection{Problem Definition}
+\subsubsection{States and Constraints}
+The states include a dependency graph $G$ and a set $M$
+of manually installed distribution packages\footnote{As defined in
+the \href{https://packaging.python.org/glossary}{Glossary for Python packaging},
+a distribution package is
+\begin{displayquote}
+  A versioned archive file that contains Python packages, modules,
+  and other resource files that are used to distribute a release.
+  The archive file is what an end-user will download from the Internet
+  and install.
+
+  A distribution package is more commonly referred to with the single words
+  ``package'' or ``distribution'', but [it might be confused] with
+  an import package (which is also commonly called a ``package'')
+  or another kind of distribution (e.g. a Linux distribution
+  or the Python language distribution), which are often referred to
+  with the single term ``distribution''.
+\end{displayquote}}.
+
+Let $G = (V, E)$ where $\forall v \in V$, $v$ is a distribution package,
+$M \subset V$ and $\forall (u, v) \in E$, $u$ depends on $v$.
+For $G$ to be a valid digraph,
+\begin{equation}\label{digraph}
+  \forall u \in V, \forall v \notin V, (u, v) \notin E
+\end{equation}
+
+Define direct dependencies of a package as
+\[d(v) = \{u \in V \mid (v, u) \in E\}\]
+implicit dependencies of a package as
+\[i(v) = \{v\} \cup \bigcup_{u \in d(v)} i(u)\]
+and implicit dependencies of a set of packages as
+\[I(S) = \bigcup_{v \in S} i(v)\]
+
+$G$ and $M$ is said to form a valid state when $G$ is valid
+and all installed distribution packages are implicit dependencies
+of the manually installed ones:
+\begin{equation}\label{useful}
+  I(M) = V
+\end{equation}
+
+\subsubsection{Input}
+The input is a set $R$ of distribution packages to be removed,
+where $R \subset V$.
+
+\subsubsection{Output}
+The output is a set $K$ of distribution packages to be kept\footnote{In practice
+it is often more useful to get $V \setminus K$, but it is easier to formulate
+reasonings with $K$.} after uninstallation, where $K \subset V$,
+$K \cap R = \varnothing$ and that $M' = M \cap K$, $G' = (K, E')$
+is a new valid state, where $E' = \{(u, v) \in E \mid u \in K\}$.
+
+\subsection{Algorithm}
+Define direct dependents of a package as
+\[b(v) = \{u \in V \mid (u, v) \in E\}\]
+implicit dependents of a package as
+\[j(v) = \{v\} \cup \bigcup_{u \in b(v)} j(u)\]
+and implicit dependents of a set of packages as
+\[J(S) = \bigcup_{v \in S} j(v)\]
+
+Let $K = I(M \setminus J(R))$,
+$K$ is expected to meet the problem's output requirements.
+
+\subsection{Proof of Correctness}
+The algorithm is correct if and only if the new state of $G'$ and $M'$
+satisfies \eqref{digraph} and \eqref{useful}:
+\begin{equation}\label{output-digraph}
+  \forall u \in K, \forall v \notin K, (u, v) \notin E'
+\end{equation}
+\begin{equation}\label{output-useful}
+  I(M') = K
+\end{equation}
+as well as all specified distribution packages are removed:
+\begin{equation}\label{rm}
+  K \cap R = \varnothing
+\end{equation}
+
+\begin{proof}
+It is trivial that
+\[\begin{cases}
+  S \subset X \Longrightarrow I(S) \subset I(X)\\
+  I(S) = X \Longrightarrow X = I(X)
+\end{cases}\]
+and therefore
+\begin{equation}\label{left}
+  K = I(M \setminus J(R))
+  \Longrightarrow K = I(K) \supset I(M \cap K) = I(M')
+\end{equation}
+
+In addition, it is easy to see that
+\begin{multline}\label{right}
+  M \setminus J(R) \subset I(M \setminus J(R))
+  \wedge M \setminus J(R) \subset M\\
+  \Longrightarrow M \setminus J(R) \subset M \cap I(M \setminus J(R))
+  \iff M \setminus J(R) \subset M \cap K\\
+  \Longrightarrow I(M \setminus J(R)) \subset I(M \cap K)
+  \iff K \subset I(M')
+\end{multline}
+
+From \eqref{left} and \eqref{right} we have \eqref{output-useful} proved.
+
+From $K = I(K)$ in \eqref{left}, we also have
+\eqref{output-digraph} proved as follows:
+\begin{align*}
+  \forall v \in I(K), v \in K
+  &\Longrightarrow \forall u \in K, \forall v \notin K, (u, v) \notin E\\
+  &\iff \forall u \in K, \forall v \notin K,
+  (u, v) \notin E \vee u \notin K\\
+  &\iff \forall u \in K, \forall v \notin K,
+  (u, v) \notin \{(u, v) \in E \mid u \in K\}\\
+  &\iff \forall u \in K, \forall v \notin K, (u, v) \notin E'
+\end{align*}
+
+Assume that $R \cap K \neq \varnothing$, we get
+\begin{multline}\label{c11n}
+  \exists v \in R, v \in K
+  \iff \exists v \in R, v \in I(M \setminus J(R))\\
+  \Longrightarrow \exists v \in R, \exists u \in j(v), u \in M \setminus J(R)
+  \Longrightarrow \exists u \in J(R), u \in M \setminus J(R)
+\end{multline}
+
+As \eqref{c11n} is false, the reverse which is \eqref{rm} is true.
+\end{proof}
+
+\section{Implementation}
+\subsection{Obtaining Dependency Graph}
+Through the standard library \verb|importlib.metadata|,
+local dependency information can be obtained trivially as follows:
+\begin{verbatim}
+from collections import defaultdict
+from importlib.metadata import distributions
+
+from packaging.requirements import Requirement
+
+def dependency_graph():
+    vertices, edges = set(), defaultdict(set)
+    for distribution in distributions():
+        d = distribution.metadata['Name']
+        vertices.add(d)
+        for r in distribution.requires or []:
+            requirement = Requirement(r)
+            marker = requirement.marker
+            if marker is None or marker.evaluate({'extra': ''}):
+                edges[d].add(requirement.name)
+    return vertices, edges
+\end{verbatim}
+
+We then define the functions $I$ and $J$ above
+as \verb|dependencies| and \verb|dependents| respectively:
+
+\begin{verbatim}
+from collections import deque
+
+def dependencies(edges, packages):
+    result, queue = set(), deque(packages)
+    while queue:
+        v = queue.popleft()
+        if v in result: continue
+        result.add(v)
+        queue.extend(edges[v])
+    return result
+
+def dependents(edges, packages):
+    egdes = defaultdict(set)
+    for k, v in edges.items():
+        for i in v: egdes[i].add(k)
+    return dependencies(egdes, packages)
+\end{verbatim}
+
+Manually installed packages $M$ are stored in a text file
+specific to the environment.  The packages to be removed
+$V \setminus K = V \setminus I(M \setminus J(R))$ are computed as follows:
+\begin{verbatim}
+manual = set(file.read_text().strip().split())    # M
+must_remove = dependents(edges, distributions)    # J(R)
+must_keep = manual.difference(must_remove)        # M \ J(R)
+should_keep = dependencies(edges, must_keep)      # K = I(M \ J(R))
+should_remove = vertices.difference(should_keep)  # V \ K
+\end{verbatim}
+
+Operations with side-effects are outsourced to \verb|pip|.
+The reference implementation can be found on the Python Package Index
+under the name \href{https://pypi.org/project/anage}{anage}.
+
+\section{Conclusion}
+Through the abstraction given by graph theory, we was able to deduced
+a rather unexpectedly simple method of managing automatically installed
+distribution packages that is mathematically proven.
+Although the proof-of-concept was not production-ready (as in,
+it did not fully comply with all packaging specification such as
+\href{https://www.python.org/dev/peps/pep-0508/#extras}{\emph{extras}}
+and was lacking certain package managements features), we are confident
+about the tool will eventually become helpful with future development.
+\end{document}
