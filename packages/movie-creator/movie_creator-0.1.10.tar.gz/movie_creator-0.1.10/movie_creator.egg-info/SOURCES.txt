@@ -1,0 +1,11 @@
+README.md
+setup.py
+movie_creator.egg-info/PKG-INFO
+movie_creator.egg-info/SOURCES.txt
+movie_creator.egg-info/dependency_links.txt
+movie_creator.egg-info/entry_points.txt
+movie_creator.egg-info/requires.txt
+movie_creator.egg-info/top_level.txt
+moviecreator/__init__.py
+moviecreator/__version__.py
+moviecreator/create_movie.py
