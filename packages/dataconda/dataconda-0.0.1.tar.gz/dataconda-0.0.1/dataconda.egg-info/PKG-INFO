@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: dataconda
+Version: 0.0.1
+Summary: A python library for data
+Home-page: https://github.com/ploppy-pigeon/DataConda
+Author: Vinayak Vikram
+Author-email: subram.sesh@gmail.com
+License: UNKNOWN
+Description: DataConda
+        =========
+        
+        DataConda (http://easy-breezy.xyz/DataConda / https://github.com/ploppy-pigeon/DataConda), developed by Vinayak Vikram, developer of EasyBreezy is a python library for data.
+        
+        Its features include:
+            -   Tkinter Grahing widgets
+                -   Chart widgets (class Chart)
+                -   Graph widgets (only work with DataConda Chart widgets)(class Graph)
+            -   Data Servers/Web apps (class DataServer)
+            -   Converting
+            -   Parsing
+        
+        Credits:
+            -   StackOverflow for teaching me how to embed matplotlib charts in Tk (used for the Chart and Graph classes) (I fiddled around a bit also) (Link here: https://stackoverflow.com/questions/46332192/displaying-matplotlib-inside-tkinter)
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown

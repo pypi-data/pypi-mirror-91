@@ -1,0 +1,8 @@
+README.md
+setup.py
+dataconda/__init__.py
+dataconda/dataconda.py
+dataconda.egg-info/PKG-INFO
+dataconda.egg-info/SOURCES.txt
+dataconda.egg-info/dependency_links.txt
+dataconda.egg-info/top_level.txt
