@@ -1,0 +1,5 @@
+click
+docutils
+p_config>=1.2.0
+requests
+tornado
