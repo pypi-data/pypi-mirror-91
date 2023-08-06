@@ -1,0 +1,6 @@
+Click>=7.0
+ansible-runner
+ansible
+attrs
+loguru
+omegaconf
