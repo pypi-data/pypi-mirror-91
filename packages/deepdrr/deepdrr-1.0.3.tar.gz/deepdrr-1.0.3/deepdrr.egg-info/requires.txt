@@ -1,0 +1,8 @@
+numpy
+torch
+torchvision
+nibabel
+scikit-image
+pydicom
+pycuda
+scipy

@@ -1,0 +1,2 @@
+include deepdrr/projector/project_kernel.cu
+include deepdrr/projector/cubic/*
