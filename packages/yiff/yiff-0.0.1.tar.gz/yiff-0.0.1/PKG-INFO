@@ -1,0 +1,16 @@
+Metadata-Version: 1.1
+Name: yiff
+Version: 0.0.1
+Summary: Yiff package. No idea what I honestly want to do with it, at the moment, though.
+Home-page: UNKNOWN
+Author: Josh Colden
+Author-email: nanofaux@hotmail.com
+License: MIT
+Description: A simple package for yiffing, I guess.
+        A simple package for yiffing, I guess.
+Keywords: yiff
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3

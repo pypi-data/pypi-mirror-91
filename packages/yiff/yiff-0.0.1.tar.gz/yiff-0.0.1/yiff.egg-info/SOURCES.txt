@@ -1,0 +1,9 @@
+LICENSE.txt
+MANIFEST.in
+README.txt
+__init__.py
+setup.py
+yiff.egg-info/PKG-INFO
+yiff.egg-info/SOURCES.txt
+yiff.egg-info/dependency_links.txt
+yiff.egg-info/top_level.txt
