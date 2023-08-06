@@ -1,0 +1,7 @@
+README.md
+setup.py
+speewee/__init__.py
+speewee.egg-info/PKG-INFO
+speewee.egg-info/SOURCES.txt
+speewee.egg-info/dependency_links.txt
+speewee.egg-info/top_level.txt
