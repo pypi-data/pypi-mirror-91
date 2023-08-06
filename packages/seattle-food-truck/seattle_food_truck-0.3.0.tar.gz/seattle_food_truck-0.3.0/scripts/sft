@@ -1,0 +1,68 @@
+#!/usr/bin/env python3
+import click
+
+from terminaltables import SingleTable
+
+from seattle_food_truck import Client
+
+
+@click.group()
+@click.pass_context
+def cli(context):
+    """Tool to get you the food trucks scheduled near you in Seattle."""
+    pass
+
+
+@cli.command()
+@click.pass_context
+def locations(context):
+    """Print the locations with food truck bookings."""
+    client = Client()
+
+    table = SingleTable([['Name', 'UID']], title='Locations')
+
+    for location in client.locations:
+        table.table_data.append([location.name.strip(), location.uid])
+    print(table.table)
+
+
+@cli.command()
+@click.pass_context
+@click.option('--location-uid', type=int, required=True)
+def trucks_today(context, location_uid):
+    """Print the truck bookings today."""
+    client = Client()
+
+    location = None
+    for location in client.locations:
+        if int(location.uid) == int(location_uid):
+            break
+
+    if not location:
+        raise ValueError(f'No location with UID {location_uid}!')
+
+    for truck in location.trucks_today():
+        print(truck)
+
+
+@cli.command()
+@click.pass_context
+@click.option('--location-uid', required=True)
+def trucks_tomorrow(context, location_uid):
+    """Print the truck bookings tomorrow"""
+    client = Client()
+
+    location = None
+    for location in client.locations:
+        if int(location.uid) == int(location_uid):
+            break
+
+    if not location:
+        raise ValueError(f'No location with UID {location_uid}!')
+
+    for truck in location.trucks_tomorrow():
+        print(truck)
+
+
+if __name__ == '__main__':
+    cli(obj={})
