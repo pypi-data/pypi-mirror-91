@@ -1,0 +1,7 @@
+README.md
+setup.py
+turCy.egg-info/PKG-INFO
+turCy.egg-info/SOURCES.txt
+turCy.egg-info/dependency_links.txt
+turCy.egg-info/top_level.txt
+turcy/__init__.py
