@@ -1,0 +1,23 @@
+Metadata-Version: 1.1
+Name: seleniumHelper
+Version: 0.0.1
+Summary: basic helper functions
+Home-page: UNKNOWN
+Author: Minerop
+Author-email: UNKNOWN
+License: MIT
+Description: simple funktions for selenium
+        
+        Change Log
+        ==========
+        
+        0.0.1
+        -----
+        -test release
+Keywords: selenium
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3

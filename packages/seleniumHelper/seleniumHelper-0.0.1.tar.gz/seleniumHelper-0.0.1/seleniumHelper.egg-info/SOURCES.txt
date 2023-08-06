@@ -1,0 +1,8 @@
+MANIFEST.in
+README.txt
+setup.py
+seleniumHelper.egg-info/PKG-INFO
+seleniumHelper.egg-info/SOURCES.txt
+seleniumHelper.egg-info/dependency_links.txt
+seleniumHelper.egg-info/requires.txt
+seleniumHelper.egg-info/top_level.txt
