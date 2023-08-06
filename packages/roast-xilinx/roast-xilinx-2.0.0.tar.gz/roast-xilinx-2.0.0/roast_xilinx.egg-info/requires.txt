@@ -1,0 +1,7 @@
+roast>=2.0.0
+
+[dev]
+pytest
+pytest-mock
+pytest-black
+pytest-freezegun
