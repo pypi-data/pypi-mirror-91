@@ -1,0 +1,280 @@
+#!python
+import argparse,pathlib
+import configparser
+import distro,shutil,sys
+import subprocess
+
+### manager's config directory
+manager_dir = str(pathlib.Path.home()) + '/.config/manager'
+default_manager_conf = manager_dir + '/config.ini'
+default_manager_hosts = manager_dir + '/hosts'
+
+## Argparse arguments
+parser = argparse.ArgumentParser(description="Interactive machine management tool")
+subparsers = parser.add_subparsers(help='commands', dest='command')
+
+## Packages parser
+parser_packages = subparsers.add_parser('packages', help='manage packages')
+parser_packages.add_argument('-i', '--install', help='packages to install', nargs='+', metavar='PKG')
+parser_packages.add_argument('-u', '--upgrade', help='packages to upgrade', nargs='+', metavar='PKG')
+parser_packages.add_argument('-r', '--remove', help='packages to uninstall', nargs='+', metavar='PKG')
+
+## Services parser
+parser_services = subparsers.add_parser('services', help='manage services')
+parser_services.add_argument('--restart', help='service(s) to restart', nargs='+', metavar='NAME')
+parser_services.add_argument('--stop', help='service(s) to stop', nargs='+', metavar='NAME')
+parser_services.add_argument('--start', help='service(s) to start', nargs='+', metavar='NAME')
+
+args = parser.parse_args()
+
+
+def check_os():
+    operating_system = sys.platform
+    return(operating_system)
+
+def check_linux_distro():
+    distribution = distro.like()
+    if distribution == '':
+        distribution = distro.id()
+    return(distribution)
+
+def check_bin(binary):
+    exec('global ' + binary + '_path', globals())
+    exec(binary + '_path = shutil.which("' + binary + '")', globals())
+
+def check_package_manager(operating_system):
+    if operating_system == 'darwin':
+        check_bin("brew")
+        check_bin("nix")
+
+    if 'freebsd' in operating_system:
+        global pkg_path
+        pkg_path = '/usr/sbin/pkg'
+        check_bin("nix")
+
+    if operating_system == 'alpine':
+        global apk_path
+        apk_path = '/sbin/apk'
+        check_bin("nix")
+        check_bin("brew")
+
+    if operating_system == 'debian':
+        global apt_path
+        apt_path = '/usr/bin/apt'
+        check_bin("nix")
+        check_bin("brew")
+
+    if 'rhel' in operating_system or operating_system == 'fedora':
+        global dnf_path
+        dnf_path = '/usr/bin/dnf'
+        check_bin("nix")
+        check_bin("brew")
+
+    if operating_system == 'arch':
+        global pacman_path
+        pacman_path = '/usr/sbin/pacman'
+        check_bin("nix")
+        check_bin("brew")
+
+def package_manage(package_manager, package_name, action):
+    cache_update = 'no'
+    if package_manager == 'apk':
+        cache_update_cmd = 'apk update'
+        if action == 'uninstall':
+            action = 'del'
+
+        if action == 'install':
+            action = 'add'
+            cache_update = 'yes'
+        
+        if action == 'upgrade':
+            cache_update = 'yes'
+
+    if package_manager == 'apt':
+        cache_update_cmd = 'apt update'
+        if action == 'uninstall':
+            action = 'remove'
+
+        if action == 'install':
+            cache_update = 'yes'
+        
+        if action == 'upgrade':
+            cache_update = 'yes'
+
+    if package_manager == 'brew':
+        cache_update_cmd = 'brew update'
+        
+        if action == 'install':
+            cache_update = 'yes'
+        
+        if action == 'upgrade':
+            cache_update = 'yes'
+
+
+    if package_manager == 'dnf':
+        cache_update_cmd = 'dnf check-update'
+        if action == 'uninstall':
+            action = 'remove'
+
+        if action == 'install':
+            cache_update = 'yes'
+        
+        if action == 'upgrade':
+            cache_update = 'yes'
+
+
+    if package_manager == 'nix':
+        cache_update_cmd = 'nix-channel --update'
+        package_manager = 'nix-env'
+        if action == 'uninstall':
+            action = '--uninstall'
+        if action == 'install':
+            action = '--install'
+            cache_update = 'yes'
+        if action == 'upgrade':
+            action = '--upgrade'
+            cache_update = 'yes'
+
+
+    if package_manager == 'pacman':
+        cache_update_cmd = 'pacman -Sy'
+        if action == 'uninstall':
+            action = '-R'
+
+        if action == 'install':
+            cache_update = 'yes'
+            action = '--noconfirm -S'
+        
+        if action == 'upgrade':
+            cache_update = 'yes'
+            action = '--noconfirm -Su'
+
+
+    if package_manager == 'pkg':
+        cache_update_cmd = 'pkg update'
+        if action == 'uninstall':
+            action = 'delete'
+
+        if action == 'install':
+            cache_update = 'yes'
+        
+        if action == 'upgrade':
+            cache_update = 'yes'
+    
+    
+    if cache_update == 'yes':
+        subprocess.run(cache_update_cmd, shell=True)
+
+    subprocess.run(package_manager + ' ' + action + ' ' + package_name, shell=True)
+    
+
+
+
+
+def service_manage(operating_system, service_list, action):
+    for service in service_list:
+        if linux == 'true':
+            check_bin('systemctl')
+            if systemctl_path:
+                service_command = 'systemctl ' + action + ' ' + service
+            else:
+                service_command = 'service ' + service + ' ' + action
+        if 'freebsd' in operating_system:
+            service_command = 'service ' + service + ' ' + action
+        if operating_system == 'darwin':
+            service_command = 'brew services ' + action + ' ' + service 
+
+        subprocess.run(service_command, shell=True)
+
+
+
+
+def main():
+    operating_system = check_os()
+    global linux
+    if operating_system == 'linux':
+        linux = 'true'
+        operating_system = check_linux_distro()
+    else:
+        linux = 'false'
+
+    if operating_system == 'windows':
+        print('Windows not supported!')
+    else:
+        check_package_manager(operating_system)
+
+    if linux == 'true' or operating_system == 'darwin' or 'freebsd' in operating_system:
+        if args.command == 'packages':
+             if args.remove:
+                 action = 'uninstall'
+                 packages = args.remove
+             if args.install:
+                 action = 'install'
+                 packages = args.install
+             if args.upgrade: 
+                 action = 'upgrade'
+                 packages = args.upgrade
+
+             installed = 'false'
+             for package in packages:
+                 try:
+                     if apk_path:
+                         package_manage("apk", package, action)
+                         installed = 'true'
+                 except NameError:
+                     pass
+
+                 try:
+                     if apt_path:
+                         package_manage("apt", package, action)
+                         installed = 'true'
+                 except NameError:
+                     pass
+                 
+                 try:
+                     if dnf_path:
+                         package_manage("dnf", package, action)
+                         installed = 'true'
+                 except NameError:
+                     pass
+                 
+                 try:
+                     if pacman_path:
+                         package_manage("pacman", package, action)
+                         installed = 'true'
+                 except NameError:
+                     pass
+
+                 try:
+                     if pkg_path:
+                         package_manage("pkg", package, action)
+                         installed = 'true'
+                 except NameError:
+                     pass
+               
+                 try:
+                     if brew_path and installed == 'false':
+                         package_manage("brew", package, action)
+                         installed = 'true'
+                 except NameError:
+                     pass
+
+                 try:
+                     if nix_path and installed == 'false':
+                         package_manage("nix", package, action)
+                         installed = 'true'
+                 except NameError:
+                     pass
+
+                 installed = 'false'
+             
+        if args.command == 'services':
+            if args.stop:
+                service_manage(operating_system, args.stop, 'stop')
+            if args.start:
+                service_manage(operating_system, args.start, 'start')
+            if args.restart:
+                service_manage(operating_system, args.restart, 'restart')
+
+if __name__ == '__main__':
+    main()
