@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+stochman/__init__.py
+stochman.egg-info/PKG-INFO
+stochman.egg-info/SOURCES.txt
+stochman.egg-info/dependency_links.txt
+stochman.egg-info/requires.txt
+stochman.egg-info/top_level.txt
+tests/__init__.py

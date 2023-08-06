@@ -1,0 +1,20 @@
+Metadata-Version: 1.2
+Name: stochman
+Version: 0.1
+Summary: StochMan is a collection of elementary algorithms for computations on random manifolds
+Home-page: UNKNOWN
+Author: Nicki Skafte Detlefsen et al.
+Author-email: nsde@dtu.dk
+License: Apache-2.0
+Download-URL: https://github.com/CenterBioML/stochman/archive/0.1.0.zip
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Environment :: Console
+Classifier: Natural Language :: English
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.8
