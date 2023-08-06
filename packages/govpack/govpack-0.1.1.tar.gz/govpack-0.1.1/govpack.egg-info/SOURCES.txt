@@ -1,0 +1,9 @@
+README.md
+setup.py
+govpack/__init__.py
+govpack/create_var.py
+govpack.egg-info/PKG-INFO
+govpack.egg-info/SOURCES.txt
+govpack.egg-info/dependency_links.txt
+govpack.egg-info/requires.txt
+govpack.egg-info/top_level.txt
