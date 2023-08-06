@@ -1,0 +1,3 @@
+[console_scripts]
+poem-run = hiddenpoem.app_run:cli
+
