@@ -1,0 +1,1 @@
+(self.webpackChunk_deathbeds_wxyz_yaml=self.webpackChunk_deathbeds_wxyz_yaml||[]).push([[568],{139:(e,s,a)=>{"use strict";a.d(s,{A:()=>t,q:()=>u});const d=JSON.parse('{"u2":"@deathbeds/wxyz-yaml","i8":"0.5.0"}'),t=d.u2,u=d.i8},568:(e,s,a)=>{"use strict";a.r(s),a.d(s,{NAME:()=>d.A,VERSION:()=>d.q});var d=a(139)}}]);
