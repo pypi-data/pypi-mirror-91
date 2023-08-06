@@ -1,0 +1,57 @@
+Metadata-Version: 2.1
+Name: raw-pillow-opener
+Version: 0.1.0
+Summary: raw-pillow-opener is a simple raw image opener for Pillow base on rawpy.
+Home-page: https://github.com/samuelduann/raw-pillow-opener
+Author: Samuel Duann
+Author-email: adamgic@gmail.com
+License: MIT
+Download-URL: https://github.com/samuelduann/raw-pillow-opener/archive/v0.1.0.tar.gz
+Description: # raw-pillow-opener
+        
+        **raw-pillow-opener** is a *simple* camera raw opener for *Pillow* base on *rawpy* library.
+        
+        ## Installation
+        
+        You can install **raw-pillow-opener** from *PyPi*:
+        
+        `pip install raw-pillow-opener`
+        
+        or from GitHub:
+        
+        `pip install https://github.com/samuelduann/raw-pillow-opener/archive/master.zip`
+        
+        ## How to use
+        
+        ```
+        from PIL import Image
+        
+        from raw_pillow_opener import register_raw_opener
+        
+        register_raw_opener()
+        
+        image = Image.open('TEST.NEF')
+        image.load()
+        ```
+        
+        ---
+        
+        
+        ## License
+        
+        Released under [MIT License](https://github.com/samuelduann/raw-pillow-opener/blob/master/LICENSE).
+        
+Keywords: nef,raw,Pillow
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Topic :: Multimedia :: Graphics
+Description-Content-Type: text/markdown
