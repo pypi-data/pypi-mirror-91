@@ -1,0 +1,7 @@
+setup.py
+EdaFirstPhase/eda.py
+detect_outliers.egg-info/PKG-INFO
+detect_outliers.egg-info/SOURCES.txt
+detect_outliers.egg-info/dependency_links.txt
+detect_outliers.egg-info/not-zip-safe
+detect_outliers.egg-info/top_level.txt
