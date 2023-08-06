@@ -1,0 +1,4 @@
+vdms
+scikit-image
+image
+opencv-python
