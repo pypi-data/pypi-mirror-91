@@ -1,0 +1,46 @@
+# Viper
+A modern testing framework.
+
+## How to use it
+Viper was made for people of all types and expertise.
+To make a simple test, you can use the following code:
+```python
+from viper import Viper
+
+snake = Viper("Example Tests")
+
+def addition(a, b):
+    return a + b
+
+snake.test("check if addition function can solve 5 + 5", addition(5, 5), 10)
+
+snake.evaluate()
+```
+On running this, you should get:
+```markdown
+This is Viper, a modern testing framework, created by Aarush Gupta (https://aarushgupta.tk)
+Running tests for "Example Tests"
+Testing "check if addition function can solve 5 + 5"... Passed
+
+Ran 1 test(s) in 0.0004 seconds
+1/1 passed
+```
+And if we change the 10 to become something else like so:
+```python
+snake.test("check if addition function can solve 5 + 5", addition(5, 5), 7)
+```
+The output becomes:
+```markdown
+This is Viper, a modern testing framework, created by Aarush Gupta (https://aarushgupta.tk)
+Running tests for "Example Tests"
+Testing "check if addition function can solve 5 + 5"... Failed
+   Desired Output: "7" | Test Ouput: "10"
+
+Ran 1 test(s) in 0.0006 seconds
+0/1 passed
+```
+As one can see, the testing outputs are made so that it is simple, yet it is also informative
+
+## Copyrighted
+Copyright &copy; 2020-2021 Aarush Gupta\
+Please don't alter the code and call it your own. See the `LICENSE` file for more information.
