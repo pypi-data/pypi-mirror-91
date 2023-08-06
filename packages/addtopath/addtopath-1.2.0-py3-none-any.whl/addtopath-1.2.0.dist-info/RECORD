@@ -1,0 +1,10 @@
+addtopath/__init__.py,sha256=VPNQvkkHb0NdLP5tgpHA5nDFKibpkfpB6UWi28tMyqk,1223
+addtopath/__main__.py,sha256=rIlM2xQRraEEy_3ek5G9Egnva4cFBY6YRhlSaxWPHYU,1287
+addtopath/argparsing.py,sha256=yS9wGfQv_KjjHtWl3NnE_y4mXOqlPWzzFSuNe0i-bjc,2762
+addtopath/entrypoint.py,sha256=cpPKMExHR8OQTuL0XeSkAWysE6RcvMYUO9USwWbHLDs,9582
+addtopath-1.2.0.dist-info/LICENSE,sha256=DrSpz_bdxXgnv01R33Ya4_2gTO09qOMNl3qAVbT1RJM,1097
+addtopath-1.2.0.dist-info/METADATA,sha256=YW8gEIt0UB00NBmGc2pU9hWc79WImiX9SPSWdP0HYx4,2050
+addtopath-1.2.0.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+addtopath-1.2.0.dist-info/entry_points.txt,sha256=F6MlYZrjL8UORckeEjqR29GTBv0BxsW_V0JBsJ3LyxM,45
+addtopath-1.2.0.dist-info/top_level.txt,sha256=iUeRbRObRvuP1Ix_kCZI1UJeUDemRgVojiKPVV3u6V8,10
+addtopath-1.2.0.dist-info/RECORD,,
