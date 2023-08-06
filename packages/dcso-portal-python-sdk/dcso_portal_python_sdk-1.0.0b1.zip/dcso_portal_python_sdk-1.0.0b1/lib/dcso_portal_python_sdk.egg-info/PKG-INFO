@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: dcso-portal-python-sdk
+Version: 1.0.0b1
+Summary: DCSO Portal SDK
+Home-page: https://dcso.de
+Author: DCSO GmbH
+Author-email: portal-support@dcso.de
+License: MIT License
+Description: UNKNOWN
+Platform: Any
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Version Control :: Git
