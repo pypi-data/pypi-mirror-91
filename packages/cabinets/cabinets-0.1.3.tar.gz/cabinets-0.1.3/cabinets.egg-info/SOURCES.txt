@@ -1,0 +1,17 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+cabinets/__init__.py
+cabinets/cabinet.py
+cabinets/logger.py
+cabinets/parser.py
+cabinets.egg-info/PKG-INFO
+cabinets.egg-info/SOURCES.txt
+cabinets.egg-info/dependency_links.txt
+cabinets.egg-info/requires.txt
+cabinets.egg-info/top_level.txt
+cabinets/protocols/__init__.py
+cabinets/protocols/file.py
+cabinets/protocols/s3.py
+test/test_cabinet.py
