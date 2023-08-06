@@ -1,0 +1,19 @@
+Metadata-Version: 1.2
+Name: mljr
+Version: 0.5
+Summary: Modified Lydersen-Joback-Reid method
+Home-page: https://github.com/orlandoacevedo/mLJR
+Author: Orlando Acevedo
+Author-email: orlando.acevedo@miami.edu
+Maintainer: Xiang Zhong
+Maintainer-email: xxz385@miami.edu
+License: MIT
+Description: UNKNOWN
+Keywords: Modified Lydersen-Joback-Reid method
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: Topic :: Scientific/Engineering :: Chemistry
+Requires-Python: >=3.5
