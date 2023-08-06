@@ -1,0 +1,12 @@
+duplicate_images/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+duplicate_images/duplicate.py,sha256=mqFsB4vQBrqOL5e_lp0S2qfEB2iOkoSLDpg412FaYiY,3670
+duplicate_images/function_types.py,sha256=xC8pfIrc5ciY8HYWK884bBBfqjA4Xu53hxHjI4f0gTk,320
+duplicate_images/histogram.py,sha256=JuiH9Ff98Md1xPRO-aMy_oEi0E7UPdy6P8JqUUk1g_M,963
+duplicate_images/image_hash.py,sha256=uGs-mWIp7mdFTJUsVcpI9N9f88R0-0hX74ZF2fntlU4,797
+duplicate_images/image_wrapper.py,sha256=4nQesua1yZ8LIt4F-mOK9wi8m9485ZsBinyKhkzb5Ok,2676
+duplicate_images/methods.py,sha256=otbNwVzq1EQN1SVLfpqXf7Zl9KK24buAbnPCej95tp4,2710
+duplicate_images/parse_commandline.py,sha256=SApCynum3nXM8xExA8vYawDpjNMu9IaRXFJw5ojKNvA,1419
+duplicate_images-0.3.0.dist-info/entry_points.txt,sha256=-0HsS8M-iu6h0Nn35G6KINwycrhHvVrIzZmY_O78wJw,61
+duplicate_images-0.3.0.dist-info/WHEEL,sha256=HUejAL96bSDvQpUkCNKadL6Cm0IW6dzTOQCrETOEbeI,85
+duplicate_images-0.3.0.dist-info/METADATA,sha256=Y8mWm3A-y9QBNdNE_qnNtlV5R7Tr9UxgjcgoMVANRPE,4656
+duplicate_images-0.3.0.dist-info/RECORD,,
