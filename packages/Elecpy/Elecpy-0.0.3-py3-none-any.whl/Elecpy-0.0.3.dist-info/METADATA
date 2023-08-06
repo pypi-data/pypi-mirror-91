@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: Elecpy
+Version: 0.0.3
+Summary: Used for electric and magnetic simulation
+Home-page: UNKNOWN
+Author: Ai Qingyao
+Author-email: Aiqy2021@163.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Education
+Classifier: Topic :: Scientific/Engineering :: Physics
+Classifier: Topic :: Scientific/Engineering :: Electronic Design Automation (EDA)
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# Elecpy(Electric and magnetic calculation tools in python)
+Elecpy project is used for electric and magnetic simulation.
+
+It has multipurpose:	
+   *assist the students of electric engineering major and other similar majors to learn the courses.
+   *assist the teachers of electric engineering major and other similar majors to tearch the courses.
+   *assist the researchers solve paractical problems through simulation.
+
+
