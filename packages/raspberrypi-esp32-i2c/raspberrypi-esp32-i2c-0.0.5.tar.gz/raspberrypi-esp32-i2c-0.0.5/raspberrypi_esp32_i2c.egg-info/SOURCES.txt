@@ -1,0 +1,16 @@
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+Raspberry_Pi_Master_for_ESP32_I2C_SLAVE/__init__.py
+Raspberry_Pi_Master_for_ESP32_I2C_SLAVE/crc8.py
+Raspberry_Pi_Master_for_ESP32_I2C_SLAVE/packer.py
+Raspberry_Pi_Master_for_ESP32_I2C_SLAVE/unpacker.py
+raspberrypi_esp32_i2c.egg-info/PKG-INFO
+raspberrypi_esp32_i2c.egg-info/SOURCES.txt
+raspberrypi_esp32_i2c.egg-info/dependency_links.txt
+raspberrypi_esp32_i2c.egg-info/top_level.txt
+tests/__init__.py
+tests/test_Crc8.py
+tests/test_Packer.py
+tests/test_Unpacker.py
