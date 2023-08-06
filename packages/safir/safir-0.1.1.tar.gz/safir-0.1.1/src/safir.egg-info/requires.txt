@@ -1,0 +1,17 @@
+structlog
+aiohttp
+
+[:python_version < "3.8"]
+importlib_metadata
+
+[dev]
+pre-commit==2.9.3
+pytest==6.2.1
+coverage[toml]==5.3.1
+flake8==3.8.4
+mypy==0.790
+pytest-aiohttp==0.3.0
+documenteer<0.6,>=0.5
+lsst-sphinx-bootstrap-theme<0.3
+sphinx-prompt
+sphinx-automodapi==0.12
