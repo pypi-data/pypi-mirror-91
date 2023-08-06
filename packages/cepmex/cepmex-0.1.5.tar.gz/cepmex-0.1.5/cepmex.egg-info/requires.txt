@@ -1,0 +1,6 @@
+requests==2.25.0
+clabe==1.2.4
+lxml==4.6.2
+
+[:python_version < "3.7"]
+dataclasses>=0.6
