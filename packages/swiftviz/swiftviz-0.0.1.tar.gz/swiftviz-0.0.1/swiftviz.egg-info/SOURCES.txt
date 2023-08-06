@@ -1,0 +1,9 @@
+README.md
+setup.py
+swiftviz/__init__.py
+swiftviz/swiftviz.py
+swiftviz.egg-info/PKG-INFO
+swiftviz.egg-info/SOURCES.txt
+swiftviz.egg-info/dependency_links.txt
+swiftviz.egg-info/requires.txt
+swiftviz.egg-info/top_level.txt
