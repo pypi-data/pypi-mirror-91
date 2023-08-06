@@ -1,0 +1,14 @@
+patrowlhears4py/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+patrowlhears4py/api.py,sha256=ISqvOfJULlT7hES7fO3dOv-bZ6fP3T_z1rgrmHuQNQQ,19085
+patrowlhears4py/cli.py,sha256=0uV91gmA7uVOyPxAhcqJmwEikwcn28g2mJalstpPVi0,4266
+patrowlhears4py/exceptions.py,sha256=lyV-iIRAB6ugeynsOzH2Bra-XrCF0O__lB1AYwjT6H0,164
+patrowlhears4py/utils/__init__.py,sha256=3x5sRiXExvBRypXSi7AiuwT_-_p0AsoNUN6frF31lr8,2013
+patrowlhears4py/utils/pip.py,sha256=Nbyg9zkBumXJcWrhJC_33HYzdq-cl0OipkBi59h3HsY,799
+patrowlhears4py/utils/print.py,sha256=kYJWG_6nYmdNxUowbvJA3U1-2Qd6ODh3kff9x3q24y0,2077
+PatrowlHears4py-1.2.0.dist-info/LICENSE,sha256=hIahDEOTzuHCU5J2nd07LWwkLW7Hko4UFO__ffsvB-8,34523
+PatrowlHears4py-1.2.0.dist-info/METADATA,sha256=1LyhJ_jqhDtfTz4Iaj8S3p_gf6iXDKtH3EQzCNKEm-8,360
+PatrowlHears4py-1.2.0.dist-info/WHEEL,sha256=kGT74LWyRUZrL4VgLh6_g12IeVl_9u9ZVhadrgXZUEY,110
+PatrowlHears4py-1.2.0.dist-info/dependency_links.txt,sha256=axW1EPehQT58kz1CrZUd-KxGbPVjivNN49dEcCMAjDg,24
+PatrowlHears4py-1.2.0.dist-info/entry_points.txt,sha256=-U5k4FfPc-Wj7IwTxtm3jow6Qma8oAfm_FSsK5nano0,70
+PatrowlHears4py-1.2.0.dist-info/top_level.txt,sha256=8TBT1BoecQpGufREkjN8awDSYl8_tQFMTsAR1FhxHU8,16
+PatrowlHears4py-1.2.0.dist-info/RECORD,,
