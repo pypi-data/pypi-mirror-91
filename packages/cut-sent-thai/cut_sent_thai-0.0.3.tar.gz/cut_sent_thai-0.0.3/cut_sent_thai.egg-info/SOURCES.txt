@@ -1,0 +1,15 @@
+MANIFEST.in
+README.md
+setup.py
+cut_sent_thai/__init__.py
+cut_sent_thai/cut_sent_utils.py
+cut_sent_thai/cut_sentence.h5
+cut_sent_thai/main.py
+cut_sent_thai/stoi.pickle
+cut_sent_thai/stoi_pos.pickle
+cut_sent_thai.egg-info/PKG-INFO
+cut_sent_thai.egg-info/SOURCES.txt
+cut_sent_thai.egg-info/dependency_links.txt
+cut_sent_thai.egg-info/not-zip-safe
+cut_sent_thai.egg-info/requires.txt
+cut_sent_thai.egg-info/top_level.txt

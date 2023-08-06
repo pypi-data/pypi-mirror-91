@@ -1,0 +1,3 @@
+include cut_sent_thai/cut_sentence.h5
+include cut_sent_thai/stoi.pickle
+include cut_sent_thai/stoi_pos.pickle
