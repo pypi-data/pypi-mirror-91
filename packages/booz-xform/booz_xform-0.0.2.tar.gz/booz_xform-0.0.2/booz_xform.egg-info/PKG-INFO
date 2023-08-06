@@ -1,0 +1,12 @@
+Metadata-Version: 1.0
+Name: booz-xform
+Version: 0.0.2
+Summary: A test project using pybind11 and CMake
+Home-page: UNKNOWN
+Author: Matt Landreman
+Author-email: matt.landreman@gmail.com
+License: UNKNOWN
+Description: # booz_xform
+        
+        A python extension using C++ and Pybind11
+Platform: UNKNOWN
