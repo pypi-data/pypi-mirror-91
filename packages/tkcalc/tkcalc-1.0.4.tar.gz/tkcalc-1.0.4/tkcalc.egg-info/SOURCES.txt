@@ -1,0 +1,10 @@
+setup.py
+tkcalc/__init__.py
+tkcalc/__main__.py
+tkcalc/app.py
+tkcalc/main.py
+tkcalc/model.py
+tkcalc.egg-info/PKG-INFO
+tkcalc.egg-info/SOURCES.txt
+tkcalc.egg-info/dependency_links.txt
+tkcalc.egg-info/top_level.txt
