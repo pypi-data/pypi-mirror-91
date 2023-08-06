@@ -1,0 +1,7 @@
+README.md
+setup.py
+ruleify/__init__.py
+ruleify.egg-info/PKG-INFO
+ruleify.egg-info/SOURCES.txt
+ruleify.egg-info/dependency_links.txt
+ruleify.egg-info/top_level.txt
