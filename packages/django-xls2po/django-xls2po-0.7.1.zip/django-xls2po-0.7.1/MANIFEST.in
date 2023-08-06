@@ -1,0 +1,8 @@
+# django-xls2po
+# MANIFEST.in
+
+
+prune .github*
+prune tests*
+recursive-include xls2po *.po
+recursive-include xls2po *.mo
