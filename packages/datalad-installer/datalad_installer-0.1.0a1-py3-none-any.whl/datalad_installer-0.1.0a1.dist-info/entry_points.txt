@@ -1,0 +1,3 @@
+[console_scripts]
+datalad_installer = datalad_installer:main
+
