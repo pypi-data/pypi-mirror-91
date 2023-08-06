@@ -1,0 +1,12 @@
+README.rst
+setup.py
+reposherlock/__init__.py
+reposherlock/__main__.py
+reposherlock/client.py
+reposherlock/github.py
+reposherlock.egg-info/PKG-INFO
+reposherlock.egg-info/SOURCES.txt
+reposherlock.egg-info/dependency_links.txt
+reposherlock.egg-info/not-zip-safe
+reposherlock.egg-info/requires.txt
+reposherlock.egg-info/top_level.txt
