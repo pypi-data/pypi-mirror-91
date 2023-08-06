@@ -1,0 +1,9 @@
+README.md
+setup.py
+pypomodoro/__init__.py
+pypomodoro/main.py
+pypomodoro.egg-info/PKG-INFO
+pypomodoro.egg-info/SOURCES.txt
+pypomodoro.egg-info/dependency_links.txt
+pypomodoro.egg-info/entry_points.txt
+pypomodoro.egg-info/top_level.txt
