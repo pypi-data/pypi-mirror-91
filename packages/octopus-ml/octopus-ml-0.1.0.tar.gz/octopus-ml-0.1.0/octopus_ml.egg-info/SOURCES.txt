@@ -1,0 +1,11 @@
+README.md
+setup.py
+octopus-ml/__init__.py
+octopus-ml/misc.py
+octopus-ml/octopus_data.py
+octopus-ml/octopus_ml.py
+octopus_ml.egg-info/PKG-INFO
+octopus_ml.egg-info/SOURCES.txt
+octopus_ml.egg-info/dependency_links.txt
+octopus_ml.egg-info/requires.txt
+octopus_ml.egg-info/top_level.txt
