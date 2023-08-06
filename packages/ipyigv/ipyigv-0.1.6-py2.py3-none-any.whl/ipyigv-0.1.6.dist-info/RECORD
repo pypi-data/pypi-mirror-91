@@ -1,0 +1,14 @@
+ipyigv/__init__.py,sha256=lztwfsZOr5YU30WozhcBOPOE5aoO-KRGagyQUOWo5G4,1021
+ipyigv/_version.py,sha256=vCZLfS74Et08VL0raDUR8rPxv9nPex7-XznCi4H9IzU,222
+ipyigv/ipyigv.py,sha256=1Q1EmJXjnGUv1IQfPLE0gFAQ0XTRa5f3rfzU6qA6Ea0,4717
+ipyigv/options.py,sha256=HOmjbVE0uIZLjK36wPsgqEKOZZ3ufiJJYcu69aCkWdI,15645
+ipyigv/public_genomes.json,sha256=zStRcaRSgxji8pW0rRStpUIErTD8CLp44I5R66M54Ew,12431
+ipyigv/utils.py,sha256=MRy3Cdm_oIydNAc4s5C0HEsi6fZ-wjZOSYakxf1cPBQ,553
+ipyigv/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ipyigv/tests/test.py,sha256=UiOxx5L_ypEoYDfHY938HweWrz1jSZ3CsqgwTwSVTzs,14
+ipyigv-0.1.6.data/data/etc/jupyter/nbconfig/notebook.d/ipyigv.json,sha256=doWk84-i2vRRFjXig_wkEk27z3Ie1rgRUwgi0c7ESYQ,60
+ipyigv-0.1.6.dist-info/LICENSE,sha256=R30Fwsl9JI2CREiLQ4RyIpkbceYtMv0PJFjW2Hz8nZY,1525
+ipyigv-0.1.6.dist-info/METADATA,sha256=Y_1IHfeMlE-OHOApPc0K3wkF7wtj7eG92IcIETspYhU,1057
+ipyigv-0.1.6.dist-info/WHEEL,sha256=ADKeyaGyKF5DwBNE0sRE5pvW-bSkFMJfBuhzZ3rceP4,110
+ipyigv-0.1.6.dist-info/top_level.txt,sha256=w2LggprW3hlK2AefDM6vy0lgf3P1T49y8tjkhpYQtEA,7
+ipyigv-0.1.6.dist-info/RECORD,,
