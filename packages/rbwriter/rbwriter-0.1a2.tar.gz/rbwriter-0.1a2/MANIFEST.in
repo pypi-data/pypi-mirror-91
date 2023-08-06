@@ -1,0 +1,20 @@
+recursive-include rbwriter *.py
+recursive-include rbwriter/defines *.py
+recursive-include rbwriter/handlers *.py
+recursive-include rbwriter/models *.py
+
+recursive-include rbwriter/static *.css
+
+recursive-include rbwriter/templates *.html
+recursive-include rbwriter/templates/config *
+recursive-include rbwriter/templates/default *
+recursive-include rbwriter/templates/security *.html
+
+recursive-include scripts *
+
+include CODE_OF_CONDUCT.md CONTRIBUTING.md
+include README.md
+include LICENSE
+include requirements.txt
+
+exclude Dockerfile
