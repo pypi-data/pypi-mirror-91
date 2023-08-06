@@ -1,0 +1,4 @@
+Click>=7.0
+loguru
+flake8
+flake8-docstrings
