@@ -1,0 +1,11 @@
+README.md
+setup.py
+socketgame/__init__.py
+socketgame/base.py
+socketgame/client.py
+socketgame/connection.py
+socketgame/server.py
+socketgame.egg-info/PKG-INFO
+socketgame.egg-info/SOURCES.txt
+socketgame.egg-info/dependency_links.txt
+socketgame.egg-info/top_level.txt
