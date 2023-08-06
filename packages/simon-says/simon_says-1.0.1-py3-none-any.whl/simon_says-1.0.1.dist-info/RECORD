@@ -1,0 +1,17 @@
+simon_says/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+simon_says/ademco.py,sha256=uhfvMWRgEI4bkp-cPGp1oMQzQmX8Ny7BQvhkkY7e9FU,13463
+simon_says/app.py,sha256=d1OjcjxnArdqOp-PT2-gng5E68kQ0ElryqLMeA3ME4s,5591
+simon_says/client.py,sha256=WktrhdAw-g9Sgvnk6PEc5yLnofAX6FpstTF65HIhoyk,2803
+simon_says/config.py,sha256=PF0ZKU58keN-kq8cRaUTjX3eROdmAskBeVL_F6BGvEU,1657
+simon_says/control.py,sha256=riUTZYYSYV_FyT4pRBl47VegYgiEjEmqkxjSPZ8Jp7s,3909
+simon_says/events.py,sha256=1ilwE1VrJ9xEOiDDUlFX49fIM9mUyttqJEVxEVhfzh8,9302
+simon_says/helpers.py,sha256=TG7Rk4dZatk779ZddcLRF3h8NJoY3dv3eGpV1CXFKRE,593
+simon_says/log.py,sha256=tzGhqT-M7ngPxxcok8BAmHVU2teYogf4a_iN5PItGPM,766
+simon_says/sensors.py,sha256=EECv3mSwwnYCVMThFr-QvxwcKJjumgG0sauQDXmHxaY,2222
+simon_says/version.py,sha256=TOuoliPUTRfXVZqTV4_He5TNYNI5lWAfgpbUbdSpx34,47
+simon_says-1.0.1.data/scripts/simon_event_handler,sha256=utRNDAy2OdgskN3iuX7oW6sU7JF44sQe47ahHP8EL6U,1391
+simon_says-1.0.1.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+simon_says-1.0.1.dist-info/METADATA,sha256=Xu8VpNuG8i6UZwcQtq6LMGTRMF5ZH0bYNaAH7ftiae8,1003
+simon_says-1.0.1.dist-info/WHEEL,sha256=OqRkF0eY5GHssMorFjlbTIq072vpHpF60fIQA6lS9xA,92
+simon_says-1.0.1.dist-info/top_level.txt,sha256=Utc6dVjOOHYowE1NvejX_CdTTF0E1T2zW60p9JDPX3I,11
+simon_says-1.0.1.dist-info/RECORD,,
